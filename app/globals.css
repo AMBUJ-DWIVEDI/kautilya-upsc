@@ -1,0 +1,117 @@
+@import "tailwindcss";
+
+/* ── KAUTILYA UPSC Design System — "Civilizational Calm" ──
+   A scholar's study, not a war room. Reading comfort beats adrenaline. */
+
+@theme inline {
+  /* Brand palette */
+  --color-parchment: #F7F4ED;   /* primary reading surface */
+  --color-ivory:     #FCFAF5;   /* cards */
+  --color-slate900:  #1F2933;   /* primary text */
+  --color-indigo:    #27364B;   /* headers, nav, depth */
+  --color-copper:    #B0763B;   /* accents, seals, CTAs */
+  --color-copperlight: #C98F54; /* hover state for copper */
+  --color-sage:      #5E6E5E;   /* success / progress */
+  --color-clay:      #9C4A3C;   /* warnings / wrong answers — never harsh red */
+  --color-inkdim:    #5B6470;   /* secondary text */
+  --color-linen:     #E5DFD2;   /* hairline borders on parchment */
+
+  /* KAUTILYA-DECISION: legacy chanakya-* tokens are aliased onto the calm palette so
+     every ported surface inherits the new theme; remove aliases as files are rewritten. */
+  --color-chanakya-bg:        #F7F4ED;
+  --color-chanakya-bg-card:   #FCFAF5;
+  --color-chanakya-gold:      #B0763B;
+  --color-chanakya-gold-light:#C98F54;
+  --color-chanakya-saffron:   #B0763B;
+  --color-chanakya-copper:    #B0763B;
+  --color-chanakya-green:     #5E6E5E;
+  --color-chanakya-amber:     #B0763B;
+  --color-chanakya-red:       #9C4A3C;
+  --color-chanakya-blue:      #27364B;
+  --color-chanakya-muted:     #C9C2B4;
+  --color-chanakya-text:      #1F2933;
+  --color-chanakya-text-dim:  #5B6470;
+
+  /* Fonts */
+  --font-cinzel: var(--font-cinzel);          /* ceremony only */
+  --font-serif:  var(--font-source-serif);    /* long-form reading */
+  --font-sans:   var(--font-inter);           /* UI */
+  --font-mono:   var(--font-jetbrains);
+}
+
+/* Base */
+html {
+  background-color: #F7F4ED;
+  color: #1F2933;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  background-color: #F7F4ED;
+  color: #1F2933;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Cinzel — ceremony moments only (archetype reveal, weekly review header, the Seal) */
+.heading-cinzel {
+  font-family: var(--font-cinzel), Georgia, serif;
+  letter-spacing: 0.04em;
+}
+
+/* Long-form reading surface: 17px serif, generous line-height */
+.note-surface {
+  font-family: var(--font-source-serif), Georgia, serif;
+  font-size: 17px;
+  line-height: 1.75;
+  color: #1F2933;
+}
+
+/* Card surfaces — ivory on parchment, hairline linen border */
+.card-calm,
+.card-dark { /* legacy alias; restyled calm */
+  background-color: #FCFAF5;
+  border: 1px solid #E5DFD2;
+  border-radius: 12px;
+}
+
+/* Copper accent border — replaces the old gold glow; no glow, just a seal-line */
+.copper-border,
+.gold-border { /* legacy alias */
+  border: 1px solid rgba(176, 118, 59, 0.45);
+  box-shadow: 0 1px 2px rgba(31, 41, 51, 0.06);
+}
+
+/* Copper gradient text for rare ceremonial headings */
+.text-gold-gradient,
+.text-copper-gradient {
+  background: linear-gradient(135deg, #C98F54 0%, #B0763B 60%, #8F5E2E 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Ink underline — paper/ink metaphor for emphasis */
+.ink-underline {
+  background-image: linear-gradient(transparent 70%, rgba(176, 118, 59, 0.28) 70%);
+}
+
+/* Weakness bar states — calm variants */
+.weakness-critical { background-color: #9C4A3C; }
+.weakness-warning  { background-color: #B0763B; }
+.weakness-repaired { background-color: #5E6E5E; }
+
+/* Slow, deliberate motion defaults: 300–500ms eases, no pulsing, no shake */
+.transition-calm {
+  transition-property: color, background-color, border-color, opacity, transform;
+  transition-duration: 350ms;
+  transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 4px; }
+::-webkit-scrollbar-track { background: #F7F4ED; }
+::-webkit-scrollbar-thumb { background: #C9C2B4; border-radius: 2px; }
+::-webkit-scrollbar-thumb:hover { background: #B0763B; }

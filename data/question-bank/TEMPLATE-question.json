@@ -1,0 +1,78 @@
+{
+  "_instructions": {
+    "purpose": "Template for one UPSC Prelims GS question. Feed this + paper briefing to the content factory to generate 100 questions per paper.",
+    "subject_split": "Polity 18 | History 16 | Geography 14 | Economy 14 | Environment 14 | SciTech 10 | CurrentAffairs 14 — UPSC Prelims weightage, tune per paper.",
+    "scoring": "From APP.exam.prelimsGS — +2 correct | -0.66 wrong | 0 blank | Max 200. NEVER hardcode in content.",
+    "id_format": "P{paper:02d}-{subject_code}-{num:03d} → e.g. P01-POL-001",
+    "subject_codes": { "Polity": "POL", "History": "HIS", "Geography": "GEO", "Economy": "ECO", "Environment": "ENV", "SciTech": "SCI", "CurrentAffairs": "CA" },
+    "formats": {
+      "single": "Classic single-correct. No statements array.",
+      "statements_count": "2-4 statements in the statements array; options are counts ('Only one', 'Only two', ...) or combinations ('1 and 2 only').",
+      "match_pairs": "statements array holds 'List-I : List-II' rows; options are combination counts.",
+      "assertion_reason": "statements[0] = Assertion, statements[1] = Reason; options are the standard four A/R verdicts."
+    },
+    "field_rules": {
+      "question_id": "Follow id_format. MUST be unique across all papers.",
+      "num": "1-100 absolute number within the paper.",
+      "subject": "Polity | History | Geography | Economy | Environment | SciTech | CurrentAffairs (exact string)",
+      "topic": "Broad topic — e.g. 'Fundamental Rights', 'Modern History', 'Monetary Policy'",
+      "subtopic": "Specific sub-type — e.g. 'Article 21 jurisprudence', 'Market reforms of Khaljis'",
+      "format": "single | statements_count | match_pairs | assertion_reason",
+      "statements": "Required for non-single formats. Omit for single.",
+      "difficulty": "Easy | Medium | Hard. Target mix: ~30% Easy, 45% Medium, 25% Hard",
+      "expected_time_sec": "Realistic seconds for an aspirant near the cutoff. Easy=40-60s, Medium=60-90s, Hard=80-120s",
+      "text": "The question stem. For statement formats, the lead-in line ('Consider the following statements:').",
+      "options": "Keys A B C D. All plausible — UPSC distractors are designed, not filler.",
+      "answer": "Single letter: A | B | C | D. NEVER sent to the client.",
+      "explanation": "2-4 sentences. WHY correct AND why the most tempting wrong option fails.",
+      "elimination_path": "THE UPSC DNA FIELD. Narrate how a smart guesser gets this right WITHOUT full knowledge — extreme-word elimination ('only', 'all', 'never'), pair logic in match questions, statement-couple logic. If genuinely not eliminable, write 'NONE' — analytics skip it.",
+      "diagnoses": "2-4 strings. Weak-topic + technique tags — e.g. ['fundamental_rights', 'statement_trap', 'extreme_word_elimination']"
+    },
+    "quality_rules": [
+      "UPSC Prelims GS level — conceptual, multi-statement, current-linked. Not state-PSC recall.",
+      "All 4 options plausible; the trap option must be the one a half-prepared aspirant picks.",
+      "elimination_path is mandatory thinking: at least ~40% of a paper should be solvable by technique.",
+      "Questions must be original — paraphrase PYQ patterns, never lift verbatim.",
+      "No question repeats a concept already covered earlier in the same paper."
+    ]
+  },
+
+  "_example_completed": {
+    "question_id": "P01-POL-001",
+    "num": 1,
+    "subject": "Polity",
+    "topic": "Fundamental Rights",
+    "subtopic": "Availability to non-citizens",
+    "format": "statements_count",
+    "statements": [
+      "The right to life under Article 21 is available to foreigners in India.",
+      "The freedoms under Article 19 are available only to citizens.",
+      "The right to property is a fundamental right under Part III."
+    ],
+    "difficulty": "Medium",
+    "expected_time_sec": 75,
+    "text": "Consider the following statements: How many of the above statements are correct?",
+    "options": { "A": "Only one", "B": "Only two", "C": "All three", "D": "None" },
+    "answer": "B",
+    "explanation": "Article 21 protects 'persons', so it extends to foreigners; Article 19 is expressly limited to citizens. The right to property was removed from Part III by the 44th Amendment (1978) and survives only as a constitutional right under Article 300A — so statement 3 is wrong.",
+    "elimination_path": "If you remember only the 44th Amendment headline — property is no longer a fundamental right — statement 3 dies instantly, which kills option C. Between 'Only one' and 'Only two', the 'persons vs citizens' wording of Articles 21 and 19 is the classic statement-pair UPSC tests; both are standard, so 'Only two'.",
+    "diagnoses": ["fundamental_rights", "statement_trap", "44th_amendment"]
+  },
+
+  "_blank_template": {
+    "question_id": "",
+    "num": 0,
+    "subject": "",
+    "topic": "",
+    "subtopic": "",
+    "format": "single",
+    "difficulty": "",
+    "expected_time_sec": 60,
+    "text": "",
+    "options": { "A": "", "B": "", "C": "", "D": "" },
+    "answer": "",
+    "explanation": "",
+    "elimination_path": "",
+    "diagnoses": []
+  }
+}

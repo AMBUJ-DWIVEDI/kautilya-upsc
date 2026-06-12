@@ -1,0 +1,2831 @@
+{
+  "paper": 1,
+  "title": "Paper 1 — Baseline GS",
+  "questions": [
+    {
+      "question_id": "P01-POL-001",
+      "num": 1,
+      "subject": "Polity",
+      "topic": "Fundamental Rights",
+      "subtopic": "Fundamental Rights — drill variant 1",
+      "format": "statements_count",
+      "statements": [
+        "Statement 1: Fundamental Rights has a direct constitutional or policy anchor relevant to UPSC Prelims.",
+        "Statement 2: A common trap in Polity questions is confusing Fundamental Rights with an adjacent concept.",
+        "Statement 3: The 'only / all / never' extreme in distractors often signals a false statement in Fundamental Rights."
+      ],
+      "difficulty": "Medium",
+      "expected_time_sec": 75,
+      "text": "Consider the following statements: How many of the above statements are correct?",
+      "options": {
+        "A": "Only one",
+        "B": "Only two",
+        "C": "All three",
+        "D": "None"
+      },
+      "answer": "B",
+      "explanation": "Option B is correct for Fundamental Rights. Option A is the classic trap — it sounds authoritative but collapses on a single definitional mismatch UPSC examiners design into Polity items.",
+      "elimination_path": "Eliminate options with absolute words ('only', 'all', 'never') first — UPSC rarely rewards universals in Polity. Between the survivors, the pair-logic in statement 2 vs 3 usually leaves B as the only internally consistent choice.",
+      "diagnoses": [
+        "fundamental_rights",
+        "polity",
+        "baseline_seed"
+      ]
+    },
+    {
+      "question_id": "P01-POL-002",
+      "num": 2,
+      "subject": "Polity",
+      "topic": "DPSP",
+      "subtopic": "DPSP — drill variant 2",
+      "format": "assertion_reason",
+      "statements": [
+        "Assertion (A): DPSP is directly linked to a constitutional or statutory provision tested in Prelims.",
+        "Reason (R): The linkage is established through a landmark judgment or committee report on DPSP."
+      ],
+      "difficulty": "Medium",
+      "expected_time_sec": 75,
+      "text": "In the context of the following, consider Assertion (A) and Reason (R):",
+      "options": {
+        "A": "Both A and R are correct and R is the correct explanation of A",
+        "B": "Both A and R are correct but R is NOT the correct explanation of A",
+        "C": "A is correct but R is incorrect",
+        "D": "A is incorrect but R is correct"
+      },
+      "answer": "C",
+      "explanation": "Option C is correct for DPSP. Option A is the classic trap — it sounds authoritative but collapses on a single definitional mismatch UPSC examiners design into Polity items.",
+      "elimination_path": "Eliminate options with absolute words ('only', 'all', 'never') first — UPSC rarely rewards universals in Polity. Between the survivors, the pair-logic in statement 2 vs 3 usually leaves C as the only internally consistent choice.",
+      "diagnoses": [
+        "dpsp",
+        "polity",
+        "baseline_seed"
+      ]
+    },
+    {
+      "question_id": "P01-POL-003",
+      "num": 3,
+      "subject": "Polity",
+      "topic": "Parliament",
+      "subtopic": "Parliament — drill variant 3",
+      "format": "match_pairs",
+      "statements": [
+        "List-I (Concept) — 1. Parliament A  2. Parliament B  3. Parliament C",
+        "List-II (Feature) — 1. Feature X  2. Feature Y  3. Feature Z"
+      ],
+      "difficulty": "Easy",
+      "expected_time_sec": 50,
+      "text": "Consider the following pairs (List-I and List-II): How many pairs are correctly matched?",
+      "options": {
+        "A": "Only one",
+        "B": "Only two",
+        "C": "All three",
+        "D": "None"
+      },
+      "answer": "D",
+      "explanation": "Option D is correct for Parliament. Option A is the classic trap — it sounds authoritative but collapses on a single definitional mismatch UPSC examiners design into Polity items.",
+      "elimination_path": "Eliminate options with absolute words ('only', 'all', 'never') first — UPSC rarely rewards universals in Polity. Between the survivors, the pair-logic in statement 2 vs 3 usually leaves D as the only internally consistent choice.",
+      "diagnoses": [
+        "parliament",
+        "polity",
+        "baseline_seed"
+      ]
+    },
+    {
+      "question_id": "P01-POL-004",
+      "num": 4,
+      "subject": "Polity",
+      "topic": "Judiciary",
+      "subtopic": "Judiciary — drill variant 4",
+      "format": "single",
+      "difficulty": "Medium",
+      "expected_time_sec": 75,
+      "text": "With reference to Judiciary in Polity, which of the following is most accurate?",
+      "options": {
+        "A": "Judiciary: the provision applies universally without exception",
+        "B": "Judiciary: the correct position is narrower than the universal claim",
+        "C": "Judiciary: the concept is purely statutory, not constitutional",
+        "D": "Judiciary: the concept was abolished after a constitutional amendment"
+      },
+      "answer": "A",
+      "explanation": "Option A is correct for Judiciary. Option B is the classic trap — it sounds authoritative but collapses on a single definitional mismatch UPSC examiners design into Polity items.",
+      "elimination_path": "Eliminate options with absolute words ('only', 'all', 'never') first — UPSC rarely rewards universals in Polity. Between the survivors, the pair-logic in statement 2 vs 3 usually leaves A as the only internally consistent choice.",
+      "diagnoses": [
+        "judiciary",
+        "polity",
+        "baseline_seed"
+      ]
+    },
+    {
+      "question_id": "P01-POL-005",
+      "num": 5,
+      "subject": "Polity",
+      "topic": "Federalism",
+      "subtopic": "Federalism — drill variant 5",
+      "format": "statements_count",
+      "statements": [
+        "Statement 1: Federalism has a direct constitutional or policy anchor relevant to UPSC Prelims.",
+        "Statement 2: A common trap in Polity questions is confusing Federalism with an adjacent concept.",
+        "Statement 3: The 'only / all / never' extreme in distractors often signals a false statement in Federalism."
+      ],
+      "difficulty": "Hard",
+      "expected_time_sec": 100,
+      "text": "Consider the following statements: How many of the above statements are correct?",
+      "options": {
+        "A": "Only one",
+        "B": "Only two",
+        "C": "All three",
+        "D": "None"
+      },
+      "answer": "B",
+      "explanation": "Option B is correct for Federalism. Option A is the classic trap — it sounds authoritative but collapses on a single definitional mismatch UPSC examiners design into Polity items.",
+      "elimination_path": "Eliminate options with absolute words ('only', 'all', 'never') first — UPSC rarely rewards universals in Polity. Between the survivors, the pair-logic in statement 2 vs 3 usually leaves B as the only internally consistent choice.",
+      "diagnoses": [
+        "federalism",
+        "polity",
+        "baseline_seed"
+      ]
+    },
+    {
+      "question_id": "P01-POL-006",
+      "num": 6,
+      "subject": "Polity",
+      "topic": "Constitutional Amendments",
+      "subtopic": "Constitutional Amendments — drill variant 6",
+      "format": "assertion_reason",
+      "statements": [
+        "Assertion (A): Constitutional Amendments is directly linked to a constitutional or statutory provision tested in Prelims.",
+        "Reason (R): The linkage is established through a landmark judgment or committee report on Constitutional Amendments."
+      ],
+      "difficulty": "Easy",
+      "expected_time_sec": 50,
+      "text": "In the context of the following, consider Assertion (A) and Reason (R):",
+      "options": {
+        "A": "Both A and R are correct and R is the correct explanation of A",
+        "B": "Both A and R are correct but R is NOT the correct explanation of A",
+        "C": "A is correct but R is incorrect",
+        "D": "A is incorrect but R is correct"
+      },
+      "answer": "C",
+      "explanation": "Option C is correct for Constitutional Amendments. Option A is the classic trap — it sounds authoritative but collapses on a single definitional mismatch UPSC examiners design into Polity items.",
+      "elimination_path": "Eliminate options with absolute words ('only', 'all', 'never') first — UPSC rarely rewards universals in Polity. Between the survivors, the pair-logic in statement 2 vs 3 usually leaves C as the only internally consistent choice.",
+      "diagnoses": [
+        "constitutional_amendments",
+        "polity",
+        "baseline_seed"
+      ]
+    },
+    {
+      "question_id": "P01-POL-007",
+      "num": 7,
+      "subject": "Polity",
+      "topic": "Fundamental Rights",
+      "subtopic": "Fundamental Rights — drill variant 7",
+      "format": "match_pairs",
+      "statements": [
+        "List-I (Concept) — 1. Fundamental Rights A  2. Fundamental Rights B  3. Fundamental Rights C",
+        "List-II (Feature) — 1. Feature X  2. Feature Y  3. Feature Z"
+      ],
+      "difficulty": "Medium",
+      "expected_time_sec": 75,
+      "text": "Consider the following pairs (List-I and List-II): How many pairs are correctly matched?",
+      "options": {
+        "A": "Only one",
+        "B": "Only two",
+        "C": "All three",
+        "D": "None"
+      },
+      "answer": "D",
+      "explanation": "Option D is correct for Fundamental Rights. Option A is the classic trap — it sounds authoritative but collapses on a single definitional mismatch UPSC examiners design into Polity items.",
+      "elimination_path": "NONE",
+      "diagnoses": [
+        "fundamental_rights",
+        "polity",
+        "baseline_seed"
+      ]
+    },
+    {
+      "question_id": "P01-POL-008",
+      "num": 8,
+      "subject": "Polity",
+      "topic": "DPSP",
+      "subtopic": "DPSP — drill variant 8",
+      "format": "single",
+      "difficulty": "Medium",
+      "expected_time_sec": 75,
+      "text": "With reference to DPSP in Polity, which of the following is most accurate?",
+      "options": {
+        "A": "DPSP: the provision applies universally without exception",
+        "B": "DPSP: the correct position is narrower than the universal claim",
+        "C": "DPSP: the concept is purely statutory, not constitutional",
+        "D": "DPSP: the concept was abolished after a constitutional amendment"
+      },
+      "answer": "A",
+      "explanation": "Option A is correct for DPSP. Option B is the classic trap — it sounds authoritative but collapses on a single definitional mismatch UPSC examiners design into Polity items.",
+      "elimination_path": "Eliminate options with absolute words ('only', 'all', 'never') first — UPSC rarely rewards universals in Polity. Between the survivors, the pair-logic in statement 2 vs 3 usually leaves A as the only internally consistent choice.",
+      "diagnoses": [
+        "dpsp",
+        "polity",
+        "baseline_seed"
+      ]
+    },
+    {
+      "question_id": "P01-POL-009",
+      "num": 9,
+      "subject": "Polity",
+      "topic": "Parliament",
+      "subtopic": "Parliament — drill variant 9",
+      "format": "statements_count",
+      "statements": [
+        "Statement 1: Parliament has a direct constitutional or policy anchor relevant to UPSC Prelims.",
+        "Statement 2: A common trap in Polity questions is confusing Parliament with an adjacent concept.",
+        "Statement 3: The 'only / all / never' extreme in distractors often signals a false statement in Parliament."
+      ],
+      "difficulty": "Easy",
+      "expected_time_sec": 50,
+      "text": "Consider the following statements: How many of the above statements are correct?",
+      "options": {
+        "A": "Only one",
+        "B": "Only two",
+        "C": "All three",
+        "D": "None"
+      },
+      "answer": "B",
+      "explanation": "Option B is correct for Parliament. Option A is the classic trap — it sounds authoritative but collapses on a single definitional mismatch UPSC examiners design into Polity items.",
+      "elimination_path": "Eliminate options with absolute words ('only', 'all', 'never') first — UPSC rarely rewards universals in Polity. Between the survivors, the pair-logic in statement 2 vs 3 usually leaves B as the only internally consistent choice.",
+      "diagnoses": [
+        "parliament",
+        "polity",
+        "baseline_seed"
+      ]
+    },
+    {
+      "question_id": "P01-POL-010",
+      "num": 10,
+      "subject": "Polity",
+      "topic": "Judiciary",
+      "subtopic": "Judiciary — drill variant 10",
+      "format": "assertion_reason",
+      "statements": [
+        "Assertion (A): Judiciary is directly linked to a constitutional or statutory provision tested in Prelims.",
+        "Reason (R): The linkage is established through a landmark judgment or committee report on Judiciary."
+      ],
+      "difficulty": "Hard",
+      "expected_time_sec": 100,
+      "text": "In the context of the following, consider Assertion (A) and Reason (R):",
+      "options": {
+        "A": "Both A and R are correct and R is the correct explanation of A",
+        "B": "Both A and R are correct but R is NOT the correct explanation of A",
+        "C": "A is correct but R is incorrect",
+        "D": "A is incorrect but R is correct"
+      },
+      "answer": "C",
+      "explanation": "Option C is correct for Judiciary. Option A is the classic trap — it sounds authoritative but collapses on a single definitional mismatch UPSC examiners design into Polity items.",
+      "elimination_path": "Eliminate options with absolute words ('only', 'all', 'never') first — UPSC rarely rewards universals in Polity. Between the survivors, the pair-logic in statement 2 vs 3 usually leaves C as the only internally consistent choice.",
+      "diagnoses": [
+        "judiciary",
+        "polity",
+        "baseline_seed"
+      ]
+    },
+    {
+      "question_id": "P01-POL-011",
+      "num": 11,
+      "subject": "Polity",
+      "topic": "Federalism",
+      "subtopic": "Federalism — drill variant 11",
+      "format": "match_pairs",
+      "statements": [
+        "List-I (Concept) — 1. Federalism A  2. Federalism B  3. Federalism C",
+        "List-II (Feature) — 1. Feature X  2. Feature Y  3. Feature Z"
+      ],
+      "difficulty": "Medium",
+      "expected_time_sec": 75,
+      "text": "Consider the following pairs (List-I and List-II): How many pairs are correctly matched?",
+      "options": {
+        "A": "Only one",
+        "B": "Only two",
+        "C": "All three",
+        "D": "None"
+      },
+      "answer": "D",
+      "explanation": "Option D is correct for Federalism. Option A is the classic trap — it sounds authoritative but collapses on a single definitional mismatch UPSC examiners design into Polity items.",
+      "elimination_path": "Eliminate options with absolute words ('only', 'all', 'never') first — UPSC rarely rewards universals in Polity. Between the survivors, the pair-logic in statement 2 vs 3 usually leaves D as the only internally consistent choice.",
+      "diagnoses": [
+        "federalism",
+        "polity",
+        "baseline_seed"
+      ]
+    },
+    {
+      "question_id": "P01-POL-012",
+      "num": 12,
+      "subject": "Polity",
+      "topic": "Constitutional Amendments",
+      "subtopic": "Constitutional Amendments — drill variant 12",
+      "format": "single",
+      "difficulty": "Easy",
+      "expected_time_sec": 50,
+      "text": "With reference to Constitutional Amendments in Polity, which of the following is most accurate?",
+      "options": {
+        "A": "Constitutional Amendments: the provision applies universally without exception",
+        "B": "Constitutional Amendments: the correct position is narrower than the universal claim",
+        "C": "Constitutional Amendments: the concept is purely statutory, not constitutional",
+        "D": "Constitutional Amendments: the concept was abolished after a constitutional amendment"
+      },
+      "answer": "A",
+      "explanation": "Option A is correct for Constitutional Amendments. Option B is the classic trap — it sounds authoritative but collapses on a single definitional mismatch UPSC examiners design into Polity items.",
+      "elimination_path": "Eliminate options with absolute words ('only', 'all', 'never') first — UPSC rarely rewards universals in Polity. Between the survivors, the pair-logic in statement 2 vs 3 usually leaves A as the only internally consistent choice.",
+      "diagnoses": [
+        "constitutional_amendments",
+        "polity",
+        "baseline_seed"
+      ]
+    },
+    {
+      "question_id": "P01-POL-013",
+      "num": 13,
+      "subject": "Polity",
+      "topic": "Fundamental Rights",
+      "subtopic": "Fundamental Rights — drill variant 13",
+      "format": "statements_count",
+      "statements": [
+        "Statement 1: Fundamental Rights has a direct constitutional or policy anchor relevant to UPSC Prelims.",
+        "Statement 2: A common trap in Polity questions is confusing Fundamental Rights with an adjacent concept.",
+        "Statement 3: The 'only / all / never' extreme in distractors often signals a false statement in Fundamental Rights."
+      ],
+      "difficulty": "Medium",
+      "expected_time_sec": 75,
+      "text": "Consider the following statements: How many of the above statements are correct?",
+      "options": {
+        "A": "Only one",
+        "B": "Only two",
+        "C": "All three",
+        "D": "None"
+      },
+      "answer": "B",
+      "explanation": "Option B is correct for Fundamental Rights. Option A is the classic trap — it sounds authoritative but collapses on a single definitional mismatch UPSC examiners design into Polity items.",
+      "elimination_path": "Eliminate options with absolute words ('only', 'all', 'never') first — UPSC rarely rewards universals in Polity. Between the survivors, the pair-logic in statement 2 vs 3 usually leaves B as the only internally consistent choice.",
+      "diagnoses": [
+        "fundamental_rights",
+        "polity",
+        "baseline_seed"
+      ]
+    },
+    {
+      "question_id": "P01-POL-014",
+      "num": 14,
+      "subject": "Polity",
+      "topic": "DPSP",
+      "subtopic": "DPSP — drill variant 14",
+      "format": "assertion_reason",
+      "statements": [
+        "Assertion (A): DPSP is directly linked to a constitutional or statutory provision tested in Prelims.",
+        "Reason (R): The linkage is established through a landmark judgment or committee report on DPSP."
+      ],
+      "difficulty": "Medium",
+      "expected_time_sec": 75,
+      "text": "In the context of the following, consider Assertion (A) and Reason (R):",
+      "options": {
+        "A": "Both A and R are correct and R is the correct explanation of A",
+        "B": "Both A and R are correct but R is NOT the correct explanation of A",
+        "C": "A is correct but R is incorrect",
+        "D": "A is incorrect but R is correct"
+      },
+      "answer": "C",
+      "explanation": "Option C is correct for DPSP. Option A is the classic trap — it sounds authoritative but collapses on a single definitional mismatch UPSC examiners design into Polity items.",
+      "elimination_path": "NONE",
+      "diagnoses": [
+        "dpsp",
+        "polity",
+        "baseline_seed"
+      ]
+    },
+    {
+      "question_id": "P01-POL-015",
+      "num": 15,
+      "subject": "Polity",
+      "topic": "Parliament",
+      "subtopic": "Parliament — drill variant 15",
+      "format": "match_pairs",
+      "statements": [
+        "List-I (Concept) — 1. Parliament A  2. Parliament B  3. Parliament C",
+        "List-II (Feature) — 1. Feature X  2. Feature Y  3. Feature Z"
+      ],
+      "difficulty": "Hard",
+      "expected_time_sec": 100,
+      "text": "Consider the following pairs (List-I and List-II): How many pairs are correctly matched?",
+      "options": {
+        "A": "Only one",
+        "B": "Only two",
+        "C": "All three",
+        "D": "None"
+      },
+      "answer": "D",
+      "explanation": "Option D is correct for Parliament. Option A is the classic trap — it sounds authoritative but collapses on a single definitional mismatch UPSC examiners design into Polity items.",
+      "elimination_path": "Eliminate options with absolute words ('only', 'all', 'never') first — UPSC rarely rewards universals in Polity. Between the survivors, the pair-logic in statement 2 vs 3 usually leaves D as the only internally consistent choice.",
+      "diagnoses": [
+        "parliament",
+        "polity",
+        "baseline_seed"
+      ]
+    },
+    {
+      "question_id": "P01-POL-016",
+      "num": 16,
+      "subject": "Polity",
+      "topic": "Judiciary",
+      "subtopic": "Judiciary — drill variant 16",
+      "format": "single",
+      "difficulty": "Medium",
+      "expected_time_sec": 75,
+      "text": "With reference to Judiciary in Polity, which of the following is most accurate?",
+      "options": {
+        "A": "Judiciary: the provision applies universally without exception",
+        "B": "Judiciary: the correct position is narrower than the universal claim",
+        "C": "Judiciary: the concept is purely statutory, not constitutional",
+        "D": "Judiciary: the concept was abolished after a constitutional amendment"
+      },
+      "answer": "A",
+      "explanation": "Option A is correct for Judiciary. Option B is the classic trap — it sounds authoritative but collapses on a single definitional mismatch UPSC examiners design into Polity items.",
+      "elimination_path": "Eliminate options with absolute words ('only', 'all', 'never') first — UPSC rarely rewards universals in Polity. Between the survivors, the pair-logic in statement 2 vs 3 usually leaves A as the only internally consistent choice.",
+      "diagnoses": [
+        "judiciary",
+        "polity",
+        "baseline_seed"
+      ]
+    },
+    {
+      "question_id": "P01-POL-017",
+      "num": 17,
+      "subject": "Polity",
+      "topic": "Federalism",
+      "subtopic": "Federalism — drill variant 17",
+      "format": "statements_count",
+      "statements": [
+        "Statement 1: Federalism has a direct constitutional or policy anchor relevant to UPSC Prelims.",
+        "Statement 2: A common trap in Polity questions is confusing Federalism with an adjacent concept.",
+        "Statement 3: The 'only / all / never' extreme in distractors often signals a false statement in Federalism."
+      ],
+      "difficulty": "Medium",
+      "expected_time_sec": 75,
+      "text": "Consider the following statements: How many of the above statements are correct?",
+      "options": {
+        "A": "Only one",
+        "B": "Only two",
+        "C": "All three",
+        "D": "None"
+      },
+      "answer": "B",
+      "explanation": "Option B is correct for Federalism. Option A is the classic trap — it sounds authoritative but collapses on a single definitional mismatch UPSC examiners design into Polity items.",
+      "elimination_path": "Eliminate options with absolute words ('only', 'all', 'never') first — UPSC rarely rewards universals in Polity. Between the survivors, the pair-logic in statement 2 vs 3 usually leaves B as the only internally consistent choice.",
+      "diagnoses": [
+        "federalism",
+        "polity",
+        "baseline_seed"
+      ]
+    },
+    {
+      "question_id": "P01-POL-018",
+      "num": 18,
+      "subject": "Polity",
+      "topic": "Constitutional Amendments",
+      "subtopic": "Constitutional Amendments — drill variant 18",
+      "format": "assertion_reason",
+      "statements": [
+        "Assertion (A): Constitutional Amendments is directly linked to a constitutional or statutory provision tested in Prelims.",
+        "Reason (R): The linkage is established through a landmark judgment or committee report on Constitutional Amendments."
+      ],
+      "difficulty": "Easy",
+      "expected_time_sec": 50,
+      "text": "In the context of the following, consider Assertion (A) and Reason (R):",
+      "options": {
+        "A": "Both A and R are correct and R is the correct explanation of A",
+        "B": "Both A and R are correct but R is NOT the correct explanation of A",
+        "C": "A is correct but R is incorrect",
+        "D": "A is incorrect but R is correct"
+      },
+      "answer": "C",
+      "explanation": "Option C is correct for Constitutional Amendments. Option A is the classic trap — it sounds authoritative but collapses on a single definitional mismatch UPSC examiners design into Polity items.",
+      "elimination_path": "Eliminate options with absolute words ('only', 'all', 'never') first — UPSC rarely rewards universals in Polity. Between the survivors, the pair-logic in statement 2 vs 3 usually leaves C as the only internally consistent choice.",
+      "diagnoses": [
+        "constitutional_amendments",
+        "polity",
+        "baseline_seed"
+      ]
+    },
+    {
+      "question_id": "P01-HIS-019",
+      "num": 19,
+      "subject": "History",
+      "topic": "Ancient India",
+      "subtopic": "Ancient India — drill variant 1",
+      "format": "match_pairs",
+      "statements": [
+        "List-I (Concept) — 1. Ancient India A  2. Ancient India B  3. Ancient India C",
+        "List-II (Feature) — 1. Feature X  2. Feature Y  3. Feature Z"
+      ],
+      "difficulty": "Medium",
+      "expected_time_sec": 75,
+      "text": "Consider the following pairs (List-I and List-II): How many pairs are correctly matched?",
+      "options": {
+        "A": "Only one",
+        "B": "Only two",
+        "C": "All three",
+        "D": "None"
+      },
+      "answer": "D",
+      "explanation": "Option D is correct for Ancient India. Option A is the classic trap — it sounds authoritative but collapses on a single definitional mismatch UPSC examiners design into History items.",
+      "elimination_path": "Eliminate options with absolute words ('only', 'all', 'never') first — UPSC rarely rewards universals in History. Between the survivors, the pair-logic in statement 2 vs 3 usually leaves D as the only internally consistent choice.",
+      "diagnoses": [
+        "ancient_india",
+        "history",
+        "baseline_seed"
+      ]
+    },
+    {
+      "question_id": "P01-HIS-020",
+      "num": 20,
+      "subject": "History",
+      "topic": "Medieval India",
+      "subtopic": "Medieval India — drill variant 2",
+      "format": "single",
+      "difficulty": "Hard",
+      "expected_time_sec": 100,
+      "text": "With reference to Medieval India in History, which of the following is most accurate?",
+      "options": {
+        "A": "Medieval India: the provision applies universally without exception",
+        "B": "Medieval India: the correct position is narrower than the universal claim",
+        "C": "Medieval India: the concept is purely statutory, not constitutional",
+        "D": "Medieval India: the concept was abolished after a constitutional amendment"
+      },
+      "answer": "A",
+      "explanation": "Option A is correct for Medieval India. Option B is the classic trap — it sounds authoritative but collapses on a single definitional mismatch UPSC examiners design into History items.",
+      "elimination_path": "Eliminate options with absolute words ('only', 'all', 'never') first — UPSC rarely rewards universals in History. Between the survivors, the pair-logic in statement 2 vs 3 usually leaves A as the only internally consistent choice.",
+      "diagnoses": [
+        "medieval_india",
+        "history",
+        "baseline_seed"
+      ]
+    },
+    {
+      "question_id": "P01-HIS-021",
+      "num": 21,
+      "subject": "History",
+      "topic": "Modern India",
+      "subtopic": "Modern India — drill variant 3",
+      "format": "statements_count",
+      "statements": [
+        "Statement 1: Modern India has a direct constitutional or policy anchor relevant to UPSC Prelims.",
+        "Statement 2: A common trap in History questions is confusing Modern India with an adjacent concept.",
+        "Statement 3: The 'only / all / never' extreme in distractors often signals a false statement in Modern India."
+      ],
+      "difficulty": "Easy",
+      "expected_time_sec": 50,
+      "text": "Consider the following statements: How many of the above statements are correct?",
+      "options": {
+        "A": "Only one",
+        "B": "Only two",
+        "C": "All three",
+        "D": "None"
+      },
+      "answer": "B",
+      "explanation": "Option B is correct for Modern India. Option A is the classic trap — it sounds authoritative but collapses on a single definitional mismatch UPSC examiners design into History items.",
+      "elimination_path": "NONE",
+      "diagnoses": [
+        "modern_india",
+        "history",
+        "baseline_seed"
+      ]
+    },
+    {
+      "question_id": "P01-HIS-022",
+      "num": 22,
+      "subject": "History",
+      "topic": "Art & Culture",
+      "subtopic": "Art & Culture — drill variant 4",
+      "format": "assertion_reason",
+      "statements": [
+        "Assertion (A): Art & Culture is directly linked to a constitutional or statutory provision tested in Prelims.",
+        "Reason (R): The linkage is established through a landmark judgment or committee report on Art & Culture."
+      ],
+      "difficulty": "Medium",
+      "expected_time_sec": 75,
+      "text": "In the context of the following, consider Assertion (A) and Reason (R):",
+      "options": {
+        "A": "Both A and R are correct and R is the correct explanation of A",
+        "B": "Both A and R are correct but R is NOT the correct explanation of A",
+        "C": "A is correct but R is incorrect",
+        "D": "A is incorrect but R is correct"
+      },
+      "answer": "C",
+      "explanation": "Option C is correct for Art & Culture. Option A is the classic trap — it sounds authoritative but collapses on a single definitional mismatch UPSC examiners design into History items.",
+      "elimination_path": "Eliminate options with absolute words ('only', 'all', 'never') first — UPSC rarely rewards universals in History. Between the survivors, the pair-logic in statement 2 vs 3 usually leaves C as the only internally consistent choice.",
+      "diagnoses": [
+        "art_&_culture",
+        "history",
+        "baseline_seed"
+      ]
+    },
+    {
+      "question_id": "P01-HIS-023",
+      "num": 23,
+      "subject": "History",
+      "topic": "Bhakti Movement",
+      "subtopic": "Bhakti Movement — drill variant 5",
+      "format": "match_pairs",
+      "statements": [
+        "List-I (Concept) — 1. Bhakti Movement A  2. Bhakti Movement B  3. Bhakti Movement C",
+        "List-II (Feature) — 1. Feature X  2. Feature Y  3. Feature Z"
+      ],
+      "difficulty": "Medium",
+      "expected_time_sec": 75,
+      "text": "Consider the following pairs (List-I and List-II): How many pairs are correctly matched?",
+      "options": {
+        "A": "Only one",
+        "B": "Only two",
+        "C": "All three",
+        "D": "None"
+      },
+      "answer": "D",
+      "explanation": "Option D is correct for Bhakti Movement. Option A is the classic trap — it sounds authoritative but collapses on a single definitional mismatch UPSC examiners design into History items.",
+      "elimination_path": "Eliminate options with absolute words ('only', 'all', 'never') first — UPSC rarely rewards universals in History. Between the survivors, the pair-logic in statement 2 vs 3 usually leaves D as the only internally consistent choice.",
+      "diagnoses": [
+        "bhakti_movement",
+        "history",
+        "baseline_seed"
+      ]
+    },
+    {
+      "question_id": "P01-HIS-024",
+      "num": 24,
+      "subject": "History",
+      "topic": "Freedom Struggle",
+      "subtopic": "Freedom Struggle — drill variant 6",
+      "format": "single",
+      "difficulty": "Easy",
+      "expected_time_sec": 50,
+      "text": "With reference to Freedom Struggle in History, which of the following is most accurate?",
+      "options": {
+        "A": "Freedom Struggle: the provision applies universally without exception",
+        "B": "Freedom Struggle: the correct position is narrower than the universal claim",
+        "C": "Freedom Struggle: the concept is purely statutory, not constitutional",
+        "D": "Freedom Struggle: the concept was abolished after a constitutional amendment"
+      },
+      "answer": "A",
+      "explanation": "Option A is correct for Freedom Struggle. Option B is the classic trap — it sounds authoritative but collapses on a single definitional mismatch UPSC examiners design into History items.",
+      "elimination_path": "Eliminate options with absolute words ('only', 'all', 'never') first — UPSC rarely rewards universals in History. Between the survivors, the pair-logic in statement 2 vs 3 usually leaves A as the only internally consistent choice.",
+      "diagnoses": [
+        "freedom_struggle",
+        "history",
+        "baseline_seed"
+      ]
+    },
+    {
+      "question_id": "P01-HIS-025",
+      "num": 25,
+      "subject": "History",
+      "topic": "Ancient India",
+      "subtopic": "Ancient India — drill variant 7",
+      "format": "statements_count",
+      "statements": [
+        "Statement 1: Ancient India has a direct constitutional or policy anchor relevant to UPSC Prelims.",
+        "Statement 2: A common trap in History questions is confusing Ancient India with an adjacent concept.",
+        "Statement 3: The 'only / all / never' extreme in distractors often signals a false statement in Ancient India."
+      ],
+      "difficulty": "Hard",
+      "expected_time_sec": 100,
+      "text": "Consider the following statements: How many of the above statements are correct?",
+      "options": {
+        "A": "Only one",
+        "B": "Only two",
+        "C": "All three",
+        "D": "None"
+      },
+      "answer": "B",
+      "explanation": "Option B is correct for Ancient India. Option A is the classic trap — it sounds authoritative but collapses on a single definitional mismatch UPSC examiners design into History items.",
+      "elimination_path": "Eliminate options with absolute words ('only', 'all', 'never') first — UPSC rarely rewards universals in History. Between the survivors, the pair-logic in statement 2 vs 3 usually leaves B as the only internally consistent choice.",
+      "diagnoses": [
+        "ancient_india",
+        "history",
+        "baseline_seed"
+      ]
+    },
+    {
+      "question_id": "P01-HIS-026",
+      "num": 26,
+      "subject": "History",
+      "topic": "Medieval India",
+      "subtopic": "Medieval India — drill variant 8",
+      "format": "assertion_reason",
+      "statements": [
+        "Assertion (A): Medieval India is directly linked to a constitutional or statutory provision tested in Prelims.",
+        "Reason (R): The linkage is established through a landmark judgment or committee report on Medieval India."
+      ],
+      "difficulty": "Medium",
+      "expected_time_sec": 75,
+      "text": "In the context of the following, consider Assertion (A) and Reason (R):",
+      "options": {
+        "A": "Both A and R are correct and R is the correct explanation of A",
+        "B": "Both A and R are correct but R is NOT the correct explanation of A",
+        "C": "A is correct but R is incorrect",
+        "D": "A is incorrect but R is correct"
+      },
+      "answer": "C",
+      "explanation": "Option C is correct for Medieval India. Option A is the classic trap — it sounds authoritative but collapses on a single definitional mismatch UPSC examiners design into History items.",
+      "elimination_path": "Eliminate options with absolute words ('only', 'all', 'never') first — UPSC rarely rewards universals in History. Between the survivors, the pair-logic in statement 2 vs 3 usually leaves C as the only internally consistent choice.",
+      "diagnoses": [
+        "medieval_india",
+        "history",
+        "baseline_seed"
+      ]
+    },
+    {
+      "question_id": "P01-HIS-027",
+      "num": 27,
+      "subject": "History",
+      "topic": "Modern India",
+      "subtopic": "Modern India — drill variant 9",
+      "format": "match_pairs",
+      "statements": [
+        "List-I (Concept) — 1. Modern India A  2. Modern India B  3. Modern India C",
+        "List-II (Feature) — 1. Feature X  2. Feature Y  3. Feature Z"
+      ],
+      "difficulty": "Easy",
+      "expected_time_sec": 50,
+      "text": "Consider the following pairs (List-I and List-II): How many pairs are correctly matched?",
+      "options": {
+        "A": "Only one",
+        "B": "Only two",
+        "C": "All three",
+        "D": "None"
+      },
+      "answer": "D",
+      "explanation": "Option D is correct for Modern India. Option A is the classic trap — it sounds authoritative but collapses on a single definitional mismatch UPSC examiners design into History items.",
+      "elimination_path": "Eliminate options with absolute words ('only', 'all', 'never') first — UPSC rarely rewards universals in History. Between the survivors, the pair-logic in statement 2 vs 3 usually leaves D as the only internally consistent choice.",
+      "diagnoses": [
+        "modern_india",
+        "history",
+        "baseline_seed"
+      ]
+    },
+    {
+      "question_id": "P01-HIS-028",
+      "num": 28,
+      "subject": "History",
+      "topic": "Art & Culture",
+      "subtopic": "Art & Culture — drill variant 10",
+      "format": "single",
+      "difficulty": "Medium",
+      "expected_time_sec": 75,
+      "text": "With reference to Art & Culture in History, which of the following is most accurate?",
+      "options": {
+        "A": "Art & Culture: the provision applies universally without exception",
+        "B": "Art & Culture: the correct position is narrower than the universal claim",
+        "C": "Art & Culture: the concept is purely statutory, not constitutional",
+        "D": "Art & Culture: the concept was abolished after a constitutional amendment"
+      },
+      "answer": "A",
+      "explanation": "Option A is correct for Art & Culture. Option B is the classic trap — it sounds authoritative but collapses on a single definitional mismatch UPSC examiners design into History items.",
+      "elimination_path": "NONE",
+      "diagnoses": [
+        "art_&_culture",
+        "history",
+        "baseline_seed"
+      ]
+    },
+    {
+      "question_id": "P01-HIS-029",
+      "num": 29,
+      "subject": "History",
+      "topic": "Bhakti Movement",
+      "subtopic": "Bhakti Movement — drill variant 11",
+      "format": "statements_count",
+      "statements": [
+        "Statement 1: Bhakti Movement has a direct constitutional or policy anchor relevant to UPSC Prelims.",
+        "Statement 2: A common trap in History questions is confusing Bhakti Movement with an adjacent concept.",
+        "Statement 3: The 'only / all / never' extreme in distractors often signals a false statement in Bhakti Movement."
+      ],
+      "difficulty": "Medium",
+      "expected_time_sec": 75,
+      "text": "Consider the following statements: How many of the above statements are correct?",
+      "options": {
+        "A": "Only one",
+        "B": "Only two",
+        "C": "All three",
+        "D": "None"
+      },
+      "answer": "B",
+      "explanation": "Option B is correct for Bhakti Movement. Option A is the classic trap — it sounds authoritative but collapses on a single definitional mismatch UPSC examiners design into History items.",
+      "elimination_path": "Eliminate options with absolute words ('only', 'all', 'never') first — UPSC rarely rewards universals in History. Between the survivors, the pair-logic in statement 2 vs 3 usually leaves B as the only internally consistent choice.",
+      "diagnoses": [
+        "bhakti_movement",
+        "history",
+        "baseline_seed"
+      ]
+    },
+    {
+      "question_id": "P01-HIS-030",
+      "num": 30,
+      "subject": "History",
+      "topic": "Freedom Struggle",
+      "subtopic": "Freedom Struggle — drill variant 12",
+      "format": "assertion_reason",
+      "statements": [
+        "Assertion (A): Freedom Struggle is directly linked to a constitutional or statutory provision tested in Prelims.",
+        "Reason (R): The linkage is established through a landmark judgment or committee report on Freedom Struggle."
+      ],
+      "difficulty": "Hard",
+      "expected_time_sec": 100,
+      "text": "In the context of the following, consider Assertion (A) and Reason (R):",
+      "options": {
+        "A": "Both A and R are correct and R is the correct explanation of A",
+        "B": "Both A and R are correct but R is NOT the correct explanation of A",
+        "C": "A is correct but R is incorrect",
+        "D": "A is incorrect but R is correct"
+      },
+      "answer": "C",
+      "explanation": "Option C is correct for Freedom Struggle. Option A is the classic trap — it sounds authoritative but collapses on a single definitional mismatch UPSC examiners design into History items.",
+      "elimination_path": "Eliminate options with absolute words ('only', 'all', 'never') first — UPSC rarely rewards universals in History. Between the survivors, the pair-logic in statement 2 vs 3 usually leaves C as the only internally consistent choice.",
+      "diagnoses": [
+        "freedom_struggle",
+        "history",
+        "baseline_seed"
+      ]
+    },
+    {
+      "question_id": "P01-HIS-031",
+      "num": 31,
+      "subject": "History",
+      "topic": "Ancient India",
+      "subtopic": "Ancient India — drill variant 13",
+      "format": "match_pairs",
+      "statements": [
+        "List-I (Concept) — 1. Ancient India A  2. Ancient India B  3. Ancient India C",
+        "List-II (Feature) — 1. Feature X  2. Feature Y  3. Feature Z"
+      ],
+      "difficulty": "Medium",
+      "expected_time_sec": 75,
+      "text": "Consider the following pairs (List-I and List-II): How many pairs are correctly matched?",
+      "options": {
+        "A": "Only one",
+        "B": "Only two",
+        "C": "All three",
+        "D": "None"
+      },
+      "answer": "D",
+      "explanation": "Option D is correct for Ancient India. Option A is the classic trap — it sounds authoritative but collapses on a single definitional mismatch UPSC examiners design into History items.",
+      "elimination_path": "Eliminate options with absolute words ('only', 'all', 'never') first — UPSC rarely rewards universals in History. Between the survivors, the pair-logic in statement 2 vs 3 usually leaves D as the only internally consistent choice.",
+      "diagnoses": [
+        "ancient_india",
+        "history",
+        "baseline_seed"
+      ]
+    },
+    {
+      "question_id": "P01-HIS-032",
+      "num": 32,
+      "subject": "History",
+      "topic": "Medieval India",
+      "subtopic": "Medieval India — drill variant 14",
+      "format": "single",
+      "difficulty": "Medium",
+      "expected_time_sec": 75,
+      "text": "With reference to Medieval India in History, which of the following is most accurate?",
+      "options": {
+        "A": "Medieval India: the provision applies universally without exception",
+        "B": "Medieval India: the correct position is narrower than the universal claim",
+        "C": "Medieval India: the concept is purely statutory, not constitutional",
+        "D": "Medieval India: the concept was abolished after a constitutional amendment"
+      },
+      "answer": "A",
+      "explanation": "Option A is correct for Medieval India. Option B is the classic trap — it sounds authoritative but collapses on a single definitional mismatch UPSC examiners design into History items.",
+      "elimination_path": "Eliminate options with absolute words ('only', 'all', 'never') first — UPSC rarely rewards universals in History. Between the survivors, the pair-logic in statement 2 vs 3 usually leaves A as the only internally consistent choice.",
+      "diagnoses": [
+        "medieval_india",
+        "history",
+        "baseline_seed"
+      ]
+    },
+    {
+      "question_id": "P01-HIS-033",
+      "num": 33,
+      "subject": "History",
+      "topic": "Modern India",
+      "subtopic": "Modern India — drill variant 15",
+      "format": "statements_count",
+      "statements": [
+        "Statement 1: Modern India has a direct constitutional or policy anchor relevant to UPSC Prelims.",
+        "Statement 2: A common trap in History questions is confusing Modern India with an adjacent concept.",
+        "Statement 3: The 'only / all / never' extreme in distractors often signals a false statement in Modern India."
+      ],
+      "difficulty": "Easy",
+      "expected_time_sec": 50,
+      "text": "Consider the following statements: How many of the above statements are correct?",
+      "options": {
+        "A": "Only one",
+        "B": "Only two",
+        "C": "All three",
+        "D": "None"
+      },
+      "answer": "B",
+      "explanation": "Option B is correct for Modern India. Option A is the classic trap — it sounds authoritative but collapses on a single definitional mismatch UPSC examiners design into History items.",
+      "elimination_path": "Eliminate options with absolute words ('only', 'all', 'never') first — UPSC rarely rewards universals in History. Between the survivors, the pair-logic in statement 2 vs 3 usually leaves B as the only internally consistent choice.",
+      "diagnoses": [
+        "modern_india",
+        "history",
+        "baseline_seed"
+      ]
+    },
+    {
+      "question_id": "P01-HIS-034",
+      "num": 34,
+      "subject": "History",
+      "topic": "Art & Culture",
+      "subtopic": "Art & Culture — drill variant 16",
+      "format": "assertion_reason",
+      "statements": [
+        "Assertion (A): Art & Culture is directly linked to a constitutional or statutory provision tested in Prelims.",
+        "Reason (R): The linkage is established through a landmark judgment or committee report on Art & Culture."
+      ],
+      "difficulty": "Medium",
+      "expected_time_sec": 75,
+      "text": "In the context of the following, consider Assertion (A) and Reason (R):",
+      "options": {
+        "A": "Both A and R are correct and R is the correct explanation of A",
+        "B": "Both A and R are correct but R is NOT the correct explanation of A",
+        "C": "A is correct but R is incorrect",
+        "D": "A is incorrect but R is correct"
+      },
+      "answer": "C",
+      "explanation": "Option C is correct for Art & Culture. Option A is the classic trap — it sounds authoritative but collapses on a single definitional mismatch UPSC examiners design into History items.",
+      "elimination_path": "Eliminate options with absolute words ('only', 'all', 'never') first — UPSC rarely rewards universals in History. Between the survivors, the pair-logic in statement 2 vs 3 usually leaves C as the only internally consistent choice.",
+      "diagnoses": [
+        "art_&_culture",
+        "history",
+        "baseline_seed"
+      ]
+    },
+    {
+      "question_id": "P01-GEO-035",
+      "num": 35,
+      "subject": "Geography",
+      "topic": "Physical Geography",
+      "subtopic": "Physical Geography — drill variant 1",
+      "format": "match_pairs",
+      "statements": [
+        "List-I (Concept) — 1. Physical Geography A  2. Physical Geography B  3. Physical Geography C",
+        "List-II (Feature) — 1. Feature X  2. Feature Y  3. Feature Z"
+      ],
+      "difficulty": "Hard",
+      "expected_time_sec": 100,
+      "text": "Consider the following pairs (List-I and List-II): How many pairs are correctly matched?",
+      "options": {
+        "A": "Only one",
+        "B": "Only two",
+        "C": "All three",
+        "D": "None"
+      },
+      "answer": "D",
+      "explanation": "Option D is correct for Physical Geography. Option A is the classic trap — it sounds authoritative but collapses on a single definitional mismatch UPSC examiners design into Geography items.",
+      "elimination_path": "NONE",
+      "diagnoses": [
+        "physical_geography",
+        "geography",
+        "baseline_seed"
+      ]
+    },
+    {
+      "question_id": "P01-GEO-036",
+      "num": 36,
+      "subject": "Geography",
+      "topic": "Indian Geography",
+      "subtopic": "Indian Geography — drill variant 2",
+      "format": "single",
+      "difficulty": "Easy",
+      "expected_time_sec": 50,
+      "text": "With reference to Indian Geography in Geography, which of the following is most accurate?",
+      "options": {
+        "A": "Indian Geography: the provision applies universally without exception",
+        "B": "Indian Geography: the correct position is narrower than the universal claim",
+        "C": "Indian Geography: the concept is purely statutory, not constitutional",
+        "D": "Indian Geography: the concept was abolished after a constitutional amendment"
+      },
+      "answer": "A",
+      "explanation": "Option A is correct for Indian Geography. Option B is the classic trap — it sounds authoritative but collapses on a single definitional mismatch UPSC examiners design into Geography items.",
+      "elimination_path": "Eliminate options with absolute words ('only', 'all', 'never') first — UPSC rarely rewards universals in Geography. Between the survivors, the pair-logic in statement 2 vs 3 usually leaves A as the only internally consistent choice.",
+      "diagnoses": [
+        "indian_geography",
+        "geography",
+        "baseline_seed"
+      ]
+    },
+    {
+      "question_id": "P01-GEO-037",
+      "num": 37,
+      "subject": "Geography",
+      "topic": "Climate",
+      "subtopic": "Climate — drill variant 3",
+      "format": "statements_count",
+      "statements": [
+        "Statement 1: Climate has a direct constitutional or policy anchor relevant to UPSC Prelims.",
+        "Statement 2: A common trap in Geography questions is confusing Climate with an adjacent concept.",
+        "Statement 3: The 'only / all / never' extreme in distractors often signals a false statement in Climate."
+      ],
+      "difficulty": "Medium",
+      "expected_time_sec": 75,
+      "text": "Consider the following statements: How many of the above statements are correct?",
+      "options": {
+        "A": "Only one",
+        "B": "Only two",
+        "C": "All three",
+        "D": "None"
+      },
+      "answer": "B",
+      "explanation": "Option B is correct for Climate. Option A is the classic trap — it sounds authoritative but collapses on a single definitional mismatch UPSC examiners design into Geography items.",
+      "elimination_path": "Eliminate options with absolute words ('only', 'all', 'never') first — UPSC rarely rewards universals in Geography. Between the survivors, the pair-logic in statement 2 vs 3 usually leaves B as the only internally consistent choice.",
+      "diagnoses": [
+        "climate",
+        "geography",
+        "baseline_seed"
+      ]
+    },
+    {
+      "question_id": "P01-GEO-038",
+      "num": 38,
+      "subject": "Geography",
+      "topic": "Resources",
+      "subtopic": "Resources — drill variant 4",
+      "format": "assertion_reason",
+      "statements": [
+        "Assertion (A): Resources is directly linked to a constitutional or statutory provision tested in Prelims.",
+        "Reason (R): The linkage is established through a landmark judgment or committee report on Resources."
+      ],
+      "difficulty": "Medium",
+      "expected_time_sec": 75,
+      "text": "In the context of the following, consider Assertion (A) and Reason (R):",
+      "options": {
+        "A": "Both A and R are correct and R is the correct explanation of A",
+        "B": "Both A and R are correct but R is NOT the correct explanation of A",
+        "C": "A is correct but R is incorrect",
+        "D": "A is incorrect but R is correct"
+      },
+      "answer": "C",
+      "explanation": "Option C is correct for Resources. Option A is the classic trap — it sounds authoritative but collapses on a single definitional mismatch UPSC examiners design into Geography items.",
+      "elimination_path": "Eliminate options with absolute words ('only', 'all', 'never') first — UPSC rarely rewards universals in Geography. Between the survivors, the pair-logic in statement 2 vs 3 usually leaves C as the only internally consistent choice.",
+      "diagnoses": [
+        "resources",
+        "geography",
+        "baseline_seed"
+      ]
+    },
+    {
+      "question_id": "P01-GEO-039",
+      "num": 39,
+      "subject": "Geography",
+      "topic": "Agriculture",
+      "subtopic": "Agriculture — drill variant 5",
+      "format": "match_pairs",
+      "statements": [
+        "List-I (Concept) — 1. Agriculture A  2. Agriculture B  3. Agriculture C",
+        "List-II (Feature) — 1. Feature X  2. Feature Y  3. Feature Z"
+      ],
+      "difficulty": "Easy",
+      "expected_time_sec": 50,
+      "text": "Consider the following pairs (List-I and List-II): How many pairs are correctly matched?",
+      "options": {
+        "A": "Only one",
+        "B": "Only two",
+        "C": "All three",
+        "D": "None"
+      },
+      "answer": "D",
+      "explanation": "Option D is correct for Agriculture. Option A is the classic trap — it sounds authoritative but collapses on a single definitional mismatch UPSC examiners design into Geography items.",
+      "elimination_path": "Eliminate options with absolute words ('only', 'all', 'never') first — UPSC rarely rewards universals in Geography. Between the survivors, the pair-logic in statement 2 vs 3 usually leaves D as the only internally consistent choice.",
+      "diagnoses": [
+        "agriculture",
+        "geography",
+        "baseline_seed"
+      ]
+    },
+    {
+      "question_id": "P01-GEO-040",
+      "num": 40,
+      "subject": "Geography",
+      "topic": "Disasters",
+      "subtopic": "Disasters — drill variant 6",
+      "format": "single",
+      "difficulty": "Hard",
+      "expected_time_sec": 100,
+      "text": "With reference to Disasters in Geography, which of the following is most accurate?",
+      "options": {
+        "A": "Disasters: the provision applies universally without exception",
+        "B": "Disasters: the correct position is narrower than the universal claim",
+        "C": "Disasters: the concept is purely statutory, not constitutional",
+        "D": "Disasters: the concept was abolished after a constitutional amendment"
+      },
+      "answer": "A",
+      "explanation": "Option A is correct for Disasters. Option B is the classic trap — it sounds authoritative but collapses on a single definitional mismatch UPSC examiners design into Geography items.",
+      "elimination_path": "Eliminate options with absolute words ('only', 'all', 'never') first — UPSC rarely rewards universals in Geography. Between the survivors, the pair-logic in statement 2 vs 3 usually leaves A as the only internally consistent choice.",
+      "diagnoses": [
+        "disasters",
+        "geography",
+        "baseline_seed"
+      ]
+    },
+    {
+      "question_id": "P01-GEO-041",
+      "num": 41,
+      "subject": "Geography",
+      "topic": "Physical Geography",
+      "subtopic": "Physical Geography — drill variant 7",
+      "format": "statements_count",
+      "statements": [
+        "Statement 1: Physical Geography has a direct constitutional or policy anchor relevant to UPSC Prelims.",
+        "Statement 2: A common trap in Geography questions is confusing Physical Geography with an adjacent concept.",
+        "Statement 3: The 'only / all / never' extreme in distractors often signals a false statement in Physical Geography."
+      ],
+      "difficulty": "Medium",
+      "expected_time_sec": 75,
+      "text": "Consider the following statements: How many of the above statements are correct?",
+      "options": {
+        "A": "Only one",
+        "B": "Only two",
+        "C": "All three",
+        "D": "None"
+      },
+      "answer": "B",
+      "explanation": "Option B is correct for Physical Geography. Option A is the classic trap — it sounds authoritative but collapses on a single definitional mismatch UPSC examiners design into Geography items.",
+      "elimination_path": "Eliminate options with absolute words ('only', 'all', 'never') first — UPSC rarely rewards universals in Geography. Between the survivors, the pair-logic in statement 2 vs 3 usually leaves B as the only internally consistent choice.",
+      "diagnoses": [
+        "physical_geography",
+        "geography",
+        "baseline_seed"
+      ]
+    },
+    {
+      "question_id": "P01-GEO-042",
+      "num": 42,
+      "subject": "Geography",
+      "topic": "Indian Geography",
+      "subtopic": "Indian Geography — drill variant 8",
+      "format": "assertion_reason",
+      "statements": [
+        "Assertion (A): Indian Geography is directly linked to a constitutional or statutory provision tested in Prelims.",
+        "Reason (R): The linkage is established through a landmark judgment or committee report on Indian Geography."
+      ],
+      "difficulty": "Easy",
+      "expected_time_sec": 50,
+      "text": "In the context of the following, consider Assertion (A) and Reason (R):",
+      "options": {
+        "A": "Both A and R are correct and R is the correct explanation of A",
+        "B": "Both A and R are correct but R is NOT the correct explanation of A",
+        "C": "A is correct but R is incorrect",
+        "D": "A is incorrect but R is correct"
+      },
+      "answer": "C",
+      "explanation": "Option C is correct for Indian Geography. Option A is the classic trap — it sounds authoritative but collapses on a single definitional mismatch UPSC examiners design into Geography items.",
+      "elimination_path": "NONE",
+      "diagnoses": [
+        "indian_geography",
+        "geography",
+        "baseline_seed"
+      ]
+    },
+    {
+      "question_id": "P01-GEO-043",
+      "num": 43,
+      "subject": "Geography",
+      "topic": "Climate",
+      "subtopic": "Climate — drill variant 9",
+      "format": "match_pairs",
+      "statements": [
+        "List-I (Concept) — 1. Climate A  2. Climate B  3. Climate C",
+        "List-II (Feature) — 1. Feature X  2. Feature Y  3. Feature Z"
+      ],
+      "difficulty": "Medium",
+      "expected_time_sec": 75,
+      "text": "Consider the following pairs (List-I and List-II): How many pairs are correctly matched?",
+      "options": {
+        "A": "Only one",
+        "B": "Only two",
+        "C": "All three",
+        "D": "None"
+      },
+      "answer": "D",
+      "explanation": "Option D is correct for Climate. Option A is the classic trap — it sounds authoritative but collapses on a single definitional mismatch UPSC examiners design into Geography items.",
+      "elimination_path": "Eliminate options with absolute words ('only', 'all', 'never') first — UPSC rarely rewards universals in Geography. Between the survivors, the pair-logic in statement 2 vs 3 usually leaves D as the only internally consistent choice.",
+      "diagnoses": [
+        "climate",
+        "geography",
+        "baseline_seed"
+      ]
+    },
+    {
+      "question_id": "P01-GEO-044",
+      "num": 44,
+      "subject": "Geography",
+      "topic": "Resources",
+      "subtopic": "Resources — drill variant 10",
+      "format": "single",
+      "difficulty": "Medium",
+      "expected_time_sec": 75,
+      "text": "With reference to Resources in Geography, which of the following is most accurate?",
+      "options": {
+        "A": "Resources: the provision applies universally without exception",
+        "B": "Resources: the correct position is narrower than the universal claim",
+        "C": "Resources: the concept is purely statutory, not constitutional",
+        "D": "Resources: the concept was abolished after a constitutional amendment"
+      },
+      "answer": "A",
+      "explanation": "Option A is correct for Resources. Option B is the classic trap — it sounds authoritative but collapses on a single definitional mismatch UPSC examiners design into Geography items.",
+      "elimination_path": "Eliminate options with absolute words ('only', 'all', 'never') first — UPSC rarely rewards universals in Geography. Between the survivors, the pair-logic in statement 2 vs 3 usually leaves A as the only internally consistent choice.",
+      "diagnoses": [
+        "resources",
+        "geography",
+        "baseline_seed"
+      ]
+    },
+    {
+      "question_id": "P01-GEO-045",
+      "num": 45,
+      "subject": "Geography",
+      "topic": "Agriculture",
+      "subtopic": "Agriculture — drill variant 11",
+      "format": "statements_count",
+      "statements": [
+        "Statement 1: Agriculture has a direct constitutional or policy anchor relevant to UPSC Prelims.",
+        "Statement 2: A common trap in Geography questions is confusing Agriculture with an adjacent concept.",
+        "Statement 3: The 'only / all / never' extreme in distractors often signals a false statement in Agriculture."
+      ],
+      "difficulty": "Hard",
+      "expected_time_sec": 100,
+      "text": "Consider the following statements: How many of the above statements are correct?",
+      "options": {
+        "A": "Only one",
+        "B": "Only two",
+        "C": "All three",
+        "D": "None"
+      },
+      "answer": "B",
+      "explanation": "Option B is correct for Agriculture. Option A is the classic trap — it sounds authoritative but collapses on a single definitional mismatch UPSC examiners design into Geography items.",
+      "elimination_path": "Eliminate options with absolute words ('only', 'all', 'never') first — UPSC rarely rewards universals in Geography. Between the survivors, the pair-logic in statement 2 vs 3 usually leaves B as the only internally consistent choice.",
+      "diagnoses": [
+        "agriculture",
+        "geography",
+        "baseline_seed"
+      ]
+    },
+    {
+      "question_id": "P01-GEO-046",
+      "num": 46,
+      "subject": "Geography",
+      "topic": "Disasters",
+      "subtopic": "Disasters — drill variant 12",
+      "format": "assertion_reason",
+      "statements": [
+        "Assertion (A): Disasters is directly linked to a constitutional or statutory provision tested in Prelims.",
+        "Reason (R): The linkage is established through a landmark judgment or committee report on Disasters."
+      ],
+      "difficulty": "Medium",
+      "expected_time_sec": 75,
+      "text": "In the context of the following, consider Assertion (A) and Reason (R):",
+      "options": {
+        "A": "Both A and R are correct and R is the correct explanation of A",
+        "B": "Both A and R are correct but R is NOT the correct explanation of A",
+        "C": "A is correct but R is incorrect",
+        "D": "A is incorrect but R is correct"
+      },
+      "answer": "C",
+      "explanation": "Option C is correct for Disasters. Option A is the classic trap — it sounds authoritative but collapses on a single definitional mismatch UPSC examiners design into Geography items.",
+      "elimination_path": "Eliminate options with absolute words ('only', 'all', 'never') first — UPSC rarely rewards universals in Geography. Between the survivors, the pair-logic in statement 2 vs 3 usually leaves C as the only internally consistent choice.",
+      "diagnoses": [
+        "disasters",
+        "geography",
+        "baseline_seed"
+      ]
+    },
+    {
+      "question_id": "P01-GEO-047",
+      "num": 47,
+      "subject": "Geography",
+      "topic": "Physical Geography",
+      "subtopic": "Physical Geography — drill variant 13",
+      "format": "match_pairs",
+      "statements": [
+        "List-I (Concept) — 1. Physical Geography A  2. Physical Geography B  3. Physical Geography C",
+        "List-II (Feature) — 1. Feature X  2. Feature Y  3. Feature Z"
+      ],
+      "difficulty": "Medium",
+      "expected_time_sec": 75,
+      "text": "Consider the following pairs (List-I and List-II): How many pairs are correctly matched?",
+      "options": {
+        "A": "Only one",
+        "B": "Only two",
+        "C": "All three",
+        "D": "None"
+      },
+      "answer": "D",
+      "explanation": "Option D is correct for Physical Geography. Option A is the classic trap — it sounds authoritative but collapses on a single definitional mismatch UPSC examiners design into Geography items.",
+      "elimination_path": "Eliminate options with absolute words ('only', 'all', 'never') first — UPSC rarely rewards universals in Geography. Between the survivors, the pair-logic in statement 2 vs 3 usually leaves D as the only internally consistent choice.",
+      "diagnoses": [
+        "physical_geography",
+        "geography",
+        "baseline_seed"
+      ]
+    },
+    {
+      "question_id": "P01-GEO-048",
+      "num": 48,
+      "subject": "Geography",
+      "topic": "Indian Geography",
+      "subtopic": "Indian Geography — drill variant 14",
+      "format": "single",
+      "difficulty": "Easy",
+      "expected_time_sec": 50,
+      "text": "With reference to Indian Geography in Geography, which of the following is most accurate?",
+      "options": {
+        "A": "Indian Geography: the provision applies universally without exception",
+        "B": "Indian Geography: the correct position is narrower than the universal claim",
+        "C": "Indian Geography: the concept is purely statutory, not constitutional",
+        "D": "Indian Geography: the concept was abolished after a constitutional amendment"
+      },
+      "answer": "A",
+      "explanation": "Option A is correct for Indian Geography. Option B is the classic trap — it sounds authoritative but collapses on a single definitional mismatch UPSC examiners design into Geography items.",
+      "elimination_path": "Eliminate options with absolute words ('only', 'all', 'never') first — UPSC rarely rewards universals in Geography. Between the survivors, the pair-logic in statement 2 vs 3 usually leaves A as the only internally consistent choice.",
+      "diagnoses": [
+        "indian_geography",
+        "geography",
+        "baseline_seed"
+      ]
+    },
+    {
+      "question_id": "P01-ECO-049",
+      "num": 49,
+      "subject": "Economy",
+      "topic": "Monetary Policy",
+      "subtopic": "Monetary Policy — drill variant 1",
+      "format": "statements_count",
+      "statements": [
+        "Statement 1: Monetary Policy has a direct constitutional or policy anchor relevant to UPSC Prelims.",
+        "Statement 2: A common trap in Economy questions is confusing Monetary Policy with an adjacent concept.",
+        "Statement 3: The 'only / all / never' extreme in distractors often signals a false statement in Monetary Policy."
+      ],
+      "difficulty": "Medium",
+      "expected_time_sec": 75,
+      "text": "Consider the following statements: How many of the above statements are correct?",
+      "options": {
+        "A": "Only one",
+        "B": "Only two",
+        "C": "All three",
+        "D": "None"
+      },
+      "answer": "B",
+      "explanation": "Option B is correct for Monetary Policy. Option A is the classic trap — it sounds authoritative but collapses on a single definitional mismatch UPSC examiners design into Economy items.",
+      "elimination_path": "NONE",
+      "diagnoses": [
+        "monetary_policy",
+        "economy",
+        "baseline_seed"
+      ]
+    },
+    {
+      "question_id": "P01-ECO-050",
+      "num": 50,
+      "subject": "Economy",
+      "topic": "Fiscal Policy",
+      "subtopic": "Fiscal Policy — drill variant 2",
+      "format": "assertion_reason",
+      "statements": [
+        "Assertion (A): Fiscal Policy is directly linked to a constitutional or statutory provision tested in Prelims.",
+        "Reason (R): The linkage is established through a landmark judgment or committee report on Fiscal Policy."
+      ],
+      "difficulty": "Hard",
+      "expected_time_sec": 100,
+      "text": "In the context of the following, consider Assertion (A) and Reason (R):",
+      "options": {
+        "A": "Both A and R are correct and R is the correct explanation of A",
+        "B": "Both A and R are correct but R is NOT the correct explanation of A",
+        "C": "A is correct but R is incorrect",
+        "D": "A is incorrect but R is correct"
+      },
+      "answer": "C",
+      "explanation": "Option C is correct for Fiscal Policy. Option A is the classic trap — it sounds authoritative but collapses on a single definitional mismatch UPSC examiners design into Economy items.",
+      "elimination_path": "Eliminate options with absolute words ('only', 'all', 'never') first — UPSC rarely rewards universals in Economy. Between the survivors, the pair-logic in statement 2 vs 3 usually leaves C as the only internally consistent choice.",
+      "diagnoses": [
+        "fiscal_policy",
+        "economy",
+        "baseline_seed"
+      ]
+    },
+    {
+      "question_id": "P01-ECO-051",
+      "num": 51,
+      "subject": "Economy",
+      "topic": "Banking",
+      "subtopic": "Banking — drill variant 3",
+      "format": "match_pairs",
+      "statements": [
+        "List-I (Concept) — 1. Banking A  2. Banking B  3. Banking C",
+        "List-II (Feature) — 1. Feature X  2. Feature Y  3. Feature Z"
+      ],
+      "difficulty": "Easy",
+      "expected_time_sec": 50,
+      "text": "Consider the following pairs (List-I and List-II): How many pairs are correctly matched?",
+      "options": {
+        "A": "Only one",
+        "B": "Only two",
+        "C": "All three",
+        "D": "None"
+      },
+      "answer": "D",
+      "explanation": "Option D is correct for Banking. Option A is the classic trap — it sounds authoritative but collapses on a single definitional mismatch UPSC examiners design into Economy items.",
+      "elimination_path": "Eliminate options with absolute words ('only', 'all', 'never') first — UPSC rarely rewards universals in Economy. Between the survivors, the pair-logic in statement 2 vs 3 usually leaves D as the only internally consistent choice.",
+      "diagnoses": [
+        "banking",
+        "economy",
+        "baseline_seed"
+      ]
+    },
+    {
+      "question_id": "P01-ECO-052",
+      "num": 52,
+      "subject": "Economy",
+      "topic": "Inflation",
+      "subtopic": "Inflation — drill variant 4",
+      "format": "single",
+      "difficulty": "Medium",
+      "expected_time_sec": 75,
+      "text": "With reference to Inflation in Economy, which of the following is most accurate?",
+      "options": {
+        "A": "Inflation: the provision applies universally without exception",
+        "B": "Inflation: the correct position is narrower than the universal claim",
+        "C": "Inflation: the concept is purely statutory, not constitutional",
+        "D": "Inflation: the concept was abolished after a constitutional amendment"
+      },
+      "answer": "A",
+      "explanation": "Option A is correct for Inflation. Option B is the classic trap — it sounds authoritative but collapses on a single definitional mismatch UPSC examiners design into Economy items.",
+      "elimination_path": "Eliminate options with absolute words ('only', 'all', 'never') first — UPSC rarely rewards universals in Economy. Between the survivors, the pair-logic in statement 2 vs 3 usually leaves A as the only internally consistent choice.",
+      "diagnoses": [
+        "inflation",
+        "economy",
+        "baseline_seed"
+      ]
+    },
+    {
+      "question_id": "P01-ECO-053",
+      "num": 53,
+      "subject": "Economy",
+      "topic": "External Sector",
+      "subtopic": "External Sector — drill variant 5",
+      "format": "statements_count",
+      "statements": [
+        "Statement 1: External Sector has a direct constitutional or policy anchor relevant to UPSC Prelims.",
+        "Statement 2: A common trap in Economy questions is confusing External Sector with an adjacent concept.",
+        "Statement 3: The 'only / all / never' extreme in distractors often signals a false statement in External Sector."
+      ],
+      "difficulty": "Medium",
+      "expected_time_sec": 75,
+      "text": "Consider the following statements: How many of the above statements are correct?",
+      "options": {
+        "A": "Only one",
+        "B": "Only two",
+        "C": "All three",
+        "D": "None"
+      },
+      "answer": "B",
+      "explanation": "Option B is correct for External Sector. Option A is the classic trap — it sounds authoritative but collapses on a single definitional mismatch UPSC examiners design into Economy items.",
+      "elimination_path": "Eliminate options with absolute words ('only', 'all', 'never') first — UPSC rarely rewards universals in Economy. Between the survivors, the pair-logic in statement 2 vs 3 usually leaves B as the only internally consistent choice.",
+      "diagnoses": [
+        "external_sector",
+        "economy",
+        "baseline_seed"
+      ]
+    },
+    {
+      "question_id": "P01-ECO-054",
+      "num": 54,
+      "subject": "Economy",
+      "topic": "Agriculture Economy",
+      "subtopic": "Agriculture Economy — drill variant 6",
+      "format": "assertion_reason",
+      "statements": [
+        "Assertion (A): Agriculture Economy is directly linked to a constitutional or statutory provision tested in Prelims.",
+        "Reason (R): The linkage is established through a landmark judgment or committee report on Agriculture Economy."
+      ],
+      "difficulty": "Easy",
+      "expected_time_sec": 50,
+      "text": "In the context of the following, consider Assertion (A) and Reason (R):",
+      "options": {
+        "A": "Both A and R are correct and R is the correct explanation of A",
+        "B": "Both A and R are correct but R is NOT the correct explanation of A",
+        "C": "A is correct but R is incorrect",
+        "D": "A is incorrect but R is correct"
+      },
+      "answer": "C",
+      "explanation": "Option C is correct for Agriculture Economy. Option A is the classic trap — it sounds authoritative but collapses on a single definitional mismatch UPSC examiners design into Economy items.",
+      "elimination_path": "Eliminate options with absolute words ('only', 'all', 'never') first — UPSC rarely rewards universals in Economy. Between the survivors, the pair-logic in statement 2 vs 3 usually leaves C as the only internally consistent choice.",
+      "diagnoses": [
+        "agriculture_economy",
+        "economy",
+        "baseline_seed"
+      ]
+    },
+    {
+      "question_id": "P01-ECO-055",
+      "num": 55,
+      "subject": "Economy",
+      "topic": "Monetary Policy",
+      "subtopic": "Monetary Policy — drill variant 7",
+      "format": "match_pairs",
+      "statements": [
+        "List-I (Concept) — 1. Monetary Policy A  2. Monetary Policy B  3. Monetary Policy C",
+        "List-II (Feature) — 1. Feature X  2. Feature Y  3. Feature Z"
+      ],
+      "difficulty": "Hard",
+      "expected_time_sec": 100,
+      "text": "Consider the following pairs (List-I and List-II): How many pairs are correctly matched?",
+      "options": {
+        "A": "Only one",
+        "B": "Only two",
+        "C": "All three",
+        "D": "None"
+      },
+      "answer": "D",
+      "explanation": "Option D is correct for Monetary Policy. Option A is the classic trap — it sounds authoritative but collapses on a single definitional mismatch UPSC examiners design into Economy items.",
+      "elimination_path": "Eliminate options with absolute words ('only', 'all', 'never') first — UPSC rarely rewards universals in Economy. Between the survivors, the pair-logic in statement 2 vs 3 usually leaves D as the only internally consistent choice.",
+      "diagnoses": [
+        "monetary_policy",
+        "economy",
+        "baseline_seed"
+      ]
+    },
+    {
+      "question_id": "P01-ECO-056",
+      "num": 56,
+      "subject": "Economy",
+      "topic": "Fiscal Policy",
+      "subtopic": "Fiscal Policy — drill variant 8",
+      "format": "single",
+      "difficulty": "Medium",
+      "expected_time_sec": 75,
+      "text": "With reference to Fiscal Policy in Economy, which of the following is most accurate?",
+      "options": {
+        "A": "Fiscal Policy: the provision applies universally without exception",
+        "B": "Fiscal Policy: the correct position is narrower than the universal claim",
+        "C": "Fiscal Policy: the concept is purely statutory, not constitutional",
+        "D": "Fiscal Policy: the concept was abolished after a constitutional amendment"
+      },
+      "answer": "A",
+      "explanation": "Option A is correct for Fiscal Policy. Option B is the classic trap — it sounds authoritative but collapses on a single definitional mismatch UPSC examiners design into Economy items.",
+      "elimination_path": "NONE",
+      "diagnoses": [
+        "fiscal_policy",
+        "economy",
+        "baseline_seed"
+      ]
+    },
+    {
+      "question_id": "P01-ECO-057",
+      "num": 57,
+      "subject": "Economy",
+      "topic": "Banking",
+      "subtopic": "Banking — drill variant 9",
+      "format": "statements_count",
+      "statements": [
+        "Statement 1: Banking has a direct constitutional or policy anchor relevant to UPSC Prelims.",
+        "Statement 2: A common trap in Economy questions is confusing Banking with an adjacent concept.",
+        "Statement 3: The 'only / all / never' extreme in distractors often signals a false statement in Banking."
+      ],
+      "difficulty": "Easy",
+      "expected_time_sec": 50,
+      "text": "Consider the following statements: How many of the above statements are correct?",
+      "options": {
+        "A": "Only one",
+        "B": "Only two",
+        "C": "All three",
+        "D": "None"
+      },
+      "answer": "B",
+      "explanation": "Option B is correct for Banking. Option A is the classic trap — it sounds authoritative but collapses on a single definitional mismatch UPSC examiners design into Economy items.",
+      "elimination_path": "Eliminate options with absolute words ('only', 'all', 'never') first — UPSC rarely rewards universals in Economy. Between the survivors, the pair-logic in statement 2 vs 3 usually leaves B as the only internally consistent choice.",
+      "diagnoses": [
+        "banking",
+        "economy",
+        "baseline_seed"
+      ]
+    },
+    {
+      "question_id": "P01-ECO-058",
+      "num": 58,
+      "subject": "Economy",
+      "topic": "Inflation",
+      "subtopic": "Inflation — drill variant 10",
+      "format": "assertion_reason",
+      "statements": [
+        "Assertion (A): Inflation is directly linked to a constitutional or statutory provision tested in Prelims.",
+        "Reason (R): The linkage is established through a landmark judgment or committee report on Inflation."
+      ],
+      "difficulty": "Medium",
+      "expected_time_sec": 75,
+      "text": "In the context of the following, consider Assertion (A) and Reason (R):",
+      "options": {
+        "A": "Both A and R are correct and R is the correct explanation of A",
+        "B": "Both A and R are correct but R is NOT the correct explanation of A",
+        "C": "A is correct but R is incorrect",
+        "D": "A is incorrect but R is correct"
+      },
+      "answer": "C",
+      "explanation": "Option C is correct for Inflation. Option A is the classic trap — it sounds authoritative but collapses on a single definitional mismatch UPSC examiners design into Economy items.",
+      "elimination_path": "Eliminate options with absolute words ('only', 'all', 'never') first — UPSC rarely rewards universals in Economy. Between the survivors, the pair-logic in statement 2 vs 3 usually leaves C as the only internally consistent choice.",
+      "diagnoses": [
+        "inflation",
+        "economy",
+        "baseline_seed"
+      ]
+    },
+    {
+      "question_id": "P01-ECO-059",
+      "num": 59,
+      "subject": "Economy",
+      "topic": "External Sector",
+      "subtopic": "External Sector — drill variant 11",
+      "format": "match_pairs",
+      "statements": [
+        "List-I (Concept) — 1. External Sector A  2. External Sector B  3. External Sector C",
+        "List-II (Feature) — 1. Feature X  2. Feature Y  3. Feature Z"
+      ],
+      "difficulty": "Medium",
+      "expected_time_sec": 75,
+      "text": "Consider the following pairs (List-I and List-II): How many pairs are correctly matched?",
+      "options": {
+        "A": "Only one",
+        "B": "Only two",
+        "C": "All three",
+        "D": "None"
+      },
+      "answer": "D",
+      "explanation": "Option D is correct for External Sector. Option A is the classic trap — it sounds authoritative but collapses on a single definitional mismatch UPSC examiners design into Economy items.",
+      "elimination_path": "Eliminate options with absolute words ('only', 'all', 'never') first — UPSC rarely rewards universals in Economy. Between the survivors, the pair-logic in statement 2 vs 3 usually leaves D as the only internally consistent choice.",
+      "diagnoses": [
+        "external_sector",
+        "economy",
+        "baseline_seed"
+      ]
+    },
+    {
+      "question_id": "P01-ECO-060",
+      "num": 60,
+      "subject": "Economy",
+      "topic": "Agriculture Economy",
+      "subtopic": "Agriculture Economy — drill variant 12",
+      "format": "single",
+      "difficulty": "Hard",
+      "expected_time_sec": 100,
+      "text": "With reference to Agriculture Economy in Economy, which of the following is most accurate?",
+      "options": {
+        "A": "Agriculture Economy: the provision applies universally without exception",
+        "B": "Agriculture Economy: the correct position is narrower than the universal claim",
+        "C": "Agriculture Economy: the concept is purely statutory, not constitutional",
+        "D": "Agriculture Economy: the concept was abolished after a constitutional amendment"
+      },
+      "answer": "A",
+      "explanation": "Option A is correct for Agriculture Economy. Option B is the classic trap — it sounds authoritative but collapses on a single definitional mismatch UPSC examiners design into Economy items.",
+      "elimination_path": "Eliminate options with absolute words ('only', 'all', 'never') first — UPSC rarely rewards universals in Economy. Between the survivors, the pair-logic in statement 2 vs 3 usually leaves A as the only internally consistent choice.",
+      "diagnoses": [
+        "agriculture_economy",
+        "economy",
+        "baseline_seed"
+      ]
+    },
+    {
+      "question_id": "P01-ECO-061",
+      "num": 61,
+      "subject": "Economy",
+      "topic": "Monetary Policy",
+      "subtopic": "Monetary Policy — drill variant 13",
+      "format": "statements_count",
+      "statements": [
+        "Statement 1: Monetary Policy has a direct constitutional or policy anchor relevant to UPSC Prelims.",
+        "Statement 2: A common trap in Economy questions is confusing Monetary Policy with an adjacent concept.",
+        "Statement 3: The 'only / all / never' extreme in distractors often signals a false statement in Monetary Policy."
+      ],
+      "difficulty": "Medium",
+      "expected_time_sec": 75,
+      "text": "Consider the following statements: How many of the above statements are correct?",
+      "options": {
+        "A": "Only one",
+        "B": "Only two",
+        "C": "All three",
+        "D": "None"
+      },
+      "answer": "B",
+      "explanation": "Option B is correct for Monetary Policy. Option A is the classic trap — it sounds authoritative but collapses on a single definitional mismatch UPSC examiners design into Economy items.",
+      "elimination_path": "Eliminate options with absolute words ('only', 'all', 'never') first — UPSC rarely rewards universals in Economy. Between the survivors, the pair-logic in statement 2 vs 3 usually leaves B as the only internally consistent choice.",
+      "diagnoses": [
+        "monetary_policy",
+        "economy",
+        "baseline_seed"
+      ]
+    },
+    {
+      "question_id": "P01-ECO-062",
+      "num": 62,
+      "subject": "Economy",
+      "topic": "Fiscal Policy",
+      "subtopic": "Fiscal Policy — drill variant 14",
+      "format": "assertion_reason",
+      "statements": [
+        "Assertion (A): Fiscal Policy is directly linked to a constitutional or statutory provision tested in Prelims.",
+        "Reason (R): The linkage is established through a landmark judgment or committee report on Fiscal Policy."
+      ],
+      "difficulty": "Medium",
+      "expected_time_sec": 75,
+      "text": "In the context of the following, consider Assertion (A) and Reason (R):",
+      "options": {
+        "A": "Both A and R are correct and R is the correct explanation of A",
+        "B": "Both A and R are correct but R is NOT the correct explanation of A",
+        "C": "A is correct but R is incorrect",
+        "D": "A is incorrect but R is correct"
+      },
+      "answer": "C",
+      "explanation": "Option C is correct for Fiscal Policy. Option A is the classic trap — it sounds authoritative but collapses on a single definitional mismatch UPSC examiners design into Economy items.",
+      "elimination_path": "Eliminate options with absolute words ('only', 'all', 'never') first — UPSC rarely rewards universals in Economy. Between the survivors, the pair-logic in statement 2 vs 3 usually leaves C as the only internally consistent choice.",
+      "diagnoses": [
+        "fiscal_policy",
+        "economy",
+        "baseline_seed"
+      ]
+    },
+    {
+      "question_id": "P01-ENV-063",
+      "num": 63,
+      "subject": "Environment",
+      "topic": "Biodiversity",
+      "subtopic": "Biodiversity — drill variant 1",
+      "format": "match_pairs",
+      "statements": [
+        "List-I (Concept) — 1. Biodiversity A  2. Biodiversity B  3. Biodiversity C",
+        "List-II (Feature) — 1. Feature X  2. Feature Y  3. Feature Z"
+      ],
+      "difficulty": "Easy",
+      "expected_time_sec": 50,
+      "text": "Consider the following pairs (List-I and List-II): How many pairs are correctly matched?",
+      "options": {
+        "A": "Only one",
+        "B": "Only two",
+        "C": "All three",
+        "D": "None"
+      },
+      "answer": "D",
+      "explanation": "Option D is correct for Biodiversity. Option A is the classic trap — it sounds authoritative but collapses on a single definitional mismatch UPSC examiners design into Environment items.",
+      "elimination_path": "NONE",
+      "diagnoses": [
+        "biodiversity",
+        "environment",
+        "baseline_seed"
+      ]
+    },
+    {
+      "question_id": "P01-ENV-064",
+      "num": 64,
+      "subject": "Environment",
+      "topic": "Climate Change",
+      "subtopic": "Climate Change — drill variant 2",
+      "format": "single",
+      "difficulty": "Medium",
+      "expected_time_sec": 75,
+      "text": "With reference to Climate Change in Environment, which of the following is most accurate?",
+      "options": {
+        "A": "Climate Change: the provision applies universally without exception",
+        "B": "Climate Change: the correct position is narrower than the universal claim",
+        "C": "Climate Change: the concept is purely statutory, not constitutional",
+        "D": "Climate Change: the concept was abolished after a constitutional amendment"
+      },
+      "answer": "A",
+      "explanation": "Option A is correct for Climate Change. Option B is the classic trap — it sounds authoritative but collapses on a single definitional mismatch UPSC examiners design into Environment items.",
+      "elimination_path": "Eliminate options with absolute words ('only', 'all', 'never') first — UPSC rarely rewards universals in Environment. Between the survivors, the pair-logic in statement 2 vs 3 usually leaves A as the only internally consistent choice.",
+      "diagnoses": [
+        "climate_change",
+        "environment",
+        "baseline_seed"
+      ]
+    },
+    {
+      "question_id": "P01-ENV-065",
+      "num": 65,
+      "subject": "Environment",
+      "topic": "Pollution",
+      "subtopic": "Pollution — drill variant 3",
+      "format": "statements_count",
+      "statements": [
+        "Statement 1: Pollution has a direct constitutional or policy anchor relevant to UPSC Prelims.",
+        "Statement 2: A common trap in Environment questions is confusing Pollution with an adjacent concept.",
+        "Statement 3: The 'only / all / never' extreme in distractors often signals a false statement in Pollution."
+      ],
+      "difficulty": "Hard",
+      "expected_time_sec": 100,
+      "text": "Consider the following statements: How many of the above statements are correct?",
+      "options": {
+        "A": "Only one",
+        "B": "Only two",
+        "C": "All three",
+        "D": "None"
+      },
+      "answer": "B",
+      "explanation": "Option B is correct for Pollution. Option A is the classic trap — it sounds authoritative but collapses on a single definitional mismatch UPSC examiners design into Environment items.",
+      "elimination_path": "Eliminate options with absolute words ('only', 'all', 'never') first — UPSC rarely rewards universals in Environment. Between the survivors, the pair-logic in statement 2 vs 3 usually leaves B as the only internally consistent choice.",
+      "diagnoses": [
+        "pollution",
+        "environment",
+        "baseline_seed"
+      ]
+    },
+    {
+      "question_id": "P01-ENV-066",
+      "num": 66,
+      "subject": "Environment",
+      "topic": "Conservation",
+      "subtopic": "Conservation — drill variant 4",
+      "format": "assertion_reason",
+      "statements": [
+        "Assertion (A): Conservation is directly linked to a constitutional or statutory provision tested in Prelims.",
+        "Reason (R): The linkage is established through a landmark judgment or committee report on Conservation."
+      ],
+      "difficulty": "Easy",
+      "expected_time_sec": 50,
+      "text": "In the context of the following, consider Assertion (A) and Reason (R):",
+      "options": {
+        "A": "Both A and R are correct and R is the correct explanation of A",
+        "B": "Both A and R are correct but R is NOT the correct explanation of A",
+        "C": "A is correct but R is incorrect",
+        "D": "A is incorrect but R is correct"
+      },
+      "answer": "C",
+      "explanation": "Option C is correct for Conservation. Option A is the classic trap — it sounds authoritative but collapses on a single definitional mismatch UPSC examiners design into Environment items.",
+      "elimination_path": "Eliminate options with absolute words ('only', 'all', 'never') first — UPSC rarely rewards universals in Environment. Between the survivors, the pair-logic in statement 2 vs 3 usually leaves C as the only internally consistent choice.",
+      "diagnoses": [
+        "conservation",
+        "environment",
+        "baseline_seed"
+      ]
+    },
+    {
+      "question_id": "P01-ENV-067",
+      "num": 67,
+      "subject": "Environment",
+      "topic": "International Conventions",
+      "subtopic": "International Conventions — drill variant 5",
+      "format": "match_pairs",
+      "statements": [
+        "List-I (Concept) — 1. International Conventions A  2. International Conventions B  3. International Conventions C",
+        "List-II (Feature) — 1. Feature X  2. Feature Y  3. Feature Z"
+      ],
+      "difficulty": "Medium",
+      "expected_time_sec": 75,
+      "text": "Consider the following pairs (List-I and List-II): How many pairs are correctly matched?",
+      "options": {
+        "A": "Only one",
+        "B": "Only two",
+        "C": "All three",
+        "D": "None"
+      },
+      "answer": "D",
+      "explanation": "Option D is correct for International Conventions. Option A is the classic trap — it sounds authoritative but collapses on a single definitional mismatch UPSC examiners design into Environment items.",
+      "elimination_path": "Eliminate options with absolute words ('only', 'all', 'never') first — UPSC rarely rewards universals in Environment. Between the survivors, the pair-logic in statement 2 vs 3 usually leaves D as the only internally consistent choice.",
+      "diagnoses": [
+        "international_conventions",
+        "environment",
+        "baseline_seed"
+      ]
+    },
+    {
+      "question_id": "P01-ENV-068",
+      "num": 68,
+      "subject": "Environment",
+      "topic": "Ecosystems",
+      "subtopic": "Ecosystems — drill variant 6",
+      "format": "single",
+      "difficulty": "Medium",
+      "expected_time_sec": 75,
+      "text": "With reference to Ecosystems in Environment, which of the following is most accurate?",
+      "options": {
+        "A": "Ecosystems: the provision applies universally without exception",
+        "B": "Ecosystems: the correct position is narrower than the universal claim",
+        "C": "Ecosystems: the concept is purely statutory, not constitutional",
+        "D": "Ecosystems: the concept was abolished after a constitutional amendment"
+      },
+      "answer": "A",
+      "explanation": "Option A is correct for Ecosystems. Option B is the classic trap — it sounds authoritative but collapses on a single definitional mismatch UPSC examiners design into Environment items.",
+      "elimination_path": "Eliminate options with absolute words ('only', 'all', 'never') first — UPSC rarely rewards universals in Environment. Between the survivors, the pair-logic in statement 2 vs 3 usually leaves A as the only internally consistent choice.",
+      "diagnoses": [
+        "ecosystems",
+        "environment",
+        "baseline_seed"
+      ]
+    },
+    {
+      "question_id": "P01-ENV-069",
+      "num": 69,
+      "subject": "Environment",
+      "topic": "Biodiversity",
+      "subtopic": "Biodiversity — drill variant 7",
+      "format": "statements_count",
+      "statements": [
+        "Statement 1: Biodiversity has a direct constitutional or policy anchor relevant to UPSC Prelims.",
+        "Statement 2: A common trap in Environment questions is confusing Biodiversity with an adjacent concept.",
+        "Statement 3: The 'only / all / never' extreme in distractors often signals a false statement in Biodiversity."
+      ],
+      "difficulty": "Easy",
+      "expected_time_sec": 50,
+      "text": "Consider the following statements: How many of the above statements are correct?",
+      "options": {
+        "A": "Only one",
+        "B": "Only two",
+        "C": "All three",
+        "D": "None"
+      },
+      "answer": "B",
+      "explanation": "Option B is correct for Biodiversity. Option A is the classic trap — it sounds authoritative but collapses on a single definitional mismatch UPSC examiners design into Environment items.",
+      "elimination_path": "Eliminate options with absolute words ('only', 'all', 'never') first — UPSC rarely rewards universals in Environment. Between the survivors, the pair-logic in statement 2 vs 3 usually leaves B as the only internally consistent choice.",
+      "diagnoses": [
+        "biodiversity",
+        "environment",
+        "baseline_seed"
+      ]
+    },
+    {
+      "question_id": "P01-ENV-070",
+      "num": 70,
+      "subject": "Environment",
+      "topic": "Climate Change",
+      "subtopic": "Climate Change — drill variant 8",
+      "format": "assertion_reason",
+      "statements": [
+        "Assertion (A): Climate Change is directly linked to a constitutional or statutory provision tested in Prelims.",
+        "Reason (R): The linkage is established through a landmark judgment or committee report on Climate Change."
+      ],
+      "difficulty": "Hard",
+      "expected_time_sec": 100,
+      "text": "In the context of the following, consider Assertion (A) and Reason (R):",
+      "options": {
+        "A": "Both A and R are correct and R is the correct explanation of A",
+        "B": "Both A and R are correct but R is NOT the correct explanation of A",
+        "C": "A is correct but R is incorrect",
+        "D": "A is incorrect but R is correct"
+      },
+      "answer": "C",
+      "explanation": "Option C is correct for Climate Change. Option A is the classic trap — it sounds authoritative but collapses on a single definitional mismatch UPSC examiners design into Environment items.",
+      "elimination_path": "NONE",
+      "diagnoses": [
+        "climate_change",
+        "environment",
+        "baseline_seed"
+      ]
+    },
+    {
+      "question_id": "P01-ENV-071",
+      "num": 71,
+      "subject": "Environment",
+      "topic": "Pollution",
+      "subtopic": "Pollution — drill variant 9",
+      "format": "match_pairs",
+      "statements": [
+        "List-I (Concept) — 1. Pollution A  2. Pollution B  3. Pollution C",
+        "List-II (Feature) — 1. Feature X  2. Feature Y  3. Feature Z"
+      ],
+      "difficulty": "Medium",
+      "expected_time_sec": 75,
+      "text": "Consider the following pairs (List-I and List-II): How many pairs are correctly matched?",
+      "options": {
+        "A": "Only one",
+        "B": "Only two",
+        "C": "All three",
+        "D": "None"
+      },
+      "answer": "D",
+      "explanation": "Option D is correct for Pollution. Option A is the classic trap — it sounds authoritative but collapses on a single definitional mismatch UPSC examiners design into Environment items.",
+      "elimination_path": "Eliminate options with absolute words ('only', 'all', 'never') first — UPSC rarely rewards universals in Environment. Between the survivors, the pair-logic in statement 2 vs 3 usually leaves D as the only internally consistent choice.",
+      "diagnoses": [
+        "pollution",
+        "environment",
+        "baseline_seed"
+      ]
+    },
+    {
+      "question_id": "P01-ENV-072",
+      "num": 72,
+      "subject": "Environment",
+      "topic": "Conservation",
+      "subtopic": "Conservation — drill variant 10",
+      "format": "single",
+      "difficulty": "Easy",
+      "expected_time_sec": 50,
+      "text": "With reference to Conservation in Environment, which of the following is most accurate?",
+      "options": {
+        "A": "Conservation: the provision applies universally without exception",
+        "B": "Conservation: the correct position is narrower than the universal claim",
+        "C": "Conservation: the concept is purely statutory, not constitutional",
+        "D": "Conservation: the concept was abolished after a constitutional amendment"
+      },
+      "answer": "A",
+      "explanation": "Option A is correct for Conservation. Option B is the classic trap — it sounds authoritative but collapses on a single definitional mismatch UPSC examiners design into Environment items.",
+      "elimination_path": "Eliminate options with absolute words ('only', 'all', 'never') first — UPSC rarely rewards universals in Environment. Between the survivors, the pair-logic in statement 2 vs 3 usually leaves A as the only internally consistent choice.",
+      "diagnoses": [
+        "conservation",
+        "environment",
+        "baseline_seed"
+      ]
+    },
+    {
+      "question_id": "P01-ENV-073",
+      "num": 73,
+      "subject": "Environment",
+      "topic": "International Conventions",
+      "subtopic": "International Conventions — drill variant 11",
+      "format": "statements_count",
+      "statements": [
+        "Statement 1: International Conventions has a direct constitutional or policy anchor relevant to UPSC Prelims.",
+        "Statement 2: A common trap in Environment questions is confusing International Conventions with an adjacent concept.",
+        "Statement 3: The 'only / all / never' extreme in distractors often signals a false statement in International Conventions."
+      ],
+      "difficulty": "Medium",
+      "expected_time_sec": 75,
+      "text": "Consider the following statements: How many of the above statements are correct?",
+      "options": {
+        "A": "Only one",
+        "B": "Only two",
+        "C": "All three",
+        "D": "None"
+      },
+      "answer": "B",
+      "explanation": "Option B is correct for International Conventions. Option A is the classic trap — it sounds authoritative but collapses on a single definitional mismatch UPSC examiners design into Environment items.",
+      "elimination_path": "Eliminate options with absolute words ('only', 'all', 'never') first — UPSC rarely rewards universals in Environment. Between the survivors, the pair-logic in statement 2 vs 3 usually leaves B as the only internally consistent choice.",
+      "diagnoses": [
+        "international_conventions",
+        "environment",
+        "baseline_seed"
+      ]
+    },
+    {
+      "question_id": "P01-ENV-074",
+      "num": 74,
+      "subject": "Environment",
+      "topic": "Ecosystems",
+      "subtopic": "Ecosystems — drill variant 12",
+      "format": "assertion_reason",
+      "statements": [
+        "Assertion (A): Ecosystems is directly linked to a constitutional or statutory provision tested in Prelims.",
+        "Reason (R): The linkage is established through a landmark judgment or committee report on Ecosystems."
+      ],
+      "difficulty": "Medium",
+      "expected_time_sec": 75,
+      "text": "In the context of the following, consider Assertion (A) and Reason (R):",
+      "options": {
+        "A": "Both A and R are correct and R is the correct explanation of A",
+        "B": "Both A and R are correct but R is NOT the correct explanation of A",
+        "C": "A is correct but R is incorrect",
+        "D": "A is incorrect but R is correct"
+      },
+      "answer": "C",
+      "explanation": "Option C is correct for Ecosystems. Option A is the classic trap — it sounds authoritative but collapses on a single definitional mismatch UPSC examiners design into Environment items.",
+      "elimination_path": "Eliminate options with absolute words ('only', 'all', 'never') first — UPSC rarely rewards universals in Environment. Between the survivors, the pair-logic in statement 2 vs 3 usually leaves C as the only internally consistent choice.",
+      "diagnoses": [
+        "ecosystems",
+        "environment",
+        "baseline_seed"
+      ]
+    },
+    {
+      "question_id": "P01-ENV-075",
+      "num": 75,
+      "subject": "Environment",
+      "topic": "Biodiversity",
+      "subtopic": "Biodiversity — drill variant 13",
+      "format": "match_pairs",
+      "statements": [
+        "List-I (Concept) — 1. Biodiversity A  2. Biodiversity B  3. Biodiversity C",
+        "List-II (Feature) — 1. Feature X  2. Feature Y  3. Feature Z"
+      ],
+      "difficulty": "Hard",
+      "expected_time_sec": 100,
+      "text": "Consider the following pairs (List-I and List-II): How many pairs are correctly matched?",
+      "options": {
+        "A": "Only one",
+        "B": "Only two",
+        "C": "All three",
+        "D": "None"
+      },
+      "answer": "D",
+      "explanation": "Option D is correct for Biodiversity. Option A is the classic trap — it sounds authoritative but collapses on a single definitional mismatch UPSC examiners design into Environment items.",
+      "elimination_path": "Eliminate options with absolute words ('only', 'all', 'never') first — UPSC rarely rewards universals in Environment. Between the survivors, the pair-logic in statement 2 vs 3 usually leaves D as the only internally consistent choice.",
+      "diagnoses": [
+        "biodiversity",
+        "environment",
+        "baseline_seed"
+      ]
+    },
+    {
+      "question_id": "P01-ENV-076",
+      "num": 76,
+      "subject": "Environment",
+      "topic": "Climate Change",
+      "subtopic": "Climate Change — drill variant 14",
+      "format": "single",
+      "difficulty": "Medium",
+      "expected_time_sec": 75,
+      "text": "With reference to Climate Change in Environment, which of the following is most accurate?",
+      "options": {
+        "A": "Climate Change: the provision applies universally without exception",
+        "B": "Climate Change: the correct position is narrower than the universal claim",
+        "C": "Climate Change: the concept is purely statutory, not constitutional",
+        "D": "Climate Change: the concept was abolished after a constitutional amendment"
+      },
+      "answer": "A",
+      "explanation": "Option A is correct for Climate Change. Option B is the classic trap — it sounds authoritative but collapses on a single definitional mismatch UPSC examiners design into Environment items.",
+      "elimination_path": "Eliminate options with absolute words ('only', 'all', 'never') first — UPSC rarely rewards universals in Environment. Between the survivors, the pair-logic in statement 2 vs 3 usually leaves A as the only internally consistent choice.",
+      "diagnoses": [
+        "climate_change",
+        "environment",
+        "baseline_seed"
+      ]
+    },
+    {
+      "question_id": "P01-SCI-077",
+      "num": 77,
+      "subject": "SciTech",
+      "topic": "Space",
+      "subtopic": "Space — drill variant 1",
+      "format": "statements_count",
+      "statements": [
+        "Statement 1: Space has a direct constitutional or policy anchor relevant to UPSC Prelims.",
+        "Statement 2: A common trap in SciTech questions is confusing Space with an adjacent concept.",
+        "Statement 3: The 'only / all / never' extreme in distractors often signals a false statement in Space."
+      ],
+      "difficulty": "Medium",
+      "expected_time_sec": 75,
+      "text": "Consider the following statements: How many of the above statements are correct?",
+      "options": {
+        "A": "Only one",
+        "B": "Only two",
+        "C": "All three",
+        "D": "None"
+      },
+      "answer": "B",
+      "explanation": "Option B is correct for Space. Option A is the classic trap — it sounds authoritative but collapses on a single definitional mismatch UPSC examiners design into SciTech items.",
+      "elimination_path": "NONE",
+      "diagnoses": [
+        "space",
+        "scitech",
+        "baseline_seed"
+      ]
+    },
+    {
+      "question_id": "P01-SCI-078",
+      "num": 78,
+      "subject": "SciTech",
+      "topic": "Biotechnology",
+      "subtopic": "Biotechnology — drill variant 2",
+      "format": "assertion_reason",
+      "statements": [
+        "Assertion (A): Biotechnology is directly linked to a constitutional or statutory provision tested in Prelims.",
+        "Reason (R): The linkage is established through a landmark judgment or committee report on Biotechnology."
+      ],
+      "difficulty": "Easy",
+      "expected_time_sec": 50,
+      "text": "In the context of the following, consider Assertion (A) and Reason (R):",
+      "options": {
+        "A": "Both A and R are correct and R is the correct explanation of A",
+        "B": "Both A and R are correct but R is NOT the correct explanation of A",
+        "C": "A is correct but R is incorrect",
+        "D": "A is incorrect but R is correct"
+      },
+      "answer": "C",
+      "explanation": "Option C is correct for Biotechnology. Option A is the classic trap — it sounds authoritative but collapses on a single definitional mismatch UPSC examiners design into SciTech items.",
+      "elimination_path": "Eliminate options with absolute words ('only', 'all', 'never') first — UPSC rarely rewards universals in SciTech. Between the survivors, the pair-logic in statement 2 vs 3 usually leaves C as the only internally consistent choice.",
+      "diagnoses": [
+        "biotechnology",
+        "scitech",
+        "baseline_seed"
+      ]
+    },
+    {
+      "question_id": "P01-SCI-079",
+      "num": 79,
+      "subject": "SciTech",
+      "topic": "IT & AI",
+      "subtopic": "IT & AI — drill variant 3",
+      "format": "match_pairs",
+      "statements": [
+        "List-I (Concept) — 1. IT & AI A  2. IT & AI B  3. IT & AI C",
+        "List-II (Feature) — 1. Feature X  2. Feature Y  3. Feature Z"
+      ],
+      "difficulty": "Medium",
+      "expected_time_sec": 75,
+      "text": "Consider the following pairs (List-I and List-II): How many pairs are correctly matched?",
+      "options": {
+        "A": "Only one",
+        "B": "Only two",
+        "C": "All three",
+        "D": "None"
+      },
+      "answer": "D",
+      "explanation": "Option D is correct for IT & AI. Option A is the classic trap — it sounds authoritative but collapses on a single definitional mismatch UPSC examiners design into SciTech items.",
+      "elimination_path": "Eliminate options with absolute words ('only', 'all', 'never') first — UPSC rarely rewards universals in SciTech. Between the survivors, the pair-logic in statement 2 vs 3 usually leaves D as the only internally consistent choice.",
+      "diagnoses": [
+        "it_&_ai",
+        "scitech",
+        "baseline_seed"
+      ]
+    },
+    {
+      "question_id": "P01-SCI-080",
+      "num": 80,
+      "subject": "SciTech",
+      "topic": "Defence Tech",
+      "subtopic": "Defence Tech — drill variant 4",
+      "format": "single",
+      "difficulty": "Hard",
+      "expected_time_sec": 100,
+      "text": "With reference to Defence Tech in SciTech, which of the following is most accurate?",
+      "options": {
+        "A": "Defence Tech: the provision applies universally without exception",
+        "B": "Defence Tech: the correct position is narrower than the universal claim",
+        "C": "Defence Tech: the concept is purely statutory, not constitutional",
+        "D": "Defence Tech: the concept was abolished after a constitutional amendment"
+      },
+      "answer": "A",
+      "explanation": "Option A is correct for Defence Tech. Option B is the classic trap — it sounds authoritative but collapses on a single definitional mismatch UPSC examiners design into SciTech items.",
+      "elimination_path": "Eliminate options with absolute words ('only', 'all', 'never') first — UPSC rarely rewards universals in SciTech. Between the survivors, the pair-logic in statement 2 vs 3 usually leaves A as the only internally consistent choice.",
+      "diagnoses": [
+        "defence_tech",
+        "scitech",
+        "baseline_seed"
+      ]
+    },
+    {
+      "question_id": "P01-SCI-081",
+      "num": 81,
+      "subject": "SciTech",
+      "topic": "Health Science",
+      "subtopic": "Health Science — drill variant 5",
+      "format": "statements_count",
+      "statements": [
+        "Statement 1: Health Science has a direct constitutional or policy anchor relevant to UPSC Prelims.",
+        "Statement 2: A common trap in SciTech questions is confusing Health Science with an adjacent concept.",
+        "Statement 3: The 'only / all / never' extreme in distractors often signals a false statement in Health Science."
+      ],
+      "difficulty": "Easy",
+      "expected_time_sec": 50,
+      "text": "Consider the following statements: How many of the above statements are correct?",
+      "options": {
+        "A": "Only one",
+        "B": "Only two",
+        "C": "All three",
+        "D": "None"
+      },
+      "answer": "B",
+      "explanation": "Option B is correct for Health Science. Option A is the classic trap — it sounds authoritative but collapses on a single definitional mismatch UPSC examiners design into SciTech items.",
+      "elimination_path": "Eliminate options with absolute words ('only', 'all', 'never') first — UPSC rarely rewards universals in SciTech. Between the survivors, the pair-logic in statement 2 vs 3 usually leaves B as the only internally consistent choice.",
+      "diagnoses": [
+        "health_science",
+        "scitech",
+        "baseline_seed"
+      ]
+    },
+    {
+      "question_id": "P01-SCI-082",
+      "num": 82,
+      "subject": "SciTech",
+      "topic": "Energy",
+      "subtopic": "Energy — drill variant 6",
+      "format": "assertion_reason",
+      "statements": [
+        "Assertion (A): Energy is directly linked to a constitutional or statutory provision tested in Prelims.",
+        "Reason (R): The linkage is established through a landmark judgment or committee report on Energy."
+      ],
+      "difficulty": "Medium",
+      "expected_time_sec": 75,
+      "text": "In the context of the following, consider Assertion (A) and Reason (R):",
+      "options": {
+        "A": "Both A and R are correct and R is the correct explanation of A",
+        "B": "Both A and R are correct but R is NOT the correct explanation of A",
+        "C": "A is correct but R is incorrect",
+        "D": "A is incorrect but R is correct"
+      },
+      "answer": "C",
+      "explanation": "Option C is correct for Energy. Option A is the classic trap — it sounds authoritative but collapses on a single definitional mismatch UPSC examiners design into SciTech items.",
+      "elimination_path": "Eliminate options with absolute words ('only', 'all', 'never') first — UPSC rarely rewards universals in SciTech. Between the survivors, the pair-logic in statement 2 vs 3 usually leaves C as the only internally consistent choice.",
+      "diagnoses": [
+        "energy",
+        "scitech",
+        "baseline_seed"
+      ]
+    },
+    {
+      "question_id": "P01-SCI-083",
+      "num": 83,
+      "subject": "SciTech",
+      "topic": "Space",
+      "subtopic": "Space — drill variant 7",
+      "format": "match_pairs",
+      "statements": [
+        "List-I (Concept) — 1. Space A  2. Space B  3. Space C",
+        "List-II (Feature) — 1. Feature X  2. Feature Y  3. Feature Z"
+      ],
+      "difficulty": "Medium",
+      "expected_time_sec": 75,
+      "text": "Consider the following pairs (List-I and List-II): How many pairs are correctly matched?",
+      "options": {
+        "A": "Only one",
+        "B": "Only two",
+        "C": "All three",
+        "D": "None"
+      },
+      "answer": "D",
+      "explanation": "Option D is correct for Space. Option A is the classic trap — it sounds authoritative but collapses on a single definitional mismatch UPSC examiners design into SciTech items.",
+      "elimination_path": "Eliminate options with absolute words ('only', 'all', 'never') first — UPSC rarely rewards universals in SciTech. Between the survivors, the pair-logic in statement 2 vs 3 usually leaves D as the only internally consistent choice.",
+      "diagnoses": [
+        "space",
+        "scitech",
+        "baseline_seed"
+      ]
+    },
+    {
+      "question_id": "P01-SCI-084",
+      "num": 84,
+      "subject": "SciTech",
+      "topic": "Biotechnology",
+      "subtopic": "Biotechnology — drill variant 8",
+      "format": "single",
+      "difficulty": "Easy",
+      "expected_time_sec": 50,
+      "text": "With reference to Biotechnology in SciTech, which of the following is most accurate?",
+      "options": {
+        "A": "Biotechnology: the provision applies universally without exception",
+        "B": "Biotechnology: the correct position is narrower than the universal claim",
+        "C": "Biotechnology: the concept is purely statutory, not constitutional",
+        "D": "Biotechnology: the concept was abolished after a constitutional amendment"
+      },
+      "answer": "A",
+      "explanation": "Option A is correct for Biotechnology. Option B is the classic trap — it sounds authoritative but collapses on a single definitional mismatch UPSC examiners design into SciTech items.",
+      "elimination_path": "NONE",
+      "diagnoses": [
+        "biotechnology",
+        "scitech",
+        "baseline_seed"
+      ]
+    },
+    {
+      "question_id": "P01-SCI-085",
+      "num": 85,
+      "subject": "SciTech",
+      "topic": "IT & AI",
+      "subtopic": "IT & AI — drill variant 9",
+      "format": "statements_count",
+      "statements": [
+        "Statement 1: IT & AI has a direct constitutional or policy anchor relevant to UPSC Prelims.",
+        "Statement 2: A common trap in SciTech questions is confusing IT & AI with an adjacent concept.",
+        "Statement 3: The 'only / all / never' extreme in distractors often signals a false statement in IT & AI."
+      ],
+      "difficulty": "Hard",
+      "expected_time_sec": 100,
+      "text": "Consider the following statements: How many of the above statements are correct?",
+      "options": {
+        "A": "Only one",
+        "B": "Only two",
+        "C": "All three",
+        "D": "None"
+      },
+      "answer": "B",
+      "explanation": "Option B is correct for IT & AI. Option A is the classic trap — it sounds authoritative but collapses on a single definitional mismatch UPSC examiners design into SciTech items.",
+      "elimination_path": "Eliminate options with absolute words ('only', 'all', 'never') first — UPSC rarely rewards universals in SciTech. Between the survivors, the pair-logic in statement 2 vs 3 usually leaves B as the only internally consistent choice.",
+      "diagnoses": [
+        "it_&_ai",
+        "scitech",
+        "baseline_seed"
+      ]
+    },
+    {
+      "question_id": "P01-SCI-086",
+      "num": 86,
+      "subject": "SciTech",
+      "topic": "Defence Tech",
+      "subtopic": "Defence Tech — drill variant 10",
+      "format": "assertion_reason",
+      "statements": [
+        "Assertion (A): Defence Tech is directly linked to a constitutional or statutory provision tested in Prelims.",
+        "Reason (R): The linkage is established through a landmark judgment or committee report on Defence Tech."
+      ],
+      "difficulty": "Medium",
+      "expected_time_sec": 75,
+      "text": "In the context of the following, consider Assertion (A) and Reason (R):",
+      "options": {
+        "A": "Both A and R are correct and R is the correct explanation of A",
+        "B": "Both A and R are correct but R is NOT the correct explanation of A",
+        "C": "A is correct but R is incorrect",
+        "D": "A is incorrect but R is correct"
+      },
+      "answer": "C",
+      "explanation": "Option C is correct for Defence Tech. Option A is the classic trap — it sounds authoritative but collapses on a single definitional mismatch UPSC examiners design into SciTech items.",
+      "elimination_path": "Eliminate options with absolute words ('only', 'all', 'never') first — UPSC rarely rewards universals in SciTech. Between the survivors, the pair-logic in statement 2 vs 3 usually leaves C as the only internally consistent choice.",
+      "diagnoses": [
+        "defence_tech",
+        "scitech",
+        "baseline_seed"
+      ]
+    },
+    {
+      "question_id": "P01-CA-087",
+      "num": 87,
+      "subject": "CurrentAffairs",
+      "topic": "Government Schemes",
+      "subtopic": "Government Schemes — drill variant 1",
+      "format": "match_pairs",
+      "statements": [
+        "List-I (Concept) — 1. Government Schemes A  2. Government Schemes B  3. Government Schemes C",
+        "List-II (Feature) — 1. Feature X  2. Feature Y  3. Feature Z"
+      ],
+      "difficulty": "Easy",
+      "expected_time_sec": 50,
+      "text": "Consider the following pairs (List-I and List-II): How many pairs are correctly matched?",
+      "options": {
+        "A": "Only one",
+        "B": "Only two",
+        "C": "All three",
+        "D": "None"
+      },
+      "answer": "D",
+      "explanation": "Option D is correct for Government Schemes. Option A is the classic trap — it sounds authoritative but collapses on a single definitional mismatch UPSC examiners design into CurrentAffairs items.",
+      "elimination_path": "Eliminate options with absolute words ('only', 'all', 'never') first — UPSC rarely rewards universals in CurrentAffairs. Between the survivors, the pair-logic in statement 2 vs 3 usually leaves D as the only internally consistent choice.",
+      "diagnoses": [
+        "government_schemes",
+        "currentaffairs",
+        "baseline_seed"
+      ]
+    },
+    {
+      "question_id": "P01-CA-088",
+      "num": 88,
+      "subject": "CurrentAffairs",
+      "topic": "International Relations",
+      "subtopic": "International Relations — drill variant 2",
+      "format": "single",
+      "difficulty": "Medium",
+      "expected_time_sec": 75,
+      "text": "With reference to International Relations in CurrentAffairs, which of the following is most accurate?",
+      "options": {
+        "A": "International Relations: the provision applies universally without exception",
+        "B": "International Relations: the correct position is narrower than the universal claim",
+        "C": "International Relations: the concept is purely statutory, not constitutional",
+        "D": "International Relations: the concept was abolished after a constitutional amendment"
+      },
+      "answer": "A",
+      "explanation": "Option A is correct for International Relations. Option B is the classic trap — it sounds authoritative but collapses on a single definitional mismatch UPSC examiners design into CurrentAffairs items.",
+      "elimination_path": "Eliminate options with absolute words ('only', 'all', 'never') first — UPSC rarely rewards universals in CurrentAffairs. Between the survivors, the pair-logic in statement 2 vs 3 usually leaves A as the only internally consistent choice.",
+      "diagnoses": [
+        "international_relations",
+        "currentaffairs",
+        "baseline_seed"
+      ]
+    },
+    {
+      "question_id": "P01-CA-089",
+      "num": 89,
+      "subject": "CurrentAffairs",
+      "topic": "Reports & Indices",
+      "subtopic": "Reports & Indices — drill variant 3",
+      "format": "statements_count",
+      "statements": [
+        "Statement 1: Reports & Indices has a direct constitutional or policy anchor relevant to UPSC Prelims.",
+        "Statement 2: A common trap in CurrentAffairs questions is confusing Reports & Indices with an adjacent concept.",
+        "Statement 3: The 'only / all / never' extreme in distractors often signals a false statement in Reports & Indices."
+      ],
+      "difficulty": "Medium",
+      "expected_time_sec": 75,
+      "text": "Consider the following statements: How many of the above statements are correct?",
+      "options": {
+        "A": "Only one",
+        "B": "Only two",
+        "C": "All three",
+        "D": "None"
+      },
+      "answer": "B",
+      "explanation": "Option B is correct for Reports & Indices. Option A is the classic trap — it sounds authoritative but collapses on a single definitional mismatch UPSC examiners design into CurrentAffairs items.",
+      "elimination_path": "Eliminate options with absolute words ('only', 'all', 'never') first — UPSC rarely rewards universals in CurrentAffairs. Between the survivors, the pair-logic in statement 2 vs 3 usually leaves B as the only internally consistent choice.",
+      "diagnoses": [
+        "reports_&_indices",
+        "currentaffairs",
+        "baseline_seed"
+      ]
+    },
+    {
+      "question_id": "P01-CA-090",
+      "num": 90,
+      "subject": "CurrentAffairs",
+      "topic": "Appointments",
+      "subtopic": "Appointments — drill variant 4",
+      "format": "assertion_reason",
+      "statements": [
+        "Assertion (A): Appointments is directly linked to a constitutional or statutory provision tested in Prelims.",
+        "Reason (R): The linkage is established through a landmark judgment or committee report on Appointments."
+      ],
+      "difficulty": "Hard",
+      "expected_time_sec": 100,
+      "text": "In the context of the following, consider Assertion (A) and Reason (R):",
+      "options": {
+        "A": "Both A and R are correct and R is the correct explanation of A",
+        "B": "Both A and R are correct but R is NOT the correct explanation of A",
+        "C": "A is correct but R is incorrect",
+        "D": "A is incorrect but R is correct"
+      },
+      "answer": "C",
+      "explanation": "Option C is correct for Appointments. Option A is the classic trap — it sounds authoritative but collapses on a single definitional mismatch UPSC examiners design into CurrentAffairs items.",
+      "elimination_path": "Eliminate options with absolute words ('only', 'all', 'never') first — UPSC rarely rewards universals in CurrentAffairs. Between the survivors, the pair-logic in statement 2 vs 3 usually leaves C as the only internally consistent choice.",
+      "diagnoses": [
+        "appointments",
+        "currentaffairs",
+        "baseline_seed"
+      ]
+    },
+    {
+      "question_id": "P01-CA-091",
+      "num": 91,
+      "subject": "CurrentAffairs",
+      "topic": "Summits",
+      "subtopic": "Summits — drill variant 5",
+      "format": "match_pairs",
+      "statements": [
+        "List-I (Concept) — 1. Summits A  2. Summits B  3. Summits C",
+        "List-II (Feature) — 1. Feature X  2. Feature Y  3. Feature Z"
+      ],
+      "difficulty": "Medium",
+      "expected_time_sec": 75,
+      "text": "Consider the following pairs (List-I and List-II): How many pairs are correctly matched?",
+      "options": {
+        "A": "Only one",
+        "B": "Only two",
+        "C": "All three",
+        "D": "None"
+      },
+      "answer": "D",
+      "explanation": "Option D is correct for Summits. Option A is the classic trap — it sounds authoritative but collapses on a single definitional mismatch UPSC examiners design into CurrentAffairs items.",
+      "elimination_path": "NONE",
+      "diagnoses": [
+        "summits",
+        "currentaffairs",
+        "baseline_seed"
+      ]
+    },
+    {
+      "question_id": "P01-CA-092",
+      "num": 92,
+      "subject": "CurrentAffairs",
+      "topic": "Legislation",
+      "subtopic": "Legislation — drill variant 6",
+      "format": "single",
+      "difficulty": "Medium",
+      "expected_time_sec": 75,
+      "text": "With reference to Legislation in CurrentAffairs, which of the following is most accurate?",
+      "options": {
+        "A": "Legislation: the provision applies universally without exception",
+        "B": "Legislation: the correct position is narrower than the universal claim",
+        "C": "Legislation: the concept is purely statutory, not constitutional",
+        "D": "Legislation: the concept was abolished after a constitutional amendment"
+      },
+      "answer": "A",
+      "explanation": "Option A is correct for Legislation. Option B is the classic trap — it sounds authoritative but collapses on a single definitional mismatch UPSC examiners design into CurrentAffairs items.",
+      "elimination_path": "Eliminate options with absolute words ('only', 'all', 'never') first — UPSC rarely rewards universals in CurrentAffairs. Between the survivors, the pair-logic in statement 2 vs 3 usually leaves A as the only internally consistent choice.",
+      "diagnoses": [
+        "legislation",
+        "currentaffairs",
+        "baseline_seed"
+      ]
+    },
+    {
+      "question_id": "P01-CA-093",
+      "num": 93,
+      "subject": "CurrentAffairs",
+      "topic": "Government Schemes",
+      "subtopic": "Government Schemes — drill variant 7",
+      "format": "statements_count",
+      "statements": [
+        "Statement 1: Government Schemes has a direct constitutional or policy anchor relevant to UPSC Prelims.",
+        "Statement 2: A common trap in CurrentAffairs questions is confusing Government Schemes with an adjacent concept.",
+        "Statement 3: The 'only / all / never' extreme in distractors often signals a false statement in Government Schemes."
+      ],
+      "difficulty": "Easy",
+      "expected_time_sec": 50,
+      "text": "Consider the following statements: How many of the above statements are correct?",
+      "options": {
+        "A": "Only one",
+        "B": "Only two",
+        "C": "All three",
+        "D": "None"
+      },
+      "answer": "B",
+      "explanation": "Option B is correct for Government Schemes. Option A is the classic trap — it sounds authoritative but collapses on a single definitional mismatch UPSC examiners design into CurrentAffairs items.",
+      "elimination_path": "Eliminate options with absolute words ('only', 'all', 'never') first — UPSC rarely rewards universals in CurrentAffairs. Between the survivors, the pair-logic in statement 2 vs 3 usually leaves B as the only internally consistent choice.",
+      "diagnoses": [
+        "government_schemes",
+        "currentaffairs",
+        "baseline_seed"
+      ]
+    },
+    {
+      "question_id": "P01-CA-094",
+      "num": 94,
+      "subject": "CurrentAffairs",
+      "topic": "International Relations",
+      "subtopic": "International Relations — drill variant 8",
+      "format": "assertion_reason",
+      "statements": [
+        "Assertion (A): International Relations is directly linked to a constitutional or statutory provision tested in Prelims.",
+        "Reason (R): The linkage is established through a landmark judgment or committee report on International Relations."
+      ],
+      "difficulty": "Medium",
+      "expected_time_sec": 75,
+      "text": "In the context of the following, consider Assertion (A) and Reason (R):",
+      "options": {
+        "A": "Both A and R are correct and R is the correct explanation of A",
+        "B": "Both A and R are correct but R is NOT the correct explanation of A",
+        "C": "A is correct but R is incorrect",
+        "D": "A is incorrect but R is correct"
+      },
+      "answer": "C",
+      "explanation": "Option C is correct for International Relations. Option A is the classic trap — it sounds authoritative but collapses on a single definitional mismatch UPSC examiners design into CurrentAffairs items.",
+      "elimination_path": "Eliminate options with absolute words ('only', 'all', 'never') first — UPSC rarely rewards universals in CurrentAffairs. Between the survivors, the pair-logic in statement 2 vs 3 usually leaves C as the only internally consistent choice.",
+      "diagnoses": [
+        "international_relations",
+        "currentaffairs",
+        "baseline_seed"
+      ]
+    },
+    {
+      "question_id": "P01-CA-095",
+      "num": 95,
+      "subject": "CurrentAffairs",
+      "topic": "Reports & Indices",
+      "subtopic": "Reports & Indices — drill variant 9",
+      "format": "match_pairs",
+      "statements": [
+        "List-I (Concept) — 1. Reports & Indices A  2. Reports & Indices B  3. Reports & Indices C",
+        "List-II (Feature) — 1. Feature X  2. Feature Y  3. Feature Z"
+      ],
+      "difficulty": "Hard",
+      "expected_time_sec": 100,
+      "text": "Consider the following pairs (List-I and List-II): How many pairs are correctly matched?",
+      "options": {
+        "A": "Only one",
+        "B": "Only two",
+        "C": "All three",
+        "D": "None"
+      },
+      "answer": "D",
+      "explanation": "Option D is correct for Reports & Indices. Option A is the classic trap — it sounds authoritative but collapses on a single definitional mismatch UPSC examiners design into CurrentAffairs items.",
+      "elimination_path": "Eliminate options with absolute words ('only', 'all', 'never') first — UPSC rarely rewards universals in CurrentAffairs. Between the survivors, the pair-logic in statement 2 vs 3 usually leaves D as the only internally consistent choice.",
+      "diagnoses": [
+        "reports_&_indices",
+        "currentaffairs",
+        "baseline_seed"
+      ]
+    },
+    {
+      "question_id": "P01-CA-096",
+      "num": 96,
+      "subject": "CurrentAffairs",
+      "topic": "Appointments",
+      "subtopic": "Appointments — drill variant 10",
+      "format": "single",
+      "difficulty": "Easy",
+      "expected_time_sec": 50,
+      "text": "With reference to Appointments in CurrentAffairs, which of the following is most accurate?",
+      "options": {
+        "A": "Appointments: the provision applies universally without exception",
+        "B": "Appointments: the correct position is narrower than the universal claim",
+        "C": "Appointments: the concept is purely statutory, not constitutional",
+        "D": "Appointments: the concept was abolished after a constitutional amendment"
+      },
+      "answer": "A",
+      "explanation": "Option A is correct for Appointments. Option B is the classic trap — it sounds authoritative but collapses on a single definitional mismatch UPSC examiners design into CurrentAffairs items.",
+      "elimination_path": "Eliminate options with absolute words ('only', 'all', 'never') first — UPSC rarely rewards universals in CurrentAffairs. Between the survivors, the pair-logic in statement 2 vs 3 usually leaves A as the only internally consistent choice.",
+      "diagnoses": [
+        "appointments",
+        "currentaffairs",
+        "baseline_seed"
+      ]
+    },
+    {
+      "question_id": "P01-CA-097",
+      "num": 97,
+      "subject": "CurrentAffairs",
+      "topic": "Summits",
+      "subtopic": "Summits — drill variant 11",
+      "format": "statements_count",
+      "statements": [
+        "Statement 1: Summits has a direct constitutional or policy anchor relevant to UPSC Prelims.",
+        "Statement 2: A common trap in CurrentAffairs questions is confusing Summits with an adjacent concept.",
+        "Statement 3: The 'only / all / never' extreme in distractors often signals a false statement in Summits."
+      ],
+      "difficulty": "Medium",
+      "expected_time_sec": 75,
+      "text": "Consider the following statements: How many of the above statements are correct?",
+      "options": {
+        "A": "Only one",
+        "B": "Only two",
+        "C": "All three",
+        "D": "None"
+      },
+      "answer": "B",
+      "explanation": "Option B is correct for Summits. Option A is the classic trap — it sounds authoritative but collapses on a single definitional mismatch UPSC examiners design into CurrentAffairs items.",
+      "elimination_path": "Eliminate options with absolute words ('only', 'all', 'never') first — UPSC rarely rewards universals in CurrentAffairs. Between the survivors, the pair-logic in statement 2 vs 3 usually leaves B as the only internally consistent choice.",
+      "diagnoses": [
+        "summits",
+        "currentaffairs",
+        "baseline_seed"
+      ]
+    },
+    {
+      "question_id": "P01-CA-098",
+      "num": 98,
+      "subject": "CurrentAffairs",
+      "topic": "Legislation",
+      "subtopic": "Legislation — drill variant 12",
+      "format": "assertion_reason",
+      "statements": [
+        "Assertion (A): Legislation is directly linked to a constitutional or statutory provision tested in Prelims.",
+        "Reason (R): The linkage is established through a landmark judgment or committee report on Legislation."
+      ],
+      "difficulty": "Medium",
+      "expected_time_sec": 75,
+      "text": "In the context of the following, consider Assertion (A) and Reason (R):",
+      "options": {
+        "A": "Both A and R are correct and R is the correct explanation of A",
+        "B": "Both A and R are correct but R is NOT the correct explanation of A",
+        "C": "A is correct but R is incorrect",
+        "D": "A is incorrect but R is correct"
+      },
+      "answer": "C",
+      "explanation": "Option C is correct for Legislation. Option A is the classic trap — it sounds authoritative but collapses on a single definitional mismatch UPSC examiners design into CurrentAffairs items.",
+      "elimination_path": "NONE",
+      "diagnoses": [
+        "legislation",
+        "currentaffairs",
+        "baseline_seed"
+      ]
+    },
+    {
+      "question_id": "P01-CA-099",
+      "num": 99,
+      "subject": "CurrentAffairs",
+      "topic": "Government Schemes",
+      "subtopic": "Government Schemes — drill variant 13",
+      "format": "match_pairs",
+      "statements": [
+        "List-I (Concept) — 1. Government Schemes A  2. Government Schemes B  3. Government Schemes C",
+        "List-II (Feature) — 1. Feature X  2. Feature Y  3. Feature Z"
+      ],
+      "difficulty": "Easy",
+      "expected_time_sec": 50,
+      "text": "Consider the following pairs (List-I and List-II): How many pairs are correctly matched?",
+      "options": {
+        "A": "Only one",
+        "B": "Only two",
+        "C": "All three",
+        "D": "None"
+      },
+      "answer": "D",
+      "explanation": "Option D is correct for Government Schemes. Option A is the classic trap — it sounds authoritative but collapses on a single definitional mismatch UPSC examiners design into CurrentAffairs items.",
+      "elimination_path": "Eliminate options with absolute words ('only', 'all', 'never') first — UPSC rarely rewards universals in CurrentAffairs. Between the survivors, the pair-logic in statement 2 vs 3 usually leaves D as the only internally consistent choice.",
+      "diagnoses": [
+        "government_schemes",
+        "currentaffairs",
+        "baseline_seed"
+      ]
+    },
+    {
+      "question_id": "P01-CA-100",
+      "num": 100,
+      "subject": "CurrentAffairs",
+      "topic": "International Relations",
+      "subtopic": "International Relations — drill variant 14",
+      "format": "single",
+      "difficulty": "Hard",
+      "expected_time_sec": 100,
+      "text": "With reference to International Relations in CurrentAffairs, which of the following is most accurate?",
+      "options": {
+        "A": "International Relations: the provision applies universally without exception",
+        "B": "International Relations: the correct position is narrower than the universal claim",
+        "C": "International Relations: the concept is purely statutory, not constitutional",
+        "D": "International Relations: the concept was abolished after a constitutional amendment"
+      },
+      "answer": "A",
+      "explanation": "Option A is correct for International Relations. Option B is the classic trap — it sounds authoritative but collapses on a single definitional mismatch UPSC examiners design into CurrentAffairs items.",
+      "elimination_path": "Eliminate options with absolute words ('only', 'all', 'never') first — UPSC rarely rewards universals in CurrentAffairs. Between the survivors, the pair-logic in statement 2 vs 3 usually leaves A as the only internally consistent choice.",
+      "diagnoses": [
+        "international_relations",
+        "currentaffairs",
+        "baseline_seed"
+      ]
+    }
+  ]
+}

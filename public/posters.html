@@ -1,0 +1,919 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CHANAKYA SSC — Marketing Posters</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;900&family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+
+/* ── Reset & Base ─────────────────────────── */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  background: #111;
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 60px;
+  font-family: 'Inter', sans-serif;
+}
+
+h1 {
+  font-family: 'Cinzel', serif;
+  color: #D4A017;
+  font-size: 14px;
+  letter-spacing: 0.4em;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.poster-label {
+  font-family: 'Inter', sans-serif;
+  color: #555;
+  font-size: 11px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+/* ── Poster base (1080×1080) ─────────────── */
+.poster {
+  width: 1080px;
+  height: 1080px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+/* ─────────────────────────────────────────────────────────────
+   POSTER 1 — HERO: "Not Harder. Smarter."
+──────────────────────────────────────────────────────────────*/
+.p1 {
+  background: #060606;
+}
+
+.p1-grid {
+  position: absolute;
+  inset: 0;
+  background-image:
+    linear-gradient(rgba(212,160,23,0.04) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(212,160,23,0.04) 1px, transparent 1px);
+  background-size: 54px 54px;
+}
+
+.p1-vignette {
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(ellipse at center, transparent 30%, #060606 80%);
+}
+
+.p1-glow {
+  position: absolute;
+  width: 600px;
+  height: 600px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(212,160,23,0.10) 0%, transparent 70%);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.p1-content {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 80px;
+}
+
+.p1-eyebrow {
+  font-family: 'Inter', sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 0.5em;
+  color: #D4A017;
+  text-transform: uppercase;
+  margin-bottom: 48px;
+}
+
+.p1-line1 {
+  font-family: 'Cinzel', serif;
+  font-size: 108px;
+  font-weight: 900;
+  color: #E8E8E8;
+  line-height: 0.9;
+  letter-spacing: -0.02em;
+  text-align: center;
+}
+
+.p1-line2 {
+  font-family: 'Cinzel', serif;
+  font-size: 108px;
+  font-weight: 900;
+  color: #D4A017;
+  line-height: 0.9;
+  letter-spacing: -0.02em;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.p1-divider {
+  width: 120px;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, #D4A017, transparent);
+  margin: 0 auto 48px;
+}
+
+.p1-sub {
+  font-family: 'Inter', sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  color: #888;
+  text-align: center;
+  letter-spacing: 0.15em;
+  line-height: 1.8;
+}
+
+.p1-logo {
+  position: absolute;
+  bottom: 60px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: 'Cinzel', serif;
+  font-size: 22px;
+  font-weight: 700;
+  color: #D4A017;
+  letter-spacing: 0.3em;
+  white-space: nowrap;
+}
+
+.p1-corner {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  border-color: rgba(212,160,23,0.3);
+  border-style: solid;
+}
+.p1-corner.tl { top: 40px; left: 40px; border-width: 1px 0 0 1px; }
+.p1-corner.tr { top: 40px; right: 40px; border-width: 1px 1px 0 0; }
+.p1-corner.bl { bottom: 40px; left: 40px; border-width: 0 0 1px 1px; }
+.p1-corner.br { bottom: 40px; right: 40px; border-width: 0 1px 1px 0; }
+
+
+/* ─────────────────────────────────────────────────────────────
+   POSTER 2 — DIAGNOSIS: "Your score is a map."
+──────────────────────────────────────────────────────────────*/
+.p2 {
+  background: #080808;
+}
+
+.p2-stripe {
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 6px;
+  background: linear-gradient(90deg, #D4A017, #FF6B35, #D4A017);
+}
+
+.p2-content {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  padding: 80px;
+  justify-content: space-between;
+}
+
+.p2-top {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.p2-small-label {
+  font-family: 'Inter', sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.5em;
+  color: #FF6B35;
+  text-transform: uppercase;
+  margin-bottom: 32px;
+}
+
+.p2-heading {
+  font-family: 'Playfair Display', serif;
+  font-size: 86px;
+  font-weight: 700;
+  font-style: italic;
+  color: #E8E8E8;
+  line-height: 1.0;
+  margin-bottom: 0;
+}
+
+.p2-heading span {
+  color: #D4A017;
+  font-style: italic;
+}
+
+.p2-mid {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.p2-stat-row {
+  display: flex;
+  gap: 16px;
+  align-items: stretch;
+}
+
+.p2-stat {
+  flex: 1;
+  border: 1px solid rgba(212,160,23,0.15);
+  border-radius: 12px;
+  padding: 24px 20px;
+  background: rgba(212,160,23,0.03);
+}
+
+.p2-stat-label {
+  font-family: 'Inter', sans-serif;
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.3em;
+  color: #555;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
+.p2-stat-val {
+  font-family: 'Cinzel', serif;
+  font-size: 36px;
+  font-weight: 700;
+  color: #D4A017;
+}
+
+.p2-stat-desc {
+  font-family: 'Inter', sans-serif;
+  font-size: 13px;
+  color: #666;
+  margin-top: 4px;
+}
+
+.p2-leak {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.p2-leak-badge {
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-family: 'Inter', sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.p2-leak-badge.concept  { background: rgba(59,130,246,0.15); color: #60A5FA; border: 1px solid rgba(59,130,246,0.3); }
+.p2-leak-badge.memory   { background: rgba(249,115,22,0.15); color: #FB923C; border: 1px solid rgba(249,115,22,0.3); }
+.p2-leak-badge.calc     { background: rgba(239,68,68,0.15);  color: #F87171; border: 1px solid rgba(239,68,68,0.3);  }
+.p2-leak-badge.silly    { background: rgba(234,179,8,0.15);  color: #FCD34D; border: 1px solid rgba(234,179,8,0.3);  }
+
+.p2-bottom {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.p2-cta {
+  font-family: 'Cinzel', serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: #D4A017;
+  letter-spacing: 0.25em;
+}
+
+.p2-tagline {
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  color: #444;
+  text-align: right;
+  max-width: 300px;
+  line-height: 1.5;
+}
+
+
+/* ─────────────────────────────────────────────────────────────
+   POSTER 3 — STAKES: "25 Lakh. One."
+──────────────────────────────────────────────────────────────*/
+.p3 {
+  background: #050505;
+}
+
+.p3-bg-number {
+  position: absolute;
+  font-family: 'Cinzel', serif;
+  font-size: 500px;
+  font-weight: 900;
+  color: rgba(212,160,23,0.04);
+  line-height: 1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+  user-select: none;
+  pointer-events: none;
+}
+
+.p3-content {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  padding: 80px;
+  justify-content: center;
+}
+
+.p3-num {
+  font-family: 'Cinzel', serif;
+  font-size: 160px;
+  font-weight: 900;
+  color: #D4A017;
+  line-height: 0.85;
+  letter-spacing: -0.04em;
+}
+
+.p3-num-label {
+  font-family: 'Inter', sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  letter-spacing: 0.4em;
+  color: #666;
+  text-transform: uppercase;
+  margin-bottom: 56px;
+}
+
+.p3-vs {
+  font-family: 'Cinzel', serif;
+  font-size: 32px;
+  color: #FF6B35;
+  margin-bottom: 8px;
+}
+
+.p3-one {
+  font-family: 'Cinzel', serif;
+  font-size: 200px;
+  font-weight: 900;
+  color: #E8E8E8;
+  line-height: 0.85;
+  letter-spacing: -0.04em;
+}
+
+.p3-one-label {
+  font-family: 'Inter', sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  letter-spacing: 0.4em;
+  color: #888;
+  text-transform: uppercase;
+  margin-bottom: 60px;
+}
+
+.p3-question {
+  font-family: 'Playfair Display', serif;
+  font-size: 28px;
+  font-weight: 400;
+  font-style: italic;
+  color: #666;
+  max-width: 540px;
+  line-height: 1.5;
+  margin-bottom: 40px;
+}
+
+.p3-answer {
+  font-family: 'Cinzel', serif;
+  font-size: 22px;
+  font-weight: 700;
+  color: #D4A017;
+  letter-spacing: 0.2em;
+}
+
+.p3-logo {
+  position: absolute;
+  bottom: 70px;
+  right: 80px;
+  font-family: 'Cinzel', serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: #333;
+  letter-spacing: 0.3em;
+}
+
+
+/* ─────────────────────────────────────────────────────────────
+   POSTER 4 — SMART NOTES: "Every topic. One story."
+──────────────────────────────────────────────────────────────*/
+.p4 {
+  background: #070707;
+}
+
+.p4-left-bar {
+  position: absolute;
+  left: 0; top: 0; bottom: 0;
+  width: 6px;
+  background: linear-gradient(180deg, #D4A017, #FF6B35 50%, #D4A017);
+}
+
+.p4-content {
+  position: absolute;
+  inset: 0 0 0 40px;
+  display: flex;
+  flex-direction: column;
+  padding: 80px 80px 80px 80px;
+  justify-content: space-between;
+}
+
+.p4-eyebrow {
+  font-family: 'Inter', sans-serif;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.5em;
+  color: #D4A017;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+
+.p4-quote {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.p4-q1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 48px;
+  font-weight: 400;
+  font-style: italic;
+  color: #555;
+  line-height: 1.4;
+  margin-bottom: 20px;
+}
+
+.p4-q2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 48px;
+  font-weight: 700;
+  font-style: italic;
+  color: #E8E8E8;
+  line-height: 1.4;
+  margin-bottom: 20px;
+}
+
+.p4-q3 {
+  font-family: 'Playfair Display', serif;
+  font-size: 48px;
+  font-weight: 400;
+  font-style: italic;
+  color: #555;
+  line-height: 1.4;
+}
+
+.p4-divider {
+  width: 80px;
+  height: 2px;
+  background: #D4A017;
+  margin: 56px 0;
+}
+
+.p4-note-card {
+  background: rgba(212,160,23,0.05);
+  border: 1px solid rgba(212,160,23,0.2);
+  border-radius: 16px;
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.p4-note-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-family: 'Inter', sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.3em;
+  color: #D4A017;
+  text-transform: uppercase;
+}
+
+.p4-note-title {
+  font-family: 'Cinzel', serif;
+  font-size: 32px;
+  font-weight: 700;
+  color: #E8E8E8;
+}
+
+.p4-note-mnemonic {
+  font-family: 'Inter', sans-serif;
+  font-size: 18px;
+  font-style: italic;
+  color: #D4A017;
+  padding: 16px;
+  border-left: 3px solid #D4A017;
+  background: rgba(212,160,23,0.04);
+  border-radius: 0 8px 8px 0;
+}
+
+.p4-note-pills {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.p4-pill {
+  padding: 6px 14px;
+  border-radius: 20px;
+  background: rgba(255,255,255,0.04);
+  border: 1px solid rgba(255,255,255,0.08);
+  font-family: 'Inter', sans-serif;
+  font-size: 12px;
+  color: #888;
+}
+
+.p4-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.p4-logo {
+  font-family: 'Cinzel', serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: #D4A017;
+  letter-spacing: 0.3em;
+}
+
+.p4-tagline {
+  font-family: 'Inter', sans-serif;
+  font-size: 13px;
+  color: #444;
+}
+
+
+/* ─────────────────────────────────────────────────────────────
+   POSTER 5 — CALL TO ACTION: "Gate 1 is open."
+──────────────────────────────────────────────────────────────*/
+.p5 {
+  background: #D4A017;
+}
+
+.p5-content {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  padding: 80px;
+  justify-content: space-between;
+}
+
+.p5-logo {
+  font-family: 'Cinzel', serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: rgba(6,6,6,0.4);
+  letter-spacing: 0.4em;
+}
+
+.p5-mid {
+  display: flex;
+  flex-direction: column;
+}
+
+.p5-gate {
+  font-family: 'Cinzel', serif;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 0.5em;
+  color: rgba(6,6,6,0.5);
+  text-transform: uppercase;
+  margin-bottom: 24px;
+}
+
+.p5-headline {
+  font-family: 'Cinzel', serif;
+  font-size: 120px;
+  font-weight: 900;
+  color: #060606;
+  line-height: 0.85;
+  letter-spacing: -0.03em;
+  margin-bottom: 56px;
+}
+
+.p5-sub {
+  font-family: 'Inter', sans-serif;
+  font-size: 24px;
+  font-weight: 300;
+  color: rgba(6,6,6,0.6);
+  letter-spacing: 0.1em;
+  line-height: 1.6;
+  max-width: 600px;
+}
+
+.p5-bottom {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.p5-cta-box {
+  background: #060606;
+  color: #D4A017;
+  padding: 20px 48px;
+  border-radius: 4px;
+  font-family: 'Cinzel', serif;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+
+.p5-stats {
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.p5-stat-item {
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  color: rgba(6,6,6,0.5);
+  letter-spacing: 0.1em;
+}
+
+.p5-stat-item strong {
+  font-family: 'Cinzel', serif;
+  font-weight: 700;
+  color: #060606;
+  font-size: 18px;
+  margin-right: 6px;
+}
+
+/* ─────────────────────────────────────────────────────────────
+   PAGE PRINT GUIDE
+──────────────────────────────────────────────────────────────*/
+.print-guide {
+  background: #161616;
+  border: 1px solid #2a2a2a;
+  border-radius: 8px;
+  padding: 24px 32px;
+  max-width: 1080px;
+  width: 100%;
+}
+
+.print-guide h2 {
+  font-family: 'Cinzel', serif;
+  color: #D4A017;
+  font-size: 13px;
+  letter-spacing: 0.3em;
+  margin-bottom: 12px;
+}
+
+.print-guide p {
+  font-size: 13px;
+  color: #666;
+  line-height: 1.8;
+}
+
+.print-guide code {
+  background: #222;
+  color: #D4A017;
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+}
+
+</style>
+</head>
+<body>
+
+<h1>CHANAKYA SSC — Marketing Posters</h1>
+
+<!-- ══════════════════════════════════════════════════════════
+     POSTER 1 — HERO: NOT HARDER. SMARTER.
+═══════════════════════════════════════════════════════════ -->
+<div class="poster-label">Poster 01 — Brand Hero · "Not Harder. Smarter."</div>
+<div class="poster p1">
+  <div class="p1-grid"></div>
+  <div class="p1-glow"></div>
+  <div class="p1-vignette"></div>
+
+  <div class="p1-corner tl"></div>
+  <div class="p1-corner tr"></div>
+  <div class="p1-corner bl"></div>
+  <div class="p1-corner br"></div>
+
+  <div class="p1-content">
+    <div class="p1-eyebrow">SSC CGL Preparation · Engineered for Selection</div>
+    <div class="p1-line1">NOT</div>
+    <div class="p1-line1">HARDER.</div>
+    <div class="p1-line2">SMARTER.</div>
+    <div class="p1-divider"></div>
+    <div class="p1-sub">
+      DIAGNOSIS · STRATEGY · EXECUTION<br>
+      THE SYSTEM CHANAKYA BUILT FOR YOU
+    </div>
+  </div>
+
+  <div class="p1-logo">CHANAKYA SSC</div>
+</div>
+
+
+<!-- ══════════════════════════════════════════════════════════
+     POSTER 2 — DIAGNOSIS: YOUR SCORE IS A MAP
+═══════════════════════════════════════════════════════════ -->
+<div class="poster-label">Poster 02 — Product Feature · "Your Score Is A Map"</div>
+<div class="poster p2">
+  <div class="p2-stripe"></div>
+
+  <div class="p2-content">
+    <div class="p2-top">
+      <div class="p2-small-label">After Every Mock Test</div>
+      <div class="p2-heading">
+        Your score<br>
+        is not a <span>verdict.</span><br>
+        It is a <span>map.</span>
+      </div>
+    </div>
+
+    <div class="p2-mid">
+      <div class="p2-stat-row">
+        <div class="p2-stat">
+          <div class="p2-stat-label">Score</div>
+          <div class="p2-stat-val">124</div>
+          <div class="p2-stat-desc">/ 200 · Gate 1</div>
+        </div>
+        <div class="p2-stat">
+          <div class="p2-stat-label">Accuracy</div>
+          <div class="p2-stat-val">78%</div>
+          <div class="p2-stat-desc">attempted questions</div>
+        </div>
+        <div class="p2-stat">
+          <div class="p2-stat-label">Leaks Found</div>
+          <div class="p2-stat-val" style="color:#FF6B35">4</div>
+          <div class="p2-stat-desc">fixable gaps</div>
+        </div>
+      </div>
+
+      <div style="padding: 8px 0 4px; font-family:'Inter',sans-serif; font-size:11px; color:#444; letter-spacing:0.3em; text-transform:uppercase;">
+        Score Leaks Detected
+      </div>
+      <div class="p2-leak">
+        <div class="p2-leak-badge concept">Concept Gap · 6</div>
+        <div class="p2-leak-badge memory">Memory Gap · 4</div>
+        <div class="p2-leak-badge calc">Calculation Error · 3</div>
+        <div class="p2-leak-badge silly">Silly Mistake · 2</div>
+      </div>
+    </div>
+
+    <div class="p2-bottom">
+      <div class="p2-cta">CHANAKYA SSC</div>
+      <div class="p2-tagline">
+        Every wrong answer tells you<br>exactly what to repair.
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- ══════════════════════════════════════════════════════════
+     POSTER 3 — STAKES: 25 LAKH. ONE.
+═══════════════════════════════════════════════════════════ -->
+<div class="poster-label">Poster 03 — Stakes · "25 Lakh Aspirants. One Selection."</div>
+<div class="poster p3">
+  <div class="p3-bg-number">∞</div>
+
+  <div class="p3-content">
+    <div>
+      <div class="p3-num">25</div>
+      <div class="p3-num" style="font-size:80px; color:#555;">LAKH</div>
+      <div class="p3-num-label">aspirants appear every year</div>
+
+      <div class="p3-vs">vs.</div>
+
+      <div class="p3-one">1</div>
+      <div class="p3-one-label">selection that changes everything</div>
+    </div>
+
+    <div>
+      <div class="p3-question">
+        What separates the one who clears<br>
+        from the one who almost did?
+      </div>
+      <div class="p3-answer">A SYSTEM. NOT LUCK.</div>
+    </div>
+  </div>
+
+  <div class="p3-logo">CHANAKYA SSC</div>
+</div>
+
+
+<!-- ══════════════════════════════════════════════════════════
+     POSTER 4 — SMART NOTES: EVERY TOPIC. ONE STORY.
+═══════════════════════════════════════════════════════════ -->
+<div class="poster-label">Poster 04 — Smart Notes · "Every Topic. One Story."</div>
+<div class="poster p4">
+  <div class="p4-left-bar"></div>
+
+  <div class="p4-content">
+    <div class="p4-eyebrow">Smart Notes · CHANAKYA SSC</div>
+
+    <div class="p4-quote">
+      <div class="p4-q1">"You've read Mitochondria</div>
+      <div class="p4-q2">fifty times.</div>
+      <div class="p4-q3">CHANAKYA teaches it once."</div>
+    </div>
+
+    <div class="p4-divider"></div>
+
+    <div class="p4-note-card">
+      <div class="p4-note-tag">
+        <span style="width:8px;height:8px;background:#D4A017;border-radius:50%;display:inline-block"></span>
+        Smart Note · Biology
+      </div>
+      <div class="p4-note-title">Mitochondria</div>
+      <div class="p4-note-mnemonic">
+        "The powerhouse never rests. Neither does the warrior who understands why."
+      </div>
+      <div class="p4-note-pills">
+        <span class="p4-pill">📖 Story</span>
+        <span class="p4-pill">🧠 Core Concept</span>
+        <span class="p4-pill">✨ Mnemonic</span>
+        <span class="p4-pill">🗺️ Mind Map</span>
+        <span class="p4-pill">📌 4 PYQs</span>
+      </div>
+    </div>
+
+    <div class="p4-bottom">
+      <div class="p4-logo">CHANAKYA SSC</div>
+      <div class="p4-tagline">Your Strategy. Your Selection.</div>
+    </div>
+  </div>
+</div>
+
+
+<!-- ══════════════════════════════════════════════════════════
+     POSTER 5 — CTA: GATE 1 IS OPEN.
+═══════════════════════════════════════════════════════════ -->
+<div class="poster-label">Poster 05 — Call to Action · "Gate 1 Is Open. Begin."</div>
+<div class="poster p5">
+  <div class="p5-content">
+    <div class="p5-logo">CHANAKYA SSC</div>
+
+    <div class="p5-mid">
+      <div class="p5-gate">Gate I · Baseline Battle</div>
+      <div class="p5-headline">
+        BEGIN.
+      </div>
+      <div class="p5-sub">
+        100 questions.<br>
+        60 minutes.<br>
+        Your first diagnosis.
+      </div>
+    </div>
+
+    <div class="p5-bottom">
+      <div class="p5-cta-box">Start Free →</div>
+      <div class="p5-stats">
+        <div class="p5-stat-item"><strong>10</strong> Battle Gates</div>
+        <div class="p5-stat-item"><strong>5</strong> Layers per Smart Note</div>
+        <div class="p5-stat-item"><strong>1</strong> Goal: Selection</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Print Guide -->
+<div class="print-guide">
+  <h2>How to Export These Posters as Images</h2>
+  <p>
+    1. Open this file in <strong>Google Chrome</strong> (best rendering for fonts).<br>
+    2. Set zoom to <code>100%</code> (Ctrl+0).<br>
+    3. For each poster: right-click → Inspect → find the <code>.poster</code> div → right-click → "Capture node screenshot" → saves as 1080×1080 PNG.<br>
+    4. Or use <strong>Chrome DevTools</strong> → Ctrl+Shift+P → "Screenshot" → "Capture full size screenshot" for all posters on one sheet.<br><br>
+    <strong>For print-quality exports:</strong> Use <code>html2canvas</code> or Puppeteer to render at 2× scale (2160×2160) for retina display.
+  </p>
+</div>
+
+</body>
+</html>

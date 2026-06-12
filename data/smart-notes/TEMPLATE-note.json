@@ -1,0 +1,122 @@
+{
+  "_instructions": {
+    "purpose": "One Smart Note per SSC CGL topic. Give this schema + one completed example to Daksha to generate notes.",
+    "field_rules": {
+      "id":             "UUID — generated at insert time, leave blank",
+      "section":        "One of: gk | quant | reasoning | english",
+      "category":       "For GK: History | Polity | Geography | Economy | Science | Miscellaneous. For Quant: Arithmetic | Algebra | Geometry | Trigonometry | Data Interpretation. For Reasoning: Verbal Reasoning | Non-Verbal Reasoning | Analytical Reasoning. For English: Grammar | Vocabulary | Reading Comprehension | Writing Skills.",
+      "topic":          "The exact exam topic — e.g. 'Article 21', 'Profit and Loss', 'Analogy'",
+      "subtopic":       "Optional narrowing — e.g. 'Right to Life', 'Successive Discount'",
+      "slug":           "kebab-case unique ID — e.g. 'polity-article-21'",
+      "story":          "150-200 words. A vivid real/historical story that embeds the concept. NOT a textbook summary. Creates genuine emotion or surprise. SSC aspirant should remember this story 3 months later.",
+      "core_concept":   "80-120 words. Pure exam-ready content. Every sentence is directly testable in SSC CGL. No filler.",
+      "mnemonic":       "ONE memory device — acronym, vivid visual, rhyme, or absurd association. Max 2 sentences. Should survive 6 months without revision.",
+      "mindmap_json":   "Tree: center = topic, 3-5 branches, each branch has 2-4 short child labels (1-4 words).",
+      "key_facts":      "Exactly 5 bullet strings. Each one directly askable in SSC CGL Tier 1. Start with a verb or number.",
+      "common_traps":   "Exactly 3 strings. Things SSC examiners deliberately twist to confuse. Be specific — mention the wrong option aspirants pick.",
+      "pyq_refs":       "Array of PYQ objects. If none known, use [].",
+      "pyq_count":      "Total count of times this topic appeared in SSC CGL/CHSL in last 10 years.",
+      "last_asked":     "Year (number) when topic was most recently asked. null if unknown.",
+      "high_yield":     "true if asked 3+ times in last 10 years OR is a very frequent trap topic.",
+      "read_time_mins": "Honest estimate: 2 for simple notes, 4-5 for complex ones.",
+      "difficulty":     "Easy | Medium | Hard — based on how often aspirants get it wrong.",
+      "status":         "Always 'draft' for new notes. Admin changes to 'published' after review.",
+      "source_type":    "One of: 'admin-generated' | 'daksha-v1' | 'daksha-pyq' | 'manual'",
+      "version":        "Start at 1. Increment on major rewrites."
+    }
+  },
+
+  "_example_completed": {
+    "id": "auto-generated-uuid",
+    "section": "gk",
+    "category": "Polity",
+    "topic": "Article 21",
+    "subtopic": "Right to Life and Personal Liberty",
+    "slug": "polity-article-21",
+
+    "story": "In 1977, a young lawyer named Francis Coralie Mullin was locked in Tihar Jail. He couldn't meet his lawyer or family — the authorities said the constitution only protected life from being 'taken away', not dignity inside prison. The Supreme Court disagreed. In a landmark ruling, it said Article 21 isn't just about avoiding death — it's about living with dignity. No handcuffs without reason. Access to a lawyer. Even decent food. One Article became the widest umbrella in the Indian Constitution — over 40 rights now shelter under it, from the right to sleep on a footpath to the right to a speedy trial. The government didn't give you Article 21. The Supreme Court grew it, judgment by judgment.",
+
+    "core_concept": "Article 21 guarantees that no person shall be deprived of their life or personal liberty except according to procedure established by law. Originally interpreted narrowly (Gopalan case, 1950), it was dramatically expanded in Maneka Gandhi (1978) — 'procedure' must now be fair, just, and reasonable. Rights now flowing from Article 21 include: right to speedy trial, right to legal aid, right to privacy (Puttaswamy, 2017), right to education (Article 21A added in 2002), right to livelihood, right against solitary confinement, and right to die with dignity (passive euthanasia). It applies to citizens AND non-citizens. Cannot be suspended even during Emergency (Article 359 suspends Article 21 for emergencies declared under Article 352, but Article 20 and 21 are protected under Article 359 clause 1A post-44th Amendment).",
+
+    "mnemonic": "Article 21 = LIFE-PLUS. 'L' life, 'I' is for liberty, 'F' for fair procedure (Maneka Gandhi), 'E' for every person (citizen + non-citizen), 'PLUS' = 40+ rights now flow from it. LIFE-PLUS — more than just staying alive.",
+
+    "mindmap_json": {
+      "center": "Article 21",
+      "branches": [
+        { "label": "Core Right",       "children": ["Life", "Personal Liberty", "Every Person"] },
+        { "label": "Key Cases",        "children": ["Gopalan 1950 (narrow)", "Maneka Gandhi 1978 (expanded)", "Puttaswamy 2017 (privacy)"] },
+        { "label": "Rights Under 21",  "children": ["Right to Privacy", "Speedy Trial", "Legal Aid", "Livelihood", "Die with Dignity"] },
+        { "label": "Exceptions",       "children": ["Procedure by law", "Must be fair & just", "Emergency note (44th Amdt)"] },
+        { "label": "Connected Articles","children": ["Article 20", "Article 21A (Education)", "Article 22 (Arrest)"] }
+      ]
+    },
+
+    "key_facts": [
+      "No person (citizen or non-citizen) can be deprived of life/liberty without fair legal procedure.",
+      "Maneka Gandhi case (1978) made Article 21 the widest fundamental right — procedure must be just, fair, reasonable.",
+      "Right to Privacy declared a fundamental right under Article 21 in Puttaswamy v Union of India (2017).",
+      "Article 21A (added by 86th Amendment, 2002) gives free education to children aged 6-14 as a separate Article.",
+      "Article 21 cannot be suspended during Emergency under Article 359 — protected by 44th Amendment (1978)."
+    ],
+
+    "common_traps": [
+      "Examiners ask which articles CANNOT be suspended during Emergency — answer is Article 20 and 21, NOT all fundamental rights.",
+      "Article 21A (education right) is a SEPARATE Article added in 2002 — not part of original Article 21 — aspirants confuse them.",
+      "Gopalan (1950) and Maneka Gandhi (1978) rulings are OPPOSITE — Gopalan was narrow, Maneka broadened it. Question may ask which is which."
+    ],
+
+    "pyq_refs": [
+      { "year": 2023, "exam": "SSC CGL Tier 1", "question": "Right to Privacy was declared a Fundamental Right under which Article?", "answer": "Article 21", "pattern_note": "Always asks about Puttaswamy case and Article 21." },
+      { "year": 2020, "exam": "SSC CGL Tier 1", "question": "Which Articles cannot be suspended during a National Emergency?", "answer": "Articles 20 and 21", "pattern_note": "Emergency + Article 21 combo asked almost every year." }
+    ],
+    "pyq_count": 8,
+    "last_asked": 2023,
+    "high_yield": true,
+
+    "read_time_mins": 4,
+    "difficulty": "Medium",
+    "status": "draft",
+    "source_type": "daksha-v1",
+    "version": 1,
+    "created_at": "2026-06-08T00:00:00Z",
+    "updated_at": "2026-06-08T00:00:00Z"
+  },
+
+  "_blank_template": {
+    "id": "",
+    "section": "gk",
+    "category": "",
+    "topic": "",
+    "subtopic": "",
+    "slug": "",
+
+    "story": "",
+    "core_concept": "",
+    "mnemonic": "",
+
+    "mindmap_json": {
+      "center": "",
+      "branches": [
+        { "label": "", "children": ["", ""] },
+        { "label": "", "children": ["", ""] },
+        { "label": "", "children": ["", ""] }
+      ]
+    },
+
+    "key_facts": ["", "", "", "", ""],
+    "common_traps": ["", "", ""],
+
+    "pyq_refs": [],
+    "pyq_count": 0,
+    "last_asked": null,
+    "high_yield": false,
+
+    "read_time_mins": 3,
+    "difficulty": "Medium",
+    "status": "draft",
+    "source_type": "daksha-v1",
+    "version": 1,
+    "created_at": "",
+    "updated_at": ""
+  }
+}
