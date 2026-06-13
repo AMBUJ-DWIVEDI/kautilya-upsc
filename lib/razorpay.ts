@@ -14,13 +14,13 @@ function tierDisplay(id: 'prelims' | 'gs'): string {
 
 export const PLANS = {
   prelims: {
-    label: APP.pricing.tiers.find(t => t.id === 'prelims')?.label ?? 'Prelims Command',
+    label: APP.pricing.tiers.find(t => t.id === 'prelims')?.label ?? 'Warrior',
     amountPaise: tierPaise('prelims'),
     amountDisplay: tierDisplay('prelims'),
     planType: 'prelims' as const,
   },
   gs: {
-    label: APP.pricing.tiers.find(t => t.id === 'gs')?.label ?? 'GS Command',
+    label: APP.pricing.tiers.find(t => t.id === 'gs')?.label ?? 'Commander',
     amountPaise: tierPaise('gs'),
     amountDisplay: tierDisplay('gs'),
     planType: 'gs' as const,

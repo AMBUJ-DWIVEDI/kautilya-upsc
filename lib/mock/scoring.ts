@@ -61,9 +61,9 @@ export function getVerdict(score: number, maxScore: number): { verdict: string; 
 
 function subjectVerdict(score: number, max: number): string {
   const pct = max > 0 ? score / max : 0
-  if (pct >= 0.55) return 'Strong'
-  if (pct >= 0.38) return 'Moderate — review priority'
-  return 'Weak — immediate focus'
+  if (pct >= 0.55) return 'Stable'
+  if (pct >= 0.38) return 'Repair priority'
+  return 'Immediate repair area'
 }
 
 function computeGuessingDiscipline(qResults: QuestionResult[]): GuessingDiscipline {
@@ -143,13 +143,13 @@ function build7DayPlan(
   const weakestSubject = sortedSec[0]?.label ?? 'your weakest subject'
 
   return [
-    `Day 1 — Root cause: deep-revise "${t(0) ?? weakestSubject}" through its Smart Note, then re-attempt every question you lost there.`,
-    `Day 2 — Elimination drill: rework the ${elimination.misses || 'missed'} eliminable questions from this paper using only the option structure. No recall allowed.`,
-    `Day 3 — ${weakestSubject} density block: 45 minutes of reading, then 25 timed questions.`,
-    `Day 4 — Calibration: 25 questions, declare sure/gamble before checking. Target ≥90% on the sure pile (you ran ${guessing.sure_accuracy_pct}%).`,
-    `Day 5 — Statement-format day: only "how many of the above" and match-the-pairs questions, untimed, technique first.`,
-    `Day 6 — ${sortedSec[1]?.label ?? 'second weakest subject'} consolidation: one revision cycle and 20 questions.`,
-    'Day 7 — Half-paper simulation: 50 questions, 60 minutes, full attempt framework, then complete review.',
+    `Day 1 - Root cause: repair-read "${t(0) ?? weakestSubject}" through its Smart Note, then re-attempt every question you lost there.`,
+    `Day 2 - Elimination drill: rework the ${elimination.misses || 'missed'} eliminable questions from this paper using only the option structure. No recall allowed.`,
+    `Day 3 - ${weakestSubject} density block: 45 minutes of reading, then 25 timed questions.`,
+    `Day 4 - Calibration: 25 questions, declare sure/gamble before checking. Target 90%+ on the sure pile (you ran ${guessing.sure_accuracy_pct}%).`,
+    `Day 5 - Statement-format day: only "how many of the above" and match-the-pairs questions, untimed, technique first.`,
+    `Day 6 - ${sortedSec[1]?.label ?? 'second repair area'} consolidation: one recall cycle and 20 questions.`,
+    'Day 7 - Half-paper simulation: 50 questions, 60 minutes, full attempt framework, then complete review.',
   ]
 }
 

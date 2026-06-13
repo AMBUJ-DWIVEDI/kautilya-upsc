@@ -16,7 +16,7 @@ export default async function RevealPage() {
       .single(),
     supabase
       .from('aspirant_profiles')
-      .select('name')
+      .select('name, diagnosis_depth')
       .eq('user_id', user.id)
       .single(),
   ])
@@ -32,6 +32,7 @@ export default async function RevealPage() {
       archetype={scores.archetype as ArchetypeId}
       warPatternTags={warTags}
       name={profile?.name ?? ''}
+      depth={(profile?.diagnosis_depth as 'free30' | 'paid50' | null) ?? 'free30'}
       identityFusion={scores.identity_fusion ?? 0}
       dims={{
         purpose_intensity: scores.purpose_intensity ?? 50,

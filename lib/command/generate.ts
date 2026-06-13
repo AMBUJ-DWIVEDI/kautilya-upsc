@@ -69,7 +69,7 @@ function buildThreads(
       {
         id: 't1',
         type: 'prelims_revision',
-        title: revision ? `Re-enter through ${revision.topic}` : 'Re-enter through one revision block',
+        title: revision ? `Repair through ${revision.topic}` : 'Repair through one recall block',
         target: '25 min',
         href: revision ? noteHref(revision) : '/notes',
         note_ids: revision ? [revision.id] : [],
@@ -87,7 +87,7 @@ function buildThreads(
       {
         id: 't3',
         type: 'recall_test',
-        title: 'Five recall cards. Just five.',
+        title: 'Five recall drills. Just five.',
         target: '5 cards',
         href: '/notes?mode=revision',
         note_ids: [],
@@ -108,7 +108,7 @@ function buildThreads(
     {
       id: 't1',
       type: 'prelims_revision',
-      title: revision ? `Prelims revision — ${revision.topic}` : 'Prelims revision — your weakest standing topic',
+      title: revision ? `Prelims repair - ${revision.topic}` : 'Prelims repair - your highest-leak topic',
       target: '45 min',
       href: revision ? noteHref(revision) : '/notes',
       note_ids: revision ? [revision.id] : [],
@@ -117,7 +117,7 @@ function buildThreads(
     {
       id: 't2',
       type: 'mains_answer',
-      title: 'Mains answer — one question, written by hand',
+      title: 'Mains answer - one question, written by hand',
       target: '1 question',
       detail: JSON.stringify(mains),
       locked: false,
@@ -126,7 +126,7 @@ function buildThreads(
     {
       id: 't3',
       type: 'current_issue',
-      title: issue ? `Current issue — ${issue.topic}` : 'Current issue — one topic to depth',
+      title: issue ? `Current issue to depth - ${issue.topic}` : 'Current issue to depth - one topic finished',
       target: '1 topic',
       href: issue ? `${noteHref(issue)}#issue-story` : '/notes',
       note_ids: issue ? [issue.id] : [],
@@ -135,7 +135,7 @@ function buildThreads(
     {
       id: 't4',
       type: 'recall_test',
-      title: 'Recall test — spaced cards from what you have read',
+      title: 'Recall drill - spaced cards from what you have read',
       target: '10 cards',
       href: '/notes?mode=revision',
       note_ids: [],

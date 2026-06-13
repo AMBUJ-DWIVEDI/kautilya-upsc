@@ -1,5 +1,6 @@
 'use client'
 
+import Image from 'next/image'
 import { motion } from 'framer-motion'
 import { cn } from '@/lib/utils'
 
@@ -7,50 +8,48 @@ export type SealVariant = 'pending' | 'stamped' | 'ceremonial'
 
 interface SealProps {
   variant?: SealVariant
-  /** Pixel size of the seal. Default 64. */
+  /** Pixel size of the mark. Default 64. */
   size?: number
   className?: string
-  /** Optional single word/short label engraved under the mudra (Cinzel). */
+  /** Optional single word/short label engraved under the logo (Cinzel). */
   label?: string
 }
 
+const MARK_SRC = '/kautilya-ias-mark.png'
+const MARK_SIZE = 512
+
+function KautilyaLogoMark({ variant, size }: { variant: SealVariant; size: number }) {
+  const stamped = variant !== 'pending'
+
+  return (
+    <span
+      className={cn(
+        'block overflow-hidden rounded-full border bg-ivory shadow-paper',
+        stamped ? 'border-copper/35' : 'border-linen opacity-85',
+      )}
+      style={{ width: size, height: size }}
+    >
+      <Image
+        src={MARK_SRC}
+        alt="KAUTILYA IAS logo mark"
+        width={MARK_SIZE}
+        height={MARK_SIZE}
+        sizes={`${Math.ceil(size)}px`}
+        loading="eager"
+        unoptimized
+        className="h-full w-full object-cover"
+      />
+    </span>
+  )
+}
+
 /**
- * THE SEAL — KAUTILYA's signature motif.
- * A circular mudra/stamp. `pending` is a faint engraving awaiting ink;
- * `stamped` is pressed copper; `ceremonial` animates the stamping in slowly
- * (paper-and-ink, 500ms ease — never urgent).
+ * KAUTILYA's signature mark.
+ * Uses a dedicated square emblem so small app placements stay crisp.
  */
 export default function Seal({ variant = 'pending', size = 64, className, label }: SealProps) {
   const stamped = variant !== 'pending'
-  const ink = stamped ? '#B0763B' : '#C9C2B4'
-
-  const mark = (
-    <svg
-      width={size}
-      height={size}
-      viewBox="0 0 100 100"
-      fill="none"
-      aria-hidden="true"
-      className="block"
-    >
-      {/* Outer ring */}
-      <circle cx="50" cy="50" r="46" stroke={ink} strokeWidth={stamped ? 3 : 1.5} />
-      {/* Inner ring with notches — a chakra rim */}
-      <circle cx="50" cy="50" r="38" stroke={ink} strokeWidth="1" strokeDasharray="3 5" />
-      {/* Mudra: a stylized lotus-throne triangle over a bar (judgement over knowledge) */}
-      <path
-        d="M50 26 L66 56 H34 Z"
-        stroke={ink}
-        strokeWidth={stamped ? 2.5 : 1.5}
-        strokeLinejoin="round"
-        fill={stamped ? 'rgba(176,118,59,0.12)' : 'none'}
-      />
-      <line x1="32" y1="64" x2="68" y2="64" stroke={ink} strokeWidth={stamped ? 2.5 : 1.5} strokeLinecap="round" />
-      <line x1="38" y1="71" x2="62" y2="71" stroke={ink} strokeWidth={stamped ? 2 : 1.2} strokeLinecap="round" />
-      {/* Center dot — the bindu */}
-      <circle cx="50" cy="46" r="3" fill={stamped ? ink : 'none'} stroke={ink} strokeWidth="1" />
-    </svg>
-  )
+  const mark = <KautilyaLogoMark variant={variant} size={size} />
 
   if (variant === 'ceremonial') {
     return (

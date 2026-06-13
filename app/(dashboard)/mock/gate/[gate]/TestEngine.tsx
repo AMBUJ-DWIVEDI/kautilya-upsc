@@ -221,8 +221,8 @@ export default function TestEngine({ gate, questions, testMeta }: Props) {
   function confirmSubmit() {
     const unanswered = questions.filter(q => !answers[q.question_id]?.choice).length
     const msg = unanswered > 0
-      ? `${unanswered} questions are blank. Blank costs nothing; wrong costs ${negative}. Submit anyway?`
-      : 'Submit this paper? Answers are final after submission.'
+      ? `${unanswered} questions are blank. Blank costs nothing; wrong leaks ${negative}. Seal this attempt anyway?`
+      : 'Seal this attempt? Answers are final after submission.'
     if (confirm(msg)) dispatch({ type: 'BEGIN_SUBMIT' })
   }
 
@@ -242,10 +242,10 @@ export default function TestEngine({ gate, questions, testMeta }: Props) {
 
           <div className="mb-6 grid grid-cols-2 gap-3">
             {[
-              { label: 'Questions', value: String(questions.length) },
+              { label: 'Signals', value: String(questions.length) },
               { label: 'Duration', value: `${testMeta.duration_mins} min` },
-              { label: 'Marks', value: String(testMeta.max_score) },
-              { label: 'Correct / Wrong', value: `+${perQuestion} / −${negative}` },
+              { label: 'Max signal', value: String(testMeta.max_score) },
+              { label: 'Marks / leak', value: `+${perQuestion} / −${negative}` },
             ].map(item => (
               <div key={item.label} className="rounded-lg bg-parchment p-3">
                 <p className="mb-1 text-xs text-inkdim">{item.label}</p>
@@ -256,7 +256,10 @@ export default function TestEngine({ gate, questions, testMeta }: Props) {
 
           <div className="mb-8 space-y-2 text-sm text-inkdim">
             <p>Declare each answer as a sure shot or a calculated gamble — the system reads your attempt structure, not just your score.</p>
-            <p>Blank costs nothing. Wrong costs −{negative}. Price your gambles accordingly.</p>
+            <p>Blank costs nothing. Wrong leaks −{negative}. Price your gambles accordingly.</p>
+            {testMeta.test_type === 'full_length' && (
+              <p>Full mocks are best attempted on laptop for accurate timing and navigation.</p>
+            )}
             <p>The timer auto-submits at {testMeta.duration_mins}:00. Progress is auto-saved in your browser.</p>
           </div>
 
@@ -264,7 +267,7 @@ export default function TestEngine({ gate, questions, testMeta }: Props) {
             onClick={() => { track('mock_started', { gate, test_type: testMeta.test_type }); dispatch({ type: 'START' }) }}
             className="w-full rounded-lg bg-copper py-4 font-bold tracking-widest text-ivory transition-calm hover:bg-copperlight"
           >
-            Begin the paper
+            Enter Mock Arena
           </button>
         </div>
       </div>
@@ -280,7 +283,7 @@ export default function TestEngine({ gate, questions, testMeta }: Props) {
             Reading your attempt structure...
           </p>
           <p className="text-sm text-inkdim">
-            Scoring {answered} answers. Mapping the leaks.
+            Reading {answered} answers. Mapping the leaks.
           </p>
         </div>
       </div>
@@ -298,7 +301,7 @@ export default function TestEngine({ gate, questions, testMeta }: Props) {
             Paper {gate}
           </span>
           <span className="text-xs text-inkdim">
-            {answered}/{questions.length} answered · {marked} marked
+            {answered}/{questions.length} answered · {marked} marked for review
           </span>
         </div>
         <div className="flex items-center gap-4">
@@ -307,7 +310,7 @@ export default function TestEngine({ gate, questions, testMeta }: Props) {
             onClick={confirmSubmit}
             className="rounded bg-copper px-4 py-1.5 text-xs font-bold tracking-wide text-ivory transition-calm hover:bg-copperlight"
           >
-            Submit
+            Seal Attempt
           </button>
         </div>
       </div>
@@ -416,26 +419,26 @@ export default function TestEngine({ gate, questions, testMeta }: Props) {
 
           <div className="flex flex-wrap items-center gap-3">
             <button onClick={() => navTo(currentIdx - 1)} disabled={currentIdx === 0} className="rounded-lg border border-linen px-4 py-2 text-sm text-inkdim transition-calm hover:border-inkdim disabled:opacity-30">
-              Prev
+              Previous
             </button>
             <button onClick={() => dispatch({ type: 'CLEAR', qId: currentQ.question_id })} className="rounded-lg border border-linen px-4 py-2 text-sm text-inkdim transition-calm hover:border-clay/40 hover:text-clay">
-              Clear
+              Clear response
             </button>
             <button onClick={() => dispatch({ type: 'MARK', qId: currentQ.question_id })} className={`rounded-lg border px-4 py-2 text-sm transition-calm ${
               ans?.marked
                 ? 'border-indigo bg-indigo/10 text-indigo'
                 : 'border-linen text-inkdim hover:border-indigo/50 hover:text-indigo'
             }`}>
-              {ans?.marked ? 'Marked' : 'Mark'}
+              {ans?.marked ? 'Marked for review' : 'Mark for review'}
             </button>
             <button onClick={() => navTo(currentIdx + 1)} disabled={currentIdx === questions.length - 1} className="ml-auto rounded-lg border border-copper/40 bg-copper/10 px-4 py-2 text-sm text-copper transition-calm hover:bg-copper/20 disabled:opacity-30">
-              Next
+              Save & Next
             </button>
           </div>
         </div>
 
         <div className="hidden w-56 shrink-0 flex-col overflow-y-auto border-l border-linen p-4 lg:flex">
-          <p className="mb-3 text-xs uppercase tracking-wide text-inkdim">Navigate</p>
+          <p className="mb-3 text-xs uppercase tracking-wide text-inkdim">Question palette</p>
           {sections.map(sec => (
             <div key={sec.key} className="mb-4">
               <p className="mb-2 font-mono text-xs text-inkdim">{sec.key}</p>

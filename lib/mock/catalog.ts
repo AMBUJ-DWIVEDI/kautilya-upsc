@@ -27,16 +27,16 @@ export interface MockCatalogItem {
 const DRILL_SUBJECTS: Subject[] = ['Polity', 'History', 'Geography', 'Economy']
 
 const FULL_LENGTH_TITLES = [
-  'Baseline Prelims',
+  'KAUTILYA IAS Baseline Mock 01',
   'Statement Discipline',
   'Elimination Drill',
   'Polity Density',
-  'Revision Checkpoint',
+  'Recall Checkpoint',
   'Pressure Simulation',
-  'Weakness Hunt',
+  'Repair Area Hunt',
   'Cutoff Push',
   'Final Repair',
-  'Kautilya Verdict',
+  'Command Diagnosis',
 ]
 
 const GS = APP.exam.prelimsGS

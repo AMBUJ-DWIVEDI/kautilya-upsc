@@ -2,7 +2,7 @@
 
 import { useState, useCallback, useEffect } from 'react'
 import { AnimatePresence } from 'framer-motion'
-import { CARDS, isLastCardOfLevel } from '@/lib/diagnosis/cards'
+import { FREE_DIAGNOSIS_CARDS, PAID_DIAGNOSIS_CARDS, isLastCardOfLevel } from '@/lib/diagnosis/cards'
 import { calculateHiddenScores } from '@/lib/diagnosis/scoring'
 import { deriveOutcome } from '@/lib/diagnosis/archetypes'
 import { createClient } from '@/lib/supabase/client'
@@ -16,26 +16,40 @@ import GeneratingScreen from './components/GeneratingScreen'
 
 const STORAGE_KEY = 'kautilya_diagnosis_progress'
 const OUTCOME_KEY = 'kautilya_diagnosis_outcome'
+const NAME_KEY = 'identity_name'
+const OPTION_KEYS = new Set(['a', 'b', 'c', 'd', 'e', 'f'])
+type DiagnosisDepth = 'free30' | 'paid50'
 
-function loadProgress(): { phase: DiagnosisPhase; answers: Answers } | null {
+function storageKey(depth: DiagnosisDepth): string {
+  return `${STORAGE_KEY}_${depth}`
+}
+
+function loadProgress(depth: DiagnosisDepth): { phase: DiagnosisPhase; answers: Answers } | null {
   if (typeof window === 'undefined') return null
   try {
-    const raw = localStorage.getItem(STORAGE_KEY)
-    return raw ? JSON.parse(raw) : null
+    const raw = localStorage.getItem(storageKey(depth)) ?? (depth === 'free30' ? localStorage.getItem(STORAGE_KEY) : null)
+    const saved = raw ? JSON.parse(raw) as { phase: DiagnosisPhase; answers: Answers } : null
+    const oldName = saved?.answers['L1-01']
+    if (saved && oldName && !OPTION_KEYS.has(oldName)) {
+      saved.answers[NAME_KEY] = saved.answers[NAME_KEY] ?? oldName
+      delete saved.answers['L1-01']
+    }
+    return saved
   } catch {
     return null
   }
 }
 
-function saveProgress(phase: DiagnosisPhase, answers: Answers) {
+function saveProgress(depth: DiagnosisDepth, phase: DiagnosisPhase, answers: Answers) {
   try {
-    localStorage.setItem(STORAGE_KEY, JSON.stringify({ phase, answers }))
+    localStorage.setItem(storageKey(depth), JSON.stringify({ phase, answers }))
   } catch {}
 }
 
-function clearProgress() {
+function clearProgress(depth: DiagnosisDepth) {
   try {
-    localStorage.removeItem(STORAGE_KEY)
+    localStorage.removeItem(storageKey(depth))
+    if (depth === 'free30') localStorage.removeItem(STORAGE_KEY)
   } catch {}
 }
 
@@ -64,8 +78,8 @@ function hiddenScoreRow(outcome: DiagnosisOutcome) {
   }
 }
 
-export default function DiagnosisEngine() {
-  const cards = CARDS
+export default function DiagnosisEngine({ depth }: { depth: DiagnosisDepth }) {
+  const cards = depth === 'paid50' ? PAID_DIAGNOSIS_CARDS : FREE_DIAGNOSIS_CARDS
   const [phase, setPhase] = useState<DiagnosisPhase>({ type: 'intro' })
   const [answers, setAnswers] = useState<Answers>({})
   const [direction, setDirection] = useState<1 | -1>(1)
@@ -73,35 +87,44 @@ export default function DiagnosisEngine() {
 
   // KAUTILYA-DECISION: one-shot localStorage hydration on mount — resume is a product requirement.
   useEffect(() => {
-    const saved = loadProgress()
+    const saved = loadProgress(depth)
     if (saved) {
-      // eslint-disable-next-line react-hooks/set-state-in-effect -- intentional hydration
-      setPhase(saved.phase)
-      // eslint-disable-next-line react-hooks/set-state-in-effect -- intentional hydration
+      const savedPhase = saved.phase.type === 'card' && saved.phase.index >= cards.length
+        ? { type: 'level-start' as const, level: cards[0].level }
+        : saved.phase
+      // eslint-disable-next-line react-hooks/set-state-in-effect -- intentional localStorage hydration
+      setPhase(savedPhase)
       setAnswers(saved.answers)
     }
     setHydrated(true)
-  }, [])
+  }, [cards, depth])
 
   const go = useCallback((nextPhase: DiagnosisPhase, dir: 1 | -1, newAnswers?: Answers) => {
     const a = newAnswers ?? answers
     setDirection(dir)
     setPhase(nextPhase)
-    saveProgress(nextPhase, a)
-  }, [answers])
+    saveProgress(depth, nextPhase, a)
+  }, [answers, depth])
 
   function handleAnswer(cardId: string, value: string) {
     const next = { ...answers, [cardId]: value }
     setAnswers(next)
-    saveProgress(phase, next)
+    saveProgress(depth, phase, next)
     track('diagnosis_card_answered', {
       card_id: cardId,
       level: cards.find(c => c.id === cardId)?.level,
+      depth,
     })
   }
 
+  function handleNameChange(value: string) {
+    const next = { ...answers, [NAME_KEY]: value }
+    setAnswers(next)
+    saveProgress(depth, phase, next)
+  }
+
   function handleStart() {
-    track('diagnosis_started', {})
+    track('diagnosis_started', { depth, total_cards: cards.length })
     go({ type: 'level-start', level: cards[0].level }, 1)
   }
 
@@ -114,14 +137,14 @@ export default function DiagnosisEngine() {
     const nextIndex = currentIndex + 1
 
     if (nextIndex >= cards.length) {
-      track('diagnosis_cards_finished', {})
+      track('diagnosis_cards_finished', { depth, total_cards: cards.length })
       go({ type: 'generating' }, 1)
       return
     }
 
     if (isLastCardOfLevel(currentIndex, cards)) {
       const nextLevel = cards[nextIndex].level
-      track('diagnosis_level_completed', { level: cards[currentIndex].level })
+      track('diagnosis_level_completed', { level: cards[currentIndex].level, depth })
       go({ type: 'level-start', level: nextLevel }, 1)
     } else {
       go({ type: 'card', index: nextIndex }, 1)
@@ -145,12 +168,14 @@ export default function DiagnosisEngine() {
   async function handleGeneratingComplete() {
     const { scores, facts } = calculateHiddenScores(answers)
     const outcome = deriveOutcome(scores, facts)
-    track('diagnosis_completed', { archetype: outcome.archetype })
+    const name = (answers[NAME_KEY] ?? '').trim()
+    const completedAt = new Date().toISOString()
+    track('diagnosis_completed', { archetype: outcome.archetype, depth, total_cards: cards.length })
 
     // The reveal page reads the outcome locally first so the ceremony never
     // waits on the network; the DB row is the durable copy.
     try {
-      localStorage.setItem(OUTCOME_KEY, JSON.stringify({ outcome, name: answers['L1-01'] ?? '' }))
+      localStorage.setItem(OUTCOME_KEY, JSON.stringify({ outcome, name }))
     } catch {}
 
     try {
@@ -158,21 +183,29 @@ export default function DiagnosisEngine() {
       const { data: { user } } = await supabase.auth.getUser()
 
       if (user) {
+        const profilePayload: Record<string, unknown> = {
+          user_id: user.id,
+          name,
+          pillar1_data: answers,
+          diagnosis_depth: depth,
+          anchor_generated: true,
+          attempts_taken: facts.attempts_taken ?? 0,
+          attempts_mains: facts.attempts_mains ?? 0,
+          prep_years: facts.prep_years ?? 0,
+          employed: facts.employed ?? false,
+          age: facts.age ?? null,
+          optional_subject: facts.optional_subject ?? null,
+        }
+
+        if (depth === 'free30') {
+          profilePayload.core_completed_at = completedAt
+        } else {
+          profilePayload.paid_extra_data = answers
+          profilePayload.paid_completed_at = completedAt
+        }
+
         await supabase.from('aspirant_profiles').upsert(
-          {
-            user_id: user.id,
-            name: answers['L1-01'] ?? '',
-            pillar1_data: answers,
-            diagnosis_depth: 'free30', // KAUTILYA-DECISION: stored enum value retained; means "core 52-card scan"
-            core_completed_at: new Date().toISOString(),
-            anchor_generated: true,
-            attempts_taken: facts.attempts_taken ?? 0,
-            attempts_mains: facts.attempts_mains ?? 0,
-            prep_years: facts.prep_years ?? 0,
-            employed: facts.employed ?? false,
-            age: facts.age ?? null,
-            optional_subject: facts.optional_subject ?? null,
-          },
+          profilePayload,
           { onConflict: 'user_id' },
         )
 
@@ -185,7 +218,7 @@ export default function DiagnosisEngine() {
       // Keep the ceremony moving; localStorage still holds the outcome.
     }
 
-    clearProgress()
+    clearProgress(depth)
     window.location.href = '/reveal'
   }
 
@@ -194,7 +227,14 @@ export default function DiagnosisEngine() {
   return (
     <AnimatePresence mode="wait" custom={direction}>
       {phase.type === 'intro' && (
-        <IntroScreen key="intro" totalCards={cards.length} onStart={handleStart} />
+        <IntroScreen
+          key="intro"
+          totalCards={cards.length}
+          depth={depth}
+          name={answers[NAME_KEY] ?? ''}
+          onNameChange={handleNameChange}
+          onStart={handleStart}
+        />
       )}
 
       {phase.type === 'level-start' && (

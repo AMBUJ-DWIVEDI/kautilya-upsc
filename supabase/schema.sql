@@ -211,7 +211,7 @@ CREATE TABLE IF NOT EXISTS public.payments (
   paid_at             TIMESTAMPTZ
 );
 
-COMMENT ON COLUMN public.payments.amount_paise IS '49900 = ₹499, 99900 = ₹999';
+COMMENT ON COLUMN public.payments.amount_paise IS '99900 = ₹999, 199900 = ₹1999';
 
 
 -- ============================================================

@@ -27,29 +27,29 @@ export default async function UpgradePage() {
         <header className="mx-auto mb-10 max-w-3xl text-center">
           <Seal variant="pending" size={48} className="mx-auto mb-4" />
           <p className="mb-3 font-mono text-xs uppercase tracking-[0.3em] text-copper">
-            Command tiers
+            Full Command System
           </p>
           <h1 className="heading-cinzel text-3xl font-bold leading-tight text-indigo sm:text-4xl">
             Pay for integration, not another pile of sources.
           </h1>
           <p className="mx-auto mt-4 max-w-2xl text-sm leading-7 text-inkdim">
-            Scout maps the aspirant. Prelims Command runs the paper library and daily mission.
-            GS Command adds full note depth and mains frameworks.
+            Scout names the first pattern. Warrior opens the full 50-card contextual diagnosis
+            and repair loop. Commander adds full note depth and Mains frameworks.
           </p>
         </header>
 
         <div className="grid gap-5 md:grid-cols-3">
           <PlanCard
             name={scout.label}
-            price="₹0"
-            badge="Diagnosis + baseline"
+            price="Rs. 0"
+            badge="Premium entry report"
             current={currentPlan === 'free'}
             features={[
-              '52-card UPSC diagnosis',
+              '30-card Scout diagnosis',
               'Archetype reveal ceremony',
-              'Paper 1 baseline mock',
-              'Daily command (lighter re-entry)',
-              'One sample Smart Note',
+              'First repair direction',
+              'Paper 1 baseline signal',
+              'Daily command sample',
             ]}
             cta={<p className="py-3 text-center text-sm text-inkdim">Your current tier</p>}
           />
@@ -57,14 +57,15 @@ export default async function UpgradePage() {
           <PlanCard
             name={PLANS.prelims.label}
             price={PLANS.prelims.amountDisplay}
-            badge="Prelims execution"
+            badge="Repair loop + mock arena"
             featured
             current={currentPlan === 'prelims'}
             features={[
-              'Full Paper Library (100Q mocks + drills)',
+              'Full 50-card Warrior diagnosis',
+              'Full Mock Arena (100Q mocks + drills)',
               'Guessing & elimination analytics',
               'Daily 5-thread command',
-              'Repair loop → Smart Notes',
+              'Repair loop to Smart Notes',
               'Weekly review ceremony',
             ]}
             cta={
@@ -78,21 +79,22 @@ export default async function UpgradePage() {
                     userEmail={user.email ?? undefined}
                     onSuccess={() => { window.location.href = '/dashboard' }}
                   />
-                : <p className="py-3 text-center text-sm text-sage">Included in GS Command</p>
+                : <p className="py-3 text-center text-sm text-sage">Included in Commander</p>
             }
           />
 
           <PlanCard
             name={PLANS.gs.label}
             price={PLANS.gs.amountDisplay}
-            badge="Full GS depth"
+            badge="Full command system"
             current={currentPlan === 'gs'}
             features={[
-              'Everything in Prelims Command',
+              'Everything in Warrior',
+              'Full 50-card diagnosis retained',
               'Full Smart Notes vault (upsc12)',
               'Mains answer frameworks daily',
-              'Priority note revision queue',
-              'Integration Score coaching copy',
+              'Priority recall queue',
+              'Integration signal coaching copy',
             ]}
             cta={
               currentPlan === 'gs'
@@ -122,7 +124,7 @@ export default async function UpgradePage() {
 
         <div className="mt-8 text-center">
           <Link href="/dashboard" className="text-xs font-medium text-inkdim transition-calm hover:text-copper">
-            ← Back to Command Board
+            ← Back to Today&apos;s Command
           </Link>
         </div>
       </div>

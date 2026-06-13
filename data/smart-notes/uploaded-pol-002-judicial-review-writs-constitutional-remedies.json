@@ -1,0 +1,192 @@
+{
+  "id": "local-pol-002",
+  "section": "Polity",
+  "category": "Judiciary",
+  "topic": "Judicial Review, Writs & Constitutional Remedies",
+  "subtopic": "Uploaded KAUTILYA sample smart note with mind map",
+  "slug": "judicial-review-writs-constitutional-remedies",
+  "anatomy": "upsc12",
+  "content": {
+    "issueStory": "A Constitution without a guardian is only a book. Judicial review turns the Constitution into a living limit on power. Writs turn rights into remedies.",
+    "coreConcept": "Judicial review is the power of courts to examine whether laws and executive actions violate the Constitution. In India, both the Supreme Court and High Courts exercise this power.\n\nWrit jurisdiction protects rights:\n- Supreme Court: Article 32, mainly for Fundamental Rights.\n- High Courts: Article 226, for Fundamental Rights and other legal rights.",
+    "dimensions": [
+      "Judicial Review: Review laws/executive action; Constitutional supremacy; Basic Structure protection; Rule of law",
+      "Article 32: Supreme Court; Fundamental Rights enforcement; Remedy itself is FR; Heart and soul",
+      "Article 226: High Courts; Wider jurisdiction; FR + legal rights; Discretionary remedy",
+      "Five Writs: Habeas Corpus; Mandamus; Prohibition; Certiorari; Quo Warranto",
+      "PYQ Traps: 32 vs 226 scope; Certiorari vs Prohibition; Mandamus exceptions; Quo warranto public office",
+      "Mains Hooks: Judicial activism; Separation of powers; Access to justice; Constitutional remedies",
+      "Active Recall: Which writ produces a detained person?; Which writ asks authority to perform duty?; Why is 226 wider than 32?"
+    ],
+    "constitutionalLink": "Constitutional anchor: Judicial Review: Review laws/executive action; Constitutional supremacy; Basic Structure protection; Rule of law",
+    "dataReport": "Link to separation of powers, rule of law, constitutional supremacy, and individual liberty.\nAnswer frame: “Judicial review legitimizes governance when used with restraint and checks majoritarian excess when used with courage.”",
+    "caseStudy": "Create a two-column table: Article 32 vs Article 226. Add jurisdiction, rights covered, court, and one example.\n\n---",
+    "argumentsFor": [
+      "Link to separation of powers, rule of law, constitutional supremacy, and individual liberty.",
+      "Answer frame: “Judicial review legitimizes governance when used with restraint and checks majoritarian excess when used with courage.”"
+    ],
+    "argumentsAgainst": [
+      "High Court writ jurisdiction is wider than Supreme Court writ jurisdiction.",
+      "Judicial review is considered part of the basic structure.",
+      "Article 142 is about “complete justice,” not ordinary appellate jurisdiction.",
+      "Article 143 is advisory jurisdiction; advice is not binding.",
+      "Article 131 = original jurisdiction in Centre-State or inter-State disputes."
+    ],
+    "pyqLink": "PYQ traps to watch:\n- High Court writ jurisdiction is wider than Supreme Court writ jurisdiction.\n- Judicial review is considered part of the basic structure.\n- Article 142 is about “complete justice,” not ordinary appellate jurisdiction.\n- Article 143 is advisory jurisdiction; advice is not binding.\n- Article 131 = original jurisdiction in Centre-State or inter-State disputes.",
+    "answerFramework": {
+      "intro": "A Constitution without a guardian is only a book.",
+      "body": [
+        "Judicial review is the power of courts to examine whether laws and executive actions violate the Constitution.",
+        "Use mind-map branches: Judicial Review; Article 32; Article 226; Five Writs.",
+        "Prelims trap to avoid: High Court writ jurisdiction is wider than Supreme Court writ jurisdiction.",
+        "Mains hook: Link to separation of powers, rule of law, constitutional supremacy, and individual liberty."
+      ],
+      "conclusion": "Create a two-column table: Article 32 vs Article 226. Add jurisdiction, rights covered, court, and one example.\n\n---"
+    },
+    "mainsExamples": [
+      "Link to separation of powers, rule of law, constitutional supremacy, and individual liberty.",
+      "Answer frame: “Judicial review legitimizes governance when used with restraint and checks majoritarian excess when used with courage.”"
+    ],
+    "prelimsFacts": [
+      "“32 = Soul, 226 = Wider Net”",
+      "Article 32: Supreme Court, Fundamental Rights.",
+      "Article 226: High Court, Fundamental Rights + legal rights.",
+      "32 is narrower but more central.",
+      "226 is wider but territorially limited.",
+      "Writs mnemonic: “Ha-Ma-Ce-Pro-Quo”",
+      "Habeas Corpus",
+      "Mandamus",
+      "High Court writ jurisdiction is wider than Supreme Court writ jurisdiction.",
+      "Judicial review is considered part of the basic structure.",
+      "Article 142 is about “complete justice,” not ordinary appellate jurisdiction.",
+      "Article 143 is advisory jurisdiction; advice is not binding.",
+      "Article 131 = original jurisdiction in Centre-State or inter-State disputes."
+    ],
+    "revisionBox": [
+      {
+        "prompt": "Which article gives writ jurisdiction to the Supreme Court?",
+        "answer": "Judicial review is the power of courts to examine whether laws and executive actions violate the Constitution. Watch the PYQ traps before declaring mastery."
+      },
+      {
+        "prompt": "Which article gives wider writ power to High Courts?",
+        "answer": "Judicial review is the power of courts to examine whether laws and executive actions violate the Constitution. Watch the PYQ traps before declaring mastery."
+      },
+      {
+        "prompt": "Is judicial review mentioned as a term in the Constitution?",
+        "answer": "Judicial review is the power of courts to examine whether laws and executive actions violate the Constitution. Watch the PYQ traps before declaring mastery."
+      },
+      {
+        "prompt": "What is Article 142?",
+        "answer": "Judicial review is the power of courts to examine whether laws and executive actions violate the Constitution. Watch the PYQ traps before declaring mastery."
+      },
+      {
+        "prompt": "What is the difference between Certiorari and Prohibition?",
+        "answer": "Judicial review is the power of courts to examine whether laws and executive actions violate the Constitution. Watch the PYQ traps before declaring mastery."
+      }
+    ]
+  },
+  "story": "A Constitution without a guardian is only a book. Judicial review turns the Constitution into a living limit on power. Writs turn rights into remedies.",
+  "core_concept": "Judicial review is the power of courts to examine whether laws and executive actions violate the Constitution. In India, both the Supreme Court and High Courts exercise this power.\n\nWrit jurisdiction protects rights:\n- Supreme Court: Article 32, mainly for Fundamental Rights.\n- High Courts: Article 226, for Fundamental Rights and other legal rights.",
+  "mnemonic": "“32 = Soul, 226 = Wider Net”\n\n- Article 32: Supreme Court, Fundamental Rights.\n- Article 226: High Court, Fundamental Rights + legal rights.\n- 32 is narrower but more central.\n- 226 is wider but territorially limited.\n\nWrits mnemonic: “Ha-Ma-Ce-Pro-Quo”\n- Habeas Corpus\n- Mandamus\n- Certiorari\n- Prohibition\n- Quo Warranto",
+  "mindmap_json": {
+    "center": "Courts as Guardians of Constitutional Limits",
+    "branches": [
+      {
+        "label": "Judicial Review",
+        "children": [
+          "Review laws/executive action",
+          "Constitutional supremacy",
+          "Basic Structure protection",
+          "Rule of law"
+        ]
+      },
+      {
+        "label": "Article 32",
+        "children": [
+          "Supreme Court",
+          "Fundamental Rights enforcement",
+          "Remedy itself is FR",
+          "Heart and soul"
+        ]
+      },
+      {
+        "label": "Article 226",
+        "children": [
+          "High Courts",
+          "Wider jurisdiction",
+          "FR + legal rights",
+          "Discretionary remedy"
+        ]
+      },
+      {
+        "label": "Five Writs",
+        "children": [
+          "Habeas Corpus",
+          "Mandamus",
+          "Prohibition",
+          "Certiorari",
+          "Quo Warranto"
+        ]
+      },
+      {
+        "label": "PYQ Traps",
+        "children": [
+          "32 vs 226 scope",
+          "Certiorari vs Prohibition",
+          "Mandamus exceptions",
+          "Quo warranto public office"
+        ]
+      },
+      {
+        "label": "Mains Hooks",
+        "children": [
+          "Judicial activism",
+          "Separation of powers",
+          "Access to justice",
+          "Constitutional remedies"
+        ]
+      },
+      {
+        "label": "Active Recall",
+        "children": [
+          "Which writ produces a detained person?",
+          "Which writ asks authority to perform duty?",
+          "Why is 226 wider than 32?"
+        ]
+      }
+    ]
+  },
+  "key_facts": [
+    "“32 = Soul, 226 = Wider Net”",
+    "Article 32: Supreme Court, Fundamental Rights.",
+    "Article 226: High Court, Fundamental Rights + legal rights.",
+    "32 is narrower but more central.",
+    "226 is wider but territorially limited.",
+    "Writs mnemonic: “Ha-Ma-Ce-Pro-Quo”",
+    "Habeas Corpus",
+    "Mandamus",
+    "High Court writ jurisdiction is wider than Supreme Court writ jurisdiction.",
+    "Judicial review is considered part of the basic structure.",
+    "Article 142 is about “complete justice,” not ordinary appellate jurisdiction.",
+    "Article 143 is advisory jurisdiction; advice is not binding.",
+    "Article 131 = original jurisdiction in Centre-State or inter-State disputes."
+  ],
+  "common_traps": [
+    "High Court writ jurisdiction is wider than Supreme Court writ jurisdiction.",
+    "Judicial review is considered part of the basic structure.",
+    "Article 142 is about “complete justice,” not ordinary appellate jurisdiction.",
+    "Article 143 is advisory jurisdiction; advice is not binding.",
+    "Article 131 = original jurisdiction in Centre-State or inter-State disputes."
+  ],
+  "pyq_refs": [],
+  "pyq_count": 5,
+  "last_asked": 2025,
+  "high_yield": true,
+  "read_time_mins": 8,
+  "difficulty": "Medium",
+  "status": "published",
+  "source_type": "uploaded_sample_pack",
+  "version": 1,
+  "created_at": "2026-06-13T12:42:11.352896+00:00",
+  "updated_at": "2026-06-13T12:42:11.352896+00:00"
+}

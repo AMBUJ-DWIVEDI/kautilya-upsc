@@ -21,7 +21,7 @@ export default function LevelStartScreen({ level, onContinue }: Props) {
     >
       <div className="card-calm copper-border w-full max-w-sm p-6">
         <p className="mb-3 text-xs font-bold uppercase tracking-[0.24em] text-copper">
-          Level {level} of 8
+          Stage {level} of 8
         </p>
         <h2 className="heading-cinzel text-2xl font-bold text-indigo">
           {LEVEL_NAMES[level]}
@@ -33,7 +33,7 @@ export default function LevelStartScreen({ level, onContinue }: Props) {
           onClick={onContinue}
           className="mt-6 min-h-11 w-full rounded-lg bg-copper px-5 text-sm font-bold text-ivory transition-calm hover:bg-copperlight"
         >
-          Enter
+          Map This Stage
         </button>
       </div>
     </motion.div>

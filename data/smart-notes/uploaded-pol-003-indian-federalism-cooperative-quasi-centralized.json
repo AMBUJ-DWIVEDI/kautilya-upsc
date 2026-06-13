@@ -1,0 +1,193 @@
+{
+  "id": "local-pol-003",
+  "section": "Polity",
+  "category": "Federalism",
+  "topic": "Indian Federalism: Cooperative, Quasi, Centralized",
+  "subtopic": "Uploaded KAUTILYA sample smart note with mind map",
+  "slug": "indian-federalism-cooperative-quasi-centralized",
+  "anatomy": "upsc12",
+  "content": {
+    "issueStory": "India is not a federation formed by independent states joining together. It is a Union built to hold diversity together. That is why Indian federalism carries two impulses at once: decentralization for diversity, centralization for unity.",
+    "coreConcept": "Indian federalism has federal features such as dual polity, written Constitution, division of powers, supremacy of Constitution, independent judiciary, and bicameralism. It also has unitary features such as strong Centre, single Constitution, single citizenship, emergency provisions, integrated judiciary, and All India Services.",
+    "dimensions": [
+      "Constitutional Design: Union + States; Written Constitution; Supremacy of Constitution; Division of powers",
+      "Legislative Relations: Union List; State List; Concurrent List; Residuary powers with Union",
+      "Administrative Relations: All India Services; Directions to States; Inter-state coordination; Emergency provisions",
+      "Fiscal Relations: Tax distribution; Finance Commission; GST Council; Grants-in-aid",
+      "Unitary Bias: Strong Centre; Single citizenship; Integrated judiciary; Emergency centralization",
+      "PYQ Traps: Federation not result of state agreement; No state right to secede; Residuary power location; GST cooperative federalism",
+      "Mains Hooks: Cooperative federalism; Competitive federalism; Governor issues; Fiscal autonomy; Local governance"
+    ],
+    "constitutionalLink": "Constitutional anchor: Constitutional Design: Union + States; Written Constitution; Supremacy of Constitution; Division of powers",
+    "dataReport": "Use in answers on GST Council, Finance Commission, Inter-State Council, Governor issues, centrally sponsored schemes, and one nation one election.\nEssay line: “Indian federalism is not a fixed geometry; it is a negotiated balance between unity and diversity.”",
+    "caseStudy": "Write a 150-word answer: “India is federal in structure but unitary in spirit. Discuss.”\n\n---",
+    "argumentsFor": [
+      "Use in answers on GST Council, Finance Commission, Inter-State Council, Governor issues, centrally sponsored schemes, and one nation one election.",
+      "Essay line: “Indian federalism is not a fixed geometry; it is a negotiated balance between unity and diversity.”"
+    ],
+    "argumentsAgainst": [
+      "India is called “Union of States,” not because states are sovereign units but because the federation is indestructible.",
+      "Rajya Sabha representation is not equal for every state.",
+      "Parliament can alter state boundaries under Article 3.",
+      "On Concurrent List conflicts, Union law usually prevails.",
+      "“Cooperative federalism” and “competitive federalism” are governance concepts, not identical constitutional provisions."
+    ],
+    "pyqLink": "PYQ traps to watch:\n- India is called “Union of States,” not because states are sovereign units but because the federation is indestructible.\n- Rajya Sabha representation is not equal for every state.\n- Parliament can alter state boundaries under Article 3.\n- On Concurrent List conflicts, Union law usually prevails.\n- “Cooperative federalism” and “competitive federalism” are governance concepts, not identical constitutional provisions.",
+    "answerFramework": {
+      "intro": "India is not a federation formed by independent states joining together.",
+      "body": [
+        "Indian federalism has federal features such as dual polity, written Constitution, division of powers, supremacy of Constitution, independent judiciary, and bicameralism.",
+        "Use mind-map branches: Constitutional Design; Legislative Relations; Administrative Relations; Fiscal Relations.",
+        "Prelims trap to avoid: India is called “Union of States,” not because states are sovereign units but because the federation is indestructible.",
+        "Mains hook: Use in answers on GST Council, Finance Commission, Inter-State Council, Governor issues, centrally sponsored schemes, and one nation one election."
+      ],
+      "conclusion": "Write a 150-word answer: “India is federal in structure but unitary in spirit. Discuss.”\n\n---"
+    },
+    "mainsExamples": [
+      "Use in answers on GST Council, Finance Commission, Inter-State Council, Governor issues, centrally sponsored schemes, and one nation one election.",
+      "Essay line: “Indian federalism is not a fixed geometry; it is a negotiated balance between unity and diversity.”"
+    ],
+    "prelimsFacts": [
+      "Federal Features: “D-W-D-S-R-B-I”",
+      "Dual polity",
+      "Written Constitution",
+      "Division of powers",
+      "Supremacy of Constitution",
+      "Rigid amendment procedure",
+      "Bicameralism",
+      "Independent judiciary",
+      "India is called “Union of States,” not because states are sovereign units but because the federation is indestructible.",
+      "Rajya Sabha representation is not equal for every state.",
+      "Parliament can alter state boundaries under Article 3.",
+      "On Concurrent List conflicts, Union law usually prevails.",
+      "“Cooperative federalism” and “competitive federalism” are governance concepts, not identical constitutional provisions."
+    ],
+    "revisionBox": [
+      {
+        "prompt": "What makes India federal?",
+        "answer": "Indian federalism has federal features such as dual polity, written Constitution, division of powers, supremacy of Constitution, independent judiciary, and bicameralism. Watch the PYQ traps before declaring mastery."
+      },
+      {
+        "prompt": "What makes India unitary?",
+        "answer": "Indian federalism has federal features such as dual polity, written Constitution, division of powers, supremacy of Constitution, independent judiciary, and bicameralism. Watch the PYQ traps before declaring mastery."
+      },
+      {
+        "prompt": "Which article allows Parliament to alter state boundaries?",
+        "answer": "Indian federalism has federal features such as dual polity, written Constitution, division of powers, supremacy of Constitution, independent judiciary, and bicameralism. Watch the PYQ traps before declaring mastery."
+      },
+      {
+        "prompt": "Why is Rajya Sabha not a purely federal chamber like the US Senate?",
+        "answer": "Indian federalism has federal features such as dual polity, written Constitution, division of powers, supremacy of Constitution, independent judiciary, and bicameralism. Watch the PYQ traps before declaring mastery."
+      },
+      {
+        "prompt": "What is the difference between cooperative and competitive federalism?",
+        "answer": "Indian federalism has federal features such as dual polity, written Constitution, division of powers, supremacy of Constitution, independent judiciary, and bicameralism. Watch the PYQ traps before declaring mastery."
+      }
+    ]
+  },
+  "story": "India is not a federation formed by independent states joining together. It is a Union built to hold diversity together. That is why Indian federalism carries two impulses at once: decentralization for diversity, centralization for unity.",
+  "core_concept": "Indian federalism has federal features such as dual polity, written Constitution, division of powers, supremacy of Constitution, independent judiciary, and bicameralism. It also has unitary features such as strong Centre, single Constitution, single citizenship, emergency provisions, integrated judiciary, and All India Services.",
+  "mnemonic": "Federal Features: “D-W-D-S-R-B-I”\n- Dual polity\n- Written Constitution\n- Division of powers\n- Supremacy of Constitution\n- Rigid amendment procedure\n- Bicameralism\n- Independent judiciary\n\nUnitary Features: “C-S-E-I-A”\n- Centre stronger\n- Single Constitution/citizenship\n- Emergency provisions\n- Integrated judiciary\n- All India Services",
+  "mindmap_json": {
+    "center": "Federal System with Unitary Bias",
+    "branches": [
+      {
+        "label": "Constitutional Design",
+        "children": [
+          "Union + States",
+          "Written Constitution",
+          "Supremacy of Constitution",
+          "Division of powers"
+        ]
+      },
+      {
+        "label": "Legislative Relations",
+        "children": [
+          "Union List",
+          "State List",
+          "Concurrent List",
+          "Residuary powers with Union"
+        ]
+      },
+      {
+        "label": "Administrative Relations",
+        "children": [
+          "All India Services",
+          "Directions to States",
+          "Inter-state coordination",
+          "Emergency provisions"
+        ]
+      },
+      {
+        "label": "Fiscal Relations",
+        "children": [
+          "Tax distribution",
+          "Finance Commission",
+          "GST Council",
+          "Grants-in-aid"
+        ]
+      },
+      {
+        "label": "Unitary Bias",
+        "children": [
+          "Strong Centre",
+          "Single citizenship",
+          "Integrated judiciary",
+          "Emergency centralization"
+        ]
+      },
+      {
+        "label": "PYQ Traps",
+        "children": [
+          "Federation not result of state agreement",
+          "No state right to secede",
+          "Residuary power location",
+          "GST cooperative federalism"
+        ]
+      },
+      {
+        "label": "Mains Hooks",
+        "children": [
+          "Cooperative federalism",
+          "Competitive federalism",
+          "Governor issues",
+          "Fiscal autonomy",
+          "Local governance"
+        ]
+      }
+    ]
+  },
+  "key_facts": [
+    "Federal Features: “D-W-D-S-R-B-I”",
+    "Dual polity",
+    "Written Constitution",
+    "Division of powers",
+    "Supremacy of Constitution",
+    "Rigid amendment procedure",
+    "Bicameralism",
+    "Independent judiciary",
+    "India is called “Union of States,” not because states are sovereign units but because the federation is indestructible.",
+    "Rajya Sabha representation is not equal for every state.",
+    "Parliament can alter state boundaries under Article 3.",
+    "On Concurrent List conflicts, Union law usually prevails.",
+    "“Cooperative federalism” and “competitive federalism” are governance concepts, not identical constitutional provisions."
+  ],
+  "common_traps": [
+    "India is called “Union of States,” not because states are sovereign units but because the federation is indestructible.",
+    "Rajya Sabha representation is not equal for every state.",
+    "Parliament can alter state boundaries under Article 3.",
+    "On Concurrent List conflicts, Union law usually prevails.",
+    "“Cooperative federalism” and “competitive federalism” are governance concepts, not identical constitutional provisions."
+  ],
+  "pyq_refs": [],
+  "pyq_count": 5,
+  "last_asked": 2025,
+  "high_yield": true,
+  "read_time_mins": 8,
+  "difficulty": "Medium",
+  "status": "published",
+  "source_type": "uploaded_sample_pack",
+  "version": 1,
+  "created_at": "2026-06-13T12:42:11.352896+00:00",
+  "updated_at": "2026-06-13T12:42:11.352896+00:00"
+}

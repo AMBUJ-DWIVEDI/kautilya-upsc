@@ -39,8 +39,8 @@ export const APP = {
   pricing: {
     tiers: [
       { id: 'scout', label: 'Scout', price: 0 },
-      { id: 'prelims', label: 'Prelims Command', price: 1499 },
-      { id: 'gs', label: 'GS Command', price: 4999 },
+      { id: 'prelims', label: 'Warrior', price: 999 },
+      { id: 'gs', label: 'Commander', price: 1999 },
     ],
   },
 } as const

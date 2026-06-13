@@ -15,6 +15,7 @@ interface Props {
   archetype: ArchetypeId
   warPatternTags: WarPatternTag[]
   name: string
+  depth: 'free30' | 'paid50'
   identityFusion: number
   dims: Record<Dimension, number>
 }
@@ -33,10 +34,11 @@ function bandFor(dim: Dimension, score: number): string {
   return 'The front line. This is where we work.'
 }
 
-export default function RevealClient({ archetype, warPatternTags, name, identityFusion, dims }: Props) {
+export default function RevealClient({ archetype, warPatternTags, name, depth, identityFusion, dims }: Props) {
   const meta = ARCHETYPES[archetype]
   const cardRef = useRef<HTMLDivElement>(null)
   const [exporting, setExporting] = useState(false)
+  const isScoutReport = depth !== 'paid50'
 
   // Design law: identity_fusion >= 80 softens the harshest verdict paths.
   const revealLine = identityFusion >= 80 ? meta.revealLineSoft : meta.revealLine
@@ -100,6 +102,21 @@ export default function RevealClient({ archetype, warPatternTags, name, identity
           {revealLine}
         </motion.p>
 
+        <motion.div
+          initial={{ opacity: 0, y: 12 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 1.95, duration: 0.5 }}
+          className="card-calm mt-7 w-full max-w-md p-5 text-left"
+        >
+          <p className="text-xs font-bold uppercase tracking-[0.22em] text-copper">
+            First prescribed action
+          </p>
+          <p className="mt-2 text-sm leading-6 text-slate900">
+            Open your command diagnosis, then execute the first repair before adding another
+            source to the pile.
+          </p>
+        </motion.div>
+
         {/* ── 3 dimension highlights ── */}
         <motion.div
           initial={{ opacity: 0, y: 12 }}
@@ -138,6 +155,30 @@ export default function RevealClient({ archetype, warPatternTags, name, identity
         )}
 
         <motion.div
+          initial={{ opacity: 0, y: 12 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 2.95, duration: 0.5 }}
+          className="copper-border mt-8 w-full rounded-lg bg-ivory p-5 text-left"
+        >
+          <p className="text-xs font-bold uppercase tracking-[0.22em] text-copper">
+            {isScoutReport ? 'What the full diagnosis unlocks' : 'Full diagnosis complete'}
+          </p>
+          <p className="mt-2 text-sm leading-6 text-slate900">
+            {isScoutReport
+              ? 'Scout named the pattern from thirty premium signals. Warrior and Commander reopen the full fifty-card instrument to read pressure, resources, identity, recovery, and exam-hall behaviour with sharper context.'
+              : 'This report used the full fifty-card instrument, so tomorrow\'s command can lean on the deeper context instead of a first approximation.'}
+          </p>
+          {isScoutReport && (
+            <Link
+              href="/upgrade"
+              className="mt-4 inline-flex min-h-10 items-center justify-center rounded-lg border border-copper/40 px-4 text-xs font-bold uppercase tracking-[0.18em] text-copper transition-calm hover:bg-copper hover:text-ivory"
+            >
+              Unlock 50-card diagnosis
+            </Link>
+          )}
+        </motion.div>
+
+        <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 3.1, duration: 0.5 }}
@@ -147,7 +188,7 @@ export default function RevealClient({ archetype, warPatternTags, name, identity
             href="/dashboard"
             className="inline-flex min-h-12 w-full items-center justify-center rounded-lg bg-copper text-sm font-bold text-ivory transition-calm hover:bg-copperlight"
           >
-            Receive your first command
+            Open Command Diagnosis
           </Link>
           <button
             onClick={handleExport}
@@ -167,7 +208,7 @@ export default function RevealClient({ archetype, warPatternTags, name, identity
           style={{ border: '1px solid #E5DFD2' }}
         >
           <p className="heading-cinzel text-[11px] font-bold uppercase tracking-[0.3em] text-inkdim">
-            KAUTILYA · UPSC CSE
+            KAUTILYA IAS · UPSC CSE
           </p>
           <div className="flex flex-col items-center">
             <Seal variant="stamped" size={88} />

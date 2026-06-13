@@ -81,7 +81,7 @@ export default async function MockGatePage({ params }: Props) {
           <p className="mb-2 text-clay">The bank for Paper {gate} is still being inked.</p>
           <p className="text-sm">This paper is in the catalog. Upload its bank file to activate it.</p>
           <a href="/mock" className="mt-4 inline-block text-sm text-copper hover:underline">
-            Back to the Paper Library
+            Back to Mock Arena
           </a>
         </div>
       </div>

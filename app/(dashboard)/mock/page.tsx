@@ -44,42 +44,42 @@ export default async function PaperLibraryPage() {
         <header className="mb-6 grid gap-4 lg:grid-cols-[1fr_320px] lg:items-end">
           <div>
             <p className="mb-2 text-xs font-bold uppercase tracking-[0.3em] text-copper">
-              Full GS papers · Subject drills
+              Baseline signals · Repair drills
             </p>
             <h1 className="heading-cinzel text-3xl font-black leading-tight text-indigo sm:text-4xl">
-              The Paper Library
+              Mock Arena
             </h1>
             <p className="mt-3 max-w-2xl text-sm leading-7 text-inkdim">
-              Paper 1 is your free baseline — {gs.questions} questions, {gs.minutes} minutes,
+              Paper 1 is your free baseline: {gs.questions} questions, {gs.minutes} minutes,
               +{gs.perQuestion}/−{gs.negative}. Every paper reads your guessing discipline and
               elimination technique, not just your score.
             </p>
           </div>
           <div className="card-calm p-4">
-            <p className="text-xs font-bold uppercase tracking-[0.22em] text-copper">Your access</p>
-            <p className="mt-2 text-2xl font-black text-indigo">{paid ? 'Full library' : '1 baseline paper'}</p>
-            <p className="mt-1 text-xs text-inkdim">{completed} completed so far</p>
+            <p className="text-xs font-bold uppercase tracking-[0.22em] text-copper">Your mock access</p>
+            <p className="mt-2 text-2xl font-black text-indigo">{paid ? 'Full arena' : '1 baseline mock'}</p>
+            <p className="mt-1 text-xs text-inkdim">{completed} signal{completed !== 1 ? 's' : ''} recorded</p>
           </div>
         </header>
 
         {!paid && (
           <section className="card-calm copper-border mb-6 p-5">
-            <p className="text-xs font-bold uppercase tracking-[0.26em] text-copper">Free proof</p>
+            <p className="text-xs font-bold uppercase tracking-[0.26em] text-copper">Baseline signal</p>
             <h2 className="heading-cinzel mt-2 text-2xl font-bold text-indigo">
-              Take Paper 1. Then unlock the plan built from your leaks.
+              Start Paper 1. Then unlock the plan built from your leaks.
             </h2>
             <p className="mt-3 text-sm leading-6 text-inkdim">
-              The baseline exposes where marks leak. Prelims Command uses that evidence to
-              sequence full papers, subject drills, and Smart Notes.
+              The baseline exposes where marks leak. Warrior uses that evidence to
+              sequence full mocks, subject drills, and prescribed repairs.
             </p>
             <Link href="/upgrade?reason=mock" className="mt-5 inline-flex min-h-11 items-center rounded bg-copper px-5 text-sm font-bold text-ivory transition-calm hover:bg-copperlight">
-              Unlock the library
+              Unlock Full Command System
             </Link>
           </section>
         )}
 
-        <PaperSection title="Full-Length Papers" subtitle="Exam simulations: pressure, attempt structure, and cutoff practice." tests={fullLength} plan={plan} idByGate={idByGate} attemptMap={attemptMap} />
-        <PaperSection title="Subject Drills" subtitle="Focused repair for Polity, History, Geography, and Economy." tests={drills} plan={plan} idByGate={idByGate} attemptMap={attemptMap} />
+        <PaperSection title="Full Mock Arena" subtitle="Exam simulations: pressure, attempt structure, and cutoff practice." tests={fullLength} plan={plan} idByGate={idByGate} attemptMap={attemptMap} />
+        <PaperSection title="Repair Drills" subtitle="Focused repair for Polity, History, Geography, and Economy." tests={drills} plan={plan} idByGate={idByGate} attemptMap={attemptMap} />
       </div>
     </div>
   )
@@ -153,18 +153,18 @@ function PaperCard({
         <span className={`rounded px-2 py-1 text-[10px] font-bold uppercase tracking-wide ${
           locked ? 'bg-linen text-inkdim/60' : 'bg-copper/10 text-copper'
         }`}>
-          {locked ? 'Locked' : attempt ? 'Report' : 'Start'}
+          {locked ? 'Locked' : attempt ? 'Diagnosis' : 'Start mock'}
         </span>
       </div>
       <div className="flex flex-wrap gap-2 text-[11px] text-inkdim">
         <span>{test.test_type === 'full_length' ? 'Full GS' : test.section}</span>
         <span>{test.total_questions} Qs</span>
         <span>{test.duration_mins} min</span>
-        <span>{test.max_score} marks</span>
+        <span>{test.max_score} max</span>
       </div>
       {attempt && (
         <p className="mt-3 font-mono text-xs font-bold text-sage">
-          Score {attempt.score}/{attempt.max_score ?? test.max_score}
+          Signal {attempt.score}/{attempt.max_score ?? test.max_score}
         </p>
       )}
     </Link>

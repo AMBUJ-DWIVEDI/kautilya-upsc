@@ -7,6 +7,7 @@ import { createClient } from '@/lib/supabase/server'
 import type { NoteConfidence } from '@/lib/notes/types'
 import { nextDueDate } from '@/lib/notes/types'
 import { hasGsPlan } from '@/lib/plans'
+import { getLocalSampleSmartNote, getLocalSmartNoteById } from '@/lib/notes/local'
 
 export async function POST(req: NextRequest) {
   const supabase = await createClient()
@@ -30,11 +31,25 @@ export async function POST(req: NextRequest) {
       .order('pyq_count', { ascending: false })
       .order('topic', { ascending: true })
       .limit(1)
-      .single(),
+      .maybeSingle(),
   ])
 
-  if (!hasGsPlan(planRow?.plan_type) && note_id !== sampleNote?.id) {
-    return NextResponse.json({ error: 'GS Command unlocks the full notes vault.' }, { status: 403 })
+  const localNote = getLocalSmartNoteById(note_id)
+  const localSampleNote = getLocalSampleSmartNote()
+  const sampleNoteIds = new Set([sampleNote?.id, localSampleNote?.id].filter(Boolean) as string[])
+
+  if (!hasGsPlan(planRow?.plan_type) && !sampleNoteIds.has(note_id)) {
+    return NextResponse.json({ error: 'Commander unlocks the full notes vault.' }, { status: 403 })
+  }
+
+  const due = nextDueDate(confidence as NoteConfidence)
+
+  if (localNote) {
+    return NextResponse.json({
+      ok: true,
+      revision_count: 1,
+      next_due_at: due,
+    })
   }
 
   // Check if already revised
@@ -46,7 +61,6 @@ export async function POST(req: NextRequest) {
     .single()
 
   const revision_count = (existing?.revision_count ?? 0) + 1
-  const due             = nextDueDate(confidence as NoteConfidence)
 
   const { error } = await supabase
     .from('note_revisions')

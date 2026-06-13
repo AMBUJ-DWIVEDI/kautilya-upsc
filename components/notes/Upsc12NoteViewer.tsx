@@ -75,13 +75,13 @@ export default function Upsc12NoteViewer({
   if (revisionMode) {
     return (
       <div className="space-y-4">
-        <p className="text-sm text-inkdim">Recall cards from {note.topic}. Answer before revealing.</p>
+        <p className="text-sm text-inkdim">Recall drill from {note.topic}. Answer before revealing.</p>
         {content.revisionBox.length > 0 ? (
           content.revisionBox.map((card, i) => (
             <RevisionCard key={i} prompt={card.prompt} answer={card.answer} />
           ))
         ) : (
-          <EmptyBlock text="Revision cards not yet seeded for this note." />
+          <EmptyBlock text="Recall drills are not yet seeded for this note." />
         )}
       </div>
     )
@@ -336,12 +336,12 @@ function RevisionFooter({
     <div className="flex flex-col items-center gap-3 pt-4">
       {revCount > 0 && (
         <p className="text-xs text-inkdim">
-          Revised {revCount} time{revCount !== 1 ? 's' : ''}{revised && ' — sealed in memory'}
+          Recall sealed {revCount} time{revCount !== 1 ? 's' : ''}{revised && ' — held in memory'}
         </p>
       )}
       {showConf ? (
         <div className="w-full max-w-sm space-y-2">
-          <p className="text-center text-xs text-inkdim">How well do you know this?</p>
+          <p className="text-center text-xs text-inkdim">How stable is this recall?</p>
           <div className="flex gap-2">
             {(['Low', 'Medium', 'High'] as NoteConfidence[]).map(c => (
               <button
@@ -363,14 +363,14 @@ function RevisionFooter({
             disabled={pending}
             className="w-full rounded-lg border border-sage/40 bg-sage/5 py-2.5 text-sm font-medium text-sage transition-calm hover:bg-sage/10 disabled:opacity-50"
           >
-            {pending ? 'Saving…' : `Mark as revised (${confidence})`}
+            {pending ? 'Saving…' : `Seal recall (${confidence})`}
           </button>
         </div>
       ) : revised ? (
         <div className="flex items-center gap-3">
-          <span className="text-sm text-sage">Revised</span>
+          <span className="text-sm text-sage">Recall sealed</span>
           <button type="button" onClick={onShowConf} className="text-xs text-inkdim hover:text-copper">
-            Revise again
+            Drill again
           </button>
         </div>
       ) : (
@@ -379,7 +379,7 @@ function RevisionFooter({
           onClick={onShowConf}
           className="rounded-lg border border-sage/40 bg-sage/5 px-6 py-2.5 text-sm font-medium text-sage transition-calm hover:bg-sage/10"
         >
-          Mark as revised
+          Seal Recall
         </button>
       )}
     </div>

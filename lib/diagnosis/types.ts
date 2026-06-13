@@ -1,6 +1,6 @@
 // ============================================================
 // KAUTILYA UPSC — Diagnosis Instrument Types
-// 52 cards · 8 levels · one card per screen · max 6 options.
+// 50-card full instrument, with a curated 30-card Scout subset.
 // Dimensions score silently; nothing here is mirrored back raw.
 // ============================================================
 
@@ -59,6 +59,8 @@ export interface CardOption {
     stage_pattern?: StagePattern
     purpose_type?: PurposeType
     self_belief?: SelfBeliefType
+    /** Additive post-compute pressure nudge; attempt_pressure is still never weighted directly. */
+    attempt_pressure_delta?: number
     flags?: string[]
     profile?: ProfileFacts
   }
@@ -71,7 +73,7 @@ export interface Card {
   level: CardLevel
   question: string
   microcopy?: string
-  /** Single text-input card (L1-01 name capture only). All other cards are options. */
+  /** Reserved for future free-text diagnosis cards. Identity capture lives before the diagnosis scan. */
   input?: 'text'
   placeholder?: string
   options: CardOption[]

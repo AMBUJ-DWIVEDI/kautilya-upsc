@@ -70,6 +70,7 @@ export function calculateHiddenScores(answers: Answers): ScoredDiagnosis {
   let stage: StagePattern = 'FRESH'
   let purpose: PurposeType = 'UNTESTED'
   let belief: SelfBeliefType = 'medium'
+  let pressureDelta = 0
 
   for (const card of CARDS) {
     const answer = answers[card.id]
@@ -86,6 +87,9 @@ export function calculateHiddenScores(answers: Answers): ScoredDiagnosis {
       if (option.sets.stage_pattern) stage = option.sets.stage_pattern
       if (option.sets.purpose_type) purpose = option.sets.purpose_type
       if (option.sets.self_belief) belief = option.sets.self_belief
+      if (typeof option.sets.attempt_pressure_delta === 'number') {
+        pressureDelta += option.sets.attempt_pressure_delta
+      }
       option.sets.flags?.forEach(f => flags.add(f))
       if (option.sets.profile) Object.assign(facts, option.sets.profile)
     }
@@ -95,9 +99,11 @@ export function calculateHiddenScores(answers: Answers): ScoredDiagnosis {
 
   // ATTEMPT_MATH (result-day attempt arithmetic) amplifies computed pressure —
   // the aspirant is already running the formula in their head.
-  const pressureAmplified = flags.has('ATTEMPT_MATH')
-    ? clamp(attempt_pressure + 10)
-    : attempt_pressure
+  const pressureAmplified = clamp(
+    attempt_pressure +
+    pressureDelta +
+    (flags.has('ATTEMPT_MATH') ? 10 : 0),
+  )
 
   const scores: HiddenScores = {
     purpose_intensity: clamp(dims.purpose_intensity),

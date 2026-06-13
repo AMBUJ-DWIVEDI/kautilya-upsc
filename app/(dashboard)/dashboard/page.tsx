@@ -38,11 +38,11 @@ export default async function DashboardPage() {
           </div>
 
           <div className="flex gap-3">
-            {/* Integration Score — the ONE user-visible meta-metric. */}
+            {/* Integration Signal: the one user-visible meta-metric. */}
             {integrationScore != null && hasCompletedDiagnosis && (
               <div className="rounded-lg border border-sage/30 bg-ivory px-5 py-3 text-center">
                 <p className="text-3xl font-black text-sage">{integrationScore}</p>
-                <p className="text-xs text-inkdim">Integration Score</p>
+                <p className="text-xs text-inkdim">Integration Signal</p>
               </div>
             )}
             <div className="rounded-lg border border-linen bg-ivory px-5 py-3 text-center">
@@ -61,23 +61,23 @@ export default async function DashboardPage() {
         {hasCompletedDiagnosis && (
           <div className="mt-5 grid gap-4 md:grid-cols-3">
             <SupportTile
-              eyebrow="Prelims Engine"
-              title={summary?.latest_score != null ? `${summary.latest_score}/${summary?.latest_max_score ?? APP.exam.prelimsGS.marks}` : 'Baseline pending'}
+              eyebrow="Prelims Signal"
+              title={summary?.latest_score != null ? `${summary.latest_score}/${summary?.latest_max_score ?? APP.exam.prelimsGS.marks}` : 'Baseline signal pending'}
               copy={
                 summary?.gates_completed
                   ? `${summary.gates_completed} paper(s) on record. The map sharpens with each one.`
-                  : 'Take the baseline paper. The system reads your guessing discipline, not just your score.'
+                  : 'Start the baseline mock. The system reads your guessing discipline, not just your score.'
               }
               href="/mock"
             />
             <SupportTile
-              eyebrow="Smart Notes"
-              title="The library"
-              copy="Issue-depth notes, twelve blocks each. Prelims facts boxed, frameworks copyable."
+              eyebrow="Repair Library"
+              title="Prescribed repairs"
+              copy="Issue-depth notes tied to leaks: Prelims facts boxed, Mains frameworks copyable."
               href="/notes"
             />
             <SupportTile
-              eyebrow="Weekly Review"
+              eyebrow="Recovery HQ"
               title="Sunday, sealed"
               copy="One verdict, three wins, one focus for next week. The week ends in ceremony, not a stats dump."
               href="/review"
@@ -94,18 +94,18 @@ function DiagnosisCommand() {
     <section className="card-calm copper-border p-6 sm:p-8">
       <p className="text-xs font-bold uppercase tracking-[0.28em] text-copper">Today&apos;s Command</p>
       <h2 className="heading-cinzel mt-3 max-w-xl text-2xl font-bold leading-tight text-indigo sm:text-3xl">
-        Complete the 52-card diagnosis before touching another book.
+        Complete the 30-card Scout diagnosis before touching another book.
       </h2>
       <p className="mt-4 max-w-2xl text-sm leading-7 text-inkdim">
         Your books are not the problem. The system needs your operating profile first —
         how you recover, where your sources fragment, and what pressure does to your judgement.
-        Nine minutes. Then the commands begin.
+        Six minutes. Then the commands begin.
       </p>
       <Link
         href="/diagnosis"
         className="mt-6 inline-flex min-h-12 items-center justify-center rounded-lg bg-copper px-7 text-sm font-bold text-ivory transition-calm hover:bg-copperlight"
       >
-        Begin the diagnosis
+        Start Long-War Diagnosis
       </Link>
     </section>
   )

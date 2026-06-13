@@ -69,8 +69,8 @@ export default async function ResultPage({ params }: Props) {
     return (
       <div className="flex flex-1 items-center justify-center">
         <div className="text-center text-inkdim">
-          <p className="mb-2">Result not found.</p>
-          <Link href="/mock" className="text-sm text-copper hover:underline">← Back to the Paper Library</Link>
+          <p className="mb-2">Command diagnosis not found.</p>
+          <Link href="/mock" className="text-sm text-copper hover:underline">← Back to Mock Arena</Link>
         </div>
       </div>
     )
@@ -111,7 +111,7 @@ export default async function ResultPage({ params }: Props) {
       {/* ── Score Banner ── */}
       <div className="card-calm copper-border p-6 text-center sm:p-8">
         <p className="mb-3 font-mono text-xs uppercase tracking-[0.3em] text-copper">
-          Paper {gate} — The Verdict
+          Paper {gate} — Command Diagnosis
         </p>
         <div className="mb-2 flex items-end justify-center gap-2">
           <span className={`font-mono text-7xl font-bold ${verdictColor}`}>
@@ -128,9 +128,9 @@ export default async function ResultPage({ params }: Props) {
         {[
           { label: 'Accuracy', value: `${r.accuracy_pct}%`, dim: 'correct/attempted' },
           { label: 'Attempt Rate', value: `${r.attempt_rate_pct}%`, dim: `of ${totalQuestions} questions` },
-          { label: 'Negative Loss', value: `−${r.negative_loss}`, dim: `at −${negative} per wrong` },
+          { label: 'Marks Leaked', value: `−${r.negative_loss}`, dim: `at −${negative} per leak` },
           { label: 'Time Used', value: `${r.time_minutes.toFixed(1)}m`, dim: `of ${durationMins} minutes` },
-          { label: 'Easy Missed', value: r.easy_missed.toString(), dim: 'questions' },
+          { label: 'Easy Leaks', value: r.easy_missed.toString(), dim: 'questions' },
           { label: 'Hard Solved', value: r.hard_solved.toString(), dim: 'questions' },
         ].map(m => (
           <div key={m.label} className="card-calm p-4 text-center">
@@ -218,7 +218,7 @@ export default async function ResultPage({ params }: Props) {
             <thead>
               <tr className="border-b border-linen">
                 <th className="p-3 text-left text-xs text-inkdim">Subject</th>
-                <th className="p-3 text-center text-xs text-inkdim">Score</th>
+                <th className="p-3 text-center text-xs text-inkdim">Signal</th>
                 <th className="hidden p-3 text-center text-xs text-inkdim sm:table-cell">Accuracy</th>
                 <th className="hidden p-3 text-center text-xs text-inkdim sm:table-cell">−ve Marks</th>
                 <th className="p-3 text-right text-xs text-inkdim">Verdict</th>
@@ -260,10 +260,10 @@ export default async function ResultPage({ params }: Props) {
       {/* ── Score Leak Analysis ── */}
       <section>
         <h2 className="heading-cinzel mb-1 text-lg font-semibold text-indigo">
-          Score Leak Analysis
+          Leak Analysis
         </h2>
         <p className="mb-4 text-sm text-inkdim">
-          Every wrong answer is categorised. Fix the highest leak first.
+          Every leaked mark is categorised. Repair the highest leak first.
         </p>
         <div className="flex flex-wrap gap-2">
           {(Object.entries(r.leak_breakdown) as [ScoreLeak, number][])
@@ -288,7 +288,7 @@ export default async function ResultPage({ params }: Props) {
       {r.weak_topics.length > 0 && (
         <section>
           <h2 className="heading-cinzel mb-4 text-lg font-semibold text-indigo">
-            Topic Weakness Map
+            Repair Area Map
           </h2>
           <div className="space-y-2">
             {r.weak_topics.map(t => (
@@ -306,7 +306,7 @@ export default async function ResultPage({ params }: Props) {
                       />
                     </div>
                     <span className="shrink-0 font-mono text-xs text-clay">
-                      {t.wrong}/{t.total} wrong
+                      {t.wrong}/{t.total} leaked
                     </span>
                   </div>
                 </div>
@@ -321,10 +321,10 @@ export default async function ResultPage({ params }: Props) {
       {repairNotes.length > 0 && (
         <section className="card-calm rounded-xl border border-clay/25 p-5">
           <h2 className="heading-cinzel mb-1 text-base font-semibold text-clay">
-            Repair Now
+            Prescribed Repairs
           </h2>
           <p className="mb-4 text-xs text-inkdim">
-            These topics cost you marks. Read the note, mark it revised, then re-attempt.
+            These topics cost you marks. Read the note, seal recall, then retest after repair.
           </p>
           <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
             {repairNotes.map(link => {
@@ -374,7 +374,7 @@ export default async function ResultPage({ params }: Props) {
       {/* ── Question Review ── */}
       <section>
         <h2 className="heading-cinzel mb-4 text-lg font-semibold text-indigo">
-          Question Review
+          Attempt Review
         </h2>
         <div className="space-y-2">
           {r.question_summary.map(q => {
@@ -385,7 +385,7 @@ export default async function ResultPage({ params }: Props) {
             const statusLabel =
               q.unattempted ? 'Blank' :
               q.correct ? `+${q.marks} Correct` :
-              `−${negative} Wrong`
+              `−${negative} Leaked`
 
             return (
               <div
@@ -427,10 +427,10 @@ export default async function ResultPage({ params }: Props) {
       {/* ── Footer actions ── */}
       <div className="flex items-center justify-between border-t border-linen pt-4">
         <Link href="/mock" className="text-sm text-inkdim transition-calm hover:text-copper">
-          ← Paper Library
+          ← Mock Arena
         </Link>
         <Link href="/dashboard" className="text-sm text-copper transition-calm hover:text-copperlight">
-          Back to Command →
+          Open Today&apos;s Command →
         </Link>
       </div>
     </div>

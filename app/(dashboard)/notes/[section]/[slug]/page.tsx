@@ -5,6 +5,7 @@ import type { SmartNote, NoteSection } from '@/lib/notes/types'
 import { ALL_SECTIONS, SECTION_LABELS } from '@/lib/notes/types'
 import { NoteViewerFromRow } from '@/components/notes/Upsc12NoteViewer'
 import { hasGsPlan } from '@/lib/plans'
+import { getLocalSampleSmartNote, getLocalSmartNote } from '@/lib/notes/local'
 
 interface Props {
   params: Promise<{ section: string; slug: string }>
@@ -27,27 +28,33 @@ export default async function NoteDetailPage({ params, searchParams }: Props) {
     .eq('slug', slug)
     .eq('section', section)
     .eq('status', 'published')
-    .single()
+    .maybeSingle()
 
-  if (error || !note) notFound()
+  if (error) notFound()
 
-  const smartNote = note as SmartNote
+  const smartNote = (note as SmartNote | null) ?? getLocalSmartNote(section, slug)
+  if (!smartNote) notFound()
 
   const [{ data: planRow }, { data: sampleNote }] = await Promise.all([
     supabase.from('users').select('plan_type').eq('id', user.id).single(),
     supabase.from('smart_notes').select('id').eq('status', 'published').order('high_yield', { ascending: false }).limit(1).maybeSingle(),
   ])
+  const localSampleNote = getLocalSampleSmartNote()
+  const sampleNoteIds = new Set([sampleNote?.id, localSampleNote?.id].filter(Boolean) as string[])
 
-  if (!hasGsPlan(planRow?.plan_type) && smartNote.id !== sampleNote?.id) {
+  if (!hasGsPlan(planRow?.plan_type) && !sampleNoteIds.has(smartNote.id)) {
     redirect('/upgrade?reason=notes')
   }
 
-  const { data: revision } = await supabase
-    .from('note_revisions')
-    .select('note_id, revision_count, confidence, next_due_at')
-    .eq('user_id', user.id)
-    .eq('note_id', note.id)
-    .maybeSingle()
+  const isLocalNote = smartNote.id.startsWith('local-')
+  const { data: revision } = isLocalNote
+    ? { data: null }
+    : await supabase
+      .from('note_revisions')
+      .select('note_id, revision_count, confidence, next_due_at')
+      .eq('user_id', user.id)
+      .eq('note_id', smartNote.id)
+      .maybeSingle()
 
   const isRevised = !!revision
   const revisionCount = revision?.revision_count ?? 0
@@ -56,7 +63,7 @@ export default async function NoteDetailPage({ params, searchParams }: Props) {
   return (
     <div className="mx-auto w-full max-w-4xl flex-1 px-4 py-10 sm:px-6">
       <div className="mb-6 flex items-center gap-2 text-xs text-inkdim">
-        <Link href="/notes" className="transition-calm hover:text-copper">Notes</Link>
+        <Link href="/notes" className="transition-calm hover:text-copper">Repair Library</Link>
         <span>›</span>
         <Link href={`/notes/${section}`} className="transition-calm hover:text-copper">
           {SECTION_LABELS[section]}
@@ -76,7 +83,7 @@ export default async function NoteDetailPage({ params, searchParams }: Props) {
                 <span className="rounded-full bg-copper/10 px-2 py-0.5 text-xs text-copper">High yield</span>
               )}
               {isRevised && (
-                <span className="rounded-full bg-sage/10 px-2 py-0.5 text-xs text-sage">Revised</span>
+                <span className="rounded-full bg-sage/10 px-2 py-0.5 text-xs text-sage">Recall sealed</span>
               )}
             </div>
             <h1 className="heading-cinzel text-xl font-bold text-indigo">{smartNote.topic}</h1>
@@ -90,7 +97,7 @@ export default async function NoteDetailPage({ params, searchParams }: Props) {
 
       {revision?.next_due_at && !revisionMode && (
         <div className="mb-4 flex items-center gap-2 rounded-lg border border-copper/20 bg-copper/5 px-4 py-2.5 text-xs text-inkdim">
-          <span className="text-copper">Next revision:</span>
+          <span className="text-copper">Next recall drill:</span>
           <span className="font-mono text-copper">
             {new Date(revision.next_due_at).toLocaleDateString('en-IN', { day: 'numeric', month: 'short' })}
           </span>
@@ -110,7 +117,7 @@ export default async function NoteDetailPage({ params, searchParams }: Props) {
           ← {SECTION_LABELS[section]}
         </Link>
         <Link href="/dashboard" className="text-sm text-copper transition-calm hover:underline">
-          Back to Command →
+          Open Today&apos;s Command →
         </Link>
       </div>
     </div>

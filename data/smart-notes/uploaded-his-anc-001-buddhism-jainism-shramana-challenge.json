@@ -1,0 +1,191 @@
+{
+  "id": "local-his-anc-001",
+  "section": "History",
+  "category": "Ancient India",
+  "topic": "Buddhism & Jainism: Shramana Challenge",
+  "subtopic": "Uploaded KAUTILYA sample smart note with mind map",
+  "slug": "buddhism-jainism-shramana-challenge",
+  "anatomy": "upsc12",
+  "content": {
+    "issueStory": "When ritual complexity and social hierarchy hardened, new paths emerged from the forests and republics of north India. Buddhism and Jainism were not just religions; they were ethical revolts against spiritual monopoly.",
+    "coreConcept": "Both Buddhism and Jainism emerged in the 6th century BCE amid urbanization, trade growth, new social groups, and dissatisfaction with ritualism. Both emphasized ethics, discipline, renunciation, and liberation, but differed in doctrine and practice.",
+    "dimensions": [
+      "Context: 6th century BCE; Mahajanapadas; Urbanization; Kshatriya reaction; Ritual fatigue",
+      "Buddhism: Four Noble Truths; Eightfold Path; Middle Path; Sangha; Nirvana",
+      "Jainism: Mahavira; Five vows; Ahimsa; Anekantavada; Triratna",
+      "Common Features: Non-Vedic movements; Ethical conduct; Monastic orders; Prakrit/Pali appeal",
+      "Differences: Soul doctrine; Extreme asceticism vs middle path; Liberation method; Spread pattern",
+      "PYQ Traps: Buddhist councils; Symbols and events; Jain Tirthankaras; Doctrinal terms",
+      "Mains Hooks: Social protest; Urban economy link; Art and architecture; Ethics in Indian tradition"
+    ],
+    "constitutionalLink": "Historical anchor: link the theme to chronology, actors, doctrine and UPSC match-the-pair traps.",
+    "dataReport": "Link to religious reform, ethics, social change, and Indian pluralism.\nEssay line: “The Shramana traditions democratized spiritual inquiry.”",
+    "caseStudy": "Make a comparison table: Buddhism vs Jainism — founder figure, doctrine, path, attitude to Vedas, spread, patronage.\n\n---",
+    "argumentsFor": [
+      "Link to religious reform, ethics, social change, and Indian pluralism.",
+      "Essay line: “The Shramana traditions democratized spiritual inquiry.”"
+    ],
+    "argumentsAgainst": [
+      "Buddhism’s Four Noble Truths do not include worship of gods.",
+      "Jainism places extremely high emphasis on ahimsa and non-possession.",
+      "Mahavira is the 24th Tirthankara, not the founder of the entire tradition.",
+      "Buddhism accepted the Middle Path; Jainism emphasized stricter ascetic discipline.",
+      "UPSC often asks doctrine comparisons, councils, symbols, and patronage."
+    ],
+    "pyqLink": "PYQ traps to watch:\n- Buddhism’s Four Noble Truths do not include worship of gods.\n- Jainism places extremely high emphasis on ahimsa and non-possession.\n- Mahavira is the 24th Tirthankara, not the founder of the entire tradition.\n- Buddhism accepted the Middle Path; Jainism emphasized stricter ascetic discipline.\n- UPSC often asks doctrine comparisons, councils, symbols, and patronage.",
+    "answerFramework": {
+      "intro": "When ritual complexity and social hierarchy hardened, new paths emerged from the forests and republics of north India.",
+      "body": [
+        "Both Buddhism and Jainism emerged in the 6th century BCE amid urbanization, trade growth, new social groups, and dissatisfaction with ritualism.",
+        "Use mind-map branches: Context; Buddhism; Jainism; Common Features.",
+        "Prelims trap to avoid: Buddhism’s Four Noble Truths do not include worship of gods.",
+        "Mains hook: Link to religious reform, ethics, social change, and Indian pluralism."
+      ],
+      "conclusion": "Make a comparison table: Buddhism vs Jainism — founder figure, doctrine, path, attitude to Vedas, spread, patronage.\n\n---"
+    },
+    "mainsExamples": [
+      "Link to religious reform, ethics, social change, and Indian pluralism.",
+      "Essay line: “The Shramana traditions democratized spiritual inquiry.”"
+    ],
+    "prelimsFacts": [
+      "Buddhism = “4N + 8P”",
+      "Four Noble Truths",
+      "Eightfold Path",
+      "Jainism = “3J + 5V”",
+      "Three Jewels: Right faith, right knowledge, right conduct",
+      "Five vows: Ahimsa, Satya, Asteya, Brahmacharya, Aparigraha",
+      "Buddhism’s Four Noble Truths do not include worship of gods.",
+      "Jainism places extremely high emphasis on ahimsa and non-possession.",
+      "Mahavira is the 24th Tirthankara, not the founder of the entire tradition.",
+      "Buddhism accepted the Middle Path; Jainism emphasized stricter ascetic discipline.",
+      "UPSC often asks doctrine comparisons, councils, symbols, and patronage."
+    ],
+    "revisionBox": [
+      {
+        "prompt": "What are the Four Noble Truths?",
+        "answer": "Both Buddhism and Jainism emerged in the 6th century BCE amid urbanization, trade growth, new social groups, and dissatisfaction with ritualism. Watch the PYQ traps before declaring mastery."
+      },
+      {
+        "prompt": "What is the Eightfold Path?",
+        "answer": "Both Buddhism and Jainism emerged in the 6th century BCE amid urbanization, trade growth, new social groups, and dissatisfaction with ritualism. Watch the PYQ traps before declaring mastery."
+      },
+      {
+        "prompt": "Who was the 24th Tirthankara?",
+        "answer": "Both Buddhism and Jainism emerged in the 6th century BCE amid urbanization, trade growth, new social groups, and dissatisfaction with ritualism. Watch the PYQ traps before declaring mastery."
+      },
+      {
+        "prompt": "What are Jainism’s Three Jewels?",
+        "answer": "Both Buddhism and Jainism emerged in the 6th century BCE amid urbanization, trade growth, new social groups, and dissatisfaction with ritualism. Watch the PYQ traps before declaring mastery."
+      },
+      {
+        "prompt": "Why did Buddhism spread more widely outside India than Jainism?",
+        "answer": "Both Buddhism and Jainism emerged in the 6th century BCE amid urbanization, trade growth, new social groups, and dissatisfaction with ritualism. Watch the PYQ traps before declaring mastery."
+      }
+    ]
+  },
+  "story": "When ritual complexity and social hierarchy hardened, new paths emerged from the forests and republics of north India. Buddhism and Jainism were not just religions; they were ethical revolts against spiritual monopoly.",
+  "core_concept": "Both Buddhism and Jainism emerged in the 6th century BCE amid urbanization, trade growth, new social groups, and dissatisfaction with ritualism. Both emphasized ethics, discipline, renunciation, and liberation, but differed in doctrine and practice.",
+  "mnemonic": "Buddhism = “4N + 8P”\n- Four Noble Truths\n- Eightfold Path\n\nJainism = “3J + 5V”\n- Three Jewels: Right faith, right knowledge, right conduct\n- Five vows: Ahimsa, Satya, Asteya, Brahmacharya, Aparigraha",
+  "mindmap_json": {
+    "center": "Shramana Challenge to Ritual Orthodoxy",
+    "branches": [
+      {
+        "label": "Context",
+        "children": [
+          "6th century BCE",
+          "Mahajanapadas",
+          "Urbanization",
+          "Kshatriya reaction",
+          "Ritual fatigue"
+        ]
+      },
+      {
+        "label": "Buddhism",
+        "children": [
+          "Four Noble Truths",
+          "Eightfold Path",
+          "Middle Path",
+          "Sangha",
+          "Nirvana"
+        ]
+      },
+      {
+        "label": "Jainism",
+        "children": [
+          "Mahavira",
+          "Five vows",
+          "Ahimsa",
+          "Anekantavada",
+          "Triratna"
+        ]
+      },
+      {
+        "label": "Common Features",
+        "children": [
+          "Non-Vedic movements",
+          "Ethical conduct",
+          "Monastic orders",
+          "Prakrit/Pali appeal"
+        ]
+      },
+      {
+        "label": "Differences",
+        "children": [
+          "Soul doctrine",
+          "Extreme asceticism vs middle path",
+          "Liberation method",
+          "Spread pattern"
+        ]
+      },
+      {
+        "label": "PYQ Traps",
+        "children": [
+          "Buddhist councils",
+          "Symbols and events",
+          "Jain Tirthankaras",
+          "Doctrinal terms"
+        ]
+      },
+      {
+        "label": "Mains Hooks",
+        "children": [
+          "Social protest",
+          "Urban economy link",
+          "Art and architecture",
+          "Ethics in Indian tradition"
+        ]
+      }
+    ]
+  },
+  "key_facts": [
+    "Buddhism = “4N + 8P”",
+    "Four Noble Truths",
+    "Eightfold Path",
+    "Jainism = “3J + 5V”",
+    "Three Jewels: Right faith, right knowledge, right conduct",
+    "Five vows: Ahimsa, Satya, Asteya, Brahmacharya, Aparigraha",
+    "Buddhism’s Four Noble Truths do not include worship of gods.",
+    "Jainism places extremely high emphasis on ahimsa and non-possession.",
+    "Mahavira is the 24th Tirthankara, not the founder of the entire tradition.",
+    "Buddhism accepted the Middle Path; Jainism emphasized stricter ascetic discipline.",
+    "UPSC often asks doctrine comparisons, councils, symbols, and patronage."
+  ],
+  "common_traps": [
+    "Buddhism’s Four Noble Truths do not include worship of gods.",
+    "Jainism places extremely high emphasis on ahimsa and non-possession.",
+    "Mahavira is the 24th Tirthankara, not the founder of the entire tradition.",
+    "Buddhism accepted the Middle Path; Jainism emphasized stricter ascetic discipline.",
+    "UPSC often asks doctrine comparisons, councils, symbols, and patronage."
+  ],
+  "pyq_refs": [],
+  "pyq_count": 5,
+  "last_asked": 2024,
+  "high_yield": true,
+  "read_time_mins": 8,
+  "difficulty": "Medium",
+  "status": "published",
+  "source_type": "uploaded_sample_pack",
+  "version": 1,
+  "created_at": "2026-06-13T12:42:11.352896+00:00",
+  "updated_at": "2026-06-13T12:42:11.352896+00:00"
+}

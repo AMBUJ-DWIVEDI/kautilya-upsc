@@ -156,15 +156,26 @@ export function deriveArchetype(scores: HiddenScores, facts: ProfileFacts, emplo
   return nearestArchetype(scores)
 }
 
-/** War-pattern tags from dimension thresholds. Max 3, in priority order. */
+function addWarTag(tags: WarPatternTag[], tag: WarPatternTag) {
+  if (!tags.includes(tag)) tags.push(tag)
+}
+
+/** War-pattern tags from explicit v1 flags plus dimension thresholds. Max 3, in priority order. */
 export function deriveWarPatternTags(scores: HiddenScores): WarPatternTag[] {
   const tags: WarPatternTag[] = []
-  if (scores.resource_chaos >= 60 && scores.execution_friction >= 50) tags.push('NOTES_HOARDER')
-  if (scores.mains_stamina <= 35) tags.push('MAINS_AVOIDER')
+
+  if (scores.flags.includes('NOTES_HOARDER')) addWarTag(tags, 'NOTES_HOARDER')
+  if (scores.flags.includes('MAINS_AVOIDER')) addWarTag(tags, 'MAINS_AVOIDER')
+  if (scores.flags.includes('NEWSPAPER_COLLECTOR')) addWarTag(tags, 'NEWSPAPER_COLLECTOR')
+  if (scores.flags.includes('REVISION_COLLAPSER')) addWarTag(tags, 'REVISION_COLLAPSER')
+  if (scores.flags.includes('STRATEGY_CONSUMER')) addWarTag(tags, 'STRATEGY_CONSUMER')
+
+  if (scores.resource_chaos >= 60 && scores.execution_friction >= 50) addWarTag(tags, 'NOTES_HOARDER')
+  if (scores.mains_stamina <= 35) addWarTag(tags, 'MAINS_AVOIDER')
   // Distraction proxy on the CA cards: the NEWSPAPER_PROXY flag plus general drift.
-  if (scores.flags.includes('NEWSPAPER_PROXY') && scores.distraction_risk >= 40) tags.push('NEWSPAPER_COLLECTOR')
-  if (scores.marathon_consistency <= 40) tags.push('REVISION_COLLAPSER')
-  if (scores.execution_friction >= 70 && scores.cognitive_clarity >= 65) tags.push('STRATEGY_CONSUMER')
+  if (scores.flags.includes('NEWSPAPER_PROXY') && scores.distraction_risk >= 40) addWarTag(tags, 'NEWSPAPER_COLLECTOR')
+  if (scores.marathon_consistency <= 40) addWarTag(tags, 'REVISION_COLLAPSER')
+  if (scores.execution_friction >= 70 && scores.cognitive_clarity >= 65) addWarTag(tags, 'STRATEGY_CONSUMER')
   return tags.slice(0, 3)
 }
 
@@ -206,7 +217,11 @@ export function deriveOutcome(scores: HiddenScores, facts: ProfileFacts): Diagno
     scores.stage_pattern === 'INTERVIEW_EDGE' ||
     scores.stage_pattern === 'MAINS_PLATEAU' ||
     scores.stage_pattern === 'CLEARED_LOWER' ||
-    scores.flags.includes('VETERAN_GHOST')
+    scores.flags.includes('VETERAN_GHOST') ||
+    scores.flags.includes('GHOST_CANDIDATE') ||
+    scores.flags.includes('HEARTBREAK_CANDIDATE') ||
+    scores.flags.includes('PLATEAU_CANDIDATE') ||
+    scores.flags.includes('FUSION_WATCH')
   if (v11Wound) storedTags.push('V11_CANDIDATE')
 
   return {

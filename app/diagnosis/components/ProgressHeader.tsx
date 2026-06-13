@@ -41,7 +41,7 @@ export default function ProgressHeader({ card, cards, currentIndex }: Props) {
       </div>
 
       <p className="font-mono text-xs text-inkdim/70">
-        {currentIndex + 1} of {cards.length}
+        Signal {currentIndex + 1} of {cards.length}
       </p>
     </div>
   )

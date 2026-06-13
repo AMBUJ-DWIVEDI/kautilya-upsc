@@ -14,7 +14,7 @@ export default async function WeeklyReviewPage() {
   if (!review) {
     return (
       <div className="mx-auto flex max-w-2xl flex-1 items-center justify-center px-4 py-16 text-center">
-        <p className="text-inkdim">Weekly review could not be generated yet. Complete diagnosis first.</p>
+        <p className="text-inkdim">Recovery review is locked until the first diagnosis is complete.</p>
       </div>
     )
   }
@@ -35,7 +35,7 @@ export default async function WeeklyReviewPage() {
         <p className="mb-2 font-mono text-xs uppercase tracking-[0.35em] text-copper">
           Week of {review.week_start}
         </p>
-        <h1 className="heading-cinzel text-3xl font-bold text-indigo">Weekly Review</h1>
+        <h1 className="heading-cinzel text-3xl font-bold text-indigo">Recovery HQ</h1>
         <p className="mt-3 text-sm text-inkdim">{APP.brand.name} seals the peak-end loop here — not in a stats dump.</p>
       </div>
 
@@ -45,12 +45,12 @@ export default async function WeeklyReviewPage() {
 
       <div className="mb-6 grid grid-cols-2 gap-3">
         <div className="card-calm p-4 text-center">
-          <p className="text-xs text-inkdim">Integration Score</p>
+          <p className="text-xs text-inkdim">Integration Signal</p>
           <p className="font-mono text-4xl font-bold text-sage">{review.integration_score}</p>
           <p className="text-xs text-inkdim">{deltaLabel} from last week</p>
         </div>
         <div className="card-calm p-4 text-center">
-          <p className="text-xs text-inkdim">Next week&apos;s focus</p>
+          <p className="text-xs text-inkdim">Next repair focus</p>
           <p className="mt-2 text-sm leading-relaxed text-slate900">{nextFocus}</p>
         </div>
       </div>
@@ -69,10 +69,10 @@ export default async function WeeklyReviewPage() {
 
       <div className="mt-8 flex justify-between border-t border-linen pt-6">
         <Link href="/dashboard" className="text-sm text-inkdim transition-calm hover:text-copper">
-          ← Command Board
+          ← Today&apos;s Command
         </Link>
         <Link href="/mock" className="text-sm text-copper transition-calm hover:underline">
-          Paper Library →
+          Mock Arena →
         </Link>
       </div>
     </div>

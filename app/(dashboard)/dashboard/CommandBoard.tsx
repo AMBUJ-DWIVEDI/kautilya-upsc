@@ -70,7 +70,7 @@ export default function CommandBoard({ initialCommand }: Props) {
                 <button
                   onClick={() => !thread.locked && completeThread(thread.id)}
                   disabled={thread.locked || done || busyThread === thread.id}
-                  aria-label={done ? 'Completed' : `Mark "${thread.title}" complete`}
+                  aria-label={done ? 'Mission sealed' : `Seal "${thread.title}"`}
                   className={cn(
                     'mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full border transition-calm',
                     done
@@ -93,7 +93,7 @@ export default function CommandBoard({ initialCommand }: Props) {
 
                   {!thread.locked && thread.href && !done && (
                     <Link href={thread.href} className="mt-1 inline-block text-xs font-semibold text-copper hover:text-copperlight">
-                      Open →
+                      Open mission -&gt;
                     </Link>
                   )}
 
@@ -103,7 +103,7 @@ export default function CommandBoard({ initialCommand }: Props) {
                         onClick={() => setOpenMains(v => !v)}
                         className="text-xs font-semibold text-copper hover:text-copperlight"
                       >
-                        {openMains ? 'Fold the question away' : 'Show question, framework & rubric'}
+                        {openMains ? 'Fold the answer mission' : 'Open question, framework & rubric'}
                       </button>
                       <AnimatePresence>
                         {openMains && (
@@ -120,7 +120,7 @@ export default function CommandBoard({ initialCommand }: Props) {
                               <ul className="mt-1.5 list-disc space-y-1 pl-5 text-sm text-inkdim">
                                 {mains.framework.map(line => <li key={line}>{line}</li>)}
                               </ul>
-                              <p className="mt-3 text-xs font-bold uppercase tracking-[0.2em] text-copper">Mark yourself</p>
+                              <p className="mt-3 text-xs font-bold uppercase tracking-[0.2em] text-copper">Self-audit rubric</p>
                               <ul className="mt-1.5 list-disc space-y-1 pl-5 text-sm text-inkdim">
                                 {mains.rubric.map(line => <li key={line}>{line}</li>)}
                               </ul>

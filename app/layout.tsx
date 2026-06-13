@@ -40,17 +40,17 @@ export const metadata: Metadata = {
     description: 'Diagnosis first. One command a day. Recovery over streaks. Your UPSC command system.',
     type: 'website',
     url: APP.url,
-    images: [{ url: '/logo.svg', width: 680, height: 220, alt: 'KAUTILYA Seal' }],
+    images: [{ url: '/kautilya-ias-logo.jpg', width: 440, height: 582, alt: 'KAUTILYA IAS logo' }],
   },
   twitter: {
     card: 'summary',
     title: 'KAUTILYA UPSC — Knowledge is not enough. Judgement selects.',
     description: 'The UPSC system that studies you before it teaches you.',
-    images: ['/logo-icon.svg'],
+    images: ['/kautilya-ias-mark.png'],
   },
   icons: {
-    icon: '/logo-icon.svg',
-    apple: '/logo-icon.svg',
+    icon: '/kautilya-ias-mark.png',
+    apple: '/kautilya-ias-mark.png',
   },
 }
 

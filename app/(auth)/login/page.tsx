@@ -149,8 +149,8 @@ function LoginForm() {
           <div className="hidden lg:block">
             <Link href="/" className="mb-8 flex items-center gap-3">
               <Seal variant="stamped" size={40} />
-              <span className="heading-cinzel text-sm font-bold tracking-[0.24em] text-indigo">
-                KAUTILYA
+              <span className="heading-cinzel text-sm font-bold tracking-[0.16em] text-indigo">
+                KAUTILYA IAS
               </span>
             </Link>
             <p className="mb-4 text-xs font-bold uppercase tracking-[0.3em] text-copper">
@@ -167,21 +167,22 @@ function LoginForm() {
 
           <div className="card-dark gold-border p-6 sm:p-8">
             <Link href="/" className="mb-8 flex items-center justify-center gap-3 lg:hidden">
-              <span className="heading-cinzel text-lg font-bold tracking-[0.22em] text-indigo">
-                KAUTILYA
+              <Seal variant="stamped" size={40} />
+              <span className="heading-cinzel text-lg font-bold tracking-[0.16em] text-indigo">
+                KAUTILYA IAS
               </span>
             </Link>
 
             <p className="mb-3 text-xs font-bold uppercase tracking-[0.28em] text-copper">
-              {isSignup ? 'Start the diagnosis' : 'Return to command'}
+              {isSignup ? 'Start Long-War Diagnosis' : 'Return to command'}
             </p>
             <h1 className="heading-cinzel text-2xl font-bold text-slate900">
-              {isSignup ? 'Begin Your Diagnosis' : 'Welcome back.'}
+              {isSignup ? 'Open Your Command Profile' : 'Welcome back.'}
             </h1>
             <p className="mt-3 text-sm leading-6 text-inkdim">
               {isSignup
-                ? 'Create your account to open the KAUTILYA command system.'
-                : "Sign in to return to your dashboard and today's command."}
+                ? 'Create your account so KAUTILYA can map your preparation before it prescribes.'
+                : "Sign in to return to today's command."}
             </p>
 
             <button
@@ -253,7 +254,7 @@ function LoginForm() {
               >
                 {loading
                   ? (isSignup ? 'Creating account...' : 'Signing in...')
-                  : (isSignup ? 'Create Account' : 'Sign In')}
+                  : (isSignup ? 'Create Command Profile' : 'Return to Command')}
               </button>
             </form>
 

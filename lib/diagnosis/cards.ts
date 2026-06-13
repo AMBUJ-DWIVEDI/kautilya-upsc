@@ -1,710 +1,777 @@
 // ============================================================
-// KAUTILYA UPSC — The 52-Card Instrument
-// 8 levels · one card per screen · max 6 options · second person,
-// visceral, zero judgment. Dimensions score silently.
+// KAUTILYA UPSC - Diagnosis Instrument v1
+// 50 cards - 8 levels - one card per screen - max 6 options.
+//
+// Adapted from the product instrument attachment. The attachment
+// used a compact v1 shape; this file normalizes that shape into
+// the app's typed scoring contract without changing the engine.
 // ============================================================
 
-import type { Card, CardLevel } from './types'
+import type {
+  Card,
+  CardLevel,
+  CardOption,
+  Dimension,
+  ProfileFacts,
+  PurposeType,
+  SelfBeliefType,
+  StagePattern,
+} from './types'
 
-export const LEVEL_NAMES: Record<CardLevel, string> = {
-  1: 'The Journey So Far',
-  2: 'The Why',
-  3: 'Daily Reality',
-  4: 'The Resource Map',
-  5: 'Mind Under Fire',
-  6: 'The Emotional Core',
-  7: 'The Anchor',
-  8: 'The Mirror',
+type LegacyDimension = Dimension | 'attempt_pressure'
+type LegacySelfBelief = 'EARNED' | 'BORROWED' | 'BROKEN' | 'UNTESTED'
+
+type LegacyBands = {
+  employed?: boolean
+  prep_years_band?: 0 | 1 | 2 | 3 | 4
+  attempts_band?: 0 | 1 | 2 | 3 | 4
+  age_band?: 0 | 1 | 2 | 3
 }
 
-export const LEVEL_SUBTITLES: Record<CardLevel, string> = {
-  1: 'Where the war has taken you.',
-  2: 'Why you are really in it.',
-  3: 'Where your day actually goes.',
-  4: 'What you carry into battle.',
-  5: 'What pressure does to your judgement.',
-  6: 'What the journey has done to you.',
-  7: 'What holds you up.',
-  8: 'What you already know but have not said.',
+type LegacyCardOption = {
+  key: string
+  label: string
+  weights?: Partial<Record<LegacyDimension, number>>
+  sets?: LegacyBands & {
+    stage_pattern?: StagePattern
+    purpose_type?: PurposeType
+    self_belief?: LegacySelfBelief
+  }
+  flags?: string[]
 }
 
-// ── L1 — The Journey So Far (7) ─────────────────────────────────
+type RawCard = {
+  id: string
+  level: CardLevel
+  question: string
+  microcopy?: string
+  options: LegacyCardOption[]
+}
 
-const L1: Card[] = [
+const RAW_LEVELS = [
+  { level: 1, name: 'The Journey So Far',  subtitle: 'Facts first. No judgment lives here.', cards: 7 },
+  { level: 2, name: 'The Why',             subtitle: 'The engine under the engine.',          cards: 6 },
+  { level: 3, name: 'The Daily Reality',   subtitle: 'The war as it actually is.',            cards: 6 },
+  { level: 4, name: 'The Resource Map',    subtitle: 'Count everything. Honestly.',           cards: 6 },
+  { level: 5, name: 'The Mind Under Fire', subtitle: 'The exam hall lives in the mind.',      cards: 8 },
+  { level: 6, name: 'The Emotional Core',  subtitle: 'What results do to you.',               cards: 7 },
+  { level: 7, name: 'The Anchor',          subtitle: 'What holds you when nothing else does.',cards: 5 },
+  { level: 8, name: 'The Mirror',          subtitle: 'The bravest five minutes of this app.', cards: 5 },
+] as const
+
+type LevelMetaField = 'name' | 'subtitle'
+
+function levelRecord(field: LevelMetaField): Record<CardLevel, string> {
+  const record = {} as Record<CardLevel, string>
+  for (const level of RAW_LEVELS) {
+    record[level.level as CardLevel] = level[field]
+  }
+  return record
+}
+
+export const LEVEL_NAMES: Record<CardLevel, string> = levelRecord('name')
+export const LEVEL_SUBTITLES: Record<CardLevel, string> = levelRecord('subtitle')
+
+const PREP_YEARS_BY_BAND: Record<NonNullable<LegacyBands['prep_years_band']>, number> = {
+  0: 0.5,
+  1: 1.5,
+  2: 2.5,
+  3: 3.5,
+  4: 5,
+}
+
+const ATTEMPTS_BY_BAND: Record<NonNullable<LegacyBands['attempts_band']>, number> = {
+  0: 0,
+  1: 1,
+  2: 2,
+  3: 3,
+  4: 4,
+}
+
+const AGE_BY_BAND: Record<NonNullable<LegacyBands['age_band']>, number> = {
+  0: 23,
+  1: 26,
+  2: 29,
+  3: 31,
+}
+
+const SELF_BELIEF_MAP: Record<LegacySelfBelief, SelfBeliefType> = {
+  EARNED: 'high',
+  BORROWED: 'volatile',
+  BROKEN: 'low',
+  UNTESTED: 'medium',
+}
+
+const FLAG_ALIASES: Record<string, string[]> = {
+  GHOST_CANDIDATE: ['GHOST_CANDIDATE', 'VETERAN_GHOST'],
+  NEWSPAPER_COLLECTOR: ['NEWSPAPER_COLLECTOR', 'NEWSPAPER_PROXY'],
+}
+
+const RAW_CARDS: RawCard[] = [
+
+  // ═══════════════ LEVEL 1 — THE JOURNEY SO FAR (7) ═══════════════
+
   {
-    id: 'L1-01',
-    level: 1,
-    question: 'What should KAUTILYA call you?',
-    microcopy: 'A command system needs to know who it is commanding.',
-    input: 'text',
-    placeholder: 'Your name, or what you go by',
-    options: [],
-  },
-  {
-    id: 'L1-02',
-    level: 1,
-    question: 'How long have you been preparing — honestly, including the half-hearted months?',
-    microcopy: 'The half-hearted months count. They taught you something too.',
+    id: 'L1-01', level: 1,
+    question: 'How long has UPSC been part of your life — not preparation hours, but the dream itself living in your head?',
     options: [
-      { key: 'a', label: 'I have not started yet. I am deciding.', sets: { profile: { prep_years: 0 } } },
-      { key: 'b', label: 'Under a year.', sets: { profile: { prep_years: 0.5 } } },
-      { key: 'c', label: 'One to two years.', sets: { profile: { prep_years: 1.5 } } },
-      { key: 'd', label: 'Two to four years.', sets: { profile: { prep_years: 3 } }, weights: { marathon_consistency: 5 } },
-      { key: 'e', label: 'Four years or more. This exam has a wing in my life.', sets: { profile: { prep_years: 5 } }, weights: { identity_fusion: 10 } },
+      { key: 'a', label: 'Less than a year. The dream is new.', sets: { prep_years_band: 0 } },
+      { key: 'b', label: 'One to two years.', sets: { prep_years_band: 1 } },
+      { key: 'c', label: 'Two to three years. It has roots now.', sets: { prep_years_band: 2 }, weights: { identity_fusion: 5 } },
+      { key: 'd', label: 'Three to four years. It has shaped who I am.', sets: { prep_years_band: 3 }, weights: { identity_fusion: 10 } },
+      { key: 'e', label: 'More than four years. I don\'t remember who I was before it.', sets: { prep_years_band: 4 }, weights: { identity_fusion: 18 }, flags: ['GHOST_CANDIDATE'] },
     ],
   },
   {
-    id: 'L1-03',
-    level: 1,
+    id: 'L1-02', level: 1,
+    question: 'How many Prelims have you actually sat for — admit card in hand, hall entered?',
+    options: [
+      { key: 'a', label: 'None yet. My first is ahead of me.', sets: { attempts_band: 0 } },
+      { key: 'b', label: 'One.', sets: { attempts_band: 1 } },
+      { key: 'c', label: 'Two.', sets: { attempts_band: 2 } },
+      { key: 'd', label: 'Three.', sets: { attempts_band: 3 } },
+      { key: 'e', label: 'Four or more.', sets: { attempts_band: 4 }, weights: { attempt_pressure: 10 } },
+    ],
+  },
+  {
+    id: 'L1-03', level: 1,
     question: 'How far has the war taken you so far?',
-    microcopy: 'Not where you wanted to be. Where you actually are.',
     options: [
-      { key: 'a', label: 'I am starting fresh. No attempt yet.', sets: { stage_pattern: 'FRESH' } },
-      { key: 'b', label: 'I have attempted Prelims but never crossed it.', sets: { stage_pattern: 'PRELIMS_WALL' } },
-      { key: 'c', label: 'I have written Mains but never been called for the Interview.', sets: { stage_pattern: 'MAINS_PLATEAU' } },
-      { key: 'd', label: 'I have faced the Interview board and missed the list.', sets: { stage_pattern: 'INTERVIEW_EDGE' } },
-      { key: 'e', label: 'I cleared — but into a service I did not want.', sets: { stage_pattern: 'CLEARED_LOWER' } },
-      { key: 'f', label: 'I left the preparation once. I am coming back.', sets: { stage_pattern: 'RETURNING' } },
+      { key: 'a', label: 'Haven\'t taken Prelims yet.', sets: { stage_pattern: 'FRESH' } },
+      { key: 'b', label: 'Attempted Prelims. Haven\'t cleared it yet.', sets: { stage_pattern: 'PRELIMS_WALL' } },
+      { key: 'c', label: 'Cleared Prelims. Mains is my wall.', sets: { stage_pattern: 'MAINS_PLATEAU' }, flags: ['PLATEAU_CANDIDATE'] },
+      { key: 'd', label: 'Reached the interview. Missed the list.', sets: { stage_pattern: 'INTERVIEW_EDGE' }, flags: ['HEARTBREAK_CANDIDATE'] },
+      { key: 'e', label: 'In a service already — fighting for a higher one.', sets: { stage_pattern: 'CLEARED_LOWER' } },
+      { key: 'f', label: 'I left preparation for a while. I\'m back.', sets: { stage_pattern: 'RETURNING' } },
     ],
   },
   {
-    id: 'L1-04',
-    level: 1,
-    question: 'How many times have you sat in the Prelims hall?',
-    microcopy: 'A number, not a verdict. The system uses it in math, not in judgment.',
+    id: 'L1-04', level: 1,
+    question: 'Mains — the nine papers, the writing marathon. How many times have you faced it?',
     options: [
-      { key: 'a', label: 'Never. This will be my first.', sets: { profile: { attempts_taken: 0 } } },
-      { key: 'b', label: 'Once.', sets: { profile: { attempts_taken: 1 } } },
-      { key: 'c', label: 'Twice.', sets: { profile: { attempts_taken: 2 } } },
-      { key: 'd', label: 'Three times.', sets: { profile: { attempts_taken: 3 } } },
-      { key: 'e', label: 'Four times.', sets: { profile: { attempts_taken: 4 } } },
-      { key: 'f', label: 'Five or more.', sets: { profile: { attempts_taken: 5 } } },
+      { key: 'a', label: 'Never reached it yet.' },
+      { key: 'b', label: 'Once. I know its taste now.' },
+      { key: 'c', label: 'Twice — and my score barely moved between them.', weights: { mains_stamina: -5 }, flags: ['PLATEAU_CANDIDATE'] },
+      { key: 'd', label: 'Twice or more — and I improved each time.', weights: { recovery_speed: 8, mains_stamina: 5 } },
+      { key: 'e', label: 'Three or more times. The wall knows my name.', flags: ['PLATEAU_CANDIDATE'], weights: { attempt_pressure: 8 } },
     ],
   },
   {
-    id: 'L1-05',
-    level: 1,
-    question: 'And the Mains hall — how many times have you written all nine papers?',
+    id: 'L1-05', level: 1,
+    question: 'Was there ever a season you stepped away from preparation completely — months where the books stayed closed?',
     options: [
-      { key: 'a', label: 'Never reached it.', sets: { profile: { attempts_mains: 0 } } },
-      { key: 'b', label: 'Once.', sets: { profile: { attempts_mains: 1 } }, weights: { mains_stamina: 10 } },
-      { key: 'c', label: 'Twice.', sets: { profile: { attempts_mains: 2 } }, weights: { mains_stamina: 15 } },
-      { key: 'd', label: 'Three or more times.', sets: { profile: { attempts_mains: 3 } }, weights: { mains_stamina: 20 } },
-      { key: 'e', label: 'I reached Mains once but could not complete all papers.', sets: { profile: { attempts_mains: 1 } }, weights: { mains_stamina: -10, emotional_volatility: 10 } },
+      { key: 'a', label: 'No. I\'ve been continuous since I started.', weights: { marathon_consistency: 8 } },
+      { key: 'b', label: 'A short break — weeks, to breathe. Then back.', weights: { recovery_speed: 5 } },
+      { key: 'c', label: 'Yes — a job, a duty, a life chapter took me away. I\'ve returned.', sets: { stage_pattern: 'RETURNING' } },
+      { key: 'd', label: 'Yes — I broke after a result and stayed away a long time.', weights: { recovery_speed: -10 } },
+      { key: 'e', label: 'I\'m technically "preparing" but honestly half-away right now.', weights: { marathon_consistency: -12, execution_friction: 8 } },
     ],
   },
   {
-    id: 'L1-06',
-    level: 1,
-    question: 'Your age, roughly?',
-    microcopy: 'Used only to compute what the calendar actually allows. Never shown back to you.',
+    id: 'L1-06', level: 1,
+    question: 'Where are you on the eligibility runway? (Used only for planning math — never shown back to you.)',
     options: [
-      { key: 'a', label: '21 or younger', sets: { profile: { age: 21 } } },
-      { key: 'b', label: '22 to 24', sets: { profile: { age: 23 } } },
-      { key: 'c', label: '25 to 27', sets: { profile: { age: 26 } } },
-      { key: 'd', label: '28 to 30', sets: { profile: { age: 29 } } },
-      { key: 'e', label: '31 or 32', sets: { profile: { age: 31 } } },
-      { key: 'f', label: 'Past 32 — I have a category extension', sets: { profile: { age: 34 } } },
+      { key: 'a', label: '24 or younger. Long runway.', sets: { age_band: 0 } },
+      { key: 'b', label: '25 to 27. Mid-runway.', sets: { age_band: 1 } },
+      { key: 'c', label: '28 to 30. The window is real now.', sets: { age_band: 2 }, weights: { attempt_pressure: 8 } },
+      { key: 'd', label: '31 or beyond / final attempts territory.', sets: { age_band: 3 }, weights: { attempt_pressure: 15 } },
     ],
   },
   {
-    id: 'L1-07',
-    level: 1,
-    question: 'Are you fighting this war with a job on your back?',
+    id: 'L1-07', level: 1,
+    question: 'Think of your last result — Prelims, Mains, or the final list. What did the following MONTH of preparation look like?',
     options: [
-      { key: 'a', label: 'Full-time job. I study around it.', sets: { profile: { employed: true } }, weights: { execution_friction: 10 } },
-      { key: 'b', label: 'Part-time or freelance work.', sets: { profile: { employed: true } }, weights: { execution_friction: 5 } },
-      { key: 'c', label: 'I left a job for this.', sets: { profile: { employed: false } }, weights: { purpose_intensity: 10, external_pressure: 10 } },
-      { key: 'd', label: 'Full-time aspirant. No job yet.', sets: { profile: { employed: false } } },
-      { key: 'e', label: 'Still in college, preparing alongside.', sets: { profile: { employed: false } } },
+      { key: 'a', label: 'I haven\'t had a result yet.' },
+      { key: 'b', label: 'Back at the desk within days, plan adjusted, moving.', weights: { recovery_speed: 18, marathon_consistency: 5 } },
+      { key: 'c', label: 'Two or three weeks of fog, then I rebuilt.', weights: { recovery_speed: 5 } },
+      { key: 'd', label: 'The month was a write-off. Recovery took a season.', weights: { recovery_speed: -12 } },
+      { key: 'e', label: 'Honestly — I\'m still not fully back from it.', weights: { recovery_speed: -20, emotional_volatility: 8 } },
     ],
   },
-]
 
-// ── L2 — The Why (6) ────────────────────────────────────────────
+  // ═══════════════ LEVEL 2 — THE WHY (6) ═══════════════
 
-const L2: Card[] = [
   {
-    id: 'L2-01',
-    level: 2,
-    question: 'Strip away the answers you give at family functions. Why are you really doing this?',
+    id: 'L2-01', level: 2,
+    question: 'Finish the sentence with the answer that is true at 2 a.m., not the one for interviews: "I want to clear UPSC because…"',
     options: [
-      { key: 'a', label: 'I have seen what bad administration does to people like mine. I want my hands on the levers.', sets: { purpose_type: 'SERVICE' }, weights: { purpose_intensity: 20 } },
-      { key: 'b', label: 'My family gave up things for me. This is how I give them back.', sets: { purpose_type: 'RESTORATION' }, weights: { purpose_intensity: 15, external_pressure: 15 } },
-      { key: 'c', label: 'I need a way out of the life currently scheduled for me.', sets: { purpose_type: 'ESCAPE' }, weights: { purpose_intensity: 10 } },
-      { key: 'd', label: 'The respect. The room going quiet. I want that, and I am not ashamed of it.', sets: { purpose_type: 'STATUS' }, weights: { purpose_intensity: 10 } },
-      { key: 'e', label: 'People decided I could not. I am here to correct the record.', sets: { purpose_type: 'PROOF' }, weights: { purpose_intensity: 15, emotional_volatility: 10 } },
-      { key: 'f', label: 'Honestly — I have never put it into words.', sets: { purpose_type: 'UNTESTED' }, weights: { purpose_intensity: -10, anchor_strength: -10 } },
+      { key: 'a', label: '…there are specific things broken in this country I want my hands on.', sets: { purpose_type: 'SERVICE' }, weights: { purpose_intensity: 15 } },
+      { key: 'b', label: '…my family\'s sacrifices deserve a destination.', sets: { purpose_type: 'RESTORATION' }, weights: { purpose_intensity: 12, external_pressure: 8 } },
+      { key: 'c', label: '…I cannot spend my life in the job/life I\'m currently in.', sets: { purpose_type: 'ESCAPE' }, weights: { purpose_intensity: 8 } },
+      { key: 'd', label: '…the respect, the position, the name. I want to matter.', sets: { purpose_type: 'STATUS' }, weights: { purpose_intensity: 8 } },
+      { key: 'e', label: '…someone said I couldn\'t. I intend to correct them.', sets: { purpose_type: 'PROOF' }, weights: { purpose_intensity: 10 } },
+      { key: 'f', label: '…honestly, I\'ve never examined it. It arrived before the reasons did.', sets: { purpose_type: 'UNTESTED' }, weights: { purpose_intensity: -5 } },
     ],
   },
   {
-    id: 'L2-02',
-    level: 2,
-    question: 'Whose face appears when you imagine the final list with your name on it?',
+    id: 'L2-02', level: 2,
+    question: 'Trace the dream to its birth. Whose was it first?',
     options: [
-      { key: 'a', label: 'My parents. Before anyone else, them.', weights: { external_pressure: 15, anchor_strength: 10 } },
-      { key: 'b', label: 'My own. Younger me, who needed this.', weights: { purpose_intensity: 10, identity_fusion: 10 } },
-      { key: 'c', label: 'The people from where I grew up.', weights: { purpose_intensity: 15, anchor_strength: 10 } },
-      { key: 'd', label: 'The relatives and batchmates who kept score against me.', weights: { emotional_volatility: 10, external_pressure: 10 } },
-      { key: 'e', label: 'No face. Just relief — an enormous, silent relief.', weights: { identity_fusion: 15, emotional_volatility: 5 } },
+      { key: 'a', label: 'Mine — a specific moment, person, or injustice lit it.', weights: { purpose_intensity: 12, anchor_strength: 5 } },
+      { key: 'b', label: 'It grew slowly out of my own reading and conviction.', weights: { purpose_intensity: 8 } },
+      { key: 'c', label: 'My family planted it. I adopted it and made it mine.', weights: { external_pressure: 5 } },
+      { key: 'd', label: 'My family planted it. I\'m still deciding if it\'s mine.', sets: { purpose_type: 'UNTESTED' }, weights: { purpose_intensity: -8, external_pressure: 10 } },
+      { key: 'e', label: 'A topper\'s story / the aura of the service pulled me in.', weights: { purpose_intensity: -3 } },
     ],
   },
   {
-    id: 'L2-03',
-    level: 2,
-    question: 'If selection were guaranteed — but only after seven more years — would you stay in?',
-    microcopy: 'There is no right answer. There is only your answer.',
+    id: 'L2-03', level: 2,
+    question: 'Selection happens tomorrow. Your name, the list, real. The first feeling — before celebration — would be:',
     options: [
-      { key: 'a', label: 'Yes. The work itself is the point.', weights: { purpose_intensity: 20, marathon_consistency: 10 } },
-      { key: 'b', label: 'Yes, but it would hollow me out.', weights: { purpose_intensity: 10, identity_fusion: 15 } },
-      { key: 'c', label: 'No. I would build the same impact another way.', weights: { cognitive_clarity: 10, anchor_strength: 10 } },
-      { key: 'd', label: 'No. Seven years is a price I refuse to name out loud.', weights: { external_pressure: 10 } },
-      { key: 'e', label: 'I genuinely cannot answer this.', weights: { purpose_intensity: -5, anchor_strength: -5 } },
+      { key: 'a', label: 'Relief. The weight finally off.', weights: { external_pressure: 8, identity_fusion: 5 } },
+      { key: 'b', label: 'Vindication. Faces flash before my eyes.', weights: { purpose_intensity: 5 } },
+      { key: 'c', label: 'Hunger — straight to "now the real work begins."', weights: { purpose_intensity: 12 } },
+      { key: 'd', label: 'My family\'s faces. Nothing else for the first hour.', weights: { anchor_strength: 10 } },
+      { key: 'e', label: 'Honestly… emptiness scares me. What would I chase next?', weights: { identity_fusion: 15 }, flags: ['FUSION_WATCH'] },
     ],
   },
   {
-    id: 'L2-04',
-    level: 2,
-    question: 'When did the IAS dream actually enter your life?',
+    id: 'L2-04', level: 2,
+    question: 'A friend who loves you asks: "Why not state PCS, SSC, a corporate job — the easier doors?" Your honest internal answer:',
     options: [
-      { key: 'a', label: 'Childhood. Someone in uniform, or a collector visiting the village. It never left.', weights: { purpose_intensity: 10, identity_fusion: 10 } },
-      { key: 'b', label: 'College — I found the work meaningful, not just prestigious.', weights: { purpose_intensity: 10, cognitive_clarity: 5 } },
-      { key: 'c', label: 'After my first job. The work felt small; this felt large.', weights: { purpose_intensity: 10 } },
-      { key: 'd', label: 'My family chose it before I did. I grew into it.', weights: { external_pressure: 20 } },
-      { key: 'e', label: 'A friend started preparing, and the idea caught.', weights: { purpose_intensity: -5, distraction_risk: 5 } },
+      { key: 'a', label: 'Because the work I want to do only exists behind this door.', weights: { purpose_intensity: 15 } },
+      { key: 'b', label: 'Because I\'d regret not trying for the top, forever.', weights: { purpose_intensity: 10 } },
+      { key: 'c', label: 'I have considered them. They\'re my honest plan B, and that\'s okay.', weights: { recovery_speed: 5 } },
+      { key: 'd', label: 'Because stepping down now would feel like a verdict on me.', weights: { identity_fusion: 12 } },
+      { key: 'e', label: 'The question rattles me more than I admit.', weights: { purpose_intensity: -8 } },
     ],
   },
   {
-    id: 'L2-05',
-    level: 2,
-    question: 'What fuels the late hours — be precise?',
+    id: 'L2-05', level: 2,
+    question: 'Which scene do you replay more often in your head?',
     options: [
-      { key: 'a', label: 'Duty. A debt I intend to pay.', weights: { purpose_intensity: 15, marathon_consistency: 10 } },
-      { key: 'b', label: 'Hunger. I want the work, the scale, the room.', weights: { purpose_intensity: 15 } },
-      { key: 'c', label: 'Fear. Of becoming ordinary, of wasted years.', weights: { emotional_volatility: 15, identity_fusion: 10 } },
-      { key: 'd', label: 'Anger. At someone, or something, that doubted me.', weights: { purpose_intensity: 10, emotional_volatility: 15 } },
-      { key: 'e', label: 'Habit. The hours happen because they have always happened.', weights: { marathon_consistency: 10, purpose_intensity: -10 } },
+      { key: 'a', label: 'Me in the field — a district, a crisis, a decision that helps real people.', sets: { purpose_type: 'SERVICE' }, weights: { purpose_intensity: 10 } },
+      { key: 'b', label: 'The result moment — my name, the calls, the celebration.', weights: { purpose_intensity: 3 } },
+      { key: 'c', label: 'Walking into my old neighbourhood after selection.', sets: { purpose_type: 'PROOF' } },
+      { key: 'd', label: 'My parents\' faces when the news lands.', sets: { purpose_type: 'RESTORATION' }, weights: { anchor_strength: 8 } },
+      { key: 'e', label: 'I mostly replay past failures, not future wins.', weights: { emotional_volatility: 10, recovery_speed: -5 } },
     ],
   },
   {
-    id: 'L2-06',
-    level: 2,
-    question: 'Complete the sentence honestly: "If I clear this exam, my life finally becomes..."',
+    id: 'L2-06', level: 2,
+    question: 'Strange question. If UPSC vanished tomorrow — exam abolished — who would you be?',
     options: [
-      { key: 'a', label: '...useful at the scale I have always wanted.', weights: { purpose_intensity: 15 } },
-      { key: 'b', label: '...secure. For me and everyone leaning on me.', weights: { external_pressure: 10 } },
-      { key: 'c', label: '...mine. I finally get to make my own decisions.', weights: { purpose_intensity: 10 } },
-      { key: 'd', label: '...justified. Every sacrifice gets its receipt.', weights: { identity_fusion: 20 } },
-      { key: 'e', label: '...quiet. The questions stop.', weights: { external_pressure: 15, identity_fusion: 10 } },
+      { key: 'a', label: 'The same person, pointed at a different mountain within a month.', weights: { identity_fusion: -10, recovery_speed: 10 } },
+      { key: 'b', label: 'Disoriented for a while, but I\'d find a path.', weights: { identity_fusion: 0 } },
+      { key: 'c', label: 'Honestly lost. This exam is my entire architecture.', weights: { identity_fusion: 20 }, flags: ['FUSION_WATCH'] },
+      { key: 'd', label: 'Relieved — and that answer surprises me.', weights: { purpose_intensity: -10, external_pressure: 10 } },
+      { key: 'e', label: 'I refuse to think about this.', weights: { identity_fusion: 15 }, flags: ['FUSION_WATCH'] },
     ],
   },
-]
 
-// ── L3 — Daily Reality (6) ──────────────────────────────────────
+  // ═══════════════ LEVEL 3 — THE DAILY REALITY (6) ═══════════════
 
-const L3: Card[] = [
   {
-    id: 'L3-01',
-    level: 3,
-    question: 'On a real weekday — not your best one — how many focused hours do you actually get?',
+    id: 'L3-01', level: 3,
+    question: 'Your current life structure, as it actually is:',
     options: [
-      { key: 'a', label: 'Under two. The day eats the rest.', weights: { execution_friction: 15, marathon_consistency: -10 } },
-      { key: 'b', label: 'Two to four.', weights: { marathon_consistency: 5 } },
-      { key: 'c', label: 'Four to six.', weights: { marathon_consistency: 10 } },
-      { key: 'd', label: 'Six to eight.', weights: { marathon_consistency: 15 } },
-      { key: 'e', label: 'Eight plus — but I cannot hold it daily.', weights: { marathon_consistency: -5, emotional_volatility: 10 } },
-      { key: 'f', label: 'It swings wildly. Some days ten, some days zero.', weights: { marathon_consistency: -15, emotional_volatility: 10 } },
+      { key: 'a', label: 'Full-time preparation. The exam is my job.', sets: { employed: false } },
+      { key: 'b', label: 'Full-time job + preparation in the margins.', sets: { employed: true }, weights: { external_pressure: 10 } },
+      { key: 'c', label: 'College/degree + preparation alongside.', sets: { employed: false } },
+      { key: 'd', label: 'Family responsibilities + preparation — caregiving, business, duties.', weights: { external_pressure: 12 } },
+      { key: 'e', label: 'Part-time work / teaching to fund the preparation itself.', sets: { employed: true }, weights: { external_pressure: 8 } },
     ],
   },
   {
-    id: 'L3-02',
-    level: 3,
-    question: 'You miss a full study day. What does the next morning look like?',
+    id: 'L3-02', level: 3,
+    question: 'Averaged over the last 30 days — not your best day, the average — your real deep-study hours:',
     options: [
-      { key: 'a', label: 'I open the books at the usual time. The missed day is archived.', weights: { recovery_speed: 25, marathon_consistency: 10 } },
-      { key: 'b', label: 'I start with guilt, but I start.', weights: { recovery_speed: 15 } },
-      { key: 'c', label: 'I overcorrect — a brutal 12-hour plan that collapses by evening.', weights: { recovery_speed: -5, emotional_volatility: 10 } },
-      { key: 'd', label: 'One missed day usually becomes three.', weights: { recovery_speed: -15, marathon_consistency: -10 } },
-      { key: 'e', label: 'One missed day can become a lost week.', weights: { recovery_speed: -25, marathon_consistency: -15 } },
+      { key: 'a', label: 'Under 2 hours. The margins are thin right now.', weights: { marathon_consistency: -8 } },
+      { key: 'b', label: '2–4 hours, mostly protected.', weights: { marathon_consistency: 5 } },
+      { key: 'c', label: '4–7 hours, fairly consistent.', weights: { marathon_consistency: 12 } },
+      { key: 'd', label: '7+ hours, machine mode.', weights: { marathon_consistency: 15 } },
+      { key: 'e', label: 'Wildly inconsistent — 9 hours one day, zero for three.', weights: { marathon_consistency: -15, emotional_volatility: 8 } },
     ],
   },
   {
-    id: 'L3-03',
-    level: 3,
-    question: 'Where does your phone live while you study?',
+    id: 'L3-03', level: 3,
+    question: 'The money question, privately: how long can your current arrangement sustain this preparation?',
     options: [
-      { key: 'a', label: 'Another room. We are separated for the duration.', weights: { distraction_risk: -15 } },
-      { key: 'b', label: 'On the desk, face down, mostly behaving.', weights: { distraction_risk: 5 } },
-      { key: 'c', label: 'On the desk — and it wins more rounds than I admit.', weights: { distraction_risk: 20 } },
-      { key: 'd', label: 'In my hand. My "study breaks" are scrolling sessions.', weights: { distraction_risk: 30, execution_friction: 10 } },
-      { key: 'e', label: 'I study from the phone, so it is always there — open gates everywhere.', weights: { distraction_risk: 25, resource_chaos: 10 } },
+      { key: 'a', label: 'Years if needed. Runway is not my constraint.', weights: { external_pressure: -8 } },
+      { key: 'b', label: 'Comfortably through the next attempt cycle.', weights: { external_pressure: 0 } },
+      { key: 'c', label: 'About a year. After that, hard conversations.', weights: { external_pressure: 12 } },
+      { key: 'd', label: 'Months. The clock is loud.', weights: { external_pressure: 20 } },
+      { key: 'e', label: 'I\'m funding it myself, paycheck to preparation.', weights: { external_pressure: 15 } },
     ],
   },
   {
-    id: 'L3-04',
-    level: 3,
-    question: 'Describe your study space without flattering it.',
+    id: 'L3-04', level: 3,
+    question: 'The conversation about your preparation at home is best described as:',
     options: [
-      { key: 'a', label: 'A fixed desk that knows me. Same place, same hours.', weights: { execution_friction: -10, marathon_consistency: 10 } },
-      { key: 'b', label: 'A library or reading room I commute to.', weights: { marathon_consistency: 5 } },
-      { key: 'c', label: 'My bed, mostly. We both know it is a problem.', weights: { execution_friction: 15, distraction_risk: 10 } },
-      { key: 'd', label: 'Wherever the house allows that day. No territory of my own.', weights: { execution_friction: 20, external_pressure: 5 } },
-      { key: 'e', label: 'Cafés, hostels, moving targets. I am a nomad.', weights: { execution_friction: 10, resource_chaos: 5 } },
+      { key: 'a', label: 'Full backing. They\'d fund a decade if I asked.', weights: { external_pressure: -10, anchor_strength: 5 } },
+      { key: 'b', label: 'Supportive, with a quietly ticking clock underneath.', weights: { external_pressure: 8 } },
+      { key: 'c', label: 'Conditional — "this attempt, then we talk."', weights: { external_pressure: 18 } },
+      { key: 'd', label: 'They don\'t fully know how serious / how hard this is.', weights: { external_pressure: 8 }, flags: ['ISOLATION'] },
+      { key: 'e', label: 'Tense. The topic itself is a wound at home.', weights: { external_pressure: 20, emotional_volatility: 5 } },
     ],
   },
   {
-    id: 'L3-05',
-    level: 3,
-    question: 'The hours between intention and action — what fills them?',
-    microcopy: 'You sat down to study at 9. It is 9:50. What happened?',
+    id: 'L3-05', level: 3,
+    question: 'The other timelines — marriage talk, peer salaries, "settle down" pressure. How loud are they in your head?',
     options: [
-      { key: 'a', label: 'Nothing. I started at 9. This is not my war.', weights: { execution_friction: -15 } },
-      { key: 'b', label: 'Arranging — the desk, the playlist, the perfect plan for the session.', weights: { execution_friction: 20 } },
-      { key: 'c', label: 'One more video about how toppers study.', weights: { execution_friction: 20, distraction_risk: 10 } },
-      { key: 'd', label: 'Re-reading the schedule. Re-making the schedule.', weights: { execution_friction: 25, cognitive_clarity: 5 } },
-      { key: 'e', label: 'The news cycle, the group chats, the noise.', weights: { distraction_risk: 20 } },
+      { key: 'a', label: 'Silent. I\'ve fenced them off completely.', weights: { external_pressure: -5 } },
+      { key: 'b', label: 'Background hum. Noticed, not steering.', weights: { external_pressure: 5 } },
+      { key: 'c', label: 'Loud during result seasons and weddings.', weights: { external_pressure: 10, emotional_volatility: 5 } },
+      { key: 'd', label: 'Constant. Every life update from peers costs me focus.', weights: { external_pressure: 15, distraction_risk: 8 } },
+      { key: 'e', label: 'It\'s become the real opponent — louder than the syllabus.', weights: { external_pressure: 22 } },
     ],
   },
   {
-    id: 'L3-06',
-    level: 3,
-    question: 'Who controls your daily timetable in practice?',
+    id: 'L3-06', level: 3,
+    question: 'Last 90 days. On how many of them did you genuinely study — even one focused hour counts?',
     options: [
-      { key: 'a', label: 'Me. The day runs on my rails.', weights: { execution_friction: -10, marathon_consistency: 10 } },
-      { key: 'b', label: 'My job. I study in the spaces it leaves.', weights: { execution_friction: 10 } },
-      { key: 'c', label: 'My family. Errands, duties, interruptions arrive unannounced.', weights: { execution_friction: 15, external_pressure: 10 } },
-      { key: 'd', label: 'My mood. Good days run; bad days drift.', weights: { emotional_volatility: 15, marathon_consistency: -10 } },
-      { key: 'e', label: 'Honestly, no one. The day just happens to me.', weights: { execution_friction: 20, marathon_consistency: -10 } },
+      { key: 'a', label: '80+. The rhythm holds.', weights: { marathon_consistency: 18 } },
+      { key: 'b', label: '60–80. Solid, with human gaps.', weights: { marathon_consistency: 10 } },
+      { key: 'c', label: '40–60. Stop-start. Momentum keeps escaping.', weights: { marathon_consistency: -5, execution_friction: 8 } },
+      { key: 'd', label: 'Under 40. The plan exists; the days don\'t obey it.', weights: { marathon_consistency: -15, execution_friction: 12 } },
+      { key: 'e', label: 'I genuinely cannot estimate — I\'ve stopped tracking.', weights: { marathon_consistency: -10 }, flags: ['REVISION_COLLAPSER'] },
     ],
   },
-]
 
-// ── L4 — The Resource Map (7) ───────────────────────────────────
+  // ═══════════════ LEVEL 4 — THE RESOURCE MAP (6) ═══════════════
 
-const L4: Card[] = [
   {
-    id: 'L4-01',
-    level: 4,
-    question: 'How did you choose your current booklist?',
+    id: 'L4-01', level: 4,
+    question: 'Open your phone in your mind. How many UPSC-related Telegram channels and WhatsApp groups live there right now?',
     options: [
-      { key: 'a', label: 'One standard source per subject, chosen once, never reopened.', weights: { resource_chaos: -15, cognitive_clarity: 10 } },
-      { key: 'b', label: 'A topper\'s list I trust and follow.', weights: { resource_chaos: -5 } },
-      { key: 'c', label: 'I keep upgrading — every recommendation becomes a purchase.', weights: { resource_chaos: 20, execution_friction: 10 } },
-      { key: 'd', label: 'Whatever the coaching gave me, plus whatever YouTube added.', weights: { resource_chaos: 15 } },
-      { key: 'e', label: 'There is no list. There is a pile.', weights: { resource_chaos: 30 } },
+      { key: 'a', label: 'Zero to two. Curated and quiet.', weights: { resource_chaos: -10, distraction_risk: -5 } },
+      { key: 'b', label: 'Three to seven. Manageable noise.', weights: { resource_chaos: 8 } },
+      { key: 'c', label: 'Eight to fifteen. The forwards never stop.', weights: { resource_chaos: 18, distraction_risk: 10 } },
+      { key: 'd', label: 'Fifteen to thirty. I\'ve muted most, deleted none.', weights: { resource_chaos: 28, distraction_risk: 15 } },
+      { key: 'e', label: 'I\'ve lost count. Joining them feels like preparation.', weights: { resource_chaos: 35, distraction_risk: 18 }, flags: ['NEWSPAPER_COLLECTOR'] },
     ],
   },
   {
-    id: 'L4-02',
-    level: 4,
+    id: 'L4-02', level: 4,
     question: 'Count honestly: how many sources do you currently follow for Polity alone?',
-    microcopy: 'Books, coaching notes, YouTube channels, PDFs, telegram files. All of them.',
     options: [
-      { key: 'a', label: 'One. Laxmikanth and I are monogamous.', weights: { resource_chaos: 0 } },
-      { key: 'b', label: 'Two — a book and one set of notes.', weights: { resource_chaos: 15 } },
-      { key: 'c', label: 'Three or four.', weights: { resource_chaos: 35 } },
-      { key: 'd', label: 'Five or six.', weights: { resource_chaos: 55 } },
-      { key: 'e', label: 'I have lost count.', weights: { resource_chaos: 70, execution_friction: 10 } },
+      { key: 'a', label: 'One. Locked.', weights: { resource_chaos: 0 } },
+      { key: 'b', label: 'Two — a book and a PDF.', weights: { resource_chaos: 15 } },
+      { key: 'c', label: 'Three to four.', weights: { resource_chaos: 35 } },
+      { key: 'd', label: 'Five or more.', weights: { resource_chaos: 55 } },
+      { key: 'e', label: 'I\'ve genuinely lost count.', weights: { resource_chaos: 70, execution_friction: 10 } },
     ],
   },
   {
-    id: 'L4-03',
-    level: 4,
-    question: 'What is your current-affairs system, truthfully?',
+    id: 'L4-03', level: 4,
+    question: 'Note systems — notebooks, Notion, Evernote, loose sheets, that one beautiful register. How many have you started and abandoned?',
     options: [
-      { key: 'a', label: 'One newspaper or one monthly compilation, processed daily. Done.', weights: { resource_chaos: -10, marathon_consistency: 5 } },
-      { key: 'b', label: 'The newspaper, read but rarely noted.', weights: { resource_chaos: 5 }, sets: { flags: ['NEWSPAPER_PROXY'] } },
-      { key: 'c', label: 'I collect compilations — monthly PDFs stack up faster than I read them.', weights: { resource_chaos: 20, execution_friction: 10 }, sets: { flags: ['NEWSPAPER_PROXY'] } },
-      { key: 'd', label: 'Three sources in parallel: paper, channel, compilation. None complete.', weights: { resource_chaos: 25, distraction_risk: 10 }, sets: { flags: ['NEWSPAPER_PROXY'] } },
-      { key: 'e', label: 'Current affairs is my biggest backlog and my biggest fear.', weights: { resource_chaos: 15, emotional_volatility: 10 }, sets: { flags: ['NEWSPAPER_PROXY'] } },
+      { key: 'a', label: 'One system, still alive, still growing.', weights: { resource_chaos: -8, execution_friction: -5 } },
+      { key: 'b', label: 'Two. One died; its successor survives.', weights: { resource_chaos: 5 } },
+      { key: 'c', label: 'Three or four graveyards so far.', weights: { resource_chaos: 15, execution_friction: 10 }, flags: ['NOTES_HOARDER'] },
+      { key: 'd', label: 'Five-plus. Starting fresh notes IS my coping ritual.', weights: { resource_chaos: 25, execution_friction: 18 }, flags: ['NOTES_HOARDER'] },
+      { key: 'e', label: 'I mostly collect others\' notes and never make my own.', weights: { resource_chaos: 20, execution_friction: 12 }, flags: ['NOTES_HOARDER'] },
     ],
   },
   {
-    id: 'L4-04',
-    level: 4,
-    question: 'Your notes situation — pick the sentence that stings.',
+    id: 'L4-04', level: 4,
+    question: 'A new topper-strategy video drops — "How I cleared in my first attempt." You:',
     options: [
-      { key: 'a', label: 'One compact set per subject, revised on schedule.', weights: { resource_chaos: -15, marathon_consistency: 10 } },
-      { key: 'b', label: 'Good notes for some subjects, chaos for the rest.', weights: { resource_chaos: 10 } },
-      { key: 'c', label: 'I make beautiful notes I never revisit.', weights: { resource_chaos: 15, execution_friction: 15 } },
-      { key: 'd', label: 'I keep restarting my notes from scratch in a better format.', weights: { resource_chaos: 20, execution_friction: 20 } },
-      { key: 'e', label: 'I hoard everyone else\'s notes and trust none of them, including mine.', weights: { resource_chaos: 25, execution_friction: 15 } },
+      { key: 'a', label: 'Rarely watch them anymore. My system is set.', weights: { execution_friction: -8 } },
+      { key: 'b', label: 'Watch occasionally, extract one tactic, move on.', weights: { cognitive_clarity: 5 } },
+      { key: 'c', label: 'Watch most of them "for motivation."', weights: { distraction_risk: 8, execution_friction: 5 } },
+      { key: 'd', label: 'Watch, take notes on the strategy, redesign my plan. Again.', weights: { execution_friction: 18 }, flags: ['STRATEGY_CONSUMER'] },
+      { key: 'e', label: 'I know toppers\' timetables better than my own subjects.', weights: { execution_friction: 22, distraction_risk: 10 }, flags: ['STRATEGY_CONSUMER'] },
     ],
   },
   {
-    id: 'L4-05',
-    level: 4,
-    question: 'How many full cycles of the Prelims syllabus have you actually completed?',
-    microcopy: 'Reading once cover-to-cover counts as one cycle. Be merciless.',
+    id: 'L4-05', level: 4,
+    question: 'Your current-affairs stack, described without mercy:',
     options: [
-      { key: 'a', label: 'None yet. First pass in progress.', weights: { cognitive_clarity: 0 } },
-      { key: 'b', label: 'One full cycle.', weights: { cognitive_clarity: 10 } },
-      { key: 'c', label: 'Two to three cycles.', weights: { cognitive_clarity: 20, marathon_consistency: 10 } },
-      { key: 'd', label: 'Many cycles — the books are annotated like scripture.', weights: { cognitive_clarity: 25, marathon_consistency: 10 } },
-      { key: 'e', label: 'Parts of it many times. Other parts never. The map has holes.', weights: { cognitive_clarity: -5, resource_chaos: 15 } },
+      { key: 'a', label: 'One newspaper OR one monthly magazine. Done daily/monthly. Closed loop.', weights: { resource_chaos: -8 } },
+      { key: 'b', label: 'Newspaper + one compilation. Mostly current.', weights: { resource_chaos: 5 } },
+      { key: 'c', label: 'Newspaper + 2-3 monthlies + daily quiz + YouTube analysis.', weights: { resource_chaos: 18 }, flags: ['NEWSPAPER_COLLECTOR'] },
+      { key: 'd', label: 'A growing pile of unread monthlies that judges me from the shelf.', weights: { resource_chaos: 22, execution_friction: 10 }, flags: ['NEWSPAPER_COLLECTOR'] },
+      { key: 'e', label: 'I\'ve abandoned CA out of overwhelm. I\'ll "cover it before Prelims."', weights: { resource_chaos: 15, prelims_nerve: -8 } },
     ],
   },
   {
-    id: 'L4-06',
-    level: 4,
-    question: 'Test series — how many are you enrolled in right now?',
+    id: 'L4-06', level: 4,
+    question: 'Thought experiment: tonight you must delete every source except ONE per subject. The feeling in your chest is:',
     options: [
-      { key: 'a', label: 'One. I trust it and finish its papers.', weights: { resource_chaos: -10, prelims_nerve: 5 } },
-      { key: 'b', label: 'One, but I attempt the papers irregularly.', weights: { marathon_consistency: -10 } },
-      { key: 'c', label: 'Two or three, partially attempted.', weights: { resource_chaos: 15 } },
-      { key: 'd', label: 'I download every "all India" test floating around. Attempt rate: low.', weights: { resource_chaos: 25, execution_friction: 10 } },
-      { key: 'e', label: 'None. Tests scare me more than they should.', weights: { prelims_nerve: -15, emotional_volatility: 10 } },
+      { key: 'a', label: 'Relief. Please. Someone make me do it.', weights: { resource_chaos: 5, purpose_intensity: 5 } },
+      { key: 'b', label: 'Acceptance — I basically already live this way.', weights: { resource_chaos: -10 } },
+      { key: 'c', label: 'Anxiety — what if the dropped source had THE question?', weights: { resource_chaos: 15, emotional_volatility: 8 } },
+      { key: 'd', label: 'Resistance. My collection feels like my preparation.', weights: { resource_chaos: 22 }, flags: ['NOTES_HOARDER'] },
+      { key: 'e', label: 'I\'d agree, then quietly re-download everything by Friday.', weights: { resource_chaos: 18, execution_friction: 8 } },
+    ],
+  },
+
+  // ═══════════════ LEVEL 5 — THE MIND UNDER FIRE (8) ═══════════════
+
+  {
+    id: 'L5-01', level: 5,
+    question: 'A full 3-hour Mains test paper is scheduled for tomorrow morning. Tonight, your honest pattern:',
+    options: [
+      { key: 'a', label: 'I\'ll sit it fully. Writing tests is non-negotiable in my week.', weights: { mains_stamina: 18 } },
+      { key: 'b', label: 'I\'ll sit it, though my hand and mind fade by hour three.', weights: { mains_stamina: 8 } },
+      { key: 'c', label: 'I\'ll probably convert it into "reading the questions and framing mentally."', weights: { mains_stamina: -10 }, flags: ['MAINS_AVOIDER'] },
+      { key: 'd', label: 'I\'ll postpone it — one more revision round first. Always one more.', weights: { mains_stamina: -15, execution_friction: 10 }, flags: ['MAINS_AVOIDER'] },
+      { key: 'e', label: 'Full honesty: I haven\'t written a complete timed paper yet.', weights: { mains_stamina: -20 }, flags: ['MAINS_AVOIDER'] },
     ],
   },
   {
-    id: 'L4-07',
-    level: 4,
-    question: 'If KAUTILYA ordered you to delete every source but one per subject — what happens inside you?',
+    id: 'L5-02', level: 5,
+    question: 'A 10-marker stares at you. You know maybe 60% of it. The clock is moving. You:',
     options: [
-      { key: 'a', label: 'Relief. I have been waiting for permission.', weights: { resource_chaos: 5, cognitive_clarity: 10 } },
-      { key: 'b', label: 'Agreement, with a private list of exceptions.', weights: { resource_chaos: 10 } },
-      { key: 'c', label: 'Panic. What if the discarded one had the question?', weights: { resource_chaos: 20, emotional_volatility: 10 } },
-      { key: 'd', label: 'Resistance. More coverage means more safety. It must.', weights: { resource_chaos: 25 } },
-      { key: 'e', label: 'I have done it before — and quietly re-downloaded everything within a month.', weights: { resource_chaos: 20, execution_friction: 10 } },
+      { key: 'a', label: 'Write immediately — structure first, fill with what I have, move on.', weights: { mains_stamina: 15, prelims_nerve: 5 } },
+      { key: 'b', label: 'Take a minute to frame, then write a decent 60% answer.', weights: { mains_stamina: 10 } },
+      { key: 'c', label: 'Stall — the imperfection of what I\'d write paralyzes the pen.', weights: { mains_stamina: -12, execution_friction: 8 } },
+      { key: 'd', label: 'Skip it, promise to return, usually don\'t.', weights: { mains_stamina: -15 } },
+      { key: 'e', label: 'Over-write it to compensate, and bleed time from three other answers.', weights: { mains_stamina: -8, emotional_volatility: 5 } },
+    ],
+  },
+  {
+    id: 'L5-03', level: 5,
+    question: '"Consider the following statements… How many of the above are correct?" Your gut, the moment you see this format:',
+    options: [
+      { key: 'a', label: 'Good. Each statement is a separate true/false battle. I like the structure.', weights: { prelims_nerve: 15, cognitive_clarity: 8 } },
+      { key: 'b', label: 'Steady. Slower than direct questions, but I have a method.', weights: { prelims_nerve: 8 } },
+      { key: 'c', label: 'Mild dread — one slippery statement poisons the whole question.', weights: { prelims_nerve: -8 } },
+      { key: 'd', label: 'This format is personally responsible for my Prelims scores.', weights: { prelims_nerve: -15 } },
+      { key: 'e', label: 'I still haven\'t built a method for these. I improvise each time.', weights: { prelims_nerve: -10, cognitive_clarity: -5 } },
+    ],
+  },
+  {
+    id: 'L5-04', level: 5,
+    question: 'Your Prelims attempt-count philosophy — the real one you executed last time, not the ideal:',
+    options: [
+      { key: 'a', label: 'Around 85–95 attempted. Calculated aggression with elimination.', weights: { prelims_nerve: 15 } },
+      { key: 'b', label: '75–85. Sure ones plus disciplined 50-50 gambles.', weights: { prelims_nerve: 10 } },
+      { key: 'c', label: 'Under 70. I only touch what I\'m certain of. The −0.66 haunts me.', weights: { prelims_nerve: -15 } },
+      { key: 'd', label: 'It varies wildly with my mood in the hall.', weights: { prelims_nerve: -8, emotional_volatility: 12 } },
+      { key: 'e', label: 'Haven\'t sat a real Prelims yet — my strategy is theoretical.', weights: { prelims_nerve: -5 } },
+    ],
+  },
+  {
+    id: 'L5-05', level: 5,
+    question: 'You read a strong editorial on, say, federal tensions. What does your mind do with it?',
+    options: [
+      { key: 'a', label: 'Auto-links it — Finance Commission, Governor\'s role, a Mains question forms itself.', weights: { cognitive_clarity: 18 } },
+      { key: 'b', label: 'I understand it fully and file it mentally under its topic.', weights: { cognitive_clarity: 10 } },
+      { key: 'c', label: 'I understand it while reading; it evaporates by evening.', weights: { cognitive_clarity: -5 }, flags: ['REVISION_COLLAPSER'] },
+      { key: 'd', label: 'I highlight it, screenshot it, save it to the pile. The pile.', weights: { cognitive_clarity: -3, resource_chaos: 10 }, flags: ['NEWSPAPER_COLLECTOR'] },
+      { key: 'e', label: 'Editorials feel like a foreign language I\'m pretending to read.', weights: { cognitive_clarity: -12 } },
+    ],
+  },
+  {
+    id: 'L5-06', level: 5,
+    question: 'Prelims hall. Question 71. You\'ve eliminated two options; two remain. 40 seconds. What happens in your body?',
+    options: [
+      { key: 'a', label: 'Calm coin-flip with logic — I take the shot.', weights: { prelims_nerve: 20 } },
+      { key: 'b', label: 'I mark it for review and never come back.', weights: { prelims_nerve: -10, execution_friction: 5 } },
+      { key: 'c', label: 'I freeze, burn 3 minutes, guess in panic.', weights: { prelims_nerve: -20 } },
+      { key: 'd', label: 'I skip — I only answer when 100% sure.', weights: { prelims_nerve: -15 } },
+      { key: 'e', label: 'Depends entirely on how the first 70 went.', weights: { emotional_volatility: 15 } },
+    ],
+  },
+  {
+    id: 'L5-07', level: 5,
+    question: 'CSAT. The qualifying paper that disqualifies thousands. Your honest relationship with it:',
+    options: [
+      { key: 'a', label: 'Comfortable. I clear it with margin in every mock.', weights: { prelims_nerve: 5 } },
+      { key: 'b', label: 'Respectful — I give it weekly time because I\'ve seen it kill.', weights: { marathon_consistency: 5, prelims_nerve: 5 } },
+      { key: 'c', label: 'Uneasy. Comprehension is fine; maths makes my hands cold.', weights: { prelims_nerve: -8 } },
+      { key: 'd', label: 'I ignore it and pray. "It\'s just qualifying."', weights: { prelims_nerve: -12, execution_friction: 8 } },
+      { key: 'e', label: 'CSAT has already cost me an attempt.', weights: { prelims_nerve: -10, attempt_pressure: 8 } },
+    ],
+  },
+  {
+    id: 'L5-08', level: 5,
+    question: 'You studied a topic thoroughly last week. Today someone asks you to explain it in two minutes. What comes out?',
+    options: [
+      { key: 'a', label: 'A clean, structured two minutes — intro, three points, close.', weights: { cognitive_clarity: 15, mains_stamina: 5 } },
+      { key: 'b', label: 'The substance, in slightly tangled order.', weights: { cognitive_clarity: 8 } },
+      { key: 'c', label: 'Fragments — I recognize everything they say but can\'t produce it myself.', weights: { cognitive_clarity: -8 }, flags: ['REVISION_COLLAPSER'] },
+      { key: 'd', label: 'Honestly, a week is enough for most of it to vanish without revision.', weights: { cognitive_clarity: -5, marathon_consistency: -5 }, flags: ['REVISION_COLLAPSER'] },
+      { key: 'e', label: 'I\'d deflect — explaining aloud exposes me, so I avoid it.', weights: { mains_stamina: -8 }, flags: ['ISOLATION'] },
+    ],
+  },
+
+  // ═══════════════ LEVEL 6 — THE EMOTIONAL CORE (7) ═══════════════
+
+  {
+    id: 'L6-01', level: 6,
+    question: 'A mock result lands 30 marks below what you expected. Trace the next 48 hours honestly:',
+    options: [
+      { key: 'a', label: 'Two hours of sting → error analysis that same night → adjusted plan by morning.', weights: { recovery_speed: 18, emotional_volatility: -5 } },
+      { key: 'b', label: 'A dark evening, then back at the desk next day.', weights: { recovery_speed: 10 } },
+      { key: 'c', label: 'Two or three days of fog before I can look at the paper again.', weights: { recovery_speed: -8, emotional_volatility: 8 } },
+      { key: 'd', label: 'I question the entire preparation, the dream, and myself. For a week.', weights: { recovery_speed: -15, emotional_volatility: 15 } },
+      { key: 'e', label: 'I stopped taking mocks partly to avoid exactly this.', weights: { recovery_speed: -10, prelims_nerve: -8 }, flags: ['MAINS_AVOIDER'] },
+    ],
+  },
+  {
+    id: 'L6-02', level: 6,
+    question: 'Result day. The PDF is out. How do you actually check?',
+    options: [
+      { key: 'a', label: 'Open it myself, immediately, alone and steady.', weights: { emotional_volatility: -8 } },
+      { key: 'b', label: 'Open it myself after an hour of pacing.', weights: { emotional_volatility: 5 } },
+      { key: 'c', label: 'Someone else checks while I sit elsewhere, heart hammering.', weights: { emotional_volatility: 12 } },
+      { key: 'd', label: 'I delay for hours — sometimes a full day — until I\'m "ready."', weights: { emotional_volatility: 15 } },
+      { key: 'e', label: 'I\'ve learned my results from other people\'s condolence messages.', weights: { emotional_volatility: 18 } },
+    ],
+  },
+  {
+    id: 'L6-03', level: 6,
+    question: 'Your deepest preparation wound so far — the result or moment that cut worst. How healed is it, truly?',
+    options: [
+      { key: 'a', label: 'Fully metabolized. It teaches now instead of bleeding.', weights: { recovery_speed: 15 } },
+      { key: 'b', label: 'Mostly healed. It aches in result season only.', weights: { recovery_speed: 8 } },
+      { key: 'c', label: 'Scarred over but I route around it — certain topics, certain dates.', weights: { recovery_speed: -5 } },
+      { key: 'd', label: 'Open. It sits in the room while I study.', weights: { recovery_speed: -15, emotional_volatility: 10 } },
+      { key: 'e', label: 'No real wound yet — my journey is young.', weights: {} },
+    ],
+  },
+  {
+    id: 'L6-04', level: 6,
+    question: 'A batchmate\'s name appears in this year\'s final list. The honest first feeling?',
+    options: [
+      { key: 'a', label: 'Pure fuel — my turn is coming.', weights: { recovery_speed: 15 }, sets: { self_belief: 'EARNED' } },
+      { key: 'b', label: 'Happy for them, hollow for me.', weights: { identity_fusion: 10 } },
+      { key: 'c', label: 'I avoided everyone for a week.', weights: { emotional_volatility: 20 }, flags: ['ISOLATION'] },
+      { key: 'd', label: 'Did the math on my remaining attempts.', weights: { attempt_pressure: 12 } },
+      { key: 'e', label: 'Felt nothing. That scared me more.', weights: { identity_fusion: 10 }, flags: ['GHOST_CANDIDATE'] },
+    ],
+  },
+  {
+    id: 'L6-05', level: 6,
+    question: 'A relative at a function asks, "So beta, what do you do?" Your current answer:',
+    options: [
+      { key: 'a', label: 'I say it plainly — "I\'m preparing for UPSC" — and hold their gaze.', weights: { identity_fusion: 5, anchor_strength: 5 } },
+      { key: 'b', label: 'I say it with a joke attached, armor pre-installed.', weights: { emotional_volatility: 5 } },
+      { key: 'c', label: 'I mention a course/degree/job and leave UPSC out.', weights: { external_pressure: 8 }, flags: ['ISOLATION'] },
+      { key: 'd', label: 'I avoid functions during preparation seasons entirely.', weights: { external_pressure: 10, identity_fusion: 8 }, flags: ['ISOLATION'] },
+      { key: 'e', label: 'My family answers for me before I can speak. That says everything.', weights: { external_pressure: 12 } },
+    ],
+  },
+  {
+    id: 'L6-06', level: 6,
+    question: 'During result weeks — yours or the batch\'s — your screen time:',
+    options: [
+      { key: 'a', label: 'Unchanged. I fence the noise out.', weights: { distraction_risk: -8, emotional_volatility: -5 } },
+      { key: 'b', label: 'Rises — checking discussions, cutoffs, analysis threads.', weights: { distraction_risk: 8, emotional_volatility: 5 } },
+      { key: 'c', label: 'Explodes — refresh loops, comparison spirals, 2 a.m. forums.', weights: { distraction_risk: 18, emotional_volatility: 12 } },
+      { key: 'd', label: 'I go fully dark — uninstall everything until the storm passes.', weights: { emotional_volatility: 10 } },
+      { key: 'e', label: 'Result weeks cost me the following two study weeks. Every time.', weights: { recovery_speed: -12, distraction_risk: 10 } },
+    ],
+  },
+  {
+    id: 'L6-07', level: 6,
+    question: 'Sit with this sentence: "My rank will decide what I am worth." Your truthful reaction:',
+    options: [
+      { key: 'a', label: 'False. The exam measures preparation, not my worth. I actually believe this.', weights: { identity_fusion: -15 } },
+      { key: 'b', label: 'I know it\'s false. I don\'t always feel it\'s false.', weights: { identity_fusion: 8 } },
+      { key: 'c', label: 'On bad days, it is simply true.', weights: { identity_fusion: 15 } },
+      { key: 'd', label: 'It is true, and everyone pretending otherwise hasn\'t lived this.', weights: { identity_fusion: 25 }, flags: ['FUSION_WATCH'] },
+      { key: 'e', label: 'Reading that sentence made my chest tight.', weights: { identity_fusion: 18, emotional_volatility: 8 }, flags: ['FUSION_WATCH'] },
+    ],
+  },
+
+  // ═══════════════ LEVEL 7 — THE ANCHOR (5) ═══════════════
+
+  {
+    id: 'L7-01', level: 7,
+    question: 'On the worst day of this journey so far, what actually kept you in the fight?',
+    options: [
+      { key: 'a', label: 'A person — their face ended the quitting thought.', weights: { anchor_strength: 18 } },
+      { key: 'b', label: 'A vow I made — to myself or someone — that I refuse to break.', weights: { anchor_strength: 15, purpose_intensity: 8 } },
+      { key: 'c', label: 'The vision of the work itself — the officer I intend to be.', weights: { anchor_strength: 12, purpose_intensity: 10 } },
+      { key: 'd', label: 'Inertia, honestly. Continuing was easier than deciding to stop.', weights: { anchor_strength: -10, identity_fusion: 8 } },
+      { key: 'e', label: 'Nothing held me. I left for a while.', weights: { anchor_strength: -8, recovery_speed: 5 } },
+    ],
+  },
+  {
+    id: 'L7-02', level: 7,
+    question: 'The reason you started and the reason you continue — are they still the same reason?',
+    options: [
+      { key: 'a', label: 'Same fire, now with deeper roots.', weights: { anchor_strength: 12, purpose_intensity: 8 } },
+      { key: 'b', label: 'It evolved — the early reason matured into a truer one.', weights: { anchor_strength: 10, cognitive_clarity: 5 } },
+      { key: 'c', label: 'The original reason faded. A newer, thinner one took its place.', weights: { anchor_strength: -8 } },
+      { key: 'd', label: 'I continue mostly because I\'ve already come this far.', weights: { anchor_strength: -12, identity_fusion: 12 }, flags: ['GHOST_CANDIDATE'] },
+      { key: 'e', label: 'I\'ve never audited this. The question itself is uncomfortable.', weights: { purpose_intensity: -5 } },
+    ],
+  },
+  {
+    id: 'L7-03', level: 7,
+    question: 'When the quitting thought visits — and it visits everyone — what kills it?',
+    options: [
+      { key: 'a', label: 'My anchor appears, and the thought has no oxygen.', weights: { anchor_strength: 18 } },
+      { key: 'b', label: 'Logic — I re-derive why this path beats the alternatives.', weights: { cognitive_clarity: 8, anchor_strength: 8 } },
+      { key: 'c', label: 'Fear of the "what will people say" aftermath.', weights: { external_pressure: 12, anchor_strength: -5 } },
+      { key: 'd', label: 'The sunk years. Quitting would mean they meant nothing.', weights: { identity_fusion: 15, anchor_strength: -8 }, flags: ['GHOST_CANDIDATE'] },
+      { key: 'e', label: 'It doesn\'t fully die anymore. It lives here now, quietly.', weights: { anchor_strength: -12, purpose_intensity: -8 } },
+    ],
+  },
+  {
+    id: 'L7-04', level: 7,
+    question: 'Is there a person you cannot disappoint — whose face appears uninvited during low moments?',
+    options: [
+      { key: 'a', label: 'Yes. They power me. The thought of their pride is fuel.', weights: { anchor_strength: 15 }, sets: { purpose_type: 'RESTORATION' } },
+      { key: 'b', label: 'Yes — and it\'s equal parts fuel and weight.', weights: { anchor_strength: 10, external_pressure: 10 } },
+      { key: 'c', label: 'Yes — and honestly, it\'s mostly weight now.', weights: { external_pressure: 18, anchor_strength: -5 } },
+      { key: 'd', label: 'No single person. My anchor is internal.', weights: { anchor_strength: 8 } },
+      { key: 'e', label: 'The person I can\'t disappoint is my younger self.', weights: { anchor_strength: 12, purpose_intensity: 8 } },
+    ],
+  },
+  {
+    id: 'L7-05', level: 7,
+    question: 'Hold your anchor in your mind for five full seconds. What did holding it just create in your body?',
+    options: [
+      { key: 'a', label: 'Energy. A literal straightening of the spine.', weights: { anchor_strength: 18 } },
+      { key: 'b', label: 'Warmth and steadiness. Quiet fuel.', weights: { anchor_strength: 12 } },
+      { key: 'c', label: 'A complicated mix — love and pressure tangled together.', weights: { anchor_strength: 5, external_pressure: 8 } },
+      { key: 'd', label: 'Heaviness. The anchor has become cargo.', weights: { anchor_strength: -10, external_pressure: 12 } },
+      { key: 'e', label: 'Honestly — nothing. And I noticed the nothing.', weights: { anchor_strength: -15 }, flags: ['GHOST_CANDIDATE'] },
+    ],
+  },
+
+  // ═══════════════ LEVEL 8 — THE MIRROR (5) ═══════════════
+
+  {
+    id: 'L8-01', level: 8,
+    question: 'The naked question. Beneath strategy, beneath hope: do you believe you will clear this exam?',
+    options: [
+      { key: 'a', label: 'Yes — and I can point to evidence: scores, growth, work done.', sets: { self_belief: 'EARNED' }, weights: { purpose_intensity: 8 } },
+      { key: 'b', label: 'Yes — though if I\'m honest, it\'s faith more than evidence.', sets: { self_belief: 'BORROWED' } },
+      { key: 'c', label: 'I believed once. Results have been eroding it.', sets: { self_belief: 'BROKEN' }, weights: { recovery_speed: -8 } },
+      { key: 'd', label: 'I don\'t know — I\'ve never been tested at this scale.', sets: { self_belief: 'UNTESTED' } },
+      { key: 'e', label: 'Some weeks yes, some weeks no. Belief follows my last mock score.', sets: { self_belief: 'BORROWED' }, weights: { emotional_volatility: 12 } },
+    ],
+  },
+  {
+    id: 'L8-02', level: 8,
+    question: 'Wherever that belief stands — what is it actually built on?',
+    options: [
+      { key: 'a', label: 'Track record — I\'ve done hard things before and this is the next one.', weights: { recovery_speed: 8 }, sets: { self_belief: 'EARNED' } },
+      { key: 'b', label: 'Work evidence — my mock trajectory and answer growth are real.', weights: { cognitive_clarity: 5 }, sets: { self_belief: 'EARNED' } },
+      { key: 'c', label: 'Other people\'s belief in me. They see something; I borrow it.', sets: { self_belief: 'BORROWED' }, weights: { anchor_strength: 5 } },
+      { key: 'd', label: 'Necessity — I believe because the alternative is unthinkable.', weights: { identity_fusion: 12, external_pressure: 8 } },
+      { key: 'e', label: 'Honestly examined: I\'m not sure it\'s built on anything yet.', sets: { self_belief: 'UNTESTED' } },
+    ],
+  },
+  {
+    id: 'L8-03', level: 8,
+    question: 'The last time you identified a real weakness in yourself — not a topic, a pattern — what happened in the following two weeks?',
+    options: [
+      { key: 'a', label: 'I built a counter-system and it largely worked.', weights: { execution_friction: -12, recovery_speed: 8 } },
+      { key: 'b', label: 'I addressed it partially. Progress, not victory.', weights: { execution_friction: -5 } },
+      { key: 'c', label: 'I planned the fix beautifully. The plan is still waiting.', weights: { execution_friction: 15 }, flags: ['STRATEGY_CONSUMER'] },
+      { key: 'd', label: 'I noted it, felt bad, and changed nothing.', weights: { execution_friction: 12 } },
+      { key: 'e', label: 'I avoid the self-audit entirely. It costs too much morale.', weights: { execution_friction: 10, emotional_volatility: 8 } },
+    ],
+  },
+  {
+    id: 'L8-04', level: 8,
+    question: 'In a moment, KAUTILYA will tell you things about yourself that may be uncomfortable. Your honest posture toward that:',
+    options: [
+      { key: 'a', label: 'Bring it. Accurate and harsh beats kind and useless.', weights: { recovery_speed: 8, purpose_intensity: 5 } },
+      { key: 'b', label: 'Ready — as long as it comes with a repair path.', weights: { cognitive_clarity: 5 } },
+      { key: 'c', label: 'Nervous, but I\'d rather know than not.', weights: {} },
+      { key: 'd', label: 'I\'ll read it, defend against it internally, accept it three days later.', weights: { execution_friction: 8 } },
+      { key: 'e', label: 'If it\'s too dark, I may not come back to this app. Being honest.', weights: { emotional_volatility: 12 }, flags: ['FUSION_WATCH'] },
+    ],
+  },
+  {
+    id: 'L8-05', level: 8,
+    question: 'Does this journey have a walk-away line — a point where you\'d choose a different life with pride?',
+    options: [
+      { key: 'a', label: 'Yes — a defined attempt/age line, decided calmly, in writing.', sets: { self_belief: 'EARNED' }, weights: { identity_fusion: -10 } },
+      { key: 'b', label: 'I refuse to think about it.', weights: { identity_fusion: 20 }, flags: ['FUSION_WATCH'] },
+      { key: 'c', label: 'My family\'s investment makes quitting impossible.', weights: { external_pressure: 20 }, sets: { purpose_type: 'RESTORATION' } },
+      { key: 'd', label: 'This exam IS the plan. There is no other me.', weights: { identity_fusion: 30 }, flags: ['FUSION_WATCH'] },
+      { key: 'e', label: 'I had one. I crossed it already.', weights: { identity_fusion: 15, attempt_pressure: 10 }, flags: ['GHOST_CANDIDATE'] },
     ],
   },
 ]
 
-// ── L5 — Mind Under Fire (8) ────────────────────────────────────
+function normalizeWeights(weights?: LegacyCardOption['weights']): {
+  weights?: Partial<Record<Dimension, number>>
+  attemptPressureDelta?: number
+} {
+  if (!weights) return {}
 
-const L5: Card[] = [
-  {
-    id: 'L5-01',
-    level: 5,
-    question: 'A mock score arrives 18 marks below your average. The next hour of your life looks like —',
-    options: [
-      { key: 'a', label: 'The error log opens. The post-mortem begins. Feelings wait.', weights: { prelims_nerve: 15, cognitive_clarity: 10 } },
-      { key: 'b', label: 'A short, dark spiral — then back to the desk by evening.', weights: { recovery_speed: 10, emotional_volatility: 5 } },
-      { key: 'c', label: 'I re-check the answer key hoping the test was wrong.', weights: { emotional_volatility: 10 } },
-      { key: 'd', label: 'The day is gone. Maybe the next one too.', weights: { emotional_volatility: 20, recovery_speed: -15 } },
-      { key: 'e', label: 'I stop taking mocks for a while after scores like that.', weights: { prelims_nerve: -20, emotional_volatility: 15 } },
-    ],
-  },
-  {
-    id: 'L5-02',
-    level: 5,
-    question: 'A statement-based question: three statements, "how many are correct?" Your first instinct —',
-    options: [
-      { key: 'a', label: 'Work each statement independently. Verdict per statement, then count.', weights: { cognitive_clarity: 15, prelims_nerve: 10 } },
-      { key: 'b', label: 'Find the one statement I am sure about and reverse-engineer the options.', weights: { cognitive_clarity: 15, prelims_nerve: 5 } },
-      { key: 'c', label: 'A small dread. These questions are designed against people like me.', weights: { prelims_nerve: -10, emotional_volatility: 10 } },
-      { key: 'd', label: 'Read all three, feel 60% on each, and circle the middle option.', weights: { cognitive_clarity: -10 } },
-      { key: 'e', label: 'Skip first, return later — they cost too much time up front.', weights: { prelims_nerve: 0, execution_friction: 5 } },
-    ],
-  },
-  {
-    id: 'L5-03',
-    level: 5,
-    question: 'Your relationship with the −0.66 — describe it honestly.',
-    options: [
-      { key: 'a', label: 'A tax I price in. I attempt 85–90 and accept the bleed.', weights: { prelims_nerve: 20 } },
-      { key: 'b', label: 'A calculated enemy. I attempt 75-ish, gambles chosen carefully.', weights: { prelims_nerve: 10, cognitive_clarity: 5 } },
-      { key: 'c', label: 'A fear. I attempt only what I am certain of — usually under 65.', weights: { prelims_nerve: -20 } },
-      { key: 'd', label: 'A revolving door. Some mocks I attempt 90, some 60. No policy.', weights: { prelims_nerve: -10, emotional_volatility: 15 } },
-      { key: 'e', label: 'I honestly do not track my attempt count.', weights: { cognitive_clarity: -10 } },
-    ],
-  },
-  {
-    id: 'L5-04',
-    level: 5,
-    question: 'Last thirty minutes of a Prelims paper. Twenty questions unread. What happens in your body?',
-    options: [
-      { key: 'a', label: 'Nothing new. The plan has a last-30 protocol and I execute it.', weights: { prelims_nerve: 20, cognitive_clarity: 10 } },
-      { key: 'b', label: 'Pace rises, accuracy holds. Controlled burn.', weights: { prelims_nerve: 10 } },
-      { key: 'c', label: 'I start gambling on questions I would have skipped at minute 40.', weights: { prelims_nerve: -10, emotional_volatility: 10 } },
-      { key: 'd', label: 'My reading comprehension visibly degrades. I re-read lines.', weights: { prelims_nerve: -15 } },
-      { key: 'e', label: 'I have never simulated this. My mocks are untimed or loosely timed.', weights: { prelims_nerve: -15, marathon_consistency: -5 } },
-    ],
-  },
-  {
-    id: 'L5-05',
-    level: 5,
-    question: 'How do you review a completed mock?',
-    options: [
-      { key: 'a', label: 'Every wrong AND every lucky right, tagged by cause, same day.', weights: { cognitive_clarity: 20, marathon_consistency: 10 } },
-      { key: 'b', label: 'All wrong answers, when I get time in the week.', weights: { cognitive_clarity: 10 } },
-      { key: 'c', label: 'I read the score, feel something, and move on.', weights: { cognitive_clarity: -15 } },
-      { key: 'd', label: 'I screenshot explanations into a folder I have never reopened.', weights: { cognitive_clarity: -10, resource_chaos: 15 } },
-      { key: 'e', label: 'Depends entirely on the score. Good score, no review.', weights: { emotional_volatility: 10, cognitive_clarity: -5 } },
-    ],
-  },
-  {
-    id: 'L5-06',
-    level: 5,
-    question: 'Prelims hall. Question 71. You have eliminated two options. Forty seconds on the clock. You —',
-    microcopy: 'Coin-flip odds, +2 against −0.66. The hall is silent. Your move.',
-    options: [
-      { key: 'a', label: 'Take the calm 50-50 shot and move. The math favors me.', weights: { prelims_nerve: 20 } },
-      { key: 'b', label: 'Mark it for review — and never make it back.', weights: { prelims_nerve: -10, execution_friction: 10 } },
-      { key: 'c', label: 'Freeze on it. Lose the forty seconds and the next ninety.', weights: { prelims_nerve: -20 } },
-      { key: 'd', label: 'Leave it. I only answer when I am one hundred percent sure.', weights: { prelims_nerve: -15 } },
-      { key: 'e', label: 'Depends entirely on how the first seventy questions went.', weights: { emotional_volatility: 15 } },
-    ],
-  },
-  {
-    id: 'L5-07',
-    level: 5,
-    question: 'Mid-study, your mind goes blank on something you revised last week. Your inner voice says —',
-    options: [
-      { key: 'a', label: '"Normal. Forgetting is the price of a big syllabus. Re-encode and move."', weights: { cognitive_clarity: 15, recovery_speed: 10 } },
-      { key: 'b', label: '"Again? Fine. Flag it for the next revision cycle."', weights: { cognitive_clarity: 10 } },
-      { key: 'c', label: '"My memory is the problem. Everyone else retains better."', weights: { emotional_volatility: 15 }, sets: { self_belief: 'low' } },
-      { key: 'd', label: '"Maybe my source is wrong. Maybe I need a better book for this."', weights: { resource_chaos: 15 } },
-      { key: 'e', label: 'Panic, disproportionate and physical.', weights: { emotional_volatility: 20 } },
-    ],
-  },
-  {
-    id: 'L5-08',
-    level: 5,
-    question: 'The night before an exam — any exam — how do you sleep?',
-    options: [
-      { key: 'a', label: 'Normally. The work is done or it is not; sleep changes neither.', weights: { prelims_nerve: 15, emotional_volatility: -10 } },
-      { key: 'b', label: 'A little thin, but functional.', weights: { prelims_nerve: 5 } },
-      { key: 'c', label: 'Badly. My brain runs the paper all night.', weights: { prelims_nerve: -10, emotional_volatility: 10 } },
-      { key: 'd', label: 'I revise till 2 AM. Sleep is a luxury I cannot justify.', weights: { prelims_nerve: -10, execution_friction: 10 } },
-      { key: 'e', label: 'I have lost exams to that night before. It is my known weak point.', weights: { prelims_nerve: -20, emotional_volatility: 15 } },
-    ],
-  },
-]
+  const normalized: Partial<Record<Dimension, number>> = {}
+  let attemptPressureDelta = 0
 
-// ── L6 — The Emotional Core (7) ─────────────────────────────────
+  for (const [dimension, delta] of Object.entries(weights)) {
+    if (typeof delta !== 'number') continue
+    if (dimension === 'attempt_pressure') {
+      attemptPressureDelta += delta
+      continue
+    }
+    normalized[dimension as Dimension] = delta
+  }
 
-const L6: Card[] = [
-  {
-    id: 'L6-01',
-    level: 6,
-    question: 'Result day. The PDF loads. Your roll number is not there. What is the very first thing you do?',
-    options: [
-      { key: 'a', label: 'Search it twice. Close the laptop. Sit very still for a while.', weights: { emotional_volatility: 10 } },
-      { key: 'b', label: 'Tell my family before they ask. Get it over with.', weights: { recovery_speed: 10, anchor_strength: 10 } },
-      { key: 'c', label: 'Tell no one. Carry it alone for days.', weights: { emotional_volatility: 10 }, sets: { flags: ['ISOLATION'] } },
-      { key: 'd', label: 'Open the attempt-math: age, attempts left, the shrinking runway.', weights: { emotional_volatility: 15, identity_fusion: 10 } },
-      { key: 'e', label: 'I have lived this. I know my exact sequence, and it is not pretty.', weights: { emotional_volatility: 15, identity_fusion: 10 } },
-    ],
-  },
-  {
-    id: 'L6-02',
-    level: 6,
-    question: 'At a family gathering, a relative asks "so what do you do?" What happens inside?',
-    options: [
-      { key: 'a', label: 'Nothing. "I am preparing for UPSC." Full stop, steady voice.', weights: { identity_fusion: -5, anchor_strength: 10 } },
-      { key: 'b', label: 'A flicker of shame I am practiced at hiding.', weights: { external_pressure: 10, identity_fusion: 10 } },
-      { key: 'c', label: 'I pre-empt it — I avoid the gatherings altogether now.', weights: { external_pressure: 15, identity_fusion: 15 }, sets: { flags: ['ISOLATION'] } },
-      { key: 'd', label: 'My parents answer for me, and their tone tells its own story.', weights: { external_pressure: 20 } },
-      { key: 'e', label: 'I say it with pride. The preparation IS a worthy occupation.', weights: { identity_fusion: 15, purpose_intensity: 5 } },
-    ],
-  },
-  {
-    id: 'L6-03',
-    level: 6,
-    question: 'Your college batchmates are posting promotions, weddings, foreign offices. Scrolling past them, you feel —',
-    options: [
-      { key: 'a', label: 'Genuinely little. Different races, different tracks.', weights: { emotional_volatility: -10, anchor_strength: 10 } },
-      { key: 'b', label: 'A pinch, acknowledged and set down.', weights: { emotional_volatility: 5 } },
-      { key: 'c', label: 'A ledger opening: years spent vs. their years compounding.', weights: { identity_fusion: 15, emotional_volatility: 10 } },
-      { key: 'd', label: 'I muted or unfollowed most of them long ago.', weights: { emotional_volatility: 10 }, sets: { flags: ['ISOLATION'] } },
-      { key: 'e', label: 'Fuel. Their ordinary success sharpens my extraordinary bet.', weights: { purpose_intensity: 10, identity_fusion: 10 } },
-    ],
-  },
-  {
-    id: 'L6-04',
-    level: 6,
-    question: "A batchmate's name appears in this year's final list. The honest first feeling?",
-    options: [
-      { key: 'a', label: 'Fuel. If they crossed, the wall is crossable.', weights: { recovery_speed: 15, purpose_intensity: 10 } },
-      { key: 'b', label: 'Happy for them — and suddenly hollow about myself.', weights: { identity_fusion: 15 } },
-      { key: 'c', label: 'I congratulated them and then avoided everyone for a week.', weights: { emotional_volatility: 15 }, sets: { flags: ['ISOLATION'] } },
-      { key: 'd', label: 'I did the math: their attempt number versus mine.', weights: { emotional_volatility: 10, identity_fusion: 10 }, sets: { flags: ['ATTEMPT_MATH'] } },
-      { key: 'e', label: 'Felt nothing. That frightened me more than envy would have.', weights: { emotional_volatility: 5 }, sets: { flags: ['VETERAN_GHOST'] } },
-    ],
-  },
-  {
-    id: 'L6-05',
-    level: 6,
-    question: 'Take the exam out of the picture for ten seconds. Who are you without it?',
-    options: [
-      { key: 'a', label: 'A whole person with interests, people, and a fallback I respect.', weights: { identity_fusion: -15, anchor_strength: 15 } },
-      { key: 'b', label: 'Mostly intact, though the exam has eaten some rooms of my life.', weights: { identity_fusion: 5 } },
-      { key: 'c', label: 'Honestly — I do not remember. It has been the whole sky for years.', weights: { identity_fusion: 25 } },
-      { key: 'd', label: 'The question itself makes me defensive.', weights: { identity_fusion: 30, emotional_volatility: 10 } },
-      { key: 'e', label: 'Someone my family has invested in. The exam is our project, not mine.', weights: { external_pressure: 20, identity_fusion: 10 } },
-    ],
-  },
-  {
-    id: 'L6-06',
-    level: 6,
-    question: 'How many days in a typical month does your emotional weather decide your output?',
-    options: [
-      { key: 'a', label: 'Almost none. The work runs on rails, not weather.', weights: { emotional_volatility: -15, marathon_consistency: 10 } },
-      { key: 'b', label: 'Two or three. Contained storms.', weights: { emotional_volatility: 5 } },
-      { key: 'c', label: 'A week\'s worth, scattered.', weights: { emotional_volatility: 15 } },
-      { key: 'd', label: 'Half the month. My mood IS my timetable.', weights: { emotional_volatility: 25, marathon_consistency: -10 } },
-      { key: 'e', label: 'I no longer notice. Flatness has replaced the swings.', weights: { emotional_volatility: 10 }, sets: { flags: ['VETERAN_GHOST'] } },
-    ],
-  },
-  {
-    id: 'L6-07',
-    level: 6,
-    question: 'When the preparation hurts most, what do you actually do — not what you intend to do?',
-    options: [
-      { key: 'a', label: 'Talk to my one person. Then return.', weights: { anchor_strength: 15, recovery_speed: 10 } },
-      { key: 'b', label: 'Walk, gym, run — burn it off physically.', weights: { recovery_speed: 15 } },
-      { key: 'c', label: 'Scroll for hours. Anesthesia, not rest.', weights: { distraction_risk: 15, recovery_speed: -10 } },
-      { key: 'd', label: 'Watch motivation videos about aspirants who almost quit.', weights: { execution_friction: 10, distraction_risk: 10 } },
-      { key: 'e', label: 'Nothing. I sit with it alone until it passes or does not.', weights: { emotional_volatility: 10 }, sets: { flags: ['ISOLATION'] } },
-    ],
-  },
-]
+  return {
+    weights: Object.keys(normalized).length > 0 ? normalized : undefined,
+    attemptPressureDelta: attemptPressureDelta !== 0 ? attemptPressureDelta : undefined,
+  }
+}
 
-// ── L7 — The Anchor (5) ─────────────────────────────────────────
+function normalizeProfile(sets?: LegacyCardOption['sets']): ProfileFacts | undefined {
+  if (!sets) return undefined
 
-const L7: Card[] = [
-  {
-    id: 'L7-01',
-    level: 7,
-    question: 'Is there one person who knows the true state of your preparation — scores, fears, all of it?',
-    options: [
-      { key: 'a', label: 'Yes. One person has the full map.', weights: { anchor_strength: 20 } },
-      { key: 'b', label: 'A few people have pieces. No one has the whole.', weights: { anchor_strength: 5 } },
-      { key: 'c', label: 'My family thinks it is going better than it is.', weights: { anchor_strength: -5, external_pressure: 10 } },
-      { key: 'd', label: 'No one. I report only headlines, and only good ones.', weights: { anchor_strength: -15 }, sets: { flags: ['ISOLATION'] } },
-      { key: 'e', label: 'A fellow aspirant — we hold each other\'s truth.', weights: { anchor_strength: 15 } },
-    ],
-  },
-  {
-    id: 'L7-02',
-    level: 7,
-    question: 'On your worst day this year, what put you back together?',
-    options: [
-      { key: 'a', label: 'A person. A call, a meal, a presence.', weights: { anchor_strength: 15, recovery_speed: 10 } },
-      { key: 'b', label: 'The why itself. I reread my own reasons and stood back up.', weights: { purpose_intensity: 15, anchor_strength: 10 } },
-      { key: 'c', label: 'Time. I waited it out, numb, and resumed.', weights: { recovery_speed: -5 } },
-      { key: 'd', label: 'Nothing did. I carried it into the next week.', weights: { recovery_speed: -15, emotional_volatility: 10 } },
-      { key: 'e', label: 'Work itself. I studied through it; the rhythm rescued me.', weights: { marathon_consistency: 15, recovery_speed: 10 } },
-    ],
-  },
-  {
-    id: 'L7-03',
-    level: 7,
-    question: 'Your belief in your own selection — measure it on a good day and on a bad day.',
-    options: [
-      { key: 'a', label: 'High on both. The gap between my days is small.', weights: { emotional_volatility: -10 }, sets: { self_belief: 'high' } },
-      { key: 'b', label: 'Steady-ish. Good days confident, bad days quietly determined.', sets: { self_belief: 'medium' } },
-      { key: 'c', label: 'A pendulum. Topper on Monday, fraud by Thursday.', weights: { emotional_volatility: 15 }, sets: { self_belief: 'volatile' } },
-      { key: 'd', label: 'Low on both, if I stop performing confidence.', weights: { purpose_intensity: -5 }, sets: { self_belief: 'low' } },
-      { key: 'e', label: 'I avoid measuring it. The measurement itself feels dangerous.', weights: { emotional_volatility: 10, identity_fusion: 10 }, sets: { self_belief: 'volatile' } },
-    ],
-  },
-  {
-    id: 'L7-04',
-    level: 7,
-    question: 'Your body — the instrument carrying the mind through a 5-hour Mains day. How is it?',
-    options: [
-      { key: 'a', label: 'Maintained. Sleep, movement, food are part of the system.', weights: { marathon_consistency: 10, mains_stamina: 15 } },
-      { key: 'b', label: 'Functional, slightly neglected.', weights: { mains_stamina: 5 } },
-      { key: 'c', label: 'Deteriorating — weight, posture, sleep drifting the wrong way.', weights: { mains_stamina: -10, marathon_consistency: -5 } },
-      { key: 'd', label: 'Sacrificed knowingly. I will fix it "after selection".', weights: { mains_stamina: -15, identity_fusion: 10 } },
-      { key: 'e', label: 'It has already sent warnings I am ignoring.', weights: { mains_stamina: -20, emotional_volatility: 10 } },
-    ],
-  },
-  {
-    id: 'L7-05',
-    level: 7,
-    question: 'The money question, plainly: how long can you sustain this preparation?',
-    options: [
-      { key: 'a', label: 'Years, if needed. Money is not the clock.', weights: { external_pressure: -10 } },
-      { key: 'b', label: 'Two more attempts, comfortably.', weights: { external_pressure: 0 } },
-      { key: 'c', label: 'This attempt, maybe one more. The runway is visible.', weights: { external_pressure: 15 } },
-      { key: 'd', label: 'My family is stretching for this. Every month is borrowed.', weights: { external_pressure: 25 } },
-      { key: 'e', label: 'My job funds it — which is also why my hours are besieged.', weights: { external_pressure: 10, execution_friction: 10 } },
-    ],
-  },
-]
+  const profile: ProfileFacts = {}
+  if (typeof sets.employed === 'boolean') profile.employed = sets.employed
+  if (sets.prep_years_band != null) profile.prep_years = PREP_YEARS_BY_BAND[sets.prep_years_band]
+  if (sets.attempts_band != null) profile.attempts_taken = ATTEMPTS_BY_BAND[sets.attempts_band]
+  if (sets.age_band != null) profile.age = AGE_BY_BAND[sets.age_band]
 
-// ── L8 — The Mirror (6) ─────────────────────────────────────────
+  return Object.keys(profile).length > 0 ? profile : undefined
+}
 
-const L8: Card[] = [
-  {
-    id: 'L8-01',
-    level: 8,
-    question: 'Give your own preparation the verdict you would give a stranger\'s.',
-    options: [
-      { key: 'a', label: 'Strong inputs, weak system. The hours deserve better machinery.', weights: { cognitive_clarity: 15 } },
-      { key: 'b', label: 'Knowledge adequate, exam temperament untrained.', weights: { cognitive_clarity: 10, prelims_nerve: -10 } },
-      { key: 'c', label: 'Honest verdict: scattered. Effort everywhere, accumulation nowhere.', weights: { resource_chaos: 15, cognitive_clarity: 10 } },
-      { key: 'd', label: 'Inconsistent. Brilliant fortnights, vanished months.', weights: { marathon_consistency: -15, cognitive_clarity: 10 } },
-      { key: 'e', label: 'I cannot judge it. I am too far inside it.', weights: { cognitive_clarity: -10, identity_fusion: 10 } },
-    ],
-  },
-  {
-    id: 'L8-02',
-    level: 8,
-    question: 'What do you consume more of — strategy, or syllabus?',
-    options: [
-      { key: 'a', label: 'Syllabus. I stopped watching topper talks long ago.', weights: { execution_friction: -10 } },
-      { key: 'b', label: 'Mostly syllabus, with an occasional strategy detour.', weights: { execution_friction: 0 } },
-      { key: 'c', label: 'I know every topper\'s booklist, timetable, and pen brand. My own mocks are pending.', weights: { execution_friction: 25, cognitive_clarity: 10 } },
-      { key: 'd', label: 'Strategy is my comfort food. Watching plans feels like progress.', weights: { execution_friction: 20, distraction_risk: 10 } },
-      { key: 'e', label: 'I alternate: strategy binges, then guilt-driven syllabus sprints.', weights: { execution_friction: 15, emotional_volatility: 10 } },
-    ],
-  },
-  {
-    id: 'L8-03',
-    level: 8,
-    question: 'A younger sibling announces they are starting UPSC preparation. The first sentence out of your mouth is —',
-    options: [
-      { key: 'a', label: '"Good. One source per subject, mock from month two, protect your sleep."', weights: { cognitive_clarity: 15 } },
-      { key: 'b', label: '"Think hard about whether you can take the uncertainty."', weights: { emotional_volatility: 10 } },
-      { key: 'c', label: '"Don\'t." — said as a joke, meant about 60%.', weights: { identity_fusion: 10, emotional_volatility: 10 } },
-      { key: 'd', label: '"Learn from what I did wrong" — and I can name the mistakes precisely.', weights: { cognitive_clarity: 20 } },
-      { key: 'e', label: 'I would feel a strange territorial sting before any advice.', weights: { identity_fusion: 15 } },
-    ],
-  },
-  {
-    id: 'L8-04',
-    level: 8,
-    question: 'Which truth about yourself do you most consistently avoid?',
-    options: [
-      { key: 'a', label: 'My mock scores have a pattern I refuse to read.', weights: { prelims_nerve: -10, cognitive_clarity: 5 } },
-      { key: 'b', label: 'I confuse buying and collecting resources with preparing.', weights: { resource_chaos: 20 } },
-      { key: 'c', label: 'I avoid Mains answer-writing because the blank page judges me.', weights: { mains_stamina: -20 } },
-      { key: 'd', label: 'My revision system collapsed months ago and I am running on first-reads.', weights: { marathon_consistency: -15 } },
-      { key: 'e', label: 'I am more tired than I let anyone see, including myself.', weights: { emotional_volatility: 15, identity_fusion: 10 } },
-    ],
-  },
-  {
-    id: 'L8-05',
-    level: 8,
-    question: 'Does this journey have a walk-away line?',
-    microcopy: 'A point at which you would stop, chosen by you in advance — not by the calendar.',
-    options: [
-      { key: 'a', label: 'Yes. I drew it calmly, and it does not frighten me.', weights: { anchor_strength: 15, identity_fusion: -10 } },
-      { key: 'b', label: 'I refuse to think about that question.', weights: { identity_fusion: 20 } },
-      { key: 'c', label: 'My family has invested too much for that line to exist.', weights: { external_pressure: 20 }, sets: { purpose_type: 'RESTORATION' } },
-      { key: 'd', label: 'There is no line because the exam IS the plan. There is no after.', weights: { identity_fusion: 30 } },
-      { key: 'e', label: 'I crossed my line already. I am past it, still here.', weights: { identity_fusion: 15, emotional_volatility: 10 }, sets: { flags: ['VETERAN_GHOST'] } },
-    ],
-  },
-  {
-    id: 'L8-06',
-    level: 8,
-    question: 'Last card. If a system told you exactly what to do every morning — would you actually obey it?',
-    options: [
-      { key: 'a', label: 'Yes. Decision fatigue is half my war. Command me.', weights: { execution_friction: 5, cognitive_clarity: 5 } },
-      { key: 'b', label: 'Mostly — I would negotiate with it on bad days.', weights: { emotional_volatility: 5 } },
-      { key: 'c', label: 'I would obey for two weeks, then quietly customize it back into chaos.', weights: { resource_chaos: 15, execution_friction: 10 } },
-      { key: 'd', label: 'I distrust systems. Mine have betrayed me before.', weights: { emotional_volatility: 10, recovery_speed: -5 } },
-      { key: 'e', label: 'I do not know. But what I am doing alone is not working.', weights: { purpose_intensity: 5, cognitive_clarity: 5 } },
-    ],
-  },
-]
+function normalizeFlags(flags?: string[]): string[] | undefined {
+  if (!flags || flags.length === 0) return undefined
 
-export const CARDS: Card[] = [...L1, ...L2, ...L3, ...L4, ...L5, ...L6, ...L7, ...L8]
+  const normalized = new Set<string>()
+  for (const flag of flags) {
+    const aliases = FLAG_ALIASES[flag] ?? [flag]
+    aliases.forEach(alias => normalized.add(alias))
+  }
+
+  return [...normalized]
+}
+
+function normalizeOption(option: LegacyCardOption): CardOption {
+  const { weights, attemptPressureDelta } = normalizeWeights(option.weights)
+  const profile = normalizeProfile(option.sets)
+  const flags = normalizeFlags(option.flags)
+  const sets: CardOption['sets'] = {}
+
+  if (option.sets?.stage_pattern) sets.stage_pattern = option.sets.stage_pattern
+  if (option.sets?.purpose_type) sets.purpose_type = option.sets.purpose_type
+  if (option.sets?.self_belief) sets.self_belief = SELF_BELIEF_MAP[option.sets.self_belief]
+  if (profile) sets.profile = profile
+  if (flags) sets.flags = flags
+  if (attemptPressureDelta) sets.attempt_pressure_delta = attemptPressureDelta
+
+  return {
+    key: option.key,
+    label: option.label,
+    weights,
+    sets: Object.keys(sets).length > 0 ? sets : undefined,
+  }
+}
+
+export const CARDS: Card[] = RAW_CARDS.map(card => ({
+  ...card,
+  options: card.options.map(normalizeOption),
+}))
+
+export const FREE_DIAGNOSIS_CARD_IDS = new Set<string>([
+  'L1-01', 'L1-02', 'L1-03', 'L1-06', 'L1-07',
+  'L2-01', 'L2-03', 'L2-04', 'L2-06',
+  'L3-01', 'L3-02', 'L3-03', 'L3-06',
+  'L4-02', 'L4-03', 'L4-05', 'L4-06',
+  'L5-01', 'L5-03', 'L5-04', 'L5-06', 'L5-08',
+  'L6-01', 'L6-03', 'L6-04', 'L6-07',
+  'L7-01', 'L7-03',
+  'L8-01', 'L8-05',
+])
+
+export const FREE_DIAGNOSIS_CARDS: Card[] = CARDS.filter(card => FREE_DIAGNOSIS_CARD_IDS.has(card.id))
+export const PAID_DIAGNOSIS_CARDS: Card[] = CARDS
 
 export function isLastCardOfLevel(index: number, cards: Card[]): boolean {
   const next = cards[index + 1]

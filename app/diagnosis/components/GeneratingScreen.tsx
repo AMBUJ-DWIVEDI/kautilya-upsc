@@ -5,11 +5,11 @@ import { motion } from 'framer-motion'
 import Seal from '@/components/brand/Seal'
 
 const STEPS = [
-  'Reading the journey so far...',
-  'Weighing the why...',
-  'Mapping the resource terrain...',
-  'Measuring the mind under fire...',
-  'Naming the pattern...',
+  'Reading your preparation pattern...',
+  'Mapping your pressure points...',
+  'Detecting resource chaos...',
+  'Identifying your stage pattern...',
+  'Building your command profile...',
   'The Seal is ready.',
 ]
 
@@ -32,7 +32,6 @@ export default function GeneratingScreen({ onComplete }: Props) {
 
   return (
     <div className="flex min-h-screen flex-col items-center justify-center bg-parchment px-6 py-12 text-center">
-      {/* Slow, deliberate — ink settling into paper. No pulsing. */}
       <motion.div
         initial={{ opacity: 0.4 }}
         animate={{ opacity: 1 }}
@@ -43,24 +42,24 @@ export default function GeneratingScreen({ onComplete }: Props) {
       </motion.div>
 
       <h1 className="heading-cinzel mb-8 text-2xl font-bold text-indigo">
-        KAUTILYA is reading your map...
+        KAUTILYA is building your command profile...
       </h1>
 
       <div className="flex w-full max-w-xs flex-col gap-3 text-left">
         {STEPS.map((step, i) => (
           <motion.div
-            key={i}
+            key={step}
             initial={{ opacity: 0, x: -10 }}
             animate={i <= stepIndex ? { opacity: 1, x: 0 } : {}}
             transition={{ duration: 0.45 }}
             className="flex items-center gap-3"
           >
             <span
-              className={`mt-0.5 text-xs ${
+              className={`mt-0.5 font-mono text-xs ${
                 i < stepIndex ? 'text-sage' : i === stepIndex ? 'text-copper' : 'text-inkdim/40'
               }`}
             >
-              {i < stepIndex ? '✓' : i === stepIndex ? '▸' : '○'}
+              {i < stepIndex ? 'OK' : i === stepIndex ? '>' : 'o'}
             </span>
             <span
               className={`text-sm ${

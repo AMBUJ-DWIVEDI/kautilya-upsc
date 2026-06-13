@@ -24,22 +24,24 @@ export default async function DashboardLayout({
       <header className="border-b border-chanakya-muted/30 px-4 sm:px-6 py-3 flex items-center gap-4">
         <Link href="/dashboard" className="shrink-0 flex items-center gap-2.5">
           <Seal variant="stamped" size={30} />
-          <span className="heading-cinzel text-sm font-bold tracking-[0.2em] text-indigo">KAUTILYA</span>
+          <span className="heading-cinzel whitespace-nowrap text-sm font-bold tracking-[0.14em] text-indigo">
+            KAUTILYA IAS
+          </span>
         </Link>
 
         {/* Nav links */}
         <nav className="flex items-center gap-1 flex-1 overflow-x-auto">
-          <NavLink href="/dashboard">Dashboard</NavLink>
-          <NavLink href="/mock">Papers</NavLink>
-          <NavLink href="/notes">Notes</NavLink>
-          <NavLink href="/review">Review</NavLink>
+          <NavLink href="/dashboard">Command</NavLink>
+          <NavLink href="/mock">Mock</NavLink>
+          <NavLink href="/review">Recovery</NavLink>
+          <NavLink href="/notes">Repair Library</NavLink>
           {isAdmin && <NavLink href="/admin/notes">Admin</NavLink>}
         </nav>
 
         <div className="flex items-center gap-3 shrink-0">
           <Link href="/upgrade"
             className="heading-cinzel hidden text-xs tracking-wide text-copper transition-calm hover:text-copperlight sm:block">
-            Upgrade
+            Unlock Command
           </Link>
           <SignOutButton />
         </div>

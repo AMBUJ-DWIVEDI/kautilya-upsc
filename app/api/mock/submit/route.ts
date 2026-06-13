@@ -33,7 +33,7 @@ export async function POST(req: NextRequest) {
     .single()
 
   if (!canAccessPlan(planRow?.plan_type, staticMeta.unlock_plan)) {
-    return NextResponse.json({ error: 'This paper needs Prelims Command.' }, { status: 403 })
+    return NextResponse.json({ error: 'This paper needs Warrior.' }, { status: 403 })
   }
 
   // ── Load question bank (server-side — contains correct answers) ──
