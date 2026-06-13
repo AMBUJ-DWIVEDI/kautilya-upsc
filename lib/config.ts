@@ -16,7 +16,7 @@ export const APP = {
    * Production URL. Auth redirects derive from the request origin automatically
    * (see app/auth/callback/route.ts); this is only used for absolute links and metadata.
    */
-  url: process.env.NEXT_PUBLIC_SITE_URL ?? 'https://kautilyaupsc.netlify.app',
+  url: process.env.NEXT_PUBLIC_SITE_URL ?? 'https://chanakyassc.netlify.app',
 
   exam: {
     prelimsGS: { questions: 100, marks: 200, perQuestion: 2, negative: 0.66, minutes: 120 },
