@@ -213,6 +213,14 @@ export default function DiagnosisEngine({ depth }: { depth: DiagnosisDepth }) {
           { user_id: user.id, ...hiddenScoreRow(outcome) },
           { onConflict: 'user_id' },
         )
+
+        // Kick off the AI command report in the background. It is cached
+        // server-side; the reveal ceremony never waits on it.
+        void fetch('/api/generate-report', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ depth }),
+        }).catch(() => {})
       }
     } catch {
       // Keep the ceremony moving; localStorage still holds the outcome.

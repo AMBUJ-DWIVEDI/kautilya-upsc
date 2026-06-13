@@ -97,7 +97,9 @@ export function getLocalSmartNoteById(id: string): SmartNote | null {
   return getLocalPublishedSmartNotes().find(note => note.id === id) ?? null
 }
 
-export function getLocalSampleSmartNote(): SmartNote | null {
+/** Ranked free-sample notes. The top `count` are free for every tier;
+ *  the rest are Commander-only. Launch: 3 free samples. */
+export function getLocalSampleSmartNotes(count = 3): SmartNote[] {
   return [...getLocalPublishedSmartNotes()].sort((a, b) => {
     const uploadedRank = Number(b.source_type === 'uploaded_sample_pack') - Number(a.source_type === 'uploaded_sample_pack')
     if (uploadedRank !== 0) return uploadedRank
@@ -112,5 +114,9 @@ export function getLocalSampleSmartNote(): SmartNote | null {
     if (pyqRank !== 0) return pyqRank
 
     return a.topic.localeCompare(b.topic)
-  })[0] ?? null
+  }).slice(0, count)
+}
+
+export function getLocalSampleSmartNote(): SmartNote | null {
+  return getLocalSampleSmartNotes(1)[0] ?? null
 }

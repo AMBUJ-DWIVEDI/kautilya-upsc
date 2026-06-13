@@ -5,7 +5,7 @@ import type { SmartNote, NoteSection } from '@/lib/notes/types'
 import { ALL_SECTIONS, SECTION_LABELS } from '@/lib/notes/types'
 import { NoteViewerFromRow } from '@/components/notes/Upsc12NoteViewer'
 import { hasGsPlan } from '@/lib/plans'
-import { getLocalSampleSmartNote, getLocalSmartNote } from '@/lib/notes/local'
+import { getLocalSampleSmartNotes, getLocalSmartNote } from '@/lib/notes/local'
 
 interface Props {
   params: Promise<{ section: string; slug: string }>
@@ -35,12 +35,18 @@ export default async function NoteDetailPage({ params, searchParams }: Props) {
   const smartNote = (note as SmartNote | null) ?? getLocalSmartNote(section, slug)
   if (!smartNote) notFound()
 
-  const [{ data: planRow }, { data: sampleNote }] = await Promise.all([
+  const [{ data: planRow }, { data: dbSamples }] = await Promise.all([
     supabase.from('users').select('plan_type').eq('id', user.id).single(),
-    supabase.from('smart_notes').select('id').eq('status', 'published').order('high_yield', { ascending: false }).limit(1).maybeSingle(),
+    supabase.from('smart_notes').select('id').eq('status', 'published').order('high_yield', { ascending: false }).limit(3),
   ])
-  const localSampleNote = getLocalSampleSmartNote()
-  const sampleNoteIds = new Set([sampleNote?.id, localSampleNote?.id].filter(Boolean) as string[])
+  // 3 free sample notes (launch freemium); the rest are Commander-only.
+  const localSampleNotes = getLocalSampleSmartNotes(3)
+  const sampleNoteIds = new Set(
+    [
+      ...(dbSamples ?? []).map(s => s.id),
+      ...localSampleNotes.map(n => n.id),
+    ].filter(Boolean) as string[],
+  )
 
   if (!hasGsPlan(planRow?.plan_type) && !sampleNoteIds.has(smartNote.id)) {
     redirect('/upgrade?reason=notes')

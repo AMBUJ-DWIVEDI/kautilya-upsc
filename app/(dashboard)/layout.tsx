@@ -32,6 +32,7 @@ export default async function DashboardLayout({
         {/* Nav links */}
         <nav className="flex items-center gap-1 flex-1 overflow-x-auto">
           <NavLink href="/dashboard">Command</NavLink>
+          <NavLink href="/report">Diagnosis</NavLink>
           <NavLink href="/mock">Mock</NavLink>
           <NavLink href="/review">Recovery</NavLink>
           <NavLink href="/notes">Repair Library</NavLink>

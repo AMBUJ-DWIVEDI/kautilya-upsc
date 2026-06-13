@@ -185,7 +185,7 @@ export default function RevealClient({ archetype, warPatternTags, name, depth, i
           className="mt-10 flex w-full flex-col gap-3"
         >
           <Link
-            href="/dashboard"
+            href="/report"
             className="inline-flex min-h-12 w-full items-center justify-center rounded-lg bg-copper text-sm font-bold text-ivory transition-calm hover:bg-copperlight"
           >
             Open Command Diagnosis
