@@ -29,7 +29,8 @@ interface Props {
   userEmail?: string
   userName?: string
   className?: string
-  onSuccess?: (plan: PlanKey) => void
+  /** Where to send the user after a successful payment (serializable — safe to pass from a Server Component). */
+  redirectTo?: string
 }
 
 const PAYMENT_MODE = process.env.NEXT_PUBLIC_PAYMENT_MODE ?? 'api'
@@ -41,7 +42,7 @@ export default function PaymentButton({
   userEmail,
   userName,
   className,
-  onSuccess,
+  redirectTo,
 }: Props) {
   const [state, setState] = useState<'idle' | 'loading' | 'verifying' | 'done' | 'error'>('idle')
   const [errorMsg, setErrorMsg] = useState('')
@@ -145,7 +146,7 @@ export default function PaymentButton({
 
         setState('done')
         track('payment_completed', { plan, mode: 'api' })
-        onSuccess?.(verifyData.plan ?? plan)
+        if (redirectTo) window.location.href = redirectTo
       },
     })
 

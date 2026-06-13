@@ -77,7 +77,7 @@ export default async function UpgradePage() {
                     label={PLANS.prelims.label}
                     priceDisplay={PLANS.prelims.amountDisplay}
                     userEmail={user.email ?? undefined}
-                    onSuccess={() => { window.location.href = '/dashboard' }}
+                    redirectTo="/dashboard"
                   />
                 : <p className="py-3 text-center text-sm text-sage">Included in Commander</p>
             }
@@ -105,7 +105,7 @@ export default async function UpgradePage() {
                     label={PLANS.gs.label}
                     priceDisplay={PLANS.gs.amountDisplay}
                     userEmail={user.email ?? undefined}
-                    onSuccess={() => { window.location.href = '/dashboard' }}
+                    redirectTo="/dashboard"
                   />
                 : <p className="py-3 text-center text-sm text-inkdim">Already active</p>
             }
