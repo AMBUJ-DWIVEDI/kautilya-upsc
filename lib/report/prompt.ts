@@ -56,6 +56,17 @@ SECTION GUIDANCE:
 - attack_plan: 7 days anchored to their weakest engine and their stage. Day 1 easy to rebuild momentum, Days 3–5 intensive on the real leak, Day 7 consolidation + one timed paper/mock.
 - prelims_verdict.focus_subject: name the specific UPSC subject (Polity, History, Geography, Economy, Environment, Science, CSAT...) their pattern most exposes.
 
+BANNED GENERIC OUTPUTS (these are lazy and forbidden — they prove you ignored their answers):
+- biggest_enemy: NEVER "Fear of failure", "Self-doubt", "Procrastination", "Lack of consistency", "Distractions", "Negativity". Name the SPECIFIC mechanism from their answers — the exact behaviour that costs them marks. e.g. "The pile of unread monthly magazines you keep buying instead of revising the one you have" / "Postponing every timed paper for 'one more revision round'" / "Freezing on the 50-50 question and burning 3 minutes in panic".
+- personal_laws: NEVER "Law of Consistency / establish a routine", "Stay positive", "Revise regularly", "Manage time". Each law must name the precise behaviour THEY reported and the exact counter-rule. e.g. {"law_name":"One-Source Lockdown Law","law":"Delete every Polity source except one before Sunday; a dropped source can never cost you a mark you weren't going to revise anyway.","detail":"You follow 5+ Polity sources and restart notes as a coping ritual — your enemy is collection masquerading as preparation."}
+- daily_command: NEVER "Stay focused, one step at a time", "Trust the process", "Every small victory counts". It must name their actual leak or anchor as today's single order. e.g. "Write one full timed paper before you open a new source — today, not after revision."
+- warning: NEVER "Don't let self-doubt creep in", "Stay positive". Name the exact trap that derails THIS person. e.g. "The day a batchmate's selection lands, you vanish for a week. Pre-decide now what the next morning looks like."
+
+WORKED EXAMPLE — this shows the BAR for specificity. It is for a DIFFERENT, hypothetical aspirant (one who hoards sources and skips timed papers). Do NOT copy its words or imagery; build every line from THIS aspirant's own answers:
+  biggest_enemy: "The unwritten timed paper. Every 'one more revision' is the avoidance wearing a productive mask."
+  comeback_line: "I have survived the wait before; the waiting was never the part that beat me."
+CRITICAL: never reuse the example's phrases (e.g. "sunk years", "monthly magazines", "timed paper") unless THIS aspirant's own answers contain that exact theme. Match the specificity, invent the content from their data.
+
 Return a JSON object with EXACTLY these keys:
 {
   "archetype": string,
