@@ -8,11 +8,12 @@
 
 import { createClient } from '@/lib/supabase/server'
 import { buildReportPrompt } from '@/lib/report/prompt'
+import { resolveDiagnosisAnswers } from '@/lib/report/answers'
 import { normalizeReportDepth, type ReportDepth } from '@/lib/report/depth'
 import { generateJSON, GatewayError } from '@/lib/ai/gateway'
 import { isPaidPlan } from '@/lib/plans'
 import type { ReportContent } from '@/lib/report/types'
-import type { HiddenScores, ProfileFacts } from '@/lib/diagnosis/types'
+import type { Answers, HiddenScores, ProfileFacts } from '@/lib/diagnosis/types'
 import { NextResponse, type NextRequest } from 'next/server'
 
 function num(v: unknown, fallback = 50): number {
@@ -96,7 +97,7 @@ export async function POST(request: NextRequest) {
     supabase
       .from('aspirant_profiles')
       .select(
-        'name, diagnosis_depth, attempts_taken, attempts_mains, prep_years, employed, age, optional_subject',
+        'name, diagnosis_depth, attempts_taken, attempts_mains, prep_years, employed, age, optional_subject, pillar1_data, paid_extra_data',
       )
       .eq('user_id', user.id)
       .single(),
@@ -122,6 +123,14 @@ export async function POST(request: NextRequest) {
   const archetypeId = String((scores as Record<string, unknown>).archetype ?? 'FIRST_FLIGHT_IDEALIST')
   const warPatternTags = ((scores as Record<string, unknown>).war_pattern_tags as string[]) ?? []
 
+  // Feed the aspirant's ACTUAL answers (free 30, or all 50 for the paid scan)
+  // so the report references their real choices instead of writing from scores alone.
+  const rawAnswers = {
+    ...((profile.pillar1_data ?? {}) as Answers),
+    ...(depth === 'paid50' ? ((profile.paid_extra_data ?? {}) as Answers) : {}),
+  }
+  const resolvedAnswers = resolveDiagnosisAnswers(rawAnswers)
+
   const { system, user: userMsg } = buildReportPrompt({
     scores: hiddenScores,
     archetypeId,
@@ -129,6 +138,7 @@ export async function POST(request: NextRequest) {
     warPatternTags,
     depth,
     name: profile.name ?? undefined,
+    resolvedAnswers,
   })
 
   let report: ReportContent
