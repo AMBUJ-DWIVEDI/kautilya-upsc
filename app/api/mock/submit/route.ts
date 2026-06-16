@@ -141,6 +141,7 @@ export async function POST(req: NextRequest) {
   const reportContent = {
     type: 'mock_result',
     gate: result.gate,
+    paper_kind: staticMeta.paper_kind,
     test_type: staticMeta.test_type,
     section: staticMeta.section,
     duration_mins: mockTest.duration_mins ?? staticMeta.duration_mins,
@@ -160,6 +161,8 @@ export async function POST(req: NextRequest) {
     weak_topics: result.weak_topics,
     guessing: result.guessing,
     elimination: result.elimination,
+    speed: result.speed,
+    skill_params: result.skill_params,
     seven_day_plan: result.seven_day_plan,
     at: result.at,
     question_summary: result.questions.map(r => ({

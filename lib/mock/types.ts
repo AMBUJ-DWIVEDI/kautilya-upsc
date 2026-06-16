@@ -5,8 +5,11 @@
 // ============================================================
 
 export type Subject =
+  // GS Paper I subjects
   | 'Polity' | 'History' | 'Geography' | 'Economy'
   | 'Environment' | 'SciTech' | 'CurrentAffairs'
+  // CSAT Paper II content parameters
+  | 'ReadingComprehension' | 'Maths' | 'Reasoning' | 'Misc'
 
 export type Difficulty = 'Easy' | 'Medium' | 'Hard'
 export type Option = 'A' | 'B' | 'C' | 'D'
@@ -121,6 +124,23 @@ export interface EliminationAnalysis {
   missed_question_nums: number[]
 }
 
+/** Pace analytics — how many attempts were solved without over-spending time. */
+export interface SpeedAnalysis {
+  score: number               // 0–100
+  on_pace: number             // attempts within ~1.25× expected time
+  slow: number                // attempts that ran long
+  attempt_rate_pct: number
+  verdict: string
+}
+
+/** A cross-cutting CSAT skill parameter (Speed / Guessing / Smartness). */
+export interface SkillParam {
+  key: 'Speed' | 'Guessing' | 'Smartness'
+  label: string
+  score: number               // 0–100
+  verdict: string
+}
+
 export interface MockResult {
   gate: number
   user_id: string
@@ -140,6 +160,9 @@ export interface MockResult {
   weak_topics: WeakTopic[]
   guessing: GuessingDiscipline
   elimination: EliminationAnalysis
+  speed: SpeedAnalysis
+  /** The 3 cross-cutting skill parameters (Speed / Guessing / Smartness) — featured for CSAT. */
+  skill_params: SkillParam[]
   seven_day_plan: string[]
   at: string
 }
@@ -147,6 +170,7 @@ export interface MockResult {
 // ── Subject metadata (shared constants) ─────────────────────────
 
 export const SUBJECT_META: Record<Subject, { label: string; color: string }> = {
+  // GS Paper I
   Polity:         { label: 'Polity & Governance',     color: 'text-indigo' },
   History:        { label: 'History & Culture',       color: 'text-copper' },
   Geography:      { label: 'Geography',               color: 'text-sage' },
@@ -154,6 +178,11 @@ export const SUBJECT_META: Record<Subject, { label: string; color: string }> = {
   Environment:    { label: 'Environment & Ecology',   color: 'text-sage' },
   SciTech:        { label: 'Science & Technology',    color: 'text-indigo' },
   CurrentAffairs: { label: 'Current Affairs',         color: 'text-clay' },
+  // CSAT Paper II — content parameters
+  ReadingComprehension: { label: 'Reading Comprehension', color: 'text-indigo' },
+  Maths:                { label: 'Maths',                 color: 'text-copper' },
+  Reasoning:            { label: 'Reasoning',             color: 'text-sage' },
+  Misc:                 { label: 'Misc',                  color: 'text-clay' },
 }
 
 export const ALL_LEAKS: ScoreLeak[] = [

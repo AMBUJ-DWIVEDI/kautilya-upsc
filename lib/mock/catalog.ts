@@ -10,6 +10,7 @@ import type { Subject } from './types'
 
 export type TestType = 'full_length' | 'sectional'
 export type UnlockPlan = 'free' | 'warrior'
+export type PaperKind = 'gs' | 'csat'
 
 export interface MockCatalogItem {
   gate_number: number
@@ -22,6 +23,8 @@ export interface MockCatalogItem {
   is_baseline: boolean
   unlock_plan: UnlockPlan
   topic_tags: string[]
+  /** Which exam paper this gate emulates — decides marking scheme & subject set. */
+  paper_kind: PaperKind
 }
 
 const DRILL_SUBJECTS: Subject[] = ['Polity', 'History', 'Geography', 'Economy']
@@ -40,6 +43,41 @@ const FULL_LENGTH_TITLES = [
 ]
 
 const GS = APP.exam.prelimsGS
+const CSAT = APP.exam.csat
+
+// ── Hand-curated overrides for the baseline gates ──────────────
+// Gate 1 = the REAL UPSC 2026 Prelims GS-I (official paper + provisional key),
+//          loaded from paper-01.json. This is the primary baseline diagnosis mock:
+//          attempters review their real performance, new aspirants gauge their level.
+// Gate 2 = the original synthetic KAUTILYA baseline mock (paper-02.json), kept as a
+//          secondary, optional practice paper — also free so anyone can take it.
+const GATE_OVERRIDES: Partial<Record<number, Partial<MockCatalogItem>>> = {
+  1: {
+    title: 'Paper 1 — UPSC 2026 Prelims GS-I (Official)',
+    is_baseline: true,
+    unlock_plan: 'free',
+    topic_tags: ['full-length', 'official-2026', 'baseline', 'gs-paper-1'],
+  },
+  2: {
+    title: 'Paper 2 — KAUTILYA Baseline Mock (Practice)',
+    is_baseline: false,
+    unlock_plan: 'free',
+    topic_tags: ['full-length', 'practice', 'optional'],
+  },
+  // Gate 3 = the REAL UPSC 2026 CSAT Paper II (official paper + VisionIAS key),
+  //          loaded from paper-03.json. Free baseline so aspirants can review
+  //          their real CSAT attempt or gauge their aptitude level.
+  3: {
+    title: 'Paper 3 — UPSC 2026 CSAT Paper II (Official)',
+    is_baseline: true,
+    unlock_plan: 'free',
+    paper_kind: 'csat',
+    total_questions: CSAT.questions,
+    max_score: CSAT.marks,
+    duration_mins: CSAT.minutes,
+    topic_tags: ['csat', 'official-2026', 'baseline', 'paper-2'],
+  },
+}
 
 export const MOCK_CATALOG: MockCatalogItem[] = Array.from({ length: 100 }, (_, i) => {
   const gate = i + 1
@@ -48,7 +86,7 @@ export const MOCK_CATALOG: MockCatalogItem[] = Array.from({ length: 100 }, (_, i
   const fullTitle = FULL_LENGTH_TITLES[(gate - 1) % FULL_LENGTH_TITLES.length]
   const drillRound = Math.floor((gate - 51) / DRILL_SUBJECTS.length) + 1
 
-  return {
+  const base: MockCatalogItem = {
     gate_number: gate,
     title: isFull
       ? `Paper ${gate} — ${fullTitle}`
@@ -61,7 +99,10 @@ export const MOCK_CATALOG: MockCatalogItem[] = Array.from({ length: 100 }, (_, i
     is_baseline: gate === 1,
     unlock_plan: gate === 1 ? 'free' : 'warrior',
     topic_tags: isFull ? ['full-length', fullTitle.toLowerCase()] : ['drill', subject!.toLowerCase()],
+    paper_kind: 'gs',
   }
+
+  return { ...base, ...GATE_OVERRIDES[gate] }
 })
 
 export function getMockCatalogItem(gate: number): MockCatalogItem | undefined {
@@ -70,4 +111,14 @@ export function getMockCatalogItem(gate: number): MockCatalogItem | undefined {
 
 export function bankFileForGate(gate: number): string {
   return `paper-${gate.toString().padStart(2, '0')}.json`
+}
+
+/** Which exam paper a gate emulates (defaults to GS for any unknown gate). */
+export function paperKindForGate(gate: number): PaperKind {
+  return getMockCatalogItem(gate)?.paper_kind ?? 'gs'
+}
+
+/** The marking shape ({ questions, marks, perQuestion, negative, minutes }) for a gate. */
+export function examShapeForGate(gate: number) {
+  return paperKindForGate(gate) === 'csat' ? APP.exam.csat : APP.exam.prelimsGS
 }

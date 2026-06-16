@@ -6,6 +6,7 @@ import { APP } from '@/lib/config'
 import type { ClientQuestion, Answers, Option, Subject } from '@/lib/mock/types'
 import { SUBJECT_META, FORMAT_LABELS } from '@/lib/mock/types'
 import type { MockCatalogItem } from '@/lib/mock/catalog'
+import { examShapeForGate } from '@/lib/mock/catalog'
 import { track } from '@/lib/analytics'
 
 type Phase = 'instructions' | 'active' | 'submitting' | 'done'
@@ -146,7 +147,7 @@ export default function TestEngine({ gate, questions, testMeta }: Props) {
   const { phase, currentIdx, answers, timeLeft } = state
   const currentQ = questions[currentIdx]
   const sections = buildSections(questions)
-  const { perQuestion, negative } = APP.exam.prelimsGS
+  const { perQuestion, negative } = examShapeForGate(gate)
 
   useEffect(() => {
     try {
@@ -234,7 +235,9 @@ export default function TestEngine({ gate, questions, testMeta }: Props) {
       <div className="flex flex-1 items-center justify-center px-4 py-12">
         <div className="card-calm copper-border w-full max-w-lg p-8">
           <p className="mb-3 text-xs uppercase tracking-[0.3em] text-copper">
-            {testMeta.test_type === 'full_length' ? `${APP.brand.exam} Prelims GS` : `${testMeta.section} Drill`}
+            {testMeta.paper_kind === 'csat'
+              ? `${APP.brand.exam} CSAT Paper II`
+              : testMeta.test_type === 'full_length' ? `${APP.brand.exam} Prelims GS` : `${testMeta.section} Drill`}
           </p>
           <h1 className="heading-cinzel mb-6 text-2xl font-bold text-indigo">
             {testMeta.title}

@@ -1,0 +1,2172 @@
+{
+  "paper": 3,
+  "title": "UPSC Civil Services Prelims 2026 — CSAT Paper II (Official)",
+  "source": "official_upsc_2026_prelims_csat",
+  "questions": [
+    {
+      "question_id": "P2026CSAT-001",
+      "num": 1,
+      "subject": "Maths",
+      "topic": "Inequalities",
+      "subtopic": "UPSC 2026 Prelims CSAT (Paper II) — Q1",
+      "format": "single",
+      "difficulty": "Hard",
+      "expected_time_sec": 140,
+      "text": "For 1/3 < x < y < 2, which of the following is/are always correct?\nI. x + 1/x < y + 1/y\nII. √(1+y²)/y < √(1+x²)/x",
+      "options": {
+        "A": "I only",
+        "B": "II only",
+        "C": "Both I and II",
+        "D": "Neither I nor II"
+      },
+      "answer": "B",
+      "explanation": "f(t)=t+1/t decreases until t=1 then increases, so I is not always true. But √(1+t²)/t = √(1+1/t²) decreases as t increases, so for x<y, II is always true.",
+      "elimination_path": "Plug the answer options back in, or estimate the magnitude, to discard impossible values fast.",
+      "diagnoses": [
+        "quantaptitude",
+        "inequalities",
+        "2026",
+        "official-paper",
+        "csat"
+      ]
+    },
+    {
+      "question_id": "P2026CSAT-002",
+      "num": 2,
+      "subject": "Maths",
+      "topic": "Measuring puzzle",
+      "subtopic": "UPSC 2026 Prelims CSAT (Paper II) — Q2",
+      "format": "single",
+      "difficulty": "Hard",
+      "expected_time_sec": 140,
+      "text": "What is the minimum number of times one needs to measure to get 298 litres of water from a tank, if the measuring cylinders have capacities 1, 6, 25 and 100 litres?",
+      "options": {
+        "A": "4",
+        "B": "5",
+        "C": "9",
+        "D": "13"
+      },
+      "answer": "B",
+      "explanation": "Using 100, 25, 6 and 1 litre cylinders, 298 litres can be reached in a minimum of 5 measurements by combining the largest capacities and adjusting.",
+      "elimination_path": "Plug the answer options back in, or estimate the magnitude, to discard impossible values fast.",
+      "diagnoses": [
+        "quantaptitude",
+        "measuring-puzzle",
+        "2026",
+        "official-paper",
+        "csat"
+      ]
+    },
+    {
+      "question_id": "P2026CSAT-003",
+      "num": 3,
+      "subject": "Maths",
+      "topic": "Weight combinations",
+      "subtopic": "UPSC 2026 Prelims CSAT (Paper II) — Q3",
+      "format": "single",
+      "difficulty": "Hard",
+      "expected_time_sec": 140,
+      "text": "There are four types of weights: 1, 2, 5 and 10 kg. What is the maximum number of different ways one can measure 20 kg, if at least eight but not more than eleven weights of 1 kg are to be used?",
+      "options": {
+        "A": "7",
+        "B": "8",
+        "C": "9",
+        "D": "10"
+      },
+      "answer": "B",
+      "explanation": "With 1, 2, 5 and 10 kg weights and the 1 kg count restricted to 8–11, counting all valid ways to reach 20 kg gives 8.",
+      "elimination_path": "Plug the answer options back in, or estimate the magnitude, to discard impossible values fast.",
+      "diagnoses": [
+        "quantaptitude",
+        "weight-combinations",
+        "2026",
+        "official-paper",
+        "csat"
+      ]
+    },
+    {
+      "question_id": "P2026CSAT-004",
+      "num": 4,
+      "subject": "Maths",
+      "topic": "Solid cuts",
+      "subtopic": "UPSC 2026 Prelims CSAT (Paper II) — Q4",
+      "format": "single",
+      "difficulty": "Hard",
+      "expected_time_sec": 140,
+      "text": "A cut divides a solid into two parts with plane new surfaces; one cut can pass through more than one piece. x_n is the total pieces after n cuts on a solid cube (pieces unmoved). If after the third cut the pieces are identical, which is NOT a possible value for x_4?",
+      "options": {
+        "A": "16",
+        "B": "12",
+        "C": "8",
+        "D": "5"
+      },
+      "answer": "A",
+      "explanation": "After 3 cuts giving identical pieces the cube is split symmetrically; a fourth plane cut yields a limited set of piece counts. 16 is not achievable under the identical-piece condition.",
+      "elimination_path": "Plug the answer options back in, or estimate the magnitude, to discard impossible values fast.",
+      "diagnoses": [
+        "quantaptitude",
+        "solid-cuts",
+        "2026",
+        "official-paper",
+        "csat"
+      ]
+    },
+    {
+      "question_id": "P2026CSAT-005",
+      "num": 5,
+      "subject": "Maths",
+      "topic": "Averages",
+      "subtopic": "UPSC 2026 Prelims CSAT (Paper II) — Q5",
+      "format": "single",
+      "difficulty": "Hard",
+      "expected_time_sec": 140,
+      "text": "The class average x increases by 4 when a student's score is corrected from 0 to 100. Later another student's 81 is corrected to 56. If the final corrected average is y, then y − x is:",
+      "options": {
+        "A": "2",
+        "B": "3",
+        "C": "5",
+        "D": "6"
+      },
+      "answer": "B",
+      "explanation": "Correcting 0→100 raises the average by 4, so there are 100/4 = 25 students. Correcting 81→56 lowers the total by 25, i.e. the average by 1. So y − x = 4 − 1 = 3.",
+      "elimination_path": "Plug the answer options back in, or estimate the magnitude, to discard impossible values fast.",
+      "diagnoses": [
+        "quantaptitude",
+        "averages",
+        "2026",
+        "official-paper",
+        "csat"
+      ]
+    },
+    {
+      "question_id": "P2026CSAT-006",
+      "num": 6,
+      "subject": "ReadingComprehension",
+      "topic": "Inference",
+      "subtopic": "UPSC 2026 Prelims CSAT (Paper II) — Q6",
+      "format": "single",
+      "difficulty": "Medium",
+      "expected_time_sec": 100,
+      "text": "PASSAGE — When SARS-CoV-2 was first detected in 2019, it was a truly novel virus for the world. At that time, no one had been exposed to it or had specific immunity against it. In contrast, people across the world have been exposed to HMPV for decades and the virus is well-studied. HMPV and SARS-CoV-2 belong to two very different virus families with fundamentally different characteristics and epidemiology, with strong seasonality seen in HMPV, unlike SARS-CoV-2. Both viruses cause different severity of symptoms, particularly over the long term, and the affected population segments do not fully overlap. In general, HMPV causes milder illness with deaths being very rare and with no long-term post-viral symptoms.\n\nWhich of the following conclusions is/are valid?\n1. Though SARS-CoV-2 and HMPV are similar viruses with somewhat different epidemiology, the former became a pandemic because it was novel.\n2. The two viruses have fundamentally different impacts on human populations and should not be dealt with in a similar manner.",
+      "options": {
+        "A": "1 only",
+        "B": "2 only",
+        "C": "Both 1 and 2",
+        "D": "Neither 1 nor 2"
+      },
+      "answer": "B",
+      "explanation": "Statement 1 is wrong — the passage calls the two viruses fundamentally different, not similar. Statement 2 is valid: their characteristics, affected populations and long-term impacts differ, so they should not be handled alike.",
+      "elimination_path": "Re-read only the lines the options paraphrase; reject any option that adds a claim the passage never makes.",
+      "diagnoses": [
+        "comprehension",
+        "inference",
+        "2026",
+        "official-paper",
+        "csat"
+      ]
+    },
+    {
+      "question_id": "P2026CSAT-007",
+      "num": 7,
+      "subject": "ReadingComprehension",
+      "topic": "Author intent",
+      "subtopic": "UPSC 2026 Prelims CSAT (Paper II) — Q7",
+      "format": "single",
+      "difficulty": "Medium",
+      "expected_time_sec": 100,
+      "text": "PASSAGE — When SARS-CoV-2 was first detected in 2019, it was a truly novel virus for the world. At that time, no one had been exposed to it or had specific immunity against it. In contrast, people across the world have been exposed to HMPV for decades and the virus is well-studied. HMPV and SARS-CoV-2 belong to two very different virus families with fundamentally different characteristics and epidemiology, with strong seasonality seen in HMPV, unlike SARS-CoV-2. Both viruses cause different severity of symptoms, particularly over the long term, and the affected population segments do not fully overlap. In general, HMPV causes milder illness with deaths being very rare and with no long-term post-viral symptoms.\n\nWhich of the following reflect the intent of the writer?\n1. To evolve methodologies for objective analysis of the two viruses.\n2. To establish the epidemiological similarities and differences between the two viruses.\n3. To offer a better understanding of the remedies of HMPV when analysed with SARS-CoV-2.",
+      "options": {
+        "A": "1 and 2",
+        "B": "2 and 3",
+        "C": "1 and 3",
+        "D": "None of the above"
+      },
+      "answer": "D",
+      "explanation": "The passage does not aim to develop methodologies, establish a detailed epidemiological comparison, or discuss remedies. It mainly distinguishes HMPV from SARS-CoV-2 to prevent over-comparison.",
+      "elimination_path": "Re-read only the lines the options paraphrase; reject any option that adds a claim the passage never makes.",
+      "diagnoses": [
+        "comprehension",
+        "author-intent",
+        "2026",
+        "official-paper",
+        "csat"
+      ]
+    },
+    {
+      "question_id": "P2026CSAT-008",
+      "num": 8,
+      "subject": "ReadingComprehension",
+      "topic": "Inference",
+      "subtopic": "UPSC 2026 Prelims CSAT (Paper II) — Q8",
+      "format": "single",
+      "difficulty": "Medium",
+      "expected_time_sec": 100,
+      "text": "PASSAGE — When SARS-CoV-2 was first detected in 2019, it was a truly novel virus for the world. At that time, no one had been exposed to it or had specific immunity against it. In contrast, people across the world have been exposed to HMPV for decades and the virus is well-studied. HMPV and SARS-CoV-2 belong to two very different virus families with fundamentally different characteristics and epidemiology, with strong seasonality seen in HMPV, unlike SARS-CoV-2. Both viruses cause different severity of symptoms, particularly over the long term, and the affected population segments do not fully overlap. In general, HMPV causes milder illness with deaths being very rare and with no long-term post-viral symptoms.\n\nWhich statements reflect logical inferences from the passage?\n1. HMPV has historically had longer documentation of studies than SARS-CoV-2.\n2. The two viruses are different, resulting in markedly different outcomes among those affected.\n3. Long-term impacts of the two viruses are dissimilar, an important differentiator.\n4. A common factor between them is seasonal specificity.",
+      "options": {
+        "A": "1 and 2 only",
+        "B": "1, 2 and 3",
+        "C": "3 and 4",
+        "D": "1 and 3 only"
+      },
+      "answer": "B",
+      "explanation": "HMPV has been studied for decades unlike SARS-CoV-2 (1), and the two differ in severity and long-term effects (2,3). Seasonality is NOT common to both — it is strong in HMPV only (4 wrong).",
+      "elimination_path": "Re-read only the lines the options paraphrase; reject any option that adds a claim the passage never makes.",
+      "diagnoses": [
+        "comprehension",
+        "inference",
+        "2026",
+        "official-paper",
+        "csat"
+      ]
+    },
+    {
+      "question_id": "P2026CSAT-009",
+      "num": 9,
+      "subject": "Maths",
+      "topic": "Max-min expression",
+      "subtopic": "UPSC 2026 Prelims CSAT (Paper II) — Q9",
+      "format": "single",
+      "difficulty": "Hard",
+      "expected_time_sec": 140,
+      "text": "Variables x, y, z take distinct values from 2, 3, 4 or 5. If M and N are the largest and smallest possible values of (x × y) + z, then M − N is:",
+      "options": {
+        "A": "11",
+        "B": "12",
+        "C": "13",
+        "D": "14"
+      },
+      "answer": "C",
+      "explanation": "Max of (x·y)+z with distinct values from {2,3,4,5}: 5×4+3 = 23. Min: 2×3+4 = 10. So M − N = 13.",
+      "elimination_path": "Plug the answer options back in, or estimate the magnitude, to discard impossible values fast.",
+      "diagnoses": [
+        "quantaptitude",
+        "max-min-expression",
+        "2026",
+        "official-paper",
+        "csat"
+      ]
+    },
+    {
+      "question_id": "P2026CSAT-010",
+      "num": 10,
+      "subject": "Maths",
+      "topic": "Variation",
+      "subtopic": "UPSC 2026 Prelims CSAT (Paper II) — Q10",
+      "format": "single",
+      "difficulty": "Hard",
+      "expected_time_sec": 140,
+      "text": "y is directly proportional to x² and x is inversely proportional to z. For z = 7/25, x = 5 and y = 50. If y = 98, what is z?",
+      "options": {
+        "A": "1/7",
+        "B": "1/5",
+        "C": "5/7",
+        "D": "1"
+      },
+      "answer": "B",
+      "explanation": "y = k·x² with x=5, y=50 gives k=2; y=98 ⇒ x=7. Since x ∝ 1/z, xz is constant = 5×7/25 = 7/5; so 7z = 7/5 ⇒ z = 1/5.",
+      "elimination_path": "Plug the answer options back in, or estimate the magnitude, to discard impossible values fast.",
+      "diagnoses": [
+        "quantaptitude",
+        "variation",
+        "2026",
+        "official-paper",
+        "csat"
+      ]
+    },
+    {
+      "question_id": "P2026CSAT-011",
+      "num": 11,
+      "subject": "ReadingComprehension",
+      "topic": "Assumptions",
+      "subtopic": "UPSC 2026 Prelims CSAT (Paper II) — Q11",
+      "format": "single",
+      "difficulty": "Medium",
+      "expected_time_sec": 100,
+      "text": "PASSAGE — India is starting to deploy AI for critical use cases such as weather forecasting, pest detection and control, and crop yield optimisation. However, penetration is limited to a small subset of tech-savvy farmers. In the US and in Europe, generative AI tools have started offering precision farming at scale, integrating large datasets to provide real-time agronomic insights. For at-scale integration and accessibility of AI tools in India, it would be helpful to develop Indian-languages-based AI tools for smallholder farmers, partner with AgTechs to create affordable AI solutions, and disseminate AI-based advisory services through government programmes.\n\nWhich assumptions is/are valid?\n1. Agricultural productivity has advanced in the West because of economies of scale facilitated by AI.\n2. Affordable AI tools in local languages can help reach more small farmers.\n3. Though penetration is low, critical AI applications are already in use in India.",
+      "options": {
+        "A": "1, 2 and 3",
+        "B": "2 only",
+        "C": "1 and 3 only",
+        "D": "2 and 3 only"
+      },
+      "answer": "D",
+      "explanation": "Affordable local-language AI tools can reach small farmers (2), and India already uses AI in critical areas despite low penetration (3). The passage does not claim Western productivity advanced because of AI-led economies of scale (1 wrong).",
+      "elimination_path": "Re-read only the lines the options paraphrase; reject any option that adds a claim the passage never makes.",
+      "diagnoses": [
+        "comprehension",
+        "assumptions",
+        "2026",
+        "official-paper",
+        "csat"
+      ]
+    },
+    {
+      "question_id": "P2026CSAT-012",
+      "num": 12,
+      "subject": "ReadingComprehension",
+      "topic": "Not-correct",
+      "subtopic": "UPSC 2026 Prelims CSAT (Paper II) — Q12",
+      "format": "single",
+      "difficulty": "Medium",
+      "expected_time_sec": 100,
+      "text": "PASSAGE — India is starting to deploy AI for critical use cases such as weather forecasting, pest detection and control, and crop yield optimisation. However, penetration is limited to a small subset of tech-savvy farmers. In the US and in Europe, generative AI tools have started offering precision farming at scale, integrating large datasets to provide real-time agronomic insights. For at-scale integration and accessibility of AI tools in India, it would be helpful to develop Indian-languages-based AI tools for smallholder farmers, partner with AgTechs to create affordable AI solutions, and disseminate AI-based advisory services through government programmes.\n\nWhich statements is/are NOT correct?\n1. Tech-savvy farmers will drive the AgTech companies of the future.\n2. Government-developed advisory services for AI tools would be helpful.\n3. In the US and Europe, AI tools have replaced traditional agricultural practices.\n4. Integration of large datasets for real-time agronomic analysis is already a reality.",
+      "options": {
+        "A": "1 and 3 only",
+        "B": "1, 3 and 4",
+        "C": "2 and 4",
+        "D": "3 only"
+      },
+      "answer": "A",
+      "explanation": "Statement 1 is unsupported — tech-savvy farmers are current users, not necessarily future drivers of AgTech. Statement 3 is wrong — AI has started offering precision farming, not replaced traditional practices. So 1 and 3 are not correct.",
+      "elimination_path": "Re-read only the lines the options paraphrase; reject any option that adds a claim the passage never makes.",
+      "diagnoses": [
+        "comprehension",
+        "not-correct",
+        "2026",
+        "official-paper",
+        "csat"
+      ]
+    },
+    {
+      "question_id": "P2026CSAT-013",
+      "num": 13,
+      "subject": "Reasoning",
+      "topic": "Ranking",
+      "subtopic": "UPSC 2026 Prelims CSAT (Paper II) — Q13",
+      "format": "single",
+      "difficulty": "Medium",
+      "expected_time_sec": 115,
+      "text": "P, Q, R, S, T are ranked 1–5. P's rank is 4, Q's is not 5, R's is 1, S's is not 2, T's is not 3. Which is/are correct?\nI. If S's rank is 3, then T's is 2.\nII. If Q's rank is 3, then T's is 5.",
+      "options": {
+        "A": "I only",
+        "B": "II only",
+        "C": "Both I and II",
+        "D": "Neither I nor II"
+      },
+      "answer": "D",
+      "explanation": "P=4, R=1; remaining 2,3,5 go to Q,S,T with Q≠5, S≠2, T≠3. Testing the cases shows neither conditional I nor II is necessarily forced.",
+      "elimination_path": "Build the grid or diagram from the fixed clues first, then test each option against it.",
+      "diagnoses": [
+        "reasoning",
+        "ranking",
+        "2026",
+        "official-paper",
+        "csat"
+      ]
+    },
+    {
+      "question_id": "P2026CSAT-014",
+      "num": 14,
+      "subject": "Reasoning",
+      "topic": "Arrangement",
+      "subtopic": "UPSC 2026 Prelims CSAT (Paper II) — Q14",
+      "format": "single",
+      "difficulty": "Medium",
+      "expected_time_sec": 115,
+      "text": "Two identical rods are each split into five equal coloured parts (P1–P5 and Q1–Q5, orders unknown). Side by side: P1 matches Q3, P4 matches Q1 or Q2, Q4 matches P3 or P5. If Q3 and Q5 are adjacent, which is/are possible?\nI. Q3 is at the middle portion.\nII. P2 is at an extreme portion.",
+      "options": {
+        "A": "I only",
+        "B": "II only",
+        "C": "Both I and II",
+        "D": "Neither I nor II"
+      },
+      "answer": "C",
+      "explanation": "Matching the colour positions across the two rods under the given constraints with Q3–Q5 adjacent allows both outcomes: Q3 can be the middle portion and P2 can be at an extreme.",
+      "elimination_path": "Build the grid or diagram from the fixed clues first, then test each option against it.",
+      "diagnoses": [
+        "reasoning",
+        "arrangement",
+        "2026",
+        "official-paper",
+        "csat"
+      ]
+    },
+    {
+      "question_id": "P2026CSAT-015",
+      "num": 15,
+      "subject": "Reasoning",
+      "topic": "Grouping",
+      "subtopic": "UPSC 2026 Prelims CSAT (Paper II) — Q15",
+      "format": "single",
+      "difficulty": "Medium",
+      "expected_time_sec": 115,
+      "text": "Seven persons A–G travel by cars X, Y, Z. A and two others travel by X. Only E travels with G. C travels by Z, but B does not travel by Y. A and B are not in the same car. Which are correct?\nI. No one travels alone.\nII. Only D travels with F.\nIII. Only C travels with B.",
+      "options": {
+        "A": "I and II only",
+        "B": "I and III only",
+        "C": "II and III only",
+        "D": "All three"
+      },
+      "answer": "B",
+      "explanation": "A + two others go in X; only E travels with G; C is in Z; B not in Y and not with A. The single valid arrangement leaves no one alone and puts C with B; D and F are not necessarily a lone pair.",
+      "elimination_path": "Build the grid or diagram from the fixed clues first, then test each option against it.",
+      "diagnoses": [
+        "reasoning",
+        "grouping",
+        "2026",
+        "official-paper",
+        "csat"
+      ]
+    },
+    {
+      "question_id": "P2026CSAT-016",
+      "num": 16,
+      "subject": "Reasoning",
+      "topic": "Logic statements",
+      "subtopic": "UPSC 2026 Prelims CSAT (Paper II) — Q16",
+      "format": "single",
+      "difficulty": "Medium",
+      "expected_time_sec": 115,
+      "text": "Statements X, Y, Z, W: if X is incorrect then so is Z; if Y is incorrect then W is correct; if W is correct then X is incorrect. Which is/are correct?\nI. If X is correct, then so is Y.\nII. If Z is correct, then it is not necessary that Y is correct.",
+      "options": {
+        "A": "I only",
+        "B": "II only",
+        "C": "Both I and II",
+        "D": "Neither I nor II"
+      },
+      "answer": "A",
+      "explanation": "Official key was published ambiguous (a/b). From the relations, if X is correct then W cannot be, and Y must be correct, so I is valid. II depends on interpretation. Scored as (a) I only.",
+      "elimination_path": "Build the grid or diagram from the fixed clues first, then test each option against it.",
+      "diagnoses": [
+        "reasoning",
+        "logic-statements",
+        "2026",
+        "official-paper",
+        "csat",
+        "key-disputed"
+      ]
+    },
+    {
+      "question_id": "P2026CSAT-017",
+      "num": 17,
+      "subject": "Maths",
+      "topic": "Circular track",
+      "subtopic": "UPSC 2026 Prelims CSAT (Paper II) — Q17",
+      "format": "single",
+      "difficulty": "Hard",
+      "expected_time_sec": 140,
+      "text": "X and Y run on a circular track, same start, same direction, uniform speeds. When X completes 7 rounds Y completes 5. After 5 rounds Y reverses at double speed; X is unchanged. They stop when X completes 21 rounds. How many times do they meet after starting and before stopping?",
+      "options": {
+        "A": "35",
+        "B": "34",
+        "C": "31",
+        "D": "29"
+      },
+      "answer": "A",
+      "explanation": "In the first phase X gains 2 rounds on Y (2 meetings incl. the turn point). After Y reverses at double speed, relative speed rises; counting all intermediate same-point meetings until X finishes 21 rounds gives 35.",
+      "elimination_path": "Plug the answer options back in, or estimate the magnitude, to discard impossible values fast.",
+      "diagnoses": [
+        "quantaptitude",
+        "circular-track",
+        "2026",
+        "official-paper",
+        "csat"
+      ]
+    },
+    {
+      "question_id": "P2026CSAT-018",
+      "num": 18,
+      "subject": "Maths",
+      "topic": "Marks & penalty",
+      "subtopic": "UPSC 2026 Prelims CSAT (Paper II) — Q18",
+      "format": "single",
+      "difficulty": "Hard",
+      "expected_time_sec": 140,
+      "text": "In a paper, +5 for a correct answer and −2 for a wrong one gives a student 69 (all attempted). With +4 correct and −1 wrong he would score 84. How many questions were there?",
+      "options": {
+        "A": "99",
+        "B": "81",
+        "C": "84",
+        "D": "79"
+      },
+      "answer": "B",
+      "explanation": "5c − 2w = 69 and 4c − w = 84 give c = 33, w = 48, so total questions = 81.",
+      "elimination_path": "Plug the answer options back in, or estimate the magnitude, to discard impossible values fast.",
+      "diagnoses": [
+        "quantaptitude",
+        "marks-penalty",
+        "2026",
+        "official-paper",
+        "csat"
+      ]
+    },
+    {
+      "question_id": "P2026CSAT-019",
+      "num": 19,
+      "subject": "ReadingComprehension",
+      "topic": "Conclusions",
+      "subtopic": "UPSC 2026 Prelims CSAT (Paper II) — Q19",
+      "format": "single",
+      "difficulty": "Medium",
+      "expected_time_sec": 100,
+      "text": "PASSAGE — The Juvenile Justice (Care and Protection of Children) Act, 2015 allows for the possibility of trying adolescents above 16 as adults if they are accused of committing a heinous offence. A heinous offence is one with a minimum punishment of seven years. Offences such as culpable homicide and causing death by negligence, common in drunken driving cases, are not heinous offences because they do not have a prescribed minimum punishment. The JJ Act, amended in 2021, now categorises an offence that has no minimum sentence, but a maximum sentence of seven years or more, as a serious offence which, in the opinion of activists, does not merit the transfer of a case to the adult criminal justice system.\n\nWhich conclusions is/are valid?\n1. Only a serious offence as categorised by the revised Act justifies transfer to the adult judicial system.\n2. The 2021 Act categorises an offence as serious based on the maximum sentence, not the minimum.",
+      "options": {
+        "A": "1 only",
+        "B": "2 only",
+        "C": "Both 1 and 2",
+        "D": "Neither 1 nor 2"
+      },
+      "answer": "B",
+      "explanation": "Only heinous offences (not serious ones) can justify transfer to adult trial, so 1 is wrong. 2 is correct: the 2021 amendment classes offences with no minimum but a maximum of seven years or more as serious.",
+      "elimination_path": "Re-read only the lines the options paraphrase; reject any option that adds a claim the passage never makes.",
+      "diagnoses": [
+        "comprehension",
+        "conclusions",
+        "2026",
+        "official-paper",
+        "csat"
+      ]
+    },
+    {
+      "question_id": "P2026CSAT-020",
+      "num": 20,
+      "subject": "ReadingComprehension",
+      "topic": "Correct statements",
+      "subtopic": "UPSC 2026 Prelims CSAT (Paper II) — Q20",
+      "format": "single",
+      "difficulty": "Medium",
+      "expected_time_sec": 100,
+      "text": "PASSAGE — The Juvenile Justice (Care and Protection of Children) Act, 2015 allows for the possibility of trying adolescents above 16 as adults if they are accused of committing a heinous offence. A heinous offence is one with a minimum punishment of seven years. Offences such as culpable homicide and causing death by negligence, common in drunken driving cases, are not heinous offences because they do not have a prescribed minimum punishment. The JJ Act, amended in 2021, now categorises an offence that has no minimum sentence, but a maximum sentence of seven years or more, as a serious offence which, in the opinion of activists, does not merit the transfer of a case to the adult criminal justice system.\n\nWhich statements is/are correct?\n1. If an offence has no minimum prescribed punishment, it cannot be heinous under the 2015 Act.\n2. Under the 2021 Act, an offence with a maximum of seven years or more but no minimum is a serious offence.",
+      "options": {
+        "A": "1 only",
+        "B": "2 only",
+        "C": "Both 1 and 2",
+        "D": "Neither 1 nor 2"
+      },
+      "answer": "C",
+      "explanation": "A heinous offence needs a minimum of seven years, so no minimum means not heinous (1 correct). Such offences with a maximum of seven years or more are serious after the amendment (2 correct).",
+      "elimination_path": "Re-read only the lines the options paraphrase; reject any option that adds a claim the passage never makes.",
+      "diagnoses": [
+        "comprehension",
+        "correct-statements",
+        "2026",
+        "official-paper",
+        "csat"
+      ]
+    },
+    {
+      "question_id": "P2026CSAT-021",
+      "num": 21,
+      "subject": "Maths",
+      "topic": "Relative speed/time",
+      "subtopic": "UPSC 2026 Prelims CSAT (Paper II) — Q21",
+      "format": "single",
+      "difficulty": "Hard",
+      "expected_time_sec": 140,
+      "text": "An explosion is at distance d from a camp. On hearing it, drone 1 flies to the spot; its picture is received at 5:02 PM. Drone 2 then flies and its picture arrives at 5:05 PM. Drone speed 30 m/s, sound speed 300 m/s. When did the explosion occur?",
+      "options": {
+        "A": "4:59:00 PM",
+        "B": "4:59:02 PM",
+        "C": "4:58:42 PM",
+        "D": "4:56:32 PM"
+      },
+      "answer": "C",
+      "explanation": "The 2nd drone takes 3 min (5:02→5:05), so distance d = 30×180 = 5400 m. Sound takes 5400/300 = 18 s; the 1st drone takes 5400/30 = 180 s; total delay after the blast = 198 s. 5:02 PM − 3 min 18 s = 4:58:42 PM.",
+      "elimination_path": "Plug the answer options back in, or estimate the magnitude, to discard impossible values fast.",
+      "diagnoses": [
+        "quantaptitude",
+        "relative-speed-time",
+        "2026",
+        "official-paper",
+        "csat"
+      ]
+    },
+    {
+      "question_id": "P2026CSAT-022",
+      "num": 22,
+      "subject": "Maths",
+      "topic": "Unit digit",
+      "subtopic": "UPSC 2026 Prelims CSAT (Paper II) — Q22",
+      "format": "single",
+      "difficulty": "Hard",
+      "expected_time_sec": 140,
+      "text": "The digit in the unit place of 6^129 × 7^307 is:",
+      "options": {
+        "A": "2",
+        "B": "4",
+        "C": "8",
+        "D": "6"
+      },
+      "answer": "C",
+      "explanation": "Unit digit of 6^129 is 6. For 7^307 the cycle 7,9,3,1 has length 4; 307 mod 4 = 3 ⇒ 3. 6×3 = 18, unit digit 8.",
+      "elimination_path": "Plug the answer options back in, or estimate the magnitude, to discard impossible values fast.",
+      "diagnoses": [
+        "quantaptitude",
+        "unit-digit",
+        "2026",
+        "official-paper",
+        "csat"
+      ]
+    },
+    {
+      "question_id": "P2026CSAT-023",
+      "num": 23,
+      "subject": "Maths",
+      "topic": "Percentages",
+      "subtopic": "UPSC 2026 Prelims CSAT (Paper II) — Q23",
+      "format": "single",
+      "difficulty": "Hard",
+      "expected_time_sec": 140,
+      "text": "A person saves 10% of his salary. If salary rises 12% and expenditure rises 10%, the change in his monthly saving is:",
+      "options": {
+        "A": "20% increase",
+        "B": "30% increase",
+        "C": "3% decrease",
+        "D": "2% decrease"
+      },
+      "answer": "B",
+      "explanation": "Salary 100, saving 10, expenditure 90. New salary 112, new expenditure 99, new saving 13. Saving rises 10→13 = 30% increase.",
+      "elimination_path": "Plug the answer options back in, or estimate the magnitude, to discard impossible values fast.",
+      "diagnoses": [
+        "quantaptitude",
+        "percentages",
+        "2026",
+        "official-paper",
+        "csat"
+      ]
+    },
+    {
+      "question_id": "P2026CSAT-024",
+      "num": 24,
+      "subject": "Reasoning",
+      "topic": "Blood relations",
+      "subtopic": "UPSC 2026 Prelims CSAT (Paper II) — Q24",
+      "format": "single",
+      "difficulty": "Medium",
+      "expected_time_sec": 115,
+      "text": "P has a son and a daughter. S is T's mother and R's spouse. Q and R are children of P. How is Q related to S?",
+      "options": {
+        "A": "Q is a sister of S",
+        "B": "Q is a daughter of S",
+        "C": "Q is the mother of S",
+        "D": "Q is a sister of the husband of S"
+      },
+      "answer": "D",
+      "explanation": "Q and R are P's children; S is R's spouse and T's mother. With P having one son and one daughter, R is S's husband and Q is R's sister — so Q is the sister of S's husband.",
+      "elimination_path": "Build the grid or diagram from the fixed clues first, then test each option against it.",
+      "diagnoses": [
+        "reasoning",
+        "blood-relations",
+        "2026",
+        "official-paper",
+        "csat"
+      ]
+    },
+    {
+      "question_id": "P2026CSAT-025",
+      "num": 25,
+      "subject": "Maths",
+      "topic": "Powers of 2",
+      "subtopic": "UPSC 2026 Prelims CSAT (Paper II) — Q25",
+      "format": "single",
+      "difficulty": "Hard",
+      "expected_time_sec": 140,
+      "text": "How many three-digit numbers can be expressed as an integral power of 2?",
+      "options": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "4"
+      },
+      "answer": "C",
+      "explanation": "Three-digit powers of 2 are 2^7=128, 2^8=256, 2^9=512; 2^10=1024 is four-digit. So 3.",
+      "elimination_path": "Plug the answer options back in, or estimate the magnitude, to discard impossible values fast.",
+      "diagnoses": [
+        "quantaptitude",
+        "powers-of-2",
+        "2026",
+        "official-paper",
+        "csat"
+      ]
+    },
+    {
+      "question_id": "P2026CSAT-026",
+      "num": 26,
+      "subject": "ReadingComprehension",
+      "topic": "Inference",
+      "subtopic": "UPSC 2026 Prelims CSAT (Paper II) — Q26",
+      "format": "single",
+      "difficulty": "Medium",
+      "expected_time_sec": 100,
+      "text": "PASSAGE — The key source of the battle for clean skies and clear lungs is the fuel we burn — from household chulhas to thermal power plants. In most cases it is biomass or coal. The Supreme Court banned pet coke — the dirtiest of such fuels. The Delhi Government banned coal, later extended to the entire NCR. It was also agreed that thermal power plants would clean up or shut down; action on this has been patchy. The lesson from the transition to CNG is that people need alternatives for a ban to be effective. When diesel buses were stopped, CNG supply had to be assured, and it had to be feasible in cost. The Supreme Court agreed that fiscal measures were needed to keep clean fuel cheaper than dirty fuel. Now even as coal is banned, the price of natural gas makes industry uncompetitive.\n\nWhich inferences is/are correct?\n1. The source of the energy we consume is key to the battle for cleaner air.\n2. Bans are effective where the will is strong and people are convinced they serve the greater good.\n3. There is judicial approval for fiscal intervention to keep cleaner fuel cheaper.",
+      "options": {
+        "A": "1 and 2",
+        "B": "2 and 3",
+        "C": "1 and 3",
+        "D": "1 only"
+      },
+      "answer": "C",
+      "explanation": "Fuel choice is central to clean air (1 valid), and the Supreme Court approved fiscal measures to keep clean fuel cheaper (3 valid). Statement 2 about \"will\" and conviction is too broad and not directly supported.",
+      "elimination_path": "Re-read only the lines the options paraphrase; reject any option that adds a claim the passage never makes.",
+      "diagnoses": [
+        "comprehension",
+        "inference",
+        "2026",
+        "official-paper",
+        "csat"
+      ]
+    },
+    {
+      "question_id": "P2026CSAT-027",
+      "num": 27,
+      "subject": "ReadingComprehension",
+      "topic": "Correct statements",
+      "subtopic": "UPSC 2026 Prelims CSAT (Paper II) — Q27",
+      "format": "single",
+      "difficulty": "Medium",
+      "expected_time_sec": 100,
+      "text": "PASSAGE — The key source of the battle for clean skies and clear lungs is the fuel we burn — from household chulhas to thermal power plants. In most cases it is biomass or coal. The Supreme Court banned pet coke — the dirtiest of such fuels. The Delhi Government banned coal, later extended to the entire NCR. It was also agreed that thermal power plants would clean up or shut down; action on this has been patchy. The lesson from the transition to CNG is that people need alternatives for a ban to be effective. When diesel buses were stopped, CNG supply had to be assured, and it had to be feasible in cost. The Supreme Court agreed that fiscal measures were needed to keep clean fuel cheaper than dirty fuel. Now even as coal is banned, the price of natural gas makes industry uncompetitive.\n\nWhich statements is/are correct?\n1. Thermal power stations in Delhi were required to summarily shut down.\n2. CNG supplies had to be assured once diesel vehicles were prohibited.\n3. The Supreme Court banned coal across the NCR.",
+      "options": {
+        "A": "1 and 2",
+        "B": "3 only",
+        "C": "2 only",
+        "D": "2 and 3"
+      },
+      "answer": "C",
+      "explanation": "CNG supply had to be assured after diesel buses stopped (2 correct). The passage does not say Delhi thermal plants must summarily shut down (1 wrong), and the coal ban was by the Delhi Government, not the Supreme Court (3 wrong).",
+      "elimination_path": "Re-read only the lines the options paraphrase; reject any option that adds a claim the passage never makes.",
+      "diagnoses": [
+        "comprehension",
+        "correct-statements",
+        "2026",
+        "official-paper",
+        "csat"
+      ]
+    },
+    {
+      "question_id": "P2026CSAT-028",
+      "num": 28,
+      "subject": "Reasoning",
+      "topic": "Syllogism",
+      "subtopic": "UPSC 2026 Prelims CSAT (Paper II) — Q28",
+      "format": "single",
+      "difficulty": "Medium",
+      "expected_time_sec": 115,
+      "text": "Every red is blue. Every blue is green. Every green is yellow. Which are correct?\nP. Every blue is yellow.\nQ. Every red is green.\nR. Every red is yellow.",
+      "options": {
+        "A": "P and Q only",
+        "B": "Q and R only",
+        "C": "P and R only",
+        "D": "P, Q and R"
+      },
+      "answer": "D",
+      "explanation": "Every red→blue→green→yellow. Hence every blue is yellow (P), every red is green (Q), every red is yellow (R). All three follow.",
+      "elimination_path": "Build the grid or diagram from the fixed clues first, then test each option against it.",
+      "diagnoses": [
+        "reasoning",
+        "syllogism",
+        "2026",
+        "official-paper",
+        "csat"
+      ]
+    },
+    {
+      "question_id": "P2026CSAT-029",
+      "num": 29,
+      "subject": "Maths",
+      "topic": "Digit counting",
+      "subtopic": "UPSC 2026 Prelims CSAT (Paper II) — Q29",
+      "format": "single",
+      "difficulty": "Hard",
+      "expected_time_sec": 140,
+      "text": "How many times does 5 appear in all two-digit positive integers?",
+      "options": {
+        "A": "18",
+        "B": "19",
+        "C": "20",
+        "D": "21"
+      },
+      "answer": "B",
+      "explanation": "Two-digit numbers containing the digit 5: 15,25,35,45, 50–59, 65,75,85,95 — that is 19 numbers (the item counts numbers containing 5, not total occurrences).",
+      "elimination_path": "Plug the answer options back in, or estimate the magnitude, to discard impossible values fast.",
+      "diagnoses": [
+        "quantaptitude",
+        "digit-counting",
+        "2026",
+        "official-paper",
+        "csat"
+      ]
+    },
+    {
+      "question_id": "P2026CSAT-030",
+      "num": 30,
+      "subject": "Maths",
+      "topic": "Average speed",
+      "subtopic": "UPSC 2026 Prelims CSAT (Paper II) — Q30",
+      "format": "single",
+      "difficulty": "Hard",
+      "expected_time_sec": 140,
+      "text": "X cycles 6 km at 5, 10 and 4 km/h over the first 1 km, next 2 km and last 3 km. Y covers the same distances at 4, 10 and 5 km/h. If both start together, how many minutes early does Y finish?",
+      "options": {
+        "A": "3",
+        "B": "4",
+        "C": "5",
+        "D": "6"
+      },
+      "answer": "D",
+      "explanation": "X: 1/5+2/10+3/4 = 1.15 h = 69 min. Y: 1/4+2/10+3/5 = 1.05 h = 63 min. Y is earlier by 6 minutes.",
+      "elimination_path": "Plug the answer options back in, or estimate the magnitude, to discard impossible values fast.",
+      "diagnoses": [
+        "quantaptitude",
+        "average-speed",
+        "2026",
+        "official-paper",
+        "csat"
+      ]
+    },
+    {
+      "question_id": "P2026CSAT-031",
+      "num": 31,
+      "subject": "Reasoning",
+      "topic": "Weighing puzzle",
+      "subtopic": "UPSC 2026 Prelims CSAT (Paper II) — Q31",
+      "format": "single",
+      "difficulty": "Medium",
+      "expected_time_sec": 115,
+      "text": "Seven identical-looking cubes: six weigh the same, one is lighter. Using a balance, what is the minimum number of weighings to identify the odd cube with certainty?",
+      "options": {
+        "A": "2",
+        "B": "3",
+        "C": "4",
+        "D": "1"
+      },
+      "answer": "A",
+      "explanation": "Weigh 3 vs 3. If equal, the 7th is the light one. If not, the lighter group of 3 holds it; weigh 1 vs 1 from that group. Minimum 2 attempts.",
+      "elimination_path": "Build the grid or diagram from the fixed clues first, then test each option against it.",
+      "diagnoses": [
+        "reasoning",
+        "weighing-puzzle",
+        "2026",
+        "official-paper",
+        "csat"
+      ]
+    },
+    {
+      "question_id": "P2026CSAT-032",
+      "num": 32,
+      "subject": "ReadingComprehension",
+      "topic": "Main point",
+      "subtopic": "UPSC 2026 Prelims CSAT (Paper II) — Q32",
+      "format": "single",
+      "difficulty": "Medium",
+      "expected_time_sec": 100,
+      "text": "PASSAGE — Previous waves of customer-service technology, including email and those pesky voice menus, stoked concerns of job losses, only for them to fail to materialise. AI could yet prove different. And if it does, its effects may be salutary. Human agents could be freed up to spend more time on creative and rewarding tasks, like using feedback to make products and services better — and thereby spend less time listening to irate customers!\n\nWhich statement most appropriately reflects the passage's point of view?",
+      "options": {
+        "A": "If AI takes over customer service, no work is left for humans.",
+        "B": "Voice menus and email could not achieve human redundancy to the extent AI might.",
+        "C": "The value of human intervention may be enhanced through redirection toward more fulfilling tasks.",
+        "D": "Unlike previous waves, AI has raised the alarm of worker replacement."
+      },
+      "answer": "C",
+      "explanation": "The passage says AI may free human agents for more creative, rewarding work — so the value of human intervention is enhanced through redirection toward fulfilling tasks.",
+      "elimination_path": "Re-read only the lines the options paraphrase; reject any option that adds a claim the passage never makes.",
+      "diagnoses": [
+        "comprehension",
+        "main-point",
+        "2026",
+        "official-paper",
+        "csat"
+      ]
+    },
+    {
+      "question_id": "P2026CSAT-033",
+      "num": 33,
+      "subject": "ReadingComprehension",
+      "topic": "Conclusions",
+      "subtopic": "UPSC 2026 Prelims CSAT (Paper II) — Q33",
+      "format": "single",
+      "difficulty": "Medium",
+      "expected_time_sec": 100,
+      "text": "PASSAGE — Previous waves of customer-service technology, including email and those pesky voice menus, stoked concerns of job losses, only for them to fail to materialise. AI could yet prove different. And if it does, its effects may be salutary. Human agents could be freed up to spend more time on creative and rewarding tasks, like using feedback to make products and services better — and thereby spend less time listening to irate customers!\n\nWhich conclusions is/are correct?\n1. The advent of new customer-service technology had invariably sparked fears of job losses.\n2. Instead of job losses, alternative channels for employee engagement are often found while some tasks are replaced.\n3. The advent of technology inevitably leads to stressful outcomes.",
+      "options": {
+        "A": "1 and 3",
+        "B": "2 only",
+        "C": "3 only",
+        "D": "1 and 2"
+      },
+      "answer": "D",
+      "explanation": "New customer-service technology has repeatedly sparked job-loss fears that did not materialise (1), and technology often redirects employees to alternative engagement while replacing some tasks (2). It does not say technology inevitably causes stress (3 wrong).",
+      "elimination_path": "Re-read only the lines the options paraphrase; reject any option that adds a claim the passage never makes.",
+      "diagnoses": [
+        "comprehension",
+        "conclusions",
+        "2026",
+        "official-paper",
+        "csat"
+      ]
+    },
+    {
+      "question_id": "P2026CSAT-034",
+      "num": 34,
+      "subject": "ReadingComprehension",
+      "topic": "Conclusions",
+      "subtopic": "UPSC 2026 Prelims CSAT (Paper II) — Q34",
+      "format": "single",
+      "difficulty": "Medium",
+      "expected_time_sec": 100,
+      "text": "PASSAGE — Cattle from the nearby villages came to the common ground to graze, and there was still a cool freshness in the air. Hori took several deep breaths and thought of sitting down for a while, since he'd be dying of heat in the scorching 'loo' wind the rest of the day. A number of farmers were eager to lease this bit of land and had offered a good price, but Rai Sahib — God bless him — had plainly told them it was reserved for grazing and would not be relinquished for any price. If he'd been one of those selfish Zamindars, he'd have said the cattle could go to hell. But the Rai Sahib still held to the old values, feeling that any landlord who didn't look after his tenants was less than human.\n\nWhich conclusions is/are correct?\n1. All landlords essentially have some goodness trapped within them.\n2. The common grazing ground of a village is intended for the cattle of that village.\n3. Landlords who believe in tradition tend to be more concerned about their tenants.\n4. Winds later in the day tend to be cooler than the hot morning winds.",
+      "options": {
+        "A": "1 and 3",
+        "B": "2 and 4",
+        "C": "3 only",
+        "D": "2 only"
+      },
+      "answer": "D",
+      "explanation": "Official key was published ambiguous (c/d). Statement 2 is directly supported — the common ground is for village cattle to graze. Statement 3 is arguable. Scored as (d) 2 only.",
+      "elimination_path": "Re-read only the lines the options paraphrase; reject any option that adds a claim the passage never makes.",
+      "diagnoses": [
+        "comprehension",
+        "conclusions",
+        "2026",
+        "official-paper",
+        "csat",
+        "key-disputed"
+      ]
+    },
+    {
+      "question_id": "P2026CSAT-035",
+      "num": 35,
+      "subject": "ReadingComprehension",
+      "topic": "Not-correct",
+      "subtopic": "UPSC 2026 Prelims CSAT (Paper II) — Q35",
+      "format": "single",
+      "difficulty": "Medium",
+      "expected_time_sec": 100,
+      "text": "PASSAGE — Cattle from the nearby villages came to the common ground to graze, and there was still a cool freshness in the air. Hori took several deep breaths and thought of sitting down for a while, since he'd be dying of heat in the scorching 'loo' wind the rest of the day. A number of farmers were eager to lease this bit of land and had offered a good price, but Rai Sahib — God bless him — had plainly told them it was reserved for grazing and would not be relinquished for any price. If he'd been one of those selfish Zamindars, he'd have said the cattle could go to hell. But the Rai Sahib still held to the old values, feeling that any landlord who didn't look after his tenants was less than human.\n\nWhich statements are NOT correct?\n1. Rai Sahib's landholdings were currently not being used for farming.\n2. Rai Sahib was temperamentally as greedy as other landlords.\n3. It cannot be ascertained that Rai Sahib could have made money by leasing the grazing land.\n4. Rai Sahib valued his tenants and wanted to protect their livelihood.",
+      "options": {
+        "A": "1 and 2 only",
+        "B": "1 and 3 only",
+        "C": "3 and 4",
+        "D": "1, 2 and 3"
+      },
+      "answer": "D",
+      "explanation": "1 is too broad (only this plot is grazing land). 2 is wrong — Rai Sahib is shown as not greedy. 3 is wrong — farmers offered a good price, so he could have earned money. 4 is correct. Not-correct statements: 1, 2 and 3.",
+      "elimination_path": "Re-read only the lines the options paraphrase; reject any option that adds a claim the passage never makes.",
+      "diagnoses": [
+        "comprehension",
+        "not-correct",
+        "2026",
+        "official-paper",
+        "csat"
+      ]
+    },
+    {
+      "question_id": "P2026CSAT-036",
+      "num": 36,
+      "subject": "Reasoning",
+      "topic": "Direction sense",
+      "subtopic": "UPSC 2026 Prelims CSAT (Paper II) — Q36",
+      "format": "single",
+      "difficulty": "Medium",
+      "expected_time_sec": 115,
+      "text": "Facing East, a person walks 4 km, turns right and walks 3 km, turns left and walks 2 km, then turns left and walks 3 km. The minimum distance between start and end, and the final facing direction, are:",
+      "options": {
+        "A": "12 km, East",
+        "B": "6 km, East",
+        "C": "8 km, North",
+        "D": "6 km, North"
+      },
+      "answer": "D",
+      "explanation": "East 4, right→south 3, left→east 2, left→north 3. Net 6 km east, 0 km north; person faces north. Minimum distance 6 km, facing North.",
+      "elimination_path": "Build the grid or diagram from the fixed clues first, then test each option against it.",
+      "diagnoses": [
+        "reasoning",
+        "direction-sense",
+        "2026",
+        "official-paper",
+        "csat"
+      ]
+    },
+    {
+      "question_id": "P2026CSAT-037",
+      "num": 37,
+      "subject": "Maths",
+      "topic": "Fibonacci-type",
+      "subtopic": "UPSC 2026 Prelims CSAT (Paper II) — Q37",
+      "format": "single",
+      "difficulty": "Hard",
+      "expected_time_sec": 140,
+      "text": "Each number after the first two is the sum of the two preceding it. If the first two are 4 and 7, the sixth number is:",
+      "options": {
+        "A": "29",
+        "B": "37",
+        "C": "43",
+        "D": "47"
+      },
+      "answer": "D",
+      "explanation": "4, 7, 11, 18, 29, 47 — each term is the sum of the previous two; the sixth term is 47.",
+      "elimination_path": "Plug the answer options back in, or estimate the magnitude, to discard impossible values fast.",
+      "diagnoses": [
+        "quantaptitude",
+        "fibonacci-type",
+        "2026",
+        "official-paper",
+        "csat"
+      ]
+    },
+    {
+      "question_id": "P2026CSAT-038",
+      "num": 38,
+      "subject": "Maths",
+      "topic": "Ratios",
+      "subtopic": "UPSC 2026 Prelims CSAT (Paper II) — Q38",
+      "format": "single",
+      "difficulty": "Hard",
+      "expected_time_sec": 140,
+      "text": "The male:female ratio in companies A and B is 13:10 and 7:5. If both have the same number of female workers, the ratio of total workers in A to B is:",
+      "options": {
+        "A": "24 : 23",
+        "B": "23 : 24",
+        "C": "18 : 17",
+        "D": "27 : 18"
+      },
+      "answer": "B",
+      "explanation": "A male:female = 13:10 (23 parts). For equal females, scale B (7:5) to 14:10 (24 parts). With equal female counts, total ratio A:B = 23:24.",
+      "elimination_path": "Plug the answer options back in, or estimate the magnitude, to discard impossible values fast.",
+      "diagnoses": [
+        "quantaptitude",
+        "ratios",
+        "2026",
+        "official-paper",
+        "csat"
+      ]
+    },
+    {
+      "question_id": "P2026CSAT-039",
+      "num": 39,
+      "subject": "Maths",
+      "topic": "HCF & LCM",
+      "subtopic": "UPSC 2026 Prelims CSAT (Paper II) — Q39",
+      "format": "single",
+      "difficulty": "Hard",
+      "expected_time_sec": 140,
+      "text": "If the product of the HCF and LCM of two distinct numbers equals the cube of one of them, which is/are correct?\nI. The difference of the numbers is even.\nII. One of the numbers is a perfect square.",
+      "options": {
+        "A": "I only",
+        "B": "II only",
+        "C": "Both I and II",
+        "D": "Neither I nor II"
+      },
+      "answer": "C",
+      "explanation": "HCF×LCM = ab. If this equals the cube of one number, the other equals its square. Then the difference a²−a = a(a−1) is even, and one number is a perfect square. Both I and II hold.",
+      "elimination_path": "Plug the answer options back in, or estimate the magnitude, to discard impossible values fast.",
+      "diagnoses": [
+        "quantaptitude",
+        "hcf-lcm",
+        "2026",
+        "official-paper",
+        "csat"
+      ]
+    },
+    {
+      "question_id": "P2026CSAT-040",
+      "num": 40,
+      "subject": "Maths",
+      "topic": "Divisibility by 11",
+      "subtopic": "UPSC 2026 Prelims CSAT (Paper II) — Q40",
+      "format": "single",
+      "difficulty": "Hard",
+      "expected_time_sec": 140,
+      "text": "If x and y are digits and 4x5y790 is divisible by 11, what is the remainder when x + y is divided by 11?",
+      "options": {
+        "A": "1",
+        "B": "3",
+        "C": "5",
+        "D": "7"
+      },
+      "answer": "D",
+      "explanation": "For 4x5y790 divisible by 11: (4+5+7+0) − (x+y+9) = 7 − (x+y) is a multiple of 11, so x+y = 7 or 18. In both cases (x+y) mod 11 = 7.",
+      "elimination_path": "Plug the answer options back in, or estimate the magnitude, to discard impossible values fast.",
+      "diagnoses": [
+        "quantaptitude",
+        "divisibility-by-11",
+        "2026",
+        "official-paper",
+        "csat"
+      ]
+    },
+    {
+      "question_id": "P2026CSAT-041",
+      "num": 41,
+      "subject": "ReadingComprehension",
+      "topic": "Tone & meaning",
+      "subtopic": "UPSC 2026 Prelims CSAT (Paper II) — Q41",
+      "format": "single",
+      "difficulty": "Medium",
+      "expected_time_sec": 100,
+      "text": "PASSAGE — Whatever the reason, Hugh Grant, the actor, deserves empathy. There he was, in the Royal Box at Wimbledon, flanked by Britain's well-dressed and well-rested spectators, watching the men's singles quarterfinals between Flavio Cobolli and Novak Djokovic on Centre Court, when the actor did something quietly radical: head at a tilt, eyes closed, utterly unbothered, he took a nap. So praise be to Grant for serving up an unexpected ace. In that small, delicious moment, he didn't merely catch forty winks, he made an elegant case for surrender. Not to laziness, but to limits — to the body's quiet wisdom over society's relentless performance metrics. Wimbledon had its tennis. The perpetually sleep-deprived discovered a leading man, not of action, but of rest.\n\nWhich statements is/are correct?\n1. Radical action can be attributed to mild surrender when one acts against societal expectations.\n2. Submitting to one's limitations, given age and other factors, should not be conflated with laziness.\n3. \"Leading man\" usually means the lead role in a movie; here it implies Grant plays a resting hero, not an action one.",
+      "options": {
+        "A": "1 and 2 only",
+        "B": "2 and 3 only",
+        "C": "1, 2 and 3",
+        "D": "3 only"
+      },
+      "answer": "C",
+      "explanation": "All three match the passage: the nap is quiet rebellion against performance pressure, not laziness; \"leading man\" is used playfully to cast Grant as a symbol of rest. So 1, 2 and 3.",
+      "elimination_path": "Re-read only the lines the options paraphrase; reject any option that adds a claim the passage never makes.",
+      "diagnoses": [
+        "comprehension",
+        "tone-meaning",
+        "2026",
+        "official-paper",
+        "csat"
+      ]
+    },
+    {
+      "question_id": "P2026CSAT-042",
+      "num": 42,
+      "subject": "ReadingComprehension",
+      "topic": "Correct statements",
+      "subtopic": "UPSC 2026 Prelims CSAT (Paper II) — Q42",
+      "format": "single",
+      "difficulty": "Medium",
+      "expected_time_sec": 100,
+      "text": "PASSAGE — Whatever the reason, Hugh Grant, the actor, deserves empathy. There he was, in the Royal Box at Wimbledon, flanked by Britain's well-dressed and well-rested spectators, watching the men's singles quarterfinals between Flavio Cobolli and Novak Djokovic on Centre Court, when the actor did something quietly radical: head at a tilt, eyes closed, utterly unbothered, he took a nap. So praise be to Grant for serving up an unexpected ace. In that small, delicious moment, he didn't merely catch forty winks, he made an elegant case for surrender. Not to laziness, but to limits — to the body's quiet wisdom over society's relentless performance metrics. Wimbledon had its tennis. The perpetually sleep-deprived discovered a leading man, not of action, but of rest.\n\nWhich statements is/are correct?\n1. Grant was watching the men's semifinal between Cobolli and Djokovic.\n2. \"Unexpected ace\" uses a tennis term for Grant's act of catching forty winks, viewed with opprobrium.\n3. Grant subjects society's demands to the wisdom of his body.",
+      "options": {
+        "A": "1 and 2",
+        "B": "3 only",
+        "C": "2 and 3",
+        "D": "2 only"
+      },
+      "answer": "B",
+      "explanation": "Official key was published ambiguous (b/c). Statement 1 is wrong — the match was a quarterfinal, not a semifinal. Statement 3 is clearly correct — Grant follows his body over society's demands. Statement 2 (\"opprobrium\") is not supported by the approving tone. Scored as (b) 3 only.",
+      "elimination_path": "Re-read only the lines the options paraphrase; reject any option that adds a claim the passage never makes.",
+      "diagnoses": [
+        "comprehension",
+        "correct-statements",
+        "2026",
+        "official-paper",
+        "csat",
+        "key-disputed"
+      ]
+    },
+    {
+      "question_id": "P2026CSAT-043",
+      "num": 43,
+      "subject": "ReadingComprehension",
+      "topic": "Conclusions",
+      "subtopic": "UPSC 2026 Prelims CSAT (Paper II) — Q43",
+      "format": "single",
+      "difficulty": "Medium",
+      "expected_time_sec": 100,
+      "text": "PASSAGE — The process by which countries close their labour-productivity gap with the technology leader is based on convergence theory. The convergence model divides economic eras into three phases: the breakaway, the catch-up, and the fine-tuning phase. It also divides economic entities into two categories: technology leaders and technology followers. The process begins with the development of a new technology, such as scavenging three million years ago, hunting one million years ago, farming twelve thousand years ago, and industrial technology a little more than 200 years ago. During the breakaway phase, the per-capita income of leaders rises but is unchanged for followers. In the catch-up phase, followers adopt the new technology and close their per-capita income gap with the leaders. In the fine-tuning phase, where participants try to extract the remaining benefits from an increasingly exhausted technology, leaders and followers have similar per-capita incomes.\n\nWhich conclusions are correct?\n1. In the breakaway phase, economic progress is slow for technology followers.\n2. In the catch-up phase, leaders stagnate and so followers close the gap.\n3. In the fine-tuning phase, technology is exhausted and both extract leftover benefits, reaching similar per-capita incomes.\n4. Industrial technology followed scavenging, which preceded hunting, which was followed by farming.",
+      "options": {
+        "A": "3 and 4 only",
+        "B": "1, 2, 3 and 4",
+        "C": "1 and 2 only",
+        "D": "2, 3 and 4 only"
+      },
+      "answer": "A",
+      "explanation": "In the fine-tuning phase both leaders and followers extract remaining benefits and reach similar incomes (3 correct), and the era sequence scavenging→hunting→farming→industrial is right (4 correct). 1 and 2 distort the passage.",
+      "elimination_path": "Re-read only the lines the options paraphrase; reject any option that adds a claim the passage never makes.",
+      "diagnoses": [
+        "comprehension",
+        "conclusions",
+        "2026",
+        "official-paper",
+        "csat"
+      ]
+    },
+    {
+      "question_id": "P2026CSAT-044",
+      "num": 44,
+      "subject": "ReadingComprehension",
+      "topic": "Correct statements",
+      "subtopic": "UPSC 2026 Prelims CSAT (Paper II) — Q44",
+      "format": "single",
+      "difficulty": "Medium",
+      "expected_time_sec": 100,
+      "text": "PASSAGE — The process by which countries close their labour-productivity gap with the technology leader is based on convergence theory. The convergence model divides economic eras into three phases: the breakaway, the catch-up, and the fine-tuning phase. It also divides economic entities into two categories: technology leaders and technology followers. The process begins with the development of a new technology, such as scavenging three million years ago, hunting one million years ago, farming twelve thousand years ago, and industrial technology a little more than 200 years ago. During the breakaway phase, the per-capita income of leaders rises but is unchanged for followers. In the catch-up phase, followers adopt the new technology and close their per-capita income gap with the leaders. In the fine-tuning phase, where participants try to extract the remaining benefits from an increasingly exhausted technology, leaders and followers have similar per-capita incomes.\n\nWhich statements is/are correct?\n1. The convergence model divides nations into three phases of economic progress.\n2. At the heart of the theory is closing the gap between labour and productivity.\n3. Technology leaders typically arrive earlier at different economic eras.\n4. The period covered encompasses 4,012,200 years.",
+      "options": {
+        "A": "2 and 4",
+        "B": "2 and 3",
+        "C": "3 only",
+        "D": "1, 3 and 4"
+      },
+      "answer": "C",
+      "explanation": "The model divides economic eras (not nations) into phases, and concerns the labour-productivity gap with the leader (not a \"labour vs productivity\" gap). Technology leaders arrive earlier in new eras (3 correct only).",
+      "elimination_path": "Re-read only the lines the options paraphrase; reject any option that adds a claim the passage never makes.",
+      "diagnoses": [
+        "comprehension",
+        "correct-statements",
+        "2026",
+        "official-paper",
+        "csat"
+      ]
+    },
+    {
+      "question_id": "P2026CSAT-045",
+      "num": 45,
+      "subject": "Maths",
+      "topic": "Alligation",
+      "subtopic": "UPSC 2026 Prelims CSAT (Paper II) — Q45",
+      "format": "single",
+      "difficulty": "Hard",
+      "expected_time_sec": 140,
+      "text": "Alloy P is 20% copper, 80% zinc; alloy Q is 60% copper, 40% zinc. To make alloy R with equal copper and zinc, in what ratio should P and Q be mixed?",
+      "options": {
+        "A": "1 : 3",
+        "B": "3 : 1",
+        "C": "2 : 3",
+        "D": "3 : 2"
+      },
+      "answer": "A",
+      "explanation": "P is 20% copper, Q is 60% copper; R must be 50% copper. 20a+60b = 50(a+b) ⇒ 10b = 30a ⇒ a:b = 1:3.",
+      "elimination_path": "Plug the answer options back in, or estimate the magnitude, to discard impossible values fast.",
+      "diagnoses": [
+        "quantaptitude",
+        "alligation",
+        "2026",
+        "official-paper",
+        "csat"
+      ]
+    },
+    {
+      "question_id": "P2026CSAT-046",
+      "num": 46,
+      "subject": "Maths",
+      "topic": "Reversed digits",
+      "subtopic": "UPSC 2026 Prelims CSAT (Paper II) — Q46",
+      "format": "single",
+      "difficulty": "Hard",
+      "expected_time_sec": 140,
+      "text": "A is a two-digit number with different digits and B reverses its digits. If A − B is a multiple of 27 (A > B), how many different A are possible?",
+      "options": {
+        "A": "6",
+        "B": "9",
+        "C": "12",
+        "D": "18"
+      },
+      "answer": "B",
+      "explanation": "A−B = 9(a−b). For a multiple of 27, (a−b) must be a multiple of 3, with b≠0 for B to be two-digit. The valid pairs give 9 values of A.",
+      "elimination_path": "Plug the answer options back in, or estimate the magnitude, to discard impossible values fast.",
+      "diagnoses": [
+        "quantaptitude",
+        "reversed-digits",
+        "2026",
+        "official-paper",
+        "csat"
+      ]
+    },
+    {
+      "question_id": "P2026CSAT-047",
+      "num": 47,
+      "subject": "Reasoning",
+      "topic": "Coding",
+      "subtopic": "UPSC 2026 Prelims CSAT (Paper II) — Q47",
+      "format": "single",
+      "difficulty": "Medium",
+      "expected_time_sec": 115,
+      "text": "If ZERO is encoded as ADSN, then STOP is encoded as:",
+      "options": {
+        "A": "SPOT",
+        "B": "TSPO",
+        "C": "TSOP",
+        "D": "POST"
+      },
+      "answer": "B",
+      "explanation": "ZERO→ADSN uses alternating shifts +1,−1,+1,−1. Applying the same to STOP: S→T, T→S, O→P, P→O = TSPO.",
+      "elimination_path": "Build the grid or diagram from the fixed clues first, then test each option against it.",
+      "diagnoses": [
+        "reasoning",
+        "coding",
+        "2026",
+        "official-paper",
+        "csat"
+      ]
+    },
+    {
+      "question_id": "P2026CSAT-048",
+      "num": 48,
+      "subject": "Maths",
+      "topic": "Tiling",
+      "subtopic": "UPSC 2026 Prelims CSAT (Paper II) — Q48",
+      "format": "single",
+      "difficulty": "Hard",
+      "expected_time_sec": 140,
+      "text": "Tiles of 3'×3', 3'×7' and 3'×11' must cover a 3'×100' area exactly without breaking. If x and y are the maximum and minimum numbers of tiles usable, then x − y is:",
+      "options": {
+        "A": "20",
+        "B": "12",
+        "C": "10",
+        "D": "7"
+      },
+      "answer": "A",
+      "explanation": "Max tiles: 31 tiles of 3 ft + one 7 ft tile = 100 ft → 32 tiles. Min tiles: 8 tiles of 11 ft + 4 tiles of 3 ft = 100 ft → 12 tiles. x − y = 32 − 12 = 20.",
+      "elimination_path": "Plug the answer options back in, or estimate the magnitude, to discard impossible values fast.",
+      "diagnoses": [
+        "quantaptitude",
+        "tiling",
+        "2026",
+        "official-paper",
+        "csat"
+      ]
+    },
+    {
+      "question_id": "P2026CSAT-049",
+      "num": 49,
+      "subject": "Maths",
+      "topic": "Variable speed",
+      "subtopic": "UPSC 2026 Prelims CSAT (Paper II) — Q49",
+      "format": "single",
+      "difficulty": "Hard",
+      "expected_time_sec": 140,
+      "text": "On an 800 km journey, an accident halves the speed and a defect quarters the existing speed. The train has an accident after 200 km, then a defect 400 km later. Had the defect come after 200 km and the accident 400 km later, it would take 4 hours more. The original speed (km/h) was:",
+      "options": {
+        "A": "200",
+        "B": "190",
+        "C": "150",
+        "D": "100"
+      },
+      "answer": "A",
+      "explanation": "Case 1 (accident then defect): time = 200/v + 400/(v/2) + 200/(v/8) = 2600/v. Case 2 (defect then accident): 200/v + 400/(v/4) + 200/(v/8) = 3400/v. Difference 800/v = 4 ⇒ v = 200 km/h.",
+      "elimination_path": "Plug the answer options back in, or estimate the magnitude, to discard impossible values fast.",
+      "diagnoses": [
+        "quantaptitude",
+        "variable-speed",
+        "2026",
+        "official-paper",
+        "csat"
+      ]
+    },
+    {
+      "question_id": "P2026CSAT-050",
+      "num": 50,
+      "subject": "Maths",
+      "topic": "Weighted scores",
+      "subtopic": "UPSC 2026 Prelims CSAT (Paper II) — Q50",
+      "format": "single",
+      "difficulty": "Hard",
+      "expected_time_sec": 140,
+      "text": "Selection uses three components weighted 0.2, 0.3, 0.5. Scores — C1:(5,4,6), C2:(4,6,5), C3:(3,2,8), C4:(9,4,3), C5:(8,8,2). The cutoff score to select exactly three candidates is:",
+      "options": {
+        "A": "5.1",
+        "B": "5.2",
+        "C": "5.3",
+        "D": "5.4"
+      },
+      "answer": "A",
+      "explanation": "With weights 0.2/0.3/0.5: C1=5.2, C2=5.1, C3=5.2, C4=4.5, C5=5.0. The top three are C1, C3, C2, so the cutoff to select exactly three is 5.1.",
+      "elimination_path": "Plug the answer options back in, or estimate the magnitude, to discard impossible values fast.",
+      "diagnoses": [
+        "quantaptitude",
+        "weighted-scores",
+        "2026",
+        "official-paper",
+        "csat"
+      ]
+    },
+    {
+      "question_id": "P2026CSAT-051",
+      "num": 51,
+      "subject": "Reasoning",
+      "topic": "Statement relations",
+      "subtopic": "UPSC 2026 Prelims CSAT (Paper II) — Q51",
+      "format": "single",
+      "difficulty": "Medium",
+      "expected_time_sec": 115,
+      "text": "S1: Protecting the environment is existential given degradation's impact on climate change. S2: Scientific consensus on the extent of human contribution to climate change is not achieved. S3: Environmental activism includes alarmism and extremist views often seized on by climate-change deniers. Which relations are correct?\n1. S3 is a counterpoint to S1.\n2. S3 is unconnected to S1 and S2.\n3. S2 could be the reason for S3.",
+      "options": {
+        "A": "2 and 3 only",
+        "B": "1, 2 and 3",
+        "C": "1 and 2 only",
+        "D": "3 only"
+      },
+      "answer": "D",
+      "explanation": "S3 is not a direct counterpoint to S1, and it is connected to the climate debate. S2 (incomplete scientific consensus) can be the reason climate deniers focus on alarmist/extremist activism (S3). Only relation 3 holds.",
+      "elimination_path": "Build the grid or diagram from the fixed clues first, then test each option against it.",
+      "diagnoses": [
+        "reasoning",
+        "statement-relations",
+        "2026",
+        "official-paper",
+        "csat"
+      ]
+    },
+    {
+      "question_id": "P2026CSAT-052",
+      "num": 52,
+      "subject": "Misc",
+      "topic": "Communication match",
+      "subtopic": "UPSC 2026 Prelims CSAT (Paper II) — Q52",
+      "format": "match_pairs",
+      "difficulty": "Easy",
+      "expected_time_sec": 70,
+      "text": "Match List-I (relationship) with List-II (communication type):\nA. Cricket captain and team members\nB. Judge and lawyers in court\nC. Vice Chancellor and Deputy Registrar\nD. Peers and coworkers\n1. Informal and firm  2. Informal and open-ended  3. Formal and open-ended  4. Formal and firm",
+      "options": {
+        "A": "A-1, B-3, C-4, D-2",
+        "B": "A-1, B-4, C-3, D-2",
+        "C": "A-2, B-4, C-3, D-1",
+        "D": "A-2, B-3, C-4, D-1"
+      },
+      "answer": "B",
+      "explanation": "Captain–team: informal and firm. Judge–lawyers: formal and firm. Vice Chancellor–Deputy Registrar: formal and open-ended. Peers/coworkers: informal and open-ended. A-1, B-4, C-3, D-2.",
+      "elimination_path": "Reject the extreme, passive, or culturally insensitive options; choose the balanced, proactive one.",
+      "diagnoses": [
+        "decisionmaking",
+        "communication-match",
+        "2026",
+        "official-paper",
+        "csat"
+      ]
+    },
+    {
+      "question_id": "P2026CSAT-053",
+      "num": 53,
+      "subject": "Misc",
+      "topic": "Communication tools",
+      "subtopic": "UPSC 2026 Prelims CSAT (Paper II) — Q53",
+      "format": "match_pairs",
+      "difficulty": "Easy",
+      "expected_time_sec": 70,
+      "text": "Match List-I (tool) with List-II (purpose):\nA. Memorandum\nB. Flyer\nC. Bcc\nD. Minutes\n1. To record decisions  2. To inform confidentially  3. To intimate a directive  4. To disseminate non-targeted information",
+      "options": {
+        "A": "A-1, B-4, C-2, D-3",
+        "B": "A-1, B-2, C-4, D-3",
+        "C": "A-3, B-4, C-2, D-1",
+        "D": "A-3, B-2, C-4, D-1"
+      },
+      "answer": "C",
+      "explanation": "Memorandum intimates a directive; Flyer disseminates non-targeted information; Bcc informs confidentially; Minutes record decisions. A-3, B-4, C-2, D-1.",
+      "elimination_path": "Reject the extreme, passive, or culturally insensitive options; choose the balanced, proactive one.",
+      "diagnoses": [
+        "decisionmaking",
+        "communication-tools",
+        "2026",
+        "official-paper",
+        "csat"
+      ]
+    },
+    {
+      "question_id": "P2026CSAT-054",
+      "num": 54,
+      "subject": "Misc",
+      "topic": "Conflict resolution",
+      "subtopic": "UPSC 2026 Prelims CSAT (Paper II) — Q54",
+      "format": "single",
+      "difficulty": "Easy",
+      "expected_time_sec": 70,
+      "text": "Which action(s) would be the most appropriate directive in resolving interpersonal conflict in a culturally diverse office?\n1. Direct personnel to practise activities that are cultural markers of diverse groups.\n2. Allow conflicts to resolve naturally over time to set a leadership precedent.\n3. Encourage personnel to seek each other's perspectives.",
+      "options": {
+        "A": "1 and 3",
+        "B": "2 only",
+        "C": "3 only",
+        "D": "2 and 3"
+      },
+      "answer": "C",
+      "explanation": "In a culturally diverse office, encouraging personnel to seek each other's perspectives is the appropriate directive. Forcing cultural practices (1) or passively waiting (2) are inappropriate.",
+      "elimination_path": "Reject the extreme, passive, or culturally insensitive options; choose the balanced, proactive one.",
+      "diagnoses": [
+        "decisionmaking",
+        "conflict-resolution",
+        "2026",
+        "official-paper",
+        "csat",
+        "decision-making-no-neg-in-real-exam"
+      ]
+    },
+    {
+      "question_id": "P2026CSAT-055",
+      "num": 55,
+      "subject": "Misc",
+      "topic": "Communication barriers",
+      "subtopic": "UPSC 2026 Prelims CSAT (Paper II) — Q55",
+      "format": "match_pairs",
+      "difficulty": "Easy",
+      "expected_time_sec": 70,
+      "text": "Match List-I (barrier) with List-II (example):\nA. Semantic\nB. Cognitive\nC. Organisational\nD. Affective\n1. Lack of feedback  2. Misunderstanding the meaning of a word  3. Fear of social stigma  4. Information overload",
+      "options": {
+        "A": "A-3, B-1, C-4, D-2",
+        "B": "A-3, B-4, C-1, D-2",
+        "C": "A-2, B-1, C-4, D-3",
+        "D": "A-2, B-4, C-1, D-3"
+      },
+      "answer": "D",
+      "explanation": "Semantic = misunderstanding a word's meaning; Cognitive = information overload; Organisational = lack of feedback; Affective = fear of social stigma. A-2, B-4, C-1, D-3.",
+      "elimination_path": "Reject the extreme, passive, or culturally insensitive options; choose the balanced, proactive one.",
+      "diagnoses": [
+        "decisionmaking",
+        "communication-barriers",
+        "2026",
+        "official-paper",
+        "csat"
+      ]
+    },
+    {
+      "question_id": "P2026CSAT-056",
+      "num": 56,
+      "subject": "Misc",
+      "topic": "Questionnaire design",
+      "subtopic": "UPSC 2026 Prelims CSAT (Paper II) — Q56",
+      "format": "single",
+      "difficulty": "Easy",
+      "expected_time_sec": 70,
+      "text": "To assess the feasibility of a family-oriented vacation resort near a mountain lake, which heads would you include in an on-location visitor questionnaire?\n1. Size of family  2. Budget  3. Number of earners in the family  4. Food allergies and dietary restrictions",
+      "options": {
+        "A": "1 and 3",
+        "B": "1, 2 and 4",
+        "C": "1 and 2 only",
+        "D": "2 and 3"
+      },
+      "answer": "C",
+      "explanation": "For resort feasibility, family size and budget are directly relevant. Number of earners and food allergies may matter later but are not core feasibility indicators. So 1 and 2 only.",
+      "elimination_path": "Reject the extreme, passive, or culturally insensitive options; choose the balanced, proactive one.",
+      "diagnoses": [
+        "decisionmaking",
+        "questionnaire-design",
+        "2026",
+        "official-paper",
+        "csat",
+        "decision-making-no-neg-in-real-exam"
+      ]
+    },
+    {
+      "question_id": "P2026CSAT-057",
+      "num": 57,
+      "subject": "Misc",
+      "topic": "Circular letters",
+      "subtopic": "UPSC 2026 Prelims CSAT (Paper II) — Q57",
+      "format": "single",
+      "difficulty": "Easy",
+      "expected_time_sec": 70,
+      "text": "Regarding circular letters, which is/are correct?\n1. They are usually addressed to a group of people.\n2. Non-standard, customised content is typical of them.\n3. They are used to intimate appraisals and increments of employees.\n4. They are less cost-effective than personalised, recipient-directed letters.",
+      "options": {
+        "A": "1 and 2",
+        "B": "2 and 4",
+        "C": "1, 3 and 4",
+        "D": "1 only"
+      },
+      "answer": "D",
+      "explanation": "Circular letters are addressed to a group (1 correct). They carry standardised, not customised, content (2 wrong), are not used for individual appraisals (3 wrong), and are generally cost-effective (4 wrong). Only 1.",
+      "elimination_path": "Reject the extreme, passive, or culturally insensitive options; choose the balanced, proactive one.",
+      "diagnoses": [
+        "decisionmaking",
+        "circular-letters",
+        "2026",
+        "official-paper",
+        "csat"
+      ]
+    },
+    {
+      "question_id": "P2026CSAT-058",
+      "num": 58,
+      "subject": "Maths",
+      "topic": "Partnership",
+      "subtopic": "UPSC 2026 Prelims CSAT (Paper II) — Q58",
+      "format": "single",
+      "difficulty": "Hard",
+      "expected_time_sec": 140,
+      "text": "A invests one-third of the capital for one-third of the duration, B one-fourth for one-fourth, and C the remaining capital for the whole duration. Of a ₹17,000 profit, how much does C get?",
+      "options": {
+        "A": "₹12,000",
+        "B": "₹10,000",
+        "C": "₹12,500",
+        "D": "₹10,750"
+      },
+      "answer": "A",
+      "explanation": "A: (1/3)(1/3)=1/9, B: (1/4)(1/4)=1/16, C invests the remaining 5/12 for full duration → ratio 16:9:60. C's share = 60/85 × 17000 = ₹12,000.",
+      "elimination_path": "Plug the answer options back in, or estimate the magnitude, to discard impossible values fast.",
+      "diagnoses": [
+        "quantaptitude",
+        "partnership",
+        "2026",
+        "official-paper",
+        "csat"
+      ]
+    },
+    {
+      "question_id": "P2026CSAT-059",
+      "num": 59,
+      "subject": "Maths",
+      "topic": "Replacement mixture",
+      "subtopic": "UPSC 2026 Prelims CSAT (Paper II) — Q59",
+      "format": "single",
+      "difficulty": "Hard",
+      "expected_time_sec": 140,
+      "text": "A container has 10 L of chemical A. One litre is removed and replaced by chemical B; this replacement is done three times in all. Approximately what percentage of the container is B?",
+      "options": {
+        "A": "25",
+        "B": "27",
+        "C": "29",
+        "D": "31"
+      },
+      "answer": "B",
+      "explanation": "Each replacement leaves 9/10 of chemical A. After 3 replacements A = 10×(0.9)³ = 7.29 L, so B = 2.71 L ≈ 27%.",
+      "elimination_path": "Plug the answer options back in, or estimate the magnitude, to discard impossible values fast.",
+      "diagnoses": [
+        "quantaptitude",
+        "replacement-mixture",
+        "2026",
+        "official-paper",
+        "csat"
+      ]
+    },
+    {
+      "question_id": "P2026CSAT-060",
+      "num": 60,
+      "subject": "Maths",
+      "topic": "Insufficient data",
+      "subtopic": "UPSC 2026 Prelims CSAT (Paper II) — Q60",
+      "format": "single",
+      "difficulty": "Hard",
+      "expected_time_sec": 140,
+      "text": "A delivery boy earns ₹5 per delivery plus ₹2 per km, wants more than ₹500 a day, and will not travel more than 100 km. Which number of deliveries would definitely meet his target?",
+      "options": {
+        "A": "80",
+        "B": "85",
+        "C": "90",
+        "D": "The question cannot be answered due to insufficient data"
+      },
+      "answer": "D",
+      "explanation": "Earnings = ₹5/delivery + ₹2/km, but distance travelled is unknown (only capped at 100 km). For a fixed number of deliveries, earnings vary with distance, so the target cannot be definitely guaranteed.",
+      "elimination_path": "Plug the answer options back in, or estimate the magnitude, to discard impossible values fast.",
+      "diagnoses": [
+        "quantaptitude",
+        "insufficient-data",
+        "2026",
+        "official-paper",
+        "csat"
+      ]
+    },
+    {
+      "question_id": "P2026CSAT-061",
+      "num": 61,
+      "subject": "Reasoning",
+      "topic": "Data sufficiency",
+      "subtopic": "UPSC 2026 Prelims CSAT (Paper II) — Q61",
+      "format": "single",
+      "difficulty": "Medium",
+      "expected_time_sec": 115,
+      "text": "DIRECTIONS — The item has a question followed by two statements. Decide which statement(s) suffice to answer it.\n\nX receives three coins of distinct denominations from {1, 2, 5, 10, 20}, totalling m. Does X receive a coin of denomination 5?\nStatement I: m is not a prime number.\nStatement II: The sum of the digits of m is greater than 5.",
+      "options": {
+        "A": "The question can be answered using one of the statements alone, but cannot be answered using the other statement alone.",
+        "B": "The question can be answered using either statement alone.",
+        "C": "The question can be answered using both statements together, but cannot be answered using either statement alone.",
+        "D": "The question cannot be answered even using both statements together."
+      },
+      "answer": "A",
+      "explanation": "Statement II (digit sum > 5) identifies the cases that include the 5-coin; Statement I (m not prime) alone is insufficient. One statement works, the other does not.",
+      "elimination_path": "Build the grid or diagram from the fixed clues first, then test each option against it.",
+      "diagnoses": [
+        "reasoning",
+        "data-sufficiency",
+        "2026",
+        "official-paper",
+        "csat"
+      ]
+    },
+    {
+      "question_id": "P2026CSAT-062",
+      "num": 62,
+      "subject": "Reasoning",
+      "topic": "Data sufficiency",
+      "subtopic": "UPSC 2026 Prelims CSAT (Paper II) — Q62",
+      "format": "single",
+      "difficulty": "Medium",
+      "expected_time_sec": 115,
+      "text": "DIRECTIONS — The item has a question followed by two statements. Decide which statement(s) suffice to answer it.\n\nFor two distinct real numbers x and y, which is bigger?\nStatement I: x² < y < 1\nStatement II: y < √x < 1",
+      "options": {
+        "A": "The question can be answered using one of the statements alone, but cannot be answered using the other statement alone.",
+        "B": "The question can be answered using either statement alone.",
+        "C": "The question can be answered using both statements together, but cannot be answered using either statement alone.",
+        "D": "The question cannot be answered even using both statements together."
+      },
+      "answer": "D",
+      "explanation": "Statement I allows both x<y and x>y; Statement II likewise. Even together, x and y can lie on either side, so the bigger one cannot be determined.",
+      "elimination_path": "Build the grid or diagram from the fixed clues first, then test each option against it.",
+      "diagnoses": [
+        "reasoning",
+        "data-sufficiency",
+        "2026",
+        "official-paper",
+        "csat"
+      ]
+    },
+    {
+      "question_id": "P2026CSAT-063",
+      "num": 63,
+      "subject": "Reasoning",
+      "topic": "Data sufficiency",
+      "subtopic": "UPSC 2026 Prelims CSAT (Paper II) — Q63",
+      "format": "single",
+      "difficulty": "Medium",
+      "expected_time_sec": 115,
+      "text": "DIRECTIONS — The item has a question followed by two statements. Decide which statement(s) suffice to answer it.\n\nIf x and y are integers, is x even?\nStatement I: x²y² is even.\nStatement II: 1 + x² + y² is odd.",
+      "options": {
+        "A": "The question can be answered using one of the statements alone, but cannot be answered using the other statement alone.",
+        "B": "The question can be answered using either statement alone.",
+        "C": "The question can be answered using both statements together, but cannot be answered using either statement alone.",
+        "D": "The question cannot be answered even using both statements together."
+      },
+      "answer": "C",
+      "explanation": "I says at least one of x, y is even; II says x and y share parity. Together both must be even, so x is even. Neither alone suffices.",
+      "elimination_path": "Build the grid or diagram from the fixed clues first, then test each option against it.",
+      "diagnoses": [
+        "reasoning",
+        "data-sufficiency",
+        "2026",
+        "official-paper",
+        "csat"
+      ]
+    },
+    {
+      "question_id": "P2026CSAT-064",
+      "num": 64,
+      "subject": "Reasoning",
+      "topic": "Data sufficiency",
+      "subtopic": "UPSC 2026 Prelims CSAT (Paper II) — Q64",
+      "format": "single",
+      "difficulty": "Medium",
+      "expected_time_sec": 115,
+      "text": "DIRECTIONS — The item has a question followed by two statements. Decide which statement(s) suffice to answer it.\n\nX holds certain odd numbers, Y certain even numbers; T consists of numbers all from X or all from Y. Is every number of T from Y?\nStatement I: The sum of any two numbers in T is even.\nStatement II: If p and q are picked from T, then (p − 1)q is even.",
+      "options": {
+        "A": "The question can be answered using one of the statements alone, but cannot be answered using the other statement alone.",
+        "B": "The question can be answered using either statement alone.",
+        "C": "The question can be answered using both statements together, but cannot be answered using either statement alone.",
+        "D": "The question cannot be answered even using both statements together."
+      },
+      "answer": "D",
+      "explanation": "I implies all numbers in T have the same parity but could be all odd or all even; II also cannot rule out all-odd. Even together, we cannot confirm every number is from Y.",
+      "elimination_path": "Build the grid or diagram from the fixed clues first, then test each option against it.",
+      "diagnoses": [
+        "reasoning",
+        "data-sufficiency",
+        "2026",
+        "official-paper",
+        "csat"
+      ]
+    },
+    {
+      "question_id": "P2026CSAT-065",
+      "num": 65,
+      "subject": "Reasoning",
+      "topic": "Data sufficiency",
+      "subtopic": "UPSC 2026 Prelims CSAT (Paper II) — Q65",
+      "format": "single",
+      "difficulty": "Medium",
+      "expected_time_sec": 115,
+      "text": "DIRECTIONS — The item has a question followed by two statements. Decide which statement(s) suffice to answer it.\n\nIf x, y, z are integers each greater than 1, is x a prime number?\nStatement I: xy² = 116\nStatement II: xz = 261",
+      "options": {
+        "A": "The question can be answered using one of the statements alone, but cannot be answered using the other statement alone.",
+        "B": "The question can be answered using either statement alone.",
+        "C": "The question can be answered using both statements together, but cannot be answered using either statement alone.",
+        "D": "The question cannot be answered even using both statements together."
+      },
+      "answer": "A",
+      "explanation": "I: xy² = 116 = 4×29, and y>1 forces y=2, x=29 (prime). II: xz = 261 has multiple possibilities for x, so insufficient. One statement works, the other does not.",
+      "elimination_path": "Build the grid or diagram from the fixed clues first, then test each option against it.",
+      "diagnoses": [
+        "reasoning",
+        "data-sufficiency",
+        "2026",
+        "official-paper",
+        "csat"
+      ]
+    },
+    {
+      "question_id": "P2026CSAT-066",
+      "num": 66,
+      "subject": "ReadingComprehension",
+      "topic": "Conclusions",
+      "subtopic": "UPSC 2026 Prelims CSAT (Paper II) — Q66",
+      "format": "single",
+      "difficulty": "Medium",
+      "expected_time_sec": 100,
+      "text": "PASSAGE — Kalagram, the cultural village set up at the Maha Kumbh Mela, unfolded as a mosaic of India's diverse regions, each represented by seven meticulously crafted Sanskriti Angans — stepping through the grand portal was like entering another world. These thematic zones, inspired by iconic temples like the Dakshineshwar Kali Temple and the Brahma Mandir, were treasure troves of regional artistry. Bengal's Pattachitra paintings, Assam's bamboo crafts, Tamil Nadu's Thanjavur paintings, and Madhya Pradesh's tribal sculpture — all were showcased in these living galleries where 230 master artisans breathed life into them using age-old techniques.\n\nWhich conclusions are valid?\n1. Seven Sanskriti Angans representing different regions were showcased in Kalagram.\n2. Regional artistry was recognised via inspiration drawn from iconic temples.\n3. India's ancient history was crafted by 230 contemporary artisans into creations to behold.\n4. Art forms from all regions of India were showcased in these galleries.",
+      "options": {
+        "A": "1 and 2 only",
+        "B": "2, 3 and 4",
+        "C": "1, 2 and 4",
+        "D": "1 and 3"
+      },
+      "answer": "D",
+      "explanation": "Seven Sanskriti Angans represented different regions (1) and 230 artisans crafted India's history into art (3). The passage does not say regional artistry was recognised because of temples (2), and \"all regions\" is too broad (4).",
+      "elimination_path": "Re-read only the lines the options paraphrase; reject any option that adds a claim the passage never makes.",
+      "diagnoses": [
+        "comprehension",
+        "conclusions",
+        "2026",
+        "official-paper",
+        "csat"
+      ]
+    },
+    {
+      "question_id": "P2026CSAT-067",
+      "num": 67,
+      "subject": "ReadingComprehension",
+      "topic": "Not-correct",
+      "subtopic": "UPSC 2026 Prelims CSAT (Paper II) — Q67",
+      "format": "single",
+      "difficulty": "Medium",
+      "expected_time_sec": 100,
+      "text": "PASSAGE — Kalagram, the cultural village set up at the Maha Kumbh Mela, unfolded as a mosaic of India's diverse regions, each represented by seven meticulously crafted Sanskriti Angans — stepping through the grand portal was like entering another world. These thematic zones, inspired by iconic temples like the Dakshineshwar Kali Temple and the Brahma Mandir, were treasure troves of regional artistry. Bengal's Pattachitra paintings, Assam's bamboo crafts, Tamil Nadu's Thanjavur paintings, and Madhya Pradesh's tribal sculpture — all were showcased in these living galleries where 230 master artisans breathed life into them using age-old techniques.\n\nWhich statement is NOT correct?",
+      "options": {
+        "A": "Paintings from four States of India have been mentioned.",
+        "B": "Stepping into Kalagram is likened to stepping into another world.",
+        "C": "The Angans are described as living galleries.",
+        "D": "Kalagram is divided into thematic zones inspired by well-known temples."
+      },
+      "answer": "A",
+      "explanation": "Paintings are mentioned for Bengal (Pattachitra) and Tamil Nadu (Thanjavur), but Assam is cited for bamboo crafts and Madhya Pradesh for tribal sculpture — so \"paintings from four States\" is incorrect.",
+      "elimination_path": "Re-read only the lines the options paraphrase; reject any option that adds a claim the passage never makes.",
+      "diagnoses": [
+        "comprehension",
+        "not-correct",
+        "2026",
+        "official-paper",
+        "csat"
+      ]
+    },
+    {
+      "question_id": "P2026CSAT-068",
+      "num": 68,
+      "subject": "Maths",
+      "topic": "Weights algebra",
+      "subtopic": "UPSC 2026 Prelims CSAT (Paper II) — Q68",
+      "format": "single",
+      "difficulty": "Hard",
+      "expected_time_sec": 140,
+      "text": "Weights satisfy: A+B+C+D=17, A+C=6, P+Q+S+D=15, P+Q+R+B=17, with P=R and Q=S. Which statement is correct?",
+      "options": {
+        "A": "B and D together weigh less than P and Q.",
+        "B": "P and Q together weigh more than A and C.",
+        "C": "P weighs more than Q.",
+        "D": "Q weighs more than P."
+      },
+      "answer": "B",
+      "explanation": "A+C=6 with A+B+C+D=17 gives B+D=11. Using the remaining equations with P=R and Q=S yields P+Q=7 > A+C=6, so P and Q together weigh more than A and C.",
+      "elimination_path": "Plug the answer options back in, or estimate the magnitude, to discard impossible values fast.",
+      "diagnoses": [
+        "quantaptitude",
+        "weights-algebra",
+        "2026",
+        "official-paper",
+        "csat"
+      ]
+    },
+    {
+      "question_id": "P2026CSAT-069",
+      "num": 69,
+      "subject": "Maths",
+      "topic": "Permutations",
+      "subtopic": "UPSC 2026 Prelims CSAT (Paper II) — Q69",
+      "format": "single",
+      "difficulty": "Hard",
+      "expected_time_sec": 140,
+      "text": "How many words can be formed by shuffling the letters of QUEUE if Q is always immediately followed by U? (Words need not be meaningful.)",
+      "options": {
+        "A": "6",
+        "B": "8",
+        "C": "10",
+        "D": "12"
+      },
+      "answer": "D",
+      "explanation": "Q must be followed by U, so treat \"QU\" as one block. Remaining letters U, E, E with the block give arrangements of {QU, U, E, E} = 4!/2! = 12.",
+      "elimination_path": "Plug the answer options back in, or estimate the magnitude, to discard impossible values fast.",
+      "diagnoses": [
+        "quantaptitude",
+        "permutations",
+        "2026",
+        "official-paper",
+        "csat"
+      ]
+    },
+    {
+      "question_id": "P2026CSAT-070",
+      "num": 70,
+      "subject": "Maths",
+      "topic": "LCM landings",
+      "subtopic": "UPSC 2026 Prelims CSAT (Paper II) — Q70",
+      "format": "single",
+      "difficulty": "Hard",
+      "expected_time_sec": 140,
+      "text": "X, Y, Z jump forward 4', 6' and 5' respectively. At 8 AM all land on mark 199'. How many times do all three land on the same mark (not necessarily together) between 195' and 1000', if all cross 1000' by 9 AM?",
+      "options": {
+        "A": "11",
+        "B": "12",
+        "C": "13",
+        "D": "14"
+      },
+      "answer": "D",
+      "explanation": "They land together at marks differing by LCM(4,5,6)=60. From 199 the common marks are 199, 259, …, 979 — 14 marks before crossing 1000.",
+      "elimination_path": "Plug the answer options back in, or estimate the magnitude, to discard impossible values fast.",
+      "diagnoses": [
+        "quantaptitude",
+        "lcm-landings",
+        "2026",
+        "official-paper",
+        "csat"
+      ]
+    },
+    {
+      "question_id": "P2026CSAT-071",
+      "num": 71,
+      "subject": "ReadingComprehension",
+      "topic": "Conclusions",
+      "subtopic": "UPSC 2026 Prelims CSAT (Paper II) — Q71",
+      "format": "single",
+      "difficulty": "Medium",
+      "expected_time_sec": 100,
+      "text": "PASSAGE — Sport is not just about winning medals or getting jobs through a sports quota. Today's generation is struggling with issues like depression and anxiety. Parents often say that their children are inactive and rarely leave the house. From sport you can learn time management, fitness, teamwork, coordination, and so much more. We need to develop a culture in which sport is seen as a way of life — a path to building a healthier, happier society.\n\nWhich conclusions are valid?\n1. Sport is more than games; it is a way of life.\n2. Sport can help mitigate seclusion among the young.\n3. Earning laurels in sport can help secure a job via a quota.\n4. Standard corporate-sector skills cannot be learnt through sport.",
+      "options": {
+        "A": "1 and 3 only",
+        "B": "2 and 4 only",
+        "C": "1, 2 and 4",
+        "D": "1, 2 and 3"
+      },
+      "answer": "D",
+      "explanation": "Sport is more than games — a way of life (1); it counters seclusion among the young (2); and it can secure jobs via a sports quota (3). The passage does not deny that corporate skills can be learnt through sport (4 wrong).",
+      "elimination_path": "Re-read only the lines the options paraphrase; reject any option that adds a claim the passage never makes.",
+      "diagnoses": [
+        "comprehension",
+        "conclusions",
+        "2026",
+        "official-paper",
+        "csat"
+      ]
+    },
+    {
+      "question_id": "P2026CSAT-072",
+      "num": 72,
+      "subject": "ReadingComprehension",
+      "topic": "Correct statements",
+      "subtopic": "UPSC 2026 Prelims CSAT (Paper II) — Q72",
+      "format": "single",
+      "difficulty": "Medium",
+      "expected_time_sec": 100,
+      "text": "PASSAGE — Sport is not just about winning medals or getting jobs through a sports quota. Today's generation is struggling with issues like depression and anxiety. Parents often say that their children are inactive and rarely leave the house. From sport you can learn time management, fitness, teamwork, coordination, and so much more. We need to develop a culture in which sport is seen as a way of life — a path to building a healthier, happier society.\n\nWhich statements is/are correct?\n1. Parents are not encouraging enough about children playing sport.\n2. Participation in sport can help develop life skills.\n3. Sport as a way of life can help evolve the nature of society.",
+      "options": {
+        "A": "1 and 3",
+        "B": "2 and 3",
+        "C": "2 only",
+        "D": "3 only"
+      },
+      "answer": "B",
+      "explanation": "The passage does not say parents discourage sport (1 wrong). It says sport teaches life skills (2) and as a way of life can reshape society (3). So 2 and 3.",
+      "elimination_path": "Re-read only the lines the options paraphrase; reject any option that adds a claim the passage never makes.",
+      "diagnoses": [
+        "comprehension",
+        "correct-statements",
+        "2026",
+        "official-paper",
+        "csat"
+      ]
+    },
+    {
+      "question_id": "P2026CSAT-073",
+      "num": 73,
+      "subject": "Maths",
+      "topic": "Forward/back jumps",
+      "subtopic": "UPSC 2026 Prelims CSAT (Paper II) — Q73",
+      "format": "single",
+      "difficulty": "Hard",
+      "expected_time_sec": 140,
+      "text": "A toy jumps 5' forward or 2' backward. In 31 jumps it moves exactly 15' forward. What is the difference between the number of forward and backward jumps?",
+      "options": {
+        "A": "6",
+        "B": "7",
+        "C": "8",
+        "D": "9"
+      },
+      "answer": "D",
+      "explanation": "f + b = 31 and 5f − 2b = 15 give f = 11, b = 20, so the difference is 9.",
+      "elimination_path": "Plug the answer options back in, or estimate the magnitude, to discard impossible values fast.",
+      "diagnoses": [
+        "quantaptitude",
+        "forward-back-jumps",
+        "2026",
+        "official-paper",
+        "csat"
+      ]
+    },
+    {
+      "question_id": "P2026CSAT-074",
+      "num": 74,
+      "subject": "Reasoning",
+      "topic": "Circular seating",
+      "subtopic": "UPSC 2026 Prelims CSAT (Paper II) — Q74",
+      "format": "single",
+      "difficulty": "Medium",
+      "expected_time_sec": 115,
+      "text": "Eight persons P–W sit equally spaced around a round table. P and R are adjacent to Q; T and R are adjacent to S; U and W are adjacent to V; S and W are opposite. Going clockwise from P one meets R before T. How many persons does Q cross moving clockwise before meeting W?",
+      "options": {
+        "A": "5",
+        "B": "4",
+        "C": "2",
+        "D": "1"
+      },
+      "answer": "A",
+      "explanation": "Applying the adjacency conditions around the table with the clockwise P→R-before-T constraint fixes positions so that Q crosses 5 persons before meeting W clockwise.",
+      "elimination_path": "Build the grid or diagram from the fixed clues first, then test each option against it.",
+      "diagnoses": [
+        "reasoning",
+        "circular-seating",
+        "2026",
+        "official-paper",
+        "csat"
+      ]
+    },
+    {
+      "question_id": "P2026CSAT-075",
+      "num": 75,
+      "subject": "Reasoning",
+      "topic": "Spatial patterns",
+      "subtopic": "UPSC 2026 Prelims CSAT (Paper II) — Q75",
+      "format": "single",
+      "difficulty": "Medium",
+      "expected_time_sec": 115,
+      "text": "A 6'×10' table top has two 2.5'×8' rectangles painted blue, each sharing exactly two sides with two edges of the top; the rest is white. Viewed from above (table fixed), how many different patterns are possible?",
+      "options": {
+        "A": "2",
+        "B": "4",
+        "C": "6",
+        "D": "8"
+      },
+      "answer": "B",
+      "explanation": "Each 2.5 ft by 8 ft blue rectangle must sit at a corner with its 8 ft side along the 10 ft edge. Considering non-overlapping placements on the fixed table, 4 distinct top-view patterns are possible.",
+      "elimination_path": "Build the grid or diagram from the fixed clues first, then test each option against it.",
+      "diagnoses": [
+        "reasoning",
+        "spatial-patterns",
+        "2026",
+        "official-paper",
+        "csat"
+      ]
+    },
+    {
+      "question_id": "P2026CSAT-076",
+      "num": 76,
+      "subject": "ReadingComprehension",
+      "topic": "Correct statements",
+      "subtopic": "UPSC 2026 Prelims CSAT (Paper II) — Q76",
+      "format": "single",
+      "difficulty": "Medium",
+      "expected_time_sec": 100,
+      "text": "PASSAGE — How is deflation done? Most countries use a method called double deflation, where input and output prices are deflated separately. Consider a manufacturer importing oil for use in production. If oil prices fall, output prices do not and quantities remain the same, real value added should not change. But if the same deflator is used for inputs and outputs, as in India, it would look as if the manufacturer had become more productive.\n\nWhich statements is/are correct?\n1. Real value should not change when output cost and quantities are static against falling oil prices.\n2. Separate deflators for inputs and outputs is a practice universally adopted by all economies.",
+      "options": {
+        "A": "1 only",
+        "B": "2 only",
+        "C": "Both 1 and 2",
+        "D": "Neither 1 nor 2"
+      },
+      "answer": "A",
+      "explanation": "With falling oil input prices but static output prices and quantities, real value added should not change (1 correct). Statement 2 is wrong — double deflation is used by most, not universally all, economies.",
+      "elimination_path": "Re-read only the lines the options paraphrase; reject any option that adds a claim the passage never makes.",
+      "diagnoses": [
+        "comprehension",
+        "correct-statements",
+        "2026",
+        "official-paper",
+        "csat"
+      ]
+    },
+    {
+      "question_id": "P2026CSAT-077",
+      "num": 77,
+      "subject": "ReadingComprehension",
+      "topic": "Assumptions",
+      "subtopic": "UPSC 2026 Prelims CSAT (Paper II) — Q77",
+      "format": "single",
+      "difficulty": "Medium",
+      "expected_time_sec": 100,
+      "text": "PASSAGE — How is deflation done? Most countries use a method called double deflation, where input and output prices are deflated separately. Consider a manufacturer importing oil for use in production. If oil prices fall, output prices do not and quantities remain the same, real value added should not change. But if the same deflator is used for inputs and outputs, as in India, it would look as if the manufacturer had become more productive.\n\nWhich assumptions is/are valid?\n1. Deflation strategies can make manufacturers appear to be doing better than they are.\n2. When input and output prices are both deflated against a single input price, it is called double deflation.",
+      "options": {
+        "A": "1 only",
+        "B": "2 only",
+        "C": "Both 1 and 2",
+        "D": "Neither 1 nor 2"
+      },
+      "answer": "A",
+      "explanation": "Using a single deflator for both inputs and outputs can make a manufacturer look more productive than it is (1 valid). Statement 2 is wrong — double deflation means inputs and outputs are deflated separately, not against a single input price.",
+      "elimination_path": "Re-read only the lines the options paraphrase; reject any option that adds a claim the passage never makes.",
+      "diagnoses": [
+        "comprehension",
+        "assumptions",
+        "2026",
+        "official-paper",
+        "csat"
+      ]
+    },
+    {
+      "question_id": "P2026CSAT-078",
+      "num": 78,
+      "subject": "Reasoning",
+      "topic": "Pattern string",
+      "subtopic": "UPSC 2026 Prelims CSAT (Paper II) — Q78",
+      "format": "single",
+      "difficulty": "Medium",
+      "expected_time_sec": 115,
+      "text": "A pattern of two characters a and b repeats more than once in the string:  × b × a × a × × a × a × b a b.  What are the characters at the 7th and 8th positions from the left (× ×)?",
+      "options": {
+        "A": "aa",
+        "B": "ab",
+        "C": "ba",
+        "D": "bb"
+      },
+      "answer": "D",
+      "explanation": "The string repeats a fixed a/b pattern more than once; completing it consistently places b and b in the 7th and 8th positions.",
+      "elimination_path": "Build the grid or diagram from the fixed clues first, then test each option against it.",
+      "diagnoses": [
+        "reasoning",
+        "pattern-string",
+        "2026",
+        "official-paper",
+        "csat"
+      ]
+    },
+    {
+      "question_id": "P2026CSAT-079",
+      "num": 79,
+      "subject": "Maths",
+      "topic": "Powers & factors",
+      "subtopic": "UPSC 2026 Prelims CSAT (Paper II) — Q79",
+      "format": "single",
+      "difficulty": "Hard",
+      "expected_time_sec": 140,
+      "text": "If 10^m × 1000 × n = 75^25 × 25^32 × 32^75, where n is not divisible by 10, then m is:",
+      "options": {
+        "A": "101",
+        "B": "111",
+        "C": "121",
+        "D": "131"
+      },
+      "answer": "B",
+      "explanation": "75^25 = 3^25·5^50, 25^32 = 5^64, 32^75 = 2^375. Total power of 5 = 50+64 = 114, giving 10^114. Since 1000 = 10^3, m+3 = 114 ⇒ m = 111.",
+      "elimination_path": "Plug the answer options back in, or estimate the magnitude, to discard impossible values fast.",
+      "diagnoses": [
+        "quantaptitude",
+        "powers-factors",
+        "2026",
+        "official-paper",
+        "csat"
+      ]
+    },
+    {
+      "question_id": "P2026CSAT-080",
+      "num": 80,
+      "subject": "Maths",
+      "topic": "Train crossing",
+      "subtopic": "UPSC 2026 Prelims CSAT (Paper II) — Q80",
+      "format": "single",
+      "difficulty": "Hard",
+      "expected_time_sec": 140,
+      "text": "A train (100 km/h) crosses a person (4 km/h) in 15 s when the person moves in the train's direction. If the person moves opposite to the train, approximately how long does the train take to cross him?",
+      "options": {
+        "A": "13.51 s",
+        "B": "13.65 s",
+        "C": "13.85 s",
+        "D": "14.05 s"
+      },
+      "answer": "C",
+      "explanation": "Same direction: relative speed 96 km/h; in 15 s the train length = 96×(5/18)×15 = 400 m. Opposite direction: relative speed 104 km/h; time = 400 / (104×5/18) ≈ 13.85 s.",
+      "elimination_path": "Plug the answer options back in, or estimate the magnitude, to discard impossible values fast.",
+      "diagnoses": [
+        "quantaptitude",
+        "train-crossing",
+        "2026",
+        "official-paper",
+        "csat"
+      ]
+    }
+  ]
+}

@@ -1,9 +1,9 @@
 import { createClient } from '@/lib/supabase/server'
 import { redirect } from 'next/navigation'
 import Link from 'next/link'
-import type { SubjectResult, WeakTopic, ScoreLeak, GuessingDiscipline, EliminationAnalysis } from '@/lib/mock/types'
+import type { SubjectResult, WeakTopic, ScoreLeak, GuessingDiscipline, EliminationAnalysis, SpeedAnalysis, SkillParam } from '@/lib/mock/types'
 import { getVerdict } from '@/lib/mock/scoring'
-import { APP } from '@/lib/config'
+import { examShapeForGate, paperKindForGate } from '@/lib/mock/catalog'
 
 interface Props {
   params: Promise<{ gate: string; attemptId: string }>
@@ -29,8 +29,11 @@ interface ReportContent {
   sections: SubjectResult[]
   leak_breakdown: Record<ScoreLeak, number>
   weak_topics: WeakTopic[]
+  paper_kind?: 'gs' | 'csat'
   guessing?: GuessingDiscipline
   elimination?: EliminationAnalysis
+  speed?: SpeedAnalysis
+  skill_params?: SkillParam[]
   seven_day_plan: string[]
   at: string
   question_summary: {
@@ -45,7 +48,10 @@ interface ReportContent {
 export default async function ResultPage({ params }: Props) {
   const { gate: gateStr, attemptId } = await params
   const gate = parseInt(gateStr, 10)
-  const { negative } = APP.exam.prelimsGS
+  const kind = paperKindForGate(gate)
+  const shape = examShapeForGate(gate)
+  const { negative } = shape
+  const isCsat = kind === 'csat'
 
   const supabase = await createClient()
   const { data: { user } } = await supabase.auth.getUser()
@@ -77,9 +83,9 @@ export default async function ResultPage({ params }: Props) {
   }
 
   const r = report.report_content as ReportContent
-  const { verdict } = getVerdict(r.score, r.max_score)
-  const totalQuestions = r.total_questions ?? r.question_summary?.length ?? APP.exam.prelimsGS.questions
-  const durationMins = r.duration_mins ?? Math.ceil(r.time_minutes || APP.exam.prelimsGS.minutes)
+  const { verdict } = getVerdict(r.score, r.max_score, kind)
+  const totalQuestions = r.total_questions ?? r.question_summary?.length ?? shape.questions
+  const durationMins = r.duration_mins ?? Math.ceil(r.time_minutes || shape.minutes)
 
   const wrongQIds = new Set(
     r.question_summary.filter(q => !q.correct && !q.unattempted).map(q => q.id)
@@ -140,6 +146,33 @@ export default async function ResultPage({ params }: Props) {
           </div>
         ))}
       </div>
+
+      {/* ── CSAT Skill Parameters (Speed · Guessing · Smartness) ── */}
+      {isCsat && r.skill_params && r.skill_params.length > 0 && (
+        <section className="card-calm p-5 sm:p-6">
+          <h2 className="heading-cinzel mb-1 text-lg font-semibold text-indigo">
+            Skill Parameters
+          </h2>
+          <p className="mb-4 text-sm text-inkdim">
+            CSAT is won less by content than by how you handle the paper. These three cut across
+            every section — your content scores below sit under them.
+          </p>
+          <div className="grid grid-cols-1 gap-3 sm:grid-cols-3">
+            {r.skill_params.map(p => {
+              const c = p.score >= 70 ? 'text-sage' : p.score >= 45 ? 'text-copper' : 'text-clay'
+              return (
+                <div key={p.key} className="rounded-lg bg-parchment p-4">
+                  <div className="mb-2 flex items-baseline justify-between">
+                    <p className="text-sm font-bold text-slate900">{p.label}</p>
+                    <p className={`font-mono text-2xl font-bold ${c}`}>{p.score}</p>
+                  </div>
+                  <p className="text-[13px] leading-5 text-inkdim">{p.verdict}</p>
+                </div>
+              )
+            })}
+          </div>
+        </section>
+      )}
 
       {/* ── Guessing Discipline (UPSC-native) ── */}
       {r.guessing && (
@@ -208,10 +241,10 @@ export default async function ResultPage({ params }: Props) {
         </section>
       )}
 
-      {/* ── Subject Breakdown ── */}
+      {/* ── Subject / Parameter Breakdown ── */}
       <section>
         <h2 className="heading-cinzel mb-4 text-lg font-semibold text-indigo">
-          Subject Breakdown
+          {isCsat ? 'Content Parameter Breakdown' : 'Subject Breakdown'}
         </h2>
         <div className="card-calm overflow-hidden rounded-xl">
           <table className="w-full text-sm">

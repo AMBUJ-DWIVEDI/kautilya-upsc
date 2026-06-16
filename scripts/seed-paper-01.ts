@@ -7,12 +7,15 @@ import { writeFileSync } from 'fs'
 import { join } from 'path'
 import type { PrelimsQuestion, Subject, QuestionFormat } from '../lib/mock/types'
 
-const SUBJECTS: Subject[] = [
+// This generator only ever produced GS Paper I content; scope its maps to the GS subjects.
+type GSSubject = 'Polity' | 'History' | 'Geography' | 'Economy' | 'Environment' | 'SciTech' | 'CurrentAffairs'
+
+const SUBJECTS: GSSubject[] = [
   'Polity', 'History', 'Geography', 'Economy',
   'Environment', 'SciTech', 'CurrentAffairs',
 ]
 
-const SUBJECT_COUNTS: Record<Subject, number> = {
+const SUBJECT_COUNTS: Record<GSSubject, number> = {
   Polity: 18,
   History: 16,
   Geography: 14,
@@ -22,12 +25,12 @@ const SUBJECT_COUNTS: Record<Subject, number> = {
   CurrentAffairs: 14,
 }
 
-const CODES: Record<Subject, string> = {
+const CODES: Record<GSSubject, string> = {
   Polity: 'POL', History: 'HIS', Geography: 'GEO', Economy: 'ECO',
   Environment: 'ENV', SciTech: 'SCI', CurrentAffairs: 'CA',
 }
 
-const TOPICS: Record<Subject, string[]> = {
+const TOPICS: Record<GSSubject, string[]> = {
   Polity: ['Fundamental Rights', 'DPSP', 'Parliament', 'Judiciary', 'Federalism', 'Constitutional Amendments'],
   History: ['Ancient India', 'Medieval India', 'Modern India', 'Art & Culture', 'Bhakti Movement', 'Freedom Struggle'],
   Geography: ['Physical Geography', 'Indian Geography', 'Climate', 'Resources', 'Agriculture', 'Disasters'],
@@ -51,7 +54,7 @@ function expectedTime(d: 'Easy' | 'Medium' | 'Hard'): number {
   return 100
 }
 
-function buildQuestion(num: number, subject: Subject, subIdx: number): PrelimsQuestion {
+function buildQuestion(num: number, subject: GSSubject, subIdx: number): PrelimsQuestion {
   const code = CODES[subject]
   const topic = TOPICS[subject][subIdx % TOPICS[subject].length]
   const format = FORMATS[num % FORMATS.length]

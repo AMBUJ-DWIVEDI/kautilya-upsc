@@ -8,12 +8,16 @@ import { APP } from '@/lib/config'
 import type {
   PrelimsQuestion, Answers, AnswerState, MockResult, QuestionResult,
   SubjectResult, WeakTopic, ScoreLeak, Subject,
-  GuessingDiscipline, EliminationAnalysis,
+  GuessingDiscipline, EliminationAnalysis, SpeedAnalysis, SkillParam,
 } from './types'
 import { ALL_LEAKS, SUBJECT_META } from './types'
+import { examShapeForGate, paperKindForGate } from './catalog'
 
-const SUBJECT_ORDER: Subject[] = [
+const GS_SUBJECT_ORDER: Subject[] = [
   'Polity', 'History', 'Geography', 'Economy', 'Environment', 'SciTech', 'CurrentAffairs',
+]
+const CSAT_SUBJECT_ORDER: Subject[] = [
+  'ReadingComprehension', 'Maths', 'Reasoning', 'Misc',
 ]
 
 /** The 47-sure / 35-gamble attempt framework, expressed per 100 questions. */
@@ -34,8 +38,34 @@ function detectLeak(q: PrelimsQuestion, s: AnswerState): ScoreLeak {
   }
 }
 
-export function getVerdict(score: number, maxScore: number): { verdict: string; desc: string } {
+export function getVerdict(
+  score: number,
+  maxScore: number,
+  kind: 'gs' | 'csat' = 'gs',
+): { verdict: string; desc: string } {
   const pct = maxScore > 0 ? score / maxScore : 0
+
+  if (kind === 'csat') {
+    // CSAT is qualifying: clearing 33% (≈66/200) is the only real bar.
+    const qual = APP.exam.csat.qualifyingPct / 100
+    if (pct < qual * 0.7) return {
+      verdict: 'CSAT Danger Zone',
+      desc: 'Well below the 33% qualifying line. CSAT can sink an otherwise strong GS score — this needs dedicated practice, not neglect.',
+    }
+    if (pct < qual) return {
+      verdict: 'Below Qualifying Line',
+      desc: 'You are short of the 33% bar. A handful of secure comprehension and reasoning marks would flip this — target the leaks, not the whole paper.',
+    }
+    if (pct < qual * 1.4) return {
+      verdict: 'Qualifying Cleared',
+      desc: 'You clear the bar, but with little margin. Lock in the comprehension and decision-making marks so a hard quant set never threatens it.',
+    }
+    return {
+      verdict: 'Safe Qualifier',
+      desc: 'Comfortably past the CSAT bar. Maintain this with light upkeep and reinvest the hours into GS Paper I.',
+    }
+  }
+
   // Cutoff bands calibrated to the GS paper: recent cutoffs hover near 44–50% of 200.
   if (pct < 0.25) return {
     verdict: 'Foundation Rebuild Required',
@@ -66,7 +96,7 @@ function subjectVerdict(score: number, max: number): string {
   return 'Immediate repair area'
 }
 
-function computeGuessingDiscipline(qResults: QuestionResult[]): GuessingDiscipline {
+function computeGuessingDiscipline(qResults: QuestionResult[], negative: number): GuessingDiscipline {
   const total = qResults.length
   const scale = total / 100
   const idealSure = Math.round(FRAMEWORK.surePer100 * scale)
@@ -118,6 +148,32 @@ function computeGuessingDiscipline(qResults: QuestionResult[]): GuessingDiscipli
   }
 }
 
+function computeSpeed(qResults: QuestionResult[]): SpeedAnalysis {
+  const total = qResults.length
+  const attempted = qResults.filter(r => !r.unattempted)
+  // "On pace" = solved within ~1.25× the question's expected time.
+  const onPace = attempted.filter(r => r.time_sec <= r.q.expected_time_sec * 1.25).length
+  const slow = attempted.length - onPace
+  const attemptRate = total > 0 ? attempted.length / total : 0
+  // 70% pace within attempts, 30% how much of the paper was reached.
+  const paceRatio = attempted.length > 0 ? onPace / attempted.length : 0
+  const score = Math.round(100 * (0.7 * paceRatio + 0.3 * attemptRate))
+
+  let verdict: string
+  if (score >= 75) verdict = 'Strong pace — you reach the paper and rarely overspend time on a question.'
+  else if (score >= 50) verdict = 'Workable pace, but a few questions are eating minutes. Set a per-question ceiling.'
+  else if (attemptRate < 0.7) verdict = 'You are running out of time before finishing — practise sectioning the paper and skipping fast.'
+  else verdict = 'You finish, but too many questions run long. Drill timed sets to build solving speed.'
+
+  return {
+    score: Math.max(0, Math.min(100, score)),
+    on_pace: onPace,
+    slow,
+    attempt_rate_pct: round1(attemptRate * 100),
+    verdict,
+  }
+}
+
 function computeElimination(qResults: QuestionResult[]): EliminationAnalysis {
   const eliminable = qResults.filter(r => r.q.elimination_path.trim().length > 0)
   const misses = eliminable.filter(r => r.elimination_miss)
@@ -160,7 +216,9 @@ export function calculateResult(
   userId: string,
   timeMins: number,
 ): MockResult {
-  const { perQuestion, negative } = APP.exam.prelimsGS
+  const kind = paperKindForGate(gate)
+  const { perQuestion, negative } = examShapeForGate(gate)
+  const SUBJECT_ORDER = kind === 'csat' ? CSAT_SUBJECT_ORDER : GS_SUBJECT_ORDER
 
   const qResults: QuestionResult[] = questions.map(q => {
     const s: AnswerState = answers[q.question_id] ?? { choice: null, marked: false, sure: null, time_sec: 0, visits: 0 }
@@ -239,10 +297,22 @@ export function calculateResult(
     .sort((a, b) => a.accuracy_pct - b.accuracy_pct)
     .slice(0, 10)
 
-  const guessing = computeGuessingDiscipline(qResults)
+  const guessing = computeGuessingDiscipline(qResults, negative)
   const elimination = computeElimination(qResults)
-  const { verdict, desc: verdict_desc } = getVerdict(score, maxScore)
+  const speed = computeSpeed(qResults)
+  const { verdict, desc: verdict_desc } = getVerdict(score, maxScore, kind)
   const seven_day_plan = build7DayPlan(weak_topics, sections, guessing, elimination)
+
+  // The 3 cross-cutting CSAT skill parameters. Guessing = guessing discipline,
+  // Smartness = elimination technique, Speed = pace. Featured in the CSAT report.
+  const skill_params: SkillParam[] = [
+    { key: 'Speed', label: 'Speed', score: speed.score, verdict: speed.verdict },
+    { key: 'Guessing', label: 'Guessing', score: guessing.score, verdict: guessing.verdict },
+    { key: 'Smartness', label: 'Smartness', score: elimination.score,
+      verdict: elimination.misses === 0
+        ? 'Sharp — you converted the eliminable questions instead of leaving them blank.'
+        : `${elimination.misses} eliminable question${elimination.misses === 1 ? '' : 's'} slipped — solvable by option structure alone, but lost.` },
+  ]
 
   return {
     gate,
@@ -263,6 +333,8 @@ export function calculateResult(
     weak_topics,
     guessing,
     elimination,
+    speed,
+    skill_params,
     seven_day_plan,
     at: new Date().toISOString(),
   }

@@ -50,14 +50,15 @@ export default async function PaperLibraryPage() {
               Mock Arena
             </h1>
             <p className="mt-3 max-w-2xl text-sm leading-7 text-inkdim">
-              Paper 1 is your free baseline: {gs.questions} questions, {gs.minutes} minutes,
-              +{gs.perQuestion}/−{gs.negative}. Every paper reads your guessing discipline and
-              elimination technique, not just your score.
+              Three free baselines: the real <span className="font-semibold text-indigo">UPSC 2026 GS-I</span> ({gs.questions} Q)
+              and <span className="font-semibold text-indigo">CSAT Paper II</span> ({APP.exam.csat.questions} Q) official papers,
+              plus a practice mock. Review your real attempt or gauge your level — every paper reads your
+              guessing discipline and elimination technique, not just your score.
             </p>
           </div>
           <div className="card-calm p-4">
             <p className="text-xs font-bold uppercase tracking-[0.22em] text-copper">Your mock access</p>
-            <p className="mt-2 text-2xl font-black text-indigo">{paid ? 'Full arena' : '1 baseline mock'}</p>
+            <p className="mt-2 text-2xl font-black text-indigo">{paid ? 'Full arena' : '3 free papers'}</p>
             <p className="mt-1 text-xs text-inkdim">{completed} signal{completed !== 1 ? 's' : ''} recorded</p>
           </div>
         </header>
