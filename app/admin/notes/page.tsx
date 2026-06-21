@@ -1,10 +1,18 @@
 import { createClient } from '@/lib/supabase/server'
+import { createAdminClient } from '@/lib/supabase/admin'
 import { redirect }     from 'next/navigation'
 import Link             from 'next/link'
-import type { SmartNote } from '@/lib/notes/types'
+import type { NoteStatus } from '@/lib/notes/types'
 
 function isAdmin(email: string | undefined) {
   return email === process.env.ADMIN_EMAIL
+}
+
+function statusLabel(status: NoteStatus | string): string {
+  if (status === 'published') return 'Published'
+  if (status === 'review') return 'In review'
+  if (status === 'archived') return 'Archived'
+  return 'Draft'
 }
 
 export default async function AdminNotesPage() {
@@ -12,13 +20,13 @@ export default async function AdminNotesPage() {
   const { data: { user } } = await supabase.auth.getUser()
   if (!user || !isAdmin(user.email)) redirect('/dashboard')
 
-  // Load all notes (admin sees unpublished too — use anon client since user is admin)
-  const { data: notes } = await supabase
+  const admin = createAdminClient()
+  const { data: notes } = await admin
     .from('smart_notes')
-    .select('id, section, category, topic, slug, pyq_count, high_yield, difficulty, is_published, created_at')
+    .select('id, section, category, topic, slug, pyq_count, high_yield, difficulty, status, created_at')
     .order('created_at', { ascending: false })
 
-  const published   = notes?.filter(n => n.is_published).length ?? 0
+  const published   = notes?.filter(n => n.status === 'published').length ?? 0
   const unpublished = (notes?.length ?? 0) - published
 
   return (
@@ -76,11 +84,11 @@ export default async function AdminNotesPage() {
                   </td>
                   <td className="p-3 text-center">
                     <span className={`text-xs px-2 py-0.5 rounded-full ${
-                      note.is_published
+                      note.status === 'published'
                         ? 'bg-chanakya-green/10 text-chanakya-green'
                         : 'bg-chanakya-muted/10 text-chanakya-text-dim'
                     }`}>
-                      {note.is_published ? 'Published' : 'Draft'}
+                      {statusLabel(note.status)}
                     </span>
                   </td>
                   <td className="p-3 text-right">

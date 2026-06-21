@@ -1,5 +1,6 @@
 import { NextResponse, type NextRequest } from 'next/server'
 import { createClient } from '@/lib/supabase/server'
+import { createAdminClient } from '@/lib/supabase/admin'
 import { verifyPaymentSignature } from '@/lib/razorpay'
 
 export async function POST(request: NextRequest) {
@@ -30,8 +31,10 @@ export async function POST(request: NextRequest) {
     return NextResponse.json({ error: 'Invalid payment signature' }, { status: 400 })
   }
 
-  // Fetch the pending payment row to get the plan
-  const { data: payment } = await supabase
+  // Payment + plan writes bypass RLS (service role only).
+  const admin = createAdminClient()
+
+  const { data: payment } = await admin
     .from('payments')
     .select('plan, status')
     .eq('razorpay_order_id', razorpay_order_id)
@@ -47,8 +50,7 @@ export async function POST(request: NextRequest) {
     return NextResponse.json({ success: true })
   }
 
-  // Mark payment as paid
-  await supabase
+  const { error: payErr } = await admin
     .from('payments')
     .update({
       status:              'paid',
@@ -57,11 +59,20 @@ export async function POST(request: NextRequest) {
     })
     .eq('razorpay_order_id', razorpay_order_id)
 
-  // Upgrade user plan
-  await supabase
+  if (payErr) {
+    console.error('payment verify: payments update failed', payErr)
+    return NextResponse.json({ error: 'Could not record payment' }, { status: 500 })
+  }
+
+  const { error: planErr } = await admin
     .from('users')
     .update({ plan_type: payment.plan })
     .eq('id', user.id)
+
+  if (planErr) {
+    console.error('payment verify: plan upgrade failed', planErr)
+    return NextResponse.json({ error: 'Payment recorded but plan upgrade failed' }, { status: 500 })
+  }
 
   return NextResponse.json({ success: true, plan: payment.plan })
 }

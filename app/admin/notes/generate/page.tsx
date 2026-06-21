@@ -1,4 +1,5 @@
 import { createClient } from '@/lib/supabase/server'
+import { createAdminClient } from '@/lib/supabase/admin'
 import { redirect }     from 'next/navigation'
 import NoteGeneratorUI from './NoteGeneratorUI'
 
@@ -17,10 +18,11 @@ export default async function AdminGeneratePage({ searchParams }: Props) {
   const { data: { user } } = await supabase.auth.getUser()
   if (!user || !isAdmin(user.email)) redirect('/dashboard')
 
-  // Load existing note for edit mode
+  // Draft/unpublished notes are invisible to RLS — load via service role.
   let existingNote = null
   if (editId) {
-    const { data } = await supabase
+    const admin = createAdminClient()
+    const { data } = await admin
       .from('smart_notes')
       .select('*')
       .eq('id', editId)
