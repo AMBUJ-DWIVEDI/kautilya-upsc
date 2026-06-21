@@ -5,9 +5,22 @@ export type SourceRole = 'final' | 'secondary' | 'parked' | 'dead'
 export interface Source {
   id: string
   name: string
+  subject?: string
   role: SourceRole
   reason: string
   action: string
+}
+
+/** DB row shape for kautilya_sources (server-side mapping only). */
+export interface KautilyaSourceRow {
+  id: string
+  user_id: string
+  name: string
+  subject: string | null
+  role: SourceRole
+  reason: string
+  created_at: string
+  updated_at: string
 }
 
 /** Named sources plus the silent resource_chaos dimension from diagnosis. */

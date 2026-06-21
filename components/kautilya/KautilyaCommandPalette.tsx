@@ -42,7 +42,7 @@ const ACTIONS: CommandAction[] = [
     label: 'Open Resource Map',
     hint: 'Integration view',
     icon: <Map className="h-4 w-4" />,
-    href: '/dashboard#resource-map',
+    href: '/resources',
     event: 'kautilya_resource_map_viewed',
   },
   {
@@ -50,7 +50,7 @@ const ACTIONS: CommandAction[] = [
     label: 'Reduce Resource Chaos',
     hint: 'Park or finalize sources',
     icon: <Minimize2 className="h-4 w-4" />,
-    href: '/dashboard#source-reduction',
+    href: '/resources#source-reduction',
     event: 'kautilya_resource_audit_started',
   },
   {

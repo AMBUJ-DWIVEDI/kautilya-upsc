@@ -33,10 +33,11 @@ export default async function DashboardLayout({
         <nav className="flex items-center gap-1 flex-1 overflow-x-auto">
           <NavLink href="/report">Diagnosis</NavLink>
           <NavLink href="/dashboard">Command</NavLink>
-          <NavLink href="/mock">Mock</NavLink>
-          <NavLink href="/notes">Smart Notes</NavLink>
+          <NavLink href="/mock">Mock Drill</NavLink>
+          <NavLink href="/notes">Repair Library</NavLink>
+          <NavLink href="/resources">Resources</NavLink>
           <NavLink href="/log">Daily Log</NavLink>
-          <NavLink href="/review">Recovery</NavLink>
+          <NavLink href="/review">Recall</NavLink>
           {isAdmin && <NavLink href="/admin/notes">Admin</NavLink>}
         </nav>
 

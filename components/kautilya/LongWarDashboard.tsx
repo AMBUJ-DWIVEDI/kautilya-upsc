@@ -6,6 +6,7 @@ import MotionPage from './MotionPage'
 import CommandBoard from '@/app/(dashboard)/dashboard/CommandBoard'
 import ResourceChaosMap from './ResourceChaosMap'
 import KautilyaEmptyState from './KautilyaEmptyState'
+import SourceReductionCard from './SourceReductionCard'
 import WeeklyCommandCard from './WeeklyCommandCard'
 import { deriveWeeklyCommand } from '@/lib/kautilya/demo-data'
 import { computeIntegrationScore } from '@/lib/kautilya/integrationScore'
@@ -30,6 +31,7 @@ export interface LongWarDashboardProps {
   plan: string
   hasCompletedDiagnosis: boolean
   integrationScore: number | null
+  resourceState: ResourceState
   readiness: Readiness
   command: DailyCommandRow | null
   prelimsNerve?: number | null
@@ -57,15 +59,12 @@ export default function LongWarDashboard({
   plan,
   hasCompletedDiagnosis,
   integrationScore,
+  resourceState,
   readiness,
   command,
   prelimsNerve,
   mainsStamina,
 }: LongWarDashboardProps) {
-  const resourceState: ResourceState = {
-    sources: [],
-    resourceChaos: integrationScore != null ? 100 - integrationScore : null,
-  }
   const resolvedIntegrationScore = computeIntegrationScore(resourceState) ?? integrationScore
   const weeklyCommand = deriveWeeklyCommand('Resource chaos')
 
@@ -180,10 +179,34 @@ export default function LongWarDashboard({
                   sources={resourceState.sources}
                 />
                 <div id="source-reduction" className="space-y-3">
-                  <p className="text-xs font-bold uppercase tracking-[0.2em] text-copper">
-                    Source reduction
-                  </p>
-                  <KautilyaEmptyState variant="no-resource-map" />
+                  <div className="flex items-end justify-between gap-3">
+                    <p className="text-xs font-bold uppercase tracking-[0.2em] text-copper">
+                      Source reduction
+                    </p>
+                    <Link
+                      href="/resources"
+                      className="text-xs font-bold text-copper hover:text-copperlight"
+                    >
+                      Open Resource Audit →
+                    </Link>
+                  </div>
+                  {resourceState.sources.length === 0 ? (
+                    <KautilyaEmptyState variant="no-resource-map" />
+                  ) : (
+                    <div className="space-y-3">
+                      {resourceState.sources.slice(0, 3).map(source => (
+                        <SourceReductionCard key={source.id} source={source} />
+                      ))}
+                      {resourceState.sources.length > 3 && (
+                        <Link
+                          href="/resources"
+                          className="inline-flex text-sm font-bold text-copper hover:text-copperlight"
+                        >
+                          View all {resourceState.sources.length} sources →
+                        </Link>
+                      )}
+                    </div>
+                  )}
                 </div>
               </div>
             </Section>

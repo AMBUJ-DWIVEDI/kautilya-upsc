@@ -1,5 +1,6 @@
 import { createClient } from '@/lib/supabase/server'
 import { getOrCreateTodayCommand } from '@/lib/command/generate'
+import { getResourceState } from '@/lib/resource/audit'
 import LongWarDashboard from '@/components/kautilya/LongWarDashboard'
 import type { StagePattern } from '@/lib/diagnosis/types'
 
@@ -60,6 +61,16 @@ export default async function DashboardPage() {
     ? await getOrCreateTodayCommand(supabase, user!.id)
     : null
 
+  let resourceState
+  try {
+    resourceState = await getResourceState(supabase, user!.id)
+  } catch {
+    resourceState = {
+      sources: [],
+      resourceChaos: (summary?.resource_chaos as number | null) ?? null,
+    }
+  }
+
   return (
     <LongWarDashboard
       aspirantName={aspirantName}
@@ -68,6 +79,7 @@ export default async function DashboardPage() {
       plan={plan}
       hasCompletedDiagnosis={hasCompletedDiagnosis}
       integrationScore={integrationScore}
+      resourceState={resourceState}
       readiness={readiness}
       command={command}
       prelimsNerve={prelimsNerve}

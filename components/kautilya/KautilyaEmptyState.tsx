@@ -17,7 +17,7 @@ const PRESETS: Record<
     title: 'No resource map yet — name your sources.',
     body: 'Your sources cannot be integrated until they are named.',
     cta: 'Begin Resource Audit',
-    href: '/dashboard#resource-map',
+    href: '/resources',
   },
   'no-answer': {
     title: 'No answer submitted yet.',
