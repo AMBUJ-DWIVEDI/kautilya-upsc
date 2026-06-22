@@ -68,7 +68,11 @@ function escapeRegExp(s: string): string {
  */
 export function findShameLanguage(text: string): string[] {
   if (!text) return []
-  return NO_SHAME_BANS.filter((term) => new RegExp(`\\b${escapeRegExp(term)}\\b`, 'i').test(text))
+  // Flag a banned term only when ASSERTED — "You are not behind" / "not lazy" is the
+  // seen-language pattern itself and must pass; "You are lazy" is the violation.
+  return NO_SHAME_BANS.filter((term) =>
+    new RegExp(`(?<!\\bnot\\s)(?<!\\bnever\\s)\\b${escapeRegExp(term)}\\b`, 'i').test(text),
+  )
 }
 
 /** Prompt-injectable voice spec for the long-war report / command generation. */

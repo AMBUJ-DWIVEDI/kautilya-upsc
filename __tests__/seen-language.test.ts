@@ -60,6 +60,11 @@ describe('findShameLanguage runtime guard', () => {
     expect(findShameLanguage('You are not behind; your sources have no hierarchy.')).toEqual([])
   })
 
+  it('allows the negated seen-language pattern but flags the assertion', () => {
+    expect(findShameLanguage('You are not lazy.')).toEqual([])
+    expect(findShameLanguage('You are lazy.')).toContain('lazy')
+  })
+
   it('uses word boundaries — does not flag substrings', () => {
     expect(findShameLanguage('a weakly held source')).toEqual([])
   })
