@@ -10,6 +10,7 @@ import type {
 } from '@/lib/diagnosis/types'
 import type { ReportDepth } from '@/lib/report/depth'
 import { formatAnswersForPrompt, type ResolvedAnswer } from '@/lib/report/answers'
+import { SEEN_VOICE_RULES } from '@/lib/voice/seenLanguage'
 
 const STAGE_LABEL: Record<string, string> = {
   FRESH: 'First serious attempt',
@@ -39,6 +40,8 @@ VOICE & LAWS (non-negotiable):
 - A little Hinglish emotional warmth is allowed in human lines, but stay crisp.
 - Speak to THIS person using their scores and facts — no horoscope generalities.
 - Output is consumed by code. Return ONLY valid JSON. No markdown, no commentary.
+
+${SEEN_VOICE_RULES}
 
 You will receive: the archetype (with its reveal line), 15 silent dimensions (0–100), the stage pattern, the purpose type, behavioural war-pattern tags, factual profile data (attempts, prep years, employment, optional), AND — most importantly — THE ASPIRANT'S ACTUAL ANSWERS to the diagnosis (their own chosen words across 8 levels: their journey, their why, daily reality, resources, mind under fire, emotional core, their anchor, and the mirror). Dimensions are scored silently — NEVER echo raw numbers back to the aspirant inside prose; translate them into plain insight.
 
