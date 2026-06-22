@@ -57,6 +57,20 @@ export const NO_SHAME_BANS = [
   'you are narcissistic',
 ] as const
 
+function escapeRegExp(s: string): string {
+  return s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
+}
+
+/**
+ * Runtime guard: returns the banned terms present in `text` (empty = clean).
+ * SEEN_VOICE_RULES instructs the model to avoid these, but a prompt is not
+ * enforcement — scan generated output and flag leaks so they can be caught.
+ */
+export function findShameLanguage(text: string): string[] {
+  if (!text) return []
+  return NO_SHAME_BANS.filter((term) => new RegExp(`\\b${escapeRegExp(term)}\\b`, 'i').test(text))
+}
+
 /** Prompt-injectable voice spec for the long-war report / command generation. */
 export const SEEN_VOICE_RULES = `SEEN-LANGUAGE VOICE (apply to diagnostic and command lines):
 Locate the aspirant in their long war; never flatter or shame. Prefer the structure:

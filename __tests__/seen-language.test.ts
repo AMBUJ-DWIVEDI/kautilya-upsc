@@ -1,5 +1,10 @@
 import { describe, it, expect } from 'vitest'
-import { createSeenCommand, NO_SHAME_BANS, SEEN_VOICE_RULES } from '@/lib/voice/seenLanguage'
+import {
+  createSeenCommand,
+  findShameLanguage,
+  NO_SHAME_BANS,
+  SEEN_VOICE_RULES,
+} from '@/lib/voice/seenLanguage'
 
 describe('seen language', () => {
   it('builds the not-X / actually-Y / cost / command structure', () => {
@@ -38,5 +43,24 @@ describe('seen language', () => {
   it('the prompt voice rules ban shame words', () => {
     expect(NO_SHAME_BANS).toContain('lazy')
     expect(SEEN_VOICE_RULES).toContain('not X, actually Y')
+  })
+})
+
+describe('findShameLanguage runtime guard', () => {
+  it('flags symptom-as-identity and clinical terms in generated output', () => {
+    expect(findShameLanguage('You are lazy and undisciplined.')).toEqual(
+      expect.arrayContaining(['lazy', 'undisciplined']),
+    )
+    expect(findShameLanguage('This pattern suggests you are depressed.')).toContain(
+      'you are depressed',
+    )
+  })
+
+  it('passes clean, located language', () => {
+    expect(findShameLanguage('You are not behind; your sources have no hierarchy.')).toEqual([])
+  })
+
+  it('uses word boundaries — does not flag substrings', () => {
+    expect(findShameLanguage('a weakly held source')).toEqual([])
   })
 })

@@ -8,6 +8,7 @@
 
 import { createClient } from '@/lib/supabase/server'
 import { buildReportPrompt } from '@/lib/report/prompt'
+import { findShameLanguage } from '@/lib/voice/seenLanguage'
 import { resolveDiagnosisAnswers } from '@/lib/report/answers'
 import { normalizeReportDepth, type ReportDepth } from '@/lib/report/depth'
 import { generateJSON, GatewayError } from '@/lib/ai/gateway'
@@ -151,6 +152,10 @@ export async function POST(request: NextRequest) {
       maxTokens: depth === 'paid50' ? 4800 : 4000,
     })
     report = result.data
+    const shameLeaks = findShameLanguage(JSON.stringify(report))
+    if (shameLeaks.length) {
+      console.warn('Seen-language guard: report contained banned terms:', shameLeaks)
+    }
   } catch (err) {
     if (err instanceof GatewayError) {
       console.error('AI gateway failed:', err.attempts)
