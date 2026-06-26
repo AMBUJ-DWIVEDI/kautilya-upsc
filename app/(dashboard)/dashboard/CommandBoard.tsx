@@ -41,7 +41,7 @@ export default function CommandBoard({ initialCommand }: Props) {
   }
 
   return (
-    <section className="card-calm overflow-hidden">
+    <section className="institutional-surface overflow-hidden">
       <div className="border-b border-linen px-5 py-4 sm:px-6">
         <div className="flex items-center justify-between gap-4">
           <div>
@@ -58,7 +58,7 @@ export default function CommandBoard({ initialCommand }: Props) {
         </div>
       </div>
 
-      <div className="divide-y divide-linen">
+      <div className="divide-y divide-linen bg-ivory/60">
         {threads.map((thread, i) => {
           const done = completed.has(thread.id)
           const isMains = thread.type === 'mains_answer'
@@ -88,7 +88,7 @@ export default function CommandBoard({ initialCommand }: Props) {
                     <p className={cn('text-sm font-semibold', done ? 'text-inkdim line-through decoration-sage/60' : 'text-slate900')}>
                       {i + 1}. {thread.title}
                     </p>
-                    <span className="text-xs font-bold uppercase tracking-wide text-copper">{thread.target}</span>
+                    <span className="rounded-full border border-copper/20 bg-copper/5 px-2 py-1 text-[11px] font-bold uppercase tracking-wide text-copper">{thread.target}</span>
                   </div>
 
                   {!thread.locked && thread.href && !done && (

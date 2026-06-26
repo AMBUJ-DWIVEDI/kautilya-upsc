@@ -54,9 +54,11 @@ export default async function NotesPage({
 
   if (mode === 'revision') {
     return (
-      <div className="mx-auto w-full max-w-3xl flex-1 px-4 py-10 sm:px-6">
-        <h1 className="heading-cinzel mb-2 text-2xl font-bold text-indigo">Recall Drill</h1>
-        <p className="mb-6 text-sm text-inkdim">Cards from repair notes you have already sealed once.</p>
+      <div className="mx-auto w-full max-w-5xl flex-1 px-4 pb-10 pt-2 sm:px-6 lg:px-8">
+        <div className="institutional-surface mb-6 p-5">
+          <h1 className="heading-cinzel text-2xl font-bold text-indigo">Recall Drill</h1>
+          <p className="mt-2 text-sm text-inkdim">Cards from repair notes you have already sealed once.</p>
+        </div>
         {revised && revised.length > 0 ? (
           <div className="space-y-3">
             {revised.map(r => {
@@ -81,8 +83,8 @@ export default async function NotesPage({
   }
 
   return (
-    <div className="mx-auto w-full max-w-3xl flex-1 px-4 py-10 sm:px-6">
-      <header className="mb-8">
+    <div className="mx-auto w-full max-w-6xl flex-1 px-4 pb-10 pt-2 sm:px-6 lg:px-8">
+      <header className="institutional-surface mb-8 p-5 sm:p-6">
         <p className="mb-2 font-mono text-xs uppercase tracking-[0.3em] text-copper">
           Repair Library · Smart Notes
         </p>
@@ -98,7 +100,7 @@ export default async function NotesPage({
         )}
       </header>
 
-      <div className="grid gap-3 sm:grid-cols-2">
+      <div className="grid gap-3 sm:grid-cols-2 xl:grid-cols-3">
         {ALL_SECTIONS.map(section => {
           const count = countMap[section] ?? 0
           return (

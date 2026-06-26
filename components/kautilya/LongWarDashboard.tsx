@@ -69,10 +69,10 @@ export default function LongWarDashboard({
   const weeklyCommand = deriveWeeklyCommand('Resource chaos')
 
   return (
-    <MotionPage className="flex-1 bg-parchment px-4 py-6 text-slate900 sm:px-6 sm:py-8">
-      <div className="mx-auto max-w-4xl">
+    <MotionPage className="flex-1 bg-parchment px-4 pb-10 pt-2 text-slate900 sm:px-6 lg:px-8">
+      <div className="mx-auto max-w-7xl">
         {/* ── Top: Long-War Command ── */}
-        <header className="command-dossier mb-7 overflow-hidden rounded-2xl border border-linen">
+        <header className="institutional-surface mb-7 overflow-hidden">
           <div className="grid lg:grid-cols-[1fr_280px]">
             <div className="p-6 sm:p-7">
               <p className="font-mono text-xs font-bold uppercase tracking-[0.3em] text-copper">
@@ -100,9 +100,11 @@ export default function LongWarDashboard({
                 </div>
               )}
 
-              <div className="mt-5 grid gap-3 sm:grid-cols-2">
+              <div className="mt-5 grid gap-3 sm:grid-cols-2 xl:grid-cols-4">
                 <SignalCard label="Current war signal" value={readiness.signal} />
                 <SignalCard label="Operating rule" value={readiness.rule} />
+                <SignalCard label="Must reduce" value="Open fronts before new sources." />
+                <SignalCard label="Must write" value="One answer before more reading." />
               </div>
             </div>
 

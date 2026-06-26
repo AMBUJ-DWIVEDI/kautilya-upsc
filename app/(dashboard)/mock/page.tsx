@@ -39,9 +39,9 @@ export default async function PaperLibraryPage() {
   const gs = APP.exam.prelimsGS
 
   return (
-    <div className="flex-1 bg-parchment px-4 py-8 text-slate900 sm:px-6">
-      <div className="mx-auto max-w-6xl">
-        <header className="mb-6 grid gap-4 lg:grid-cols-[1fr_320px] lg:items-end">
+    <div className="flex-1 bg-parchment px-4 pb-10 pt-2 text-slate900 sm:px-6 lg:px-8">
+      <div className="mx-auto max-w-7xl">
+        <header className="institutional-surface mb-6 grid gap-4 p-5 sm:p-6 lg:grid-cols-[1fr_320px] lg:items-end">
           <div>
             <p className="mb-2 text-xs font-bold uppercase tracking-[0.3em] text-copper">
               Baseline signals · Repair drills
@@ -56,7 +56,7 @@ export default async function PaperLibraryPage() {
               guessing discipline and elimination technique, not just your score.
             </p>
           </div>
-          <div className="card-calm p-4">
+          <div className="rounded-lg border border-copper/25 bg-copper/5 p-4">
             <p className="text-xs font-bold uppercase tracking-[0.22em] text-copper">Your mock access</p>
             <p className="mt-2 text-2xl font-black text-indigo">{paid ? 'Full arena' : '3 free papers'}</p>
             <p className="mt-1 text-xs text-inkdim">{completed} signal{completed !== 1 ? 's' : ''} recorded</p>
@@ -64,7 +64,7 @@ export default async function PaperLibraryPage() {
         </header>
 
         {!paid && (
-          <section className="card-calm copper-border mb-6 p-5">
+          <section className="institutional-surface copper-border mb-6 p-5">
             <p className="text-xs font-bold uppercase tracking-[0.26em] text-copper">Baseline signal</p>
             <h2 className="heading-cinzel mt-2 text-2xl font-bold text-indigo">
               Start Paper 1. Then unlock the plan built from your leaks.
@@ -102,7 +102,7 @@ function PaperSection({
   attemptMap: Map<string, { id: string; score: number; max_score: number | null }>
 }) {
   return (
-    <section className="card-calm mb-8 p-4 sm:p-5">
+    <section className="institutional-surface mb-8 p-4 sm:p-5">
       <div className="mb-4 flex flex-col gap-1 sm:flex-row sm:items-end sm:justify-between">
         <div>
           <h2 className="text-xl font-black text-indigo">{title}</h2>

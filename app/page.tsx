@@ -61,24 +61,24 @@ function HeroSection() {
       <div className="mx-auto grid w-full max-w-6xl gap-12 lg:grid-cols-[minmax(0,1fr)_430px] lg:items-center">
         <div className="max-w-3xl">
           <p className="mb-4 text-xs font-bold uppercase tracking-[0.28em] text-copper">
-            Diagnosis-first {APP.brand.exam} command system
+            Civil-services intelligence desk for {APP.brand.exam}
           </p>
           <h1 className="heading-cinzel max-w-4xl text-5xl font-black leading-[1.02] text-indigo sm:text-6xl lg:text-7xl">
             KAUTILYA IAS
-            <span className="block text-copper-gradient">Command System.</span>
+            <span className="block text-copper-gradient">Judgement Engine.</span>
           </h1>
 
           <p className="mt-7 max-w-2xl text-base leading-8 text-inkdim sm:text-lg">
             The syllabus is visible. The real enemy is hidden. KAUTILYA studies how <em>you</em>{' '}
             prepare: where sources fragment, where Prelims nerve leaks marks, where Mains stamina
-            fades, and what recovery should look like tomorrow morning.
+            fades, and which command should stabilize tomorrow morning.
           </p>
 
           <div className="mt-7 grid max-w-2xl gap-3 sm:grid-cols-3">
             {[
-              ['Scout', '30 premium signals'],
-              ['Direction', 'one command a day'],
-              ['Repair', 'notes tied to leaks'],
+              ['Diagnose', '30 premium signals'],
+              ['Reduce', 'source chaos first'],
+              ['Integrate', 'notes tied to leaks'],
             ].map(([label, copy]) => (
               <div key={label} className="border-l border-copper/40 pl-3">
                 <p className="text-xs font-bold uppercase tracking-[0.18em] text-copper">{label}</p>
@@ -98,12 +98,12 @@ function HeroSection() {
               href="#system"
               className="inline-flex min-h-12 items-center justify-center rounded border border-linen px-7 text-sm font-semibold text-slate900 transition-calm hover:border-copper/50"
             >
-              See How It Works
+              View the System
             </a>
           </div>
 
           <p className="mt-6 text-xs text-inkdim">
-            Start with 30 premium signals free. Upgrade for the full 50-card contextual diagnosis.
+            Start with 30 premium signals free. Upgrade when the full 50-card dossier is needed.
           </p>
         </div>
 
@@ -117,10 +117,10 @@ function HeroSection() {
 
 function HeroCommandPreview() {
   const command = [
-    ['Repair source chaos', 'Polity Article 32', '12 min'],
-    ['Prelims nerve drill', 'Elimination set', '20 min'],
-    ['Write one GS answer', 'Federalism frame', '15 min'],
-    ['Log recovery signal', 'What broke rhythm?', '2 min'],
+    ['What leaked?', 'Resource chaos: polity stack', 'High'],
+    ['What repairs it?', 'Article 32 brief + recall', '12 min'],
+    ['What is next?', 'One federalism answer', '15 min'],
+    ['What returns you?', 'Night recovery log', '2 min'],
   ]
 
   return (
@@ -132,9 +132,9 @@ function HeroCommandPreview() {
         <div className="border-b border-linen px-5 py-4">
           <div className="flex items-start justify-between gap-4">
             <div>
-              <p className="text-xs font-bold uppercase tracking-[0.26em] text-copper">Today&apos;s Command</p>
+              <p className="text-xs font-bold uppercase tracking-[0.26em] text-copper">Intelligence Brief</p>
               <h2 className="heading-cinzel mt-2 text-2xl font-bold leading-tight text-indigo">
-                Highest-leverage action now.
+                Reduce before expansion.
               </h2>
             </div>
             <Seal variant="stamped" size={54} />

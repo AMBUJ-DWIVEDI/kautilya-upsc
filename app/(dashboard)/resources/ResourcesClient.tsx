@@ -150,10 +150,10 @@ export default function ResourcesClient({ initialState }: ResourcesClientProps) 
         )}
       </section>
 
-      <section className="card-calm copper-border p-5 sm:p-6">
+      <section className="institutional-surface copper-border p-5 sm:p-6">
         <p className="text-xs font-bold uppercase tracking-[0.2em] text-copper">Add source</p>
         <p className="mt-1 text-sm text-inkdim">
-          One honest entry beats a perfect taxonomy. Subject is optional.
+          One honest entry beats a perfect taxonomy. Add only what you are willing to reduce.
         </p>
 
         <form onSubmit={handleAdd} className="mt-5 space-y-4">

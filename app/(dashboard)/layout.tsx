@@ -1,8 +1,7 @@
 import { createClient } from '@/lib/supabase/server'
 import { redirect } from 'next/navigation'
 import type { ReactNode } from 'react'
-import Link from 'next/link'
-import Seal from '@/components/brand/Seal'
+import KautilyaAppShell from '@/components/kautilya/KautilyaAppShell'
 
 export default async function DashboardLayout({
   children,
@@ -17,68 +16,17 @@ export default async function DashboardLayout({
   }
 
   const isAdmin = user.email === process.env.ADMIN_EMAIL
+  const { data: userData } = await supabase
+    .from('users')
+    .select('plan_type')
+    .eq('id', user.id)
+    .single()
+
+  const plan = (userData?.plan_type as string | null) ?? 'free'
 
   return (
-    <div className="min-h-screen flex flex-col">
-      {/* Top nav */}
-      <header className="border-b border-chanakya-muted/30 px-4 sm:px-6 py-3 flex items-center gap-4">
-        <Link href="/dashboard" className="shrink-0 flex items-center gap-2.5">
-          <Seal variant="stamped" size={30} />
-          <span className="heading-cinzel whitespace-nowrap text-sm font-bold tracking-[0.14em] text-indigo">
-            KAUTILYA IAS
-          </span>
-        </Link>
-
-        {/* Nav links */}
-        <nav className="flex items-center gap-1 flex-1 overflow-x-auto">
-          <NavLink href="/report">Diagnosis</NavLink>
-          <NavLink href="/dashboard">Command</NavLink>
-          <NavLink href="/mock">Mock Drill</NavLink>
-          <NavLink href="/notes">Repair Library</NavLink>
-          <NavLink href="/resources">Resources</NavLink>
-          <NavLink href="/log">Daily Log</NavLink>
-          <NavLink href="/review">Recall</NavLink>
-          {isAdmin && <NavLink href="/admin/notes">Admin</NavLink>}
-        </nav>
-
-        <div className="flex items-center gap-3 shrink-0">
-          <Link href="/upgrade"
-            className="heading-cinzel hidden text-xs tracking-wide text-copper transition-calm hover:text-copperlight sm:block">
-            Unlock Command
-          </Link>
-          <SignOutButton />
-        </div>
-      </header>
-
-      {/* Page content */}
-      <main className="flex-1 flex flex-col">
-        {children}
-      </main>
-    </div>
-  )
-}
-
-function NavLink({ href, children }: { href: string; children: ReactNode }) {
-  return (
-    <Link
-      href={href}
-      className="text-chanakya-text-dim text-xs px-2 py-1 rounded hover:text-chanakya-gold
-                 hover:bg-chanakya-gold/5 transition-colors whitespace-nowrap"
-    >
+    <KautilyaAppShell isAdmin={isAdmin} plan={plan} email={user.email}>
       {children}
-    </Link>
-  )
-}
-
-function SignOutButton() {
-  return (
-    <form action="/api/auth/signout" method="POST">
-      <button
-        type="submit"
-        className="text-chanakya-text-dim text-xs hover:text-chanakya-gold transition-colors"
-      >
-        Sign Out
-      </button>
-    </form>
+    </KautilyaAppShell>
   )
 }

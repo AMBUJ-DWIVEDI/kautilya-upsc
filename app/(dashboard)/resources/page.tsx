@@ -12,9 +12,9 @@ export default async function ResourcesPage() {
     initialState = await getResourceState(supabase, user!.id)
   } catch {
     return (
-      <div className="flex-1 bg-parchment px-4 py-8 text-slate900 sm:px-6">
-        <div className="mx-auto max-w-3xl">
-          <header className="mb-6">
+      <div className="flex-1 bg-parchment px-4 pb-10 pt-2 text-slate900 sm:px-6 lg:px-8">
+        <div className="mx-auto max-w-6xl">
+          <header className="institutional-surface mb-6 p-5 sm:p-6">
             <p className="text-sm font-black uppercase tracking-[0.22em] text-copper">Resource Audit</p>
             <h1 className="heading-cinzel mt-1 text-3xl font-black leading-tight text-indigo sm:text-4xl">
               Name your sources. Then reduce.
@@ -30,9 +30,9 @@ export default async function ResourcesPage() {
   }
 
   return (
-    <div className="flex-1 bg-parchment px-4 py-8 text-slate900 sm:px-6">
-      <div className="mx-auto max-w-3xl">
-        <header className="mb-8">
+    <div className="flex-1 bg-parchment px-4 pb-10 pt-2 text-slate900 sm:px-6 lg:px-8">
+      <div className="mx-auto max-w-6xl">
+        <header className="institutional-surface mb-8 p-5 sm:p-6">
           <p className="text-sm font-black uppercase tracking-[0.22em] text-copper">Resource Audit</p>
           <h1 className="heading-cinzel mt-1 text-3xl font-black leading-tight text-indigo sm:text-4xl">
             Name your sources. Then reduce.

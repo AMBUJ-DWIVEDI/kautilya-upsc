@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import type { ReactNode } from 'react'
 import { Cinzel, Inter, JetBrains_Mono, Source_Serif_4 } from 'next/font/google'
 import AnalyticsProvider from '@/components/AnalyticsProvider'
+import KautilyaShell from '@/components/kautilya/KautilyaShell'
 import { APP } from '@/lib/config'
 import './globals.css'
 
@@ -64,7 +65,7 @@ export default function RootLayout({
       className={`${cinzel.variable} ${inter.variable} ${sourceSerif.variable} ${jetbrainsMono.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col bg-parchment text-slate900">
-        {children}
+        <KautilyaShell>{children}</KautilyaShell>
         <AnalyticsProvider />
       </body>
     </html>
