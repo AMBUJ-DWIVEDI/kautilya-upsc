@@ -39,7 +39,7 @@ CREATE TABLE IF NOT EXISTS public.aspirant_profiles (
   -- Pillar 3: goal architecture answers
   pillar3_data    JSONB       NOT NULL DEFAULT '{}'::JSONB,
   diagnosis_depth TEXT        NOT NULL DEFAULT 'none'
-                          CHECK (diagnosis_depth IN ('none', 'free30', 'paid50')),
+                          CHECK (diagnosis_depth IN ('none', 'free30', 'paid50', 'free40', 'paid60')),
   core_completed_at TIMESTAMPTZ,
   paid_completed_at TIMESTAMPTZ,
   -- TRUE after OpenAI anchor statement has been generated and cached
@@ -96,7 +96,7 @@ CREATE TABLE IF NOT EXISTS public.diagnosis_reports (
   -- NULL for the initial questionnaire-based report (before any mock)
   attempt_id      UUID,
   report_depth    TEXT        NOT NULL DEFAULT 'free30'
-                              CHECK (report_depth IN ('free30', 'paid50', 'mock_result')),
+                              CHECK (report_depth IN ('free30', 'paid50', 'free40', 'paid60', 'mock_result')),
   report_content  JSONB       NOT NULL DEFAULT '{}'::JSONB,
   generated_at    TIMESTAMPTZ NOT NULL DEFAULT NOW()
 );
