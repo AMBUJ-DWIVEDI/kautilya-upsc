@@ -19,6 +19,7 @@ import {
   Shield,
   Target,
   Trophy,
+  UserRound,
   Zap,
   type LucideIcon,
 } from 'lucide-react'
@@ -45,6 +46,7 @@ const ICONS: Record<KautilyaIconName, LucideIcon> = {
   shield: Shield,
   target: Target,
   trophy: Trophy,
+  'user-round': UserRound,
   zap: Zap,
 }
 

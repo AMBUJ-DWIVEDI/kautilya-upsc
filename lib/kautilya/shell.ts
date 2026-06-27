@@ -21,6 +21,7 @@ export type KautilyaIconName =
   | 'scroll-text'
   | 'shield'
   | 'trophy'
+  | 'user-round'
   | 'target'
   | 'zap'
 
@@ -66,6 +67,13 @@ export const KAUTILYA_SHELL_GROUPS: KautilyaShellGroup[] = [
         href: '/anchor',
         hint: 'Personal vault, rules, diagnosis, and return logic',
         icon: 'landmark',
+      },
+      {
+        id: 'operating-profiles',
+        label: 'Open Profiles',
+        href: '/profile',
+        hint: 'Current diagnosis identity and ten operating patterns',
+        icon: 'user-round',
       },
       {
         id: 'leaderboard',
@@ -200,6 +208,13 @@ export const KAUTILYA_ROUTE_BRIEFS: Record<string, KautilyaRouteBrief> = {
     verdict: 'The long war needs a private evidence vault for purpose, pressure, and return.',
     primaryAction: 'Review anchor',
     signals: ['Operating profile', 'Rules', 'Target memory'],
+  },
+  '/profile': {
+    eyebrow: 'Operating identity',
+    title: 'Aspirant Profiles',
+    verdict: 'The pattern must be recognized before the preparation can be commanded.',
+    primaryAction: 'Review profile',
+    signals: ['Archetype', 'Stage pattern', 'Command needs'],
   },
   '/forum': {
     eyebrow: 'Community layer',

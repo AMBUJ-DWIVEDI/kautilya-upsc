@@ -20,6 +20,7 @@ import {
   Shield,
   Target,
   Trophy,
+  UserRound,
   X,
   Zap,
   type LucideIcon,
@@ -57,6 +58,7 @@ const ICONS: Record<KautilyaIconName, LucideIcon> = {
   shield: Shield,
   target: Target,
   trophy: Trophy,
+  'user-round': UserRound,
   zap: Zap,
 }
 

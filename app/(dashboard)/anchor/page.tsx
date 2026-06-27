@@ -9,7 +9,7 @@ export default async function KautilyaAnchorPage() {
   const { data: { user } } = await supabase.auth.getUser()
 
   const [{ data: summary }, { data: report }] = await Promise.all([
-    supabase.from('user_dashboard_summary').select('name, archetype, stage_pattern, plan_type, integration_score, resource_chaos, prelims_nerve, mains_stamina').eq('user_id', user!.id).maybeSingle(),
+    supabase.from('user_dashboard_summary').select('name, archetype, stage_pattern, plan_type, integration_score, resource_chaos, prelims_nerve, mains_stamina, latest_score, latest_max_score, attempts_taken').eq('user_id', user!.id).maybeSingle(),
     supabase.from('diagnosis_reports').select('report_content, generated_at').eq('user_id', user!.id).order('generated_at', { ascending: false }).limit(1).maybeSingle(),
   ])
 
@@ -32,8 +32,8 @@ export default async function KautilyaAnchorPage() {
 
         <section className="grid gap-4 lg:grid-cols-3">
           <AnchorMetric title="Aspirant" value={aspirantName} detail={archetype} />
-          <AnchorMetric title="Integration" value={summary?.integration_score != null ? String(summary.integration_score) : 'Pending'} detail="How much of the system is holding together." />
-          <AnchorMetric title="Prelims Nerve" value={summary?.prelims_nerve != null ? String(summary.prelims_nerve) : 'Pending'} detail="Judgement under two-option pressure." />
+          <AnchorMetric title="Latest Score" value={summary?.latest_score != null ? `${summary.latest_score}/${summary.latest_max_score ?? 200}` : 'Pending'} detail="The latest measured examination evidence." />
+          <AnchorMetric title="Attempt Stage" value={summary?.stage_pattern ?? 'Pending'} detail={`${summary?.attempts_taken ?? 0} attempts recorded in the operating profile.`} />
         </section>
 
         <section className="mt-6 grid gap-5 lg:grid-cols-2">
@@ -48,12 +48,14 @@ export default async function KautilyaAnchorPage() {
           />
           <VaultPanel
             title="Rules and Laws"
-            items={[
-              'No new source until one source is reduced.',
-              'Write before comparing.',
-              'Current affairs must attach to static ground.',
-              'Recovery is a command, not a confession.',
-            ]}
+            items={snapshot.diagnosisLaws.length > 0
+              ? snapshot.diagnosisLaws.map(item => `${item.name}: ${item.law}`)
+              : [
+                  'No new source until one source is reduced.',
+                  'Write before comparing.',
+                  'Current affairs must attach to static ground.',
+                  'Recovery is a command, not a confession.',
+                ]}
           />
           <VaultPanel
             title="Operating Profile"

@@ -27,6 +27,7 @@ describe('KAUTILYA product shell blueprint', () => {
     const expectedRoutes = [
       '/dashboard',
       '/kautilya/command',
+      '/profile',
       '/anchor',
       '/leaderboard',
       '/forum',
@@ -57,7 +58,7 @@ describe('KAUTILYA product shell blueprint', () => {
     })
     expect(new Set(hrefs)).toEqual(new Set(hrefs))
     expect(hrefs).toEqual(
-      expect.arrayContaining(['/kautilya/command', '/anchor', '/leaderboard', '/forum', '/report', '/mock', '/notes', '/resources', '/log']),
+      expect.arrayContaining(['/kautilya/command', '/profile', '/anchor', '/leaderboard', '/forum', '/report', '/mock', '/notes', '/resources', '/log']),
     )
   })
 })
