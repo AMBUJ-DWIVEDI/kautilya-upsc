@@ -262,6 +262,43 @@ const RAW_CARDS: RawCard[] = [
   // ═══════════════ LEVEL 3 — THE DAILY REALITY (6) ═══════════════
 
   {
+    id: 'L2-07', level: 2,
+    question: 'When you picture the work after selection, which chair are you actually preparing to earn?',
+    options: [
+      { key: 'a', label: 'IAS: field administration, policy, and executive responsibility.', weights: { purpose_intensity: 8, cognitive_clarity: 3 } },
+      { key: 'b', label: 'IPS: command, public order, and institutional leadership.', weights: { purpose_intensity: 8, cognitive_clarity: 3 } },
+      { key: 'c', label: 'IFS: diplomacy, negotiation, and representing India abroad.', weights: { purpose_intensity: 8, cognitive_clarity: 3 } },
+      { key: 'd', label: 'Revenue or economic services: taxation, finance, trade, or regulation.', weights: { purpose_intensity: 6, cognitive_clarity: 3 } },
+      { key: 'e', label: 'Another Group A service whose work fits me better than its prestige.', weights: { purpose_intensity: 6, cognitive_clarity: 5 } },
+      { key: 'f', label: 'I want selection first; I have not chosen a service honestly yet.', weights: { cognitive_clarity: -3 } },
+    ],
+  },
+  {
+    id: 'L2-08', level: 2,
+    question: 'Strip away polite modesty. What rank band is the campaign in your head built to pursue?',
+    options: [
+      { key: 'a', label: 'Top 10. I am preparing for first-choice certainty.', weights: { purpose_intensity: 8 } },
+      { key: 'b', label: 'Top 50. My target assumes a very high service allocation.', weights: { purpose_intensity: 6 } },
+      { key: 'c', label: 'Top 100. I want a strong chance at a preferred service.', weights: { purpose_intensity: 5 } },
+      { key: 'd', label: 'A rank that secures my chosen service, whatever that number becomes.', weights: { cognitive_clarity: 5 } },
+      { key: 'e', label: 'Any place in the final list would change the war.', weights: { external_pressure: 5 } },
+      { key: 'f', label: 'I have never converted the dream into a rank target.', weights: { cognitive_clarity: -4 } },
+    ],
+  },
+  {
+    id: 'L2-09', level: 2,
+    question: 'Which numerical line is most real in your preparation plan right now?',
+    options: [
+      { key: 'a', label: 'A repeatable Prelims GS score with a clear safety margin above recent cutoffs.', weights: { prelims_nerve: 5, cognitive_clarity: 4 } },
+      { key: 'b', label: 'A CSAT score that makes qualification boring rather than frightening.', weights: { prelims_nerve: 5, cognitive_clarity: 4 } },
+      { key: 'c', label: 'A Mains written score strong enough that the interview is not a rescue mission.', weights: { mains_stamina: 5, cognitive_clarity: 4 } },
+      { key: 'd', label: 'A final aggregate benchmark tied to my preferred service and rank.', weights: { cognitive_clarity: 6 } },
+      { key: 'e', label: 'I track improvement and safety margin, not one permanent number.', weights: { cognitive_clarity: 4 } },
+      { key: 'f', label: 'No score line is written down yet.', weights: { cognitive_clarity: -5, execution_friction: 3 } },
+    ],
+  },
+
+  {
     id: 'L3-01', level: 3,
     question: 'Your current life structure, as it actually is:',
     options: [
@@ -571,6 +608,19 @@ const RAW_CARDS: RawCard[] = [
   // ═══════════════ LEVEL 7 — THE ANCHOR (5) ═══════════════
 
   {
+    id: 'L6-08', level: 6,
+    question: 'Which thought has the most reliable key to the room you do not show people?',
+    options: [
+      { key: 'a', label: '"What if the years amount to nothing?"', weights: { identity_fusion: 8, emotional_volatility: 5 } },
+      { key: 'b', label: '"What if I disappoint the people who carried me?"', weights: { external_pressure: 8, anchor_strength: 5 } },
+      { key: 'c', label: '"What if others move ahead and I remain here?"', weights: { emotional_volatility: 8, distraction_risk: 4 } },
+      { key: 'd', label: '"What if I am financially dependent for too long?"', weights: { external_pressure: 10 } },
+      { key: 'e', label: '"What if failure proves I was never as capable as I believed?"', weights: { identity_fusion: 10, emotional_volatility: 6 } },
+      { key: 'f', label: '"What if nobody really understands what this preparation is costing me?"', weights: { emotional_volatility: 7, recovery_speed: -3 } },
+    ],
+  },
+
+  {
     id: 'L7-01', level: 7,
     question: 'On the worst day of this journey so far, what actually kept you in the fight?',
     options: [
@@ -629,6 +679,57 @@ const RAW_CARDS: RawCard[] = [
   // ═══════════════ LEVEL 8 — THE MIRROR (5) ═══════════════
 
   {
+    id: 'L7-06', level: 7,
+    question: 'When the fight becomes private, whose presence has the strongest claim on your courage?',
+    options: [
+      { key: 'a', label: 'My mother.', weights: { anchor_strength: 12 } },
+      { key: 'b', label: 'My father.', weights: { anchor_strength: 12 } },
+      { key: 'c', label: 'My parents or family as a whole; separating one person would be false.', weights: { anchor_strength: 12 } },
+      { key: 'd', label: 'My partner, sibling, or closest friend.', weights: { anchor_strength: 10 } },
+      { key: 'e', label: 'A teacher, mentor, or senior who saw something in me.', weights: { anchor_strength: 10 } },
+      { key: 'f', label: 'No single person. My strongest anchor is not human.', weights: { anchor_strength: 5 } },
+    ],
+  },
+  {
+    id: 'L7-07', level: 7,
+    question: 'What does that person or circle actually do inside your preparation?',
+    options: [
+      { key: 'a', label: 'Their sacrifice turns quitting into a debt I refuse to leave unpaid.', weights: { anchor_strength: 12, external_pressure: 5 } },
+      { key: 'b', label: 'They believed before there was evidence, and I protect that belief.', weights: { anchor_strength: 14 } },
+      { key: 'c', label: 'They calm my nervous system when the exam makes everything feel unstable.', weights: { anchor_strength: 12, recovery_speed: 5 } },
+      { key: 'd', label: 'They hold me accountable and do not let my excuses become a lifestyle.', weights: { anchor_strength: 10, execution_friction: -4 } },
+      { key: 'e', label: 'They represent the life and security I want to build after selection.', weights: { anchor_strength: 10, purpose_intensity: 5 } },
+      { key: 'f', label: 'They are part of a memory or legacy I carry forward.', weights: { anchor_strength: 12, purpose_intensity: 5 } },
+      { key: 'g', label: 'My anchor is not a person, so none of these is the closest truth.', weights: { anchor_strength: 3 } },
+    ],
+  },
+  {
+    id: 'L7-08', level: 7,
+    question: 'When you need to remember the kind of person this war is meant to build, which figure do you reach for?',
+    options: [
+      { key: 'a', label: 'A constitutional public servant known for courage and administrative integrity.', weights: { purpose_intensity: 7, anchor_strength: 7 } },
+      { key: 'b', label: 'A reformer or freedom fighter who accepted a long struggle.', weights: { purpose_intensity: 7, anchor_strength: 7 } },
+      { key: 'c', label: 'A strategist, thinker, or historical leader whose discipline steadies me.', weights: { cognitive_clarity: 5, anchor_strength: 7 } },
+      { key: 'd', label: 'A family elder whose character matters more to me than public fame.', weights: { anchor_strength: 9 } },
+      { key: 'e', label: 'A mentor, senior, or selected aspirant whose conduct feels attainable.', weights: { anchor_strength: 7 } },
+      { key: 'f', label: 'No borrowed figure. I work best from my own principles.', weights: { cognitive_clarity: 5 } },
+    ],
+  },
+  {
+    id: 'L7-09', level: 7,
+    question: 'If applause, comparison, and family expectations went silent for one year, what would still make you return to the desk?',
+    options: [
+      { key: 'a', label: 'The work itself: I want responsibility over problems that matter.', sets: { purpose_type: 'SERVICE' }, weights: { purpose_intensity: 12 } },
+      { key: 'b', label: 'Restoration: I want to change what is possible for my family.', sets: { purpose_type: 'RESTORATION' }, weights: { purpose_intensity: 10, anchor_strength: 5 } },
+      { key: 'c', label: 'Proof: I need to know what my full capacity can do.', sets: { purpose_type: 'PROOF' }, weights: { purpose_intensity: 9 } },
+      { key: 'd', label: 'Freedom: the career would give me agency, security, and a larger life.', sets: { purpose_type: 'ESCAPE' }, weights: { purpose_intensity: 8 } },
+      { key: 'e', label: 'Mastery: becoming capable enough for this exam has meaning of its own.', weights: { purpose_intensity: 9, cognitive_clarity: 4 } },
+      { key: 'f', label: 'Recognition: I want the authority and standing that selection brings.', sets: { purpose_type: 'STATUS' }, weights: { purpose_intensity: 7 } },
+      { key: 'g', label: 'A promise: something unfinished would remain unfinished if I walked away.', weights: { purpose_intensity: 10, anchor_strength: 8 } },
+    ],
+  },
+
+  {
     id: 'L8-01', level: 8,
     question: 'The naked question. Beneath strategy, beneath hope: do you believe you will clear this exam?',
     options: [
@@ -681,6 +782,32 @@ const RAW_CARDS: RawCard[] = [
       { key: 'c', label: 'My family\'s investment makes quitting impossible.', weights: { external_pressure: 20 }, sets: { purpose_type: 'RESTORATION' } },
       { key: 'd', label: 'This exam IS the plan. There is no other me.', weights: { identity_fusion: 30 }, flags: ['FUSION_WATCH'] },
       { key: 'e', label: 'I had one. I crossed it already.', weights: { identity_fusion: 15, attempt_pressure: 10 }, flags: ['GHOST_CANDIDATE'] },
+    ],
+  },
+  {
+    id: 'L8-06', level: 8,
+    question: 'Which law, obeyed for the next 90 days, would protect you from your most predictable self-sabotage?',
+    options: [
+      { key: 'a', label: 'One final source per subject; repetition outranks collection.', weights: { resource_chaos: -8, cognitive_clarity: 5 } },
+      { key: 'b', label: 'A daily minimum survives even when the ideal schedule collapses.', weights: { marathon_consistency: 6, execution_friction: -4 } },
+      { key: 'c', label: 'Testing and retrieval happen before I feel perfectly prepared.', weights: { prelims_nerve: 5, mains_stamina: 5, execution_friction: -4 } },
+      { key: 'd', label: 'Every week ends with evidence, review, and one corrected command.', weights: { cognitive_clarity: 6, marathon_consistency: 5 } },
+      { key: 'e', label: 'A bad result earns analysis and recovery, never disappearance.', weights: { recovery_speed: 7, emotional_volatility: -3 } },
+      { key: 'f', label: 'Plans are written from available hours and energy, not fantasy.', weights: { cognitive_clarity: 6, execution_friction: -4 } },
+      { key: 'g', label: 'I know my weakness, but I have not yet chosen the law that governs it.', weights: { execution_friction: 5 } },
+    ],
+  },
+  {
+    id: 'L8-07', level: 8,
+    question: 'Under real pressure, which operating rhythm produces your best work most consistently?',
+    options: [
+      { key: 'a', label: 'Quiet repetition: stable hours, fixed sources, low drama.', weights: { marathon_consistency: 7, resource_chaos: -4 } },
+      { key: 'b', label: 'Structured sprints: intense blocks followed by deliberate recovery.', weights: { recovery_speed: 5, marathon_consistency: 4 } },
+      { key: 'c', label: 'Deadline command: clear tests and public dates sharpen me.', weights: { execution_friction: -4, mains_stamina: 4 } },
+      { key: 'd', label: 'Human accountability: I execute better when someone expects evidence.', weights: { execution_friction: -4, anchor_strength: 4 } },
+      { key: 'e', label: 'Protected solitude: deep work improves when messages and comparison disappear.', weights: { distraction_risk: -5, cognitive_clarity: 4 } },
+      { key: 'f', label: 'Energy-aware adaptation: I need different tasks for high- and low-energy windows.', weights: { cognitive_clarity: 5, recovery_speed: 4 } },
+      { key: 'g', label: 'I keep borrowing rhythms from others and have not found my own.', weights: { execution_friction: 5, cognitive_clarity: -4 } },
     ],
   },
 ]
@@ -761,13 +888,13 @@ export const CARDS: Card[] = RAW_CARDS.map(card => ({
 
 export const FREE_DIAGNOSIS_CARD_IDS = new Set<string>([
   'L1-01', 'L1-02', 'L1-03', 'L1-06', 'L1-07',
-  'L2-01', 'L2-03', 'L2-04', 'L2-06',
-  'L3-01', 'L3-02', 'L3-03', 'L3-06',
+  'L2-01', 'L2-02', 'L2-03', 'L2-04', 'L2-06', 'L2-07',
+  'L3-01', 'L3-02', 'L3-03', 'L3-04', 'L3-06',
   'L4-02', 'L4-03', 'L4-05', 'L4-06',
   'L5-01', 'L5-03', 'L5-04', 'L5-06', 'L5-08',
-  'L6-01', 'L6-03', 'L6-04', 'L6-07',
-  'L7-01', 'L7-03',
-  'L8-01', 'L8-05',
+  'L6-01', 'L6-03', 'L6-04', 'L6-07', 'L6-08',
+  'L7-01', 'L7-03', 'L7-04', 'L7-06', 'L7-09',
+  'L8-01', 'L8-03', 'L8-05', 'L8-06', 'L8-07',
 ])
 
 export const FREE_DIAGNOSIS_CARDS: Card[] = CARDS.filter(card => FREE_DIAGNOSIS_CARD_IDS.has(card.id))

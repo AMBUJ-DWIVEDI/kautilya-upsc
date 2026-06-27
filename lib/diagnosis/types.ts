@@ -1,6 +1,6 @@
 // ============================================================
 // KAUTILYA UPSC — Diagnosis Instrument Types
-// 50-card full instrument, with a curated 30-card Scout subset.
+// 60-card full instrument, with a curated 40-card Scout subset.
 // Dimensions score silently; nothing here is mirrored back raw.
 // ============================================================
 

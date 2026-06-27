@@ -1,6 +1,6 @@
 /**
- * M3 acceptance test — walks scripted answer paths through the real 50-card
- * paid instrument, and protects the 30-card Scout subset.
+ * M3 acceptance test — walks scripted answer paths through the real 60-card
+ * paid instrument, and protects the 40-card Scout subset.
  *
  * Run: npx tsx scripts/test-archetypes.ts
  */
@@ -51,23 +51,23 @@ function run(label: string, overrides: Record<string, string>, expected: Archety
   extraChecks?.(outcome.storedTags)
 }
 
-console.log('KAUTILYA archetype cascade walk — 50-card instrument')
+console.log('KAUTILYA archetype cascade walk — 60-card instrument')
 console.log(`cards: ${CARDS.length}`)
-assert(CARDS.length === 50, '50 cards in the instrument')
+assert(CARDS.length === 60, '60 cards in the instrument')
 
 const levelCounts = CARDS.reduce<Record<number, number>>((acc, c) => {
   acc[c.level] = (acc[c.level] ?? 0) + 1
   return acc
 }, {})
 assert(
-  JSON.stringify(levelCounts) === JSON.stringify({ 1: 7, 2: 6, 3: 6, 4: 6, 5: 8, 6: 7, 7: 5, 8: 5 }),
-  `level counts 7/6/6/6/8/7/5/5 (got ${JSON.stringify(levelCounts)})`,
+  JSON.stringify(levelCounts) === JSON.stringify({ 1: 7, 2: 9, 3: 6, 4: 6, 5: 8, 6: 8, 7: 9, 8: 7 }),
+  `level counts 7/9/6/6/8/8/9/7 (got ${JSON.stringify(levelCounts)})`,
 )
-assert(CARDS.every(c => c.input === 'text' || (c.options.length >= 2 && c.options.length <= 6)), 'every option card has 2–6 options')
-assert(new Set(CARDS.map(c => c.id)).size === 50, 'card ids are unique')
-assert(FREE_DIAGNOSIS_CARDS.length === 30, 'Scout scan has exactly 30 cards')
-assert(new Set(FREE_DIAGNOSIS_CARDS.map(c => c.id)).size === 30, 'Scout card ids are unique')
-assert(FREE_DIAGNOSIS_CARDS.every(c => CARDS.some(full => full.id === c.id)), 'Scout cards are extracted from the full 50')
+assert(CARDS.every(c => c.input !== 'text' && c.options.length >= 2 && c.options.length <= 7), 'every card has 2–7 multiple-choice options')
+assert(new Set(CARDS.map(c => c.id)).size === 60, 'card ids are unique')
+assert(FREE_DIAGNOSIS_CARDS.length === 40, 'Scout scan has exactly 40 cards')
+assert(new Set(FREE_DIAGNOSIS_CARDS.map(c => c.id)).size === 40, 'Scout card ids are unique')
+assert(FREE_DIAGNOSIS_CARDS.every(c => CARDS.some(full => full.id === c.id)), 'Scout cards are extracted from the full 60')
 assert(
   JSON.stringify([...new Set(FREE_DIAGNOSIS_CARDS.map(c => c.level))]) === JSON.stringify([1, 2, 3, 4, 5, 6, 7, 8]),
   'Scout scan covers all 8 levels',
