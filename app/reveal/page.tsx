@@ -2,6 +2,7 @@ import { createClient } from '@/lib/supabase/server'
 import { redirect } from 'next/navigation'
 import RevealClient from './RevealClient'
 import type { ArchetypeId, WarPatternTag } from '@/lib/diagnosis/types'
+import { normalizeReportDepth } from '@/lib/report/depth'
 
 export default async function RevealPage() {
   const supabase = await createClient()
@@ -32,7 +33,7 @@ export default async function RevealPage() {
       archetype={scores.archetype as ArchetypeId}
       warPatternTags={warTags}
       name={profile?.name ?? ''}
-      depth={(profile?.diagnosis_depth as 'free30' | 'paid50' | null) ?? 'free30'}
+      depth={normalizeReportDepth(profile?.diagnosis_depth)}
       identityFusion={scores.identity_fusion ?? 0}
       dims={{
         purpose_intensity: scores.purpose_intensity ?? 50,

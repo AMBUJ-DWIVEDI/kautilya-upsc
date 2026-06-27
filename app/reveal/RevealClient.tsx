@@ -10,12 +10,13 @@ import {
 } from '@/lib/diagnosis/archetypes'
 import type { ArchetypeId, Dimension, WarPatternTag } from '@/lib/diagnosis/types'
 import { track } from '@/lib/analytics'
+import { isPaidDepth, type ReportDepth } from '@/lib/report/depth'
 
 interface Props {
   archetype: ArchetypeId
   warPatternTags: WarPatternTag[]
   name: string
-  depth: 'free30' | 'paid50'
+  depth: ReportDepth
   identityFusion: number
   dims: Record<Dimension, number>
 }
@@ -38,7 +39,7 @@ export default function RevealClient({ archetype, warPatternTags, name, depth, i
   const meta = ARCHETYPES[archetype]
   const cardRef = useRef<HTMLDivElement>(null)
   const [exporting, setExporting] = useState(false)
-  const isScoutReport = depth !== 'paid50'
+  const isScoutReport = !isPaidDepth(depth)
 
   // Design law: identity_fusion >= 80 softens the harshest verdict paths.
   const revealLine = identityFusion >= 80 ? meta.revealLineSoft : meta.revealLine
@@ -165,15 +166,15 @@ export default function RevealClient({ archetype, warPatternTags, name, depth, i
           </p>
           <p className="mt-2 text-sm leading-6 text-slate900">
             {isScoutReport
-              ? 'Scout named the pattern from thirty premium signals. Warrior and Commander reopen the full fifty-card instrument to read pressure, resources, identity, recovery, and exam-hall behaviour with sharper context.'
-              : 'This report used the full fifty-card instrument, so tomorrow\'s command can lean on the deeper context instead of a first approximation.'}
+              ? 'Scout named the pattern from forty contextual signals. Warrior and Commander open the complete sixty-card instrument to read targets, pressure, anchors, identity, recovery, and exam-hall behaviour with sharper context.'
+              : 'This report used the complete premium instrument, so tomorrow\'s command can lean on deeper target, anchor, and operating-profile evidence instead of a first approximation.'}
           </p>
           {isScoutReport && (
             <Link
               href="/upgrade"
               className="mt-4 inline-flex min-h-10 items-center justify-center rounded-lg border border-copper/40 px-4 text-xs font-bold uppercase tracking-[0.18em] text-copper transition-calm hover:bg-copper hover:text-ivory"
             >
-              Unlock 50-card diagnosis
+              Unlock the complete 60-card diagnosis
             </Link>
           )}
         </motion.div>

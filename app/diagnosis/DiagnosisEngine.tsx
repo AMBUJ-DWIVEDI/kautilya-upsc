@@ -8,6 +8,7 @@ import { deriveOutcome } from '@/lib/diagnosis/archetypes'
 import { createClient } from '@/lib/supabase/client'
 import { track } from '@/lib/analytics'
 import type { Answers, DiagnosisPhase, DiagnosisOutcome } from '@/lib/diagnosis/types'
+import { isPaidDepth, type DiagnosisDepth } from '@/lib/report/depth'
 
 import IntroScreen from './components/IntroScreen'
 import LevelStartScreen from './components/LevelStartScreen'
@@ -18,7 +19,6 @@ const STORAGE_KEY = 'kautilya_diagnosis_progress'
 const OUTCOME_KEY = 'kautilya_diagnosis_outcome'
 const NAME_KEY = 'identity_name'
 const OPTION_KEYS = new Set(['a', 'b', 'c', 'd', 'e', 'f'])
-type DiagnosisDepth = 'free30' | 'paid50'
 
 function storageKey(depth: DiagnosisDepth): string {
   return `${STORAGE_KEY}_${depth}`
@@ -27,7 +27,7 @@ function storageKey(depth: DiagnosisDepth): string {
 function loadProgress(depth: DiagnosisDepth): { phase: DiagnosisPhase; answers: Answers } | null {
   if (typeof window === 'undefined') return null
   try {
-    const raw = localStorage.getItem(storageKey(depth)) ?? (depth === 'free30' ? localStorage.getItem(STORAGE_KEY) : null)
+    const raw = localStorage.getItem(storageKey(depth)) ?? (depth === 'free40' ? localStorage.getItem(STORAGE_KEY) : null)
     const saved = raw ? JSON.parse(raw) as { phase: DiagnosisPhase; answers: Answers } : null
     const oldName = saved?.answers['L1-01']
     if (saved && oldName && !OPTION_KEYS.has(oldName)) {
@@ -49,7 +49,7 @@ function saveProgress(depth: DiagnosisDepth, phase: DiagnosisPhase, answers: Ans
 function clearProgress(depth: DiagnosisDepth) {
   try {
     localStorage.removeItem(storageKey(depth))
-    if (depth === 'free30') localStorage.removeItem(STORAGE_KEY)
+    if (depth === 'free40') localStorage.removeItem(STORAGE_KEY)
   } catch {}
 }
 
@@ -79,7 +79,7 @@ function hiddenScoreRow(outcome: DiagnosisOutcome) {
 }
 
 export default function DiagnosisEngine({ depth }: { depth: DiagnosisDepth }) {
-  const cards = depth === 'paid50' ? PAID_DIAGNOSIS_CARDS : FREE_DIAGNOSIS_CARDS
+  const cards = isPaidDepth(depth) ? PAID_DIAGNOSIS_CARDS : FREE_DIAGNOSIS_CARDS
   const [phase, setPhase] = useState<DiagnosisPhase>({ type: 'intro' })
   const [answers, setAnswers] = useState<Answers>({})
   const [direction, setDirection] = useState<1 | -1>(1)
@@ -197,7 +197,7 @@ export default function DiagnosisEngine({ depth }: { depth: DiagnosisDepth }) {
           optional_subject: facts.optional_subject ?? null,
         }
 
-        if (depth === 'free30') {
+        if (depth === 'free40') {
           profilePayload.core_completed_at = completedAt
         } else {
           profilePayload.paid_extra_data = answers

@@ -7,6 +7,7 @@
 import { useEffect, useRef, useState } from 'react'
 import Link from 'next/link'
 import type { ReportContent } from '@/lib/report/types'
+import type { ReportDepth } from '@/lib/report/depth'
 import CommandReport from './CommandReport'
 
 const STEPS = [
@@ -17,7 +18,7 @@ const STEPS = [
   'Sealing the diagnosis.',
 ]
 
-export default function ReportLoader({ depth }: { depth: 'free30' | 'paid50' }) {
+export default function ReportLoader({ depth }: { depth: ReportDepth }) {
   const [report, setReport] = useState<ReportContent | null>(null)
   const [error, setError] = useState<string | null>(null)
   const [step, setStep] = useState(0)

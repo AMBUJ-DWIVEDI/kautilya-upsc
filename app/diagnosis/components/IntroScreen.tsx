@@ -2,23 +2,24 @@
 
 import { motion } from 'framer-motion'
 import Seal from '@/components/brand/Seal'
+import { isPaidDepth, type DiagnosisDepth } from '@/lib/report/depth'
 
 interface Props {
   totalCards: number
-  depth: 'free30' | 'paid50'
+  depth: DiagnosisDepth
   name: string
   onNameChange: (value: string) => void
   onStart: () => void
 }
 
 export default function IntroScreen({ totalCards, depth, name, onNameChange, onStart }: Props) {
-  const paid = depth === 'paid50'
+  const paid = isPaidDepth(depth)
   const signalLine = paid
-    ? `${totalCards} contextual signals - about 9 minutes`
-    : `${totalCards} premium signals - about 6 minutes`
+    ? `${totalCards} contextual signals - about 11 minutes`
+    : `${totalCards} contextual signals - about 8 minutes`
   const depthCopy = paid
-    ? 'Warrior and Commander diagnosis goes through the full fifty-card instrument: the extra context around pressure, resources, identity, and recovery.'
-    : 'Scout uses thirty high-signal cards from the full instrument. Your free report names the pattern; Warrior and Commander unlock the full fifty-card contextual diagnosis.'
+    ? 'Warrior and Commander diagnosis uses the complete sixty-card instrument: targets, pressure, resources, identity, anchors, recovery, and operating rhythm.'
+    : 'Scout uses forty high-signal cards from the complete instrument. Your free report maps every core front; Warrior and Commander add the deepest target, anchor-role, and character evidence.'
 
   return (
     <motion.div

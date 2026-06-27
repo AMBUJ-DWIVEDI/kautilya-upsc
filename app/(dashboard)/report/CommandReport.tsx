@@ -4,6 +4,7 @@
 
 import Link from 'next/link'
 import type { ReportContent, CognitiveDomain } from '@/lib/report/types'
+import { isFreeDepth, type ReportDepth } from '@/lib/report/depth'
 
 function scoreColor(score: number): string {
   return score >= 60 ? 'text-sage' : score >= 40 ? 'text-copper' : 'text-clay'
@@ -33,7 +34,7 @@ export default function CommandReport({
   depth,
 }: {
   report: ReportContent
-  depth?: 'free30' | 'paid50'
+  depth?: ReportDepth
 }) {
   const r = report
   const cm = r.cognitive_map
@@ -251,9 +252,9 @@ export default function CommandReport({
         <Link href="/dashboard" className="text-sm text-inkdim transition-calm hover:text-copper">
           ← Today&apos;s Command
         </Link>
-        {depth === 'free30' && (
+        {isFreeDepth(depth) && (
           <Link href="/upgrade" className="text-sm text-copper transition-calm hover:text-copperlight">
-            Unlock the deep 50-card report →
+            Unlock the complete 60-card report →
           </Link>
         )}
       </div>

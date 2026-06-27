@@ -23,9 +23,9 @@ export default async function DiagnosisPage() {
   ])
 
   const paid = isPaidPlan(userRow?.plan_type)
-  const depth = paid ? 'paid50' : 'free30'
+  const depth = paid ? 'paid60' : 'free40'
 
-  if (profile?.anchor_generated && (!paid || profile.diagnosis_depth === 'paid50')) {
+  if (profile?.anchor_generated && profile.diagnosis_depth === depth) {
     redirect('/dashboard')
   }
 

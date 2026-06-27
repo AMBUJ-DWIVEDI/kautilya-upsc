@@ -5,7 +5,7 @@
 import { createClient } from '@/lib/supabase/server'
 import { redirect } from 'next/navigation'
 import type { ReportContent } from '@/lib/report/types'
-import type { ReportDepth } from '@/lib/report/depth'
+import { normalizeReportDepth } from '@/lib/report/depth'
 import CommandReport from './CommandReport'
 import ReportLoader from './ReportLoader'
 
@@ -27,12 +27,13 @@ export default async function ReportPage() {
     redirect('/diagnosis')
   }
 
-  const depth: ReportDepth = profile.diagnosis_depth === 'paid50' ? 'paid50' : 'free30'
+  const depth = normalizeReportDepth(profile.diagnosis_depth)
 
   const { data: existing } = await supabase
     .from('diagnosis_reports')
     .select('report_content')
     .eq('user_id', user.id)
+    .eq('report_depth', depth)
     .is('attempt_id', null)
     .order('generated_at', { ascending: false })
     .limit(1)

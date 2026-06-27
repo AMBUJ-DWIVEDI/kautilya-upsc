@@ -33,7 +33,7 @@ export default async function UpgradePage() {
             Pay for integration, not another pile of sources.
           </h1>
           <p className="mx-auto mt-4 max-w-2xl text-sm leading-7 text-inkdim">
-            Scout names the first pattern. Warrior opens the full 50-card contextual diagnosis
+            Scout maps the core pattern through 40 cards. Warrior opens the complete 60-card contextual diagnosis
             and repair loop. Commander adds full note depth and Mains frameworks.
           </p>
         </header>
@@ -45,7 +45,7 @@ export default async function UpgradePage() {
             badge="Premium entry report"
             current={currentPlan === 'free'}
             features={[
-              '30-card Scout diagnosis',
+              '40-card Scout diagnosis',
               'Archetype reveal ceremony',
               'First repair direction',
               'Paper 1 baseline signal',
@@ -61,7 +61,7 @@ export default async function UpgradePage() {
             featured
             current={currentPlan === 'prelims'}
             features={[
-              'Full 50-card Warrior diagnosis',
+              'Complete 60-card Warrior diagnosis',
               'Full Mock Arena (100Q mocks + drills)',
               'Guessing & elimination analytics',
               'Daily 5-thread command',
@@ -90,7 +90,7 @@ export default async function UpgradePage() {
             current={currentPlan === 'gs'}
             features={[
               'Everything in Warrior',
-              'Full 50-card diagnosis retained',
+              'Complete 60-card diagnosis retained',
               'Full Smart Notes vault (upsc12)',
               'Mains answer frameworks daily',
               'Priority recall queue',
