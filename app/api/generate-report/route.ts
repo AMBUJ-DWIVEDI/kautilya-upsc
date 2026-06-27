@@ -10,7 +10,7 @@ import { createClient } from '@/lib/supabase/server'
 import { buildReportPrompt } from '@/lib/report/prompt'
 import { findShameLanguage } from '@/lib/voice/seenLanguage'
 import { resolveDiagnosisAnswers } from '@/lib/report/answers'
-import { normalizeReportDepth, type ReportDepth } from '@/lib/report/depth'
+import { isPaidDepth, normalizeReportDepth, type ReportDepth } from '@/lib/report/depth'
 import { generateJSON, GatewayError } from '@/lib/ai/gateway'
 import { isPaidPlan } from '@/lib/plans'
 import type { ReportContent } from '@/lib/report/types'
@@ -50,7 +50,7 @@ async function readDepth(request: NextRequest): Promise<ReportDepth> {
     const body = (await request.json()) as { depth?: string }
     return normalizeReportDepth(body.depth)
   } catch {
-    return 'free30'
+    return 'free40'
   }
 }
 
@@ -72,9 +72,9 @@ export async function POST(request: NextRequest) {
     .single()
 
   const paid = isPaidPlan(planRow?.plan_type)
-  if (depth === 'paid50' && !paid) {
+  if (isPaidDepth(depth) && !paid) {
     return NextResponse.json(
-      { error: 'Upgrade to unlock the deep 50-card report.' },
+      { error: 'Upgrade to unlock the complete 60-card report.' },
       { status: 403 },
     )
   }
@@ -124,11 +124,11 @@ export async function POST(request: NextRequest) {
   const archetypeId = String((scores as Record<string, unknown>).archetype ?? 'FIRST_FLIGHT_IDEALIST')
   const warPatternTags = ((scores as Record<string, unknown>).war_pattern_tags as string[]) ?? []
 
-  // Feed the aspirant's ACTUAL answers (free 30, or all 50 for the paid scan)
+  // Feed the aspirant's ACTUAL answers (curated free scan or complete paid scan)
   // so the report references their real choices instead of writing from scores alone.
   const rawAnswers = {
     ...((profile.pillar1_data ?? {}) as Answers),
-    ...(depth === 'paid50' ? ((profile.paid_extra_data ?? {}) as Answers) : {}),
+    ...(isPaidDepth(depth) ? ((profile.paid_extra_data ?? {}) as Answers) : {}),
   }
   const resolvedAnswers = resolveDiagnosisAnswers(rawAnswers)
 
@@ -147,9 +147,9 @@ export async function POST(request: NextRequest) {
     const result = await generateJSON<ReportContent>({
       system,
       user: userMsg,
-      tier: depth === 'paid50' ? 'paid' : 'free',
-      temperature: depth === 'paid50' ? 0.65 : 0.7,
-      maxTokens: depth === 'paid50' ? 4800 : 4000,
+      tier: isPaidDepth(depth) ? 'paid' : 'free',
+      temperature: isPaidDepth(depth) ? 0.65 : 0.7,
+      maxTokens: isPaidDepth(depth) ? 5200 : 4400,
     })
     report = result.data
     const shameLeaks = findShameLanguage(JSON.stringify(report))

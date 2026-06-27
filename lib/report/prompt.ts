@@ -51,6 +51,11 @@ PERSONALISATION LAWS (this is what separates a real diagnosis from a horoscope):
 - anchor_card MUST use their REAL material: fighting_for / must_protect = their actual anchor person or stated purpose; biggest_enemy = their actual distraction, resource-chaos or avoidance pattern; comeback_line = tied to what kept them in the fight on their worst day. No generic placeholders.
 - strengths and vulnerabilities must each point to a concrete behaviour they reported.
 - personal_laws must each name a pattern THEY revealed (e.g. mock-avoidance, source-hoarding, result-week spirals, mains-paper postponing) and give the precise rule that fixes it.
+- target_profile must preserve the selected post, rank, and score bands. Never invent an exact number, service, rank, or post.
+- emotional_vault must describe a preparation pattern, never a medical or psychological diagnosis.
+- anchor_vault may combine a relationship and emotional role only when both selected answers support that combination.
+- operating_profile must use operating rhythm with hours, employment, consistency, friction, recovery, and accountability evidence.
+- When historical evidence is absent, write "Not established by this diagnosis" instead of manufacturing specificity.
 - Never invent facts not grounded in their answers or scores. If something wasn't asked, infer gently from scores and say so softly.
 
 SECTION GUIDANCE:
@@ -82,6 +87,20 @@ Return a JSON object with EXACTLY these keys:
     "integration_engine": { "score": number, "label": string, "summary": string }
   },
   "functional_flow": string[],          // 5-7 steps describing their actual prep loop
+  "target_profile": {
+    "post": string, "rank": string, "score": string
+  },
+  "emotional_vault": {
+    "primary_trigger": string, "pressure_story": string, "protection_rule": string
+  },
+  "anchor_vault": {
+    "human_anchor": string, "anchor_role": string, "character_anchor": string,
+    "deepest_motivator": string, "return_point": string
+  },
+  "operating_profile": {
+    "rhythm": string, "starts_best_when": string, "sustained_by": string,
+    "disrupted_by": string, "recovery_protocol": string, "protected_environment": string
+  },
   "stabilization_layer": {
     "layer": "Structure" | "Heart" | "Meaning" | "Silence" | "Body",
     "why": string,
@@ -103,7 +122,7 @@ Return a JSON object with EXACTLY these keys:
   "daily_command": string               // ONE line they read every morning
 }
 
-Fill cognitive_map scores from the dimensions provided. integration_score = 100 - resource_chaos. Be specific to the archetype and the facts. Depth "paid50" = go deeper, more prescriptions, sharper laws.`
+Fill cognitive_map scores from the dimensions provided. integration_score = 100 - resource_chaos. Be specific to the archetype and the facts. Depth "paid50" or "paid60" = go deeper, more prescriptions, sharper laws.`
 
 function clamp(n: number): number {
   return Math.max(0, Math.min(100, Math.round(n)))

@@ -30,6 +30,37 @@ export interface ReportContent {
   // 4 — Functional Flow: 5–7 steps describing their specific prep loop
   functional_flow: string[]
 
+  // Structured evidence introduced by the 40/60-card instrument.
+  // Optional so historical cached reports remain renderable.
+  target_profile?: {
+    post: string
+    rank: string
+    score: string
+  }
+
+  emotional_vault?: {
+    primary_trigger: string
+    pressure_story: string
+    protection_rule: string
+  }
+
+  anchor_vault?: {
+    human_anchor: string
+    anchor_role: string
+    character_anchor: string
+    deepest_motivator: string
+    return_point: string
+  }
+
+  operating_profile?: {
+    rhythm: string
+    starts_best_when: string
+    sustained_by: string
+    disrupted_by: string
+    recovery_protocol: string
+    protected_environment: string
+  }
+
   // 5 — Stabilization Layer
   stabilization_layer: {
     layer: 'Structure' | 'Heart' | 'Meaning' | 'Silence' | 'Body'

@@ -94,6 +94,83 @@ export default function CommandReport({
       )}
 
       {/* 5 — Stabilization Layer */}
+      {r.target_profile && (
+        <section className="border-y border-linen py-6">
+          <h2 className="heading-cinzel mb-4 text-lg font-semibold text-indigo">Target Profile</h2>
+          <div className="grid gap-4 sm:grid-cols-3">
+            {([
+              ['Post', r.target_profile.post],
+              ['Rank', r.target_profile.rank],
+              ['Score', r.target_profile.score],
+            ] as const).map(([label, value]) => (
+              <div key={label}>
+                <p className="text-xs font-bold uppercase tracking-[0.18em] text-copper">{label}</p>
+                <p className="mt-2 text-sm leading-6 text-slate900">{value}</p>
+              </div>
+            ))}
+          </div>
+        </section>
+      )}
+
+      {r.emotional_vault && (
+        <section className="border-b border-linen pb-6">
+          <h2 className="heading-cinzel mb-4 text-lg font-semibold text-indigo">Emotional Vault</h2>
+          <div className="grid gap-4 sm:grid-cols-3">
+            {([
+              ['Primary trigger', r.emotional_vault.primary_trigger],
+              ['Pressure story', r.emotional_vault.pressure_story],
+              ['Protection rule', r.emotional_vault.protection_rule],
+            ] as const).map(([label, value]) => (
+              <div key={label}>
+                <p className="text-xs font-bold uppercase tracking-[0.18em] text-copper">{label}</p>
+                <p className="mt-2 text-sm leading-6 text-slate900">{value}</p>
+              </div>
+            ))}
+          </div>
+        </section>
+      )}
+
+      {r.anchor_vault && (
+        <section className="border-b border-linen pb-6">
+          <h2 className="heading-cinzel mb-4 text-lg font-semibold text-indigo">Anchor Vault</h2>
+          <div className="grid gap-4 sm:grid-cols-2">
+            {([
+              ['Human anchor', r.anchor_vault.human_anchor],
+              ['Anchor role', r.anchor_vault.anchor_role],
+              ['Character anchor', r.anchor_vault.character_anchor],
+              ['Deepest motivator', r.anchor_vault.deepest_motivator],
+              ['Return point', r.anchor_vault.return_point],
+            ] as const).map(([label, value]) => (
+              <div key={label}>
+                <p className="text-xs font-bold uppercase tracking-[0.18em] text-copper">{label}</p>
+                <p className="mt-2 text-sm leading-6 text-slate900">{value}</p>
+              </div>
+            ))}
+          </div>
+        </section>
+      )}
+
+      {r.operating_profile && (
+        <section className="border-b border-linen pb-6">
+          <h2 className="heading-cinzel mb-4 text-lg font-semibold text-indigo">Operating Profile</h2>
+          <div className="grid gap-4 sm:grid-cols-2">
+            {([
+              ['Rhythm', r.operating_profile.rhythm],
+              ['Starts best when', r.operating_profile.starts_best_when],
+              ['Sustained by', r.operating_profile.sustained_by],
+              ['Disrupted by', r.operating_profile.disrupted_by],
+              ['Recovery protocol', r.operating_profile.recovery_protocol],
+              ['Protected environment', r.operating_profile.protected_environment],
+            ] as const).map(([label, value]) => (
+              <div key={label}>
+                <p className="text-xs font-bold uppercase tracking-[0.18em] text-copper">{label}</p>
+                <p className="mt-2 text-sm leading-6 text-slate900">{value}</p>
+              </div>
+            ))}
+          </div>
+        </section>
+      )}
+
       {r.stabilization_layer && (
         <section className="card-calm rounded-xl p-5 sm:p-6">
           <p className="mb-1 font-mono text-xs uppercase tracking-[0.3em] text-indigo">
