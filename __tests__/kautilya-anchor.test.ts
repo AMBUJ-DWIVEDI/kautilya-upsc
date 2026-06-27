@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest'
-import { anchorUpdateInput, extractAnchorSnapshot } from '@/lib/kautilya/anchor'
+import { extractAnchorSnapshot } from '@/lib/kautilya/anchor'
 
 describe('KAUTILYA Anchor', () => {
   it('extracts a read-only diagnosis snapshot', () => {
@@ -23,18 +23,9 @@ describe('KAUTILYA Anchor', () => {
     expect(result.source).toBe('diagnosis_report')
   })
 
-  it('accepts editable targets and rejects diagnosis snapshot fields', () => {
-    expect(anchorUpdateInput.safeParse({
-      targetScore: 110,
-      targetRank: 100,
-      targetPost: 'IAS',
-      familyAnchors: ['Parents'],
-      characterAnchors: ['Integrity'],
-      personalLaws: ['One source speaks'],
-    }).success).toBe(true)
-
-    expect(anchorUpdateInput.safeParse({
-      cognitiveArchetype: 'User override',
-    }).success).toBe(false)
+  it('returns stable pending values when card evidence is absent', () => {
+    const snapshot = extractAnchorSnapshot(null)
+    expect(snapshot.cognitiveArchetype).toBe('Diagnosis pending')
+    expect(snapshot.emotionalVault.fightingFor).toBe('')
   })
 })

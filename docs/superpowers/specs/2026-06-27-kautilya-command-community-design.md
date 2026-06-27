@@ -143,7 +143,7 @@ It contains:
 - personal rules and laws
 - relevant command and review history
 
-Diagnosis-derived fields are read-only snapshots with their source and update date. User-authored targets, anchor points, and laws are editable. A dedicated `kautilya_anchor_profiles` table stores user-authored and normalized anchor data. Row-level security permits only the owner.
+All Anchor fields are read-only snapshots derived from diagnosis cards and report generation. A dedicated `kautilya_anchor_profiles` table stores normalized generated Anchor data; authenticated users can read only their own dossier, while trusted server generation writes it.
 
 ## Leaderboard
 

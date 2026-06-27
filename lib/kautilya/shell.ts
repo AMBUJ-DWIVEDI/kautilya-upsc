@@ -13,11 +13,14 @@ export type KautilyaIconName =
   | 'compass'
   | 'file-text'
   | 'gauge'
+  | 'landmark'
   | 'layers'
   | 'map'
+  | 'message-square-text'
   | 'pen-line'
   | 'scroll-text'
   | 'shield'
+  | 'trophy'
   | 'target'
   | 'zap'
 
@@ -52,10 +55,24 @@ export const KAUTILYA_SHELL_GROUPS: KautilyaShellGroup[] = [
     items: [
       {
         id: 'command-dashboard',
-        label: "Open Today's Command",
-        href: '/dashboard',
-        hint: 'One sealed command, not a menu of possibilities',
+        label: 'Open Weekly Command',
+        href: '/kautilya/command',
+        hint: 'Weekly brief: reduce, integrate, write, revise',
         icon: 'gauge',
+      },
+      {
+        id: 'anchor-vault',
+        label: 'Open Anchor',
+        href: '/anchor',
+        hint: 'Personal vault, rules, diagnosis, and return logic',
+        icon: 'landmark',
+      },
+      {
+        id: 'leaderboard',
+        label: 'Open Leaderboard',
+        href: '/leaderboard',
+        hint: 'Composite rank across performance, command, integration, writing, and recovery',
+        icon: 'trophy',
       },
       {
         id: 'daily-log',
@@ -144,6 +161,13 @@ export const KAUTILYA_SHELL_GROUPS: KautilyaShellGroup[] = [
         icon: 'compass',
       },
       {
+        id: 'discussion-forum',
+        label: 'Open Discussion Forum',
+        href: '/forum',
+        hint: 'Threaded common room for command problems',
+        icon: 'message-square-text',
+      },
+      {
         id: 'admin-notes',
         label: 'Admin Note Desk',
         href: '/admin/notes',
@@ -162,6 +186,34 @@ export const KAUTILYA_ROUTE_BRIEFS: Record<string, KautilyaRouteBrief> = {
     verdict: 'Execute the highest-leverage repair before expanding the syllabus.',
     primaryAction: 'Seal the command',
     signals: ['Readiness', 'Integration', 'Prelims clock'],
+  },
+  '/kautilya/command': {
+    eyebrow: 'War command',
+    title: 'Weekly Command Brief',
+    verdict: 'Enough noise. Here is what must be reduced, integrated, written, revised, and ignored.',
+    primaryAction: 'Seal command',
+    signals: ['Long-war signal', 'Source authority', 'Weekly review'],
+  },
+  '/anchor': {
+    eyebrow: 'Personal anchor',
+    title: 'Anchor Vault',
+    verdict: 'The long war needs a private evidence vault for purpose, pressure, and return.',
+    primaryAction: 'Review anchor',
+    signals: ['Operating profile', 'Rules', 'Target memory'],
+  },
+  '/forum': {
+    eyebrow: 'Community layer',
+    title: 'Discussion Forum',
+    verdict: 'A civil-services common room organized around command problems.',
+    primaryAction: 'Open threads',
+    signals: ['Source reduction', 'Mains architecture', 'Recovery desk'],
+  },
+  '/leaderboard': {
+    eyebrow: 'Calibrated pressure',
+    title: 'KAUTILYA Leaderboard',
+    verdict: 'Preparation quality is larger than a single mock score.',
+    primaryAction: 'Review rank factors',
+    signals: ['Performance', 'Consistency', 'Integration'],
   },
   '/report': {
     eyebrow: 'Long-war intelligence',

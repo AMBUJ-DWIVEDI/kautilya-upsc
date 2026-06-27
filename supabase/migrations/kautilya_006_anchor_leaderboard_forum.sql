@@ -14,11 +14,6 @@ create table if not exists public.kautilya_anchor_profiles (
 alter table public.kautilya_anchor_profiles enable row level security;
 create policy "anchor owner select" on public.kautilya_anchor_profiles
   for select to authenticated using ((select auth.uid()) = user_id);
-create policy "anchor owner insert" on public.kautilya_anchor_profiles
-  for insert to authenticated with check ((select auth.uid()) = user_id);
-create policy "anchor owner update" on public.kautilya_anchor_profiles
-  for update to authenticated using ((select auth.uid()) = user_id)
-  with check ((select auth.uid()) = user_id);
 
 alter table public.aspirant_profiles
   add column if not exists leaderboard_display_name text,
@@ -152,7 +147,7 @@ on conflict (slug) do update set
   description = excluded.description,
   sort_order = excluded.sort_order;
 
-grant select, insert, update on public.kautilya_anchor_profiles to authenticated;
+grant select on public.kautilya_anchor_profiles to authenticated;
 grant select on public.kautilya_leaderboard_entries, public.kautilya_leaderboard to authenticated;
 grant select on public.kautilya_forum_rooms to authenticated;
 grant select, insert, update on public.kautilya_forum_threads, public.kautilya_forum_replies to authenticated;

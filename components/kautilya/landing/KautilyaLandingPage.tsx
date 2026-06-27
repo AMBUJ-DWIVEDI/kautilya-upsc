@@ -48,11 +48,11 @@ export default function KautilyaLandingPage() {
         </div>
       </nav>
 
-      <section className="relative px-4 pb-20 pt-32 sm:px-6 lg:pb-28 lg:pt-40">
-        <div className="mx-auto grid max-w-7xl gap-14 lg:grid-cols-[minmax(0,1fr)_420px] lg:items-center">
+      <section className="relative px-4 pb-10 pt-24 sm:px-6 sm:pb-16 sm:pt-28 lg:pt-32">
+        <div className="mx-auto grid max-w-7xl gap-10 2xl:grid-cols-[minmax(0,1fr)_420px] 2xl:items-center">
           <div>
             <p className="text-xs font-bold uppercase tracking-[0.28em] text-copper">UPSC long-war command system</p>
-            <h1 className="heading-cinzel mt-5 max-w-4xl text-5xl font-black leading-[1.03] text-indigo sm:text-6xl lg:text-7xl">
+            <h1 className="heading-cinzel mt-5 max-w-4xl text-4xl font-black leading-[1.03] text-indigo sm:text-6xl">
               The syllabus is visible.
               <span className="block text-copper-gradient">The real enemy is hidden.</span>
             </h1>
@@ -68,7 +68,7 @@ export default function KautilyaLandingPage() {
             </div>
           </div>
 
-          <div className="institutional-surface copper-border p-6">
+          <div className="institutional-surface copper-border hidden p-6 2xl:block">
             <div className="flex items-start justify-between gap-4 border-b border-linen pb-5">
               <div>
                 <p className="text-xs font-black uppercase tracking-[0.25em] text-copper">Command Brief</p>

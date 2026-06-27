@@ -26,6 +26,10 @@ describe('KAUTILYA product shell blueprint', () => {
   it('covers every primary authenticated route with a sober route brief', () => {
     const expectedRoutes = [
       '/dashboard',
+      '/kautilya/command',
+      '/anchor',
+      '/leaderboard',
+      '/forum',
       '/report',
       '/diagnosis',
       '/mock',
@@ -48,12 +52,12 @@ describe('KAUTILYA product shell blueprint', () => {
 
     expect(actions[0]).toMatchObject({
       id: 'command-dashboard',
-      label: "Open Today's Command",
-      href: '/dashboard',
+      label: 'Open Weekly Command',
+      href: '/kautilya/command',
     })
     expect(new Set(hrefs)).toEqual(new Set(hrefs))
     expect(hrefs).toEqual(
-      expect.arrayContaining(['/dashboard', '/report', '/mock', '/notes', '/resources', '/log']),
+      expect.arrayContaining(['/kautilya/command', '/anchor', '/leaderboard', '/forum', '/report', '/mock', '/notes', '/resources', '/log']),
     )
   })
 })
