@@ -38,12 +38,33 @@ export default async function KautilyaAnchorPage() {
 
         <section className="mt-6 grid gap-5 lg:grid-cols-2">
           <VaultPanel
+            title="Target Profile"
+            items={[
+              snapshot.targets.post || 'Target post evidence pending',
+              snapshot.targets.rank || 'Target rank evidence pending',
+              snapshot.targets.score || 'Target score evidence pending',
+            ]}
+          />
+          <VaultPanel
             title="Personal Emotional Vault"
             items={[
+              snapshot.emotionalVault.primaryTrigger || 'Primary emotional trigger pending',
+              snapshot.emotionalVault.pressureStory || 'Pressure story pending',
+              snapshot.emotionalVault.protectionRule || 'Protection rule pending',
               snapshot.emotionalVault.fightingFor || 'Fighting-for anchor pending',
               snapshot.emotionalVault.mustProtect || 'Protection anchor pending',
               snapshot.emotionalVault.mustBecome || 'Becoming anchor pending',
               snapshot.emotionalVault.comebackLine || 'Return line pending',
+            ]}
+          />
+          <VaultPanel
+            title="Anchor Points"
+            items={[
+              snapshot.anchorVault.humanAnchor || 'Human anchor pending',
+              snapshot.anchorVault.anchorRole || 'Anchor role pending',
+              snapshot.anchorVault.characterAnchor || 'Character anchor pending',
+              snapshot.anchorVault.deepestMotivator || 'Deep motivator pending',
+              snapshot.anchorVault.returnPoint || 'Return point pending',
             ]}
           />
           <VaultPanel
@@ -62,16 +83,21 @@ export default async function KautilyaAnchorPage() {
             items={[
               `Cognitive archetype: ${archetype}`,
               `Stage pattern: ${(summary?.stage_pattern as string | null) ?? 'pending'}`,
-              `Resource chaos: ${summary?.resource_chaos ?? 'pending'}`,
-              `Mains stamina: ${summary?.mains_stamina ?? 'pending'}`,
+              snapshot.operatingProfile.rhythm || 'Operating rhythm pending',
+              snapshot.operatingProfile.startsBestWhen || 'Start condition pending',
+              snapshot.operatingProfile.sustainedBy || 'Sustaining mechanism pending',
+              snapshot.operatingProfile.disruptedBy || 'Primary disruption pending',
+              snapshot.operatingProfile.recoveryProtocol || 'Recovery protocol pending',
+              snapshot.operatingProfile.protectedEnvironment || 'Protected environment pending',
             ]}
           />
           <VaultPanel
             title="Evidence and Reports"
             items={[
               'Long-War Diagnosis Report',
-              'Target posts and service preference',
-              'Score memory and attempt signals',
+              `Resource chaos evidence: ${summary?.resource_chaos ?? 'pending'}`,
+              `Mains stamina evidence: ${summary?.mains_stamina ?? 'pending'}`,
+              `Prelims nerve evidence: ${summary?.prelims_nerve ?? 'pending'}`,
               'Weekly command review history',
             ]}
             action={<Link href="/report" className="text-xs font-bold text-copper hover:text-copperlight">Open dossier</Link>}
