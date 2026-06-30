@@ -1,0 +1,152 @@
+{
+  "id": "local-eco-034",
+  "section": "Economy",
+  "category": "Agriculture",
+  "topic": "Farm Credit, Insurance, Fertiliser and Input Subsidies",
+  "subtopic": "Seasonal finance, risk pooling, tenancy exclusion, subsidy incidence and resource-use incentives",
+  "slug": "economy-farm-credit-insurance-input-subsidies",
+  "anatomy": "upsc12",
+  "content": {
+    "issueStory": "Agriculture needs credit before harvest but earns after harvest, and one weather shock can impair repayment across an entire region. Credit, insurance and subsidy therefore interact: each can stabilise production, but poor design can also hide risk or distort resource use.",
+    "coreConcept": "Farm credit finances working and investment cycles; insurance pools specified production or weather losses; input subsidies lower private cost. Effectiveness depends on timely access, land and tenancy records, claim design, provider incentives, targeting and environmental externalities.",
+    "dimensions": [
+      "Credit need: seasonal input loans, investment loans and post-harvest finance have different cash-flow structures.",
+      "Access: collateral, land title, tenancy, branch distance, information and transaction cost shape formal inclusion.",
+      "Insurance design: yield, weather or area approaches trade accuracy, moral hazard, basis risk and settlement speed.",
+      "Subsidy incidence: benefit may accrue to farmer, input producer or intermediary depending on supply and market structure.",
+      "Input distortion: underpriced power, water or nutrients can encourage overuse and regional imbalance.",
+      "Reform: digital records, tenant inclusion, timely claims, nutrient balance and direct support can improve outcomes but require safeguards."
+    ],
+    "constitutionalLink": "Priority-sector rules, NABARD institutions, insurance regulation, fertiliser policy, cooperative credit and State land systems govern farm finance and inputs.",
+    "dataReport": "Uploaded source basis: STATIC_01_Economy.pdf farm credit, insurance, fertiliser and agricultural institutions sections plus PYQ subsidy patterns. Refresh rates, targets, weights, thresholds and year-specific figures from official sources: RBI and NABARD rural-credit reports, Ministry of Agriculture crop-insurance data and Department of Fertilisers notifications. Stable mechanisms belong in this note; current values must be dated in an answer.",
+    "caseStudy": "Area-yield insurance reduces individual verification cost but can create basis risk when a farmer suffers loss while the notified area does not cross the claim threshold.",
+    "argumentsFor": [
+      "Timely credit prevents distress input cuts.",
+      "Insurance protects against covariate shocks.",
+      "Well-designed support can encourage socially valuable adoption."
+    ],
+    "argumentsAgainst": [
+      "Debt waivers can weaken credit discipline and exclude non-borrowers.",
+      "Delayed claims destroy trust.",
+      "Input subsidies can deplete water and unbalance nutrients."
+    ],
+    "pyqLink": "PYQs test institutional credit, crop insurance, subsidy effects and fertiliser policy. Identify whether the instrument finances, transfers, insures or changes input price.",
+    "answerFramework": {
+      "intro": "Farm Credit, Insurance, Fertiliser and Input Subsidies should be introduced through its economic identity or causal mechanism before moving to Indian institutions and policy trade-offs.",
+      "body": [
+        "Map the farm cash-flow and risk cycle.",
+        "Separate credit, insurance and subsidy functions.",
+        "Assess access, basis risk, incidence and ecological effects.",
+        "Recommend tenant inclusion, timely data, balanced nutrients and predictable targeted support."
+      ],
+      "conclusion": "A high-scoring Economy answer keeps the accounting correct, traces transmission, identifies winners and losers, and separates stable principles from changing policy values."
+    },
+    "mainsExamples": [
+      "Kisan Credit Card financing seasonal operations.",
+      "Weather-index insurance with basis risk.",
+      "Electricity subsidy influencing groundwater pumping."
+    ],
+    "prelimsFacts": [
+      "Credit must be repaid; subsidy is a transfer under stated rules.",
+      "Insurance pools specified risk against premium.",
+      "Covariate shocks affect many farms together.",
+      "Basis risk is mismatch between indexed payout and actual loss.",
+      "Tenant farmers may lack formal collateral or records.",
+      "Subsidy incidence can differ from the named recipient."
+    ],
+    "revisionBox": [
+      {
+        "prompt": "What is the central mechanism in Farm Credit, Insurance, Fertiliser and Input Subsidies?",
+        "answer": "Farm credit finances working and investment cycles; insurance pools specified production or weather losses; input subsidies lower private cost. Effectiveness depends on timely access, land and tenancy records, claim design, provider incentives, targeting and environmental externalities."
+      },
+      {
+        "prompt": "What is the fastest prelims elimination rule?",
+        "answer": "Do not call a loan waiver crop insurance."
+      },
+      {
+        "prompt": "Which Indian example best anchors a mains answer?",
+        "answer": "Kisan Credit Card financing seasonal operations."
+      },
+      {
+        "prompt": "Which official source should refresh changing figures?",
+        "answer": "RBI and NABARD rural-credit reports, Ministry of Agriculture crop-insurance data and Department of Fertilisers notifications"
+      }
+    ]
+  },
+  "story": "Agriculture needs credit before harvest but earns after harvest, and one weather shock can impair repayment across an entire region. Credit, insurance and subsidy therefore interact: each can stabilise production, but poor design can also hide risk or distort resource use.",
+  "core_concept": "Farm credit finances working and investment cycles; insurance pools specified production or weather losses; input subsidies lower private cost. Effectiveness depends on timely access, land and tenancy records, claim design, provider incentives, targeting and environmental externalities.",
+  "mnemonic": "F-R-I-D: Finance, Risk pool, Incidence, Distortion.",
+  "mindmap_json": {
+    "center": "Farm Credit, Insurance, Fertiliser and Input Subsidies",
+    "branches": [
+      {
+        "label": "Mechanism",
+        "children": [
+          "Credit need: seasonal input loans, investment loans and post-harvest finance have different cash-flow structures.",
+          "Access: collateral, land title, tenancy, branch distance, information and transaction cost shape formal inclusion."
+        ]
+      },
+      {
+        "label": "Transmission",
+        "children": [
+          "Insurance design: yield, weather or area approaches trade accuracy, moral hazard, basis risk and settlement speed.",
+          "Subsidy incidence: benefit may accrue to farmer, input producer or intermediary depending on supply and market structure."
+        ]
+      },
+      {
+        "label": "Policy",
+        "children": [
+          "Input distortion: underpriced power, water or nutrients can encourage overuse and regional imbalance.",
+          "Reform: digital records, tenant inclusion, timely claims, nutrient balance and direct support can improve outcomes but require safeguards."
+        ]
+      },
+      {
+        "label": "Traps",
+        "children": [
+          "Do not call a loan waiver crop insurance.",
+          "Do not assume input subsidy benefit reaches farmers fully.",
+          "Do not treat all farm risk as insurable at low cost."
+        ]
+      }
+    ]
+  },
+  "key_facts": [
+    "Credit must be repaid; subsidy is a transfer under stated rules.",
+    "Insurance pools specified risk against premium.",
+    "Covariate shocks affect many farms together.",
+    "Basis risk is mismatch between indexed payout and actual loss.",
+    "Tenant farmers may lack formal collateral or records.",
+    "Subsidy incidence can differ from the named recipient."
+  ],
+  "common_traps": [
+    "Do not call a loan waiver crop insurance.",
+    "Do not assume input subsidy benefit reaches farmers fully.",
+    "Do not treat all farm risk as insurable at low cost."
+  ],
+  "pyq_refs": [
+    {
+      "year": 2021,
+      "exam": "UPSC CSE Prelims",
+      "question": "PYQ pattern: statement and mechanism testing within Farm Credit, Insurance, Fertiliser and Input Subsidies.",
+      "answer": "Resolve each statement through the governing identity, direction of change and institutional role.",
+      "pattern_note": "PYQs test institutional credit, crop insurance, subsidy effects and fertiliser policy. Identify whether the instrument finances, transfers, insures or changes input price."
+    },
+    {
+      "year": 2018,
+      "exam": "UPSC CSE Mains",
+      "question": "PYQ pattern: analyse the Indian policy implications of Farm Credit, Insurance, Fertiliser and Input Subsidies.",
+      "answer": "Use a causal chain, one Indian example, distributional effects and a calibrated reform path.",
+      "pattern_note": "Mains rewards mechanism plus policy trade-off, not a list of schemes."
+    }
+  ],
+  "pyq_count": 10,
+  "last_asked": 2021,
+  "high_yield": true,
+  "read_time_mins": 13,
+  "difficulty": "Hard",
+  "status": "published",
+  "source_type": "uploaded-economy-static-pyq-secondary",
+  "version": 1,
+  "created_at": "2026-07-01T00:00:00+05:30",
+  "updated_at": "2026-07-01T00:00:00+05:30"
+}
