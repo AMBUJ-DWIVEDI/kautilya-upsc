@@ -1,0 +1,153 @@
+{
+  "id": "local-geo-034",
+  "section": "Geography",
+  "category": "Human Geography",
+  "topic": "Population Transition, Migration and Demographic Geography",
+  "subtopic": "Fertility-mortality transition, age structure, migration streams and demographic opportunity",
+  "slug": "geography-population-transition-migration",
+  "anatomy": "upsc12",
+  "content": {
+    "issueStory": "Population pressure is not explained by headcount alone. Age structure, dependency, health, education, gender and migration determine whether a region experiences demographic opportunity, care burden, labour shortage or service stress.",
+    "coreConcept": "Demographic transition describes the shift from high birth and death rates toward low rates through changing mortality and fertility. Migration redistributes population through selective streams shaped by livelihood, education, marriage, conflict, environment and networks.",
+    "dimensions": [
+      "Mortality decline often precedes fertility decline, producing a phase of rapid natural increase.",
+      "Age structure and dependency ratio reveal the timing of dividend or ageing pressure.",
+      "Migration has origin push, destination pull, intervening obstacles and network effects.",
+      "Streams include rural-rural, rural-urban, urban-urban, seasonal, circular and international movement.",
+      "Migration is selective by age, gender, skill, caste, class and household strategy.",
+      "A demographic dividend requires health, education, jobs, mobility and women’s participation; it is not automatic."
+    ],
+    "constitutionalLink": "Articles 14, 15, 16, 19 and 21, portability of welfare, labour protections and urban services shape migrant citizenship and demographic capability.",
+    "dataReport": "Primary uploaded sources: STATIC_03 Indian Geography population and settlement chapter plus PYQ demographic interpretation. This note uses stable conceptual relationships and PYQ patterns; update event-specific data from current official sources before using it in a live mains answer.",
+    "caseStudy": "Seasonal circular migration from drought-prone districts shows that households may maintain multi-local livelihoods rather than permanently relocate.",
+    "argumentsFor": [
+      "Migration reallocates labour and supports remittances.",
+      "A working-age population can raise growth with capabilities and jobs.",
+      "Demographic data improves service planning."
+    ],
+    "argumentsAgainst": [
+      "Informal migrants may lose housing and welfare access.",
+      "Brain drain and care deficits can affect origin regions.",
+      "Youth bulges without jobs can deepen insecurity."
+    ],
+    "pyqLink": "PYQs test density, growth, sex ratio, demographic dividend and migration causes. Distinguish stock from flow and total growth from rate.",
+    "answerFramework": {
+      "intro": "Population Transition, Migration and Demographic Geography is best understood as a spatial process in which origin, controlling conditions, resulting pattern and human significance must be connected.",
+      "body": [
+        "Locate the population within demographic-transition stage.",
+        "Use age structure, dependency, fertility, mortality and migration.",
+        "Analyse origin, destination and household effects.",
+        "Conclude with capabilities, decent work, portability and gender inclusion."
+      ],
+      "conclusion": "A high-scoring geography answer converts process into pattern, locates the pattern with examples, and closes with risk-sensitive or resource-sensitive planning."
+    },
+    "mainsExamples": [
+      "Kerala for advanced transition and ageing concerns.",
+      "Bihar-Uttar Pradesh labour migration streams.",
+      "Remittances supporting origin households."
+    ],
+    "prelimsFacts": [
+      "Natural increase equals births minus deaths.",
+      "Net migration equals in-migration minus out-migration.",
+      "Dependency ratios depend on defined age groups.",
+      "Migration may be temporary, circular or permanent.",
+      "Demographic dividend is time-bound.",
+      "Population density and growth rate measure different things."
+    ],
+    "revisionBox": [
+      {
+        "prompt": "What is the central process chain in Population Transition, Migration and Demographic Geography?",
+        "answer": "Demographic transition describes the shift from high birth and death rates toward low rates through changing mortality and fertility. Migration redistributes population through selective streams shaped by livelihood, education, marriage, conflict, environment and networks."
+      },
+      {
+        "prompt": "What is the fastest prelims elimination rule?",
+        "answer": "Do not equate a large population with a demographic dividend."
+      },
+      {
+        "prompt": "Which example best anchors a mains answer?",
+        "answer": "Kerala for advanced transition and ageing concerns."
+      },
+      {
+        "prompt": "How should the conclusion move beyond description?",
+        "answer": "Conclude with capabilities, decent work, portability and gender inclusion."
+      }
+    ]
+  },
+  "story": "Population pressure is not explained by headcount alone. Age structure, dependency, health, education, gender and migration determine whether a region experiences demographic opportunity, care burden, labour shortage or service stress.",
+  "core_concept": "Demographic transition describes the shift from high birth and death rates toward low rates through changing mortality and fertility. Migration redistributes population through selective streams shaped by livelihood, education, marriage, conflict, environment and networks.",
+  "mnemonic": "F-M-A-M-C: Fertility, Mortality, Age, Migration, Capability.",
+  "mindmap_json": {
+    "center": "Population Transition, Migration and Demographic Geography",
+    "branches": [
+      {
+        "label": "Process",
+        "children": [
+          "Mortality decline often precedes fertility decline, producing a phase of rapid natural increase.",
+          "Age structure and dependency ratio reveal the timing of dividend or ageing pressure."
+        ]
+      },
+      {
+        "label": "Pattern",
+        "children": [
+          "Migration has origin push, destination pull, intervening obstacles and network effects.",
+          "Streams include rural-rural, rural-urban, urban-urban, seasonal, circular and international movement."
+        ]
+      },
+      {
+        "label": "Application",
+        "children": [
+          "Kerala for advanced transition and ageing concerns.",
+          "Bihar-Uttar Pradesh labour migration streams.",
+          "Remittances supporting origin households."
+        ]
+      },
+      {
+        "label": "Traps",
+        "children": [
+          "Do not equate a large population with a demographic dividend.",
+          "Do not treat all migration as permanent rural-urban movement.",
+          "Do not confuse population share with growth rate."
+        ]
+      }
+    ]
+  },
+  "key_facts": [
+    "Natural increase equals births minus deaths.",
+    "Net migration equals in-migration minus out-migration.",
+    "Dependency ratios depend on defined age groups.",
+    "Migration may be temporary, circular or permanent.",
+    "Demographic dividend is time-bound.",
+    "Population density and growth rate measure different things."
+  ],
+  "common_traps": [
+    "Do not equate a large population with a demographic dividend.",
+    "Do not treat all migration as permanent rural-urban movement.",
+    "Do not confuse population share with growth rate."
+  ],
+  "pyq_refs": [
+    {
+      "year": 2021,
+      "exam": "UPSC CSE Prelims",
+      "question": "PYQ pattern: statement and association testing within Population Transition, Migration and Demographic Geography.",
+      "answer": "Resolve each statement through process, location and necessary conditions.",
+      "pattern_note": "PYQs test density, growth, sex ratio, demographic dividend and migration causes. Distinguish stock from flow and total growth from rate."
+    },
+    {
+      "year": 2013,
+      "exam": "UPSC CSE Mains",
+      "question": "PYQ pattern: explain the process and spatial consequences of Population Transition, Migration and Demographic Geography.",
+      "answer": "Use a labelled diagram, causal sequence, regional examples and a planning implication.",
+      "pattern_note": "Mains rewards mechanism plus spatial expression, not a catalogue of terms."
+    }
+  ],
+  "pyq_count": 9,
+  "last_asked": 2021,
+  "high_yield": true,
+  "read_time_mins": 13,
+  "difficulty": "Hard",
+  "status": "published",
+  "source_type": "uploaded-geography-static-pyq-secondary",
+  "version": 1,
+  "created_at": "2026-06-30T00:00:00+05:30",
+  "updated_at": "2026-06-30T00:00:00+05:30"
+}

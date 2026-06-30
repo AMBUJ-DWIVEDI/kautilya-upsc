@@ -1,0 +1,153 @@
+{
+  "id": "local-geo-032",
+  "section": "Geography",
+  "category": "Economic Geography",
+  "topic": "Conventional and Renewable Energy Geography",
+  "subtopic": "Resource location, generation, grids, storage, land-water constraints and just transition",
+  "slug": "geography-energy-geography-transition",
+  "anatomy": "upsc12",
+  "content": {
+    "issueStory": "Energy potential and usable electricity are different maps. Coal needs mines and freight; hydro needs river relief and flow; solar and wind need quality resource, land, transmission, balancing and demand integration.",
+    "coreConcept": "Energy geography links primary resource distribution with conversion sites, grids, storage, demand centres and environmental externalities. Transition changes the spatial system from fuel transport toward transmission, flexibility, critical minerals and distributed generation.",
+    "dimensions": [
+      "Coal geography reflects sedimentary basins, mine quality, rail capacity, water and plant location.",
+      "Hydropower depends on discharge and head but changes sediment, ecology and displacement patterns.",
+      "Solar potential depends on radiation, cloud, temperature, land and grid evacuation.",
+      "Wind depends on speed distribution, hub height, terrain, seasonality and transmission.",
+      "Nuclear location weighs fuel cycle, cooling water, seismic safety and exclusion planning.",
+      "Transition requires storage, flexible demand, grid expansion, critical minerals and support for fossil-dependent regions."
+    ],
+    "constitutionalLink": "Electricity is in the Concurrent List; Article 48A, environmental law, renewable obligations and federal grid regulation shape energy planning.",
+    "dataReport": "Primary uploaded sources: STATIC_03 Indian Geography conventional, renewable and nuclear energy sections plus PYQ resource questions. This note uses stable conceptual relationships and PYQ patterns; update event-specific data from current official sources before using it in a live mains answer.",
+    "caseStudy": "Rajasthan’s solar expansion demonstrates excellent radiation and land availability alongside transmission, habitat, water-cleaning and local-benefit questions.",
+    "argumentsFor": [
+      "Renewables reduce operational emissions and fuel imports.",
+      "Distributed systems can improve remote access.",
+      "Grid integration can diversify regional generation."
+    ],
+    "argumentsAgainst": [
+      "Variable generation needs balancing and networks.",
+      "Large projects compete for land and habitats.",
+      "Critical-mineral supply creates new dependencies."
+    ],
+    "pyqLink": "PYQs test energy-resource locations, technology conditions and renewable statements. Separate theoretical potential, installed capacity and dependable generation.",
+    "answerFramework": {
+      "intro": "Conventional and Renewable Energy Geography is best understood as a spatial process in which origin, controlling conditions, resulting pattern and human significance must be connected.",
+      "body": [
+        "Map conventional and renewable resource bases.",
+        "Distinguish potential, conversion, transmission and demand.",
+        "Evaluate land, water, ecology, variability and mineral constraints.",
+        "Conclude with grid flexibility, storage and a regionally just transition."
+      ],
+      "conclusion": "A high-scoring geography answer converts process into pattern, locates the pattern with examples, and closes with risk-sensitive or resource-sensitive planning."
+    },
+    "mainsExamples": [
+      "Jharia coalfield and eastern coal-power geography.",
+      "Western Rajasthan solar resource.",
+      "Tamil Nadu and Gujarat wind corridors."
+    ],
+    "prelimsFacts": [
+      "Solar output varies with radiation and system conditions.",
+      "Wind power varies approximately with the cube of wind speed within operating limits.",
+      "Hydropower uses both discharge and hydraulic head.",
+      "Coal plants need fuel logistics and cooling arrangements.",
+      "Storage shifts energy across time but consumes resources and energy.",
+      "Installed capacity is not the same as annual generation."
+    ],
+    "revisionBox": [
+      {
+        "prompt": "What is the central process chain in Conventional and Renewable Energy Geography?",
+        "answer": "Energy geography links primary resource distribution with conversion sites, grids, storage, demand centres and environmental externalities. Transition changes the spatial system from fuel transport toward transmission, flexibility, critical minerals and distributed generation."
+      },
+      {
+        "prompt": "What is the fastest prelims elimination rule?",
+        "answer": "Do not equate renewable with impact-free."
+      },
+      {
+        "prompt": "Which example best anchors a mains answer?",
+        "answer": "Jharia coalfield and eastern coal-power geography."
+      },
+      {
+        "prompt": "How should the conclusion move beyond description?",
+        "answer": "Conclude with grid flexibility, storage and a regionally just transition."
+      }
+    ]
+  },
+  "story": "Energy potential and usable electricity are different maps. Coal needs mines and freight; hydro needs river relief and flow; solar and wind need quality resource, land, transmission, balancing and demand integration.",
+  "core_concept": "Energy geography links primary resource distribution with conversion sites, grids, storage, demand centres and environmental externalities. Transition changes the spatial system from fuel transport toward transmission, flexibility, critical minerals and distributed generation.",
+  "mnemonic": "R-C-G-F-J: Resource, Conversion, Grid, Flexibility, Justice.",
+  "mindmap_json": {
+    "center": "Conventional and Renewable Energy Geography",
+    "branches": [
+      {
+        "label": "Process",
+        "children": [
+          "Coal geography reflects sedimentary basins, mine quality, rail capacity, water and plant location.",
+          "Hydropower depends on discharge and head but changes sediment, ecology and displacement patterns."
+        ]
+      },
+      {
+        "label": "Pattern",
+        "children": [
+          "Solar potential depends on radiation, cloud, temperature, land and grid evacuation.",
+          "Wind depends on speed distribution, hub height, terrain, seasonality and transmission."
+        ]
+      },
+      {
+        "label": "Application",
+        "children": [
+          "Jharia coalfield and eastern coal-power geography.",
+          "Western Rajasthan solar resource.",
+          "Tamil Nadu and Gujarat wind corridors."
+        ]
+      },
+      {
+        "label": "Traps",
+        "children": [
+          "Do not equate renewable with impact-free.",
+          "Do not compare capacity across sources without capacity factor.",
+          "Do not map solar suitability from sunshine alone."
+        ]
+      }
+    ]
+  },
+  "key_facts": [
+    "Solar output varies with radiation and system conditions.",
+    "Wind power varies approximately with the cube of wind speed within operating limits.",
+    "Hydropower uses both discharge and hydraulic head.",
+    "Coal plants need fuel logistics and cooling arrangements.",
+    "Storage shifts energy across time but consumes resources and energy.",
+    "Installed capacity is not the same as annual generation."
+  ],
+  "common_traps": [
+    "Do not equate renewable with impact-free.",
+    "Do not compare capacity across sources without capacity factor.",
+    "Do not map solar suitability from sunshine alone."
+  ],
+  "pyq_refs": [
+    {
+      "year": 2021,
+      "exam": "UPSC CSE Prelims",
+      "question": "PYQ pattern: statement and association testing within Conventional and Renewable Energy Geography.",
+      "answer": "Resolve each statement through process, location and necessary conditions.",
+      "pattern_note": "PYQs test energy-resource locations, technology conditions and renewable statements. Separate theoretical potential, installed capacity and dependable generation."
+    },
+    {
+      "year": 2013,
+      "exam": "UPSC CSE Mains",
+      "question": "PYQ pattern: explain the process and spatial consequences of Conventional and Renewable Energy Geography.",
+      "answer": "Use a labelled diagram, causal sequence, regional examples and a planning implication.",
+      "pattern_note": "Mains rewards mechanism plus spatial expression, not a catalogue of terms."
+    }
+  ],
+  "pyq_count": 9,
+  "last_asked": 2021,
+  "high_yield": true,
+  "read_time_mins": 13,
+  "difficulty": "Hard",
+  "status": "published",
+  "source_type": "uploaded-geography-static-pyq-secondary",
+  "version": 1,
+  "created_at": "2026-06-30T00:00:00+05:30",
+  "updated_at": "2026-06-30T00:00:00+05:30"
+}

@@ -1,0 +1,153 @@
+{
+  "id": "local-geo-030",
+  "section": "Geography",
+  "category": "Economic Geography",
+  "topic": "Crop Geography, Agro-climatic Regions and Irrigation",
+  "subtopic": "Crop requirements, regional concentration, seasons, irrigation choice and climate resilience",
+  "slug": "geography-crops-agro-climatic-regions-irrigation",
+  "anatomy": "upsc12",
+  "content": {
+    "issueStory": "A crop map is a climate-soil-water-market map in disguise. Temperature and moisture define biophysical possibility, but irrigation, prices, procurement, labour, processing and risk decide what farmers actually plant.",
+    "coreConcept": "Crop geography emerges from the interaction of thermal regime, rainfall, soil, relief, water control and human institutions. Agro-climatic regionalisation groups areas with similar resource conditions so cropping systems and irrigation can be matched to local limits.",
+    "dimensions": [
+      "Thermal and photoperiod requirements set broad crop-season limits.",
+      "Rainfall amount, timing and reliability influence sowing, duration and drought risk.",
+      "Soil depth, texture, drainage, pH and nutrient status shape suitability.",
+      "Kharif, rabi and zaid are seasonal systems, not rigid crop identities everywhere.",
+      "Canal, tank, well, sprinkler and drip irrigation have distinct terrain, crop, energy and equity implications.",
+      "Markets, minimum support, processing, transport and dietary demand can override ecological suitability."
+    ],
+    "constitutionalLink": "Agriculture is primarily a State subject, while irrigation, procurement, crop insurance, groundwater and Article 48A create shared sustainability responsibilities.",
+    "dataReport": "Primary uploaded sources: STATIC_03 Indian Geography agriculture, crop and water-resource sections plus PYQ crop-region questions. This note uses stable conceptual relationships and PYQ patterns; update event-specific data from current official sources before using it in a live mains answer.",
+    "caseStudy": "Water-intensive paddy in groundwater-stressed northwest India shows how procurement and power incentives can overpower agro-ecological fit.",
+    "argumentsFor": [
+      "Agro-climatic planning improves crop fit.",
+      "Micro-irrigation can raise application efficiency.",
+      "Diversification can reduce water and price risk."
+    ],
+    "argumentsAgainst": [
+      "Efficiency gains may expand irrigated area and not save basin water.",
+      "Crop switching without markets transfers risk to farmers.",
+      "National averages hide local sowing and soil conditions."
+    ],
+    "pyqLink": "PYQs test crop-climate-soil-region associations, seasons and irrigation. Use necessary growing conditions first, then map the region.",
+    "answerFramework": {
+      "intro": "Crop Geography, Agro-climatic Regions and Irrigation is best understood as a spatial process in which origin, controlling conditions, resulting pattern and human significance must be connected.",
+      "body": [
+        "State crop geography as physical plus institutional choice.",
+        "Compare crop requirements and agro-climatic zones.",
+        "Evaluate irrigation by source, efficiency, energy and equity.",
+        "Recommend region-specific diversification backed by markets and water accounting."
+      ],
+      "conclusion": "A high-scoring geography answer converts process into pattern, locates the pattern with examples, and closes with risk-sensitive or resource-sensitive planning."
+    },
+    "mainsExamples": [
+      "Cotton in black-soil Deccan regions.",
+      "Tea on humid well-drained hill slopes.",
+      "Tank irrigation in parts of undulating Peninsular India."
+    ],
+    "prelimsFacts": [
+      "Kharif crops are generally sown with the summer monsoon.",
+      "Rabi crops grow mainly in the cool season.",
+      "Drip irrigation targets the root zone.",
+      "Canal suitability depends on terrain and dependable supply.",
+      "Crop concentration reflects policy as well as ecology.",
+      "Irrigation efficiency is not identical to basin-level water saving."
+    ],
+    "revisionBox": [
+      {
+        "prompt": "What is the central process chain in Crop Geography, Agro-climatic Regions and Irrigation?",
+        "answer": "Crop geography emerges from the interaction of thermal regime, rainfall, soil, relief, water control and human institutions. Agro-climatic regionalisation groups areas with similar resource conditions so cropping systems and irrigation can be matched to local limits."
+      },
+      {
+        "prompt": "What is the fastest prelims elimination rule?",
+        "answer": "Do not assign a crop to only one season in all regions."
+      },
+      {
+        "prompt": "Which example best anchors a mains answer?",
+        "answer": "Cotton in black-soil Deccan regions."
+      },
+      {
+        "prompt": "How should the conclusion move beyond description?",
+        "answer": "Recommend region-specific diversification backed by markets and water accounting."
+      }
+    ]
+  },
+  "story": "A crop map is a climate-soil-water-market map in disguise. Temperature and moisture define biophysical possibility, but irrigation, prices, procurement, labour, processing and risk decide what farmers actually plant.",
+  "core_concept": "Crop geography emerges from the interaction of thermal regime, rainfall, soil, relief, water control and human institutions. Agro-climatic regionalisation groups areas with similar resource conditions so cropping systems and irrigation can be matched to local limits.",
+  "mnemonic": "C-S-W-M: Climate, Soil, Water, Market.",
+  "mindmap_json": {
+    "center": "Crop Geography, Agro-climatic Regions and Irrigation",
+    "branches": [
+      {
+        "label": "Process",
+        "children": [
+          "Thermal and photoperiod requirements set broad crop-season limits.",
+          "Rainfall amount, timing and reliability influence sowing, duration and drought risk."
+        ]
+      },
+      {
+        "label": "Pattern",
+        "children": [
+          "Soil depth, texture, drainage, pH and nutrient status shape suitability.",
+          "Kharif, rabi and zaid are seasonal systems, not rigid crop identities everywhere."
+        ]
+      },
+      {
+        "label": "Application",
+        "children": [
+          "Cotton in black-soil Deccan regions.",
+          "Tea on humid well-drained hill slopes.",
+          "Tank irrigation in parts of undulating Peninsular India."
+        ]
+      },
+      {
+        "label": "Traps",
+        "children": [
+          "Do not assign a crop to only one season in all regions.",
+          "Do not treat micro-irrigation as automatically equitable.",
+          "Do not infer crop suitability from rainfall total alone."
+        ]
+      }
+    ]
+  },
+  "key_facts": [
+    "Kharif crops are generally sown with the summer monsoon.",
+    "Rabi crops grow mainly in the cool season.",
+    "Drip irrigation targets the root zone.",
+    "Canal suitability depends on terrain and dependable supply.",
+    "Crop concentration reflects policy as well as ecology.",
+    "Irrigation efficiency is not identical to basin-level water saving."
+  ],
+  "common_traps": [
+    "Do not assign a crop to only one season in all regions.",
+    "Do not treat micro-irrigation as automatically equitable.",
+    "Do not infer crop suitability from rainfall total alone."
+  ],
+  "pyq_refs": [
+    {
+      "year": 2021,
+      "exam": "UPSC CSE Prelims",
+      "question": "PYQ pattern: statement and association testing within Crop Geography, Agro-climatic Regions and Irrigation.",
+      "answer": "Resolve each statement through process, location and necessary conditions.",
+      "pattern_note": "PYQs test crop-climate-soil-region associations, seasons and irrigation. Use necessary growing conditions first, then map the region."
+    },
+    {
+      "year": 2013,
+      "exam": "UPSC CSE Mains",
+      "question": "PYQ pattern: explain the process and spatial consequences of Crop Geography, Agro-climatic Regions and Irrigation.",
+      "answer": "Use a labelled diagram, causal sequence, regional examples and a planning implication.",
+      "pattern_note": "Mains rewards mechanism plus spatial expression, not a catalogue of terms."
+    }
+  ],
+  "pyq_count": 9,
+  "last_asked": 2021,
+  "high_yield": true,
+  "read_time_mins": 13,
+  "difficulty": "Hard",
+  "status": "published",
+  "source_type": "uploaded-geography-static-pyq-secondary",
+  "version": 1,
+  "created_at": "2026-06-30T00:00:00+05:30",
+  "updated_at": "2026-06-30T00:00:00+05:30"
+}
