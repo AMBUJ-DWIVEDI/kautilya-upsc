@@ -1,0 +1,152 @@
+{
+  "id": "local-eco-021",
+  "section": "Economy",
+  "category": "Money and Banking",
+  "topic": "NPAs, Insolvency, Recapitalisation and Banking Reform",
+  "subtopic": "Asset-quality recognition, provisioning, resolution, recovery, governance and credit-cycle repair",
+  "slug": "economy-npas-insolvency-banking-reform",
+  "anatomy": "upsc12",
+  "content": {
+    "issueStory": "A bad loan becomes more damaging when it is hidden. Delayed recognition allows interest to be capitalised, weak firms to survive without restructuring and bank capital to erode silently, eventually constraining new lending to healthy borrowers.",
+    "coreConcept": "An NPA is a loan whose repayment performance crosses regulatory delinquency criteria. Recognition reveals stress; provisioning absorbs expected loss; resolution restructures, sells or liquidates claims; recapitalisation restores capital but does not by itself repair governance or borrower viability.",
+    "dimensions": [
+      "Cycle origin: exuberant lending, project delay, demand shock, fraud, governance failure or policy uncertainty can create stress.",
+      "Recognition: classification rules and asset-quality review prevent evergreening and reveal the true balance sheet.",
+      "Provisioning and capital: expected loss reduces profit and capital, affecting the bank’s capacity to bear risk.",
+      "Resolution: restructuring, recovery tribunals, security enforcement, asset reconstruction and insolvency offer different routes.",
+      "IBC logic: a time-bound collective process shifts control and resolves competing creditor claims, though capacity and litigation affect outcomes.",
+      "Reform: governance, underwriting, monitoring, bankruptcy infrastructure and market discipline matter alongside recapitalisation."
+    ],
+    "constitutionalLink": "The Insolvency and Bankruptcy Code, Banking Regulation Act, SARFAESI framework and prudential RBI directions structure recognition and resolution.",
+    "dataReport": "Uploaded source basis: STATIC_01_Economy.pdf NPA and banking-reform sections plus PYQ asset-quality and insolvency patterns. Refresh rates, targets, weights, thresholds and year-specific figures from official sources: RBI Financial Stability Report, bank disclosures, Insolvency and Bankruptcy Board of India and Department of Financial Services. Stable mechanisms belong in this note; current values must be dated in an answer.",
+    "caseStudy": "The asset-quality review forced recognition of previously obscured stress, initially raising reported NPAs but improving the credibility of balance sheets and resolution efforts.",
+    "argumentsFor": [
+      "Early recognition limits hidden losses.",
+      "Collective insolvency can preserve viable firms and redeploy assets.",
+      "Recapitalisation can restore regulatory lending capacity."
+    ],
+    "argumentsAgainst": [
+      "Haircuts may be large when resolution is delayed.",
+      "Recapitalisation can socialise losses without governance reform.",
+      "Insolvency tribunals face capacity and litigation bottlenecks."
+    ],
+    "pyqLink": "PYQs test NPA meaning, provisioning, recapitalisation and IBC institutions. Separate recognition from recovery and bank liquidity from bank solvency.",
+    "answerFramework": {
+      "intro": "NPAs, Insolvency, Recapitalisation and Banking Reform should be introduced through its economic identity or causal mechanism before moving to Indian institutions and policy trade-offs.",
+      "body": [
+        "Trace the credit cycle from origination to stress.",
+        "Separate recognition, provisioning, resolution and recapitalisation.",
+        "Evaluate IBC and alternative recovery channels.",
+        "Conclude with underwriting, governance, data and tribunal-capacity reform."
+      ],
+      "conclusion": "A high-scoring Economy answer keeps the accounting correct, traces transmission, identifies winners and losers, and separates stable principles from changing policy values."
+    },
+    "mainsExamples": [
+      "A delayed infrastructure project becoming a stressed bank exposure.",
+      "Asset reconstruction company purchasing stressed loans.",
+      "Recapitalisation raising bank capital after recognised losses."
+    ],
+    "prelimsFacts": [
+      "An NPA classification concerns repayment performance under regulation.",
+      "Provisioning recognises expected loss in accounts.",
+      "Gross and net NPA measures differ by provisions and adjustments.",
+      "Recapitalisation adds capital; it does not recover the borrower loan automatically.",
+      "IBC is a collective insolvency framework.",
+      "Evergreening can delay recognition of stress."
+    ],
+    "revisionBox": [
+      {
+        "prompt": "What is the central mechanism in NPAs, Insolvency, Recapitalisation and Banking Reform?",
+        "answer": "An NPA is a loan whose repayment performance crosses regulatory delinquency criteria. Recognition reveals stress; provisioning absorbs expected loss; resolution restructures, sells or liquidates claims; recapitalisation restores capital but does not by itself repair governance or borrower viability."
+      },
+      {
+        "prompt": "What is the fastest prelims elimination rule?",
+        "answer": "Do not equate NPA recognition with immediate loan write-off."
+      },
+      {
+        "prompt": "Which Indian example best anchors a mains answer?",
+        "answer": "A delayed infrastructure project becoming a stressed bank exposure."
+      },
+      {
+        "prompt": "Which official source should refresh changing figures?",
+        "answer": "RBI Financial Stability Report, bank disclosures, Insolvency and Bankruptcy Board of India and Department of Financial Services"
+      }
+    ]
+  },
+  "story": "A bad loan becomes more damaging when it is hidden. Delayed recognition allows interest to be capitalised, weak firms to survive without restructuring and bank capital to erode silently, eventually constraining new lending to healthy borrowers.",
+  "core_concept": "An NPA is a loan whose repayment performance crosses regulatory delinquency criteria. Recognition reveals stress; provisioning absorbs expected loss; resolution restructures, sells or liquidates claims; recapitalisation restores capital but does not by itself repair governance or borrower viability.",
+  "mnemonic": "R-P-R-C: Recognise, Provide, Resolve, Capitalise.",
+  "mindmap_json": {
+    "center": "NPAs, Insolvency, Recapitalisation and Banking Reform",
+    "branches": [
+      {
+        "label": "Mechanism",
+        "children": [
+          "Cycle origin: exuberant lending, project delay, demand shock, fraud, governance failure or policy uncertainty can create stress.",
+          "Recognition: classification rules and asset-quality review prevent evergreening and reveal the true balance sheet."
+        ]
+      },
+      {
+        "label": "Transmission",
+        "children": [
+          "Provisioning and capital: expected loss reduces profit and capital, affecting the bank’s capacity to bear risk.",
+          "Resolution: restructuring, recovery tribunals, security enforcement, asset reconstruction and insolvency offer different routes."
+        ]
+      },
+      {
+        "label": "Policy",
+        "children": [
+          "IBC logic: a time-bound collective process shifts control and resolves competing creditor claims, though capacity and litigation affect outcomes.",
+          "Reform: governance, underwriting, monitoring, bankruptcy infrastructure and market discipline matter alongside recapitalisation."
+        ]
+      },
+      {
+        "label": "Traps",
+        "children": [
+          "Do not equate NPA recognition with immediate loan write-off.",
+          "Do not call every restructured loan fully recovered.",
+          "Do not treat recapitalisation as a substitute for governance reform."
+        ]
+      }
+    ]
+  },
+  "key_facts": [
+    "An NPA classification concerns repayment performance under regulation.",
+    "Provisioning recognises expected loss in accounts.",
+    "Gross and net NPA measures differ by provisions and adjustments.",
+    "Recapitalisation adds capital; it does not recover the borrower loan automatically.",
+    "IBC is a collective insolvency framework.",
+    "Evergreening can delay recognition of stress."
+  ],
+  "common_traps": [
+    "Do not equate NPA recognition with immediate loan write-off.",
+    "Do not call every restructured loan fully recovered.",
+    "Do not treat recapitalisation as a substitute for governance reform."
+  ],
+  "pyq_refs": [
+    {
+      "year": 2021,
+      "exam": "UPSC CSE Prelims",
+      "question": "PYQ pattern: statement and mechanism testing within NPAs, Insolvency, Recapitalisation and Banking Reform.",
+      "answer": "Resolve each statement through the governing identity, direction of change and institutional role.",
+      "pattern_note": "PYQs test NPA meaning, provisioning, recapitalisation and IBC institutions. Separate recognition from recovery and bank liquidity from bank solvency."
+    },
+    {
+      "year": 2018,
+      "exam": "UPSC CSE Mains",
+      "question": "PYQ pattern: analyse the Indian policy implications of NPAs, Insolvency, Recapitalisation and Banking Reform.",
+      "answer": "Use a causal chain, one Indian example, distributional effects and a calibrated reform path.",
+      "pattern_note": "Mains rewards mechanism plus policy trade-off, not a list of schemes."
+    }
+  ],
+  "pyq_count": 10,
+  "last_asked": 2021,
+  "high_yield": true,
+  "read_time_mins": 13,
+  "difficulty": "Hard",
+  "status": "published",
+  "source_type": "uploaded-economy-static-pyq-secondary",
+  "version": 1,
+  "created_at": "2026-07-01T00:00:00+05:30",
+  "updated_at": "2026-07-01T00:00:00+05:30"
+}

@@ -1,0 +1,152 @@
+{
+  "id": "local-eco-023",
+  "section": "Economy",
+  "category": "Financial Sector",
+  "topic": "Bonds, Government Securities, Yields and Interest-Rate Risk",
+  "subtopic": "Debt cash flows, coupon and yield, price sensitivity, duration, sovereign curve and borrowing costs",
+  "slug": "economy-bonds-government-securities-yields",
+  "anatomy": "upsc12",
+  "content": {
+    "issueStory": "A bond can pay the same coupon every year while its market return changes daily. When market interest rates rise, an old fixed coupon becomes less attractive, so its price falls until its yield becomes competitive.",
+    "coreConcept": "A bond is a debt claim promising contractual cash flows. Coupon is based on face value; current yield relates coupon to price; yield to maturity discounts all promised cash flows. Fixed-rate bond prices move inversely to market yields, with duration and convexity shaping sensitivity.",
+    "dimensions": [
+      "Claim structure: issuer, face value, coupon, maturity, seniority and embedded options define contractual risk.",
+      "Price-yield relation: discounting at a higher required return lowers the present value of fixed cash flows.",
+      "Duration: longer maturity and lower coupon generally increase price sensitivity to yield changes.",
+      "Credit and liquidity: sovereign, corporate and municipal yields include different default, liquidity and tax premiums.",
+      "Government curve: Treasury bills and dated securities create reference rates across maturities and influence private borrowing.",
+      "Policy-fiscal link: inflation expectations, RBI stance, borrowing supply and global rates affect sovereign yields and debt service."
+    ],
+    "constitutionalLink": "The Government Securities Act, RBI debt-management operations, public-debt rules and SEBI corporate-bond regulation govern issuance and trading.",
+    "dataReport": "Uploaded source basis: STATIC_01_Economy.pdf debt instruments, government securities and bond price-yield sections plus PYQ financial-market patterns. Refresh rates, targets, weights, thresholds and year-specific figures from official sources: RBI government-securities data, public-debt reports, CCIL market data and SEBI corporate-bond disclosures. Stable mechanisms belong in this note; current values must be dated in an answer.",
+    "caseStudy": "A surprise rise in expected inflation can push nominal yields upward and mark down existing long-duration fixed-rate bond prices even if coupons do not change.",
+    "argumentsFor": [
+      "Bonds finance long-term government and corporate investment.",
+      "The sovereign curve benchmarks other credit.",
+      "Tradable debt distributes duration and credit risk."
+    ],
+    "argumentsAgainst": [
+      "Higher yields create mark-to-market losses.",
+      "Credit spreads can jump in stress.",
+      "Heavy public borrowing may raise economy-wide funding cost."
+    ],
+    "pyqLink": "PYQs test the inverse price-yield relation, coupon versus yield, government-security features and interest-rate effects. Draw a present-value arrow before answering.",
+    "answerFramework": {
+      "intro": "Bonds, Government Securities, Yields and Interest-Rate Risk should be introduced through its economic identity or causal mechanism before moving to Indian institutions and policy trade-offs.",
+      "body": [
+        "Define face value, coupon, maturity and yield.",
+        "Explain inverse price-yield movement with discounting.",
+        "Add duration, credit spread and liquidity premium.",
+        "Connect the sovereign curve to monetary conditions and fiscal borrowing."
+      ],
+      "conclusion": "A high-scoring Economy answer keeps the accounting correct, traces transmission, identifies winners and losers, and separates stable principles from changing policy values."
+    },
+    "mainsExamples": [
+      "A zero-coupon bond issued at discount.",
+      "A fixed-rate government security losing market value when yields rise.",
+      "Corporate spread over a government benchmark reflecting added risk."
+    ],
+    "prelimsFacts": [
+      "Coupon rate is applied to face value.",
+      "Yield to maturity depends on market price.",
+      "Fixed-rate bond prices and yields move inversely.",
+      "Longer duration means greater rate sensitivity.",
+      "Treasury bills are short-term government securities.",
+      "Credit spread is a yield difference over a benchmark."
+    ],
+    "revisionBox": [
+      {
+        "prompt": "What is the central mechanism in Bonds, Government Securities, Yields and Interest-Rate Risk?",
+        "answer": "A bond is a debt claim promising contractual cash flows. Coupon is based on face value; current yield relates coupon to price; yield to maturity discounts all promised cash flows. Fixed-rate bond prices move inversely to market yields, with duration and convexity shaping sensitivity."
+      },
+      {
+        "prompt": "What is the fastest prelims elimination rule?",
+        "answer": "Do not say a fixed coupon rises when market yield rises."
+      },
+      {
+        "prompt": "Which Indian example best anchors a mains answer?",
+        "answer": "A zero-coupon bond issued at discount."
+      },
+      {
+        "prompt": "Which official source should refresh changing figures?",
+        "answer": "RBI government-securities data, public-debt reports, CCIL market data and SEBI corporate-bond disclosures"
+      }
+    ]
+  },
+  "story": "A bond can pay the same coupon every year while its market return changes daily. When market interest rates rise, an old fixed coupon becomes less attractive, so its price falls until its yield becomes competitive.",
+  "core_concept": "A bond is a debt claim promising contractual cash flows. Coupon is based on face value; current yield relates coupon to price; yield to maturity discounts all promised cash flows. Fixed-rate bond prices move inversely to market yields, with duration and convexity shaping sensitivity.",
+  "mnemonic": "C-P-Y-D: Cash flow, Price, Yield, Duration.",
+  "mindmap_json": {
+    "center": "Bonds, Government Securities, Yields and Interest-Rate Risk",
+    "branches": [
+      {
+        "label": "Mechanism",
+        "children": [
+          "Claim structure: issuer, face value, coupon, maturity, seniority and embedded options define contractual risk.",
+          "Price-yield relation: discounting at a higher required return lowers the present value of fixed cash flows."
+        ]
+      },
+      {
+        "label": "Transmission",
+        "children": [
+          "Duration: longer maturity and lower coupon generally increase price sensitivity to yield changes.",
+          "Credit and liquidity: sovereign, corporate and municipal yields include different default, liquidity and tax premiums."
+        ]
+      },
+      {
+        "label": "Policy",
+        "children": [
+          "Government curve: Treasury bills and dated securities create reference rates across maturities and influence private borrowing.",
+          "Policy-fiscal link: inflation expectations, RBI stance, borrowing supply and global rates affect sovereign yields and debt service."
+        ]
+      },
+      {
+        "label": "Traps",
+        "children": [
+          "Do not say a fixed coupon rises when market yield rises.",
+          "Do not confuse face value with current market price.",
+          "Do not treat sovereign and corporate credit risk as identical."
+        ]
+      }
+    ]
+  },
+  "key_facts": [
+    "Coupon rate is applied to face value.",
+    "Yield to maturity depends on market price.",
+    "Fixed-rate bond prices and yields move inversely.",
+    "Longer duration means greater rate sensitivity.",
+    "Treasury bills are short-term government securities.",
+    "Credit spread is a yield difference over a benchmark."
+  ],
+  "common_traps": [
+    "Do not say a fixed coupon rises when market yield rises.",
+    "Do not confuse face value with current market price.",
+    "Do not treat sovereign and corporate credit risk as identical."
+  ],
+  "pyq_refs": [
+    {
+      "year": 2021,
+      "exam": "UPSC CSE Prelims",
+      "question": "PYQ pattern: statement and mechanism testing within Bonds, Government Securities, Yields and Interest-Rate Risk.",
+      "answer": "Resolve each statement through the governing identity, direction of change and institutional role.",
+      "pattern_note": "PYQs test the inverse price-yield relation, coupon versus yield, government-security features and interest-rate effects. Draw a present-value arrow before answering."
+    },
+    {
+      "year": 2018,
+      "exam": "UPSC CSE Mains",
+      "question": "PYQ pattern: analyse the Indian policy implications of Bonds, Government Securities, Yields and Interest-Rate Risk.",
+      "answer": "Use a causal chain, one Indian example, distributional effects and a calibrated reform path.",
+      "pattern_note": "Mains rewards mechanism plus policy trade-off, not a list of schemes."
+    }
+  ],
+  "pyq_count": 10,
+  "last_asked": 2021,
+  "high_yield": true,
+  "read_time_mins": 13,
+  "difficulty": "Hard",
+  "status": "published",
+  "source_type": "uploaded-economy-static-pyq-secondary",
+  "version": 1,
+  "created_at": "2026-07-01T00:00:00+05:30",
+  "updated_at": "2026-07-01T00:00:00+05:30"
+}

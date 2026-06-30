@@ -1,0 +1,152 @@
+{
+  "id": "local-eco-019",
+  "section": "Economy",
+  "category": "Money and Banking",
+  "topic": "RBI, Banking Architecture and Regulatory Institutions",
+  "subtopic": "Central-bank functions, bank types, differentiated licences, prudential regulation and financial stability",
+  "slug": "economy-rbi-banking-architecture-regulation",
+  "anatomy": "upsc12",
+  "content": {
+    "issueStory": "The RBI is banker to government and banks, issuer of currency, monetary authority, regulator and payment-system overseer, but it is not the regulator of every financial activity. UPSC often tests precisely where one mandate ends and another begins.",
+    "coreConcept": "India’s financial architecture separates central banking, deposit-taking intermediation, specialised development finance, securities, insurance and pensions. Regulation follows institutional form and activity, while prudential rules seek capital, liquidity, governance and risk resilience rather than zero bank failure.",
+    "dimensions": [
+      "Central-bank role: currency issue, monetary operations, reserve management, government banking, lender-of-last-resort and system oversight.",
+      "Bank architecture: public, private, foreign, regional rural, cooperative, small-finance and payments banks have different ownership or licence features.",
+      "Intermediation: banks transform maturity and liquidity by funding longer or riskier assets with withdrawable liabilities.",
+      "Prudential regulation: capital, provisioning, exposure, liquidity and governance rules protect depositors and systemic stability.",
+      "Functional perimeter: RBI, SEBI, IRDAI, PFRDA and IFSCA regulate distinct but sometimes overlapping domains.",
+      "Moral hazard: deposit protection and emergency liquidity support stability but require supervision to limit excessive risk-taking."
+    ],
+    "constitutionalLink": "The RBI Act, Banking Regulation Act, Deposit Insurance and Credit Guarantee Corporation Act, cooperative-law framework and Financial Stability and Development Council shape oversight.",
+    "dataReport": "Uploaded source basis: STATIC_01_Economy.pdf RBI, bank types, PSL and reform sections plus PYQ regulator and institution patterns. Refresh rates, targets, weights, thresholds and year-specific figures from official sources: RBI statutory publications, Department of Financial Services, DICGC and current regulator notifications. Stable mechanisms belong in this note; current values must be dated in an answer.",
+    "caseStudy": "Payments banks widen transaction access but face activity restrictions that distinguish payment and deposit services from full-scale credit intermediation.",
+    "argumentsFor": [
+      "Differentiated institutions can serve diverse users.",
+      "Prudential rules reduce depositor and systemic risk.",
+      "A lender of last resort can stop liquidity panic."
+    ],
+    "argumentsAgainst": [
+      "Regulatory overlap can create gaps or duplication.",
+      "Protection can create moral hazard.",
+      "Uniform rules can burden small specialised institutions disproportionately."
+    ],
+    "pyqLink": "PYQs test RBI functions, bank categories, deposit insurance, PSL and regulator mandates. Ask whether the institution can accept deposits, lend, issue securities, insure or regulate.",
+    "answerFramework": {
+      "intro": "RBI, Banking Architecture and Regulatory Institutions should be introduced through its economic identity or causal mechanism before moving to Indian institutions and policy trade-offs.",
+      "body": [
+        "Separate central-bank, commercial-bank and market-regulator functions.",
+        "Map bank categories by ownership and permitted activity.",
+        "Explain capital, liquidity, provisioning and supervision.",
+        "Balance inclusion and innovation with depositor protection and systemic stability."
+      ],
+      "conclusion": "A high-scoring Economy answer keeps the accounting correct, traces transmission, identifies winners and losers, and separates stable principles from changing policy values."
+    },
+    "mainsExamples": [
+      "RBI as banker to government and lender of last resort.",
+      "Regional Rural Banks serving regional rural credit needs.",
+      "Payments banks offering limited deposits and payment services without ordinary lending."
+    ],
+    "prelimsFacts": [
+      "RBI issues most currency notes under statutory authority.",
+      "Commercial-bank deposits are bank liabilities.",
+      "DICGC provides deposit insurance within notified rules and limits.",
+      "SEBI regulates the securities market.",
+      "IRDAI regulates insurance.",
+      "PFRDA regulates the pension sector under its mandate."
+    ],
+    "revisionBox": [
+      {
+        "prompt": "What is the central mechanism in RBI, Banking Architecture and Regulatory Institutions?",
+        "answer": "India’s financial architecture separates central banking, deposit-taking intermediation, specialised development finance, securities, insurance and pensions. Regulation follows institutional form and activity, while prudential rules seek capital, liquidity, governance and risk resilience rather than zero bank failure."
+      },
+      {
+        "prompt": "What is the fastest prelims elimination rule?",
+        "answer": "Do not call RBI the regulator of every financial product."
+      },
+      {
+        "prompt": "Which Indian example best anchors a mains answer?",
+        "answer": "RBI as banker to government and lender of last resort."
+      },
+      {
+        "prompt": "Which official source should refresh changing figures?",
+        "answer": "RBI statutory publications, Department of Financial Services, DICGC and current regulator notifications"
+      }
+    ]
+  },
+  "story": "The RBI is banker to government and banks, issuer of currency, monetary authority, regulator and payment-system overseer, but it is not the regulator of every financial activity. UPSC often tests precisely where one mandate ends and another begins.",
+  "core_concept": "India’s financial architecture separates central banking, deposit-taking intermediation, specialised development finance, securities, insurance and pensions. Regulation follows institutional form and activity, while prudential rules seek capital, liquidity, governance and risk resilience rather than zero bank failure.",
+  "mnemonic": "C-B-P-S: Central bank, Bank types, Prudential rules, Stability.",
+  "mindmap_json": {
+    "center": "RBI, Banking Architecture and Regulatory Institutions",
+    "branches": [
+      {
+        "label": "Mechanism",
+        "children": [
+          "Central-bank role: currency issue, monetary operations, reserve management, government banking, lender-of-last-resort and system oversight.",
+          "Bank architecture: public, private, foreign, regional rural, cooperative, small-finance and payments banks have different ownership or licence features."
+        ]
+      },
+      {
+        "label": "Transmission",
+        "children": [
+          "Intermediation: banks transform maturity and liquidity by funding longer or riskier assets with withdrawable liabilities.",
+          "Prudential regulation: capital, provisioning, exposure, liquidity and governance rules protect depositors and systemic stability."
+        ]
+      },
+      {
+        "label": "Policy",
+        "children": [
+          "Functional perimeter: RBI, SEBI, IRDAI, PFRDA and IFSCA regulate distinct but sometimes overlapping domains.",
+          "Moral hazard: deposit protection and emergency liquidity support stability but require supervision to limit excessive risk-taking."
+        ]
+      },
+      {
+        "label": "Traps",
+        "children": [
+          "Do not call RBI the regulator of every financial product.",
+          "Do not assume every deposit-taking institution has identical lending powers.",
+          "Do not confuse liquidity support with a guarantee of solvency."
+        ]
+      }
+    ]
+  },
+  "key_facts": [
+    "RBI issues most currency notes under statutory authority.",
+    "Commercial-bank deposits are bank liabilities.",
+    "DICGC provides deposit insurance within notified rules and limits.",
+    "SEBI regulates the securities market.",
+    "IRDAI regulates insurance.",
+    "PFRDA regulates the pension sector under its mandate."
+  ],
+  "common_traps": [
+    "Do not call RBI the regulator of every financial product.",
+    "Do not assume every deposit-taking institution has identical lending powers.",
+    "Do not confuse liquidity support with a guarantee of solvency."
+  ],
+  "pyq_refs": [
+    {
+      "year": 2021,
+      "exam": "UPSC CSE Prelims",
+      "question": "PYQ pattern: statement and mechanism testing within RBI, Banking Architecture and Regulatory Institutions.",
+      "answer": "Resolve each statement through the governing identity, direction of change and institutional role.",
+      "pattern_note": "PYQs test RBI functions, bank categories, deposit insurance, PSL and regulator mandates. Ask whether the institution can accept deposits, lend, issue securities, insure or regulate."
+    },
+    {
+      "year": 2018,
+      "exam": "UPSC CSE Mains",
+      "question": "PYQ pattern: analyse the Indian policy implications of RBI, Banking Architecture and Regulatory Institutions.",
+      "answer": "Use a causal chain, one Indian example, distributional effects and a calibrated reform path.",
+      "pattern_note": "Mains rewards mechanism plus policy trade-off, not a list of schemes."
+    }
+  ],
+  "pyq_count": 10,
+  "last_asked": 2021,
+  "high_yield": true,
+  "read_time_mins": 13,
+  "difficulty": "Hard",
+  "status": "published",
+  "source_type": "uploaded-economy-static-pyq-secondary",
+  "version": 1,
+  "created_at": "2026-07-01T00:00:00+05:30",
+  "updated_at": "2026-07-01T00:00:00+05:30"
+}
