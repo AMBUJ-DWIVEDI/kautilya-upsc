@@ -1,0 +1,153 @@
+{
+  "id": "local-geo-013",
+  "section": "Geography",
+  "category": "Physical Geography",
+  "topic": "Geological Time, Rocks and Mineral Formation",
+  "subtopic": "Geological chronology, rock cycle, rock properties and controls on mineral occurrence",
+  "slug": "geography-geological-time-rocks-minerals",
+  "anatomy": "upsc12",
+  "content": {
+    "issueStory": "A landscape is a page in a very long archive. Its rocks record cooling, burial, pressure, uplift and erosion; its mineral belts record the conditions under which elements became concentrated. UPSC turns that archive into sequence and association questions.",
+    "coreConcept": "Geological time orders Earth history into eons, eras, periods and epochs, while the rock cycle connects igneous crystallisation, sediment deposition and lithification, and metamorphic transformation. Mineral occurrence is controlled by parent material, temperature-pressure conditions, fluids, weathering and tectonic setting.",
+    "dimensions": [
+      "Chronology: relative dating uses superposition, cross-cutting relations and fossils; absolute dating estimates numerical age through radioactive decay.",
+      "Igneous process: cooling rate, silica content and emplacement depth control texture and mineral composition.",
+      "Sedimentary process: weathering, transport, deposition, compaction and cementation preserve strata and fossils.",
+      "Metamorphic process: heat, pressure and chemically active fluids alter rock without complete melting.",
+      "Cycle logic: uplift exposes rock, weathering creates sediment, burial transforms it, and melting resets it as magma.",
+      "Economic geography: metallic ores, fossil fuels and industrial minerals occur in different geological environments."
+    ],
+    "constitutionalLink": "Mineral development falls within the Union-State regulatory framework, while environmental clearance, rehabilitation and intergenerational equity connect extraction to Articles 21, 39(b) and 48A.",
+    "dataReport": "Primary uploaded sources: STATIC_02_Physical Geography.pdf sections on geological timescale, minerals, rocks and the rock cycle; PYQ_02_Geography.pdf geomorphology unit. This note uses stable conceptual relationships and PYQ patterns; update event-specific data from current official sources before using it in a live mains answer.",
+    "caseStudy": "The Dharwar craton illustrates how ancient shield geology is associated with metallic mineral belts, while Gondwana sedimentary basins are strongly associated with coal.",
+    "argumentsFor": [
+      "Geological mapping guides mineral exploration and groundwater assessment.",
+      "Rock knowledge explains soil parent material and engineering stability.",
+      "Time-scale reasoning connects tectonics, climate and biological evolution."
+    ],
+    "argumentsAgainst": [
+      "Rock type alone does not guarantee an economically workable deposit.",
+      "OCR-era tables and dates require careful sequence checking.",
+      "Extraction benefits can be offset by displacement, pollution and landscape damage."
+    ],
+    "pyqLink": "PYQs repeatedly test rock-origin pairs, intrusive versus extrusive textures, fossil-bearing strata, geological sequence and mineral-region associations. Solve through formation conditions, not isolated lists.",
+    "answerFramework": {
+      "intro": "Geological Time, Rocks and Mineral Formation is best understood as a spatial process in which origin, controlling conditions, resulting pattern and human significance must be connected.",
+      "body": [
+        "Define geological time and distinguish relative from absolute dating.",
+        "Draw a triangular rock-cycle diagram with weathering, burial, metamorphism, melting and cooling arrows.",
+        "Link each rock family to texture, landform, soil and resource implications.",
+        "Conclude with geological mapping as the bridge from Earth history to sustainable resource governance."
+      ],
+      "conclusion": "A high-scoring geography answer converts process into pattern, locates the pattern with examples, and closes with risk-sensitive or resource-sensitive planning."
+    },
+    "mainsExamples": [
+      "Deccan basalt for extrusive igneous rock and black-soil parent material.",
+      "Marble as metamorphosed limestone and quartzite as metamorphosed sandstone.",
+      "Gondwana basins for sedimentary coal occurrence."
+    ],
+    "prelimsFacts": [
+      "Eons are the largest standard divisions of geological time.",
+      "Intrusive igneous rocks generally cool slowly and develop coarser crystals.",
+      "Sedimentary rocks commonly preserve bedding and fossils.",
+      "Metamorphism changes mineralogy or texture without complete melting.",
+      "The rock cycle has multiple pathways rather than one fixed circular route.",
+      "Ore is an economically workable concentration; every mineral occurrence is not an ore."
+    ],
+    "revisionBox": [
+      {
+        "prompt": "What is the central process chain in Geological Time, Rocks and Mineral Formation?",
+        "answer": "Geological time orders Earth history into eons, eras, periods and epochs, while the rock cycle connects igneous crystallisation, sediment deposition and lithification, and metamorphic transformation. Mineral occurrence is controlled by parent material, temperature-pressure conditions, fluids, weathering and tectonic setting."
+      },
+      {
+        "prompt": "What is the fastest prelims elimination rule?",
+        "answer": "Do not equate mineral with ore."
+      },
+      {
+        "prompt": "Which example best anchors a mains answer?",
+        "answer": "Deccan basalt for extrusive igneous rock and black-soil parent material."
+      },
+      {
+        "prompt": "How should the conclusion move beyond description?",
+        "answer": "Conclude with geological mapping as the bridge from Earth history to sustainable resource governance."
+      }
+    ]
+  },
+  "story": "A landscape is a page in a very long archive. Its rocks record cooling, burial, pressure, uplift and erosion; its mineral belts record the conditions under which elements became concentrated. UPSC turns that archive into sequence and association questions.",
+  "core_concept": "Geological time orders Earth history into eons, eras, periods and epochs, while the rock cycle connects igneous crystallisation, sediment deposition and lithification, and metamorphic transformation. Mineral occurrence is controlled by parent material, temperature-pressure conditions, fluids, weathering and tectonic setting.",
+  "mnemonic": "C-D-T-U: Crystallise, Deposit, Transform, Uplift.",
+  "mindmap_json": {
+    "center": "Geological Time, Rocks and Mineral Formation",
+    "branches": [
+      {
+        "label": "Process",
+        "children": [
+          "Chronology: relative dating uses superposition, cross-cutting relations and fossils; absolute dating estimates numerical age through radioactive decay.",
+          "Igneous process: cooling rate, silica content and emplacement depth control texture and mineral composition."
+        ]
+      },
+      {
+        "label": "Pattern",
+        "children": [
+          "Sedimentary process: weathering, transport, deposition, compaction and cementation preserve strata and fossils.",
+          "Metamorphic process: heat, pressure and chemically active fluids alter rock without complete melting."
+        ]
+      },
+      {
+        "label": "Application",
+        "children": [
+          "Deccan basalt for extrusive igneous rock and black-soil parent material.",
+          "Marble as metamorphosed limestone and quartzite as metamorphosed sandstone.",
+          "Gondwana basins for sedimentary coal occurrence."
+        ]
+      },
+      {
+        "label": "Traps",
+        "children": [
+          "Do not equate mineral with ore.",
+          "Do not assume every crystalline rock is metamorphic; igneous rocks are crystalline too.",
+          "Do not treat the rock cycle as a one-direction sequence."
+        ]
+      }
+    ]
+  },
+  "key_facts": [
+    "Eons are the largest standard divisions of geological time.",
+    "Intrusive igneous rocks generally cool slowly and develop coarser crystals.",
+    "Sedimentary rocks commonly preserve bedding and fossils.",
+    "Metamorphism changes mineralogy or texture without complete melting.",
+    "The rock cycle has multiple pathways rather than one fixed circular route.",
+    "Ore is an economically workable concentration; every mineral occurrence is not an ore."
+  ],
+  "common_traps": [
+    "Do not equate mineral with ore.",
+    "Do not assume every crystalline rock is metamorphic; igneous rocks are crystalline too.",
+    "Do not treat the rock cycle as a one-direction sequence."
+  ],
+  "pyq_refs": [
+    {
+      "year": 2021,
+      "exam": "UPSC CSE Prelims",
+      "question": "PYQ pattern: statement and association testing within Geological Time, Rocks and Mineral Formation.",
+      "answer": "Resolve each statement through process, location and necessary conditions.",
+      "pattern_note": "PYQs repeatedly test rock-origin pairs, intrusive versus extrusive textures, fossil-bearing strata, geological sequence and mineral-region associations. Solve through formation conditions, not isolated lists."
+    },
+    {
+      "year": 2013,
+      "exam": "UPSC CSE Mains",
+      "question": "PYQ pattern: explain the process and spatial consequences of Geological Time, Rocks and Mineral Formation.",
+      "answer": "Use a labelled diagram, causal sequence, regional examples and a planning implication.",
+      "pattern_note": "Mains rewards mechanism plus spatial expression, not a catalogue of terms."
+    }
+  ],
+  "pyq_count": 9,
+  "last_asked": 2021,
+  "high_yield": true,
+  "read_time_mins": 13,
+  "difficulty": "Medium",
+  "status": "published",
+  "source_type": "uploaded-geography-static-pyq-secondary",
+  "version": 1,
+  "created_at": "2026-06-30T00:00:00+05:30",
+  "updated_at": "2026-06-30T00:00:00+05:30"
+}

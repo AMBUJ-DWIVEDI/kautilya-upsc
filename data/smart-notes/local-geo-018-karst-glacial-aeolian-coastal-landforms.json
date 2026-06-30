@@ -1,0 +1,153 @@
+{
+  "id": "local-geo-018",
+  "section": "Geography",
+  "category": "Physical Geography",
+  "topic": "Karst, Glacial, Aeolian and Coastal Landscapes",
+  "subtopic": "Diagnostic erosional and depositional landforms formed by groundwater, ice, wind and waves",
+  "slug": "geography-karst-glacial-aeolian-coastal-landforms",
+  "anatomy": "upsc12",
+  "content": {
+    "issueStory": "Landforms become easy when the aspirant stops memorising names and asks three questions: which agent acted, whether it eroded or deposited, and what material or structure allowed the form to develop.",
+    "coreConcept": "Karst, glacial, aeolian and coastal landscapes are process assemblages. Soluble rock favours groundwater dissolution; moving ice plucks and abrades; wind deflates, abrades and sorts; waves, currents and tides redistribute coastal sediment. Diagnostic forms encode those processes.",
+    "dimensions": [
+      "Karst: jointed limestone, carbonated water and underground drainage create sinkholes, caves and solution features.",
+      "Glacial erosion: plucking and abrasion produce cirques, aretes, horns, U-shaped valleys and roche moutonnee.",
+      "Glacial deposition: unsorted till and meltwater deposits create moraines, drumlins, eskers and outwash plains.",
+      "Aeolian erosion: deflation and abrasion form desert pavement, deflation hollows, yardangs and pedestal rocks.",
+      "Aeolian deposition: wind sorting and changing velocity build dunes and loess, with form linked to wind regime and sand supply.",
+      "Coastal systems: waves erode cliffs and platforms while longshore drift builds beaches, spits, bars and tombolos."
+    ],
+    "constitutionalLink": "Coastal Regulation Zone rules, glacier and aquifer protection, sand-mining controls and hazard-sensitive land use connect landform literacy with environmental duties under Articles 21 and 48A.",
+    "dataReport": "Primary uploaded sources: STATIC_02_Physical Geography.pdf landform sections and PYQ_02_Geography.pdf process-landform association questions. This note uses stable conceptual relationships and PYQ patterns; update event-specific data from current official sources before using it in a live mains answer.",
+    "caseStudy": "The Sundarbans coast demonstrates interaction among tides, river sediment, subsidence, cyclones and mangroves; it cannot be understood through a single-agent coastal model.",
+    "argumentsFor": [
+      "Diagnostic landforms reveal past climate and process regimes.",
+      "Coastal sediment-cell thinking improves erosion management.",
+      "Karst and glacier understanding supports water-resource protection."
+    ],
+    "argumentsAgainst": [
+      "Many landscapes are polygenetic and modified by more than one agent.",
+      "A landform name without orientation and material can mislead.",
+      "Hard coastal structures may protect one segment while starving another of sediment."
+    ],
+    "pyqLink": "PYQs frequently reverse-match agents and forms: cirque with glacier, yardang with wind, stalactite with cave deposition, and spit with longshore drift. Classify each as erosional or depositional before answering.",
+    "answerFramework": {
+      "intro": "Karst, Glacial, Aeolian and Coastal Landscapes is best understood as a spatial process in which origin, controlling conditions, resulting pattern and human significance must be connected.",
+      "body": [
+        "Introduce the agent-process-material diagnostic method.",
+        "Organise landforms into four agents and erosion/deposition pairs.",
+        "Draw one compact labelled sketch for each landscape family.",
+        "Connect inherited forms with climate evidence, water resources and hazard-sensitive planning."
+      ],
+      "conclusion": "A high-scoring geography answer converts process into pattern, locates the pattern with examples, and closes with risk-sensitive or resource-sensitive planning."
+    },
+    "mainsExamples": [
+      "Limestone caves and sinkholes in karst terrain.",
+      "Himalayan moraines and U-shaped glacial valleys.",
+      "Spits and lagoons along depositional coasts."
+    ],
+    "prelimsFacts": [
+      "Stalactites hang from cave roofs; stalagmites grow upward from floors.",
+      "Glacial till is generally unsorted.",
+      "Loess is wind-deposited silt.",
+      "Barchans commonly form under a dominant wind with limited sand.",
+      "A spit remains attached to land at one end.",
+      "Longshore drift moves sediment obliquely along a coast."
+    ],
+    "revisionBox": [
+      {
+        "prompt": "What is the central process chain in Karst, Glacial, Aeolian and Coastal Landscapes?",
+        "answer": "Karst, glacial, aeolian and coastal landscapes are process assemblages. Soluble rock favours groundwater dissolution; moving ice plucks and abrades; wind deflates, abrades and sorts; waves, currents and tides redistribute coastal sediment. Diagnostic forms encode those processes."
+      },
+      {
+        "prompt": "What is the fastest prelims elimination rule?",
+        "answer": "Do not classify every cave deposit as erosional."
+      },
+      {
+        "prompt": "Which example best anchors a mains answer?",
+        "answer": "Limestone caves and sinkholes in karst terrain."
+      },
+      {
+        "prompt": "How should the conclusion move beyond description?",
+        "answer": "Connect inherited forms with climate evidence, water resources and hazard-sensitive planning."
+      }
+    ]
+  },
+  "story": "Landforms become easy when the aspirant stops memorising names and asks three questions: which agent acted, whether it eroded or deposited, and what material or structure allowed the form to develop.",
+  "core_concept": "Karst, glacial, aeolian and coastal landscapes are process assemblages. Soluble rock favours groundwater dissolution; moving ice plucks and abrades; wind deflates, abrades and sorts; waves, currents and tides redistribute coastal sediment. Diagnostic forms encode those processes.",
+  "mnemonic": "A-M-F: Agent, Material, Form.",
+  "mindmap_json": {
+    "center": "Karst, Glacial, Aeolian and Coastal Landscapes",
+    "branches": [
+      {
+        "label": "Process",
+        "children": [
+          "Karst: jointed limestone, carbonated water and underground drainage create sinkholes, caves and solution features.",
+          "Glacial erosion: plucking and abrasion produce cirques, aretes, horns, U-shaped valleys and roche moutonnee."
+        ]
+      },
+      {
+        "label": "Pattern",
+        "children": [
+          "Glacial deposition: unsorted till and meltwater deposits create moraines, drumlins, eskers and outwash plains.",
+          "Aeolian erosion: deflation and abrasion form desert pavement, deflation hollows, yardangs and pedestal rocks."
+        ]
+      },
+      {
+        "label": "Application",
+        "children": [
+          "Limestone caves and sinkholes in karst terrain.",
+          "Himalayan moraines and U-shaped glacial valleys.",
+          "Spits and lagoons along depositional coasts."
+        ]
+      },
+      {
+        "label": "Traps",
+        "children": [
+          "Do not classify every cave deposit as erosional.",
+          "Do not confuse a U-shaped glacial valley with a V-shaped youthful river valley.",
+          "Do not infer dune type without wind direction, vegetation and sand-supply context."
+        ]
+      }
+    ]
+  },
+  "key_facts": [
+    "Stalactites hang from cave roofs; stalagmites grow upward from floors.",
+    "Glacial till is generally unsorted.",
+    "Loess is wind-deposited silt.",
+    "Barchans commonly form under a dominant wind with limited sand.",
+    "A spit remains attached to land at one end.",
+    "Longshore drift moves sediment obliquely along a coast."
+  ],
+  "common_traps": [
+    "Do not classify every cave deposit as erosional.",
+    "Do not confuse a U-shaped glacial valley with a V-shaped youthful river valley.",
+    "Do not infer dune type without wind direction, vegetation and sand-supply context."
+  ],
+  "pyq_refs": [
+    {
+      "year": 2021,
+      "exam": "UPSC CSE Prelims",
+      "question": "PYQ pattern: statement and association testing within Karst, Glacial, Aeolian and Coastal Landscapes.",
+      "answer": "Resolve each statement through process, location and necessary conditions.",
+      "pattern_note": "PYQs frequently reverse-match agents and forms: cirque with glacier, yardang with wind, stalactite with cave deposition, and spit with longshore drift. Classify each as erosional or depositional before answering."
+    },
+    {
+      "year": 2013,
+      "exam": "UPSC CSE Mains",
+      "question": "PYQ pattern: explain the process and spatial consequences of Karst, Glacial, Aeolian and Coastal Landscapes.",
+      "answer": "Use a labelled diagram, causal sequence, regional examples and a planning implication.",
+      "pattern_note": "Mains rewards mechanism plus spatial expression, not a catalogue of terms."
+    }
+  ],
+  "pyq_count": 9,
+  "last_asked": 2021,
+  "high_yield": true,
+  "read_time_mins": 13,
+  "difficulty": "Medium",
+  "status": "published",
+  "source_type": "uploaded-geography-static-pyq-secondary",
+  "version": 1,
+  "created_at": "2026-06-30T00:00:00+05:30",
+  "updated_at": "2026-06-30T00:00:00+05:30"
+}

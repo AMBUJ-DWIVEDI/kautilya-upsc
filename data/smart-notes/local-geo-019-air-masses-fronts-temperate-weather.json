@@ -1,0 +1,153 @@
+{
+  "id": "local-geo-019",
+  "section": "Geography",
+  "category": "Climatology",
+  "topic": "Air Masses, Fronts and Temperate Weather Systems",
+  "subtopic": "Source-region properties, air-mass modification, fronts and extratropical cyclone life cycle",
+  "slug": "geography-air-masses-fronts-temperate-weather",
+  "anatomy": "upsc12",
+  "content": {
+    "issueStory": "Mid-latitude weather changes rapidly because contrasting air masses repeatedly meet, rise, rotate and occlude. A front is therefore not a line on a map alone; it is a sloping transition zone with distinct cloud and rainfall behaviour.",
+    "coreConcept": "An air mass acquires temperature and moisture traits over a broad source region. When contrasting air masses meet, frontal uplift and wave development may produce an extratropical cyclone. Warm, cold, stationary and occluded fronts differ in slope, movement and weather sequence.",
+    "dimensions": [
+      "Source region: continental or maritime origin and tropical, polar or Arctic latitude establish initial properties.",
+      "Modification: passage over warmer, colder, wetter, drier or rougher surfaces changes stability and moisture.",
+      "Warm front: gentle overrunning commonly produces layered cloud and widespread, relatively steady precipitation.",
+      "Cold front: steeper undercutting promotes rapid uplift, narrower cloud bands and potentially intense showers.",
+      "Cyclogenesis: upper-air divergence, temperature contrast and a frontal wave deepen rotating low pressure.",
+      "Occlusion and decay: the faster cold front catches the warm front, lifting warm air away from the surface."
+    ],
+    "constitutionalLink": "Weather forecasting, aviation safety, crop advisories and disaster warning support protection of life and livelihood under Article 21 and public disaster-management responsibilities.",
+    "dataReport": "Primary uploaded sources: STATIC_02_Physical Geography.pdf atmospheric circulation chapter sections on air masses and temperate cyclones; PYQ climatology patterns. This note uses stable conceptual relationships and PYQ patterns; update event-specific data from current official sources before using it in a live mains answer.",
+    "caseStudy": "Western disturbances are extratropical systems embedded in westerly circulation; they provide useful winter precipitation but can also bring hail, heavy snow and crop damage.",
+    "argumentsFor": [
+      "Air-mass analysis explains weather sequence rather than isolated daily conditions.",
+      "Frontal forecasts support aviation, farming and emergency planning.",
+      "Extratropical systems redistribute heat poleward."
+    ],
+    "argumentsAgainst": [
+      "Source labels describe ideal types that change during travel.",
+      "Not every rain band is a classical front.",
+      "Surface charts alone may miss crucial upper-air forcing."
+    ],
+    "pyqLink": "PYQs test source-region classification, warm versus cold-front weather, tropical versus temperate cyclone structure and western disturbances. Use thermal contrast, core type, fronts and energy source as discriminators.",
+    "answerFramework": {
+      "intro": "Air Masses, Fronts and Temperate Weather Systems is best understood as a spatial process in which origin, controlling conditions, resulting pattern and human significance must be connected.",
+      "body": [
+        "Define air masses through source-region temperature and moisture.",
+        "Compare warm and cold fronts with cross-sectional sketches.",
+        "Trace the polar-front cyclone from wave formation to occlusion.",
+        "Apply the model to western disturbances and forecast-based risk reduction."
+      ],
+      "conclusion": "A high-scoring geography answer converts process into pattern, locates the pattern with examples, and closes with risk-sensitive or resource-sensitive planning."
+    },
+    "mainsExamples": [
+      "Maritime tropical air as warm and moisture-rich.",
+      "Continental polar air as cold and relatively dry.",
+      "Western disturbances affecting northwestern India and the Himalaya."
+    ],
+    "prelimsFacts": [
+      "Fronts are transition zones rather than infinitely thin surfaces.",
+      "Warm fronts generally have gentler slopes than cold fronts.",
+      "Extratropical cyclones commonly possess warm and cold fronts.",
+      "Air masses are modified as they leave their source regions.",
+      "Occlusion occurs when a cold front overtakes a warm front.",
+      "The Coriolis effect contributes to cyclonic rotation away from the equator."
+    ],
+    "revisionBox": [
+      {
+        "prompt": "What is the central process chain in Air Masses, Fronts and Temperate Weather Systems?",
+        "answer": "An air mass acquires temperature and moisture traits over a broad source region. When contrasting air masses meet, frontal uplift and wave development may produce an extratropical cyclone. Warm, cold, stationary and occluded fronts differ in slope, movement and weather sequence."
+      },
+      {
+        "prompt": "What is the fastest prelims elimination rule?",
+        "answer": "Do not describe an extratropical cyclone as a warm-core, frontless system."
+      },
+      {
+        "prompt": "Which example best anchors a mains answer?",
+        "answer": "Maritime tropical air as warm and moisture-rich."
+      },
+      {
+        "prompt": "How should the conclusion move beyond description?",
+        "answer": "Apply the model to western disturbances and forecast-based risk reduction."
+      }
+    ]
+  },
+  "story": "Mid-latitude weather changes rapidly because contrasting air masses repeatedly meet, rise, rotate and occlude. A front is therefore not a line on a map alone; it is a sloping transition zone with distinct cloud and rainfall behaviour.",
+  "core_concept": "An air mass acquires temperature and moisture traits over a broad source region. When contrasting air masses meet, frontal uplift and wave development may produce an extratropical cyclone. Warm, cold, stationary and occluded fronts differ in slope, movement and weather sequence.",
+  "mnemonic": "S-M-F-L: Source, Modify, Front, Life-cycle.",
+  "mindmap_json": {
+    "center": "Air Masses, Fronts and Temperate Weather Systems",
+    "branches": [
+      {
+        "label": "Process",
+        "children": [
+          "Source region: continental or maritime origin and tropical, polar or Arctic latitude establish initial properties.",
+          "Modification: passage over warmer, colder, wetter, drier or rougher surfaces changes stability and moisture."
+        ]
+      },
+      {
+        "label": "Pattern",
+        "children": [
+          "Warm front: gentle overrunning commonly produces layered cloud and widespread, relatively steady precipitation.",
+          "Cold front: steeper undercutting promotes rapid uplift, narrower cloud bands and potentially intense showers."
+        ]
+      },
+      {
+        "label": "Application",
+        "children": [
+          "Maritime tropical air as warm and moisture-rich.",
+          "Continental polar air as cold and relatively dry.",
+          "Western disturbances affecting northwestern India and the Himalaya."
+        ]
+      },
+      {
+        "label": "Traps",
+        "children": [
+          "Do not describe an extratropical cyclone as a warm-core, frontless system.",
+          "Do not assume maritime air is always warm.",
+          "Do not infer rainfall intensity from front name alone without stability and moisture."
+        ]
+      }
+    ]
+  },
+  "key_facts": [
+    "Fronts are transition zones rather than infinitely thin surfaces.",
+    "Warm fronts generally have gentler slopes than cold fronts.",
+    "Extratropical cyclones commonly possess warm and cold fronts.",
+    "Air masses are modified as they leave their source regions.",
+    "Occlusion occurs when a cold front overtakes a warm front.",
+    "The Coriolis effect contributes to cyclonic rotation away from the equator."
+  ],
+  "common_traps": [
+    "Do not describe an extratropical cyclone as a warm-core, frontless system.",
+    "Do not assume maritime air is always warm.",
+    "Do not infer rainfall intensity from front name alone without stability and moisture."
+  ],
+  "pyq_refs": [
+    {
+      "year": 2021,
+      "exam": "UPSC CSE Prelims",
+      "question": "PYQ pattern: statement and association testing within Air Masses, Fronts and Temperate Weather Systems.",
+      "answer": "Resolve each statement through process, location and necessary conditions.",
+      "pattern_note": "PYQs test source-region classification, warm versus cold-front weather, tropical versus temperate cyclone structure and western disturbances. Use thermal contrast, core type, fronts and energy source as discriminators."
+    },
+    {
+      "year": 2013,
+      "exam": "UPSC CSE Mains",
+      "question": "PYQ pattern: explain the process and spatial consequences of Air Masses, Fronts and Temperate Weather Systems.",
+      "answer": "Use a labelled diagram, causal sequence, regional examples and a planning implication.",
+      "pattern_note": "Mains rewards mechanism plus spatial expression, not a catalogue of terms."
+    }
+  ],
+  "pyq_count": 9,
+  "last_asked": 2021,
+  "high_yield": true,
+  "read_time_mins": 13,
+  "difficulty": "Hard",
+  "status": "published",
+  "source_type": "uploaded-geography-static-pyq-secondary",
+  "version": 1,
+  "created_at": "2026-06-30T00:00:00+05:30",
+  "updated_at": "2026-06-30T00:00:00+05:30"
+}

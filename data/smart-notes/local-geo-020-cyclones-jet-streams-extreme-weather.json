@@ -1,0 +1,153 @@
+{
+  "id": "local-geo-020",
+  "section": "Geography",
+  "category": "Climatology",
+  "topic": "Tropical Cyclones, Jet Streams and Extreme Weather",
+  "subtopic": "Cyclone genesis and structure, upper-air steering, jet dynamics and compound extremes",
+  "slug": "geography-cyclones-jet-streams-extreme-weather",
+  "anatomy": "upsc12",
+  "content": {
+    "issueStory": "A tropical cyclone is a vertically organised heat engine, but it does not operate alone. Sea conditions provide energy, atmospheric moisture and instability sustain convection, wind shear can disrupt it, and upper-level circulation helps ventilate and steer the system.",
+    "coreConcept": "Tropical cyclones develop over sufficiently warm ocean water where rotation, moisture, instability, low vertical wind shear and a pre-existing disturbance combine. Jet streams are narrow upper-tropospheric wind maxima that steer weather systems and influence divergence, monsoon transitions and extreme-event persistence.",
+    "dimensions": [
+      "Genesis: warm deep water, adequate Coriolis force, high humidity, instability, low shear and initial vorticity must align.",
+      "Structure: eye, eyewall, spiral rainbands, warm core and upper-level outflow create distinct wind and rain zones.",
+      "Intensification: latent-heat release lowers central pressure while ocean heat content and ventilation sustain feedback.",
+      "Landfall hazard: wind, storm surge, extreme rain, river flooding and infrastructure failure can combine.",
+      "Jet dynamics: subtropical and polar-front jets respond to horizontal temperature gradients and planetary-wave patterns.",
+      "Compound extremes: blocking, stalled systems, saturated catchments or concurrent heat and drought magnify impacts."
+    ],
+    "constitutionalLink": "Cyclone shelters, impact-based forecasts, coastal zoning, resilient power and telecom networks, evacuation protocols and the Disaster Management Act, 2005 operationalise the right to life.",
+    "dataReport": "Primary uploaded sources: STATIC_02_Physical Geography.pdf jet stream and cyclone sections, STATIC_03 Indian Geography hazard chapter, and PYQ climatology questions. This note uses stable conceptual relationships and PYQ patterns; update event-specific data from current official sources before using it in a live mains answer.",
+    "caseStudy": "Odisha’s shift toward mass evacuation, shelters and coordinated warning demonstrates how mortality can fall even when severe cyclone exposure remains high.",
+    "argumentsFor": [
+      "Satellite and ocean observations improve track and intensity guidance.",
+      "Impact-based warnings convert meteorology into local action.",
+      "Jet analysis improves medium-range interpretation of weather-system movement."
+    ],
+    "argumentsAgainst": [
+      "Rapid intensification near coast can compress preparation time.",
+      "A forecast track line does not represent the full hazard swath.",
+      "Cyclone category based on wind alone does not capture rainfall and surge risk."
+    ],
+    "pyqLink": "PYQs test cyclone prerequisites, eye-eyewall structure, basin differences, jet-stream location and monsoon or western-disturbance links. Eliminate options that ignore Coriolis force, wind shear or warm-core structure.",
+    "answerFramework": {
+      "intro": "Tropical Cyclones, Jet Streams and Extreme Weather is best understood as a spatial process in which origin, controlling conditions, resulting pattern and human significance must be connected.",
+      "body": [
+        "Present the cyclone as an ocean-atmosphere heat engine with six genesis conditions.",
+        "Draw a plan and vertical section showing eye, eyewall, rainbands and outflow.",
+        "Explain how jets steer systems and shape regional extremes.",
+        "Shift from hazard description to multi-hazard, last-mile resilience."
+      ],
+      "conclusion": "A high-scoring geography answer converts process into pattern, locates the pattern with examples, and closes with risk-sensitive or resource-sensitive planning."
+    },
+    "mainsExamples": [
+      "Bay of Bengal storm surge risk from shallow bathymetry and funnel-shaped coasts.",
+      "Subtropical westerly jet and winter weather over northern India.",
+      "Rapid intensification episodes over high-ocean-heat-content waters."
+    ],
+    "prelimsFacts": [
+      "Tropical cyclones rarely form very close to the equator because Coriolis force is weak.",
+      "The eyewall usually contains the strongest winds and deepest convection.",
+      "Storm surge is abnormal sea-level rise driven mainly by wind stress and low pressure.",
+      "High vertical wind shear generally disrupts tropical cyclone organisation.",
+      "Jet streams occur near the tropopause and broadly flow west to east, though they meander.",
+      "Landfall weakens the ocean-energy supply but may not end flood risk."
+    ],
+    "revisionBox": [
+      {
+        "prompt": "What is the central process chain in Tropical Cyclones, Jet Streams and Extreme Weather?",
+        "answer": "Tropical cyclones develop over sufficiently warm ocean water where rotation, moisture, instability, low vertical wind shear and a pre-existing disturbance combine. Jet streams are narrow upper-tropospheric wind maxima that steer weather systems and influence divergence, monsoon transitions and extreme-event persistence."
+      },
+      {
+        "prompt": "What is the fastest prelims elimination rule?",
+        "answer": "Do not call the eye the zone of strongest surface wind."
+      },
+      {
+        "prompt": "Which example best anchors a mains answer?",
+        "answer": "Bay of Bengal storm surge risk from shallow bathymetry and funnel-shaped coasts."
+      },
+      {
+        "prompt": "How should the conclusion move beyond description?",
+        "answer": "Shift from hazard description to multi-hazard, last-mile resilience."
+      }
+    ]
+  },
+  "story": "A tropical cyclone is a vertically organised heat engine, but it does not operate alone. Sea conditions provide energy, atmospheric moisture and instability sustain convection, wind shear can disrupt it, and upper-level circulation helps ventilate and steer the system.",
+  "core_concept": "Tropical cyclones develop over sufficiently warm ocean water where rotation, moisture, instability, low vertical wind shear and a pre-existing disturbance combine. Jet streams are narrow upper-tropospheric wind maxima that steer weather systems and influence divergence, monsoon transitions and extreme-event persistence.",
+  "mnemonic": "W-C-M-S-O: Warm water, Coriolis, Moisture, Shear-low, Outflow.",
+  "mindmap_json": {
+    "center": "Tropical Cyclones, Jet Streams and Extreme Weather",
+    "branches": [
+      {
+        "label": "Process",
+        "children": [
+          "Genesis: warm deep water, adequate Coriolis force, high humidity, instability, low shear and initial vorticity must align.",
+          "Structure: eye, eyewall, spiral rainbands, warm core and upper-level outflow create distinct wind and rain zones."
+        ]
+      },
+      {
+        "label": "Pattern",
+        "children": [
+          "Intensification: latent-heat release lowers central pressure while ocean heat content and ventilation sustain feedback.",
+          "Landfall hazard: wind, storm surge, extreme rain, river flooding and infrastructure failure can combine."
+        ]
+      },
+      {
+        "label": "Application",
+        "children": [
+          "Bay of Bengal storm surge risk from shallow bathymetry and funnel-shaped coasts.",
+          "Subtropical westerly jet and winter weather over northern India.",
+          "Rapid intensification episodes over high-ocean-heat-content waters."
+        ]
+      },
+      {
+        "label": "Traps",
+        "children": [
+          "Do not call the eye the zone of strongest surface wind.",
+          "Do not use sea-surface temperature as the only genesis condition.",
+          "Do not equate cyclone wind category with total disaster severity."
+        ]
+      }
+    ]
+  },
+  "key_facts": [
+    "Tropical cyclones rarely form very close to the equator because Coriolis force is weak.",
+    "The eyewall usually contains the strongest winds and deepest convection.",
+    "Storm surge is abnormal sea-level rise driven mainly by wind stress and low pressure.",
+    "High vertical wind shear generally disrupts tropical cyclone organisation.",
+    "Jet streams occur near the tropopause and broadly flow west to east, though they meander.",
+    "Landfall weakens the ocean-energy supply but may not end flood risk."
+  ],
+  "common_traps": [
+    "Do not call the eye the zone of strongest surface wind.",
+    "Do not use sea-surface temperature as the only genesis condition.",
+    "Do not equate cyclone wind category with total disaster severity."
+  ],
+  "pyq_refs": [
+    {
+      "year": 2021,
+      "exam": "UPSC CSE Prelims",
+      "question": "PYQ pattern: statement and association testing within Tropical Cyclones, Jet Streams and Extreme Weather.",
+      "answer": "Resolve each statement through process, location and necessary conditions.",
+      "pattern_note": "PYQs test cyclone prerequisites, eye-eyewall structure, basin differences, jet-stream location and monsoon or western-disturbance links. Eliminate options that ignore Coriolis force, wind shear or warm-core structure."
+    },
+    {
+      "year": 2013,
+      "exam": "UPSC CSE Mains",
+      "question": "PYQ pattern: explain the process and spatial consequences of Tropical Cyclones, Jet Streams and Extreme Weather.",
+      "answer": "Use a labelled diagram, causal sequence, regional examples and a planning implication.",
+      "pattern_note": "Mains rewards mechanism plus spatial expression, not a catalogue of terms."
+    }
+  ],
+  "pyq_count": 9,
+  "last_asked": 2021,
+  "high_yield": true,
+  "read_time_mins": 13,
+  "difficulty": "Hard",
+  "status": "published",
+  "source_type": "uploaded-geography-static-pyq-secondary",
+  "version": 1,
+  "created_at": "2026-06-30T00:00:00+05:30",
+  "updated_at": "2026-06-30T00:00:00+05:30"
+}

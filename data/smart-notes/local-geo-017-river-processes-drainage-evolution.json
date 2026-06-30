@@ -1,0 +1,153 @@
+{
+  "id": "local-geo-017",
+  "section": "Geography",
+  "category": "Physical Geography",
+  "topic": "River Processes, Drainage Evolution and Fluvial Landforms",
+  "subtopic": "Flow energy, erosion, transport, deposition, channel patterns and drainage adjustment",
+  "slug": "geography-river-processes-drainage-evolution",
+  "anatomy": "upsc12",
+  "content": {
+    "issueStory": "A river is both a moving mass of water and a moving boundary between erosion and deposition. Its valley, channel and floodplain record changing discharge, gradient, sediment load, base level and tectonic history.",
+    "coreConcept": "Fluvial systems convert potential energy into erosion, transport and deposition. Channel form adjusts to discharge, gradient, sediment calibre and bank resistance, while drainage patterns and anomalies reveal lithology, structure, uplift, capture and inherited relief.",
+    "dimensions": [
+      "Erosion: hydraulic action, abrasion, attrition and solution deepen or widen channels according to energy and load.",
+      "Transport: traction, saltation, suspension and solution move different particle sizes under changing competence.",
+      "Deposition: falling velocity or excess load builds bars, floodplains, levees, fans and deltas.",
+      "Channel form: straight, meandering, braided and anastomosing patterns reflect slope, sediment and bank cohesion.",
+      "Drainage evolution: antecedent, superimposed, consequent and subsequent streams record landscape history.",
+      "Base-level change: uplift or sea-level fall can rejuvenate a river, producing incision, terraces and knickpoints."
+    ],
+    "constitutionalLink": "Floodplain zoning, basin planning, wetland protection, dam operation and interstate river coordination connect river geomorphology to Articles 21, 48A and 262.",
+    "dataReport": "Primary uploaded sources: STATIC_02_Physical Geography.pdf fluvial landform material, STATIC_03 Indian Geography drainage sections, and PYQ drainage/landform patterns. This note uses stable conceptual relationships and PYQ patterns; update event-specific data from current official sources before using it in a live mains answer.",
+    "caseStudy": "The Kosi’s high sediment load, megafan setting and channel migration demonstrate why embankment-only thinking cannot replace basin-scale sediment and floodplain management.",
+    "argumentsFor": [
+      "River-process knowledge improves floodplain and bridge planning.",
+      "Drainage anomalies reveal tectonic and structural history.",
+      "Healthy floodplains store water, sediment and nutrients."
+    ],
+    "argumentsAgainst": [
+      "Hard channelisation can transfer flood risk downstream.",
+      "A river’s equilibrium is dynamic rather than permanently stable.",
+      "Dams interrupt sediment continuity and alter downstream morphology."
+    ],
+    "pyqLink": "PYQs test landform-process pairs, drainage patterns, river stages, meander and oxbow development, delta conditions, and antecedent versus superimposed drainage. Trace water energy and sediment before naming the form.",
+    "answerFramework": {
+      "intro": "River Processes, Drainage Evolution and Fluvial Landforms is best understood as a spatial process in which origin, controlling conditions, resulting pattern and human significance must be connected.",
+      "body": [
+        "Frame the river as a connected source-transfer-sink system.",
+        "Explain erosion, transport and deposition along changing gradient.",
+        "Add channel pattern and drainage evolution with labelled sketches.",
+        "Conclude with basin and floodplain management that respects sediment continuity."
+      ],
+      "conclusion": "A high-scoring geography answer converts process into pattern, locates the pattern with examples, and closes with risk-sensitive or resource-sensitive planning."
+    },
+    "mainsExamples": [
+      "Ganga-Brahmaputra delta for high sediment supply and distributary processes.",
+      "Narmada rift valley for structurally controlled drainage.",
+      "Incised meanders as evidence of rejuvenation after uplift or base-level fall."
+    ],
+    "prelimsFacts": [
+      "River competence is the largest particle a flow can move.",
+      "Capacity is the total sediment load a flow can carry.",
+      "Braiding is favoured by variable discharge, abundant coarse load and weak banks.",
+      "Natural levees form from rapid deposition beside a channel during floods.",
+      "An antecedent river maintains course while uplift develops around it.",
+      "A delta requires sediment supply to exceed removal by waves, tides and currents."
+    ],
+    "revisionBox": [
+      {
+        "prompt": "What is the central process chain in River Processes, Drainage Evolution and Fluvial Landforms?",
+        "answer": "Fluvial systems convert potential energy into erosion, transport and deposition. Channel form adjusts to discharge, gradient, sediment calibre and bank resistance, while drainage patterns and anomalies reveal lithology, structure, uplift, capture and inherited relief."
+      },
+      {
+        "prompt": "What is the fastest prelims elimination rule?",
+        "answer": "Do not equate high discharge automatically with a meandering channel."
+      },
+      {
+        "prompt": "Which example best anchors a mains answer?",
+        "answer": "Ganga-Brahmaputra delta for high sediment supply and distributary processes."
+      },
+      {
+        "prompt": "How should the conclusion move beyond description?",
+        "answer": "Conclude with basin and floodplain management that respects sediment continuity."
+      }
+    ]
+  },
+  "story": "A river is both a moving mass of water and a moving boundary between erosion and deposition. Its valley, channel and floodplain record changing discharge, gradient, sediment load, base level and tectonic history.",
+  "core_concept": "Fluvial systems convert potential energy into erosion, transport and deposition. Channel form adjusts to discharge, gradient, sediment calibre and bank resistance, while drainage patterns and anomalies reveal lithology, structure, uplift, capture and inherited relief.",
+  "mnemonic": "E-T-D-A: Erode, Transport, Deposit, Adjust.",
+  "mindmap_json": {
+    "center": "River Processes, Drainage Evolution and Fluvial Landforms",
+    "branches": [
+      {
+        "label": "Process",
+        "children": [
+          "Erosion: hydraulic action, abrasion, attrition and solution deepen or widen channels according to energy and load.",
+          "Transport: traction, saltation, suspension and solution move different particle sizes under changing competence."
+        ]
+      },
+      {
+        "label": "Pattern",
+        "children": [
+          "Deposition: falling velocity or excess load builds bars, floodplains, levees, fans and deltas.",
+          "Channel form: straight, meandering, braided and anastomosing patterns reflect slope, sediment and bank cohesion."
+        ]
+      },
+      {
+        "label": "Application",
+        "children": [
+          "Ganga-Brahmaputra delta for high sediment supply and distributary processes.",
+          "Narmada rift valley for structurally controlled drainage.",
+          "Incised meanders as evidence of rejuvenation after uplift or base-level fall."
+        ]
+      },
+      {
+        "label": "Traps",
+        "children": [
+          "Do not equate high discharge automatically with a meandering channel.",
+          "Do not confuse capacity with competence.",
+          "Do not treat every cross-cutting river as proof of antecedence without geological history."
+        ]
+      }
+    ]
+  },
+  "key_facts": [
+    "River competence is the largest particle a flow can move.",
+    "Capacity is the total sediment load a flow can carry.",
+    "Braiding is favoured by variable discharge, abundant coarse load and weak banks.",
+    "Natural levees form from rapid deposition beside a channel during floods.",
+    "An antecedent river maintains course while uplift develops around it.",
+    "A delta requires sediment supply to exceed removal by waves, tides and currents."
+  ],
+  "common_traps": [
+    "Do not equate high discharge automatically with a meandering channel.",
+    "Do not confuse capacity with competence.",
+    "Do not treat every cross-cutting river as proof of antecedence without geological history."
+  ],
+  "pyq_refs": [
+    {
+      "year": 2021,
+      "exam": "UPSC CSE Prelims",
+      "question": "PYQ pattern: statement and association testing within River Processes, Drainage Evolution and Fluvial Landforms.",
+      "answer": "Resolve each statement through process, location and necessary conditions.",
+      "pattern_note": "PYQs test landform-process pairs, drainage patterns, river stages, meander and oxbow development, delta conditions, and antecedent versus superimposed drainage. Trace water energy and sediment before naming the form."
+    },
+    {
+      "year": 2013,
+      "exam": "UPSC CSE Mains",
+      "question": "PYQ pattern: explain the process and spatial consequences of River Processes, Drainage Evolution and Fluvial Landforms.",
+      "answer": "Use a labelled diagram, causal sequence, regional examples and a planning implication.",
+      "pattern_note": "Mains rewards mechanism plus spatial expression, not a catalogue of terms."
+    }
+  ],
+  "pyq_count": 9,
+  "last_asked": 2021,
+  "high_yield": true,
+  "read_time_mins": 13,
+  "difficulty": "Hard",
+  "status": "published",
+  "source_type": "uploaded-geography-static-pyq-secondary",
+  "version": 1,
+  "created_at": "2026-06-30T00:00:00+05:30",
+  "updated_at": "2026-06-30T00:00:00+05:30"
+}
