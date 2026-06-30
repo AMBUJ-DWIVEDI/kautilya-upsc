@@ -1,0 +1,152 @@
+{
+  "id": "local-eco-038",
+  "section": "Economy",
+  "category": "Indian Economy",
+  "topic": "LPG Reforms, Privatisation, Disinvestment and the Service Economy",
+  "subtopic": "1991 reform channels, competition, ownership change, regulation, services-led growth and structural transformation",
+  "slug": "economy-lpg-privatisation-disinvestment-services",
+  "anatomy": "upsc12",
+  "content": {
+    "issueStory": "Liberalisation reduces entry and operating controls; privatisation changes ownership or control; globalisation deepens cross-border integration. They can reinforce one another, but they are not interchangeable words.",
+    "coreConcept": "The 1991 reform programme responded to macroeconomic crisis and structural inefficiency through stabilisation and changes in industrial, trade, exchange and financial policy. Disinvestment sells a government stake; privatisation implies transfer of control. Services-led growth raises output but does not automatically create broad formal employment.",
+    "dimensions": [
+      "Stabilisation: fiscal, monetary and external measures address immediate imbalance.",
+      "Liberalisation: licensing, trade and financial controls are reduced or redesigned to expand competition.",
+      "Privatisation and disinvestment: ownership, control, proceeds, governance and market structure must be distinguished.",
+      "Globalisation: trade, capital, technology and service links integrate domestic activity with world markets.",
+      "Service economy: IT, finance, communications, transport, tourism, health and education differ in tradability and skill intensity.",
+      "Structural transformation: productivity, employment, manufacturing links, urbanisation and social protection determine inclusiveness."
+    ],
+    "constitutionalLink": "Articles 38 and 39, competition law, sector regulators, public-enterprise policy and parliamentary control of public assets shape reform.",
+    "dataReport": "Uploaded source basis: STATIC_01_Economy.pdf LPG, public-enterprise and service-sector chapters plus PYQ reform patterns. Refresh rates, targets, weights, thresholds and year-specific figures from official sources: DIPAM disinvestment documents, DPIIT policy, sector regulators, MoSPI service data and latest Economic Survey. Stable mechanisms belong in this note; current values must be dated in an answer.",
+    "caseStudy": "Telecommunications reform shows how entry and competition can expand access, while spectrum design, market concentration, consumer protection and financial health remain regulatory concerns.",
+    "argumentsFor": [
+      "Competition can improve choice and productivity.",
+      "Private capital can support expansion and innovation.",
+      "Tradable services earn foreign exchange."
+    ],
+    "argumentsAgainst": [
+      "Weak regulation can replace public monopoly with private concentration.",
+      "Disinvestment proceeds are one-time receipts.",
+      "Skill-intensive services may not absorb low-skilled labour at scale."
+    ],
+    "pyqLink": "PYQs test reform chronology, liberalisation versus privatisation, disinvestment and service-sector effects. Identify whether the policy changes entry, ownership, trade or regulation.",
+    "answerFramework": {
+      "intro": "LPG Reforms, Privatisation, Disinvestment and the Service Economy should be introduced through its economic identity or causal mechanism before moving to Indian institutions and policy trade-offs.",
+      "body": [
+        "Separate stabilisation from structural reform.",
+        "Define liberalisation, privatisation, disinvestment and globalisation.",
+        "Assess competition, efficiency, fiscal and distribution effects.",
+        "Conclude with strong regulation, worker transition and manufacturing-service linkages."
+      ],
+      "conclusion": "A high-scoring Economy answer keeps the accounting correct, traces transmission, identifies winners and losers, and separates stable principles from changing policy values."
+    },
+    "mainsExamples": [
+      "Industrial delicensing reducing entry controls.",
+      "Minority stake sale without transfer of management control.",
+      "IT-enabled services generating export earnings."
+    ],
+    "prelimsFacts": [
+      "Liberalisation does not necessarily change ownership.",
+      "Disinvestment can occur without privatisation.",
+      "Privatisation implies transfer of control.",
+      "Services include both high- and low-productivity activities.",
+      "Disinvestment is a non-debt capital receipt for government.",
+      "Competition policy remains necessary after deregulation."
+    ],
+    "revisionBox": [
+      {
+        "prompt": "What is the central mechanism in LPG Reforms, Privatisation, Disinvestment and the Service Economy?",
+        "answer": "The 1991 reform programme responded to macroeconomic crisis and structural inefficiency through stabilisation and changes in industrial, trade, exchange and financial policy. Disinvestment sells a government stake; privatisation implies transfer of control. Services-led growth raises output but does not automatically create broad formal employment."
+      },
+      {
+        "prompt": "What is the fastest prelims elimination rule?",
+        "answer": "Do not use liberalisation and privatisation as synonyms."
+      },
+      {
+        "prompt": "Which Indian example best anchors a mains answer?",
+        "answer": "Industrial delicensing reducing entry controls."
+      },
+      {
+        "prompt": "Which official source should refresh changing figures?",
+        "answer": "DIPAM disinvestment documents, DPIIT policy, sector regulators, MoSPI service data and latest Economic Survey"
+      }
+    ]
+  },
+  "story": "Liberalisation reduces entry and operating controls; privatisation changes ownership or control; globalisation deepens cross-border integration. They can reinforce one another, but they are not interchangeable words.",
+  "core_concept": "The 1991 reform programme responded to macroeconomic crisis and structural inefficiency through stabilisation and changes in industrial, trade, exchange and financial policy. Disinvestment sells a government stake; privatisation implies transfer of control. Services-led growth raises output but does not automatically create broad formal employment.",
+  "mnemonic": "S-L-O-R: Stabilise, Liberalise, Ownership, Regulate.",
+  "mindmap_json": {
+    "center": "LPG Reforms, Privatisation, Disinvestment and the Service Economy",
+    "branches": [
+      {
+        "label": "Mechanism",
+        "children": [
+          "Stabilisation: fiscal, monetary and external measures address immediate imbalance.",
+          "Liberalisation: licensing, trade and financial controls are reduced or redesigned to expand competition."
+        ]
+      },
+      {
+        "label": "Transmission",
+        "children": [
+          "Privatisation and disinvestment: ownership, control, proceeds, governance and market structure must be distinguished.",
+          "Globalisation: trade, capital, technology and service links integrate domestic activity with world markets."
+        ]
+      },
+      {
+        "label": "Policy",
+        "children": [
+          "Service economy: IT, finance, communications, transport, tourism, health and education differ in tradability and skill intensity.",
+          "Structural transformation: productivity, employment, manufacturing links, urbanisation and social protection determine inclusiveness."
+        ]
+      },
+      {
+        "label": "Traps",
+        "children": [
+          "Do not use liberalisation and privatisation as synonyms.",
+          "Do not treat one-time asset sale as recurring revenue.",
+          "Do not equate a rising service share with sufficient employment creation."
+        ]
+      }
+    ]
+  },
+  "key_facts": [
+    "Liberalisation does not necessarily change ownership.",
+    "Disinvestment can occur without privatisation.",
+    "Privatisation implies transfer of control.",
+    "Services include both high- and low-productivity activities.",
+    "Disinvestment is a non-debt capital receipt for government.",
+    "Competition policy remains necessary after deregulation."
+  ],
+  "common_traps": [
+    "Do not use liberalisation and privatisation as synonyms.",
+    "Do not treat one-time asset sale as recurring revenue.",
+    "Do not equate a rising service share with sufficient employment creation."
+  ],
+  "pyq_refs": [
+    {
+      "year": 2021,
+      "exam": "UPSC CSE Prelims",
+      "question": "PYQ pattern: statement and mechanism testing within LPG Reforms, Privatisation, Disinvestment and the Service Economy.",
+      "answer": "Resolve each statement through the governing identity, direction of change and institutional role.",
+      "pattern_note": "PYQs test reform chronology, liberalisation versus privatisation, disinvestment and service-sector effects. Identify whether the policy changes entry, ownership, trade or regulation."
+    },
+    {
+      "year": 2018,
+      "exam": "UPSC CSE Mains",
+      "question": "PYQ pattern: analyse the Indian policy implications of LPG Reforms, Privatisation, Disinvestment and the Service Economy.",
+      "answer": "Use a causal chain, one Indian example, distributional effects and a calibrated reform path.",
+      "pattern_note": "Mains rewards mechanism plus policy trade-off, not a list of schemes."
+    }
+  ],
+  "pyq_count": 10,
+  "last_asked": 2021,
+  "high_yield": true,
+  "read_time_mins": 13,
+  "difficulty": "Hard",
+  "status": "published",
+  "source_type": "uploaded-economy-static-pyq-secondary",
+  "version": 1,
+  "created_at": "2026-07-01T00:00:00+05:30",
+  "updated_at": "2026-07-01T00:00:00+05:30"
+}

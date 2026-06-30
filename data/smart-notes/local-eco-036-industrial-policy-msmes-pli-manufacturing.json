@@ -1,0 +1,152 @@
+{
+  "id": "local-eco-036",
+  "section": "Economy",
+  "category": "Sectors of Economy",
+  "topic": "Industrial Policy, MSMEs, PLI and Manufacturing Competitiveness",
+  "subtopic": "Firm scale, productivity, clusters, incentives, supply chains, exports, jobs and competition",
+  "slug": "economy-industrial-policy-msmes-pli-manufacturing",
+  "anatomy": "upsc12",
+  "content": {
+    "issueStory": "Subsidising output can attract investment, but manufacturing competitiveness ultimately depends on reliable power, logistics, skills, supplier depth, standards, finance and the ability of firms to learn and scale.",
+    "coreConcept": "Industrial policy uses horizontal capabilities and targeted instruments to change production structure. MSMEs contribute employment and supplier diversity but face scale, credit and technology constraints. PLI-style incentives reward eligible incremental output, creating both coordination opportunity and fiscal-selection risk.",
+    "dimensions": [
+      "Firm capability: management, technology, quality, design and worker skill determine productivity.",
+      "Scale and informality: regulatory thresholds, finance and market uncertainty can discourage formal growth.",
+      "Clusters: shared suppliers, testing, labour and infrastructure create agglomeration benefits.",
+      "Incentive design: clear baselines, additionality, sunset clauses and competition limit rent-seeking.",
+      "Supply-chain depth: domestic value addition differs from final assembly using imported components.",
+      "Outcome test: productivity, good jobs, exports, innovation and resilience matter more than announced investment alone."
+    ],
+    "constitutionalLink": "MSME law, competition law, industrial and trade policy, labour codes, environmental regulation and Union-State incentives govern manufacturing.",
+    "dataReport": "Uploaded source basis: STATIC_01_Economy.pdf MSME, industrial policy, SEZ, startup, PLI and manufacturing sections plus PYQ industrialisation patterns. Refresh rates, targets, weights, thresholds and year-specific figures from official sources: Ministry of MSME, DPIIT, sectoral PLI ministries, Annual Survey of Industries and latest Economic Survey. Stable mechanisms belong in this note; current values must be dated in an answer.",
+    "caseStudy": "Electronics assembly incentives can expand scale quickly, but durable competitiveness requires component ecosystems, engineering capability, logistics and export discipline.",
+    "argumentsFor": [
+      "Clusters lower coordination cost.",
+      "Time-bound incentives can overcome initial scale barriers.",
+      "Manufacturing can create tradable output and diverse jobs."
+    ],
+    "argumentsAgainst": [
+      "Selection can reward politically connected incumbents.",
+      "Subsidised assembly may add limited domestic value.",
+      "MSMEs face compliance and working-capital burden."
+    ],
+    "pyqLink": "PYQs test MSME definitions, industrial indicators, SEZ and manufacturing policy. Separate enterprise size, incentive eligibility, output additionality and domestic value addition.",
+    "answerFramework": {
+      "intro": "Industrial Policy, MSMEs, PLI and Manufacturing Competitiveness should be introduced through its economic identity or causal mechanism before moving to Indian institutions and policy trade-offs.",
+      "body": [
+        "Diagnose firm capability and ecosystem constraints.",
+        "Separate horizontal public goods from targeted incentives.",
+        "Evaluate PLI through additionality, competition, value addition and fiscal cost.",
+        "Build an exit-linked strategy around skills, logistics, technology and exports."
+      ],
+      "conclusion": "A high-scoring Economy answer keeps the accounting correct, traces transmission, identifies winners and losers, and separates stable principles from changing policy values."
+    },
+    "mainsExamples": [
+      "Industrial cluster sharing testing and supplier services.",
+      "Credit guarantee reducing collateral constraint for viable MSMEs.",
+      "PLI reward linked to eligible incremental production."
+    ],
+    "prelimsFacts": [
+      "MSME classification follows notified investment and turnover criteria that can change.",
+      "PLI is linked to specified incremental output under scheme rules.",
+      "IIP and PMI measure different aspects of industry.",
+      "Formalisation and firm growth are related but not identical.",
+      "Assembly value differs from domestic value addition.",
+      "Industrial corridors require functioning nodes and firms."
+    ],
+    "revisionBox": [
+      {
+        "prompt": "What is the central mechanism in Industrial Policy, MSMEs, PLI and Manufacturing Competitiveness?",
+        "answer": "Industrial policy uses horizontal capabilities and targeted instruments to change production structure. MSMEs contribute employment and supplier diversity but face scale, credit and technology constraints. PLI-style incentives reward eligible incremental output, creating both coordination opportunity and fiscal-selection risk."
+      },
+      {
+        "prompt": "What is the fastest prelims elimination rule?",
+        "answer": "Do not hard-code changing MSME thresholds without current official verification."
+      },
+      {
+        "prompt": "Which Indian example best anchors a mains answer?",
+        "answer": "Industrial cluster sharing testing and supplier services."
+      },
+      {
+        "prompt": "Which official source should refresh changing figures?",
+        "answer": "Ministry of MSME, DPIIT, sectoral PLI ministries, Annual Survey of Industries and latest Economic Survey"
+      }
+    ]
+  },
+  "story": "Subsidising output can attract investment, but manufacturing competitiveness ultimately depends on reliable power, logistics, skills, supplier depth, standards, finance and the ability of firms to learn and scale.",
+  "core_concept": "Industrial policy uses horizontal capabilities and targeted instruments to change production structure. MSMEs contribute employment and supplier diversity but face scale, credit and technology constraints. PLI-style incentives reward eligible incremental output, creating both coordination opportunity and fiscal-selection risk.",
+  "mnemonic": "C-S-I-O: Capability, Scale, Incentive, Outcome.",
+  "mindmap_json": {
+    "center": "Industrial Policy, MSMEs, PLI and Manufacturing Competitiveness",
+    "branches": [
+      {
+        "label": "Mechanism",
+        "children": [
+          "Firm capability: management, technology, quality, design and worker skill determine productivity.",
+          "Scale and informality: regulatory thresholds, finance and market uncertainty can discourage formal growth."
+        ]
+      },
+      {
+        "label": "Transmission",
+        "children": [
+          "Clusters: shared suppliers, testing, labour and infrastructure create agglomeration benefits.",
+          "Incentive design: clear baselines, additionality, sunset clauses and competition limit rent-seeking."
+        ]
+      },
+      {
+        "label": "Policy",
+        "children": [
+          "Supply-chain depth: domestic value addition differs from final assembly using imported components.",
+          "Outcome test: productivity, good jobs, exports, innovation and resilience matter more than announced investment alone."
+        ]
+      },
+      {
+        "label": "Traps",
+        "children": [
+          "Do not hard-code changing MSME thresholds without current official verification.",
+          "Do not equate announced investment with realised production.",
+          "Do not assume all industrial policy is tariff protection."
+        ]
+      }
+    ]
+  },
+  "key_facts": [
+    "MSME classification follows notified investment and turnover criteria that can change.",
+    "PLI is linked to specified incremental output under scheme rules.",
+    "IIP and PMI measure different aspects of industry.",
+    "Formalisation and firm growth are related but not identical.",
+    "Assembly value differs from domestic value addition.",
+    "Industrial corridors require functioning nodes and firms."
+  ],
+  "common_traps": [
+    "Do not hard-code changing MSME thresholds without current official verification.",
+    "Do not equate announced investment with realised production.",
+    "Do not assume all industrial policy is tariff protection."
+  ],
+  "pyq_refs": [
+    {
+      "year": 2021,
+      "exam": "UPSC CSE Prelims",
+      "question": "PYQ pattern: statement and mechanism testing within Industrial Policy, MSMEs, PLI and Manufacturing Competitiveness.",
+      "answer": "Resolve each statement through the governing identity, direction of change and institutional role.",
+      "pattern_note": "PYQs test MSME definitions, industrial indicators, SEZ and manufacturing policy. Separate enterprise size, incentive eligibility, output additionality and domestic value addition."
+    },
+    {
+      "year": 2018,
+      "exam": "UPSC CSE Mains",
+      "question": "PYQ pattern: analyse the Indian policy implications of Industrial Policy, MSMEs, PLI and Manufacturing Competitiveness.",
+      "answer": "Use a causal chain, one Indian example, distributional effects and a calibrated reform path.",
+      "pattern_note": "Mains rewards mechanism plus policy trade-off, not a list of schemes."
+    }
+  ],
+  "pyq_count": 10,
+  "last_asked": 2021,
+  "high_yield": true,
+  "read_time_mins": 13,
+  "difficulty": "Hard",
+  "status": "published",
+  "source_type": "uploaded-economy-static-pyq-secondary",
+  "version": 1,
+  "created_at": "2026-07-01T00:00:00+05:30",
+  "updated_at": "2026-07-01T00:00:00+05:30"
+}

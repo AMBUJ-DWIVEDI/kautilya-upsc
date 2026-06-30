@@ -1,0 +1,152 @@
+{
+  "id": "local-eco-039",
+  "section": "Economy",
+  "category": "Development Economics",
+  "topic": "Employment, Poverty, Inequality, Human Capital and Demographic Dividend",
+  "subtopic": "Labour-force measurement, job quality, multidimensional deprivation, distribution, capability and age structure",
+  "slug": "economy-employment-poverty-inequality-human-capital",
+  "anatomy": "upsc12",
+  "content": {
+    "issueStory": "An economy can reduce open unemployment while workers remain underemployed, unpaid, informal or low paid. Development therefore needs a dashboard: participation, employment quality, earnings, poverty, distribution, health, education and mobility.",
+    "coreConcept": "Labour indicators distinguish working-age population, labour force, employment and unemployment. Poverty concerns minimum capability or consumption thresholds; inequality concerns distribution across the whole population. Human capital improves capability and productivity, while a demographic dividend is conditional on jobs, health, education and agency.",
+    "dimensions": [
+      "Measurement: labour-force participation, worker-population ratio and unemployment rate use different denominators.",
+      "Job quality: regularity, earnings, hours, safety, social security, productivity and voice matter beyond employment status.",
+      "Informality and disguised work: low marginal productivity or unprotected employment can coexist with measured work.",
+      "Poverty: monetary lines track resources, while multidimensional measures add health, education and living conditions.",
+      "Inequality: income, wealth, opportunity, gender, caste and regional gaps transmit across generations.",
+      "Capability and demography: nutrition, learning, health, skills, care systems and productive jobs convert age structure into dividend."
+    ],
+    "constitutionalLink": "Articles 14-16, 21, 38, 39, 41, 42, 45 and 46 connect equality, livelihood, work, education and protection with development policy.",
+    "dataReport": "Uploaded source basis: STATIC_01_Economy.pdf human capital, unemployment, skilling and poverty chapter plus PYQ inclusive-growth patterns. Refresh rates, targets, weights, thresholds and year-specific figures from official sources: MoSPI Periodic Labour Force Survey, NITI Aayog poverty publications, NFHS, education and health statistics and latest Economic Survey. Stable mechanisms belong in this note; current values must be dated in an answer.",
+    "caseStudy": "Rising female education does not automatically raise female labour-force participation when safe mobility, care services, suitable jobs and social norms remain restrictive.",
+    "argumentsFor": [
+      "Human capability raises productivity and agency.",
+      "Social protection permits productive risk-taking.",
+      "A large working-age cohort can support growth and saving."
+    ],
+    "argumentsAgainst": [
+      "Training without labour demand yields weak placement.",
+      "Headline unemployment misses job quality.",
+      "Growth can coexist with high inequality and low mobility."
+    ],
+    "pyqLink": "PYQs test unemployment types, labour ratios, poverty concepts, demographic dividend and inclusive growth. Check denominator and distinguish employment quantity from quality.",
+    "answerFramework": {
+      "intro": "Employment, Poverty, Inequality, Human Capital and Demographic Dividend should be introduced through its economic identity or causal mechanism before moving to Indian institutions and policy trade-offs.",
+      "body": [
+        "Define the labour and deprivation indicators used.",
+        "Separate open unemployment, underemployment, informality and job quality.",
+        "Connect poverty, inequality and capability transmission.",
+        "Build a demographic strategy around health, learning, care, mobility, firms and social protection."
+      ],
+      "conclusion": "A high-scoring Economy answer keeps the accounting correct, traces transmission, identifies winners and losers, and separates stable principles from changing policy values."
+    },
+    "mainsExamples": [
+      "Disguised unemployment in a family farm.",
+      "Periodic Labour Force Survey measuring labour outcomes.",
+      "Nutrition and foundational learning as human-capital investments."
+    ],
+    "prelimsFacts": [
+      "Labour force equals employed plus unemployed persons seeking or available under the survey definition.",
+      "Unemployment rate uses the labour force as denominator.",
+      "Worker-population ratio uses population as denominator.",
+      "Poverty and inequality are distinct concepts.",
+      "Human capital includes health and education.",
+      "Demographic dividend is not automatic."
+    ],
+    "revisionBox": [
+      {
+        "prompt": "What is the central mechanism in Employment, Poverty, Inequality, Human Capital and Demographic Dividend?",
+        "answer": "Labour indicators distinguish working-age population, labour force, employment and unemployment. Poverty concerns minimum capability or consumption thresholds; inequality concerns distribution across the whole population. Human capital improves capability and productivity, while a demographic dividend is conditional on jobs, health, education and agency."
+      },
+      {
+        "prompt": "What is the fastest prelims elimination rule?",
+        "answer": "Do not infer labour participation from unemployment rate alone."
+      },
+      {
+        "prompt": "Which Indian example best anchors a mains answer?",
+        "answer": "Disguised unemployment in a family farm."
+      },
+      {
+        "prompt": "Which official source should refresh changing figures?",
+        "answer": "MoSPI Periodic Labour Force Survey, NITI Aayog poverty publications, NFHS, education and health statistics and latest Economic Survey"
+      }
+    ]
+  },
+  "story": "An economy can reduce open unemployment while workers remain underemployed, unpaid, informal or low paid. Development therefore needs a dashboard: participation, employment quality, earnings, poverty, distribution, health, education and mobility.",
+  "core_concept": "Labour indicators distinguish working-age population, labour force, employment and unemployment. Poverty concerns minimum capability or consumption thresholds; inequality concerns distribution across the whole population. Human capital improves capability and productivity, while a demographic dividend is conditional on jobs, health, education and agency.",
+  "mnemonic": "M-Q-D-C: Measure, Quality, Distribution, Capability.",
+  "mindmap_json": {
+    "center": "Employment, Poverty, Inequality, Human Capital and Demographic Dividend",
+    "branches": [
+      {
+        "label": "Mechanism",
+        "children": [
+          "Measurement: labour-force participation, worker-population ratio and unemployment rate use different denominators.",
+          "Job quality: regularity, earnings, hours, safety, social security, productivity and voice matter beyond employment status."
+        ]
+      },
+      {
+        "label": "Transmission",
+        "children": [
+          "Informality and disguised work: low marginal productivity or unprotected employment can coexist with measured work.",
+          "Poverty: monetary lines track resources, while multidimensional measures add health, education and living conditions."
+        ]
+      },
+      {
+        "label": "Policy",
+        "children": [
+          "Inequality: income, wealth, opportunity, gender, caste and regional gaps transmit across generations.",
+          "Capability and demography: nutrition, learning, health, skills, care systems and productive jobs convert age structure into dividend."
+        ]
+      },
+      {
+        "label": "Traps",
+        "children": [
+          "Do not infer labour participation from unemployment rate alone.",
+          "Do not call every self-employed person securely employed.",
+          "Do not equate GDP growth with inclusive development."
+        ]
+      }
+    ]
+  },
+  "key_facts": [
+    "Labour force equals employed plus unemployed persons seeking or available under the survey definition.",
+    "Unemployment rate uses the labour force as denominator.",
+    "Worker-population ratio uses population as denominator.",
+    "Poverty and inequality are distinct concepts.",
+    "Human capital includes health and education.",
+    "Demographic dividend is not automatic."
+  ],
+  "common_traps": [
+    "Do not infer labour participation from unemployment rate alone.",
+    "Do not call every self-employed person securely employed.",
+    "Do not equate GDP growth with inclusive development."
+  ],
+  "pyq_refs": [
+    {
+      "year": 2021,
+      "exam": "UPSC CSE Prelims",
+      "question": "PYQ pattern: statement and mechanism testing within Employment, Poverty, Inequality, Human Capital and Demographic Dividend.",
+      "answer": "Resolve each statement through the governing identity, direction of change and institutional role.",
+      "pattern_note": "PYQs test unemployment types, labour ratios, poverty concepts, demographic dividend and inclusive growth. Check denominator and distinguish employment quantity from quality."
+    },
+    {
+      "year": 2018,
+      "exam": "UPSC CSE Mains",
+      "question": "PYQ pattern: analyse the Indian policy implications of Employment, Poverty, Inequality, Human Capital and Demographic Dividend.",
+      "answer": "Use a causal chain, one Indian example, distributional effects and a calibrated reform path.",
+      "pattern_note": "Mains rewards mechanism plus policy trade-off, not a list of schemes."
+    }
+  ],
+  "pyq_count": 10,
+  "last_asked": 2021,
+  "high_yield": true,
+  "read_time_mins": 13,
+  "difficulty": "Hard",
+  "status": "published",
+  "source_type": "uploaded-economy-static-pyq-secondary",
+  "version": 1,
+  "created_at": "2026-07-01T00:00:00+05:30",
+  "updated_at": "2026-07-01T00:00:00+05:30"
+}
