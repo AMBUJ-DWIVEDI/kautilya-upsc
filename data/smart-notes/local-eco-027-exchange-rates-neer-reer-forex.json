@@ -1,0 +1,152 @@
+{
+  "id": "local-eco-027",
+  "section": "Economy",
+  "category": "External Sector",
+  "topic": "Exchange Rates, NEER, REER and Forex Management",
+  "subtopic": "Bilateral and effective rates, nominal-real adjustment, appreciation, intervention and competitiveness",
+  "slug": "economy-exchange-rates-neer-reer-forex",
+  "anatomy": "upsc12",
+  "content": {
+    "issueStory": "A currency can appreciate against one partner and depreciate against another. That is why a bilateral quote cannot summarise overall competitiveness; trade-weighted nominal and inflation-adjusted indices are needed.",
+    "coreConcept": "An exchange rate is the price of one currency in another. NEER combines bilateral nominal rates using trade weights; REER adjusts an effective nominal index for relative prices. Interpretation depends on index convention, so direction must be read from the published methodology.",
+    "dimensions": [
+      "Quote convention: domestic currency per foreign unit and foreign currency per domestic unit move in opposite numerical directions.",
+      "Market drivers: trade, capital flows, interest expectations, inflation, risk and intervention affect demand and supply.",
+      "Nominal versus real: inflation differentials can offset or amplify nominal exchange-rate movement.",
+      "Effective rates: trade weights aggregate multiple partner currencies rather than one bilateral pair.",
+      "Intervention: spot operations, swaps, reserves, liquidity sterilisation and communication manage volatility and conditions.",
+      "Pass-through and balance sheets: depreciation affects imports, exports, inflation and unhedged foreign-currency debt differently."
+    ],
+    "constitutionalLink": "FEMA, RBI forex operations, exchange-control regulations and external borrowing rules govern currency transactions and stability.",
+    "dataReport": "Uploaded source basis: STATIC_01_Economy.pdf exchange-rate, NEER, REER, swap and forex sections plus PYQ effective-rate questions. Refresh rates, targets, weights, thresholds and year-specific figures from official sources: RBI reference rates, NEER-REER series, reserve data and current exchange-management directions. Stable mechanisms belong in this note; current values must be dated in an answer.",
+    "caseStudy": "A nominal depreciation may not improve competitiveness if domestic inflation remains persistently higher than trading-partner inflation or exporters depend heavily on imported inputs.",
+    "argumentsFor": [
+      "Flexible rates absorb external shocks.",
+      "Reserves can reduce disorderly volatility.",
+      "REER offers a broader competitiveness signal."
+    ],
+    "argumentsAgainst": [
+      "Intervention cannot permanently override fundamentals without cost.",
+      "Depreciation raises imported inflation and debt burden.",
+      "REER is an index, not a complete export-performance model."
+    ],
+    "pyqLink": "PYQs test appreciation-depreciation effects, NEER versus REER and reserve operations. State quote convention first, then trace prices, trade and debt.",
+    "answerFramework": {
+      "intro": "Exchange Rates, NEER, REER and Forex Management should be introduced through its economic identity or causal mechanism before moving to Indian institutions and policy trade-offs.",
+      "body": [
+        "Define bilateral rate and quote convention.",
+        "Build from nominal bilateral rates to NEER and REER.",
+        "Trace trade, inflation and balance-sheet effects.",
+        "Evaluate flexibility, intervention, reserves and hedging."
+      ],
+      "conclusion": "A high-scoring Economy answer keeps the accounting correct, traces transmission, identifies winners and losers, and separates stable principles from changing policy values."
+    },
+    "mainsExamples": [
+      "Rupee depreciation making an unhedged dollar loan costlier in rupees.",
+      "Higher import prices transmitting to domestic inflation.",
+      "Trade-weighted REER differing from the rupee-dollar movement."
+    ],
+    "prelimsFacts": [
+      "A bilateral rate concerns two currencies.",
+      "NEER is trade weighted.",
+      "REER adjusts for relative prices under a defined methodology.",
+      "Depreciation can raise domestic cost of imports.",
+      "Forex reserves are external assets of the central bank.",
+      "Sterilisation offsets domestic-liquidity effects of intervention."
+    ],
+    "revisionBox": [
+      {
+        "prompt": "What is the central mechanism in Exchange Rates, NEER, REER and Forex Management?",
+        "answer": "An exchange rate is the price of one currency in another. NEER combines bilateral nominal rates using trade weights; REER adjusts an effective nominal index for relative prices. Interpretation depends on index convention, so direction must be read from the published methodology."
+      },
+      {
+        "prompt": "What is the fastest prelims elimination rule?",
+        "answer": "Do not interpret an effective-rate rise without checking index convention."
+      },
+      {
+        "prompt": "Which Indian example best anchors a mains answer?",
+        "answer": "Rupee depreciation making an unhedged dollar loan costlier in rupees."
+      },
+      {
+        "prompt": "Which official source should refresh changing figures?",
+        "answer": "RBI reference rates, NEER-REER series, reserve data and current exchange-management directions"
+      }
+    ]
+  },
+  "story": "A currency can appreciate against one partner and depreciate against another. That is why a bilateral quote cannot summarise overall competitiveness; trade-weighted nominal and inflation-adjusted indices are needed.",
+  "core_concept": "An exchange rate is the price of one currency in another. NEER combines bilateral nominal rates using trade weights; REER adjusts an effective nominal index for relative prices. Interpretation depends on index convention, so direction must be read from the published methodology.",
+  "mnemonic": "Q-N-R-I: Quote, Nominal, Real, Intervention.",
+  "mindmap_json": {
+    "center": "Exchange Rates, NEER, REER and Forex Management",
+    "branches": [
+      {
+        "label": "Mechanism",
+        "children": [
+          "Quote convention: domestic currency per foreign unit and foreign currency per domestic unit move in opposite numerical directions.",
+          "Market drivers: trade, capital flows, interest expectations, inflation, risk and intervention affect demand and supply."
+        ]
+      },
+      {
+        "label": "Transmission",
+        "children": [
+          "Nominal versus real: inflation differentials can offset or amplify nominal exchange-rate movement.",
+          "Effective rates: trade weights aggregate multiple partner currencies rather than one bilateral pair."
+        ]
+      },
+      {
+        "label": "Policy",
+        "children": [
+          "Intervention: spot operations, swaps, reserves, liquidity sterilisation and communication manage volatility and conditions.",
+          "Pass-through and balance sheets: depreciation affects imports, exports, inflation and unhedged foreign-currency debt differently."
+        ]
+      },
+      {
+        "label": "Traps",
+        "children": [
+          "Do not interpret an effective-rate rise without checking index convention.",
+          "Do not assume depreciation always improves the trade balance immediately.",
+          "Do not equate a currency swap with an interest-rate swap."
+        ]
+      }
+    ]
+  },
+  "key_facts": [
+    "A bilateral rate concerns two currencies.",
+    "NEER is trade weighted.",
+    "REER adjusts for relative prices under a defined methodology.",
+    "Depreciation can raise domestic cost of imports.",
+    "Forex reserves are external assets of the central bank.",
+    "Sterilisation offsets domestic-liquidity effects of intervention."
+  ],
+  "common_traps": [
+    "Do not interpret an effective-rate rise without checking index convention.",
+    "Do not assume depreciation always improves the trade balance immediately.",
+    "Do not equate a currency swap with an interest-rate swap."
+  ],
+  "pyq_refs": [
+    {
+      "year": 2021,
+      "exam": "UPSC CSE Prelims",
+      "question": "PYQ pattern: statement and mechanism testing within Exchange Rates, NEER, REER and Forex Management.",
+      "answer": "Resolve each statement through the governing identity, direction of change and institutional role.",
+      "pattern_note": "PYQs test appreciation-depreciation effects, NEER versus REER and reserve operations. State quote convention first, then trace prices, trade and debt."
+    },
+    {
+      "year": 2018,
+      "exam": "UPSC CSE Mains",
+      "question": "PYQ pattern: analyse the Indian policy implications of Exchange Rates, NEER, REER and Forex Management.",
+      "answer": "Use a causal chain, one Indian example, distributional effects and a calibrated reform path.",
+      "pattern_note": "Mains rewards mechanism plus policy trade-off, not a list of schemes."
+    }
+  ],
+  "pyq_count": 10,
+  "last_asked": 2021,
+  "high_yield": true,
+  "read_time_mins": 13,
+  "difficulty": "Hard",
+  "status": "published",
+  "source_type": "uploaded-economy-static-pyq-secondary",
+  "version": 1,
+  "created_at": "2026-07-01T00:00:00+05:30",
+  "updated_at": "2026-07-01T00:00:00+05:30"
+}

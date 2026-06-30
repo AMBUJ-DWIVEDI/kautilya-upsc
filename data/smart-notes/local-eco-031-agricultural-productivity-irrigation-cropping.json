@@ -1,0 +1,152 @@
+{
+  "id": "local-eco-031",
+  "section": "Economy",
+  "category": "Agriculture",
+  "topic": "Agricultural Productivity, Irrigation and Cropping Economics",
+  "subtopic": "Land, water, seed, nutrients, mechanisation, cropping choice, risk and total-factor productivity",
+  "slug": "economy-agricultural-productivity-irrigation-cropping",
+  "anatomy": "upsc12",
+  "content": {
+    "issueStory": "Higher yield can come from more water and fertiliser, or from better seed, timing, soil health and knowledge. The first path may raise output while degrading the resource base; the second seeks more value and resilience per unit of scarce input.",
+    "coreConcept": "Agricultural productivity is output relative to land, labour, water or combined inputs. Cropping choice responds to agro-climate, prices, procurement, risk, technology and household needs. Irrigation stabilises moisture but can cause depletion, waterlogging or salinity when pricing and drainage fail.",
+    "dimensions": [
+      "Land and soil: holding size, fragmentation, tenure, organic matter and nutrient balance shape investment and yield.",
+      "Water: source reliability, conveyance, field application, crop need and drainage determine irrigation value.",
+      "Technology: seed, mechanisation, extension, precision and timing affect factor productivity.",
+      "Cropping economics: expected price, yield, cost, risk, market access and policy incentives guide acreage.",
+      "Regionality: rainfed, canal, groundwater and tank systems need different packages.",
+      "Sustainability: diversification, soil health, water budgeting and climate-resilient varieties protect long-run productivity."
+    ],
+    "constitutionalLink": "Agriculture and water involve State powers, while Union schemes, research, credit and interstate resources create shared responsibility under Articles 38, 39 and 48A.",
+    "dataReport": "Uploaded source basis: STATIC_01_Economy.pdf agriculture, Green Revolution, irrigation and input sections plus PYQ agriculture-economics patterns. Refresh rates, targets, weights, thresholds and year-specific figures from official sources: Ministry of Agriculture statistics, Agricultural Census, Commission for Agricultural Costs and Prices and latest Economic Survey. Stable mechanisms belong in this note; current values must be dated in an answer.",
+    "caseStudy": "Groundwater-supported rice-wheat systems raised food output but now face falling water tables, residue pressure and nutrient imbalance, making diversification an economic and ecological issue.",
+    "argumentsFor": [
+      "Irrigation reduces rainfall risk.",
+      "Improved seed and extension raise yield.",
+      "Diversification can improve income and resource fit."
+    ],
+    "argumentsAgainst": [
+      "Input intensification can create diminishing returns.",
+      "Free or underpriced power can accelerate groundwater depletion.",
+      "Mechanisation gains vary by scale and labour market."
+    ],
+    "pyqLink": "PYQs test cropping seasons, irrigation benefits, Green Revolution effects, soil-input relations and productivity measures. Separate yield from profit, labour productivity and total-factor productivity.",
+    "answerFramework": {
+      "intro": "Agricultural Productivity, Irrigation and Cropping Economics should be introduced through its economic identity or causal mechanism before moving to Indian institutions and policy trade-offs.",
+      "body": [
+        "Define the relevant productivity measure.",
+        "Map land, water, technology, price and risk constraints.",
+        "Evaluate regional irrigation and crop incentives.",
+        "Recommend diversification, extension, water accounting and resilient research."
+      ],
+      "conclusion": "A high-scoring Economy answer keeps the accounting correct, traces transmission, identifies winners and losers, and separates stable principles from changing policy values."
+    },
+    "mainsExamples": [
+      "Drip irrigation for targeted root-zone application.",
+      "Tank irrigation in suitable Peninsular catchments.",
+      "Millet diversification in water-stressed agro-climates."
+    ],
+    "prelimsFacts": [
+      "Yield is output per unit of land.",
+      "Labour productivity differs from land productivity.",
+      "Net returns depend on price and cost, not yield alone.",
+      "Irrigation can cause waterlogging without drainage.",
+      "Groundwater extraction is an intertemporal resource decision.",
+      "Cropping intensity measures cropped area relative to net sown area."
+    ],
+    "revisionBox": [
+      {
+        "prompt": "What is the central mechanism in Agricultural Productivity, Irrigation and Cropping Economics?",
+        "answer": "Agricultural productivity is output relative to land, labour, water or combined inputs. Cropping choice responds to agro-climate, prices, procurement, risk, technology and household needs. Irrigation stabilises moisture but can cause depletion, waterlogging or salinity when pricing and drainage fail."
+      },
+      {
+        "prompt": "What is the fastest prelims elimination rule?",
+        "answer": "Do not equate higher yield with higher farm income."
+      },
+      {
+        "prompt": "Which Indian example best anchors a mains answer?",
+        "answer": "Drip irrigation for targeted root-zone application."
+      },
+      {
+        "prompt": "Which official source should refresh changing figures?",
+        "answer": "Ministry of Agriculture statistics, Agricultural Census, Commission for Agricultural Costs and Prices and latest Economic Survey"
+      }
+    ]
+  },
+  "story": "Higher yield can come from more water and fertiliser, or from better seed, timing, soil health and knowledge. The first path may raise output while degrading the resource base; the second seeks more value and resilience per unit of scarce input.",
+  "core_concept": "Agricultural productivity is output relative to land, labour, water or combined inputs. Cropping choice responds to agro-climate, prices, procurement, risk, technology and household needs. Irrigation stabilises moisture but can cause depletion, waterlogging or salinity when pricing and drainage fail.",
+  "mnemonic": "L-W-T-P-R: Land, Water, Technology, Price, Risk.",
+  "mindmap_json": {
+    "center": "Agricultural Productivity, Irrigation and Cropping Economics",
+    "branches": [
+      {
+        "label": "Mechanism",
+        "children": [
+          "Land and soil: holding size, fragmentation, tenure, organic matter and nutrient balance shape investment and yield.",
+          "Water: source reliability, conveyance, field application, crop need and drainage determine irrigation value."
+        ]
+      },
+      {
+        "label": "Transmission",
+        "children": [
+          "Technology: seed, mechanisation, extension, precision and timing affect factor productivity.",
+          "Cropping economics: expected price, yield, cost, risk, market access and policy incentives guide acreage."
+        ]
+      },
+      {
+        "label": "Policy",
+        "children": [
+          "Regionality: rainfed, canal, groundwater and tank systems need different packages.",
+          "Sustainability: diversification, soil health, water budgeting and climate-resilient varieties protect long-run productivity."
+        ]
+      },
+      {
+        "label": "Traps",
+        "children": [
+          "Do not equate higher yield with higher farm income.",
+          "Do not prescribe one irrigation method for every crop and terrain.",
+          "Do not call all rainfed agriculture low potential."
+        ]
+      }
+    ]
+  },
+  "key_facts": [
+    "Yield is output per unit of land.",
+    "Labour productivity differs from land productivity.",
+    "Net returns depend on price and cost, not yield alone.",
+    "Irrigation can cause waterlogging without drainage.",
+    "Groundwater extraction is an intertemporal resource decision.",
+    "Cropping intensity measures cropped area relative to net sown area."
+  ],
+  "common_traps": [
+    "Do not equate higher yield with higher farm income.",
+    "Do not prescribe one irrigation method for every crop and terrain.",
+    "Do not call all rainfed agriculture low potential."
+  ],
+  "pyq_refs": [
+    {
+      "year": 2021,
+      "exam": "UPSC CSE Prelims",
+      "question": "PYQ pattern: statement and mechanism testing within Agricultural Productivity, Irrigation and Cropping Economics.",
+      "answer": "Resolve each statement through the governing identity, direction of change and institutional role.",
+      "pattern_note": "PYQs test cropping seasons, irrigation benefits, Green Revolution effects, soil-input relations and productivity measures. Separate yield from profit, labour productivity and total-factor productivity."
+    },
+    {
+      "year": 2018,
+      "exam": "UPSC CSE Mains",
+      "question": "PYQ pattern: analyse the Indian policy implications of Agricultural Productivity, Irrigation and Cropping Economics.",
+      "answer": "Use a causal chain, one Indian example, distributional effects and a calibrated reform path.",
+      "pattern_note": "Mains rewards mechanism plus policy trade-off, not a list of schemes."
+    }
+  ],
+  "pyq_count": 10,
+  "last_asked": 2021,
+  "high_yield": true,
+  "read_time_mins": 13,
+  "difficulty": "Hard",
+  "status": "published",
+  "source_type": "uploaded-economy-static-pyq-secondary",
+  "version": 1,
+  "created_at": "2026-07-01T00:00:00+05:30",
+  "updated_at": "2026-07-01T00:00:00+05:30"
+}

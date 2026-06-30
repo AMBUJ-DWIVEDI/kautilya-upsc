@@ -1,0 +1,152 @@
+{
+  "id": "local-eco-032",
+  "section": "Economy",
+  "category": "Agriculture",
+  "topic": "MSP, Procurement, Buffer Stocks and Food Security",
+  "subtopic": "Price floor, cost concepts, physical purchase, storage, PDS and nutrition-sensitive food policy",
+  "slug": "economy-msp-procurement-buffers-food-security",
+  "anatomy": "upsc12",
+  "content": {
+    "issueStory": "Announcing an MSP does not mean every farmer sells at it. A price floor affects the market only through credible purchase, private expectations or legal design, while procurement, buffer stocking and food distribution are separate operational stages.",
+    "coreConcept": "MSP is an announced support price for selected crops; procurement is actual government purchase. Stocks support food distribution, price stabilisation and emergencies. Food security includes availability, access, utilisation and stability, so grain stocks alone do not guarantee nutrition.",
+    "dimensions": [
+      "Price-support logic: a floor above equilibrium can raise producer price but may create excess supply if universally enforced.",
+      "Cost concepts: paid-out, imputed family labour, owned capital and land costs produce different reference measures.",
+      "Procurement geography: agency capacity, crop concentration, market yards and storage determine who benefits.",
+      "Buffer management: stocking norms, carrying cost, quality, rotation and open-market release affect efficiency.",
+      "Distribution: PDS and legal entitlements convert stocks into household access but face identification and portability questions.",
+      "Nutrition and sustainability: cereal focus can crowd out pulses, oilseeds, coarse grains and dietary diversity."
+    ],
+    "constitutionalLink": "The National Food Security Act, Essential Commodities framework, Food Corporation operations and Union-State PDS responsibilities structure food security.",
+    "dataReport": "Uploaded source basis: STATIC_01_Economy.pdf MSP, procurement, food distribution and agricultural reform sections plus PYQ price-floor patterns. Refresh rates, targets, weights, thresholds and year-specific figures from official sources: Commission for Agricultural Costs and Prices reports, Food Corporation stock data, Department of Food and Public Distribution and current MSP notifications. Stable mechanisms belong in this note; current values must be dated in an answer.",
+    "caseStudy": "Concentrated rice and wheat procurement strengthens cereal security but can reinforce water-intensive crop patterns and unequal regional access to support.",
+    "argumentsFor": [
+      "Price support reduces downside risk for covered sellers.",
+      "Buffers stabilise emergency supply.",
+      "Food entitlements protect consumption."
+    ],
+    "argumentsAgainst": [
+      "Open-ended procurement creates storage and fiscal costs.",
+      "Benefits concentrate where procurement is effective.",
+      "Cereal dominance can distort water use and nutrition."
+    ],
+    "pyqLink": "PYQs test MSP as price floor, procurement agencies, food-security pillars and buffer-stock functions. Keep announcement, purchase, storage and distribution as separate verbs.",
+    "answerFramework": {
+      "intro": "MSP, Procurement, Buffer Stocks and Food Security should be introduced through its economic identity or causal mechanism before moving to Indian institutions and policy trade-offs.",
+      "body": [
+        "Define MSP and separate it from procurement.",
+        "Explain price-floor and cost-reference logic.",
+        "Trace procurement, storage, release and distribution.",
+        "Reform through decentralisation, diversification, portability and transparent stock management."
+      ],
+      "conclusion": "A high-scoring Economy answer keeps the accounting correct, traces transmission, identifies winners and losers, and separates stable principles from changing policy values."
+    },
+    "mainsExamples": [
+      "FCI procurement of rice and wheat.",
+      "Open-market sale to moderate supply tightness.",
+      "PDS entitlement improving household grain access."
+    ],
+    "prelimsFacts": [
+      "MSP announcement is not the same as universal procurement.",
+      "Procurement is physical purchase.",
+      "Buffer stocks serve distribution and stabilisation roles.",
+      "Food security includes access and utilisation, not only availability.",
+      "Carrying cost rises with prolonged storage.",
+      "A binding price floor is set above the market-clearing price in the textbook model."
+    ],
+    "revisionBox": [
+      {
+        "prompt": "What is the central mechanism in MSP, Procurement, Buffer Stocks and Food Security?",
+        "answer": "MSP is an announced support price for selected crops; procurement is actual government purchase. Stocks support food distribution, price stabilisation and emergencies. Food security includes availability, access, utilisation and stability, so grain stocks alone do not guarantee nutrition."
+      },
+      {
+        "prompt": "What is the fastest prelims elimination rule?",
+        "answer": "Do not say MSP guarantees purchase for every crop everywhere."
+      },
+      {
+        "prompt": "Which Indian example best anchors a mains answer?",
+        "answer": "FCI procurement of rice and wheat."
+      },
+      {
+        "prompt": "Which official source should refresh changing figures?",
+        "answer": "Commission for Agricultural Costs and Prices reports, Food Corporation stock data, Department of Food and Public Distribution and current MSP notifications"
+      }
+    ]
+  },
+  "story": "Announcing an MSP does not mean every farmer sells at it. A price floor affects the market only through credible purchase, private expectations or legal design, while procurement, buffer stocking and food distribution are separate operational stages.",
+  "core_concept": "MSP is an announced support price for selected crops; procurement is actual government purchase. Stocks support food distribution, price stabilisation and emergencies. Food security includes availability, access, utilisation and stability, so grain stocks alone do not guarantee nutrition.",
+  "mnemonic": "P-B-D-N: Price, Buy, Distribute, Nutrition.",
+  "mindmap_json": {
+    "center": "MSP, Procurement, Buffer Stocks and Food Security",
+    "branches": [
+      {
+        "label": "Mechanism",
+        "children": [
+          "Price-support logic: a floor above equilibrium can raise producer price but may create excess supply if universally enforced.",
+          "Cost concepts: paid-out, imputed family labour, owned capital and land costs produce different reference measures."
+        ]
+      },
+      {
+        "label": "Transmission",
+        "children": [
+          "Procurement geography: agency capacity, crop concentration, market yards and storage determine who benefits.",
+          "Buffer management: stocking norms, carrying cost, quality, rotation and open-market release affect efficiency."
+        ]
+      },
+      {
+        "label": "Policy",
+        "children": [
+          "Distribution: PDS and legal entitlements convert stocks into household access but face identification and portability questions.",
+          "Nutrition and sustainability: cereal focus can crowd out pulses, oilseeds, coarse grains and dietary diversity."
+        ]
+      },
+      {
+        "label": "Traps",
+        "children": [
+          "Do not say MSP guarantees purchase for every crop everywhere.",
+          "Do not equate buffer stock with total national food production.",
+          "Do not reduce nutrition security to cereal calories alone."
+        ]
+      }
+    ]
+  },
+  "key_facts": [
+    "MSP announcement is not the same as universal procurement.",
+    "Procurement is physical purchase.",
+    "Buffer stocks serve distribution and stabilisation roles.",
+    "Food security includes access and utilisation, not only availability.",
+    "Carrying cost rises with prolonged storage.",
+    "A binding price floor is set above the market-clearing price in the textbook model."
+  ],
+  "common_traps": [
+    "Do not say MSP guarantees purchase for every crop everywhere.",
+    "Do not equate buffer stock with total national food production.",
+    "Do not reduce nutrition security to cereal calories alone."
+  ],
+  "pyq_refs": [
+    {
+      "year": 2021,
+      "exam": "UPSC CSE Prelims",
+      "question": "PYQ pattern: statement and mechanism testing within MSP, Procurement, Buffer Stocks and Food Security.",
+      "answer": "Resolve each statement through the governing identity, direction of change and institutional role.",
+      "pattern_note": "PYQs test MSP as price floor, procurement agencies, food-security pillars and buffer-stock functions. Keep announcement, purchase, storage and distribution as separate verbs."
+    },
+    {
+      "year": 2018,
+      "exam": "UPSC CSE Mains",
+      "question": "PYQ pattern: analyse the Indian policy implications of MSP, Procurement, Buffer Stocks and Food Security.",
+      "answer": "Use a causal chain, one Indian example, distributional effects and a calibrated reform path.",
+      "pattern_note": "Mains rewards mechanism plus policy trade-off, not a list of schemes."
+    }
+  ],
+  "pyq_count": 10,
+  "last_asked": 2021,
+  "high_yield": true,
+  "read_time_mins": 13,
+  "difficulty": "Hard",
+  "status": "published",
+  "source_type": "uploaded-economy-static-pyq-secondary",
+  "version": 1,
+  "created_at": "2026-07-01T00:00:00+05:30",
+  "updated_at": "2026-07-01T00:00:00+05:30"
+}

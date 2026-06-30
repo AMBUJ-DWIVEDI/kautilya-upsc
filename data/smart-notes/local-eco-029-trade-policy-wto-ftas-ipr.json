@@ -1,0 +1,152 @@
+{
+  "id": "local-eco-029",
+  "section": "Economy",
+  "category": "Global Economy",
+  "topic": "Trade Policy, WTO, FTAs and India’s IPR Framework",
+  "subtopic": "Tariffs, non-tariff measures, rules of origin, multilateral disciplines and innovation-access balance",
+  "slug": "economy-trade-policy-wto-ftas-ipr",
+  "anatomy": "upsc12",
+  "content": {
+    "issueStory": "A tariff changes price at the border; an FTA changes tariff treatment among members; rules of origin decide who qualifies; standards and logistics decide whether firms can actually use the preference.",
+    "coreConcept": "Trade policy combines tariffs, quotas, standards, remedies, facilitation and agreements. WTO rules provide multilateral principles and negotiated exceptions; FTAs grant preferential access among partners. IPR creates time-bound exclusion to encourage innovation while flexibilities protect competition and public interest.",
+    "dimensions": [
+      "Tariff effect: protection raises domestic price and producer incentive while imposing consumer and efficiency costs.",
+      "Non-tariff measures: health, safety and technical rules may serve legitimate goals or become disguised barriers.",
+      "FTA economics: trade creation can replace high-cost domestic supply; trade diversion can replace efficient outsiders.",
+      "Rules of origin prevent simple trans-shipment and determine preference usability.",
+      "WTO architecture: MFN, national treatment, bound commitments, dispute settlement and specialised agreements shape policy space.",
+      "IPR balance: patents, copyright, trademarks and geographical indications protect different creations; exceptions and compulsory licensing serve public interest under law."
+    ],
+    "constitutionalLink": "The Foreign Trade (Development and Regulation) Act, Customs law, WTO commitments, Patents Act and other IPR statutes frame Indian trade and innovation policy.",
+    "dataReport": "Uploaded source basis: STATIC_01_Economy.pdf trade agreements, WTO, UNCTAD and IPR sections plus PYQ trade-policy patterns. Refresh rates, targets, weights, thresholds and year-specific figures from official sources: Ministry of Commerce trade-policy and FTA texts, WTO documents, Controller General of Patents and current customs notifications. Stable mechanisms belong in this note; current values must be dated in an answer.",
+    "caseStudy": "An FTA tariff preference benefits an exporter only when the product meets rules of origin, documentation, standards and logistics requirements.",
+    "argumentsFor": [
+      "Trade expands market scale and variety.",
+      "FTAs can deepen supply-chain integration.",
+      "IP rights can support innovation and disclosure."
+    ],
+    "argumentsAgainst": [
+      "Trade diversion can reduce welfare.",
+      "Adjustment costs concentrate in vulnerable sectors.",
+      "Overbroad IP protection can restrict access and follow-on innovation."
+    ],
+    "pyqLink": "PYQs test WTO principles, subsidy categories, FTA effects, GI-patent distinctions and trade barriers. Identify the legal instrument and economic mechanism separately.",
+    "answerFramework": {
+      "intro": "Trade Policy, WTO, FTAs and India’s IPR Framework should be introduced through its economic identity or causal mechanism before moving to Indian institutions and policy trade-offs.",
+      "body": [
+        "Classify tariff, non-tariff and facilitation tools.",
+        "Evaluate trade creation, diversion and rules of origin.",
+        "Map WTO principles and development exceptions.",
+        "Balance innovation incentives, competition, access and adjustment support."
+      ],
+      "conclusion": "A high-scoring Economy answer keeps the accounting correct, traces transmission, identifies winners and losers, and separates stable principles from changing policy values."
+    },
+    "mainsExamples": [
+      "Rules of origin in preferential trade.",
+      "Anti-dumping duty responding to defined injurious dumping findings.",
+      "Geographical indication protecting region-linked reputation."
+    ],
+    "prelimsFacts": [
+      "MFN concerns non-discrimination among trading partners subject to exceptions.",
+      "National treatment concerns imported and domestic products after entry.",
+      "An FTA does not require one common external tariff.",
+      "A customs union has a common external tariff.",
+      "Patents and geographical indications protect different subject matter.",
+      "Rules of origin determine product nationality for preference."
+    ],
+    "revisionBox": [
+      {
+        "prompt": "What is the central mechanism in Trade Policy, WTO, FTAs and India’s IPR Framework?",
+        "answer": "Trade policy combines tariffs, quotas, standards, remedies, facilitation and agreements. WTO rules provide multilateral principles and negotiated exceptions; FTAs grant preferential access among partners. IPR creates time-bound exclusion to encourage innovation while flexibilities protect competition and public interest."
+      },
+      {
+        "prompt": "What is the fastest prelims elimination rule?",
+        "answer": "Do not call every product standard protectionism."
+      },
+      {
+        "prompt": "Which Indian example best anchors a mains answer?",
+        "answer": "Rules of origin in preferential trade."
+      },
+      {
+        "prompt": "Which official source should refresh changing figures?",
+        "answer": "Ministry of Commerce trade-policy and FTA texts, WTO documents, Controller General of Patents and current customs notifications"
+      }
+    ]
+  },
+  "story": "A tariff changes price at the border; an FTA changes tariff treatment among members; rules of origin decide who qualifies; standards and logistics decide whether firms can actually use the preference.",
+  "core_concept": "Trade policy combines tariffs, quotas, standards, remedies, facilitation and agreements. WTO rules provide multilateral principles and negotiated exceptions; FTAs grant preferential access among partners. IPR creates time-bound exclusion to encourage innovation while flexibilities protect competition and public interest.",
+  "mnemonic": "B-P-R-I: Border tool, Preference, Rules, IPR.",
+  "mindmap_json": {
+    "center": "Trade Policy, WTO, FTAs and India’s IPR Framework",
+    "branches": [
+      {
+        "label": "Mechanism",
+        "children": [
+          "Tariff effect: protection raises domestic price and producer incentive while imposing consumer and efficiency costs.",
+          "Non-tariff measures: health, safety and technical rules may serve legitimate goals or become disguised barriers."
+        ]
+      },
+      {
+        "label": "Transmission",
+        "children": [
+          "FTA economics: trade creation can replace high-cost domestic supply; trade diversion can replace efficient outsiders.",
+          "Rules of origin prevent simple trans-shipment and determine preference usability."
+        ]
+      },
+      {
+        "label": "Policy",
+        "children": [
+          "WTO architecture: MFN, national treatment, bound commitments, dispute settlement and specialised agreements shape policy space.",
+          "IPR balance: patents, copyright, trademarks and geographical indications protect different creations; exceptions and compulsory licensing serve public interest under law."
+        ]
+      },
+      {
+        "label": "Traps",
+        "children": [
+          "Do not call every product standard protectionism.",
+          "Do not confuse an FTA with a customs union.",
+          "Do not treat a GI as a patent over an invention."
+        ]
+      }
+    ]
+  },
+  "key_facts": [
+    "MFN concerns non-discrimination among trading partners subject to exceptions.",
+    "National treatment concerns imported and domestic products after entry.",
+    "An FTA does not require one common external tariff.",
+    "A customs union has a common external tariff.",
+    "Patents and geographical indications protect different subject matter.",
+    "Rules of origin determine product nationality for preference."
+  ],
+  "common_traps": [
+    "Do not call every product standard protectionism.",
+    "Do not confuse an FTA with a customs union.",
+    "Do not treat a GI as a patent over an invention."
+  ],
+  "pyq_refs": [
+    {
+      "year": 2021,
+      "exam": "UPSC CSE Prelims",
+      "question": "PYQ pattern: statement and mechanism testing within Trade Policy, WTO, FTAs and India’s IPR Framework.",
+      "answer": "Resolve each statement through the governing identity, direction of change and institutional role.",
+      "pattern_note": "PYQs test WTO principles, subsidy categories, FTA effects, GI-patent distinctions and trade barriers. Identify the legal instrument and economic mechanism separately."
+    },
+    {
+      "year": 2018,
+      "exam": "UPSC CSE Mains",
+      "question": "PYQ pattern: analyse the Indian policy implications of Trade Policy, WTO, FTAs and India’s IPR Framework.",
+      "answer": "Use a causal chain, one Indian example, distributional effects and a calibrated reform path.",
+      "pattern_note": "Mains rewards mechanism plus policy trade-off, not a list of schemes."
+    }
+  ],
+  "pyq_count": 10,
+  "last_asked": 2021,
+  "high_yield": true,
+  "read_time_mins": 13,
+  "difficulty": "Hard",
+  "status": "published",
+  "source_type": "uploaded-economy-static-pyq-secondary",
+  "version": 1,
+  "created_at": "2026-07-01T00:00:00+05:30",
+  "updated_at": "2026-07-01T00:00:00+05:30"
+}
