@@ -1,0 +1,152 @@
+{
+  "id": "local-eco-026",
+  "section": "Economy",
+  "category": "External Sector",
+  "topic": "Balance of Payments, Current Account and External Debt",
+  "subtopic": "BoP double entry, trade and income flows, financing, reserves and external-vulnerability indicators",
+  "slug": "economy-bop-current-account-external-debt",
+  "anatomy": "upsc12",
+  "content": {
+    "issueStory": "A current-account deficit is not a clerical error; it means domestic spending exceeds income and must be financed through net capital inflow, reserve use or adjustment. Its risk depends on purpose, duration and currency of financing rather than the sign alone.",
+    "coreConcept": "The Balance of Payments records transactions between residents and non-residents using double-entry accounting. The current account covers goods, services, primary income and transfers; financial flows and reserve changes finance the balance. External debt is a liability stock, not the same as the current-account flow.",
+    "dimensions": [
+      "Trade balance records merchandise exports minus imports, while services can offset or deepen it.",
+      "Primary income includes compensation and investment income; secondary income includes transfers such as remittances.",
+      "Financial account records direct, portfolio, debt and other investment transactions under current statistical conventions.",
+      "Reserve change reflects central-bank transactions and provides a buffer, not free national wealth.",
+      "External debt risk depends on currency, maturity, interest, holder, hedging and export or reserve cover.",
+      "Sustainability: a deficit financing productive capacity differs from volatile short-term financing of consumption."
+    ],
+    "constitutionalLink": "Foreign Exchange Management Act, RBI external-sector management, sovereign borrowing rules and trade policy govern external transactions.",
+    "dataReport": "Uploaded source basis: STATIC_01_Economy.pdf BoP, current account, capital flows, reserves and external-debt sections plus PYQ BoP patterns. Refresh rates, targets, weights, thresholds and year-specific figures from official sources: RBI Balance of Payments, external debt and reserve publications, Ministry of Commerce trade data and latest Economic Survey. Stable mechanisms belong in this note; current values must be dated in an answer.",
+    "caseStudy": "High oil prices can widen India’s merchandise deficit and raise imported inflation, while software exports and remittances provide relatively stable current-account receipts.",
+    "argumentsFor": [
+      "Productive external finance can supplement domestic saving.",
+      "Reserves smooth disorderly adjustment.",
+      "Service exports and remittances diversify receipts."
+    ],
+    "argumentsAgainst": [
+      "Short-term foreign-currency debt creates rollover risk.",
+      "Persistent consumption-led deficits can weaken confidence.",
+      "Reserve accumulation has carrying and opportunity costs."
+    ],
+    "pyqLink": "PYQs test current versus capital entries, remittances, FDI/FPI, reserves and currency-crisis vulnerability. Identify residency, claim type, flow direction and whether the item is income, transfer or finance.",
+    "answerFramework": {
+      "intro": "Balance of Payments, Current Account and External Debt should be introduced through its economic identity or causal mechanism before moving to Indian institutions and policy trade-offs.",
+      "body": [
+        "Set out current and financial accounts.",
+        "Trace deficit financing through capital flows and reserves.",
+        "Assess debt composition, maturity and currency.",
+        "Conclude with export competitiveness, stable finance and adequate buffers."
+      ],
+      "conclusion": "A high-scoring Economy answer keeps the accounting correct, traces transmission, identifies winners and losers, and separates stable principles from changing policy values."
+    },
+    "mainsExamples": [
+      "Software service exports as current-account credits.",
+      "Workers’ remittances as secondary-income receipts.",
+      "External commercial borrowing creating an external debt liability."
+    ],
+    "prelimsFacts": [
+      "BoP uses double-entry accounting.",
+      "Trade balance covers goods.",
+      "The current account includes goods, services, income and transfers.",
+      "FDI is a financial-account flow.",
+      "External debt is a stock.",
+      "Reserves are central-bank external assets."
+    ],
+    "revisionBox": [
+      {
+        "prompt": "What is the central mechanism in Balance of Payments, Current Account and External Debt?",
+        "answer": "The Balance of Payments records transactions between residents and non-residents using double-entry accounting. The current account covers goods, services, primary income and transfers; financial flows and reserve changes finance the balance. External debt is a liability stock, not the same as the current-account flow."
+      },
+      {
+        "prompt": "What is the fastest prelims elimination rule?",
+        "answer": "Do not call every foreign inflow export revenue."
+      },
+      {
+        "prompt": "Which Indian example best anchors a mains answer?",
+        "answer": "Software service exports as current-account credits."
+      },
+      {
+        "prompt": "Which official source should refresh changing figures?",
+        "answer": "RBI Balance of Payments, external debt and reserve publications, Ministry of Commerce trade data and latest Economic Survey"
+      }
+    ]
+  },
+  "story": "A current-account deficit is not a clerical error; it means domestic spending exceeds income and must be financed through net capital inflow, reserve use or adjustment. Its risk depends on purpose, duration and currency of financing rather than the sign alone.",
+  "core_concept": "The Balance of Payments records transactions between residents and non-residents using double-entry accounting. The current account covers goods, services, primary income and transfers; financial flows and reserve changes finance the balance. External debt is a liability stock, not the same as the current-account flow.",
+  "mnemonic": "C-F-R-D: Current, Finance, Reserves, Debt.",
+  "mindmap_json": {
+    "center": "Balance of Payments, Current Account and External Debt",
+    "branches": [
+      {
+        "label": "Mechanism",
+        "children": [
+          "Trade balance records merchandise exports minus imports, while services can offset or deepen it.",
+          "Primary income includes compensation and investment income; secondary income includes transfers such as remittances."
+        ]
+      },
+      {
+        "label": "Transmission",
+        "children": [
+          "Financial account records direct, portfolio, debt and other investment transactions under current statistical conventions.",
+          "Reserve change reflects central-bank transactions and provides a buffer, not free national wealth."
+        ]
+      },
+      {
+        "label": "Policy",
+        "children": [
+          "External debt risk depends on currency, maturity, interest, holder, hedging and export or reserve cover.",
+          "Sustainability: a deficit financing productive capacity differs from volatile short-term financing of consumption."
+        ]
+      },
+      {
+        "label": "Traps",
+        "children": [
+          "Do not call every foreign inflow export revenue.",
+          "Do not equate current-account deficit with total external debt.",
+          "Do not treat reserve use as a permanent substitute for adjustment."
+        ]
+      }
+    ]
+  },
+  "key_facts": [
+    "BoP uses double-entry accounting.",
+    "Trade balance covers goods.",
+    "The current account includes goods, services, income and transfers.",
+    "FDI is a financial-account flow.",
+    "External debt is a stock.",
+    "Reserves are central-bank external assets."
+  ],
+  "common_traps": [
+    "Do not call every foreign inflow export revenue.",
+    "Do not equate current-account deficit with total external debt.",
+    "Do not treat reserve use as a permanent substitute for adjustment."
+  ],
+  "pyq_refs": [
+    {
+      "year": 2021,
+      "exam": "UPSC CSE Prelims",
+      "question": "PYQ pattern: statement and mechanism testing within Balance of Payments, Current Account and External Debt.",
+      "answer": "Resolve each statement through the governing identity, direction of change and institutional role.",
+      "pattern_note": "PYQs test current versus capital entries, remittances, FDI/FPI, reserves and currency-crisis vulnerability. Identify residency, claim type, flow direction and whether the item is income, transfer or finance."
+    },
+    {
+      "year": 2018,
+      "exam": "UPSC CSE Mains",
+      "question": "PYQ pattern: analyse the Indian policy implications of Balance of Payments, Current Account and External Debt.",
+      "answer": "Use a causal chain, one Indian example, distributional effects and a calibrated reform path.",
+      "pattern_note": "Mains rewards mechanism plus policy trade-off, not a list of schemes."
+    }
+  ],
+  "pyq_count": 10,
+  "last_asked": 2021,
+  "high_yield": true,
+  "read_time_mins": 13,
+  "difficulty": "Hard",
+  "status": "published",
+  "source_type": "uploaded-economy-static-pyq-secondary",
+  "version": 1,
+  "created_at": "2026-07-01T00:00:00+05:30",
+  "updated_at": "2026-07-01T00:00:00+05:30"
+}

@@ -1,0 +1,152 @@
+{
+  "id": "local-eco-030",
+  "section": "Economy",
+  "category": "Global Economy",
+  "topic": "IMF, World Bank and Multilateral Development Banks",
+  "subtopic": "Mandates, financing instruments, voting, conditionality, development lending and governance reform",
+  "slug": "economy-global-financial-development-institutions",
+  "anatomy": "upsc12",
+  "content": {
+    "issueStory": "The IMF and World Bank were created in the same historical moment but solve different problems. One centres on international monetary stability and balance-of-payments support; the other family finances development, reconstruction and private-sector projects.",
+    "coreConcept": "International financial institutions differ by mandate, membership, capital, voting, clients and instruments. The IMF provides surveillance, technical assistance and temporary external financing; the World Bank Group and regional or newer development banks finance development through sovereign and private windows.",
+    "dimensions": [
+      "IMF mandate: monetary cooperation, surveillance, crisis lending and capacity development.",
+      "World Bank Group: IBRD, IDA, IFC, MIGA and ICSID perform distinct lending, private-investment, guarantee or dispute functions.",
+      "MDB finance: paid-in and callable capital support borrowing and long-term project or policy finance.",
+      "Conditionality: programme conditions seek adjustment and repayment capacity but may create social and ownership concerns.",
+      "Governance: quota or shareholding affects voting, access and legitimacy debates.",
+      "Development challenge: climate, global public goods, debt distress and project preparation pressure institutions to expand and reform."
+    ],
+    "constitutionalLink": "Parliamentary approval, sovereign borrowing powers, treaty commitments and domestic project safeguards shape India’s engagement with multilateral institutions.",
+    "dataReport": "Uploaded source basis: STATIC_01_Economy.pdf IMF, World Bank, WTO and multilateral-organisation sections plus PYQ institution-mandate patterns. Refresh rates, targets, weights, thresholds and year-specific figures from official sources: IMF and World Bank Group institutional pages, AIIB, New Development Bank and Government of India multilateral-finance releases. Stable mechanisms belong in this note; current values must be dated in an answer.",
+    "caseStudy": "IMF support during an external financing crisis addresses macroeconomic and BoP adjustment, whereas a development-bank loan may finance a multi-year infrastructure or social-sector programme.",
+    "argumentsFor": [
+      "Institutions pool capital and expertise.",
+      "Crisis finance can reduce disorderly adjustment.",
+      "MDBs can fund long-horizon public investment."
+    ],
+    "argumentsAgainst": [
+      "Conditionality can impose uneven social costs.",
+      "Voting power may lag current economic realities.",
+      "Project lending can create debt and safeguard concerns."
+    ],
+    "pyqLink": "PYQs test institutional components, mandates, voting and funding windows. Match institution, client, purpose and instrument rather than relying on a shared Bretton Woods label.",
+    "answerFramework": {
+      "intro": "IMF, World Bank and Multilateral Development Banks should be introduced through its economic identity or causal mechanism before moving to Indian institutions and policy trade-offs.",
+      "body": [
+        "Classify IMF, World Bank Group and other MDB mandates.",
+        "Compare capital, voting, client and instrument.",
+        "Evaluate crisis stability, development additionality and conditionality.",
+        "Conclude with voice reform, stronger safeguards and global-public-good finance."
+      ],
+      "conclusion": "A high-scoring Economy answer keeps the accounting correct, traces transmission, identifies winners and losers, and separates stable principles from changing policy values."
+    },
+    "mainsExamples": [
+      "IMF balance-of-payments programme.",
+      "IDA concessional development finance.",
+      "IFC investment in private-sector projects."
+    ],
+    "prelimsFacts": [
+      "IMF and World Bank have distinct core mandates.",
+      "IBRD and IDA are parts of the World Bank.",
+      "IFC focuses on private-sector development.",
+      "MIGA provides political-risk guarantees.",
+      "MDBs can leverage shareholder capital through market borrowing.",
+      "Voting is not one-country-one-vote in major shareholder institutions."
+    ],
+    "revisionBox": [
+      {
+        "prompt": "What is the central mechanism in IMF, World Bank and Multilateral Development Banks?",
+        "answer": "International financial institutions differ by mandate, membership, capital, voting, clients and instruments. The IMF provides surveillance, technical assistance and temporary external financing; the World Bank Group and regional or newer development banks finance development through sovereign and private windows."
+      },
+      {
+        "prompt": "What is the fastest prelims elimination rule?",
+        "answer": "Do not call the IMF a routine infrastructure project bank."
+      },
+      {
+        "prompt": "Which Indian example best anchors a mains answer?",
+        "answer": "IMF balance-of-payments programme."
+      },
+      {
+        "prompt": "Which official source should refresh changing figures?",
+        "answer": "IMF and World Bank Group institutional pages, AIIB, New Development Bank and Government of India multilateral-finance releases"
+      }
+    ]
+  },
+  "story": "The IMF and World Bank were created in the same historical moment but solve different problems. One centres on international monetary stability and balance-of-payments support; the other family finances development, reconstruction and private-sector projects.",
+  "core_concept": "International financial institutions differ by mandate, membership, capital, voting, clients and instruments. The IMF provides surveillance, technical assistance and temporary external financing; the World Bank Group and regional or newer development banks finance development through sovereign and private windows.",
+  "mnemonic": "M-C-F-G: Mandate, Client, Finance, Governance.",
+  "mindmap_json": {
+    "center": "IMF, World Bank and Multilateral Development Banks",
+    "branches": [
+      {
+        "label": "Mechanism",
+        "children": [
+          "IMF mandate: monetary cooperation, surveillance, crisis lending and capacity development.",
+          "World Bank Group: IBRD, IDA, IFC, MIGA and ICSID perform distinct lending, private-investment, guarantee or dispute functions."
+        ]
+      },
+      {
+        "label": "Transmission",
+        "children": [
+          "MDB finance: paid-in and callable capital support borrowing and long-term project or policy finance.",
+          "Conditionality: programme conditions seek adjustment and repayment capacity but may create social and ownership concerns."
+        ]
+      },
+      {
+        "label": "Policy",
+        "children": [
+          "Governance: quota or shareholding affects voting, access and legitimacy debates.",
+          "Development challenge: climate, global public goods, debt distress and project preparation pressure institutions to expand and reform."
+        ]
+      },
+      {
+        "label": "Traps",
+        "children": [
+          "Do not call the IMF a routine infrastructure project bank.",
+          "Do not equate the World Bank with the entire World Bank Group.",
+          "Do not assume every multilateral institution uses identical voting rules."
+        ]
+      }
+    ]
+  },
+  "key_facts": [
+    "IMF and World Bank have distinct core mandates.",
+    "IBRD and IDA are parts of the World Bank.",
+    "IFC focuses on private-sector development.",
+    "MIGA provides political-risk guarantees.",
+    "MDBs can leverage shareholder capital through market borrowing.",
+    "Voting is not one-country-one-vote in major shareholder institutions."
+  ],
+  "common_traps": [
+    "Do not call the IMF a routine infrastructure project bank.",
+    "Do not equate the World Bank with the entire World Bank Group.",
+    "Do not assume every multilateral institution uses identical voting rules."
+  ],
+  "pyq_refs": [
+    {
+      "year": 2021,
+      "exam": "UPSC CSE Prelims",
+      "question": "PYQ pattern: statement and mechanism testing within IMF, World Bank and Multilateral Development Banks.",
+      "answer": "Resolve each statement through the governing identity, direction of change and institutional role.",
+      "pattern_note": "PYQs test institutional components, mandates, voting and funding windows. Match institution, client, purpose and instrument rather than relying on a shared Bretton Woods label."
+    },
+    {
+      "year": 2018,
+      "exam": "UPSC CSE Mains",
+      "question": "PYQ pattern: analyse the Indian policy implications of IMF, World Bank and Multilateral Development Banks.",
+      "answer": "Use a causal chain, one Indian example, distributional effects and a calibrated reform path.",
+      "pattern_note": "Mains rewards mechanism plus policy trade-off, not a list of schemes."
+    }
+  ],
+  "pyq_count": 10,
+  "last_asked": 2021,
+  "high_yield": true,
+  "read_time_mins": 13,
+  "difficulty": "Hard",
+  "status": "published",
+  "source_type": "uploaded-economy-static-pyq-secondary",
+  "version": 1,
+  "created_at": "2026-07-01T00:00:00+05:30",
+  "updated_at": "2026-07-01T00:00:00+05:30"
+}

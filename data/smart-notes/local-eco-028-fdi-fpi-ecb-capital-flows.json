@@ -1,0 +1,152 @@
+{
+  "id": "local-eco-028",
+  "section": "Economy",
+  "category": "External Sector",
+  "topic": "FDI, FPI, ECBs and Capital-Flow Management",
+  "subtopic": "Ownership and control, portfolio liquidity, foreign debt, benefits, volatility and macroprudential policy",
+  "slug": "economy-fdi-fpi-ecb-capital-flows",
+  "anatomy": "upsc12",
+  "content": {
+    "issueStory": "Foreign capital is not one substance. FDI may bring a durable ownership stake and management influence; portfolio investment can enter and exit traded markets quickly; external borrowing creates contractual repayment regardless of project success.",
+    "coreConcept": "Capital flows differ by claim, control, maturity, currency and risk sharing. FDI is a lasting direct-investment relationship under statistical thresholds; FPI holds tradable securities without comparable control; ECB creates foreign debt. Policy must weigh finance and technology against volatility and vulnerability.",
+    "dimensions": [
+      "FDI channel: greenfield, brownfield, joint venture or acquisition can bring capital, technology, management and market access.",
+      "FPI channel: liquid equity and debt flows deepen markets but respond quickly to global risk and yield changes.",
+      "ECB channel: maturity, currency, all-in cost, end use and hedging determine debt risk.",
+      "Push-pull factors: global liquidity and risk combine with domestic growth, rates, institutions and valuation.",
+      "Macro effects: inflows influence exchange rates, reserves, asset prices, credit and monetary autonomy.",
+      "Management: entry norms, maturity rules, prudential limits, taxation, reserve buffers and temporary flow measures target composition and risk."
+    ],
+    "constitutionalLink": "FEMA rules, sectoral FDI policy, RBI external-borrowing directions, SEBI portfolio regulation and competition review govern capital flows.",
+    "dataReport": "Uploaded source basis: STATIC_01_Economy.pdf foreign investment and external-sector sections plus PYQ FDI-FPI patterns. Refresh rates, targets, weights, thresholds and year-specific figures from official sources: DPIIT FDI policy and factsheets, RBI capital-flow data, SEBI portfolio statistics and current ECB directions. Stable mechanisms belong in this note; current values must be dated in an answer.",
+    "caseStudy": "A global risk-off episode can trigger portfolio outflow, currency pressure and bond-yield movement even when long-term FDI projects continue operating.",
+    "argumentsFor": [
+      "FDI can add technology and supply-chain links.",
+      "FPI broadens market funding and liquidity.",
+      "ECB can finance long-lived projects when risks are matched."
+    ],
+    "argumentsAgainst": [
+      "Portfolio flows can reverse abruptly.",
+      "Unhedged foreign debt creates currency mismatch.",
+      "Acquisition FDI may not add new capacity automatically."
+    ],
+    "pyqLink": "PYQs test FDI versus FPI, debt versus equity and effects of capital inflow. Identify control, tradability, repayment obligation and currency risk.",
+    "answerFramework": {
+      "intro": "FDI, FPI, ECBs and Capital-Flow Management should be introduced through its economic identity or causal mechanism before moving to Indian institutions and policy trade-offs.",
+      "body": [
+        "Classify flows by ownership, control, debt and maturity.",
+        "Explain push and pull determinants.",
+        "Assess technology, market-depth, volatility and currency effects.",
+        "Recommend stable composition, hedging, prudential rules and transparent entry policy."
+      ],
+      "conclusion": "A high-scoring Economy answer keeps the accounting correct, traces transmission, identifies winners and losers, and separates stable principles from changing policy values."
+    },
+    "mainsExamples": [
+      "Greenfield manufacturing FDI creating new capacity.",
+      "Foreign portfolio purchase of listed government or corporate securities.",
+      "ECB funding a project with foreign-currency repayment exposure."
+    ],
+    "prelimsFacts": [
+      "FDI is an ownership investment with a lasting-interest criterion.",
+      "FPI is generally more liquid and tradable.",
+      "ECB creates a debt obligation.",
+      "Equity shares risk; debt requires contractual service.",
+      "Capital inflows can add to reserves through intervention.",
+      "Hedging can reduce but not always eliminate currency risk."
+    ],
+    "revisionBox": [
+      {
+        "prompt": "What is the central mechanism in FDI, FPI, ECBs and Capital-Flow Management?",
+        "answer": "Capital flows differ by claim, control, maturity, currency and risk sharing. FDI is a lasting direct-investment relationship under statistical thresholds; FPI holds tradable securities without comparable control; ECB creates foreign debt. Policy must weigh finance and technology against volatility and vulnerability."
+      },
+      {
+        "prompt": "What is the fastest prelims elimination rule?",
+        "answer": "Do not call every foreign equity purchase FDI."
+      },
+      {
+        "prompt": "Which Indian example best anchors a mains answer?",
+        "answer": "Greenfield manufacturing FDI creating new capacity."
+      },
+      {
+        "prompt": "Which official source should refresh changing figures?",
+        "answer": "DPIIT FDI policy and factsheets, RBI capital-flow data, SEBI portfolio statistics and current ECB directions"
+      }
+    ]
+  },
+  "story": "Foreign capital is not one substance. FDI may bring a durable ownership stake and management influence; portfolio investment can enter and exit traded markets quickly; external borrowing creates contractual repayment regardless of project success.",
+  "core_concept": "Capital flows differ by claim, control, maturity, currency and risk sharing. FDI is a lasting direct-investment relationship under statistical thresholds; FPI holds tradable securities without comparable control; ECB creates foreign debt. Policy must weigh finance and technology against volatility and vulnerability.",
+  "mnemonic": "C-L-D-R: Control, Liquidity, Debt, Risk.",
+  "mindmap_json": {
+    "center": "FDI, FPI, ECBs and Capital-Flow Management",
+    "branches": [
+      {
+        "label": "Mechanism",
+        "children": [
+          "FDI channel: greenfield, brownfield, joint venture or acquisition can bring capital, technology, management and market access.",
+          "FPI channel: liquid equity and debt flows deepen markets but respond quickly to global risk and yield changes."
+        ]
+      },
+      {
+        "label": "Transmission",
+        "children": [
+          "ECB channel: maturity, currency, all-in cost, end use and hedging determine debt risk.",
+          "Push-pull factors: global liquidity and risk combine with domestic growth, rates, institutions and valuation."
+        ]
+      },
+      {
+        "label": "Policy",
+        "children": [
+          "Macro effects: inflows influence exchange rates, reserves, asset prices, credit and monetary autonomy.",
+          "Management: entry norms, maturity rules, prudential limits, taxation, reserve buffers and temporary flow measures target composition and risk."
+        ]
+      },
+      {
+        "label": "Traps",
+        "children": [
+          "Do not call every foreign equity purchase FDI.",
+          "Do not say FDI cannot involve acquisition.",
+          "Do not treat ECB as non-debt capital."
+        ]
+      }
+    ]
+  },
+  "key_facts": [
+    "FDI is an ownership investment with a lasting-interest criterion.",
+    "FPI is generally more liquid and tradable.",
+    "ECB creates a debt obligation.",
+    "Equity shares risk; debt requires contractual service.",
+    "Capital inflows can add to reserves through intervention.",
+    "Hedging can reduce but not always eliminate currency risk."
+  ],
+  "common_traps": [
+    "Do not call every foreign equity purchase FDI.",
+    "Do not say FDI cannot involve acquisition.",
+    "Do not treat ECB as non-debt capital."
+  ],
+  "pyq_refs": [
+    {
+      "year": 2021,
+      "exam": "UPSC CSE Prelims",
+      "question": "PYQ pattern: statement and mechanism testing within FDI, FPI, ECBs and Capital-Flow Management.",
+      "answer": "Resolve each statement through the governing identity, direction of change and institutional role.",
+      "pattern_note": "PYQs test FDI versus FPI, debt versus equity and effects of capital inflow. Identify control, tradability, repayment obligation and currency risk."
+    },
+    {
+      "year": 2018,
+      "exam": "UPSC CSE Mains",
+      "question": "PYQ pattern: analyse the Indian policy implications of FDI, FPI, ECBs and Capital-Flow Management.",
+      "answer": "Use a causal chain, one Indian example, distributional effects and a calibrated reform path.",
+      "pattern_note": "Mains rewards mechanism plus policy trade-off, not a list of schemes."
+    }
+  ],
+  "pyq_count": 10,
+  "last_asked": 2021,
+  "high_yield": true,
+  "read_time_mins": 13,
+  "difficulty": "Hard",
+  "status": "published",
+  "source_type": "uploaded-economy-static-pyq-secondary",
+  "version": 1,
+  "created_at": "2026-07-01T00:00:00+05:30",
+  "updated_at": "2026-07-01T00:00:00+05:30"
+}
