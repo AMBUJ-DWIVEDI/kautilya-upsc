@@ -1,0 +1,128 @@
+{
+  "id": "local-pol-109",
+  "section": "Polity",
+  "category": "Judiciary",
+  "topic": "Indian Judiciary, Judicial Review and Tribunals",
+  "subtopic": "Supreme Court, High Courts, subordinate courts, appointments, PIL, ADR, Lok Adalat, tribunals and judicial doctrines",
+  "slug": "polity-judiciary-judicial-review-tribunals",
+  "anatomy": "upsc12",
+  "content": {
+    "issueStory": "The judiciary is the Constitution's referee, but UPSC does not ask it only as a guardian angel. It asks jurisdiction, appointment, removal, writs, review, independence, tribunals, PIL, Lok Adalat, advisory jurisdiction, appellate routes, contempt, collegium and separation of powers. The danger is to praise judicial review without knowing the institutional mechanics. The command method is to map each court by composition, appointment, tenure, jurisdiction, removal and power. Then add the debate: independence versus accountability, activism versus overreach, access versus delay.",
+    "coreConcept": "India has an integrated judicial system headed by the Supreme Court, followed by High Courts and subordinate courts. The Supreme Court has original, writ, appellate, advisory and review jurisdictions. High Courts have writ jurisdiction under Article 226, wider than Article 32 in scope because it can be used for legal rights beyond Fundamental Rights. Judicial review allows courts to examine constitutionality of legislative and executive actions. Judges have security of tenure and removal through a special process. The collegium system evolved through judges cases. PIL expanded access to justice. ADR, Lok Adalats, Gram Nyayalayas, commercial courts and tribunals seek faster dispute resolution but raise questions of independence and jurisdiction.",
+    "dimensions": [
+      "Structure dimension: integrated judiciary connects Supreme Court, High Courts and subordinate courts.",
+      "Jurisdiction dimension: original, appellate, advisory, writ, review and special leave powers must be separated.",
+      "Independence dimension: appointment, tenure, salary, removal and contempt powers protect judicial independence.",
+      "Access dimension: PIL, legal services, Lok Adalat and ADR improve access but need safeguards.",
+      "Tribunal dimension: specialized adjudication can improve speed but must preserve independence.",
+      "PYQ dimension: UPSC asks Article 32/226, appointment/removal, advisory jurisdiction, PIL, tribunals and doctrines."
+    ],
+    "constitutionalLink": "Articles 124-147 for Supreme Court, Articles 214-231 for High Courts, Articles 233-237 for subordinate courts, Article 32, Article 136, Article 141, Article 142, Article 143, Article 226, Article 227 and tribunal provisions.",
+    "dataReport": "Static source: STATIC_09_Polity.pdf, Indian Judicial System chapter. PYQ source: PYQ_06_Polity_Governance.pdf, Unit 4 Judiciary. Update current judgments from official/reliable legal sources when needed.",
+    "caseStudy": "PIL transformed standing rules by allowing public-spirited litigation for rights of disadvantaged groups, but its misuse has also raised concerns of judicial time and policy intrusion.",
+    "argumentsFor": [
+      "Judicial review protects constitutional supremacy and Fundamental Rights.",
+      "Integrated judiciary ensures uniform interpretation of law.",
+      "PIL and legal services improve access to justice.",
+      "Tribunals and ADR can reduce burden on regular courts."
+    ],
+    "argumentsAgainst": [
+      "Judicial delays weaken access and trust.",
+      "Collegium system faces transparency and accountability concerns.",
+      "Judicial overreach can disturb separation of powers.",
+      "Tribunals may suffer from executive dominance if safeguards are weak."
+    ],
+    "pyqLink": "UPSC asks judiciary through Article 32 versus 226, Article 142, judicial review, appointment/removal, tribunals, PIL, Lok Adalat and advisory jurisdiction. The rule is court, article, jurisdiction, remedy and limitation.",
+    "answerFramework": {
+      "intro": "India's judiciary is an integrated and independent institution designed to interpret law, protect rights and maintain constitutional supremacy.",
+      "body": [
+        "Explain structure: Supreme Court, High Courts and subordinate judiciary.",
+        "Classify jurisdictions and writ powers.",
+        "Discuss judicial review, PIL, Article 142 and constitutional doctrines.",
+        "Evaluate challenges: delay, appointments, accountability, tribunals and overreach."
+      ],
+      "conclusion": "Judicial legitimacy depends on independence, restraint, accessibility and timely justice."
+    },
+    "mainsExamples": [
+      "Use Article 142 for complete justice debates.",
+      "Use Article 226 to compare High Court writ scope with Article 32.",
+      "Use tribunal reforms to discuss specialized justice and independence."
+    ],
+    "prelimsFacts": [
+      "Article 32 gives Supreme Court writ jurisdiction for Fundamental Rights.",
+      "Article 226 gives High Courts writ jurisdiction with wider scope.",
+      "Article 143 provides advisory jurisdiction of the Supreme Court.",
+      "Article 141 says law declared by Supreme Court is binding on all courts in India.",
+      "Lok Adalats are linked with legal services and compromise-based dispute resolution."
+    ],
+    "revisionBox": [
+      {
+        "prompt": "How is Article 226 wider than Article 32?",
+        "answer": "High Courts can issue writs for Fundamental Rights and other legal rights; Article 32 is for Fundamental Rights."
+      },
+      {
+        "prompt": "What is judicial review?",
+        "answer": "Power of courts to examine constitutionality of legislative and executive actions."
+      },
+      {
+        "prompt": "What is Article 143?",
+        "answer": "Advisory jurisdiction of the Supreme Court."
+      },
+      {
+        "prompt": "What is the judiciary PYQ rule?",
+        "answer": "Court, article, jurisdiction, remedy and limitation."
+      }
+    ]
+  },
+  "story": "Judiciary questions are not only about justice, but jurisdiction, remedy and limits.",
+  "core_concept": "The judiciary protects constitutional supremacy through integrated courts, writs, review, PIL and specialized justice mechanisms.",
+  "mnemonic": "CAJRL: Court, Article, Jurisdiction, Remedy, Limit.",
+  "mindmap_json": {
+    "center": "Judiciary",
+    "branches": [
+      { "label": "Courts", "children": ["Supreme Court", "High Courts", "Subordinate"] },
+      { "label": "Jurisdiction", "children": ["Original", "Appellate", "Writ", "Advisory"] },
+      { "label": "Powers", "children": ["Review", "Article 142", "Contempt"] },
+      { "label": "Access", "children": ["PIL", "Legal aid", "Lok Adalat", "ADR"] },
+      { "label": "Debates", "children": ["Delay", "Collegium", "Overreach", "Tribunals"] }
+    ]
+  },
+  "key_facts": [
+    "India has an integrated judiciary.",
+    "Supreme Court judges are removed by a special parliamentary process.",
+    "High Courts can issue writs under Article 226.",
+    "Judicial review is part of basic structure.",
+    "Tribunals are specialized adjudicatory bodies."
+  ],
+  "common_traps": [
+    "Do not say Article 32 and Article 226 have identical scope.",
+    "Do not confuse advisory opinion with binding appellate judgment.",
+    "Do not assume tribunals can ignore judicial independence requirements."
+  ],
+  "pyq_refs": [
+    {
+      "year": 2023,
+      "exam": "UPSC CSE Prelims",
+      "question": "PYQ pattern: Article 142 and Supreme Court powers.",
+      "answer": "Article 142 enables complete justice within constitutional limits.",
+      "pattern_note": "Recent questions test deeper judicial provisions."
+    },
+    {
+      "year": 2020,
+      "exam": "UPSC CSE Prelims",
+      "question": "PYQ pattern: tribunals and judicial review.",
+      "answer": "Specialized bodies remain subject to constitutional supervision.",
+      "pattern_note": "Tribunal questions blend governance and constitutional law."
+    }
+  ],
+  "pyq_count": 17,
+  "last_asked": 2023,
+  "high_yield": true,
+  "read_time_mins": 14,
+  "difficulty": "Hard",
+  "status": "published",
+  "source_type": "uploaded-polity-static-pyq",
+  "version": 1,
+  "created_at": "2026-06-30T00:00:00+05:30",
+  "updated_at": "2026-06-30T00:00:00+05:30"
+}

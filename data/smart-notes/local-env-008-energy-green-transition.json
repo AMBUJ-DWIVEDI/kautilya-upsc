@@ -1,0 +1,122 @@
+{
+  "id": "local-env-008",
+  "section": "Environment",
+  "category": "Energy",
+  "topic": "Energy and the Green Transition",
+  "subtopic": "Energy sources, biofuel, hydrogen, critical minerals and conservation measures",
+  "slug": "environment-energy-green-transition",
+  "anatomy": "upsc12",
+  "content": {
+    "issueStory": "Energy is where environment meets economy. Aspirants often reduce it to solar, wind and hydrogen, but UPSC asks trade-offs: renewable intermittency, storage, land use, grid stability, biofuel feedstock, critical minerals, green hydrogen cost, energy access and just transition. The right answer is not fossil versus renewable as a slogan. It is energy security, affordability, sustainability and technology capability moving together.",
+    "coreConcept": "Energy sources include fossil fuels, nuclear energy and renewables such as solar, wind, hydro, biomass and geothermal. The green transition aims to reduce emissions while maintaining energy security and affordability. Biofuels can reduce petroleum dependence but raise feedstock, land and food security concerns. Hydrogen, especially green hydrogen produced using renewable electricity, can help decarbonize hard-to-abate sectors. Critical minerals such as lithium, cobalt, nickel and rare earths are essential for batteries, electric vehicles, wind turbines and electronics. Energy conservation includes efficiency, demand management, standards, public transport, cleaner industry and behavioural change.",
+    "dimensions": [
+      "Security dimension: India must balance import dependence, domestic resources, grid reliability and strategic reserves.",
+      "Climate dimension: clean energy reduces emissions but requires storage, transmission and industrial transition.",
+      "Technology dimension: batteries, green hydrogen, smart grids, pumped storage and efficiency standards matter.",
+      "Resource dimension: critical minerals create new supply-chain dependencies and environmental risks.",
+      "Equity dimension: energy transition must protect affordability, access and workers in fossil-fuel-linked regions.",
+      "Prelims dimension: UPSC asks energy source features, biofuel generations, hydrogen types, critical minerals and conservation measures."
+    ],
+    "constitutionalLink": "Energy policy connects with environmental duties under Articles 48A and 51A(g), development under DPSP logic, and federal coordination across electricity, industry, transport and local governance.",
+    "dataReport": "Static source: STATIC_04_Environment.pdf, chapter 8. Coverage includes major energy sources, biofuel, hydrogen as fuel, critical minerals in green transition and energy conservation measures.",
+    "caseStudy": "Green hydrogen illustrates transition complexity: it can decarbonize fertilizer, refining, steel and heavy transport, but needs cheap renewable power, electrolyzers, water, storage, transport infrastructure and demand creation.",
+    "argumentsFor": [
+      "Renewable energy reduces long-term emissions and import vulnerability.",
+      "Energy efficiency is often the cheapest form of emission reduction.",
+      "Green hydrogen can help sectors that are difficult to electrify directly.",
+      "Critical mineral strategy can build industrial capability and supply security."
+    ],
+    "argumentsAgainst": [
+      "Renewable intermittency requires storage and grid balancing.",
+      "Biofuels can create land, water and food-fuel conflicts.",
+      "Critical mineral mining can create ecological and social harm.",
+      "A rapid transition without worker and regional planning can create economic stress."
+    ],
+    "pyqLink": "PYQ pattern: energy questions ask renewables, biofuel generations, hydrogen types, critical minerals, ethanol blending, electric vehicles and energy efficiency instruments. Always state the benefit and the trade-off.",
+    "answerFramework": {
+      "intro": "The green energy transition seeks to reduce emissions while preserving energy security, affordability and access.",
+      "body": [
+        "Classify energy sources into fossil, nuclear and renewable categories.",
+        "Explain transition tools: renewables, efficiency, biofuels, green hydrogen, storage and electrification.",
+        "Discuss constraints: intermittency, minerals, land, finance, technology and just transition.",
+        "Suggest policy actions: grid upgrades, domestic manufacturing, recycling, standards and targeted subsidies."
+      ],
+      "conclusion": "India's energy future must be clean, secure, affordable and strategically resilient."
+    },
+    "mainsExamples": [
+      "Use green hydrogen for hard-to-abate sectors.",
+      "Use ethanol blending to discuss biofuel opportunities and feedstock constraints.",
+      "Use critical minerals to connect energy transition with strategic autonomy."
+    ],
+    "prelimsFacts": [
+      "Green hydrogen is produced using renewable electricity.",
+      "Biofuels can be categorized by feedstock generations.",
+      "Critical minerals are essential for batteries, EVs and renewable technologies.",
+      "Energy efficiency reduces demand without reducing useful output.",
+      "Renewable energy integration requires grid flexibility and storage."
+    ],
+    "revisionBox": [
+      {
+        "prompt": "Why is energy transition not only an environment issue?",
+        "answer": "It also involves security, affordability, technology, minerals, jobs and industrial policy."
+      },
+      {
+        "prompt": "What is green hydrogen?",
+        "answer": "Hydrogen produced through electrolysis using renewable electricity."
+      },
+      {
+        "prompt": "What is the critical mineral trap?",
+        "answer": "Clean energy technologies can create new mining and supply-chain vulnerabilities."
+      },
+      {
+        "prompt": "What is the best Mains framing?",
+        "answer": "Energy security, climate mitigation, affordability and just transition."
+      }
+    ]
+  },
+  "story": "Clean energy is not a switch; it is a system transition.",
+  "core_concept": "The green transition requires renewable energy, efficiency, hydrogen, critical minerals, storage and just transition planning.",
+  "mnemonic": "SHARE: Security, Hydrogen, Affordability, Renewables, Efficiency.",
+  "mindmap_json": {
+    "center": "Energy Transition",
+    "branches": [
+      { "label": "Sources", "children": ["Fossil", "Nuclear", "Renewable"] },
+      { "label": "Tools", "children": ["Solar", "Hydrogen", "Biofuel"] },
+      { "label": "Minerals", "children": ["Lithium", "Cobalt", "Rare earths"] },
+      { "label": "Constraints", "children": ["Storage", "Grid", "Land"] },
+      { "label": "Policy", "children": ["Efficiency", "Manufacturing", "Just transition"] }
+    ]
+  },
+  "key_facts": [
+    "Energy efficiency reduces demand-side pressure.",
+    "Hydrogen is an energy carrier, not a primary energy source.",
+    "Green hydrogen depends on renewable electricity.",
+    "Critical minerals are central to batteries and clean technologies.",
+    "Biofuels can reduce oil dependence but need sustainable feedstock."
+  ],
+  "common_traps": [
+    "Do not call all hydrogen green.",
+    "Do not ignore intermittency in renewable energy answers.",
+    "Do not treat critical minerals as environmentally cost-free.",
+    "Do not discuss biofuels without land and food-security trade-offs."
+  ],
+  "pyq_refs": [
+    {
+      "year": 2022,
+      "exam": "UPSC CSE Prelims",
+      "question": "PYQ pattern: biofuel, hydrogen and renewable energy statement analysis.",
+      "answer": "Check feedstock, production method and application carefully.",
+      "pattern_note": "Energy questions increasingly connect technology with environment policy."
+    }
+  ],
+  "pyq_count": 8,
+  "last_asked": 2022,
+  "high_yield": true,
+  "read_time_mins": 10,
+  "difficulty": "Medium",
+  "status": "published",
+  "source_type": "uploaded-environment-static",
+  "version": 1,
+  "created_at": "2026-06-30T00:00:00+05:30",
+  "updated_at": "2026-06-30T00:00:00+05:30"
+}

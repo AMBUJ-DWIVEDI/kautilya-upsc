@@ -1,0 +1,128 @@
+{
+  "id": "local-pol-105",
+  "section": "Polity",
+  "category": "DPSP",
+  "topic": "Directive Principles, Fundamental Duties and Rights-Duties Balance",
+  "subtopic": "Articles 36-51, Article 51A, classifications, FR-DPSP conflict and constitutional morality",
+  "slug": "polity-dpsp-fundamental-duties-rights-balance",
+  "anatomy": "upsc12",
+  "content": {
+    "issueStory": "If Fundamental Rights are the shield, Directive Principles are the social mission and Fundamental Duties are the civic ethic. UPSC asks this triangle because Indian constitutionalism is not only about limiting the State; it is also about building a just society. The trap is to call DPSPs non-justiciable and move on. They are non-justiciable but fundamental in governance. They shaped land reforms, welfare policy, panchayats, environment, equal justice, education, labour protection and cooperative societies. Duties are also not directly enforceable as a full code, but they influence civic conduct, law-making and judicial reasoning.",
+    "coreConcept": "Directive Principles of State Policy are in Part IV, Articles 36-51. They are non-justiciable but fundamental in governance and guide the State in making laws. DPSPs are often classified as socialist, Gandhian and liberal-intellectual principles. Fundamental Duties are in Part IVA, Article 51A, added by the 42nd Amendment and expanded later. Duties include respect for Constitution, national symbols, sovereignty, harmony, heritage, environment, scientific temper, public property and excellence. The relationship between Fundamental Rights and DPSPs evolved through cases such as Champakam Dorairajan, Golaknath, Kesavananda Bharati and Minerva Mills, with the modern view emphasizing harmony and balance.",
+    "dimensions": [
+      "Governance dimension: DPSPs guide social justice, welfare, decentralization, environment and economic democracy.",
+      "Justiciability dimension: FRs are enforceable; DPSPs are non-justiciable but fundamental in governance.",
+      "Civic dimension: Fundamental Duties express citizen obligations toward Constitution, society and environment.",
+      "Conflict dimension: rights and directives must be harmonized, not treated as permanent enemies.",
+      "Policy dimension: many welfare laws draw legitimacy from DPSPs.",
+      "PYQ dimension: UPSC asks article matching, classification, amendments and FR-DPSP case law."
+    ],
+    "constitutionalLink": "Part IV Articles 36-51, Part IVA Article 51A, Articles 14, 19, 21, 31C, 39(b), 39(c), 40, 44, 45, 48A and key cases such as Minerva Mills.",
+    "dataReport": "Static source: STATIC_09_Polity.pdf, DPSP and Fundamental Duties chapters. PYQ source: PYQ_06_Polity_Governance.pdf, Unit 2 Foundations of the Constitution.",
+    "caseStudy": "Minerva Mills emphasized harmony between Fundamental Rights and DPSPs, holding that giving absolute primacy to one over the other disturbs constitutional balance.",
+    "argumentsFor": [
+      "DPSPs push the State toward welfare, equality and social transformation.",
+      "Fundamental Duties cultivate constitutional citizenship and civic responsibility.",
+      "Harmony between rights and directives supports both liberty and social justice.",
+      "Courts use DPSPs and duties to interpret laws and expand rights."
+    ],
+    "argumentsAgainst": [
+      "Non-justiciability can weaken implementation of DPSPs.",
+      "Duties may become symbolic unless backed by civic education and specific laws.",
+      "Overuse of duties rhetoric can dilute rights if not balanced carefully.",
+      "DPSPs can be invoked politically without serious policy commitment."
+    ],
+    "pyqLink": "UPSC asks DPSP and duties through article matching, classifications, FR-DPSP conflict, Minerva Mills, welfare provisions and environment. The safe rule is Part, article, nature, enforceability and case.",
+    "answerFramework": {
+      "intro": "DPSPs and Fundamental Duties complement Fundamental Rights by adding welfare goals and civic responsibilities to constitutional democracy.",
+      "body": [
+        "Explain DPSPs, their non-justiciable nature and classification.",
+        "Explain Fundamental Duties under Article 51A and their civic role.",
+        "Trace FR-DPSP conflict and harmony through major cases.",
+        "Use examples from welfare, environment, panchayats, education and social justice."
+      ],
+      "conclusion": "The Constitution seeks not only a rights-bearing citizen but also a welfare-oriented State and responsible civic community."
+    },
+    "mainsExamples": [
+      "Use Article 40 for panchayati raj.",
+      "Use Article 39(b) and 39(c) for distributive justice debates.",
+      "Use Article 48A and 51A(g) for environment protection."
+    ],
+    "prelimsFacts": [
+      "DPSPs are in Part IV.",
+      "DPSPs are non-justiciable but fundamental in governance.",
+      "Fundamental Duties are in Article 51A.",
+      "Fundamental Duties were added by the 42nd Amendment.",
+      "Minerva Mills emphasized harmony between FRs and DPSPs."
+    ],
+    "revisionBox": [
+      {
+        "prompt": "Are DPSPs enforceable by courts?",
+        "answer": "No, they are non-justiciable, but they are fundamental in governance."
+      },
+      {
+        "prompt": "Where are Fundamental Duties listed?",
+        "answer": "Article 51A in Part IVA."
+      },
+      {
+        "prompt": "What is the modern FR-DPSP view?",
+        "answer": "Harmony and balance, not absolute supremacy of either side."
+      },
+      {
+        "prompt": "What is the PYQ rule here?",
+        "answer": "Part, article, nature, enforceability and case."
+      }
+    ]
+  },
+  "story": "Rights shield liberty; DPSPs give social mission; duties give civic ethic.",
+  "core_concept": "DPSPs, Fundamental Duties and FR-DPSP harmony form the welfare-civic side of constitutionalism.",
+  "mnemonic": "RWD: Rights, Welfare, Duties.",
+  "mindmap_json": {
+    "center": "DPSP-Duties",
+    "branches": [
+      { "label": "DPSP", "children": ["Part IV", "Non-justiciable", "Governance"] },
+      { "label": "Types", "children": ["Socialist", "Gandhian", "Liberal"] },
+      { "label": "Duties", "children": ["Article 51A", "Citizen", "42nd"] },
+      { "label": "Balance", "children": ["FR", "DPSP", "Minerva"] },
+      { "label": "Policy", "children": ["Welfare", "Environment", "Panchayats"] }
+    ]
+  },
+  "key_facts": [
+    "DPSPs are borrowed from the Irish Constitution.",
+    "Article 40 relates to panchayats.",
+    "Article 44 concerns uniform civil code.",
+    "Article 48A concerns environment and forests.",
+    "Article 51A(g) concerns environmental duty."
+  ],
+  "common_traps": [
+    "Do not say DPSPs are legally enforceable like Fundamental Rights.",
+    "Do not treat duties as originally present in the Constitution.",
+    "Do not ignore the harmony doctrine between FRs and DPSPs."
+  ],
+  "pyq_refs": [
+    {
+      "year": 2020,
+      "exam": "UPSC CSE Prelims",
+      "question": "PYQ pattern: DPSP and Fundamental Duties matching.",
+      "answer": "Match article and nature carefully.",
+      "pattern_note": "Article matching is a repeated scoring area."
+    },
+    {
+      "year": 2016,
+      "exam": "UPSC CSE Prelims",
+      "question": "PYQ pattern: FR-DPSP constitutional balance.",
+      "answer": "Use Minerva Mills and harmony logic.",
+      "pattern_note": "Case-law evolution appears in conceptual form."
+    }
+  ],
+  "pyq_count": 12,
+  "last_asked": 2020,
+  "high_yield": true,
+  "read_time_mins": 11,
+  "difficulty": "Medium",
+  "status": "published",
+  "source_type": "uploaded-polity-static-pyq",
+  "version": 1,
+  "created_at": "2026-06-30T00:00:00+05:30",
+  "updated_at": "2026-06-30T00:00:00+05:30"
+}

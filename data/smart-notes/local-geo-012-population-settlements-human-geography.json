@@ -1,0 +1,128 @@
+{
+  "id": "local-geo-012",
+  "section": "Geography",
+  "category": "Human Geography",
+  "topic": "Population, Settlements and Human Geography",
+  "subtopic": "Population distribution, density, growth, demographic terms, migration, urbanisation and settlements",
+  "slug": "geography-population-settlements-human-geography",
+  "anatomy": "upsc12",
+  "content": {
+    "issueStory": "Human Geography asks the most civil-services question in the subject: why do people live where they live, move where they move, work where they work, and build settlements the way they do? Population is not only a number. It is density, age structure, sex ratio, literacy, migration, urbanization, labour, housing, services and regional inequality. UPSC tests this area because it connects Geography with economy, society, governance and planning. The trap is to memorize Census facts without interpreting them. The command method is to read demographic data as pressure and potential: where people concentrate, why they migrate, what services they need, and what risks urban growth creates.",
+    "coreConcept": "Population distribution is the spatial pattern of people across regions. Density measures people per unit area. Growth depends on births, deaths and migration. Demographic terms include birth rate, death rate, fertility rate, sex ratio, literacy, dependency ratio and age structure. Settlements may be rural or urban, nucleated or dispersed, planned or unplanned, temporary or permanent. Urbanisation is the rising share of population living in urban areas, driven by natural increase, migration, reclassification and economic change. Human geography links population with resources, environment, economy, culture and governance.",
+    "dimensions": [
+      "Distribution dimension: relief, climate, water, soil, minerals, jobs and history shape population concentration.",
+      "Demographic dimension: fertility, mortality, migration and age structure determine growth and dependency.",
+      "Migration dimension: push and pull factors connect rural distress, jobs, education, conflict and climate risk.",
+      "Settlement dimension: rural and urban settlement patterns reflect economy, terrain, transport and security.",
+      "Urbanisation dimension: cities generate growth but also housing, congestion, pollution and service stress.",
+      "Planning dimension: demographic data guides health, education, housing, transport, welfare and disaster policy."
+    ],
+    "constitutionalLink": "Article 243P-243ZG relate to urban local bodies, while Article 243-243O relate to Panchayats. Article 21 frames dignified housing, health and urban services as life-quality concerns through judicial expansion.",
+    "dataReport": "Static source: STATIC_03_Indian_Human_Geography.pdf, Population and Settlements chapter. PYQ source: PYQ_02_Geography.pdf, Unit 6 Economic and Human Geography. Use Census 2011 as the official base until new official Census data is released.",
+    "caseStudy": "India's urbanisation shows both opportunity and stress: cities concentrate jobs, education and services, but unplanned growth produces informal housing, congestion, flooding, air pollution and infrastructure gaps.",
+    "argumentsFor": [
+      "Population geography helps target welfare, health, education and infrastructure.",
+      "Urbanisation can generate productivity, innovation and service delivery efficiency.",
+      "Migration supports labour mobility and remittances.",
+      "Settlement analysis improves disaster planning and regional development."
+    ],
+    "argumentsAgainst": [
+      "High density without services creates vulnerability and poor quality of life.",
+      "Unplanned urbanisation causes congestion, pollution, informal housing and flooding.",
+      "Migration can create social stress if destination governance is weak.",
+      "Demographic dividend can fail without jobs, education, health and skilling."
+    ],
+    "pyqLink": "UPSC asks human geography through Census terms, density, sex ratio, literacy, migration, urbanisation, settlements, demographic dividend and map-region association. Do not stop at data; interpret cause and governance implication.",
+    "answerFramework": {
+      "intro": "Human geography studies the spatial organization of population, settlements and human activity in relation to environment and economy.",
+      "body": [
+        "Explain population distribution through physical and economic factors.",
+        "Use demographic indicators: density, growth, sex ratio, literacy, age structure and dependency.",
+        "Discuss migration and urbanisation as processes of economic and social change.",
+        "Add planning issues: housing, water, sanitation, transport, health, education and disaster resilience."
+      ],
+      "conclusion": "Population data becomes useful for governance only when converted into spatial planning and human capability."
+    },
+    "mainsExamples": [
+      "Use Indo-Gangetic plains to explain high density through fertility, water, alluvium and history.",
+      "Use rural-urban migration to discuss jobs, remittances and urban service stress.",
+      "Use hill settlements to show relief and accessibility shaping settlement pattern."
+    ],
+    "prelimsFacts": [
+      "Population density is population per unit area.",
+      "Population growth depends on births, deaths and migration.",
+      "Urbanisation means rising share of population in urban areas.",
+      "Settlements may be nucleated, dispersed or linear depending on terrain and economy.",
+      "Census 2011 remains the latest completed official Census base for many static facts."
+    ],
+    "revisionBox": [
+      {
+        "prompt": "What determines population distribution?",
+        "answer": "Relief, climate, water, soil, jobs, transport, security and historical settlement patterns."
+      },
+      {
+        "prompt": "What is population density?",
+        "answer": "The number of people per unit area."
+      },
+      {
+        "prompt": "Why does urbanisation create both opportunity and stress?",
+        "answer": "Cities generate jobs and services but also housing pressure, congestion, pollution and infrastructure demand."
+      },
+      {
+        "prompt": "What is the human geography answer rule?",
+        "answer": "Interpret demographic data as cause, pressure, potential and governance need."
+      }
+    ]
+  },
+  "story": "Population is not only a number; it is pressure, potential, movement and planning need.",
+  "core_concept": "Human Geography links population distribution, growth, migration, settlements and urbanisation with environment and economy.",
+  "mnemonic": "D-GMSU: Distribution, Growth, Migration, Settlement, Urbanisation.",
+  "mindmap_json": {
+    "center": "Human Geography",
+    "branches": [
+      { "label": "Population", "children": ["Density", "Growth", "Sex ratio", "Literacy"] },
+      { "label": "Drivers", "children": ["Relief", "Water", "Jobs", "Transport"] },
+      { "label": "Migration", "children": ["Push", "Pull", "Remittance"] },
+      { "label": "Settlements", "children": ["Rural", "Urban", "Nucleated", "Dispersed"] },
+      { "label": "Planning", "children": ["Housing", "Services", "Transport", "Risk"] }
+    ]
+  },
+  "key_facts": [
+    "Population distribution is uneven across India.",
+    "Density is a ratio of population to area.",
+    "Migration is driven by push and pull factors.",
+    "Urbanisation includes natural growth, migration and reclassification.",
+    "Settlements reflect terrain, economy, water and transport."
+  ],
+  "common_traps": [
+    "Do not treat high population as automatically bad without age structure and human capital context.",
+    "Do not confuse population growth rate with population density.",
+    "Do not discuss urbanisation only as migration; natural increase and reclassification also matter."
+  ],
+  "pyq_refs": [
+    {
+      "year": 2022,
+      "exam": "UPSC CSE Prelims",
+      "question": "PYQ pattern: Census terms and demographic interpretation.",
+      "answer": "Define the indicator before interpreting trend.",
+      "pattern_note": "Human geography PYQs often punish loose demographic vocabulary."
+    },
+    {
+      "year": 2016,
+      "exam": "UPSC CSE Mains",
+      "question": "PYQ pattern: urbanisation and planning issues.",
+      "answer": "Link economic opportunity with infrastructure, housing and governance stress.",
+      "pattern_note": "Mains expects both spatial and governance analysis."
+    }
+  ],
+  "pyq_count": 10,
+  "last_asked": 2022,
+  "high_yield": true,
+  "read_time_mins": 11,
+  "difficulty": "Medium",
+  "status": "published",
+  "source_type": "uploaded-geography-static-pyq",
+  "version": 1,
+  "created_at": "2026-06-30T00:00:00+05:30",
+  "updated_at": "2026-06-30T00:00:00+05:30"
+}

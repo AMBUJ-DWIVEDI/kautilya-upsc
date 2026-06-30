@@ -1,0 +1,128 @@
+{
+  "id": "local-eco-010",
+  "section": "Economy",
+  "category": "Indian Economy",
+  "topic": "LPG Reforms and Service Sector",
+  "subtopic": "Liberalisation, privatisation, globalisation, reforms after 1991 and services-led growth",
+  "slug": "economy-lpg-reforms-service-sector",
+  "anatomy": "upsc12",
+  "content": {
+    "issueStory": "The 1991 reforms changed the operating system of the Indian economy. A balance-of-payments crisis forced India to rethink licensing, import controls, public-sector dominance and foreign capital restrictions. But UPSC does not want a celebratory slogan of liberalisation, privatisation and globalisation. It wants a balanced reading: reforms increased efficiency, competition, foreign exchange resilience, services growth and consumer choice; they also created uneven regional gains, jobless growth concerns, agrarian stress, informalization and vulnerability to global shocks. The service sector became India's growth engine, especially IT, telecom, finance, trade, tourism, transport and professional services. The command question is whether services-led growth can create enough broad-based jobs without a stronger manufacturing base.",
+    "coreConcept": "Liberalisation reduces state controls and licensing; privatisation increases private participation or ownership; globalisation integrates the economy with global trade, capital, technology and production networks. The 1991 reforms included industrial delicensing, trade reforms, exchange-rate reforms, financial-sector reforms, tax reforms and greater openness to foreign investment. The service sector includes trade, transport, communication, finance, real estate, professional services, public administration, health, education and tourism. Services have contributed strongly to GDP and exports, but employment absorption and skill mismatch remain key concerns.",
+    "dimensions": [
+      "Crisis dimension: 1991 reforms emerged from macro stress, foreign exchange shortage and fiscal imbalance.",
+      "Policy dimension: delicensing, trade liberalisation, financial reform, tax reform and FDI openness changed incentives.",
+      "Growth dimension: reforms improved competition, efficiency, investment and services exports.",
+      "Equity dimension: gains were uneven across regions, classes, skills and sectors.",
+      "Employment dimension: services-led growth can be high value but not always mass-employment intensive.",
+      "Resilience dimension: global integration brings capital, technology and markets, but also external shocks."
+    ],
+    "constitutionalLink": "Article 38 and Article 39 remain the welfare test for reform: growth must reduce inequality and serve the common good. Reforms are not constitutionally judged by growth alone but by whether they expand opportunity and dignity.",
+    "dataReport": "Static source: STATIC _01_Economy.pdf, LPG Reforms and Service Sector chapter. PYQ source: PYQ_01_Economic_Agriculture.pdf, developmental economics and sectors units. Use current GDP and services export numbers only after annual update from Economic Survey and official statistics.",
+    "caseStudy": "India's IT and IT-enabled services boom shows how human capital, English-language advantage, telecom infrastructure and global outsourcing created export strength. The limitation is that such growth is skill-biased and cannot alone absorb the entire low-skilled labour force.",
+    "argumentsFor": [
+      "LPG reforms improved competition, efficiency and consumer choice.",
+      "Trade and investment openness expanded access to capital, technology and global markets.",
+      "Services exports strengthened foreign exchange earnings and global integration.",
+      "Financial and tax reforms helped modernize the macroeconomic policy framework."
+    ],
+    "argumentsAgainst": [
+      "Reforms did not generate manufacturing-led mass employment at the required scale.",
+      "Regional and skill-based inequality widened because high-productivity gains were concentrated.",
+      "Global integration increased exposure to external shocks and volatile capital flows.",
+      "Privatisation and deregulation require strong regulation to prevent concentration and exclusion."
+    ],
+    "pyqLink": "UPSC asks LPG through 1991 crisis, industrial policy, balance of payments, FDI, services growth, globalization and inclusive growth. The best answer links reform with both efficiency and equity. For Prelims, separate liberalisation, privatisation and globalisation precisely.",
+    "answerFramework": {
+      "intro": "LPG reforms shifted India from a control-heavy economy toward a more market-oriented, globally integrated and competition-driven framework.",
+      "body": [
+        "Explain context: BOP crisis, fiscal stress and inefficiencies of the license-permit system.",
+        "List reform channels: industrial delicensing, trade openness, financial reform, exchange-rate reform and FDI liberalisation.",
+        "Evaluate outcomes: growth acceleration, services boom, exports, investment and consumer choice.",
+        "Add critique: inequality, jobless growth, agrarian stress, informalization and exposure to global shocks."
+      ],
+      "conclusion": "The next-generation reform challenge is to combine efficiency with employment, human capital, manufacturing depth and social protection."
+    },
+    "mainsExamples": [
+      "Use IT services exports as an example of services-led globalization.",
+      "Use telecom liberalisation as a competition and consumer-welfare example.",
+      "Use jobless growth debate to balance the success story of reforms."
+    ],
+    "prelimsFacts": [
+      "LPG stands for liberalisation, privatisation and globalisation.",
+      "1991 reforms were triggered by a severe balance-of-payments crisis.",
+      "Liberalisation reduces state controls; privatisation increases private participation; globalisation increases external integration.",
+      "Services belong to the tertiary sector.",
+      "Services-led growth can raise GDP without equivalent low-skilled employment absorption."
+    ],
+    "revisionBox": [
+      {
+        "prompt": "What was the immediate crisis behind 1991 reforms?",
+        "answer": "A balance-of-payments crisis along with macroeconomic stress and low foreign exchange reserves."
+      },
+      {
+        "prompt": "What is the difference between liberalisation and privatisation?",
+        "answer": "Liberalisation reduces controls and restrictions; privatisation increases private ownership or participation."
+      },
+      {
+        "prompt": "Why is services-led growth debated?",
+        "answer": "Because it can generate high GDP and exports but may not absorb enough low-skilled labour."
+      },
+      {
+        "prompt": "How should reforms be judged in Mains?",
+        "answer": "By efficiency, growth, jobs, equity, resilience, regulation and constitutional welfare outcomes."
+      }
+    ]
+  },
+  "story": "The 1991 reforms changed the operating system of the Indian economy.",
+  "core_concept": "LPG reforms reduced controls, expanded private and global participation, and enabled services-led growth while raising equity and employment questions.",
+  "mnemonic": "OPEN: Openness, Private role, Efficiency, New vulnerabilities.",
+  "mindmap_json": {
+    "center": "LPG Reforms",
+    "branches": [
+      { "label": "Context", "children": ["BOP crisis", "Fiscal stress", "License raj"] },
+      { "label": "Reforms", "children": ["Liberalisation", "Privatisation", "Globalisation"] },
+      { "label": "Services", "children": ["IT", "Finance", "Telecom", "Trade"] },
+      { "label": "Benefits", "children": ["Growth", "Choice", "Exports", "Capital"] },
+      { "label": "Concerns", "children": ["Jobs", "Inequality", "External shocks"] }
+    ]
+  },
+  "key_facts": [
+    "1991 reforms followed a balance-of-payments crisis.",
+    "Services are part of the tertiary sector.",
+    "Liberalisation, privatisation and globalisation are related but distinct concepts.",
+    "Services exports are a major strength of India's external sector.",
+    "Inclusive reform requires jobs, skills, regulation and social protection."
+  ],
+  "common_traps": [
+    "Do not call every reform privatisation; many reforms are liberalisation without ownership transfer.",
+    "Do not treat services growth as automatically inclusive.",
+    "Do not discuss 1991 without mentioning balance-of-payments pressure."
+  ],
+  "pyq_refs": [
+    {
+      "year": 2016,
+      "exam": "UPSC CSE Mains",
+      "question": "PYQ pattern: globalization and its socio-economic consequences.",
+      "answer": "Balance efficiency, opportunity, inequality and vulnerability.",
+      "pattern_note": "The examiner expects a two-sided reform analysis."
+    },
+    {
+      "year": 2013,
+      "exam": "UPSC CSE Prelims",
+      "question": "PYQ pattern: liberalisation and external-sector concepts.",
+      "answer": "Identify which policy removes controls, opens trade or increases private participation.",
+      "pattern_note": "Prelims often mixes the three LPG terms."
+    }
+  ],
+  "pyq_count": 8,
+  "last_asked": 2016,
+  "high_yield": true,
+  "read_time_mins": 10,
+  "difficulty": "Medium",
+  "status": "published",
+  "source_type": "uploaded-economy-static-pyq",
+  "version": 1,
+  "created_at": "2026-06-30T00:00:00+05:30",
+  "updated_at": "2026-06-30T00:00:00+05:30"
+}

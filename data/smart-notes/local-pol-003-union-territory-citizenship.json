@@ -1,0 +1,128 @@
+{
+  "id": "local-pol-103",
+  "section": "Polity",
+  "category": "Constitutional Framework",
+  "topic": "Union and Its Territory, Citizenship",
+  "subtopic": "Articles 1-4, state reorganization, UT administration, Articles 5-11, Citizenship Act, OCI and loss of citizenship",
+  "slug": "polity-union-territory-citizenship",
+  "anatomy": "upsc12",
+  "content": {
+    "issueStory": "Territory and citizenship answer two foundational questions: what is India, and who belongs to it politically? UPSC asks this area because many aspirants casually mix state creation, boundary alteration, union territories, domicile, citizenship, nationality, OCI, NRI and aliens. The Constitution calls India a Union of States, not a treaty-based federation of seceding units. Parliament can reorganize states under Articles 2-4 through ordinary legislative process. Citizenship is single across India, but domicile and residence rules can matter in specific legal contexts. The command method is to separate territory power from membership law.",
+    "coreConcept": "Article 1 describes India as a Union of States. Articles 2 and 3 deal with admission/establishment of new states and formation/alteration of existing states, while Article 4 states that such laws are not constitutional amendments under Article 368. Parliament has power over state reorganization after referring the bill to the concerned state legislature for views. Union Territories are administered under Articles 239-241, with special arrangements for some UTs with legislatures. Citizenship provisions are in Articles 5-11. Parliament regulates citizenship through law. Citizenship may be acquired by birth, descent, registration, naturalization or incorporation of territory, and lost by renunciation, termination or deprivation under law.",
+    "dimensions": [
+      "Territorial dimension: Articles 1-4 define Union, state admission, formation and boundary/name changes.",
+      "Federal dimension: states are consulted in reorganization but their consent is not always binding.",
+      "UT dimension: Union Territories vary in administration, with some having legislatures and special arrangements.",
+      "Citizenship dimension: India follows single citizenship, unlike some federal systems.",
+      "Legal dimension: Citizenship Act governs acquisition and loss of citizenship.",
+      "PYQ dimension: UPSC asks one citizenship, domicile, head of state eligibility, foreigner/citizenship loss and UT powers."
+    ],
+    "constitutionalLink": "Articles 1-4, Articles 5-11, Articles 239-241 and the Citizenship Act framework are central. Article 368 is relevant because Article 4 excludes certain territorial laws from formal constitutional amendment procedure.",
+    "dataReport": "Static source: STATIC_09_Polity.pdf, States and Union Territories plus Citizenship chapters. PYQ source: PYQ_06_Polity_Governance.pdf, Unit 1. Check latest citizenship statutory updates from official sources before exam-specific current revision.",
+    "caseStudy": "State reorganization shows Indian federal flexibility: Parliament can alter state boundaries and names, but the constitutional process requires reference to the concerned state legislature for views.",
+    "argumentsFor": [
+      "A flexible territorial scheme helped India manage linguistic, regional and administrative demands.",
+      "Single citizenship supports national unity and equal political membership.",
+      "UT arrangements allow differentiated governance for strategic, administrative or capital territories.",
+      "Parliamentary control over citizenship ensures uniform membership law."
+    ],
+    "argumentsAgainst": [
+      "Central power over state reorganization can create federal tension.",
+      "UTs with legislatures create repeated conflicts over elected government versus administrator powers.",
+      "Citizenship law can become politically sensitive when tied to identity and migration.",
+      "Terms such as domicile, residence, citizenship and nationality are often blurred in public debate."
+    ],
+    "pyqLink": "UPSC has asked single citizenship and domicile, head of state eligibility, loss of citizenship, UT/state distinction and constitutional status. The safe rule is article, authority, procedure and legal consequence.",
+    "answerFramework": {
+      "intro": "The Constitution defines India territorially as a Union of States and politically through a single citizenship framework.",
+      "body": [
+        "Explain Articles 1-4 and Parliament's power over state formation and alteration.",
+        "Discuss Union Territories and their differentiated administration.",
+        "Explain Articles 5-11 and Parliament's power over citizenship.",
+        "Distinguish citizenship, domicile, residence, OCI/NRI and alien status."
+      ],
+      "conclusion": "India's constitutional design combines territorial flexibility with unified citizenship."
+    },
+    "mainsExamples": [
+      "Use linguistic reorganization to show federal accommodation.",
+      "Use UT governance disputes to discuss democratic accountability and Union control.",
+      "Use single citizenship to contrast India with dual-citizenship federations."
+    ],
+    "prelimsFacts": [
+      "Article 1 describes India as a Union of States.",
+      "Article 3 empowers Parliament to form new states and alter areas, boundaries or names.",
+      "Laws under Article 4 are not treated as amendments under Article 368.",
+      "Articles 5-11 deal with citizenship at commencement and Parliament's power.",
+      "India has single citizenship."
+    ],
+    "revisionBox": [
+      {
+        "prompt": "Does a state legislature have veto over state reorganization?",
+        "answer": "No. Its views are sought, but Parliament is not necessarily bound by them."
+      },
+      {
+        "prompt": "What is Article 1?",
+        "answer": "India, that is Bharat, shall be a Union of States."
+      },
+      {
+        "prompt": "Who regulates citizenship after commencement?",
+        "answer": "Parliament through law under Article 11."
+      },
+      {
+        "prompt": "What is the PYQ rule here?",
+        "answer": "Separate territory, citizenship, domicile and residence."
+      }
+    ]
+  },
+  "story": "Territory and citizenship answer what India is and who belongs politically.",
+  "core_concept": "Articles 1-4 govern territory; Articles 5-11 and parliamentary law govern single citizenship.",
+  "mnemonic": "T-CAP: Territory, Citizenship, Authority, Procedure.",
+  "mindmap_json": {
+    "center": "Territory-Citizenship",
+    "branches": [
+      { "label": "Territory", "children": ["Article 1", "Article 2", "Article 3", "Article 4"] },
+      { "label": "States", "children": ["Formation", "Boundary", "Name", "Area"] },
+      { "label": "UTs", "children": ["Administrator", "Legislature", "Special cases"] },
+      { "label": "Citizenship", "children": ["Birth", "Descent", "Registration", "Naturalization"] },
+      { "label": "Loss", "children": ["Renunciation", "Termination", "Deprivation"] }
+    ]
+  },
+  "key_facts": [
+    "India is a Union of States.",
+    "Parliament can alter state boundaries under Article 3.",
+    "Article 4 prevents Article 2/3 laws from being treated as Article 368 amendments.",
+    "Citizenship is regulated by Parliament.",
+    "India follows single citizenship."
+  ],
+  "common_traps": [
+    "Do not say India is a federation formed by agreement among states.",
+    "Do not confuse state legislature consultation with consent.",
+    "Do not equate OCI status with full Indian citizenship."
+  ],
+  "pyq_refs": [
+    {
+      "year": 2021,
+      "exam": "UPSC CSE Prelims",
+      "question": "One citizenship and one domicile statement.",
+      "answer": "India has one citizenship; domicile has separate legal contexts.",
+      "pattern_note": "UPSC tests citizenship vocabulary with precision."
+    },
+    {
+      "year": 2014,
+      "exam": "UPSC CSE Prelims",
+      "question": "PYQ pattern: Union and its territory.",
+      "answer": "Use Articles 1-4 and Parliament's procedure.",
+      "pattern_note": "State reorganization questions usually turn on procedure."
+    }
+  ],
+  "pyq_count": 10,
+  "last_asked": 2021,
+  "high_yield": true,
+  "read_time_mins": 10,
+  "difficulty": "Medium",
+  "status": "published",
+  "source_type": "uploaded-polity-static-pyq",
+  "version": 1,
+  "created_at": "2026-06-30T00:00:00+05:30",
+  "updated_at": "2026-06-30T00:00:00+05:30"
+}

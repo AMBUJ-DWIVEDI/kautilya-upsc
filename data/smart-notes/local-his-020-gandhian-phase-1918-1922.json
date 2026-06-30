@@ -1,0 +1,128 @@
+{
+  "id": "local-his-120",
+  "section": "History",
+  "category": "Modern India",
+  "topic": "Gandhian Phase: 1918-1922",
+  "subtopic": "Champaran, Ahmedabad, Kheda, Rowlatt Satyagraha, Jallianwala Bagh, Khilafat and Non-Cooperation",
+  "slug": "history-gandhian-phase-1918-1922",
+  "anatomy": "upsc12",
+  "content": {
+    "issueStory": "Gandhi did not begin with an all-India movement. He tested methods in local struggles: Champaran, Ahmedabad and Kheda. These experiments taught him how to combine truth, non-violence, local grievances, disciplined mobilization and moral pressure. Rowlatt Satyagraha revealed both the potential and danger of mass politics. Jallianwala Bagh shattered faith in British justice. Khilafat and Non-Cooperation then fused anti-colonial anger with boycott of institutions, titles, schools, courts and foreign cloth. UPSC tests this phase because it marks the arrival of mass nationalism, but also the discipline problem that led to withdrawal after Chauri Chaura.",
+    "coreConcept": "Gandhi's early Indian interventions included Champaran indigo peasants, Ahmedabad mill workers and Kheda peasants. Rowlatt Act triggered nationwide protest in 1919. Jallianwala Bagh massacre intensified anti-British sentiment. The Khilafat issue created Hindu-Muslim political cooperation for a time. Non-Cooperation Movement, launched in 1920, involved surrender of titles, boycott of schools, courts, councils, foreign cloth and promotion of swadeshi, national institutions and constructive work. It was withdrawn in 1922 after Chauri Chaura due to violence. The phase established Gandhi as national leader and changed Congress into a mass organization.",
+    "dimensions": [
+      "Method dimension: satyagraha combined moral force, non-violence, discipline and mass participation.",
+      "Local-to-national dimension: local struggles became training grounds for all-India politics.",
+      "Repression dimension: Rowlatt Act and Jallianwala Bagh exposed colonial coercion.",
+      "Unity dimension: Khilafat temporarily expanded Hindu-Muslim cooperation.",
+      "Discipline dimension: Chauri Chaura showed limits of uncontrolled mass anger.",
+      "PYQ dimension: UPSC asks sequence, movements, methods, causes, withdrawal and constructive programme."
+    ],
+    "constitutionalLink": "This phase raised questions of civil liberties, repressive laws and representative institutions, later central to constitutional nationalism.",
+    "dataReport": "Static source: STATIC_08_Modern_India.pdf, Gandhian Phase 1918-22 chapter. PYQ source: PYQ_05_Modern_History.pdf, Unit 4 Era of Mass Nationalism.",
+    "caseStudy": "Champaran is the classic local satyagraha case: Gandhi investigated peasant grievances, built moral pressure and used non-violent mobilization to address indigo exploitation.",
+    "argumentsFor": [
+      "Gandhi converted nationalism into a mass movement.",
+      "Non-Cooperation attacked colonial legitimacy by boycotting institutions.",
+      "Constructive work gave nationalism a social base beyond protest.",
+      "Local struggles built trust in Gandhian methods."
+    ],
+    "argumentsAgainst": [
+      "Mass non-violence was difficult to maintain across diverse regions.",
+      "Khilafat alliance was temporary and rested on different political aims.",
+      "Withdrawal after Chauri Chaura disappointed many activists.",
+      "Boycott of institutions created debates over council entry and constructive politics."
+    ],
+    "pyqLink": "UPSC asks this phase through Champaran, Kheda, Ahmedabad, Rowlatt, Jallianwala, Khilafat, Non-Cooperation, Chauri Chaura and Gandhi's methods. The safe rule is place, grievance, method, year and outcome.",
+    "answerFramework": {
+      "intro": "The 1918-22 phase marked Gandhi's rise and the transformation of nationalism into disciplined mass politics.",
+      "body": [
+        "Trace local experiments at Champaran, Ahmedabad and Kheda.",
+        "Explain Rowlatt Satyagraha and Jallianwala Bagh as turning points.",
+        "Discuss Khilafat and Non-Cooperation methods.",
+        "Evaluate achievement, limits and withdrawal after Chauri Chaura."
+      ],
+      "conclusion": "This phase made anti-colonial politics mass-based while proving that moral mobilization required strict discipline."
+    },
+    "mainsExamples": [
+      "Use Champaran for peasant grievance plus satyagraha.",
+      "Use Jallianwala Bagh for crisis of imperial legitimacy.",
+      "Use Chauri Chaura for Gandhi's priority of non-violence over immediate escalation."
+    ],
+    "prelimsFacts": [
+      "Champaran Satyagraha related to indigo peasants.",
+      "Rowlatt Act was passed in 1919.",
+      "Jallianwala Bagh massacre occurred in 1919.",
+      "Non-Cooperation Movement began in 1920.",
+      "The movement was withdrawn after Chauri Chaura in 1922."
+    ],
+    "revisionBox": [
+      {
+        "prompt": "Why is Champaran important?",
+        "answer": "It was an early Gandhian satyagraha around indigo peasant grievances."
+      },
+      {
+        "prompt": "Why was Non-Cooperation withdrawn?",
+        "answer": "Because violence at Chauri Chaura violated Gandhi's non-violent discipline."
+      },
+      {
+        "prompt": "What did Non-Cooperation target?",
+        "answer": "Colonial legitimacy through boycott of titles, institutions, courts, schools, councils and foreign cloth."
+      },
+      {
+        "prompt": "What is the PYQ rule?",
+        "answer": "Place, grievance, method, year and outcome."
+      }
+    ]
+  },
+  "story": "Gandhi turned local grievances into disciplined mass nationalism.",
+  "core_concept": "The 1918-22 phase established satyagraha, mass politics, non-cooperation and the discipline challenge of non-violence.",
+  "mnemonic": "CRJNC: Champaran, Rowlatt, Jallianwala, Non-Cooperation, Chauri Chaura.",
+  "mindmap_json": {
+    "center": "Gandhian 1918-22",
+    "branches": [
+      { "label": "Local", "children": ["Champaran", "Ahmedabad", "Kheda"] },
+      { "label": "Repression", "children": ["Rowlatt", "Jallianwala"] },
+      { "label": "Alliance", "children": ["Khilafat", "Congress"] },
+      { "label": "NCM", "children": ["Boycott", "Swadeshi", "Constructive"] },
+      { "label": "Limit", "children": ["Chauri Chaura", "Withdrawal"] }
+    ]
+  },
+  "key_facts": [
+    "Gandhi returned to India in 1915.",
+    "Early satyagrahas tested local mass methods.",
+    "Jallianwala Bagh deepened nationalist anger.",
+    "Khilafat issue supported Non-Cooperation mobilization.",
+    "Chauri Chaura led to withdrawal of Non-Cooperation."
+  ],
+  "common_traps": [
+    "Do not put Civil Disobedience before Non-Cooperation.",
+    "Do not treat Khilafat as a purely Congress issue.",
+    "Do not ignore constructive work in Gandhian politics."
+  ],
+  "pyq_refs": [
+    {
+      "year": 2019,
+      "exam": "UPSC CSE Prelims",
+      "question": "PYQ pattern: Gandhi's early satyagrahas.",
+      "answer": "Match place with grievance.",
+      "pattern_note": "Place-grievance pairs are common."
+    },
+    {
+      "year": 2016,
+      "exam": "UPSC CSE Mains",
+      "question": "PYQ pattern: Non-Cooperation Movement impact.",
+      "answer": "Assess mass mobilization, boycott and limits.",
+      "pattern_note": "Gandhian movements need achievement-plus-limit analysis."
+    }
+  ],
+  "pyq_count": 14,
+  "last_asked": 2019,
+  "high_yield": true,
+  "read_time_mins": 12,
+  "difficulty": "Medium",
+  "status": "published",
+  "source_type": "uploaded-modern-static-pyq",
+  "version": 1,
+  "created_at": "2026-06-30T00:00:00+05:30",
+  "updated_at": "2026-06-30T00:00:00+05:30"
+}

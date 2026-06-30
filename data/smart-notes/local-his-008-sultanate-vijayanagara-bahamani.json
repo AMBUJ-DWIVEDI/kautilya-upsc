@@ -1,0 +1,128 @@
+{
+  "id": "local-his-008",
+  "section": "History",
+  "category": "Medieval India",
+  "topic": "Delhi Sultanate, Vijayanagara and Bahamani Kingdoms",
+  "subtopic": "Sultanate dynasties, administration, economy, society, Deccan states and cultural links",
+  "slug": "history-sultanate-vijayanagara-bahamani",
+  "anatomy": "upsc12",
+  "content": {
+    "issueStory": "The Delhi Sultanate was not one dynasty; it was a long experiment in ruling a vast and diverse region through military power, iqta assignments, revenue extraction, urban centers, Persianate culture and political adaptation. At the same time, the Deccan and South saw powerful formations such as Bahamani and Vijayanagara, whose rivalry, architecture, trade and regional identities shaped medieval India. UPSC tests this cluster because it is rich in chronology, administrative terms, rulers, reforms, travellers, monuments and regional contrasts. The command method is to separate dynasties, then compare institutions: army, revenue, nobles, land control, market, religion and culture.",
+    "coreConcept": "The Delhi Sultanate included Mamluk, Khalji, Tughlaq, Sayyid and Lodi dynasties. Important features include centralized monarchy, iqta system, Turkish-Afghan nobility, revenue administration, military reforms, market control under Alauddin Khalji, token currency and capital transfer under Muhammad bin Tughlaq, and Afghan elements under Lodis. The Bahamani kingdom emerged in the Deccan and later fragmented into Deccan Sultanates. Vijayanagara, founded in 1336, became a major South Indian empire known for military organization, nayaka system, temple-centered urbanism, trade, architecture and accounts of travellers such as Domingo Paes and Fernao Nuniz.",
+    "dimensions": [
+      "Chronology dimension: five Sultanate dynasties must be sequenced correctly.",
+      "Administrative dimension: iqta, revenue, nobility, army and market controls define Sultanate governance.",
+      "Regional dimension: Deccan and South India were not passive; Bahamani and Vijayanagara were major powers.",
+      "Economic dimension: agrarian revenue, trade, markets, ports and urban centers shaped power.",
+      "Cultural dimension: Indo-Islamic architecture, Persianate culture and temple urbanism developed in parallel.",
+      "PYQ dimension: UPSC tests rulers, reforms, terms, travellers, monuments and dynasty matching."
+    ],
+    "constitutionalLink": "Medieval monuments and cities are protected through heritage laws. Article 49 directs the State to protect monuments and objects of national importance, while Article 51A(f) supports respect for composite culture.",
+    "dataReport": "Static source: STATIC_07_Medieval_India - Copy.pdf, Delhi Sultanate and Bahamani-Vijayanagara chapters. PYQ source: PYQ_04_Ancient_Medieval_ArtCulture.pdf, Unit 3.",
+    "caseStudy": "Vijayanagara's capital at Hampi shows how political power, temple complexes, markets, water systems and military architecture combined to create a major urban civilization.",
+    "argumentsFor": [
+      "Sultanate administration introduced durable political and revenue institutions.",
+      "Market and military reforms under rulers such as Alauddin Khalji show state intervention capacity.",
+      "Vijayanagara demonstrates South Indian imperial urbanism and temple-centered economy.",
+      "Bahamani-Vijayanagara rivalry explains Deccan politics before the Mughals."
+    ],
+    "argumentsAgainst": [
+      "Dynasty-list learning misses social, economic and regional processes.",
+      "Court chronicles may exaggerate ruler achievements or moral judgments.",
+      "Religious framing alone oversimplifies political competition.",
+      "Administrative terms such as iqta and jagir should not be casually mixed."
+    ],
+    "pyqLink": "UPSC asks Sultanate-Vijayanagara through dynasty chronology, reforms of Alauddin and Muhammad bin Tughlaq, iqta, market control, travellers, Hampi, Bahamani and Deccan Sultanates. The safe rule is ruler-dynasty-reform-region-source.",
+    "answerFramework": {
+      "intro": "The Sultanate and Deccan-South Indian kingdoms represent major medieval political formations with distinct administrative and cultural systems.",
+      "body": [
+        "Sequence the Sultanate dynasties and major rulers.",
+        "Explain institutions: iqta, revenue, army, nobility and market control.",
+        "Discuss Vijayanagara and Bahamani political economy and cultural contribution.",
+        "Add architecture, travellers and regional trade links."
+      ],
+      "conclusion": "This period is best read as layered political adaptation across north India, Deccan and the south."
+    },
+    "mainsExamples": [
+      "Use Alauddin Khalji's market reforms to discuss state control and military needs.",
+      "Use Muhammad bin Tughlaq for ambition, experimentation and administrative risk.",
+      "Use Hampi for temple urbanism, trade and imperial spectacle."
+    ],
+    "prelimsFacts": [
+      "Delhi Sultanate dynasties include Mamluk, Khalji, Tughlaq, Sayyid and Lodi.",
+      "Alauddin Khalji is associated with market control reforms.",
+      "Muhammad bin Tughlaq is associated with token currency and capital transfer experiments.",
+      "Vijayanagara was founded in 1336.",
+      "Bahamani kingdom was a major Deccan power."
+    ],
+    "revisionBox": [
+      {
+        "prompt": "What is the Sultanate dynasty sequence?",
+        "answer": "Mamluk, Khalji, Tughlaq, Sayyid, Lodi."
+      },
+      {
+        "prompt": "What is iqta?",
+        "answer": "A revenue assignment system used to maintain officials and military obligations."
+      },
+      {
+        "prompt": "Why is Hampi important?",
+        "answer": "It was the Vijayanagara capital, known for temple urbanism, markets and imperial architecture."
+      },
+      {
+        "prompt": "What is the PYQ mapping rule?",
+        "answer": "Ruler, dynasty, reform, region and source."
+      }
+    ]
+  },
+  "story": "Sultanate and Deccan powers were experiments in rule, revenue, army, city and culture.",
+  "core_concept": "Delhi Sultanate, Bahamani and Vijayanagara history is about dynasties, administration, regional power and cultural forms.",
+  "mnemonic": "MKT-SL: Mamluk, Khalji, Tughlaq, Sayyid, Lodi.",
+  "mindmap_json": {
+    "center": "Sultanate-Deccan",
+    "branches": [
+      { "label": "Sultanate", "children": ["Mamluk", "Khalji", "Tughlaq", "Lodi"] },
+      { "label": "Institutions", "children": ["Iqta", "Revenue", "Army", "Market"] },
+      { "label": "Vijayanagara", "children": ["Hampi", "Nayaka", "Trade", "Temple"] },
+      { "label": "Bahamani", "children": ["Deccan", "Sultanates", "Rivalry"] },
+      { "label": "Sources", "children": ["Chronicles", "Travellers", "Monuments"] }
+    ]
+  },
+  "key_facts": [
+    "The Delhi Sultanate was ruled by five major dynastic lines.",
+    "Iqta was an important Sultanate administrative-fiscal institution.",
+    "Alauddin Khalji implemented market-control measures.",
+    "Vijayanagara's capital was Hampi.",
+    "Bahamani kingdom later fragmented into Deccan Sultanates."
+  ],
+  "common_traps": [
+    "Do not mix iqta with Mughal jagir without context.",
+    "Do not treat Vijayanagara as only religious opposition to Sultanates.",
+    "Do not confuse Tughlaq experiments with Khalji market reforms."
+  ],
+  "pyq_refs": [
+    {
+      "year": 2019,
+      "exam": "UPSC CSE Prelims",
+      "question": "PYQ pattern: Sultanate rulers and reforms.",
+      "answer": "Match ruler to policy precisely.",
+      "pattern_note": "Administrative reforms are recurrent direct traps."
+    },
+    {
+      "year": 2016,
+      "exam": "UPSC CSE Prelims",
+      "question": "PYQ pattern: Vijayanagara travellers and Hampi.",
+      "answer": "Use traveller-source and monument association.",
+      "pattern_note": "Vijayanagara is tested through both history and art-culture."
+    }
+  ],
+  "pyq_count": 12,
+  "last_asked": 2019,
+  "high_yield": true,
+  "read_time_mins": 12,
+  "difficulty": "Medium",
+  "status": "published",
+  "source_type": "uploaded-history-static-pyq",
+  "version": 1,
+  "created_at": "2026-06-30T00:00:00+05:30",
+  "updated_at": "2026-06-30T00:00:00+05:30"
+}

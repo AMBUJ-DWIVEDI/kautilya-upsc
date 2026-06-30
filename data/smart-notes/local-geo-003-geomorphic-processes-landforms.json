@@ -1,0 +1,128 @@
+{
+  "id": "local-geo-003",
+  "section": "Geography",
+  "category": "Physical Geography",
+  "topic": "Geomorphic Processes and Landforms",
+  "subtopic": "Weathering, erosion, mass movement, fluvial, groundwater, glacial, coastal and aeolian landforms",
+  "slug": "geography-geomorphic-processes-landforms",
+  "anatomy": "upsc12",
+  "content": {
+    "issueStory": "Landforms are the visible handwriting of invisible processes. A valley, delta, dune, cave, moraine, cliff or floodplain is not just a shape; it is a record of water, ice, wind, waves, gravity and time. UPSC asks landforms because they connect physical geography with agriculture, settlements, disasters, transport, tourism, water resources and environmental change. The common aspirant mistake is to memorize lists: oxbow lake, meander, levee, stalactite, drumlin, stack, barchan. The command method is process-first: identify the agent, then the action, then the stage. River erodes vertically upstream and deposits downstream; glaciers pluck and abrade; waves erode headlands and deposit beaches; wind deflates and deposits in arid zones.",
+    "coreConcept": "Geomorphic processes are endogenic and exogenic forces that shape Earth's surface. Weathering breaks rocks in situ through physical, chemical and biological processes. Erosion removes material; transportation carries it; deposition lays it down. Mass movement occurs when gravity moves weathered material downslope. Fluvial landforms include V-shaped valleys, waterfalls, meanders, oxbow lakes, floodplains, levees and deltas. Groundwater creates karst features such as sinkholes, caves, stalactites and stalagmites. Glaciers create cirques, aretes, U-shaped valleys, moraines and drumlins. Coastal processes create cliffs, caves, arches, stacks, beaches and spits. Wind creates deflation hollows, yardangs, dunes and loess deposits.",
+    "dimensions": [
+      "Process dimension: weathering, erosion, transportation and deposition create the sequence of landscape change.",
+      "Agent dimension: water, ice, wind, waves and gravity produce different signatures.",
+      "Stage dimension: youthful, mature and old-stage rivers show different erosion-deposition balance.",
+      "Climate dimension: humid, arid, glacial and coastal climates favour different landform systems.",
+      "Disaster dimension: mass movement, river erosion, coastal erosion and glacial hazards affect settlements.",
+      "India dimension: Himalayan rivers, alluvial plains, coastal erosion, desert dunes and karst pockets make the topic map-linked."
+    ],
+    "constitutionalLink": "Article 48A supports environmental protection, while Article 21 frames life and safety in hazard-prone landscapes. Land-use planning, riverbank regulation and coastal management are governance extensions of geomorphology.",
+    "dataReport": "Static source: STATIC_02_Physical Geography.pdf, Geomorphic Processes and Landforms chapter. PYQ source: PYQ_02_Geography.pdf, Unit 2 Geomorphology. Use diagrams while revising; text alone is weaker for this topic.",
+    "caseStudy": "River meandering in alluvial plains shows the link between low gradient, lateral erosion and deposition. It also explains floodplain fertility, channel migration, embankment debates and settlement vulnerability.",
+    "argumentsFor": [
+      "Geomorphic understanding improves disaster planning for floods, landslides, coastal erosion and glacial hazards.",
+      "Landform analysis supports soil, agriculture, settlement and infrastructure planning.",
+      "Process-based learning reduces rote burden in Prelims landform questions.",
+      "It builds map interpretation skill for rivers, coasts, deserts and mountains."
+    ],
+    "argumentsAgainst": [
+      "Landform lists become confusing without diagrams and agent-process logic.",
+      "Some features can be polygenetic, formed by multiple processes over time.",
+      "Human modification through dams, mining, deforestation and urbanization can alter natural geomorphic behaviour.",
+      "Exact local examples must be updated with current hazard events and maps."
+    ],
+    "pyqLink": "UPSC asks landforms through identification, sequence, process and map association. The elimination formula is Agent -> Action -> Landform. Ask whether the feature is erosional or depositional, humid or arid, river or glacier, coastal or groundwater.",
+    "answerFramework": {
+      "intro": "Geomorphic processes are the internal and external forces that shape landforms through weathering, erosion, transportation and deposition.",
+      "body": [
+        "Classify forces into endogenic and exogenic processes.",
+        "Explain agents: rivers, groundwater, glaciers, waves, wind and gravity.",
+        "Connect landforms to human use: soil, agriculture, settlements, transport and tourism.",
+        "Add risk: landslides, floods, coastal erosion, desertification and glacial hazards."
+      ],
+      "conclusion": "Landforms should be read as process records because that is how they become useful in both Prelims and Mains."
+    },
+    "mainsExamples": [
+      "Use floodplain formation to discuss fertility and flood risk together.",
+      "Use coastal erosion to link geomorphology with climate adaptation and CRZ planning.",
+      "Use landslides in Himalayan states to connect slope, rainfall, geology and road construction."
+    ],
+    "prelimsFacts": [
+      "Weathering is in-situ breakdown of rocks.",
+      "Erosion involves removal and transport of material.",
+      "Meanders and oxbow lakes are associated with river systems.",
+      "Stalactites and stalagmites are karst features.",
+      "Moraines are depositional features of glaciers."
+    ],
+    "revisionBox": [
+      {
+        "prompt": "What is the difference between weathering and erosion?",
+        "answer": "Weathering breaks rock in place; erosion removes and transports the material."
+      },
+      {
+        "prompt": "What creates an oxbow lake?",
+        "answer": "A river meander gets cut off from the main channel due to erosion and deposition."
+      },
+      {
+        "prompt": "Which agent creates moraines?",
+        "answer": "Glaciers deposit moraines."
+      },
+      {
+        "prompt": "What is the best landform elimination rule?",
+        "answer": "Identify the agent, then decide whether the feature is erosional or depositional."
+      }
+    ]
+  },
+  "story": "Landforms are the visible handwriting of water, ice, wind, waves, gravity and time.",
+  "core_concept": "Geomorphic processes shape landforms through weathering, erosion, transport, deposition and mass movement.",
+  "mnemonic": "WET-D: Weather, Erode, Transport, Deposit.",
+  "mindmap_json": {
+    "center": "Landforms",
+    "branches": [
+      { "label": "Processes", "children": ["Weathering", "Erosion", "Deposition"] },
+      { "label": "Rivers", "children": ["Meander", "Floodplain", "Delta"] },
+      { "label": "Karst", "children": ["Cave", "Sinkhole", "Stalactite"] },
+      { "label": "Glacier", "children": ["Cirque", "Moraine", "U-valley"] },
+      { "label": "Coast-Wind", "children": ["Stack", "Beach", "Dune"] }
+    ]
+  },
+  "key_facts": [
+    "Weathering happens in situ.",
+    "Mass movement is driven by gravity.",
+    "Deltas form where rivers deposit sediment near the mouth.",
+    "Karst landforms develop in soluble rocks such as limestone.",
+    "Barchans are crescent-shaped dunes common in arid regions."
+  ],
+  "common_traps": [
+    "Do not call all river features erosional; many lower-course features are depositional.",
+    "Do not confuse stalactites hanging from cave roofs with stalagmites rising from floors.",
+    "Do not link glacial moraines with wind deposition."
+  ],
+  "pyq_refs": [
+    {
+      "year": 2020,
+      "exam": "UPSC CSE Prelims",
+      "question": "PYQ pattern: geomorphic feature identification.",
+      "answer": "Use agent-process-landform classification.",
+      "pattern_note": "UPSC frequently hides the answer in the formation process."
+    },
+    {
+      "year": 2016,
+      "exam": "UPSC CSE Prelims",
+      "question": "PYQ pattern: river and coastal landforms.",
+      "answer": "Separate erosional and depositional features.",
+      "pattern_note": "The trap is usually mixing the agent or process."
+    }
+  ],
+  "pyq_count": 9,
+  "last_asked": 2020,
+  "high_yield": true,
+  "read_time_mins": 11,
+  "difficulty": "Medium",
+  "status": "published",
+  "source_type": "uploaded-geography-static-pyq",
+  "version": 1,
+  "created_at": "2026-06-30T00:00:00+05:30",
+  "updated_at": "2026-06-30T00:00:00+05:30"
+}

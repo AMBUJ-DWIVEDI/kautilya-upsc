@@ -1,0 +1,128 @@
+{
+  "id": "local-eco-002",
+  "section": "Economy",
+  "category": "Money and Banking",
+  "topic": "Money, Banking and Credit Creation",
+  "subtopic": "Money supply, RBI, banks, PSL, credit multiplier, NPAs and reforms",
+  "slug": "economy-money-banking-credit-creation",
+  "anatomy": "upsc12",
+  "content": {
+    "issueStory": "Money is not just currency in the wallet; it is trust, liquidity and credit capacity moving through the economy. A bank deposit can become someone else's loan, that loan becomes another deposit, and the banking system multiplies money as long as confidence and regulation hold. UPSC tests this area because it connects household behaviour, RBI powers, financial inclusion, inflation, banking stress and growth. The aspirant's common mistake is to think RBI alone 'prints' the money supply. In reality, reserve money comes from the central bank, but broad money is shaped by banks, deposits, credit creation, reserve ratios, digital payments and people's banking habits. This is why a Prelims question on money multiplier is not a formula question alone; it is a question on how trust in banks, reserve requirements and lending behaviour create purchasing power.",
+    "coreConcept": "Money performs four major functions: medium of exchange, unit of account, store of value and standard of deferred payment. Modern money includes currency, demand deposits and broader financial claims depending on the money aggregate. RBI controls reserve money and influences broad money through monetary policy, reserve ratios, open market operations and banking regulation. Banks create credit by accepting deposits and lending a portion, subject to reserve requirements and risk. Money multiplier links reserve money to money supply. Priority Sector Lending directs bank credit to agriculture, MSMEs, weaker sections and other priority areas. NPAs are loans where repayment is overdue beyond the regulatory threshold, weakening bank balance sheets and credit growth.",
+    "dimensions": [
+      "Money functions: exchange, account, value storage and deferred payment.",
+      "Money aggregates: narrow money is more liquid; broad money includes wider deposits.",
+      "Credit creation: deposits, reserve ratio and lending behaviour create a multiplier process.",
+      "RBI role: issuer, banker to government, bankers' bank, regulator and monetary authority.",
+      "Banking stress: NPAs reduce profitability, capital adequacy and lending capacity.",
+      "Financial inclusion: Jan Dhan, digital payments, UPI, banking correspondents and small finance banks expand access."
+    ],
+    "constitutionalLink": "Banking and currency belong primarily to the Union domain through the Seventh Schedule. Directive Principles add the welfare logic: credit access matters for livelihood, agriculture, MSMEs and weaker sections.",
+    "dataReport": "Static source: STATIC _01_Economy.pdf, Money and Banking chapter. PYQ source: PYQ_01_Economic_Agriculture.pdf, Unit 3 Banking and Capital Market. Use latest RBI circulars only after annual update.",
+    "caseStudy": "Money multiplier: if reserve ratio is 20 percent, the theoretical multiplier is 5. But actual multiplication depends on leakage into cash, excess reserves, credit demand and banking confidence. In a stressed banking system, the theoretical multiplier may not translate into real credit expansion.",
+    "argumentsFor": [
+      "Credit creation supports investment, consumption smoothing, MSME growth and employment.",
+      "Priority Sector Lending corrects market failure by directing credit to underserved sectors.",
+      "Digital payments improve traceability, reduce cash friction and deepen formal finance.",
+      "Banking regulation protects depositors and systemic stability."
+    ],
+    "argumentsAgainst": [
+      "Excess credit without risk assessment creates NPAs and financial instability.",
+      "Directed lending can create political economy distortions if monitoring is weak.",
+      "Digital finance can exclude users without literacy, devices or connectivity.",
+      "Bank consolidation does not automatically solve governance or risk-pricing problems."
+    ],
+    "pyqLink": "UPSC asks money multiplier, banking habits, money supply, near money, NBFCs, credit creation, PSL and institutional roles. The trap is to separate central bank money from bank-created money and liquidity from solvency.",
+    "answerFramework": {
+      "intro": "A modern banking system converts trust into credit, and credit into economic activity, while regulation prevents that process from becoming systemic risk.",
+      "body": [
+        "Explain money functions and money aggregates.",
+        "Explain bank credit creation through deposits, reserve ratios and multiplier logic.",
+        "Discuss RBI instruments and regulatory role.",
+        "Add stress points: NPAs, governance, inclusion gaps, cyber risks and monetary transmission."
+      ],
+      "conclusion": "India needs deep credit, but credit must be disciplined, inclusive and linked to productive capacity."
+    },
+    "mainsExamples": [
+      "Use Jan Dhan plus UPI to show inclusion moving from account access to transaction usage.",
+      "Use NPA cycles to show how poor credit appraisal can weaken growth.",
+      "Use PSL to connect banking with agriculture, MSME and weaker-section credit."
+    ],
+    "prelimsFacts": [
+      "Money multiplier is inversely related to reserve ratio in the simple model.",
+      "Demand deposits are part of money supply because they are withdrawable and transferable.",
+      "RBI is banker to banks and banker to government.",
+      "Priority Sector Lending includes agriculture, MSMEs and weaker sections among other categories.",
+      "NPAs weaken banks by locking capital and reducing fresh lending capacity."
+    ],
+    "revisionBox": [
+      {
+        "prompt": "Why does an increase in banking habits raise the money multiplier?",
+        "answer": "Because more money stays within the deposit-lending system instead of leaking into cash holdings."
+      },
+      {
+        "prompt": "What is the difference between reserve money and broad money?",
+        "answer": "Reserve money is central bank money; broad money includes currency plus deposits created through the banking system."
+      },
+      {
+        "prompt": "Why do NPAs hurt credit growth?",
+        "answer": "They reduce bank profitability, capital strength and risk appetite, making fresh lending harder."
+      },
+      {
+        "prompt": "What is the core logic of PSL?",
+        "answer": "It directs a share of bank credit toward sectors where market-based lending may under-serve social and developmental needs."
+      }
+    ]
+  },
+  "story": "Money is trust, liquidity and credit capacity moving through the economy.",
+  "core_concept": "Money functions, money supply, RBI, banks, multiplier, PSL, NPAs and banking reforms.",
+  "mnemonic": "MONEY = Medium, Unit, Nest value, Exchange trust, Years later payment.",
+  "mindmap_json": {
+    "center": "Money and Banking",
+    "branches": [
+      { "label": "Money", "children": ["Functions", "Aggregates", "Liquidity", "Near money"] },
+      { "label": "RBI", "children": ["Issuer", "Bankers' bank", "Regulator", "Policy"] },
+      { "label": "Banks", "children": ["Deposits", "Loans", "Credit creation", "PSL"] },
+      { "label": "Stress", "children": ["NPAs", "Capital", "Governance", "Transmission"] },
+      { "label": "Inclusion", "children": ["Jan Dhan", "UPI", "BC model", "Small finance banks"] }
+    ]
+  },
+  "key_facts": [
+    "Money multiplier rises when more money remains in the banking system.",
+    "Demand deposits are money because they can be used for payments.",
+    "RBI influences money supply but commercial banks also create broad money through lending.",
+    "PSL is a directed-credit framework for priority sectors.",
+    "NPAs reduce the ability of banks to lend and transmit policy."
+  ],
+  "common_traps": [
+    "Do not say all money is physically printed by RBI; bank deposits create broad money.",
+    "Do not confuse liquidity with profitability or solvency.",
+    "Do not treat NBFCs exactly like banks; their deposit and payment roles differ by regulation."
+  ],
+  "pyq_refs": [
+    {
+      "year": 2021,
+      "exam": "UPSC CSE Prelims",
+      "question": "PYQ pattern: money multiplier and banking habit.",
+      "answer": "Higher banking habit can raise the multiplier because deposits remain in the banking system.",
+      "pattern_note": "UPSC tests mechanism, not formula alone."
+    },
+    {
+      "year": 2023,
+      "exam": "UPSC CSE Prelims",
+      "question": "PYQ pattern: financial inclusion, NBFCs and digital finance.",
+      "answer": "Check regulatory status and function before selecting statements.",
+      "pattern_note": "Modern finance terms are often tested through conceptual matching."
+    }
+  ],
+  "pyq_count": 10,
+  "last_asked": 2023,
+  "high_yield": true,
+  "read_time_mins": 11,
+  "difficulty": "Hard",
+  "status": "published",
+  "source_type": "uploaded-economy-static-pyq",
+  "version": 1,
+  "created_at": "2026-06-30T00:00:00+05:30",
+  "updated_at": "2026-06-30T00:00:00+05:30"
+}

@@ -1,0 +1,128 @@
+{
+  "id": "local-his-123",
+  "section": "History",
+  "category": "Modern India",
+  "topic": "Quit India to Independence and Partition: 1942-1947",
+  "subtopic": "Quit India, INA, Subhas Bose, famine, Wavell Plan, INA trials, naval mutiny, Cabinet Mission, interim government, partition",
+  "slug": "history-quit-india-ina-partition-1942-1947",
+  "anatomy": "upsc12",
+  "content": {
+    "issueStory": "The final phase of freedom struggle was not a straight road from Quit India to 15 August. It was a storm: mass repression, underground networks, wartime famine, Subhas Bose and INA, post-war trials, naval mutiny, labour unrest, elections, Cabinet Mission, communal violence, interim government and partition. UPSC tests this phase because it demands causality. Why did British withdrawal become urgent? It was not one movement alone; it was war exhaustion, legitimacy collapse, military unease, international pressure, economic strain and Indian mass politics converging.",
+    "coreConcept": "Quit India Movement was launched in August 1942 after failure of Cripps Mission, with the slogan of Do or Die. Leadership was arrested, but underground and local movements continued. Subhas Chandra Bose reorganized INA with Japanese support and gave militant anti-colonial leadership abroad. Bengal famine of 1943 exposed colonial wartime failure. Wavell Plan and Shimla Conference attempted settlement. INA trials generated nationalist sympathy. Naval mutiny and post-war upsurges showed unrest within armed forces and workers. Cabinet Mission Plan proposed a constitutional framework and grouping. Interim government was formed, but communal tensions and Direct Action politics led to partition and independence in 1947.",
+    "dimensions": [
+      "Mass dimension: Quit India showed spontaneous mass anger despite leadership arrest.",
+      "Military dimension: INA trials and naval mutiny shook British confidence in loyalty of armed forces.",
+      "War dimension: World War II weakened Britain economically and strategically.",
+      "Constitutional dimension: Wavell Plan, Cabinet Mission and interim government tried negotiated transfer.",
+      "Communal dimension: League-Congress differences and violence shaped partition.",
+      "PYQ dimension: UPSC asks missions, plans, INA, naval mutiny, elections, partition and chronology."
+    ],
+    "constitutionalLink": "Cabinet Mission, interim government and Constituent Assembly elections directly shaped the constitutional transition to independence and partition.",
+    "dataReport": "Static source: STATIC_08_Modern_India.pdf, Indian National Movement 1942-1947 chapter. PYQ source: PYQ_05_Modern_History.pdf, Unit 4.",
+    "caseStudy": "INA trials turned a military defeat into a political victory by generating public sympathy and raising questions about loyalty within the colonial armed forces.",
+    "argumentsFor": [
+      "Quit India showed that British rule could not rely on Indian consent.",
+      "INA trials and naval mutiny shook colonial confidence in military loyalty.",
+      "Post-war economic and global pressures made empire costly.",
+      "Cabinet Mission was the last major attempt to avoid partition."
+    ],
+    "argumentsAgainst": [
+      "Quit India was brutally suppressed and lacked central coordination after arrests.",
+      "INA was militarily unsuccessful despite political impact.",
+      "Cabinet Mission failed due to distrust and incompatible political goals.",
+      "Partition revealed the tragic limits of nationalist unity."
+    ],
+    "pyqLink": "UPSC asks this phase through Quit India, INA, Wavell Plan, Shimla Conference, Cabinet Mission, interim government, naval mutiny and partition. The rule is mission/plan, proposer, proposal, response and outcome.",
+    "answerFramework": {
+      "intro": "The 1942-47 phase marked the collapse of colonial legitimacy through mass struggle, military unrest, wartime stress and failed constitutional compromise.",
+      "body": [
+        "Explain Quit India and its underground/local character.",
+        "Discuss INA, Subhas Bose, INA trials and naval mutiny.",
+        "Analyze Wavell Plan, Cabinet Mission and interim government.",
+        "Explain the road to partition and independence."
+      ],
+      "conclusion": "Freedom came through accumulated pressure, but partition revealed the cost of unresolved communal and constitutional conflict."
+    },
+    "mainsExamples": [
+      "Use INA trials for nationalist sentiment across political groups.",
+      "Use naval mutiny as evidence of strain in colonial armed forces.",
+      "Use Cabinet Mission as last major federal compromise attempt."
+    ],
+    "prelimsFacts": [
+      "Quit India Movement began in August 1942.",
+      "Gandhi gave the slogan Do or Die.",
+      "INA trials were held at Red Fort.",
+      "Cabinet Mission came in 1946.",
+      "India became independent on 15 August 1947."
+    ],
+    "revisionBox": [
+      {
+        "prompt": "Why did Quit India become spontaneous?",
+        "answer": "Top leaders were arrested early, so local and underground actions developed without central command."
+      },
+      {
+        "prompt": "Why were INA trials important?",
+        "answer": "They generated nationalist sympathy and weakened British confidence in Indian military loyalty."
+      },
+      {
+        "prompt": "What was Cabinet Mission's broad goal?",
+        "answer": "To create a constitutional settlement and transfer power while trying to preserve Indian unity."
+      },
+      {
+        "prompt": "What is the PYQ rule?",
+        "answer": "Mission/plan, proposer, proposal, response and outcome."
+      }
+    ]
+  },
+  "story": "The last phase was a convergence of mass revolt, military unease, war exhaustion and failed compromise.",
+  "core_concept": "1942-47 saw Quit India, INA impact, post-war unrest, constitutional negotiations and partition.",
+  "mnemonic": "QIWCP: Quit India, INA, Wavell, Cabinet Mission, Partition.",
+  "mindmap_json": {
+    "center": "1942-47",
+    "branches": [
+      { "label": "Quit India", "children": ["Do or Die", "Arrests", "Underground"] },
+      { "label": "INA", "children": ["Bose", "Trials", "Red Fort"] },
+      { "label": "Upsurges", "children": ["Naval mutiny", "Workers", "Students"] },
+      { "label": "Plans", "children": ["Wavell", "Cabinet Mission", "Interim"] },
+      { "label": "End", "children": ["Partition", "Independence"] }
+    ]
+  },
+  "key_facts": [
+    "Quit India followed failure of Cripps Mission.",
+    "Subhas Chandra Bose led INA's later phase.",
+    "Bengal famine occurred in 1943.",
+    "Naval mutiny occurred in 1946.",
+    "Partition accompanied independence in 1947."
+  ],
+  "common_traps": [
+    "Do not treat Quit India as centrally coordinated throughout.",
+    "Do not confuse Wavell Plan with Cabinet Mission Plan.",
+    "Do not ignore INA/naval mutiny in explaining British withdrawal."
+  ],
+  "pyq_refs": [
+    {
+      "year": 2021,
+      "exam": "UPSC CSE Prelims",
+      "question": "PYQ pattern: INA and post-war upsurges.",
+      "answer": "Know sequence and political impact.",
+      "pattern_note": "Final phase questions often test causality."
+    },
+    {
+      "year": 2019,
+      "exam": "UPSC CSE Prelims",
+      "question": "PYQ pattern: Cabinet Mission and constitutional proposals.",
+      "answer": "Match plan with proposal and outcome.",
+      "pattern_note": "Mission-plan comparison is high-yield."
+    }
+  ],
+  "pyq_count": 13,
+  "last_asked": 2021,
+  "high_yield": true,
+  "read_time_mins": 13,
+  "difficulty": "Hard",
+  "status": "published",
+  "source_type": "uploaded-modern-static-pyq",
+  "version": 1,
+  "created_at": "2026-06-30T00:00:00+05:30",
+  "updated_at": "2026-06-30T00:00:00+05:30"
+}

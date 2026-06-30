@@ -1,0 +1,123 @@
+{
+  "id": "local-env-007",
+  "section": "Environment",
+  "category": "Environmental Law",
+  "topic": "National Environmental Legislation",
+  "subtopic": "Constitutional provisions, pollution laws, forest conservation, wildlife, biodiversity and other regulations",
+  "slug": "environment-national-environmental-legislation",
+  "anatomy": "upsc12",
+  "content": {
+    "issueStory": "Environmental law is where good intentions become enforceable duties. UPSC asks this chapter because environment in India is not only ecological; it is constitutional, federal and administrative. A river pollution issue may involve the Water Act, Environment Protection Act, municipal bodies, state boards, courts and citizens. A forest diversion issue may involve forest clearance, wildlife clearance, tribal rights and compensatory measures. The command move is to map every law to its purpose, authority and compliance mechanism.",
+    "coreConcept": "National environmental legislation in India rests on constitutional provisions, statutory laws, rules and judicial interpretation. Article 48A directs the State to protect environment and forests, while Article 51A(g) imposes a citizen duty. Article 21 has been interpreted to include a clean and healthy environment. Key legal instruments include the Water Act, Air Act, Environment Protection Act, Wildlife Protection Act, Forest Conservation framework, Biological Diversity Act and waste management rules. Institutions such as pollution control boards, environment ministry, forest authorities, tribunals and courts implement and interpret these laws.",
+    "dimensions": [
+      "Constitutional dimension: environment is supported by DPSP, Fundamental Duties and Article 21 jurisprudence.",
+      "Pollution dimension: Air Act, Water Act and Environment Protection Act enable standards, regulation and enforcement.",
+      "Forest dimension: forest diversion, conservation, compensatory measures and community rights create a multi-layered regime.",
+      "Wildlife dimension: protected areas, species protection and trade restrictions operate through wildlife law.",
+      "Biodiversity dimension: access, benefit sharing and traditional knowledge are regulated under biodiversity governance.",
+      "Prelims dimension: UPSC asks act-year-objective matching, authority, protected-area categories and constitutional provisions."
+    ],
+    "constitutionalLink": "Article 48A, Article 51A(g), Article 21, Article 14 and Article 19 reasoning often appear in environmental cases. The 42nd Amendment strengthened constitutional environment language through DPSP and duties.",
+    "dataReport": "Static source: STATIC_04_Environment.pdf, chapter 7. Coverage includes constitutional provisions, pollution-related laws, forest conservation provisions and other environmental laws and regulations.",
+    "caseStudy": "The evolution of Article 21 environmental jurisprudence shows how courts connected clean air, clean water, pollution control and ecological balance with the right to life, making environment a rights issue as well as a regulatory issue.",
+    "argumentsFor": [
+      "Strong environmental law creates enforceable obligations beyond voluntary compliance.",
+      "Constitutional backing allows courts to protect environmental rights.",
+      "Specialized laws help regulate pollution, forests, wildlife, biodiversity and waste separately.",
+      "Environmental impact assessment and clearances can integrate ecology into development decisions."
+    ],
+    "argumentsAgainst": [
+      "Fragmented institutions can create overlap and weak accountability.",
+      "Clearance processes may become procedural if monitoring is weak.",
+      "Pollution control boards often face technical and staffing constraints.",
+      "Legal protection can fail if local communities are excluded from implementation."
+    ],
+    "pyqLink": "PYQ pattern: UPSC asks environmental provisions, Article 48A, Article 51A(g), Air Act, Water Act, Environment Protection Act, Forest Conservation, Wildlife Protection, biodiversity law and tribunal-related powers. Always match law with objective and authority.",
+    "answerFramework": {
+      "intro": "Environmental legislation converts ecological duties into enforceable constitutional, statutory and administrative obligations.",
+      "body": [
+        "Start with constitutional basis: Article 21, 48A and 51A(g).",
+        "Classify laws into pollution, forest, wildlife, biodiversity and waste governance.",
+        "Explain implementation institutions: boards, ministry, local bodies, tribunals and courts.",
+        "Discuss challenges: enforcement capacity, monitoring, federal coordination and community rights."
+      ],
+      "conclusion": "India needs not only more laws, but better compliance, monitoring and ecological accountability."
+    },
+    "mainsExamples": [
+      "Use Article 21 to discuss environmental rights.",
+      "Use pollution control boards for enforcement capacity questions.",
+      "Use forest clearance debates to discuss development-environment balance."
+    ],
+    "prelimsFacts": [
+      "Article 48A directs the State to protect environment, forests and wildlife.",
+      "Article 51A(g) is the citizen duty to protect environment.",
+      "The Environment Protection Act is an umbrella environmental law.",
+      "The Air Act and Water Act focus on pollution regulation.",
+      "Wildlife law protects species and protected areas.",
+      "Biodiversity law deals with biological resources and benefit sharing."
+    ],
+    "revisionBox": [
+      {
+        "prompt": "Which articles are core environmental provisions?",
+        "answer": "Article 48A, Article 51A(g) and Article 21 environmental jurisprudence."
+      },
+      {
+        "prompt": "What is the umbrella environmental law?",
+        "answer": "The Environment Protection Act."
+      },
+      {
+        "prompt": "What is the Prelims method for environmental laws?",
+        "answer": "Map law to objective, authority and regulated subject."
+      },
+      {
+        "prompt": "What makes environmental law federal?",
+        "answer": "Land, forests, water, local bodies, state boards and central standards interact across levels."
+      }
+    ]
+  },
+  "story": "Environmental law is ecology translated into duties, permissions and penalties.",
+  "core_concept": "India's environmental law rests on constitutional duties, pollution control, forest and wildlife protection, biodiversity governance and judicial interpretation.",
+  "mnemonic": "CAP-WFB: Constitution, Air, Protection Act, Water, Forest, Biodiversity.",
+  "mindmap_json": {
+    "center": "Environmental Law",
+    "branches": [
+      { "label": "Constitution", "children": ["21", "48A", "51A(g)"] },
+      { "label": "Pollution", "children": ["Air", "Water", "EPA"] },
+      { "label": "Nature", "children": ["Forest", "Wildlife", "Biodiversity"] },
+      { "label": "Institutions", "children": ["Boards", "MoEFCC", "Courts"] },
+      { "label": "Issues", "children": ["Clearance", "Monitoring", "Rights"] }
+    ]
+  },
+  "key_facts": [
+    "Article 48A is a Directive Principle.",
+    "Article 51A(g) is a Fundamental Duty.",
+    "Article 21 has been expanded to include environmental quality.",
+    "Environment Protection Act provides broad central powers.",
+    "Environmental governance needs post-clearance monitoring."
+  ],
+  "common_traps": [
+    "Do not place Article 48A in Fundamental Duties.",
+    "Do not place Article 51A(g) in DPSP.",
+    "Do not confuse pollution laws with wildlife law.",
+    "Do not ignore judicial interpretation in environmental rights."
+  ],
+  "pyq_refs": [
+    {
+      "year": 2020,
+      "exam": "UPSC CSE Prelims",
+      "question": "PYQ pattern: constitutional environmental provisions and legal instrument matching.",
+      "answer": "Match article or act with its exact purpose.",
+      "pattern_note": "Article-location mistakes are common in Environment-Polity overlap."
+    }
+  ],
+  "pyq_count": 9,
+  "last_asked": 2020,
+  "high_yield": true,
+  "read_time_mins": 10,
+  "difficulty": "Medium",
+  "status": "published",
+  "source_type": "uploaded-environment-static",
+  "version": 1,
+  "created_at": "2026-06-30T00:00:00+05:30",
+  "updated_at": "2026-06-30T00:00:00+05:30"
+}

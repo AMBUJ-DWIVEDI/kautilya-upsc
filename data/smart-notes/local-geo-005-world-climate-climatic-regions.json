@@ -1,0 +1,128 @@
+{
+  "id": "local-geo-005",
+  "section": "Geography",
+  "category": "Climatology",
+  "topic": "World Climate and Climatic Regions",
+  "subtopic": "Koppen logic, equatorial, monsoon, savanna, desert, Mediterranean, temperate, Siberian and tundra climates",
+  "slug": "geography-world-climate-climatic-regions",
+  "anatomy": "upsc12",
+  "content": {
+    "issueStory": "Climate regions are not map colours to memorize. They are the long-term outcome of latitude, pressure belts, winds, ocean currents, distance from sea, altitude and seasonal movement of the Sun. UPSC uses climatic regions to test pattern recognition: Why are Mediterranean regions dry in summer? Why are deserts found near subtropical high pressure belts and cold currents? Why is equatorial climate wet through the year? Why does monsoon climate have seasonal rainfall? Once the control factors are clear, vegetation, crops, animals, settlements and economic activity become logical extensions.",
+    "coreConcept": "Climate is the long-term average of weather conditions. Climatic regions are shaped by insolation, pressure belts, wind systems, ocean currents, continentality, relief and altitude. Equatorial climate is hot and wet year-round due to convergence and convection. Tropical monsoon climate has seasonal wind reversal and concentrated rainfall. Savanna has wet-dry seasonality. Desert climate is dry due to subsidence, rain shadow, continentality or cold currents. Mediterranean climate has wet winters and dry summers. Temperate climates vary by western/eastern margins and continental interiors. Polar and tundra climates have very low temperatures, short growing seasons and sparse vegetation.",
+    "dimensions": [
+      "Latitude dimension: solar angle controls broad temperature belts.",
+      "Pressure-wind dimension: shifting pressure belts and prevailing winds control rainfall seasonality.",
+      "Ocean-current dimension: warm currents support moisture; cold currents can intensify aridity.",
+      "Continentality dimension: interiors have greater temperature range and lower maritime moderation.",
+      "Vegetation dimension: rainfall and temperature shape forests, grasslands, deserts and tundra.",
+      "Human dimension: crops, settlement density, pastoralism and transport adapt to climatic limits."
+    ],
+    "constitutionalLink": "Climate regions become governance-relevant through agriculture, water security, disaster planning and climate adaptation. Article 48A and Article 51A(g) support environmental protection, while Article 21 frames climate risk as a life and livelihood concern.",
+    "dataReport": "Static source: STATIC_02_Physical Geography.pdf, World Climate chapter. PYQ source: PYQ_02_Geography.pdf, Unit 4 Climatology. Use atlas practice along with the note because UPSC often tests region-location association.",
+    "caseStudy": "Mediterranean climate shows seasonal pressure-belt logic: in summer, subtropical high-pressure conditions bring dry weather; in winter, westerlies bring rain. This explains the region's dry summers, winter rain, orchard crops and fire vulnerability.",
+    "argumentsFor": [
+      "Climate classification helps link physical geography with agriculture, vegetation and settlement.",
+      "Control-factor reasoning reduces dependence on rote map memorization.",
+      "Climate-region knowledge improves environment, biodiversity and disaster answers.",
+      "It supports current-affairs mapping of drought, fires, heatwaves and food security."
+    ],
+    "argumentsAgainst": [
+      "Rigid classifications oversimplify transitional zones and local relief effects.",
+      "Climate change is shifting some historic boundaries and risk patterns.",
+      "Urbanization and land-use change can modify local climates.",
+      "Aspirants often memorize examples but miss the pressure-wind mechanism."
+    ],
+    "pyqLink": "UPSC tests climate through rainfall pattern, vegetation, desert location, Mediterranean features, monsoon regions and map association. Use the control-factor chain: latitude, pressure, wind, current, relief and distance from sea.",
+    "answerFramework": {
+      "intro": "Climatic regions are long-term weather regimes shaped by latitude, circulation, oceans, relief and continentality.",
+      "body": [
+        "Identify controlling factors: insolation, pressure belts, winds, currents, relief and distance from sea.",
+        "Classify major climates: equatorial, monsoon, savanna, desert, Mediterranean, temperate, continental and polar.",
+        "Connect to natural vegetation, crops, settlement and hazards.",
+        "Add climate-change angle: shifting extremes, droughts, fires and adaptation needs."
+      ],
+      "conclusion": "Climate-region study becomes high-yield when every region is read as a cause-effect system."
+    },
+    "mainsExamples": [
+      "Use Mediterranean climate to connect dry summers, winter rainfall, horticulture and wildfire risk.",
+      "Use savanna climate for seasonal grasslands, pastoralism and drought vulnerability.",
+      "Use cold currents to explain coastal deserts such as Atacama and Namib."
+    ],
+    "prelimsFacts": [
+      "Equatorial climate is hot and wet throughout the year.",
+      "Mediterranean climate has dry summers and wet winters.",
+      "Savanna climate has distinct wet and dry seasons.",
+      "Cold currents can contribute to coastal desert formation.",
+      "Tundra climate has a very short growing season."
+    ],
+    "revisionBox": [
+      {
+        "prompt": "Why is Mediterranean summer dry?",
+        "answer": "Subtropical high-pressure conditions dominate in summer, while winter westerlies bring rain."
+      },
+      {
+        "prompt": "Why are equatorial regions wet year-round?",
+        "answer": "Strong heating and convergence create convectional rainfall through much of the year."
+      },
+      {
+        "prompt": "How do cold currents support deserts?",
+        "answer": "They reduce evaporation and stabilize air, limiting rainfall along some coasts."
+      },
+      {
+        "prompt": "What is the climate-region elimination chain?",
+        "answer": "Latitude, pressure, wind, current, relief and distance from sea."
+      }
+    ]
+  },
+  "story": "Climate regions are cause-effect systems, not map colours.",
+  "core_concept": "World climates emerge from latitude, pressure belts, winds, currents, relief and continentality.",
+  "mnemonic": "LOWCAR: Latitude, Ocean current, Wind, Continentality, Altitude, Relief.",
+  "mindmap_json": {
+    "center": "World Climate",
+    "branches": [
+      { "label": "Controls", "children": ["Latitude", "Winds", "Currents", "Relief"] },
+      { "label": "Tropical", "children": ["Equatorial", "Monsoon", "Savanna", "Desert"] },
+      { "label": "Temperate", "children": ["Mediterranean", "Marine", "Continental"] },
+      { "label": "Cold", "children": ["Siberian", "Tundra", "Polar"] },
+      { "label": "Human link", "children": ["Crops", "Settlements", "Hazards"] }
+    ]
+  },
+  "key_facts": [
+    "Climate is long-term average weather.",
+    "Mediterranean climate has winter rainfall.",
+    "Deserts may form due to subtropical highs, rain shadow, continentality or cold currents.",
+    "Savanna has seasonal rainfall and grassland vegetation.",
+    "Tundra has permafrost and a short growing period."
+  ],
+  "common_traps": [
+    "Do not say Mediterranean regions get summer rainfall.",
+    "Do not explain all deserts only by high temperature.",
+    "Do not ignore ocean currents in coastal climate questions."
+  ],
+  "pyq_refs": [
+    {
+      "year": 2023,
+      "exam": "UPSC CSE Prelims",
+      "question": "PYQ pattern: climate-region and location association.",
+      "answer": "Use controlling factors rather than memorized names alone.",
+      "pattern_note": "Recent Geography PYQs lean heavily on map-pattern recognition."
+    },
+    {
+      "year": 2014,
+      "exam": "UPSC CSE Prelims",
+      "question": "PYQ pattern: Mediterranean climate and vegetation.",
+      "answer": "Dry summer and wet winter logic is central.",
+      "pattern_note": "The classic trap is reversing the rainfall season."
+    }
+  ],
+  "pyq_count": 10,
+  "last_asked": 2023,
+  "high_yield": true,
+  "read_time_mins": 11,
+  "difficulty": "Medium",
+  "status": "published",
+  "source_type": "uploaded-geography-static-pyq",
+  "version": 1,
+  "created_at": "2026-06-30T00:00:00+05:30",
+  "updated_at": "2026-06-30T00:00:00+05:30"
+}

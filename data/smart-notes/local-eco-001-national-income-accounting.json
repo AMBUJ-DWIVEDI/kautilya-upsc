@@ -1,0 +1,128 @@
+{
+  "id": "local-eco-001",
+  "section": "Economy",
+  "category": "Macroeconomics",
+  "topic": "National Income Accounting",
+  "subtopic": "GDP, GNP, NNP, income aggregates, deflators and welfare limits",
+  "slug": "economy-national-income-accounting",
+  "anatomy": "upsc12",
+  "content": {
+    "issueStory": "National income accounting is the dashboard through which a state reads the economy. A country can grow in GDP while inequality, unpaid care work, environmental damage, unemployment or regional distress remain hidden. UPSC uses this topic to test whether the aspirant can separate a number from the reality behind it. The trap is simple: GDP is not national welfare, nominal growth is not real growth, production is not income distribution, and market value is not social value. In Prelims, questions usually test aggregates, methods, base year logic, deflator, factor cost versus market price, and the difference between domestic and national income. In Mains, the same concepts become arguments about inclusive growth, jobless growth, unpaid work, ecological cost and human development. A strong aspirant must treat national income as both a measurement system and a political economy lens: what is counted, what is missed, who benefits, and what policy does with the number.",
+    "coreConcept": "GDP measures the market value of final goods and services produced within domestic territory during a period. GNP adds net factor income from abroad to GDP. NNP subtracts depreciation from GNP. National Income is commonly linked to NNP at factor cost. Nominal GDP is valued at current prices; real GDP is adjusted for price change. GDP deflator is a broad price index derived from nominal and real GDP. National income can be measured through production/value-added, income and expenditure methods. Factor cost reflects payments to factors of production; market price includes net indirect taxes. The key welfare caution is that GDP ignores distribution, unpaid household work, quality of life, environmental depletion, informal distress and social externalities.",
+    "dimensions": [
+      "Measurement spine: GDP, GNP, NDP, NNP, National Income, Personal Income and Disposable Income must be arranged from domestic to national, gross to net, and production to household income.",
+      "Price spine: nominal GDP changes due to quantity and price; real GDP isolates output; GDP deflator captures economy-wide price movement.",
+      "Territory spine: domestic income is based on location of production; national income is based on residents and net factor income from abroad.",
+      "Method spine: production method avoids double counting by using value added; income method adds factor incomes; expenditure method adds final spending.",
+      "Welfare spine: GDP can rise even when welfare suffers through inequality, pollution, unpaid work invisibility or resource depletion.",
+      "PYQ spine: UPSC loves statements that mix current price with constant price, final goods with intermediate goods, and GDP with welfare."
+    ],
+    "constitutionalLink": "Directive Principles push the welfare reading of growth: Article 38 asks the State to promote welfare and reduce inequalities; Article 39 links resources and livelihood to social justice; Article 41 links work, education and assistance. National income numbers become policy tools only when read with these constitutional goals.",
+    "dataReport": "Static source: STATIC _01_Economy.pdf, National Income Accounting chapter. PYQ source: PYQ_01_Economic_Agriculture.pdf, Unit 1 Basics of Economics. Use Economic Survey and Budget numbers only after annual update; do not memorize stale GDP estimates without the year and source.",
+    "caseStudy": "India's GDP growth can be strong while employment elasticity remains weak. This is the classic 'growth versus development' distinction: production expands, but distribution, job quality and human capability may lag. In answers, use this to connect national income accounting with inclusive growth, poverty, skilling and formalization.",
+    "argumentsFor": [
+      "GDP remains essential because it gives a comparable measure of output, fiscal capacity, debt ratios and macroeconomic performance.",
+      "Real GDP and deflators help separate inflation from genuine output expansion.",
+      "Sectoral GDP helps identify structural transformation from agriculture to industry and services.",
+      "National income aggregates help frame tax policy, welfare expenditure, investment planning and macro stabilization."
+    ],
+    "argumentsAgainst": [
+      "GDP does not reveal distribution; high growth can coexist with inequality and regional concentration.",
+      "Unpaid care work, household labour and informal survival activity are weakly captured.",
+      "Environmental depletion can increase measured output while reducing long-term welfare.",
+      "GDP cannot by itself measure dignity, public health, learning outcomes or quality of employment."
+    ],
+    "pyqLink": "UPSC repeatedly asks this area through conceptual statement questions: intangible investment, money value of final goods and services, real versus nominal values, growth versus development, inflation adjustment and welfare limitations. The safe rule is to identify the accounting boundary first: domestic or national, gross or net, current or constant price, final or intermediate, market price or factor cost.",
+    "answerFramework": {
+      "intro": "National income accounting is the system through which an economy records production, income and expenditure, but the number must be read with welfare and distributional caution.",
+      "body": [
+        "Define the aggregate precisely: GDP, GNP, NDP, NNP, National Income, Personal Income and Disposable Income.",
+        "Explain method: production/value-added avoids double counting; income method records factor incomes; expenditure method records final demand.",
+        "Add welfare critique: inequality, unpaid work, environmental loss, informal distress and human development gaps.",
+        "Use policy bridge: GDP is useful for fiscal planning, debt ratios, investment strategy and sectoral diagnosis, but not sufficient for inclusive growth."
+      ],
+      "conclusion": "GDP is a necessary macro indicator, not a complete social verdict; UPSC expects both measurement clarity and welfare sensitivity."
+    },
+    "mainsExamples": [
+      "Use GDP versus HDI to show why output and capability must be read together.",
+      "Use unpaid care work to show the limits of market-value based accounting.",
+      "Use green GDP or natural capital accounting as a reform direction for sustainable growth."
+    ],
+    "prelimsFacts": [
+      "GDP is domestic territory based; GNP is resident ownership based.",
+      "NDP = GDP minus depreciation; NNP = GNP minus depreciation.",
+      "Real GDP is calculated at constant prices; nominal GDP at current prices.",
+      "GDP deflator = nominal GDP divided by real GDP, multiplied by 100.",
+      "Value-added method avoids double counting by excluding intermediate goods."
+    ],
+    "revisionBox": [
+      {
+        "prompt": "What is the difference between GDP and GNP?",
+        "answer": "GDP measures production within domestic territory; GNP adjusts GDP by adding net factor income from abroad."
+      },
+      {
+        "prompt": "Why can GDP rise without welfare rising?",
+        "answer": "Because GDP ignores distribution, unpaid work, ecological loss, quality of jobs and many social outcomes."
+      },
+      {
+        "prompt": "What is the key trap in nominal versus real GDP?",
+        "answer": "Nominal GDP can rise due to price increase alone; real GDP adjusts for inflation and better reflects output change."
+      },
+      {
+        "prompt": "Which method avoids double counting?",
+        "answer": "The production or value-added method, because it counts value added at each stage rather than total sales repeatedly."
+      }
+    ]
+  },
+  "story": "National income accounting is the dashboard through which a state reads the economy.",
+  "core_concept": "GDP, GNP, NDP, NNP, nominal-real distinction, deflator, methods of calculation and welfare limits.",
+  "mnemonic": "DNGN: Domestic to National, Gross to Net. First ask territory, then depreciation, then price base.",
+  "mindmap_json": {
+    "center": "National Income Accounting",
+    "branches": [
+      { "label": "Aggregates", "children": ["GDP", "GNP", "NDP", "NNP", "NI"] },
+      { "label": "Prices", "children": ["Nominal", "Real", "Deflator", "Base year"] },
+      { "label": "Methods", "children": ["Production", "Income", "Expenditure"] },
+      { "label": "Welfare limits", "children": ["Inequality", "Unpaid work", "Pollution", "Informal distress"] },
+      { "label": "PYQ traps", "children": ["Final goods", "Double counting", "Market price", "Factor cost"] }
+    ]
+  },
+  "key_facts": [
+    "GDP is domestic territory based; GNP is resident based.",
+    "NDP and NNP subtract depreciation from GDP and GNP respectively.",
+    "Real GDP removes price effect by using constant prices.",
+    "GDP deflator covers all domestically produced final goods and services, unlike CPI basket logic.",
+    "GDP is not equal to welfare because distribution and externalities are not captured fully."
+  ],
+  "common_traps": [
+    "Do not call GDP a welfare index; it is an output measure.",
+    "Do not mix national and domestic income without net factor income from abroad.",
+    "Do not include intermediate goods when calculating final output."
+  ],
+  "pyq_refs": [
+    {
+      "year": 2023,
+      "exam": "UPSC CSE Prelims",
+      "question": "PYQ pattern: intangible investment and asset classification.",
+      "answer": "Focus on whether the item creates non-physical productive value.",
+      "pattern_note": "UPSC tests whether aspirants can classify modern assets, not just memorize old GDP definitions."
+    },
+    {
+      "year": 2010,
+      "exam": "UPSC CSE Prelims",
+      "question": "PYQ pattern: economic growth, inflation and development distinction.",
+      "answer": "Growth is quantitative output expansion; development is broader welfare transformation.",
+      "pattern_note": "Classic growth-versus-development trap."
+    }
+  ],
+  "pyq_count": 8,
+  "last_asked": 2023,
+  "high_yield": true,
+  "read_time_mins": 10,
+  "difficulty": "Medium",
+  "status": "published",
+  "source_type": "uploaded-economy-static-pyq",
+  "version": 1,
+  "created_at": "2026-06-30T00:00:00+05:30",
+  "updated_at": "2026-06-30T00:00:00+05:30"
+}

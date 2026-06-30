@@ -1,0 +1,128 @@
+{
+  "id": "local-geo-006",
+  "section": "Geography",
+  "category": "Oceanography",
+  "topic": "Ocean and Its Movement",
+  "subtopic": "Ocean relief, temperature, salinity, currents, waves, tides and ocean-atmosphere links",
+  "slug": "geography-oceanography-ocean-movements",
+  "anatomy": "upsc12",
+  "content": {
+    "issueStory": "Oceans look like empty blue space on a map, but they quietly control climate, trade, fisheries, cyclones, monsoon behaviour, ports, energy routes and geopolitics. UPSC tests oceans because they connect physical geography with current affairs: El Nino, Indian Ocean Dipole, marine heatwaves, coral bleaching, sea-level rise, chokepoints and coastal disasters. The command approach is layered: first read ocean floor relief, then temperature and salinity, then currents and tides, then climate and human use. When this sequence is clear, currents stop being names and become moving heat, salt and nutrients.",
+    "coreConcept": "Oceanography studies ocean relief, water properties and movements. Ocean floor relief includes continental shelf, slope, abyssal plain, mid-ocean ridge, trench, seamount and guyot. Ocean temperature varies with latitude, depth, currents, seasons and enclosedness. Salinity depends on evaporation, precipitation, freshwater inflow, ice formation/melting and circulation. Ocean movements include waves, tides and currents. Currents are driven by prevailing winds, Coriolis force, temperature-salinity differences and basin shape. Warm currents moderate nearby climates and cold currents can support aridity and fisheries through upwelling. Tides are mainly caused by gravitational pull of the Moon and Sun.",
+    "dimensions": [
+      "Relief dimension: shelves, slopes, ridges, trenches and plains shape resources and hazards.",
+      "Thermal dimension: temperature distribution controls evaporation, cyclones and marine ecosystems.",
+      "Salinity dimension: evaporation, rainfall, river inflow and ice processes shape density.",
+      "Current dimension: currents transfer heat and nutrients, affecting climate and fisheries.",
+      "Climate dimension: ENSO, IOD and ocean heat influence monsoon and extreme weather.",
+      "Human dimension: ports, shipping, fisheries, offshore energy, coastal settlements and maritime security depend on ocean geography."
+    ],
+    "constitutionalLink": "Coastal regulation, marine resources, disaster safety and environmental protection connect this topic with Article 21, Article 48A and the federal governance of ports, fisheries and disaster management.",
+    "dataReport": "Static source: STATIC_02_Physical Geography.pdf, Ocean and Its Movement chapter. PYQ source: PYQ_02_Geography.pdf, Unit 3 Oceanography. Update ENSO/IOD status from IMD/WMO only for current-affairs questions.",
+    "caseStudy": "The Indian Ocean Dipole affects Indian monsoon variability by changing sea-surface temperature contrast between western and eastern Indian Ocean. It is a useful example for linking ocean temperature anomalies with rainfall outcomes.",
+    "argumentsFor": [
+      "Ocean currents explain climate moderation, desert formation, fog and fisheries.",
+      "Ocean heat content is central to cyclone intensity and climate change.",
+      "Continental shelves are economically important for fisheries, hydrocarbons and offshore wind.",
+      "Ocean-atmosphere interactions improve monsoon and disaster forecasting."
+    ],
+    "argumentsAgainst": [
+      "Memorizing current names without direction and temperature character creates errors.",
+      "ENSO/IOD effects are probabilistic, not automatic one-cause outcomes.",
+      "Coastal development can increase vulnerability despite economic gains.",
+      "Marine resource extraction can damage ecosystems if governance is weak."
+    ],
+    "pyqLink": "UPSC asks oceanography through currents, upwelling, salinity, tides, ocean relief, ENSO/IOD, coral reefs and map-linked seas/straits. The safe rule is to ask: relief, temperature, salinity, movement and climate effect.",
+    "answerFramework": {
+      "intro": "Oceanography explains the relief, properties and movements of ocean water and their effects on climate, ecosystems and human activity.",
+      "body": [
+        "Describe ocean relief: shelf, slope, abyssal plain, ridges, trenches and seamounts.",
+        "Explain water properties: temperature, salinity and density.",
+        "Explain movements: waves, tides and currents with drivers.",
+        "Apply to India: monsoon, cyclones, fisheries, ports, coral reefs and coastal vulnerability."
+      ],
+      "conclusion": "Oceans are not passive water bodies; they are active regulators of climate, resources and security."
+    },
+    "mainsExamples": [
+      "Use upwelling to explain nutrient-rich fisheries.",
+      "Use warm sea-surface temperatures to explain cyclone intensification.",
+      "Use sea-level rise to connect oceanography with coastal planning."
+    ],
+    "prelimsFacts": [
+      "Continental shelves are shallow margins of continents.",
+      "Tides are caused mainly by the gravitational pull of the Moon and Sun.",
+      "Cold currents can encourage coastal aridity.",
+      "Upwelling brings nutrient-rich deep water to the surface.",
+      "Salinity generally increases with evaporation and decreases with freshwater input."
+    ],
+    "revisionBox": [
+      {
+        "prompt": "Why are continental shelves important?",
+        "answer": "They support fisheries, offshore energy, mineral resources and shallow marine ecosystems."
+      },
+      {
+        "prompt": "What causes tides?",
+        "answer": "Mainly the gravitational pull of the Moon and Sun along with Earth's rotation."
+      },
+      {
+        "prompt": "Why does upwelling matter?",
+        "answer": "It brings nutrient-rich deep water upward, supporting plankton and fisheries."
+      },
+      {
+        "prompt": "What is the oceanography elimination chain?",
+        "answer": "Relief, temperature, salinity, movement and climate effect."
+      }
+    ]
+  },
+  "story": "Oceans are moving heat, salt, nutrients, trade routes and hazards.",
+  "core_concept": "Ocean relief, temperature, salinity, currents, waves and tides shape climate, resources and coastal risk.",
+  "mnemonic": "R-TSC: Relief, Temperature, Salinity, Currents.",
+  "mindmap_json": {
+    "center": "Oceanography",
+    "branches": [
+      { "label": "Relief", "children": ["Shelf", "Slope", "Ridge", "Trench"] },
+      { "label": "Properties", "children": ["Temperature", "Salinity", "Density"] },
+      { "label": "Movement", "children": ["Waves", "Tides", "Currents"] },
+      { "label": "Climate", "children": ["ENSO", "IOD", "Cyclone"] },
+      { "label": "Use", "children": ["Ports", "Fisheries", "Energy"] }
+    ]
+  },
+  "key_facts": [
+    "Ocean currents transfer heat across latitudes.",
+    "Warm currents usually moderate adjacent coastal climates.",
+    "Cold currents can produce fog and aridity on some coasts.",
+    "Tides are periodic rise and fall of sea level.",
+    "Abyssal plains are deep, relatively flat ocean-floor regions."
+  ],
+  "common_traps": [
+    "Do not confuse waves, tides and currents.",
+    "Do not assume every warm ocean condition produces the same monsoon result.",
+    "Do not ignore salinity-density links in circulation questions."
+  ],
+  "pyq_refs": [
+    {
+      "year": 2021,
+      "exam": "UPSC CSE Prelims",
+      "question": "PYQ pattern: ocean currents and climate effects.",
+      "answer": "Classify the current as warm/cold and locate its coast.",
+      "pattern_note": "Map plus process gives the answer."
+    },
+    {
+      "year": 2017,
+      "exam": "UPSC CSE Prelims",
+      "question": "PYQ pattern: oceanic phenomena and Indian monsoon.",
+      "answer": "Use ocean-atmosphere interaction rather than one-factor determinism.",
+      "pattern_note": "ENSO/IOD questions often test cautious causality."
+    }
+  ],
+  "pyq_count": 9,
+  "last_asked": 2021,
+  "high_yield": true,
+  "read_time_mins": 11,
+  "difficulty": "Medium",
+  "status": "published",
+  "source_type": "uploaded-geography-static-pyq",
+  "version": 1,
+  "created_at": "2026-06-30T00:00:00+05:30",
+  "updated_at": "2026-06-30T00:00:00+05:30"
+}

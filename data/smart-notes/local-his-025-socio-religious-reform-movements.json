@@ -1,0 +1,128 @@
+{
+  "id": "local-his-125",
+  "section": "History",
+  "category": "Modern India",
+  "topic": "Socio-Religious Reform Movements",
+  "subtopic": "Women, caste, education, Brahmo, Arya, Prarthana, Ramakrishna, Aligarh, Sikh and lower-caste reform movements",
+  "slug": "history-socio-religious-reform-movements",
+  "anatomy": "upsc12",
+  "content": {
+    "issueStory": "Modern Indian reform was not one movement. It was a crowded arena of debate over women, caste, education, religion, rationality, scripture, widow remarriage, sati, child marriage, social equality and community identity. Reformers borrowed from tradition and modernity at once. Some attacked caste, some reinterpreted scripture, some emphasized education, some defended community autonomy, and some linked reform with nationalism. UPSC asks this area through personalities, organizations, journals, laws and issues. The trap is saintly biography; the command method is reformer, organization, issue, method, text and limitation.",
+    "coreConcept": "Socio-religious reform movements of the nineteenth and early twentieth centuries addressed social practices, religious interpretation, education, caste and women's rights. Raja Rammohan Roy and Brahmo Samaj opposed sati and promoted monotheism and reform. Ishwar Chandra Vidyasagar supported widow remarriage and women's education. Arya Samaj under Dayanand Saraswati emphasized Vedic reform. Prarthana Samaj, Ramakrishna Mission, Theosophical Society, Aligarh movement, Singh Sabha, lower-caste movements and regional reformers contributed differently. Reforms dealt with sati abolition, widow remarriage, female education, caste discrimination, untouchability, religious reform and modern education.",
+    "dimensions": [
+      "Women dimension: sati, widow remarriage, child marriage and female education became key issues.",
+      "Caste dimension: lower-caste and anti-untouchability movements challenged hierarchy.",
+      "Religious dimension: reformers reinterpreted tradition or revived selected pasts.",
+      "Education dimension: modern education became both reform tool and identity marker.",
+      "Regional dimension: reform movements differed across Bengal, Maharashtra, Punjab, South India and Muslim society.",
+      "PYQ dimension: UPSC asks reformer-organization-issue-law-text matching."
+    ],
+    "constitutionalLink": "Reform movements shaped later constitutional values of equality, non-discrimination, religious freedom and social justice. Articles 14-17, 21, 25 and 29 connect to these long social debates.",
+    "dataReport": "Static source: STATIC_08_Modern_India.pdf, Socio Religious Reform Movement chapter. PYQ source: PYQ_05_Modern_History.pdf, Unit 2 Rebellions and Reform Movements.",
+    "caseStudy": "Vidyasagar's campaign for widow remarriage shows how social reform used scriptural argument, public persuasion and law to challenge oppressive custom.",
+    "argumentsFor": [
+      "Reform movements attacked social evils and promoted education.",
+      "They created modern public debate and associational culture.",
+      "Women's rights and caste critique became part of wider national awakening.",
+      "Community reform helped Indians respond to colonial critique without surrendering agency."
+    ],
+    "argumentsAgainst": [
+      "Many reform movements remained urban, elite or male-led.",
+      "Some reforms strengthened community boundaries and revivalist identities.",
+      "Lower-caste perspectives were often underrepresented in elite reform narratives.",
+      "Legal reform alone could not transform deeply rooted social practices."
+    ],
+    "pyqLink": "UPSC asks socio-religious reform through Brahmo, Arya, Prarthana, Aligarh, Theosophy, reform laws, women reformers, caste movements and personalities. The safe rule is person, organization, issue, method and publication/law.",
+    "answerFramework": {
+      "intro": "Socio-religious reform movements were attempts to reinterpret religion and society under the pressure of colonial modernity, internal critique and new public debate.",
+      "body": [
+        "Discuss women-related reforms and education.",
+        "Explain religious reform organizations and leaders.",
+        "Analyze caste and lower-caste reform movements.",
+        "Evaluate achievements and limits across region, class and gender."
+      ],
+      "conclusion": "These movements prepared the social ground for constitutional equality and modern citizenship, though their reach was uneven."
+    },
+    "mainsExamples": [
+      "Use Brahmo Samaj for monotheism and social reform.",
+      "Use Vidyasagar for widow remarriage.",
+      "Use Jyotiba Phule and anti-caste reform for lower-caste assertion."
+    ],
+    "prelimsFacts": [
+      "Brahmo Samaj is associated with Raja Rammohan Roy.",
+      "Arya Samaj is associated with Dayanand Saraswati.",
+      "Aligarh movement is associated with Sir Syed Ahmad Khan.",
+      "Widow Remarriage Act was passed in 1856.",
+      "Sati was abolished in 1829."
+    ],
+    "revisionBox": [
+      {
+        "prompt": "What is the reform PYQ table?",
+        "answer": "Person, organization, issue, method and publication/law."
+      },
+      {
+        "prompt": "Why was Vidyasagar important?",
+        "answer": "He campaigned for widow remarriage and women's education."
+      },
+      {
+        "prompt": "What was the Aligarh movement focused on?",
+        "answer": "Modern education and social-political uplift among Muslims."
+      },
+      {
+        "prompt": "What is the main limitation of elite reform?",
+        "answer": "Limited social reach and incomplete transformation of caste-gender structures."
+      }
+    ]
+  },
+  "story": "Reform movements argued over what Indian society should become under modern pressure.",
+  "core_concept": "Socio-religious reform links women, caste, education, religious reinterpretation and modern public debate.",
+  "mnemonic": "POIML: Person, Organization, Issue, Method, Law.",
+  "mindmap_json": {
+    "center": "Socio-Religious Reform",
+    "branches": [
+      { "label": "Women", "children": ["Sati", "Widow remarriage", "Education"] },
+      { "label": "Organizations", "children": ["Brahmo", "Arya", "Prarthana", "Aligarh"] },
+      { "label": "Caste", "children": ["Phule", "Lower-caste", "Untouchability"] },
+      { "label": "Methods", "children": ["Scripture", "Law", "Education", "Press"] },
+      { "label": "Limits", "children": ["Elite", "Regional", "Patriarchy"] }
+    ]
+  },
+  "key_facts": [
+    "Raja Rammohan Roy opposed sati.",
+    "Vidyasagar supported widow remarriage.",
+    "Dayanand Saraswati founded Arya Samaj.",
+    "Sir Syed Ahmad Khan led Aligarh movement.",
+    "Jyotiba Phule challenged caste hierarchy."
+  ],
+  "common_traps": [
+    "Do not mix Brahmo Samaj and Arya Samaj founders.",
+    "Do not treat all reform movements as uniformly progressive.",
+    "Do not forget lower-caste reform traditions."
+  ],
+  "pyq_refs": [
+    {
+      "year": 2020,
+      "exam": "UPSC CSE Prelims",
+      "question": "PYQ pattern: reformers and institutions.",
+      "answer": "Match person, organization and reform issue.",
+      "pattern_note": "Direct matching remains common."
+    },
+    {
+      "year": 2019,
+      "exam": "UPSC CSE Prelims",
+      "question": "PYQ pattern: women reform and legal changes.",
+      "answer": "Know law, reformer and social issue.",
+      "pattern_note": "Women-related reform questions recur through current hooks."
+    }
+  ],
+  "pyq_count": 13,
+  "last_asked": 2020,
+  "high_yield": true,
+  "read_time_mins": 12,
+  "difficulty": "Medium",
+  "status": "published",
+  "source_type": "uploaded-modern-static-pyq",
+  "version": 1,
+  "created_at": "2026-06-30T00:00:00+05:30",
+  "updated_at": "2026-06-30T00:00:00+05:30"
+}

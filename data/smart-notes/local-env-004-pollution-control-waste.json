@@ -1,0 +1,123 @@
+{
+  "id": "local-env-004",
+  "section": "Environment",
+  "category": "Pollution",
+  "topic": "Pollution: Causes, Impacts and Control Measures",
+  "subtopic": "Air, water, noise, plastic, solid, hazardous, radioactive, e-waste, heavy metal and industrial pollution",
+  "slug": "environment-pollution-control-waste",
+  "anatomy": "upsc12",
+  "content": {
+    "issueStory": "Pollution questions punish vague answers. Saying 'pollution is harmful' is not enough. UPSC wants pollutant-source-impact-control chains: PM2.5 from combustion affects lungs and visibility; eutrophication follows nutrient loading; plastic persists and fragments; e-waste creates heavy metal exposure; industrial effluents require standards and enforcement. The command method is to always write pollution as a flow: source, pollutant, pathway, receptor, impact, control instrument and governance gap.",
+    "coreConcept": "Pollution is the introduction of harmful substances or energy into the environment beyond its assimilative capacity. Air pollution includes particulate matter, sulphur oxides, nitrogen oxides, ozone, carbon monoxide, volatile compounds and toxic emissions. Water pollution includes organic load, pathogens, nutrients, heavy metals, industrial chemicals and groundwater contamination. Other forms include noise, plastic, solid waste, hazardous waste, radioactive pollution, e-waste, heavy metal pollution and industrial pollution. Control requires prevention, standards, monitoring, treatment technology, circular economy, source segregation, extended producer responsibility, cleaner fuels and institutional enforcement.",
+    "dimensions": [
+      "Air dimension: sources include transport, industry, power plants, biomass burning, dust and construction; impacts include health, visibility, crop loss and acid rain.",
+      "Water dimension: sewage, industrial discharge, agricultural runoff and groundwater contamination drive eutrophication, disease and ecosystem decline.",
+      "Waste dimension: solid waste, plastic, hazardous waste, biomedical and e-waste require segregation, processing, recycling and safe disposal.",
+      "Technology dimension: filters, electrostatic precipitators, scrubbers, catalytic converters, FGD, effluent treatment and waste-to-energy have specific roles and limits.",
+      "Governance dimension: monitoring, standards, municipal capacity, citizen behaviour and enforcement determine outcomes.",
+      "Prelims dimension: UPSC asks pollutants, sources, effects, indices, control devices and rule-objective matching."
+    ],
+    "constitutionalLink": "Article 21 environmental jurisprudence, Article 48A and Article 51A(g) support pollution control. Air Act, Water Act, Environment Protection Act and waste management rules form the statutory base.",
+    "dataReport": "Static source: STATIC_04_Environment.pdf, chapter 4. Coverage includes air pollution, causes, effects, control, monitoring indices, NCR measures, water pollution and conservation, noise, plastic, solid waste, hazardous waste, radioactive pollution, e-waste, heavy metals and industrial pollution.",
+    "caseStudy": "Delhi-NCR air pollution shows multi-source governance difficulty: vehicles, industry, dust, construction, biomass burning, weather inversion and regional crop residue burning combine, so single-point solutions underperform.",
+    "argumentsFor": [
+      "Source-based control is more effective than end-of-pipe cleanup alone.",
+      "Real-time monitoring improves public awareness and regulatory response.",
+      "Circular economy and EPR reduce plastic and e-waste burden.",
+      "Cleaner fuel, public transport and emission standards can reduce urban air pollution."
+    ],
+    "argumentsAgainst": [
+      "Pollution boards often face capacity and enforcement constraints.",
+      "Waste rules fail without segregation at source and municipal processing capacity.",
+      "Technology fixes can shift pollution from air to water or solid waste if residues are unmanaged.",
+      "Informal recycling protects livelihoods but can create severe health exposure if unregulated."
+    ],
+    "pyqLink": "PYQ pattern: UPSC asks pollutant-source matching, AQI, acid rain, eutrophication, plastic categories, e-waste, heavy metals, FGD, catalytic converters, fly ash and industrial pollution. Build a table: pollutant, source, effect, control.",
+    "answerFramework": {
+      "intro": "Pollution arises when harmful substances or energy exceed environmental assimilative capacity and threaten health, ecosystems and livelihoods.",
+      "body": [
+        "Classify pollution into air, water, noise, plastic, solid, hazardous, radioactive, e-waste, heavy metal and industrial categories.",
+        "For each major type, identify sources, pollutants, pathways and impacts.",
+        "Explain control tools: standards, monitoring, treatment, cleaner production, EPR and citizen behaviour.",
+        "Add governance reforms: local capacity, data transparency, inter-state coordination and strict enforcement."
+      ],
+      "conclusion": "Effective pollution control requires prevention at source, not only cleanup after damage."
+    },
+    "mainsExamples": [
+      "Use Delhi-NCR for multi-source air pollution and regional coordination.",
+      "Use river pollution to connect sewage treatment, industrial effluent and environmental flow.",
+      "Use e-waste to discuss informal sector, heavy metals and EPR."
+    ],
+    "prelimsFacts": [
+      "PM2.5 can penetrate deep into the lungs.",
+      "Eutrophication is linked to nutrient enrichment of water bodies.",
+      "Electrostatic precipitators remove particulate matter from industrial emissions.",
+      "Catalytic converters reduce harmful vehicle emissions.",
+      "E-waste can contain heavy metals and toxic substances.",
+      "Plastic pollution includes persistence, fragmentation and microplastic risk."
+    ],
+    "revisionBox": [
+      {
+        "prompt": "What is the best pollution answer structure?",
+        "answer": "Source, pollutant, pathway, receptor, impact, control and governance gap."
+      },
+      {
+        "prompt": "Why does eutrophication occur?",
+        "answer": "Nutrient loading promotes algal growth, oxygen depletion and aquatic ecosystem stress."
+      },
+      {
+        "prompt": "What is EPR?",
+        "answer": "Extended Producer Responsibility makes producers responsible for post-consumer waste management."
+      },
+      {
+        "prompt": "What is the common technology trap?",
+        "answer": "Confusing devices: ESP for particulates, scrubbers/FGD for gaseous pollutants, catalytic converters for vehicles."
+      }
+    ]
+  },
+  "story": "Pollution is a chain from source to receptor; break the chain at the source.",
+  "core_concept": "Pollution control requires pollutant-specific source reduction, monitoring, treatment, waste governance and enforcement.",
+  "mnemonic": "SPICE: Source, Pollutant, Impact, Control, Enforcement.",
+  "mindmap_json": {
+    "center": "Pollution",
+    "branches": [
+      { "label": "Air", "children": ["PM", "SOx", "NOx"] },
+      { "label": "Water", "children": ["Sewage", "Nutrients", "Metals"] },
+      { "label": "Waste", "children": ["Plastic", "Solid", "E-waste"] },
+      { "label": "Controls", "children": ["ESP", "FGD", "ETP"] },
+      { "label": "Governance", "children": ["Rules", "Monitoring", "EPR"] }
+    ]
+  },
+  "key_facts": [
+    "Air pollution control includes filters, ESPs, scrubbers and catalytic converters.",
+    "Water pollution control requires sewage and effluent treatment.",
+    "Plastic waste management increasingly uses EPR logic.",
+    "E-waste can release lead, mercury, cadmium and other toxic substances.",
+    "Industrial pollution needs sector-specific standards and monitoring."
+  ],
+  "common_traps": [
+    "Do not treat AQI as a pollutant; it is an index.",
+    "Do not confuse primary and secondary pollutants.",
+    "Do not assume waste-to-energy is pollution-free.",
+    "Do not ignore sludge and residue management from treatment systems."
+  ],
+  "pyq_refs": [
+    {
+      "year": 2019,
+      "exam": "UPSC CSE Prelims",
+      "question": "PYQ pattern: pollutant, source and control technology matching.",
+      "answer": "Use source-pollutant-control mapping.",
+      "pattern_note": "Pollution questions reward exact pairing rather than broad awareness."
+    }
+  ],
+  "pyq_count": 12,
+  "last_asked": 2019,
+  "high_yield": true,
+  "read_time_mins": 12,
+  "difficulty": "Medium",
+  "status": "published",
+  "source_type": "uploaded-environment-static",
+  "version": 1,
+  "created_at": "2026-06-30T00:00:00+05:30",
+  "updated_at": "2026-06-30T00:00:00+05:30"
+}

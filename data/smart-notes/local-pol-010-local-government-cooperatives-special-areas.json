@@ -1,0 +1,128 @@
+{
+  "id": "local-pol-110",
+  "section": "Polity",
+  "category": "Local Governance",
+  "topic": "Local Government, Cooperatives and Special Areas",
+  "subtopic": "73rd and 74th Amendments, Panchayats, Municipalities, 97th Amendment, Fifth and Sixth Schedules",
+  "slug": "polity-local-government-cooperatives-special-areas",
+  "anatomy": "upsc12",
+  "content": {
+    "issueStory": "Local government is where the Constitution meets water taps, roads, waste, gram sabhas, urban planning and everyday dignity. UPSC asks this chapter because decentralization is a constitutional promise that is only partly realized. The 73rd and 74th Amendments gave constitutional status to Panchayats and Municipalities, but the three Fs - functions, funds and functionaries - remain uneven. Cooperatives add another layer of democratic economic organization. Scheduled and tribal areas show that governance must sometimes protect autonomy and customary institutions instead of imposing uniform administration.",
+    "coreConcept": "The 73rd Constitutional Amendment added Part IX and Eleventh Schedule for Panchayats. It provides for Gram Sabha, three-tier structure, reservation, State Election Commission, State Finance Commission and five-year term. The 74th Constitutional Amendment added Part IXA and Twelfth Schedule for Municipalities, including urban local bodies, ward committees and planning functions. The Eleventh Schedule contains 29 subjects; Twelfth Schedule contains 18 subjects. Cooperatives were affected by the 97th Amendment, which added Part IXB and Article 43B, though Supreme Court limited its application to state cooperatives without state ratification. Fifth and Sixth Schedules provide special governance arrangements for scheduled and tribal areas.",
+    "dimensions": [
+      "Democratic dimension: Gram Sabha and urban local bodies deepen participatory governance.",
+      "Functional dimension: real decentralization needs functions, funds and functionaries.",
+      "Social justice dimension: reservations enable representation of SCs, STs and women.",
+      "Urban dimension: municipalities handle planning, sanitation, services and local infrastructure.",
+      "Autonomy dimension: Fifth and Sixth Schedules protect tribal governance and land-community interests.",
+      "PYQ dimension: UPSC asks committees, schedules, subjects, SEC/SFC, reservations and cooperative amendments."
+    ],
+    "constitutionalLink": "Part IX Articles 243-243O, Eleventh Schedule, Part IXA Articles 243P-243ZG, Twelfth Schedule, Article 243ZD/ZE, State Election Commission, State Finance Commission, Part IXB, Article 43B, Fifth Schedule and Sixth Schedule.",
+    "dataReport": "Static source: STATIC_09_Polity.pdf, Panchayats, Municipalities, Cooperative Societies and Special Provisions chapters. PYQ source: PYQ_06_Polity_Governance.pdf, Unit 7 Local Government, UTs and Special Status Areas.",
+    "caseStudy": "Gram Sabha is the foundation of Panchayati Raj because it can enable participatory planning, social audit and local accountability when empowered in practice.",
+    "argumentsFor": [
+      "Local government brings democracy closer to citizens.",
+      "Decentralized planning improves local relevance of services.",
+      "Reservations widen representation and leadership opportunities.",
+      "Special area provisions protect tribal autonomy and customary institutions."
+    ],
+    "argumentsAgainst": [
+      "Many local bodies lack adequate funds, staff and real functional devolution.",
+      "Urban local bodies often remain dependent on state governments.",
+      "Elite capture can weaken Gram Sabha and local accountability.",
+      "Cooperative autonomy can be undermined by political interference."
+    ],
+    "pyqLink": "UPSC asks local government through Balwant Rai Mehta/Ashok Mehta committees, 73rd/74th Amendments, Eleventh/Twelfth Schedules, Gram Sabha, SEC, SFC, cooperatives and tribal schedules. The rule is amendment, part, schedule, institution and function.",
+    "answerFramework": {
+      "intro": "Local government constitutionalizes grassroots democracy through Panchayats, Municipalities and special governance arrangements.",
+      "body": [
+        "Explain 73rd Amendment, Gram Sabha, Panchayat structure, SEC and SFC.",
+        "Explain 74th Amendment, municipalities, ward committees and urban functions.",
+        "Discuss cooperatives and democratic economic participation.",
+        "Evaluate challenges of devolution, capacity, finance, elite capture and tribal autonomy."
+      ],
+      "conclusion": "Decentralization becomes real only when constitutional status is matched by powers, funds and people."
+    },
+    "mainsExamples": [
+      "Use Gram Sabha for participatory democracy and social audit.",
+      "Use State Finance Commission for local fiscal devolution.",
+      "Use Sixth Schedule for tribal autonomy in Northeast India."
+    ],
+    "prelimsFacts": [
+      "73rd Amendment added Part IX and Eleventh Schedule.",
+      "74th Amendment added Part IXA and Twelfth Schedule.",
+      "Eleventh Schedule contains 29 subjects.",
+      "Twelfth Schedule contains 18 subjects.",
+      "State Election Commission conducts local body elections."
+    ],
+    "revisionBox": [
+      {
+        "prompt": "What are the three Fs of decentralization?",
+        "answer": "Functions, funds and functionaries."
+      },
+      {
+        "prompt": "Which amendment constitutionalized Panchayats?",
+        "answer": "73rd Constitutional Amendment."
+      },
+      {
+        "prompt": "Which amendment constitutionalized Municipalities?",
+        "answer": "74th Constitutional Amendment."
+      },
+      {
+        "prompt": "What is the local government PYQ rule?",
+        "answer": "Amendment, Part, Schedule, institution and function."
+      }
+    ]
+  },
+  "story": "Local government is where constitutional democracy meets daily life.",
+  "core_concept": "Panchayats, Municipalities, cooperatives and special areas translate democracy into local institutions and services.",
+  "mnemonic": "APSF: Amendment, Part, Schedule, Function.",
+  "mindmap_json": {
+    "center": "Local Government",
+    "branches": [
+      { "label": "Panchayat", "children": ["73rd", "Part IX", "Gram Sabha", "11th Schedule"] },
+      { "label": "Municipality", "children": ["74th", "Part IXA", "Wards", "12th Schedule"] },
+      { "label": "Finance", "children": ["SFC", "Funds", "Tax", "Grants"] },
+      { "label": "Elections", "children": ["SEC", "Reservation", "Five years"] },
+      { "label": "Special", "children": ["Fifth", "Sixth", "Cooperatives"] }
+    ]
+  },
+  "key_facts": [
+    "Gram Sabha is a body of registered voters in a village area.",
+    "Panchayats have a five-year term unless dissolved earlier.",
+    "State Finance Commission recommends local fiscal devolution.",
+    "Part IXB concerns cooperative societies.",
+    "Fifth and Sixth Schedules deal with special tribal/scheduled area administration."
+  ],
+  "common_traps": [
+    "Do not confuse Eleventh and Twelfth Schedule subjects.",
+    "Do not say local bodies are fully independent of states.",
+    "Do not apply Sixth Schedule to all tribal areas in India."
+  ],
+  "pyq_refs": [
+    {
+      "year": 2021,
+      "exam": "UPSC CSE Prelims",
+      "question": "PYQ pattern: Panchayats, SFC and local bodies.",
+      "answer": "Use 73rd/74th amendment institutional mapping.",
+      "pattern_note": "Local government questions test exact constitutional machinery."
+    },
+    {
+      "year": 2018,
+      "exam": "UPSC CSE Prelims",
+      "question": "PYQ pattern: Fifth/Sixth Schedule and special areas.",
+      "answer": "Separate scheduled areas from autonomous district council arrangements.",
+      "pattern_note": "Special provisions are high-confusion topics."
+    }
+  ],
+  "pyq_count": 13,
+  "last_asked": 2021,
+  "high_yield": true,
+  "read_time_mins": 12,
+  "difficulty": "Medium",
+  "status": "published",
+  "source_type": "uploaded-polity-static-pyq",
+  "version": 1,
+  "created_at": "2026-06-30T00:00:00+05:30",
+  "updated_at": "2026-06-30T00:00:00+05:30"
+}

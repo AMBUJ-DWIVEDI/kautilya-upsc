@@ -1,0 +1,128 @@
+{
+  "id": "local-pol-102",
+  "section": "Polity",
+  "category": "Constitutional Framework",
+  "topic": "Preamble, Amendment Procedure and Basic Structure",
+  "subtopic": "Preamble keywords, Article 368, types of majorities, constitutional amendments and basic structure doctrine",
+  "slug": "polity-preamble-amendment-basic-structure",
+  "anatomy": "upsc12",
+  "content": {
+    "issueStory": "The Preamble gives the Constitution its moral vocabulary, while Article 368 gives it controlled change. UPSC loves the tension between the two: the Constitution must be flexible enough to reform but stable enough to preserve its identity. This is why the basic structure doctrine matters. Parliament can amend the Constitution, but it cannot destroy its core identity. The exam trap is usually procedural or doctrinal: which majority, whether President can return an amendment bill, whether states initiate amendments, what Kesavananda decided, what belongs to basic structure, and how Preamble keywords changed through the 42nd Amendment.",
+    "coreConcept": "The Preamble declares India to be sovereign, socialist, secular, democratic and republic, and secures justice, liberty, equality and fraternity. It is part of the Constitution and helps interpret constitutional provisions. Article 368 provides the procedure for amendment. Amendments may require simple majority, special majority of Parliament, or special majority plus ratification by at least half of the states for federal provisions. The President is bound to give assent to a duly passed constitutional amendment bill. The basic structure doctrine emerged from Kesavananda Bharati case, holding that Parliament may amend any part of the Constitution but cannot alter its basic structure.",
+    "dimensions": [
+      "Preamble dimension: keywords express constitutional identity and goals.",
+      "Procedure dimension: amendment method depends on the subject being changed.",
+      "Federal dimension: changes affecting federal provisions need state ratification.",
+      "Judicial dimension: basic structure doctrine limits constituent power.",
+      "Democratic dimension: amendment power balances continuity and change.",
+      "PYQ dimension: UPSC asks majority types, amendment cases, President's role and basic structure elements."
+    ],
+    "constitutionalLink": "Preamble, Article 368, Article 13, Kesavananda Bharati, Golaknath, Minerva Mills and related cases form the core. Federal ratification matters for provisions such as election of President, Union-State executive powers, Supreme Court/High Courts, distribution of legislative powers, state representation in Parliament and Article 368 itself.",
+    "dataReport": "Static source: STATIC_09_Polity.pdf, Preamble and Salient Features/Amendment chapters. PYQ source: PYQ_06_Polity_Governance.pdf, Units 1 and 2. Verify current major amendments from official text during annual revision.",
+    "caseStudy": "Kesavananda Bharati transformed Indian constitutional law by preserving Parliament's broad amendment power while placing the basic structure beyond destruction.",
+    "argumentsFor": [
+      "The Preamble offers a concise statement of constitutional philosophy.",
+      "Article 368 allows democratic adaptation without replacing the whole Constitution.",
+      "Basic structure doctrine protects constitutional identity from majoritarian excess.",
+      "Judicial review of amendments preserves rule of law and constitutional supremacy."
+    ],
+    "argumentsAgainst": [
+      "Basic structure is judge-made and not exhaustively defined in the text.",
+      "Excessive judicial expansion can create concerns of judicial supremacy.",
+      "Amendment procedures are often memorized without understanding federal logic.",
+      "Preamble keywords can be used rhetorically without institutional application."
+    ],
+    "pyqLink": "UPSC has asked President's assent to amendment bills, basic structure cases, Preamble status, majority types and constitutional amendments. The safe rule is provision, majority, ratification, case and doctrine.",
+    "answerFramework": {
+      "intro": "The Preamble states the Constitution's ideals, while Article 368 provides a controlled method for constitutional change.",
+      "body": [
+        "Explain Preamble keywords and its interpretive value.",
+        "Classify amendment procedures: simple majority, special majority, special plus state ratification.",
+        "Trace basic structure through Shankari Prasad, Golaknath, Kesavananda and Minerva Mills.",
+        "Evaluate the balance between parliamentary power and constitutional identity."
+      ],
+      "conclusion": "India's amendment system protects both democratic change and constitutional continuity."
+    },
+    "mainsExamples": [
+      "Use Kesavananda Bharati for the limit on constituent power.",
+      "Use Minerva Mills to show harmony between Fundamental Rights and DPSPs.",
+      "Use 42nd and 44th amendments to explain constitutional stress and correction."
+    ],
+    "prelimsFacts": [
+      "The Preamble is part of the Constitution.",
+      "Article 368 deals with amendment procedure.",
+      "Kesavananda Bharati case laid down the basic structure doctrine.",
+      "Some amendments require ratification by at least half of the states.",
+      "The President cannot return a duly passed constitutional amendment bill for reconsideration."
+    ],
+    "revisionBox": [
+      {
+        "prompt": "What did Kesavananda Bharati decide?",
+        "answer": "Parliament can amend any part of the Constitution but cannot alter its basic structure."
+      },
+      {
+        "prompt": "When is state ratification needed?",
+        "answer": "When an amendment affects specified federal provisions."
+      },
+      {
+        "prompt": "Can the President return a constitutional amendment bill?",
+        "answer": "No, the President is bound to give assent once it is duly passed."
+      },
+      {
+        "prompt": "What is the PYQ rule here?",
+        "answer": "Provision, majority, ratification, case and doctrine."
+      }
+    ]
+  },
+  "story": "The Preamble gives identity; Article 368 gives change; basic structure guards the core.",
+  "core_concept": "Preamble, amendment procedure and basic structure define constitutional identity, controlled flexibility and limits on Parliament.",
+  "mnemonic": "PMRC: Preamble, Majority, Ratification, Case law.",
+  "mindmap_json": {
+    "center": "Preamble-Amendment",
+    "branches": [
+      { "label": "Preamble", "children": ["Sovereign", "Secular", "Democratic", "Republic"] },
+      { "label": "Article 368", "children": ["Special majority", "Ratification", "Assent"] },
+      { "label": "Cases", "children": ["Golaknath", "Kesavananda", "Minerva"] },
+      { "label": "Basic Structure", "children": ["Judicial review", "Federalism", "Rule of law"] },
+      { "label": "Traps", "children": ["President role", "State role", "Majority"] }
+    ]
+  },
+  "key_facts": [
+    "Preamble helps interpret the Constitution.",
+    "Article 368 contains the amendment procedure.",
+    "Basic structure doctrine limits constitutional amendments.",
+    "Kesavananda Bharati is the landmark basic structure case.",
+    "Federal amendments need state ratification."
+  ],
+  "common_traps": [
+    "Do not say states can initiate constitutional amendment bills under Article 368.",
+    "Do not say President may return a constitutional amendment bill.",
+    "Do not treat basic structure as a closed textual list."
+  ],
+  "pyq_refs": [
+    {
+      "year": 2022,
+      "exam": "UPSC CSE Prelims",
+      "question": "President's role in constitutional amendment bill.",
+      "answer": "President is bound to give assent.",
+      "pattern_note": "Procedure details are direct Prelims traps."
+    },
+    {
+      "year": 2021,
+      "exam": "UPSC CSE Prelims",
+      "question": "Safeguard of liberty in liberal democracy.",
+      "answer": "Separation of powers.",
+      "pattern_note": "Basic constitutional principles appear as conceptual questions."
+    }
+  ],
+  "pyq_count": 13,
+  "last_asked": 2022,
+  "high_yield": true,
+  "read_time_mins": 12,
+  "difficulty": "Hard",
+  "status": "published",
+  "source_type": "uploaded-polity-static-pyq",
+  "version": 1,
+  "created_at": "2026-06-30T00:00:00+05:30",
+  "updated_at": "2026-06-30T00:00:00+05:30"
+}

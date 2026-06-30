@@ -1,0 +1,128 @@
+{
+  "id": "local-his-011",
+  "section": "History",
+  "category": "Art and Culture",
+  "topic": "Indian Architecture and Temple Architecture",
+  "subtopic": "IVC, Mauryan, stupa, cave, Gupta, Nagara, Dravida, Vesara and Indo-Islamic architecture",
+  "slug": "history-architecture-temple-indo-islamic",
+  "anatomy": "upsc12",
+  "content": {
+    "issueStory": "Architecture is history in stone, brick, wood, cave and space. UPSC asks it because monuments carry political power, religious imagination, technology, patronage and regional identity at once. A stupa is not just a dome; it is relic, circumambulation and Buddhist memory. A temple is not just a building; it is garbhagriha, shikhara or vimana, mandapa, iconography, ritual and regional style. Indo-Islamic architecture is not just arches and domes; it is adaptation, synthesis, patronage and engineering. The command method is visual classification: plan, superstructure, material, patron, region and function.",
+    "coreConcept": "Indian architecture includes Harappan urban planning, Mauryan pillars and caves, Buddhist stupas, chaityas and viharas, Gupta temple beginnings, regional temple styles and Indo-Islamic forms. Stupas include anda, harmika, chhatra, medhi and torana elements. Temple architecture includes Nagara style in north India with curvilinear shikhara, Dravida style in south India with vimana and elaborate gopurams in later phases, and Vesara/Deccan hybrid features. Important temple features include garbhagriha, mandapa, shikhara/vimana, amalaka, kalasha and pradakshina patha. Indo-Islamic architecture uses arches, domes, minarets, mihrab, calligraphy, geometric ornamentation and garden-tomb forms.",
+    "dimensions": [
+      "Material dimension: brick, stone, rock-cut caves, monoliths and mortar reveal technology and resources.",
+      "Religious dimension: Buddhist, Jain, Hindu and Islamic spaces encode ritual practices.",
+      "Regional dimension: Nagara, Dravida, Vesara and Indo-Islamic styles vary across regions and periods.",
+      "Patronage dimension: rulers, guilds, monks, merchants and communities shaped monuments.",
+      "Visual dimension: UPSC often tests parts of monuments and style identification.",
+      "Heritage dimension: conservation, tourism and identity politics make architecture contemporary."
+    ],
+    "constitutionalLink": "Article 49 directs protection of monuments and objects of national importance. Article 51A(f) asks citizens to value and preserve rich heritage of composite culture.",
+    "dataReport": "Static source: 1. Art and Culture.pdf, Indian Architecture and Temple Architecture chapters. Ancient and Medieval static PDFs provide dynastic context. PYQ source: PYQ_04_Ancient_Medieval_ArtCulture.pdf, Unit 5 Architecture and Paintings.",
+    "caseStudy": "Sanchi Stupa is ideal for UPSC: relic tradition, Buddhist symbolism, toranas, circumambulation and patronage across time. It connects art, religion and architecture in one site.",
+    "argumentsFor": [
+      "Architecture preserves political, religious and technological history.",
+      "Temple styles help identify regional cultural development.",
+      "Buddhist and Jain monuments show transregional religious networks.",
+      "Indo-Islamic architecture demonstrates adaptation and composite culture."
+    ],
+    "argumentsAgainst": [
+      "Visual features are difficult without image-based revision.",
+      "Regional styles overlap and evolve; rigid labels can mislead.",
+      "Monuments can become politicized if studied without historical nuance.",
+      "Site-patron matching requires repeated map and chronology practice."
+    ],
+    "pyqLink": "UPSC asks architecture through stupas, temple parts, Nagara-Dravida comparison, caves, pillars, Indo-Islamic features and monument-site matching. The safe rule is plan, superstructure, patron, period, region and function.",
+    "answerFramework": {
+      "intro": "Indian architecture reflects changing religious practices, political patronage, technology and regional aesthetics across time.",
+      "body": [
+        "Trace evolution from Harappan planning and Mauryan pillars to Buddhist caves and stupas.",
+        "Compare Nagara, Dravida and Vesara temple styles.",
+        "Explain Indo-Islamic features and regional adaptations.",
+        "Add heritage conservation and cultural identity significance."
+      ],
+      "conclusion": "Architecture should be read as a material archive of India's political, religious and artistic history."
+    },
+    "mainsExamples": [
+      "Use Sanchi for Buddhist stupa architecture.",
+      "Use Brihadeshwara for Dravida temple features and Chola patronage.",
+      "Use Qutub complex or Humayun's Tomb for Indo-Islamic architectural forms."
+    ],
+    "prelimsFacts": [
+      "Garbhagriha is the sanctum of a temple.",
+      "Nagara temples generally have a curvilinear shikhara.",
+      "Dravida temples have vimana over the sanctum.",
+      "Stupa elements include anda, harmika, chhatra and torana.",
+      "Indo-Islamic architecture commonly uses arches, domes and geometric ornamentation."
+    ],
+    "revisionBox": [
+      {
+        "prompt": "What is garbhagriha?",
+        "answer": "The sanctum of a temple where the main deity is placed."
+      },
+      {
+        "prompt": "How do Nagara and Dravida styles differ at a basic level?",
+        "answer": "Nagara uses curvilinear shikhara; Dravida uses pyramidal vimana and later prominent gopurams."
+      },
+      {
+        "prompt": "What are key stupa parts?",
+        "answer": "Anda, harmika, chhatra, medhi and torana."
+      },
+      {
+        "prompt": "What is the architecture PYQ rule?",
+        "answer": "Identify plan, superstructure, patron, period, region and function."
+      }
+    ]
+  },
+  "story": "Architecture is history made visible through plan, stone, ritual and patronage.",
+  "core_concept": "Indian architecture spans Harappan planning, Mauryan art, Buddhist monuments, temple styles and Indo-Islamic forms.",
+  "mnemonic": "PSPRF: Plan, Superstructure, Patron, Region, Function.",
+  "mindmap_json": {
+    "center": "Architecture",
+    "branches": [
+      { "label": "Early", "children": ["Harappan", "Mauryan", "Stupa", "Cave"] },
+      { "label": "Temple", "children": ["Nagara", "Dravida", "Vesara"] },
+      { "label": "Parts", "children": ["Garbhagriha", "Mandapa", "Shikhara", "Vimana"] },
+      { "label": "Indo-Islamic", "children": ["Arch", "Dome", "Minaret", "Tomb"] },
+      { "label": "Heritage", "children": ["ASI", "UNESCO", "Conservation"] }
+    ]
+  },
+  "key_facts": [
+    "Sanchi is associated with Buddhist stupa architecture.",
+    "Ashokan pillars are major Mauryan architectural remains.",
+    "Nagara and Dravida are major temple styles.",
+    "Rock-cut caves are important Buddhist, Jain and Hindu architectural forms.",
+    "Indo-Islamic architecture developed through adaptation and synthesis."
+  ],
+  "common_traps": [
+    "Do not confuse shikhara and vimana terminology.",
+    "Do not identify a temple style from region alone without features.",
+    "Do not treat all arches/domes as identical across Indo-Islamic phases."
+  ],
+  "pyq_refs": [
+    {
+      "year": 2023,
+      "exam": "UPSC CSE Prelims",
+      "question": "PYQ pattern: stupas and Buddhist architecture.",
+      "answer": "Know structure, function and patronage.",
+      "pattern_note": "Stupa questions recur because they combine religion and art."
+    },
+    {
+      "year": 2021,
+      "exam": "UPSC CSE Prelims",
+      "question": "PYQ pattern: temple architecture and regional styles.",
+      "answer": "Use parts and style features for elimination.",
+      "pattern_note": "Visual taxonomy is essential."
+    }
+  ],
+  "pyq_count": 15,
+  "last_asked": 2023,
+  "high_yield": true,
+  "read_time_mins": 14,
+  "difficulty": "Hard",
+  "status": "published",
+  "source_type": "uploaded-history-static-pyq",
+  "version": 1,
+  "created_at": "2026-06-30T00:00:00+05:30",
+  "updated_at": "2026-06-30T00:00:00+05:30"
+}

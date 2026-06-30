@@ -1,0 +1,123 @@
+{
+  "id": "local-env-010",
+  "section": "Environment",
+  "category": "Protected Areas",
+  "topic": "Protected Area Network of India",
+  "subtopic": "National parks, wildlife sanctuaries, tiger reserves, elephant reserves, biosphere reserves, World Heritage Sites and Biodiversity Heritage Sites",
+  "slug": "environment-protected-area-network-india",
+  "anatomy": "upsc12",
+  "content": {
+    "issueStory": "Protected-area questions look like map trivia, but the deeper test is category discipline. National park is not the same as wildlife sanctuary. Tiger reserve is not simply any tiger habitat. Biosphere reserve has zones and a people-nature model. World Heritage Site is a UNESCO recognition. Biodiversity Heritage Site is a local biodiversity governance category. If an aspirant memorizes only names, the list collapses. If they attach each protected area to state, ecosystem, species and legal category, it becomes usable.",
+    "coreConcept": "India's protected-area network includes national parks, wildlife sanctuaries, conservation reserves, community reserves, tiger reserves, elephant reserves, biosphere reserves, UNESCO World Heritage natural sites and Biodiversity Heritage Sites. These categories differ in legal basis, objective, human-use restrictions, management authority and conservation focus. National parks generally have stricter protection than sanctuaries. Tiger reserves include core and buffer logic under tiger conservation. Biosphere reserves integrate conservation, development and research through zonation. Protected areas conserve representative ecosystems, endangered species, corridors and ecological services but must also address local livelihoods and rights.",
+    "dimensions": [
+      "Legal dimension: categories differ by statute, notification and restriction level.",
+      "Spatial dimension: protected areas must be mapped state-wise and ecosystem-wise.",
+      "Species dimension: many areas are remembered through flagship species such as tiger, rhino, lion, elephant or bustard.",
+      "Landscape dimension: isolated parks are insufficient without corridors and buffer management.",
+      "Community dimension: local rights, eco-development, relocation and livelihood alternatives affect legitimacy.",
+      "Prelims dimension: UPSC asks state-park matching, category differences, UNESCO status, biosphere reserves and tiger/elephant reserve facts."
+    ],
+    "constitutionalLink": "Article 48A and 51A(g) provide constitutional backing. Wildlife, forest and biodiversity laws provide statutory frameworks for different protected-area categories.",
+    "dataReport": "Static source: STATIC_04_Environment.pdf, chapter 10. Coverage includes state-wise national parks, wildlife sanctuaries, tiger reserves, elephant reserves, biosphere reserves, UNESCO World Heritage Sites and Biodiversity Heritage Sites.",
+    "caseStudy": "Biosphere reserves demonstrate the move beyond fortress conservation: core zones protect biodiversity, buffer zones support research and education, and transition zones allow sustainable livelihoods and community participation.",
+    "argumentsFor": [
+      "Protected areas secure habitats for threatened species and ecological processes.",
+      "Tiger and elephant reserves support landscape-level conservation beyond individual parks.",
+      "Biosphere reserves integrate conservation with sustainable development and research.",
+      "World Heritage recognition can improve visibility, tourism value and conservation attention."
+    ],
+    "argumentsAgainst": [
+      "Protected areas can become ecological islands if corridors are destroyed.",
+      "Local communities may bear conservation costs without fair benefit sharing.",
+      "Tourism pressure can damage sensitive habitats if poorly regulated.",
+      "Paper notification without staffing, monitoring and funds gives weak protection."
+    ],
+    "pyqLink": "PYQ pattern: protected-area questions ask national park-state matching, tiger reserve facts, biosphere reserve zonation, UNESCO sites, wetlands and species-location pairs. Revise through map clusters, not alphabetical lists.",
+    "answerFramework": {
+      "intro": "Protected areas are legally or administratively designated spaces for conserving biodiversity, habitats and ecological processes.",
+      "body": [
+        "Classify protected areas: national parks, sanctuaries, conservation reserves, community reserves, tiger reserves, elephant reserves and biosphere reserves.",
+        "Explain differences in objective, restrictions and management approach.",
+        "Discuss challenges: fragmentation, conflict, tourism, funding, staffing and rights.",
+        "Suggest landscape approach: corridors, community participation, scientific monitoring and eco-sensitive planning."
+      ],
+      "conclusion": "India's protected-area network must evolve from isolated sites to connected, community-sensitive conservation landscapes."
+    },
+    "mainsExamples": [
+      "Use tiger reserves to discuss core-buffer and corridor management.",
+      "Use biosphere reserves to discuss conservation with development.",
+      "Use UNESCO natural sites to connect global recognition with local management challenges."
+    ],
+    "prelimsFacts": [
+      "National parks usually have stricter restrictions than wildlife sanctuaries.",
+      "Tiger reserves include core and buffer management logic.",
+      "Biosphere reserves use zonation: core, buffer and transition.",
+      "UNESCO World Heritage status is an international recognition.",
+      "Biodiversity Heritage Sites are linked with biodiversity governance.",
+      "Protected-area revision should be state-wise and ecosystem-wise."
+    ],
+    "revisionBox": [
+      {
+        "prompt": "How should protected areas be revised?",
+        "answer": "By state, ecosystem, category and flagship species."
+      },
+      {
+        "prompt": "What is the key biosphere reserve idea?",
+        "answer": "Core, buffer and transition zones combine conservation, research and sustainable use."
+      },
+      {
+        "prompt": "Why are corridors important for protected areas?",
+        "answer": "They prevent isolation, allow movement and maintain genetic exchange."
+      },
+      {
+        "prompt": "What is the common Prelims trap?",
+        "answer": "Confusing a national park with a sanctuary, tiger reserve, biosphere reserve or UNESCO site."
+      }
+    ]
+  },
+  "story": "Protected areas become memorable when each one has a category, state, ecosystem and species.",
+  "core_concept": "India's protected-area network includes multiple categories that differ in law, objective, restriction and landscape role.",
+  "mnemonic": "SCENE: State, Category, Ecosystem, Notable species, Extra status.",
+  "mindmap_json": {
+    "center": "Protected Areas",
+    "branches": [
+      { "label": "Categories", "children": ["NP", "WLS", "Reserve"] },
+      { "label": "Flagship", "children": ["Tiger", "Elephant", "Rhino"] },
+      { "label": "Zonation", "children": ["Core", "Buffer", "Transition"] },
+      { "label": "Recognition", "children": ["UNESCO", "BHS", "Ramsar"] },
+      { "label": "Challenges", "children": ["Fragmentation", "Conflict", "Tourism"] }
+    ]
+  },
+  "key_facts": [
+    "National parks and wildlife sanctuaries differ in restriction levels and management.",
+    "Tiger reserves follow core-buffer planning.",
+    "Biosphere reserves combine conservation, development and research.",
+    "UNESCO World Heritage Sites have global recognition.",
+    "Biodiversity Heritage Sites recognize locally significant biodiversity areas."
+  ],
+  "common_traps": [
+    "Do not revise protected areas alphabetically only.",
+    "Do not confuse biosphere reserve with tiger reserve.",
+    "Do not assume all protected areas have identical restrictions.",
+    "Do not ignore corridors and buffer zones."
+  ],
+  "pyq_refs": [
+    {
+      "year": 2023,
+      "exam": "UPSC CSE Prelims",
+      "question": "PYQ pattern: protected area, state, species and status matching.",
+      "answer": "Use map-based category revision.",
+      "pattern_note": "Protected areas are a recurring map-and-memory theme."
+    }
+  ],
+  "pyq_count": 15,
+  "last_asked": 2023,
+  "high_yield": true,
+  "read_time_mins": 12,
+  "difficulty": "Hard",
+  "status": "published",
+  "source_type": "uploaded-environment-static",
+  "version": 1,
+  "created_at": "2026-06-30T00:00:00+05:30",
+  "updated_at": "2026-06-30T00:00:00+05:30"
+}

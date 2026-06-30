@@ -1,0 +1,128 @@
+{
+  "id": "local-his-007",
+  "section": "History",
+  "category": "Medieval India",
+  "topic": "Early Medieval Regional Kingdoms",
+  "subtopic": "Palas, Pratiharas, Rashtrakutas, Rajputs, Deccan and South Indian regional states",
+  "slug": "history-early-medieval-regional-kingdoms",
+  "anatomy": "upsc12",
+  "content": {
+    "issueStory": "Early medieval India is often reduced to a waiting room before the Delhi Sultanate. That is a serious UPSC mistake. This period created regional states, temple networks, land grants, agrarian expansion, trade links, Sanskrit and regional cultures, Buddhist institutions, Rajput polities and the famous tripartite struggle for Kanauj. Palas, Pratiharas and Rashtrakutas were not footnotes; they were major powers whose competition shaped north Indian politics. The command method is to read the period as regionalization: many centers of power, each with political ambition, religious patronage and cultural production.",
+    "coreConcept": "The early medieval period saw the rise of regional kingdoms after Harsha. The Palas ruled Bengal-Bihar and patronized Buddhism, Nalanda and Vikramashila. The Gurjara-Pratiharas ruled western and northern India and resisted Arab expansion. The Rashtrakutas ruled the Deccan and intervened in northern politics. The tripartite struggle involved Palas, Pratiharas and Rashtrakutas over Kanauj. Rajput polities, Kashmir, eastern and northeastern dynasties, Deccan and South Indian kingdoms contributed to regional political formations. The period saw land grants, temple-centered economy, agrarian expansion, art, architecture, scholastic institutions and regional cultural growth.",
+    "dimensions": [
+      "Regionalization dimension: power was distributed among many kingdoms rather than one all-India empire.",
+      "Kanauj dimension: the tripartite struggle made Kanauj a symbol of political prestige.",
+      "Religious dimension: Palas patronized Buddhism while many other rulers supported temples and Brahmanical institutions.",
+      "Economic dimension: land grants and agrarian expansion shaped local power.",
+      "Cultural dimension: architecture, literature and scholastic centers flourished under regional patronage.",
+      "PYQ dimension: UPSC asks dynasty-founder-region-contribution chronology."
+    ],
+    "constitutionalLink": "Heritage sites, temples, monasteries and inscriptions from this period fall under cultural protection. Article 49 and Article 51A(f) are relevant for preservation and respect for composite culture.",
+    "dataReport": "Static source: STATIC_07_Medieval_India - Copy.pdf, Early Medieval Period chapter. PYQ source: PYQ_04_Ancient_Medieval_ArtCulture.pdf, Unit 3 Earlier Medieval History and Delhi Sultanate.",
+    "caseStudy": "The tripartite struggle for Kanauj shows that political geography mattered: control of a symbolic and strategic city could confer prestige beyond immediate territory.",
+    "argumentsFor": [
+      "Early medieval regional states explain political decentralization and cultural diversity.",
+      "Patronage of temples, monasteries and learning centers shaped Indian art and education.",
+      "Land grants and agrarian expansion explain changing social-economic structures.",
+      "The period bridges ancient and medieval without a false civilizational break."
+    ],
+    "argumentsAgainst": [
+      "Chronology and regional spread are difficult without map-timeline practice.",
+      "Some older interpretations overstate political fragmentation as pure decline.",
+      "Source material can be inscription-heavy and court-centered.",
+      "Regional dynasties are often confused with later medieval powers."
+    ],
+    "pyqLink": "UPSC asks early medieval history through Palas, Pratiharas, Rashtrakutas, Kanauj, Rajputs, regional dynasties, temples, monasteries and chronology. The safe rule is dynasty-region-capital-ruler-contribution.",
+    "answerFramework": {
+      "intro": "Early medieval India was marked by regional state formation, agrarian expansion, religious patronage and cultural diversification.",
+      "body": [
+        "Explain post-Harsha regionalization and rise of multiple kingdoms.",
+        "Discuss Palas, Pratiharas and Rashtrakutas with the tripartite struggle.",
+        "Analyze land grants, temple economy, monasteries and regional cultures.",
+        "Link the period to later Sultanate-era political geography."
+      ],
+      "conclusion": "The early medieval period should be read as creative regionalization, not merely political fragmentation."
+    },
+    "mainsExamples": [
+      "Use Palas for Buddhist patronage and universities such as Vikramashila.",
+      "Use Pratiharas for resistance to Arab advance and Kanauj politics.",
+      "Use Rashtrakutas for Deccan power and north-south political linkage."
+    ],
+    "prelimsFacts": [
+      "The tripartite struggle involved Palas, Pratiharas and Rashtrakutas.",
+      "Palas were important patrons of Buddhism.",
+      "Pratiharas were associated with western and northern India.",
+      "Rashtrakutas were a major Deccan power.",
+      "Kanauj became a major symbol of political prestige."
+    ],
+    "revisionBox": [
+      {
+        "prompt": "Who fought the tripartite struggle?",
+        "answer": "Palas, Pratiharas and Rashtrakutas."
+      },
+      {
+        "prompt": "Why was Kanauj important?",
+        "answer": "It was a strategic and symbolic center of north Indian political prestige."
+      },
+      {
+        "prompt": "What are Palas known for culturally?",
+        "answer": "Buddhist patronage, monasteries, universities and Pala art."
+      },
+      {
+        "prompt": "What is the PYQ mapping rule?",
+        "answer": "Dynasty, region, capital, ruler and contribution."
+      }
+    ]
+  },
+  "story": "Early medieval India was regionalization, not a waiting room before the Sultanate.",
+  "core_concept": "Regional kingdoms, tripartite struggle, land grants, patronage and cultural production define early medieval India.",
+  "mnemonic": "PKR: Palas, Kanauj, Rashtrakutas/Pratiharas - anchor the map around Kanauj.",
+  "mindmap_json": {
+    "center": "Early Medieval",
+    "branches": [
+      { "label": "Tripartite", "children": ["Palas", "Pratiharas", "Rashtrakutas"] },
+      { "label": "Power", "children": ["Kanauj", "Rajputs", "Regional states"] },
+      { "label": "Economy", "children": ["Land grants", "Agrarian expansion", "Trade"] },
+      { "label": "Culture", "children": ["Temples", "Monasteries", "Literature"] },
+      { "label": "PYQ", "children": ["Dynasty", "Region", "Ruler"] }
+    ]
+  },
+  "key_facts": [
+    "Palas were based in eastern India.",
+    "Pratiharas were linked with western/northern India.",
+    "Rashtrakutas were a major Deccan dynasty.",
+    "Kanauj was the focus of tripartite struggle.",
+    "Land grants became important in early medieval political economy."
+  ],
+  "common_traps": [
+    "Do not skip early medieval as low-value; chronology questions recur.",
+    "Do not confuse Palas with Pallavas.",
+    "Do not treat regionalization as simple decline."
+  ],
+  "pyq_refs": [
+    {
+      "year": 2023,
+      "exam": "UPSC CSE Prelims",
+      "question": "PYQ pattern: regional dynasties and chronology.",
+      "answer": "Use dynasty-region-time mapping.",
+      "pattern_note": "Recent papers revived chronology and regional kingdom questions."
+    },
+    {
+      "year": 2025,
+      "exam": "UPSC CSE Prelims",
+      "question": "PYQ pattern noted in source: Pala decline and weak successors.",
+      "answer": "Know major Pala rulers and decline causes.",
+      "pattern_note": "Early medieval dynastic detail can appear directly."
+    }
+  ],
+  "pyq_count": 10,
+  "last_asked": 2025,
+  "high_yield": true,
+  "read_time_mins": 11,
+  "difficulty": "Medium",
+  "status": "published",
+  "source_type": "uploaded-history-static-pyq",
+  "version": 1,
+  "created_at": "2026-06-30T00:00:00+05:30",
+  "updated_at": "2026-06-30T00:00:00+05:30"
+}

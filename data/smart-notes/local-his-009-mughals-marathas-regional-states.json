@@ -1,0 +1,128 @@
+{
+  "id": "local-his-009",
+  "section": "History",
+  "category": "Medieval India",
+  "topic": "Mughals, Marathas and Regional States",
+  "subtopic": "Mughal rulers, administration, mansabdari-jagirdari, culture, decline, Shivaji, Peshwas and regional powers",
+  "slug": "history-mughals-marathas-regional-states",
+  "anatomy": "upsc12",
+  "content": {
+    "issueStory": "The Mughal Empire is where medieval Indian polity becomes a system: mansabdars, jagirs, zabt, subahs, imperial court, architecture, painting, roads, revenue surveys, Rajput alliances and frontier wars. The Marathas then show another model of power: mobile warfare, forts, chauth, sardeshmukhi, local networks, Peshwa politics and confederacy. UPSC asks this cluster because it is easy to over-personalize history as Babur, Akbar, Aurangzeb and Shivaji, while the real exam tests institutions, sources, administration, revenue, culture and decline.",
+    "coreConcept": "The Mughal Empire began with Babur's victory at Panipat in 1526. Akbar consolidated the empire through administrative reforms, mansabdari system, revenue arrangements, Rajput policy and religious-political experiments. Jahangir, Shah Jahan and Aurangzeb continued imperial expansion and cultural production in different ways. Mughal administration included mansabdari, jagirdari, subahs, zabt revenue system and imperial bureaucracy. Decline involved succession struggles, fiscal pressure, jagirdari crisis, regional assertion, Maratha rise and external invasions. Shivaji founded a powerful Maratha state with forts, guerrilla tactics, ashtapradhan council and revenue claims such as chauth and sardeshmukhi. Peshwas later expanded Maratha influence into a confederacy.",
+    "dimensions": [
+      "Institution dimension: mansabdari, jagirdari, revenue systems and provincial administration structured Mughal power.",
+      "Integration dimension: Rajput alliances, local elites and administrative incorporation helped imperial stability.",
+      "Cultural dimension: architecture, painting, literature and court culture flourished under Mughal patronage.",
+      "Conflict dimension: Deccan wars, succession conflicts and regional revolts strained the empire.",
+      "Maratha dimension: forts, mobility, revenue claims and confederacy politics shaped 17th-18th century power.",
+      "PYQ dimension: UPSC tests ruler-policy matching, administrative terms, battles, monuments and decline causes."
+    ],
+    "constitutionalLink": "Mughal and Maratha monuments, forts, documents and cities are protected heritage. Article 49 and Article 51A(f) frame preservation and respect for composite culture.",
+    "dataReport": "Static source: STATIC_07_Medieval_India - Copy.pdf, Mughal Empire and Maratha chapters. PYQ source: PYQ_04_Ancient_Medieval_ArtCulture.pdf, Unit 4 Mughals and Regional States.",
+    "caseStudy": "Akbar's mansabdari system illustrates imperial integration: ranks, military obligation and salary/jagir arrangements linked nobility to the empire while also creating later fiscal pressures.",
+    "argumentsFor": [
+      "Mughal administration shows high-level imperial integration and revenue sophistication.",
+      "Mughal culture produced major developments in architecture, painting and court literature.",
+      "Maratha rise shows regional assertion and alternative military-fiscal organization.",
+      "The decline debate teaches multi-causal historical analysis."
+    ],
+    "argumentsAgainst": [
+      "Personality-based reading hides institutional history.",
+      "Religious explanations alone cannot explain Mughal decline.",
+      "Maratha polity should not be reduced only to Shivaji; Peshwa and confederacy phases matter.",
+      "Court sources and later nationalist narratives require careful interpretation."
+    ],
+    "pyqLink": "UPSC asks this area through Babur, Akbar, mansabdari, zabt, Rajput policy, Aurangzeb, Mughal painting, monuments, Shivaji, Maratha administration and regional states. The safe rule is ruler-policy-institution-source.",
+    "answerFramework": {
+      "intro": "The Mughal and Maratha phases represent two major models of early modern Indian power: imperial bureaucracy and regional-military confederacy.",
+      "body": [
+        "Explain Mughal consolidation from Babur to Akbar and later expansion.",
+        "Discuss institutions: mansabdari, jagirdari, revenue, subahs and nobility.",
+        "Assess culture: architecture, painting, literature and court practices.",
+        "Explain Maratha rise, Shivaji, Peshwas, revenue claims and confederacy."
+      ],
+      "conclusion": "This period should be understood through institutions and regional power shifts, not only ruler biographies."
+    },
+    "mainsExamples": [
+      "Use mansabdari-jagirdari to discuss Mughal state structure and fiscal stress.",
+      "Use Shah Jahan's architecture to connect imperial ideology and aesthetics.",
+      "Use Shivaji's fort network for regional military strategy."
+    ],
+    "prelimsFacts": [
+      "Babur defeated Ibrahim Lodi at the First Battle of Panipat in 1526.",
+      "Akbar is associated with mansabdari and revenue reforms.",
+      "Zabt is linked with Mughal revenue assessment.",
+      "Shivaji founded the Maratha state.",
+      "Chauth and sardeshmukhi were important Maratha revenue claims."
+    ],
+    "revisionBox": [
+      {
+        "prompt": "What was mansabdari?",
+        "answer": "A Mughal ranking system linking status, salary and military obligations."
+      },
+      {
+        "prompt": "Why was Akbar important institutionally?",
+        "answer": "He consolidated administration, revenue, nobility integration and Rajput policy."
+      },
+      {
+        "prompt": "What are chauth and sardeshmukhi associated with?",
+        "answer": "Maratha revenue claims."
+      },
+      {
+        "prompt": "What is the Mughal-Maratha PYQ rule?",
+        "answer": "Match ruler, policy, institution, monument and source."
+      }
+    ]
+  },
+  "story": "Mughal power was an administrative system; Maratha power was mobility, forts and regional networks.",
+  "core_concept": "Mughals and Marathas are best read through institutions, revenue, warfare, culture, regional assertion and decline debates.",
+  "mnemonic": "MARS: Mansab, Akbar, Revenue, Shivaji.",
+  "mindmap_json": {
+    "center": "Mughals-Marathas",
+    "branches": [
+      { "label": "Mughals", "children": ["Babur", "Akbar", "Aurangzeb"] },
+      { "label": "Institutions", "children": ["Mansab", "Jagir", "Zabt", "Subah"] },
+      { "label": "Culture", "children": ["Architecture", "Painting", "Court"] },
+      { "label": "Marathas", "children": ["Shivaji", "Forts", "Chauth", "Peshwa"] },
+      { "label": "Decline", "children": ["Fiscal stress", "Regions", "Succession"] }
+    ]
+  },
+  "key_facts": [
+    "The Mughal Empire began in 1526 after the First Battle of Panipat.",
+    "Mansabdari structured Mughal nobility and military obligations.",
+    "Akbar's reign is central to Mughal consolidation.",
+    "Shivaji used forts and mobile warfare effectively.",
+    "Maratha power expanded significantly under the Peshwas."
+  ],
+  "common_traps": [
+    "Do not explain Mughal decline only through religion.",
+    "Do not confuse mansab with jagir.",
+    "Do not stop Maratha history at Shivaji."
+  ],
+  "pyq_refs": [
+    {
+      "year": 2020,
+      "exam": "UPSC CSE Prelims",
+      "question": "PYQ pattern: Mughal administrative terms.",
+      "answer": "Define institution precisely before choosing.",
+      "pattern_note": "Mughal terms are frequent statement traps."
+    },
+    {
+      "year": 2018,
+      "exam": "UPSC CSE Prelims",
+      "question": "PYQ pattern: Maratha administration and regional states.",
+      "answer": "Map ruler, office and revenue term.",
+      "pattern_note": "Maratha polity appears through administrative vocabulary."
+    }
+  ],
+  "pyq_count": 13,
+  "last_asked": 2020,
+  "high_yield": true,
+  "read_time_mins": 13,
+  "difficulty": "Hard",
+  "status": "published",
+  "source_type": "uploaded-history-static-pyq",
+  "version": 1,
+  "created_at": "2026-06-30T00:00:00+05:30",
+  "updated_at": "2026-06-30T00:00:00+05:30"
+}

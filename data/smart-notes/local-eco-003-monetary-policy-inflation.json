@@ -1,0 +1,128 @@
+{
+  "id": "local-eco-003",
+  "section": "Economy",
+  "category": "Monetary Policy",
+  "topic": "Monetary Policy and Inflation",
+  "subtopic": "MPC, policy rates, liquidity tools, inflation types and transmission",
+  "slug": "economy-monetary-policy-inflation",
+  "anatomy": "upsc12",
+  "content": {
+    "issueStory": "Inflation is where macroeconomics enters the kitchen. A rise in repo rate sounds technical until food, EMIs, savings, investment and jobs are pulled into the same chain. Monetary policy is the RBI's attempt to manage this chain without breaking growth. UPSC tests monetary policy because it forces aspirants to think in channels: policy rate to bank lending rate, liquidity to credit, expectations to consumption, rupee to imported inflation, and food prices to household welfare. The classic trap is to assume one instrument has one simple effect. In reality, inflation may be demand-pull, cost-push, imported, food-led, wage-led or expectation-driven; monetary policy is powerful against demand and expectations, but weaker against supply shocks. This is why an answer must never say 'raise repo, inflation solved'. It must ask: what kind of inflation, what transmission channel, and what growth cost?",
+    "coreConcept": "Monetary policy refers to central bank actions that regulate money supply, credit conditions, interest rates and liquidity to achieve price stability and growth. India's Monetary Policy Committee decides the policy repo rate under the flexible inflation targeting framework. Major tools include repo rate, standing deposit facility, marginal standing facility, bank rate, CRR, SLR, open market operations, variable rate repo/reverse repo, forex interventions and communication guidance. Inflation is a sustained rise in the general price level. Demand-pull inflation arises from excess demand; cost-push inflation from supply-side cost increases; imported inflation from external price or exchange-rate pressure. Transmission depends on banking system health, liquidity, expectations, competition and borrower-credit conditions.",
+    "dimensions": [
+      "Institutional dimension: MPC gives a rule-based and transparent framework for rate decisions.",
+      "Instrument dimension: rate tools affect cost of funds; reserve tools affect lendable resources; OMOs affect liquidity.",
+      "Inflation dimension: demand-pull, cost-push, structural, food-led and imported inflation need different responses.",
+      "Transmission dimension: policy rate must travel through banks, bond yields, credit markets, expectations and exchange rates.",
+      "Growth dimension: tight money can cool inflation but may reduce investment and consumption.",
+      "Equity dimension: inflation hurts the poor more because food and essentials form a larger consumption share."
+    ],
+    "constitutionalLink": "Price stability supports Article 38's welfare goal by protecting real incomes, especially of vulnerable households. Monetary policy is not a constitutional article topic, but its welfare consequences connect to livelihood, inequality and social justice.",
+    "dataReport": "Static source: STATIC _01_Economy.pdf, Monetary Policy and Inflation chapter. PYQ source: PYQ_01_Economic_Agriculture.pdf, inflation and money supply questions. Update current repo/MPC facts annually from RBI.",
+    "caseStudy": "Food inflation shows the limits of monetary policy. If vegetable prices rise due to weather or supply-chain disruption, higher interest rates cannot produce onions. But monetary policy can prevent second-round effects if households and firms begin expecting persistent inflation.",
+    "argumentsFor": [
+      "Flexible inflation targeting anchors expectations and improves policy credibility.",
+      "Rate hikes can moderate demand, credit expansion and inflationary expectations.",
+      "Liquidity tools help RBI manage short-term financial conditions.",
+      "Transparent MPC communication reduces uncertainty in financial markets."
+    ],
+    "argumentsAgainst": [
+      "Monetary policy has limited control over food, fuel and imported supply shocks.",
+      "Transmission may weaken if banks have stressed balance sheets or excess liquidity.",
+      "Excessive tightening can reduce investment, housing demand and employment.",
+      "Inflation targeting alone cannot solve structural bottlenecks in agriculture, logistics and energy."
+    ],
+    "pyqLink": "UPSC asks monetary policy through instruments, sterilization, inflation types, CPI/WPI distinction, money supply effects, repo-rate impact and inflation-growth trade-offs. First identify whether the statement concerns liquidity, price of credit, reserve requirement, exchange rate or expectations.",
+    "answerFramework": {
+      "intro": "Monetary policy is the central bank's management of interest rates, liquidity and expectations to balance price stability with growth.",
+      "body": [
+        "Define framework: MPC, repo rate and inflation targeting.",
+        "Explain tools: rate corridor, CRR/SLR, OMOs, liquidity operations and communication.",
+        "Classify inflation: demand, cost, imported, food-led and structural.",
+        "Evaluate limits: transmission gaps, supply shocks, growth cost and fiscal coordination."
+      ],
+      "conclusion": "Monetary policy is necessary for price stability, but durable inflation control also needs supply-side, fiscal and market reforms."
+    },
+    "mainsExamples": [
+      "Use food inflation to show the limit of interest-rate tools.",
+      "Use imported crude price shock to connect exchange rate, CAD and inflation.",
+      "Use stressed bank balance sheets to explain weak monetary transmission."
+    ],
+    "prelimsFacts": [
+      "MPC decides the policy repo rate under India's inflation targeting framework.",
+      "Repo rate is the rate at which RBI lends short-term funds to banks against eligible securities.",
+      "CRR is maintained as cash with RBI; SLR is maintained in liquid assets.",
+      "Open market operations involve sale or purchase of government securities.",
+      "Cost-push inflation originates from rising input costs or supply constraints."
+    ],
+    "revisionBox": [
+      {
+        "prompt": "Why is monetary policy weaker against food inflation?",
+        "answer": "Because food inflation often comes from supply shocks, weather, logistics or crop conditions rather than excess credit demand."
+      },
+      {
+        "prompt": "What is monetary transmission?",
+        "answer": "It is the process through which RBI policy changes affect lending rates, credit, asset prices, expectations and demand."
+      },
+      {
+        "prompt": "What is sterilization in external-sector monetary management?",
+        "answer": "Central bank action to offset the domestic liquidity impact of foreign exchange intervention."
+      },
+      {
+        "prompt": "What is the central Prelims trap in monetary tools?",
+        "answer": "Confusing tools that affect liquidity quantity with tools that affect the price of credit."
+      }
+    ]
+  },
+  "story": "Inflation is where macroeconomics enters the kitchen.",
+  "core_concept": "MPC, repo rate, liquidity instruments, inflation types, transmission and limits.",
+  "mnemonic": "RATE: Repo changes cost, Anchors expectations, Transmits via banks, Encounters supply limits.",
+  "mindmap_json": {
+    "center": "Monetary Policy and Inflation",
+    "branches": [
+      { "label": "Framework", "children": ["MPC", "Inflation targeting", "Repo rate", "Communication"] },
+      { "label": "Tools", "children": ["Repo", "CRR", "SLR", "OMO", "SDF/MSF"] },
+      { "label": "Inflation", "children": ["Demand-pull", "Cost-push", "Imported", "Food-led"] },
+      { "label": "Transmission", "children": ["Banks", "Yields", "Credit", "Expectations"] },
+      { "label": "Limits", "children": ["Supply shock", "Bank stress", "Growth cost", "Fiscal gap"] }
+    ]
+  },
+  "key_facts": [
+    "MPC decides the policy repo rate.",
+    "CRR is cash reserve with RBI; SLR is liquid asset requirement.",
+    "OMO purchase injects liquidity; OMO sale absorbs liquidity.",
+    "Cost-push inflation cannot be solved by interest rates alone.",
+    "Transmission depends on banks, liquidity, expectations and market structure."
+  ],
+  "common_traps": [
+    "Do not say repo hike directly increases money supply; it usually tightens credit conditions.",
+    "Do not treat CPI and WPI as identical inflation measures.",
+    "Do not assume all inflation is demand-pull."
+  ],
+  "pyq_refs": [
+    {
+      "year": 2023,
+      "exam": "UPSC CSE Prelims",
+      "question": "PYQ pattern: sterilization and liquidity management.",
+      "answer": "Sterilization offsets domestic liquidity impact of forex intervention.",
+      "pattern_note": "External sector and monetary policy are often linked."
+    },
+    {
+      "year": 2022,
+      "exam": "UPSC CSE Prelims",
+      "question": "PYQ pattern: inflation, money supply and monetary tools.",
+      "answer": "Identify whether the instrument changes liquidity, credit cost or expectations.",
+      "pattern_note": "Multi-statement questions test mechanism."
+    }
+  ],
+  "pyq_count": 9,
+  "last_asked": 2023,
+  "high_yield": true,
+  "read_time_mins": 12,
+  "difficulty": "Hard",
+  "status": "published",
+  "source_type": "uploaded-economy-static-pyq",
+  "version": 1,
+  "created_at": "2026-06-30T00:00:00+05:30",
+  "updated_at": "2026-06-30T00:00:00+05:30"
+}

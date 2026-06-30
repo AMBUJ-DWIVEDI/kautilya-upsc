@@ -1,0 +1,128 @@
+{
+  "id": "local-his-122",
+  "section": "History",
+  "category": "Modern India",
+  "topic": "Civil Disobedience to Cripps Mission: 1929-1942",
+  "subtopic": "Purna Swaraj, Dandi March, Civil Disobedience, Gandhi-Irwin Pact, Round Table Conferences, Communal Award, Poona Pact, 1935 Act, World War II response",
+  "slug": "history-civil-disobedience-ww2-1930-1942",
+  "anatomy": "upsc12",
+  "content": {
+    "issueStory": "Civil Disobedience made salt political. Gandhi chose a daily necessity and converted it into a symbol of unjust sovereignty. The Dandi March showed how a simple act could expose the moral absurdity of colonial law. But the 1930s were not only salt: they were also Round Table Conferences, Gandhi-Irwin Pact, Communal Award, Poona Pact, Government of India Act 1935, provincial ministries, World War II, August Offer, Individual Satyagraha and Cripps Mission. UPSC tests this phase because it combines mass movement, constitutional negotiation and communal-representation dilemmas.",
+    "coreConcept": "The Lahore session of 1929 adopted Purna Swaraj and 26 January 1930 was observed as Independence Day. Civil Disobedience Movement began with Dandi March in 1930 and salt law violation, expanding into tax refusal, boycott and parallel mobilization. Gandhi-Irwin Pact led to Congress participation in the Second Round Table Conference. Communal Award of 1932 proposed separate electorates for depressed classes, leading to Gandhi's fast and Poona Pact with B. R. Ambedkar. Government of India Act 1935 introduced provincial autonomy and federal proposals. During World War II, Congress opposed unilateral British decision to involve India, leading to August Offer, Individual Satyagraha and Cripps Mission.",
+    "dimensions": [
+      "Symbolic dimension: salt turned economic grievance into mass anti-colonial symbolism.",
+      "Mass dimension: CDM expanded participation across regions, classes and women.",
+      "Negotiation dimension: pacts and conferences linked street struggle with constitutional talks.",
+      "Representation dimension: Communal Award and Poona Pact raised difficult questions of minority and depressed-class representation.",
+      "Provincial dimension: 1935 Act and ministries shifted politics toward governance experience.",
+      "PYQ dimension: UPSC asks sequence, pacts, conferences, awards, Acts, offers and missions."
+    ],
+    "constitutionalLink": "This phase directly connects to Government of India Act 1935, representation debates, provincial autonomy and later constitutional safeguards for social justice.",
+    "dataReport": "Static source: STATIC_08_Modern_India.pdf, Indian National Movement 1929-1942 chapter. PYQ source: PYQ_05_Modern_History.pdf, Unit 4.",
+    "caseStudy": "Poona Pact shows the complexity of social justice within nationalism: it replaced separate electorates for depressed classes with reserved seats in joint electorates.",
+    "argumentsFor": [
+      "Civil Disobedience broadened mass participation and challenged colonial legality.",
+      "Salt made nationalism accessible and symbolically powerful.",
+      "Provincial ministries gave Congress administrative experience.",
+      "Poona Pact brought depressed-class representation into mainstream constitutional debate."
+    ],
+    "argumentsAgainst": [
+      "CDM had regional unevenness and phases of fatigue.",
+      "Round Table Conferences did not produce immediate transfer of power.",
+      "Poona Pact remains debated for its impact on independent Dalit political voice.",
+      "Congress response to World War II revealed limits of negotiation with unilateral imperial authority."
+    ],
+    "pyqLink": "UPSC asks this phase through Dandi March, Gandhi-Irwin Pact, Round Table Conferences, Communal Award, Poona Pact, 1935 Act, August Offer, Individual Satyagraha and Cripps Mission. The rule is event, year, actor, demand and outcome.",
+    "answerFramework": {
+      "intro": "The 1930-42 phase combined mass civil disobedience with constitutional negotiation and representation debates.",
+      "body": [
+        "Explain Purna Swaraj and Dandi March as the start of Civil Disobedience.",
+        "Discuss movement methods and social participation.",
+        "Analyze Gandhi-Irwin Pact, Round Table Conferences, Communal Award and Poona Pact.",
+        "Connect 1935 Act, provincial ministries and World War II response up to Cripps Mission."
+      ],
+      "conclusion": "This phase deepened both mass struggle and constitutional bargaining, preparing the ground for the final confrontation."
+    },
+    "mainsExamples": [
+      "Use salt satyagraha for symbolic mass politics.",
+      "Use Poona Pact for social justice and representation debate.",
+      "Use Congress ministries for transition from agitational politics to governance experience."
+    ],
+    "prelimsFacts": [
+      "Dandi March began in 1930.",
+      "Gandhi-Irwin Pact was signed in 1931.",
+      "Communal Award was announced in 1932.",
+      "Poona Pact was signed in 1932.",
+      "Government of India Act 1935 introduced provincial autonomy."
+    ],
+    "revisionBox": [
+      {
+        "prompt": "Why was salt chosen?",
+        "answer": "It was universal, everyday and symbolized unjust colonial taxation and sovereignty."
+      },
+      {
+        "prompt": "What did Poona Pact change?",
+        "answer": "It replaced separate electorates for depressed classes with reserved seats in joint electorates."
+      },
+      {
+        "prompt": "Why is 1935 Act important?",
+        "answer": "It introduced provincial autonomy and shaped later constitutional structures."
+      },
+      {
+        "prompt": "What is the PYQ rule?",
+        "answer": "Event, year, actor, demand and outcome."
+      }
+    ]
+  },
+  "story": "Civil Disobedience made salt a symbol of sovereignty, law and mass defiance.",
+  "core_concept": "The 1930-42 phase links mass civil disobedience, constitutional talks, representation debates and World War II response.",
+  "mnemonic": "DGPAC: Dandi, Gandhi-Irwin, Poona, Act 1935, Cripps.",
+  "mindmap_json": {
+    "center": "1930-42",
+    "branches": [
+      { "label": "CDM", "children": ["Dandi", "Salt", "Boycott", "Tax refusal"] },
+      { "label": "Negotiation", "children": ["Gandhi-Irwin", "RTC", "Cripps"] },
+      { "label": "Representation", "children": ["Communal Award", "Poona Pact"] },
+      { "label": "Constitutional", "children": ["1935 Act", "Provincial autonomy"] },
+      { "label": "War", "children": ["August Offer", "Individual Satyagraha"] }
+    ]
+  },
+  "key_facts": [
+    "Purna Swaraj was adopted at Lahore session in 1929.",
+    "26 January 1930 was observed as Independence Day.",
+    "Salt law violation launched Civil Disobedience.",
+    "Poona Pact involved Gandhi and B. R. Ambedkar.",
+    "Cripps Mission came during World War II."
+  ],
+  "common_traps": [
+    "Do not confuse Non-Cooperation with Civil Disobedience.",
+    "Do not place Poona Pact before Communal Award.",
+    "Do not treat 1935 Act as granting full independence."
+  ],
+  "pyq_refs": [
+    {
+      "year": 2018,
+      "exam": "UPSC CSE Prelims",
+      "question": "PYQ pattern: Civil Disobedience and pacts.",
+      "answer": "Sequence Dandi, pact, RTC and Poona correctly.",
+      "pattern_note": "1930s chronology is high-yield."
+    },
+    {
+      "year": 2013,
+      "exam": "UPSC CSE Mains",
+      "question": "PYQ pattern: CDM significance.",
+      "answer": "Discuss mass participation, symbolic politics and limitations.",
+      "pattern_note": "Mains asks movement evaluation, not just timeline."
+    }
+  ],
+  "pyq_count": 14,
+  "last_asked": 2018,
+  "high_yield": true,
+  "read_time_mins": 13,
+  "difficulty": "Hard",
+  "status": "published",
+  "source_type": "uploaded-modern-static-pyq",
+  "version": 1,
+  "created_at": "2026-06-30T00:00:00+05:30",
+  "updated_at": "2026-06-30T00:00:00+05:30"
+}

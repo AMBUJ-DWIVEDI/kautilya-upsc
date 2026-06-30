@@ -1,0 +1,128 @@
+{
+  "id": "local-pol-104",
+  "section": "Polity",
+  "category": "Fundamental Rights",
+  "topic": "Fundamental Rights and Writs",
+  "subtopic": "Articles 12-35, equality, freedom, exploitation, religion, cultural rights, Article 32 and writ jurisdiction",
+  "slug": "polity-fundamental-rights-writs",
+  "anatomy": "upsc12",
+  "content": {
+    "issueStory": "Fundamental Rights are the Constitution's shield against arbitrary power, but UPSC rarely asks them as slogans. It asks boundaries: State under Article 12, law under Article 13, reasonable restrictions under Article 19, procedure under Article 21, preventive detention under Article 22, religious freedom limits under Articles 25-28, minority rights under Articles 29-30 and writs under Article 32. The danger is absolutism. Rights are fundamental, but most are not unlimited. The command method is to ask four questions: who is protected, against whom, under which article, and subject to what limitation or remedy?",
+    "coreConcept": "Fundamental Rights are in Part III, Articles 12-35. They include Right to Equality, Right to Freedom, Right against Exploitation, Right to Freedom of Religion, Cultural and Educational Rights and Right to Constitutional Remedies. Article 12 defines State; Article 13 invalidates laws inconsistent with Fundamental Rights. Articles 14-18 cover equality. Articles 19-22 cover freedoms, life and liberty, conviction safeguards and arrest/detention protections. Articles 23-24 prohibit exploitation. Articles 25-28 protect religious freedom. Articles 29-30 protect cultural and educational rights. Article 32 gives the right to move the Supreme Court for enforcement, with writs such as habeas corpus, mandamus, prohibition, certiorari and quo warranto.",
+    "dimensions": [
+      "Enforcement dimension: Article 32 and writs make rights judicially enforceable.",
+      "Limitation dimension: reasonable restrictions and public order, morality, health and security matter.",
+      "Equality dimension: formal equality, non-discrimination, reservations and abolition of untouchability/titles.",
+      "Liberty dimension: Articles 19 and 21 are central to civil freedoms and due process-like fairness.",
+      "Pluralism dimension: religious and cultural rights protect diversity within constitutional limits.",
+      "PYQ dimension: UPSC asks article matching, writ scope, preventive detention, restrictions and case-law evolution."
+    ],
+    "constitutionalLink": "Part III Articles 12-35. Key anchors include Articles 14, 19, 21, 22, 25-30 and 32. Judicial expansion of Article 21 and basic structure links are especially important.",
+    "dataReport": "Static source: STATIC_09_Polity.pdf, Fundamental Rights chapter. PYQ source: PYQ_06_Polity_Governance.pdf, Unit 2 Foundations of the Constitution. Update major Supreme Court judgments through current affairs before final revision.",
+    "caseStudy": "Maneka Gandhi expanded Article 21 by requiring procedure to be fair, just and reasonable, transforming life and liberty jurisprudence beyond a narrow textual reading.",
+    "argumentsFor": [
+      "Fundamental Rights limit arbitrary state action and protect individual dignity.",
+      "Article 32 gives a direct constitutional remedy before the Supreme Court.",
+      "Judicial interpretation has made rights responsive to privacy, livelihood, dignity and due process concerns.",
+      "Religious and cultural rights support pluralism and minority protection."
+    ],
+    "argumentsAgainst": [
+      "Rights can conflict with public order, national security, morality and other rights.",
+      "Over-expansive judicial interpretation can raise separation-of-powers concerns.",
+      "Preventive detention provisions create tension with liberty.",
+      "Rights enforcement can be unequal where access to justice is weak."
+    ],
+    "pyqLink": "UPSC asks Fundamental Rights through Article 14/19/21/32, writs, preventive detention, religious freedom, minority institutions, due process, privacy and reasonable restrictions. The safe rule is holder, duty-bearer, article, limitation and remedy.",
+    "answerFramework": {
+      "intro": "Fundamental Rights are justiciable constitutional guarantees that protect liberty, equality, dignity and pluralism against arbitrary power.",
+      "body": [
+        "Define Part III and classify the six groups of rights.",
+        "Explain Article 12/13 as the gateway provisions.",
+        "Discuss key rights: equality, freedoms, life and liberty, religion, culture and education.",
+        "Explain Article 32 and writs as enforcement tools with reasonable limits."
+      ],
+      "conclusion": "Fundamental Rights are meaningful only when paired with accessible remedies and constitutional limits."
+    },
+    "mainsExamples": [
+      "Use Article 21 expansion for privacy, dignity and fair procedure.",
+      "Use habeas corpus for unlawful detention.",
+      "Use Article 19 restrictions to show rights are not absolute."
+    ],
+    "prelimsFacts": [
+      "Fundamental Rights are in Part III.",
+      "Article 12 defines State for Part III.",
+      "Article 13 deals with laws inconsistent with Fundamental Rights.",
+      "Article 32 is itself a Fundamental Right.",
+      "Five major writs are habeas corpus, mandamus, prohibition, certiorari and quo warranto."
+    ],
+    "revisionBox": [
+      {
+        "prompt": "What are the five writs?",
+        "answer": "Habeas corpus, mandamus, prohibition, certiorari and quo warranto."
+      },
+      {
+        "prompt": "What is Article 32?",
+        "answer": "Right to move the Supreme Court for enforcement of Fundamental Rights."
+      },
+      {
+        "prompt": "What did Maneka Gandhi change?",
+        "answer": "It made procedure under Article 21 fair, just and reasonable."
+      },
+      {
+        "prompt": "What is the FR PYQ rule?",
+        "answer": "Identify holder, State/action, article, restriction and remedy."
+      }
+    ]
+  },
+  "story": "Fundamental Rights are shields, but each shield has article, scope, limit and remedy.",
+  "core_concept": "Part III protects justiciable rights through Articles 12-35 and writ remedies under Article 32.",
+  "mnemonic": "HARMP: Holder, Action, Right, Mechanism, Proviso.",
+  "mindmap_json": {
+    "center": "Fundamental Rights",
+    "branches": [
+      { "label": "Gateway", "children": ["Article 12", "Article 13", "State", "Law"] },
+      { "label": "Rights", "children": ["Equality", "Freedom", "Religion", "Culture"] },
+      { "label": "Life-Liberty", "children": ["Article 21", "Fair procedure", "Privacy"] },
+      { "label": "Remedies", "children": ["Article 32", "Writs", "SC"] },
+      { "label": "Limits", "children": ["Public order", "Morality", "Security"] }
+    ]
+  },
+  "key_facts": [
+    "Article 14 provides equality before law and equal protection of laws.",
+    "Article 19 freedoms are available to citizens.",
+    "Article 21 protects life and personal liberty.",
+    "Article 25 is subject to public order, morality and health.",
+    "Article 32 was called the heart and soul of the Constitution by Ambedkar."
+  ],
+  "common_traps": [
+    "Do not treat all Fundamental Rights as available only to citizens.",
+    "Do not treat Article 19 freedoms as absolute.",
+    "Do not confuse Article 32 writ jurisdiction with Article 226 scope."
+  ],
+  "pyq_refs": [
+    {
+      "year": 2023,
+      "exam": "UPSC CSE Prelims",
+      "question": "PYQ pattern: preventive detention/legal custody rights.",
+      "answer": "Use Article 22 and statutory safeguards carefully.",
+      "pattern_note": "Recent Polity mixes Constitution with legal procedure."
+    },
+    {
+      "year": 2017,
+      "exam": "UPSC CSE Prelims",
+      "question": "PYQ pattern: Article 21 and privacy/dignity expansion.",
+      "answer": "Know judicial interpretation, not only text.",
+      "pattern_note": "Rights questions increasingly require case-law awareness."
+    }
+  ],
+  "pyq_count": 18,
+  "last_asked": 2023,
+  "high_yield": true,
+  "read_time_mins": 14,
+  "difficulty": "Hard",
+  "status": "published",
+  "source_type": "uploaded-polity-static-pyq",
+  "version": 1,
+  "created_at": "2026-06-30T00:00:00+05:30",
+  "updated_at": "2026-06-30T00:00:00+05:30"
+}

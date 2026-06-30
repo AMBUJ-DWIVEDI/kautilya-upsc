@@ -1,0 +1,128 @@
+{
+  "id": "local-pol-106",
+  "section": "Polity",
+  "category": "Federalism",
+  "topic": "Federalism, Centre-State Relations, Emergency and Special Provisions",
+  "subtopic": "Legislative, administrative, financial relations, inter-state relations, emergency provisions, schedules and Article 371",
+  "slug": "polity-federalism-emergency-special-provisions",
+  "anatomy": "upsc12",
+  "content": {
+    "issueStory": "Indian federalism is designed for a difficult country: linguistic diversity, uneven development, security concerns, border regions, tribal areas, inter-state rivers and national integration. It is federal, but with a strong Union. UPSC asks this area because it tests both structure and stress: legislative lists, administrative directions, finance, inter-state councils, water disputes, Article 356, emergency effects, Fifth and Sixth Schedules, Article 371 and asymmetric federalism. The trap is calling India simply federal or unitary. The correct answer is conditional: federal in normal times, unitary-leaning in stress, asymmetrical where diversity requires special accommodation.",
+    "coreConcept": "Centre-State relations include legislative relations under Articles 245-255, administrative relations under Articles 256-263 and financial relations under Articles 264-293. The Seventh Schedule distributes powers into Union, State and Concurrent Lists, with residuary powers to Parliament. Inter-state mechanisms include Article 261, Article 262, Article 263, Zonal Councils and river dispute frameworks. Emergency provisions are in Part XVIII: National Emergency under Article 352, President's Rule under Article 356 and Financial Emergency under Article 360. Special provisions include Fifth Schedule for Scheduled Areas, Sixth Schedule for tribal areas in certain northeastern states and Article 371 provisions for specific states.",
+    "dimensions": [
+      "Legislative dimension: Union, State and Concurrent Lists define law-making domains.",
+      "Administrative dimension: Union directions, All-India Services and inter-governmental coordination matter.",
+      "Financial dimension: taxation, grants, Finance Commission and GST Council shape fiscal federalism.",
+      "Emergency dimension: crisis provisions temporarily shift power toward the Union.",
+      "Asymmetry dimension: Fifth/Sixth Schedules and Article 371 accommodate regional and tribal diversity.",
+      "PYQ dimension: UPSC asks articles, lists, emergency effects, councils, disputes and special areas."
+    ],
+    "constitutionalLink": "Articles 245-263, Articles 264-293, Seventh Schedule, Article 280, Article 262, Article 263, Articles 352-360, Fifth Schedule, Sixth Schedule and Article 371 series are central.",
+    "dataReport": "Static source: STATIC_09_Polity.pdf, Federal Dynamics, Emergency Provisions and Special Provisions chapters. PYQ source: PYQ_06_Polity_Governance.pdf, Units 3 and 7. Use current federal disputes only after official/news verification.",
+    "caseStudy": "S. R. Bommai is a key case for Article 356 because it restricted arbitrary use of President's Rule and strengthened federalism and floor-test logic.",
+    "argumentsFor": [
+      "Strong Union features help national integration, security and uniform governance.",
+      "Federal distribution allows states to address local needs.",
+      "Asymmetric federalism accommodates diversity without breaking unity.",
+      "Judicial review and inter-state mechanisms can check central overreach."
+    ],
+    "argumentsAgainst": [
+      "Central dominance can weaken state autonomy.",
+      "Article 356 has historically been misused for political purposes.",
+      "Fiscal dependence can reduce real federal bargaining power of states.",
+      "Inter-state water and border disputes show coordination weaknesses."
+    ],
+    "pyqLink": "UPSC asks federalism through lists, residuary power, Article 356, emergency effects, inter-state council, river disputes, Fifth/Sixth Schedules and Article 371. The safe rule is subject, list, authority, article, exception.",
+    "answerFramework": {
+      "intro": "Indian federalism combines division of powers with a strong Union and asymmetric accommodations for diversity and crisis management.",
+      "body": [
+        "Explain legislative, administrative and financial relations.",
+        "Discuss federal and unitary features with examples.",
+        "Explain emergency provisions and their effects.",
+        "Add special provisions: Fifth/Sixth Schedules, Article 371 and asymmetric federalism."
+      ],
+      "conclusion": "India's federal design seeks unity through flexibility, but its health depends on cooperative constitutional practice."
+    },
+    "mainsExamples": [
+      "Use S. R. Bommai for limits on Article 356.",
+      "Use GST Council for fiscal federal negotiation.",
+      "Use Sixth Schedule for tribal autonomy within the Union."
+    ],
+    "prelimsFacts": [
+      "Seventh Schedule contains Union, State and Concurrent Lists.",
+      "Residuary legislative power lies with Parliament.",
+      "Article 352 deals with National Emergency.",
+      "Article 356 deals with President's Rule.",
+      "Article 360 deals with Financial Emergency."
+    ],
+    "revisionBox": [
+      {
+        "prompt": "Where are legislative lists found?",
+        "answer": "Seventh Schedule."
+      },
+      {
+        "prompt": "What is Article 356?",
+        "answer": "President's Rule in a state due to failure of constitutional machinery."
+      },
+      {
+        "prompt": "What is asymmetric federalism?",
+        "answer": "Different constitutional arrangements for different states/regions to accommodate diversity."
+      },
+      {
+        "prompt": "What is the federalism PYQ rule?",
+        "answer": "Subject, list, authority, article and exception."
+      }
+    ]
+  },
+  "story": "Indian federalism is unity through division, strength, asymmetry and crisis rules.",
+  "core_concept": "Centre-State relations, emergency powers and special provisions define India's strong but flexible federation.",
+  "mnemonic": "LAFE: Legislative, Administrative, Financial, Emergency.",
+  "mindmap_json": {
+    "center": "Federalism",
+    "branches": [
+      { "label": "Relations", "children": ["Legislative", "Administrative", "Financial"] },
+      { "label": "Lists", "children": ["Union", "State", "Concurrent", "Residuary"] },
+      { "label": "Emergency", "children": ["352", "356", "360"] },
+      { "label": "Asymmetry", "children": ["Fifth", "Sixth", "Article 371"] },
+      { "label": "Coordination", "children": ["ISC", "Zonal", "Water disputes"] }
+    ]
+  },
+  "key_facts": [
+    "India has a federal system with unitary bias.",
+    "Parliament has residuary legislative power.",
+    "Article 262 relates to inter-state water disputes.",
+    "Article 263 relates to Inter-State Council.",
+    "Sixth Schedule provides autonomous arrangements for certain tribal areas."
+  ],
+  "common_traps": [
+    "Do not call India purely unitary.",
+    "Do not ignore state ratification in federal constitutional amendments.",
+    "Do not confuse Fifth Schedule and Sixth Schedule areas."
+  ],
+  "pyq_refs": [
+    {
+      "year": 2023,
+      "exam": "UPSC CSE Prelims",
+      "question": "PYQ pattern: federalism and constitutional provisions.",
+      "answer": "Map subject to list and authority.",
+      "pattern_note": "Federalism questions are often article-plus-exception traps."
+    },
+    {
+      "year": 2019,
+      "exam": "UPSC CSE Prelims",
+      "question": "PYQ pattern: emergency and President's Rule.",
+      "answer": "Use Articles 352, 356 and 360 separately.",
+      "pattern_note": "Emergency provisions require exact separation."
+    }
+  ],
+  "pyq_count": 15,
+  "last_asked": 2023,
+  "high_yield": true,
+  "read_time_mins": 13,
+  "difficulty": "Hard",
+  "status": "published",
+  "source_type": "uploaded-polity-static-pyq",
+  "version": 1,
+  "created_at": "2026-06-30T00:00:00+05:30",
+  "updated_at": "2026-06-30T00:00:00+05:30"
+}

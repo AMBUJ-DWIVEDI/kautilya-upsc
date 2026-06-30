@@ -1,0 +1,128 @@
+{
+  "id": "local-pol-101",
+  "section": "Polity",
+  "category": "Constitutional Framework",
+  "topic": "Historical Background, Making and Salient Features of the Constitution",
+  "subtopic": "Colonial acts, Constituent Assembly, sources, parts, schedules, constitutionalism and salient features",
+  "slug": "polity-constitution-making-salient-features",
+  "anatomy": "upsc12",
+  "content": {
+    "issueStory": "Polity begins before 1950 because the Constitution did not fall from the sky on Republic Day. It grew through colonial centralization, legislative councils, dyarchy, provincial autonomy, federal proposals, nationalist demands and the Constituent Assembly's debates. UPSC asks this area to test whether the aspirant sees the Constitution as a designed limitation on power, not merely a document with articles. The high-yield trap is factual: which Act created what, which committee did what, when the Assembly adopted the Constitution, what was borrowed from where, and what makes India parliamentary, federal with unitary bias, secular, democratic, republican and rights-based.",
+    "coreConcept": "The Indian Constitution evolved through colonial legislation such as the Regulating Act 1773, Charter Acts, Government of India Acts 1858, 1919 and 1935, and the Indian Independence Act 1947. The Constituent Assembly first met on 9 December 1946, adopted the Objective Resolution, worked through committees, and adopted the Constitution on 26 November 1949. It came into force on 26 January 1950. The Constitution originally had 395 Articles, 22 Parts and 8 Schedules; it now has more parts, more articles and 12 Schedules. Salient features include written and lengthy text, parliamentary government, federal system with unitary bias, single citizenship, fundamental rights, DPSPs, independent judiciary, judicial review, adult franchise, emergency provisions and amendment procedure.",
+    "dimensions": [
+      "Historical dimension: colonial acts created administrative, legislative and judicial precedents later adapted into constitutional design.",
+      "Constituent dimension: committees, debates and Objective Resolution show deliberate constitution-making.",
+      "Borrowing dimension: Indian Constitution borrowed selectively, not mechanically, from multiple systems.",
+      "Structural dimension: parliamentary government, federalism, judiciary, rights, directive principles and emergency powers form the institutional spine.",
+      "Conceptual dimension: constitutionalism means limited government, rule of law, rights and accountability.",
+      "PYQ dimension: UPSC asks dates, acts, sources, schedules, constitutional purpose and broad features."
+    ],
+    "constitutionalLink": "The whole note concerns the Constitution. Important anchors include the Preamble, Parts I-XXII, Article 368, Fundamental Rights, DPSPs, Fundamental Duties, federal provisions, judiciary and emergency provisions.",
+    "dataReport": "Static source: STATIC_09_Polity.pdf, Historical Background, Making of the Constitution and Salient Features chapters. PYQ source: PYQ_06_Polity_Governance.pdf, Unit 1 Introduction to the Constitution. Update only amendment counts/current schedule references from latest official material if needed.",
+    "caseStudy": "The Government of India Act 1935 is a crucial bridge because many structural ideas such as federal scheme, provincial autonomy, governor's office, public service commissions, federal court and emergency provisions influenced the Constitution.",
+    "argumentsFor": [
+      "Historical background helps explain why the Constitution combines parliamentary democracy with strong Union features.",
+      "Constituent Assembly debates show that the Constitution was reasoned, not imposed as a mechanical copy.",
+      "Borrowed provisions were adapted to Indian conditions, making the Constitution both comparative and indigenous.",
+      "Salient features give the master framework for all later Polity chapters."
+    ],
+    "argumentsAgainst": [
+      "Rote tables of colonial acts can obscure the institutional logic behind them.",
+      "Borrowing-source questions require precision; vague country associations create errors.",
+      "Constitutional terms such as republic, democracy, federalism and secularism should not be used casually.",
+      "Current amendments can change article/schedule counts, so static numbers need periodic verification."
+    ],
+    "pyqLink": "UPSC has asked the purpose of a Constitution, Constitution Day, constitutional status on 26 January 1950, citizenship, safeguards of liberty, colonial acts, sources and schedules. The safe method is date-act-feature-source-purpose.",
+    "answerFramework": {
+      "intro": "The Indian Constitution is a product of colonial institutional evolution, nationalist demands and deliberative constitution-making by the Constituent Assembly.",
+      "body": [
+        "Trace historical acts from 1773 to 1947 and their institutional significance.",
+        "Explain the Constituent Assembly process, Objective Resolution, committees and adoption/enforcement dates.",
+        "Discuss sources and selective borrowing from other constitutions.",
+        "List salient features and connect them to constitutionalism, democracy, rights and federalism."
+      ],
+      "conclusion": "The Constitution should be read as a living framework that creates, limits and legitimizes public power."
+    },
+    "mainsExamples": [
+      "Use Government of India Act 1935 to show continuity and adaptation.",
+      "Use Objective Resolution as the moral-political bridge to the Preamble.",
+      "Use constitutionalism to explain why mere written rules are not enough without limited government."
+    ],
+    "prelimsFacts": [
+      "The Constituent Assembly first met on 9 December 1946.",
+      "The Constitution was adopted on 26 November 1949.",
+      "The Constitution came into force on 26 January 1950.",
+      "The Government of India Act 1935 influenced many structural features.",
+      "India has single citizenship."
+    ],
+    "revisionBox": [
+      {
+        "prompt": "What is constitutionalism?",
+        "answer": "The idea that government power must be limited by law, rights, institutions and accountability."
+      },
+      {
+        "prompt": "Why is the Government of India Act 1935 important?",
+        "answer": "It influenced federal scheme, provincial autonomy, governor's office, public service commissions, judiciary and emergency provisions."
+      },
+      {
+        "prompt": "When was the Constitution adopted and enforced?",
+        "answer": "Adopted on 26 November 1949 and enforced on 26 January 1950."
+      },
+      {
+        "prompt": "What is the PYQ rule for this chapter?",
+        "answer": "Match date, Act, provision, source and constitutional purpose."
+      }
+    ]
+  },
+  "story": "The Constitution is a designed limitation on power, shaped by history, debate and adaptation.",
+  "core_concept": "Constitution-making links colonial evolution, Constituent Assembly debates, borrowed features and India's institutional design.",
+  "mnemonic": "DASP: Date, Act, Source, Provision.",
+  "mindmap_json": {
+    "center": "Constitution Making",
+    "branches": [
+      { "label": "History", "children": ["1773", "1858", "1919", "1935"] },
+      { "label": "Assembly", "children": ["1946", "Committees", "Objective Resolution"] },
+      { "label": "Sources", "children": ["UK", "US", "Ireland", "Canada"] },
+      { "label": "Features", "children": ["Parliamentary", "Federal", "Rights", "Judiciary"] },
+      { "label": "Purpose", "children": ["Limit power", "Create offices", "Secure rights"] }
+    ]
+  },
+  "key_facts": [
+    "The Constitution was adopted on 26 November 1949.",
+    "The Constitution came into force on 26 January 1950.",
+    "Dr B. R. Ambedkar chaired the Drafting Committee.",
+    "The Constitution originally had 8 Schedules.",
+    "The Indian Constitution is federal with a strong Union bias."
+  ],
+  "common_traps": [
+    "Do not say the Drafting Committee was set up on Constitution Day in 1949.",
+    "Do not treat borrowed provisions as copied without adaptation.",
+    "Do not confuse constitutionalism with merely having a written constitution."
+  ],
+  "pyq_refs": [
+    {
+      "year": 2023,
+      "exam": "UPSC CSE Prelims",
+      "question": "Chief purpose of the Constitution of a country.",
+      "answer": "It defines and limits the powers of government.",
+      "pattern_note": "UPSC tests conceptual clarity, not only article memory."
+    },
+    {
+      "year": 2021,
+      "exam": "UPSC CSE Prelims",
+      "question": "Exact constitutional status of India on 26 January 1950.",
+      "answer": "Sovereign Democratic Republic.",
+      "pattern_note": "Preamble terms need historical-date precision."
+    }
+  ],
+  "pyq_count": 14,
+  "last_asked": 2023,
+  "high_yield": true,
+  "read_time_mins": 12,
+  "difficulty": "Medium",
+  "status": "published",
+  "source_type": "uploaded-polity-static-pyq",
+  "version": 1,
+  "created_at": "2026-06-30T00:00:00+05:30",
+  "updated_at": "2026-06-30T00:00:00+05:30"
+}

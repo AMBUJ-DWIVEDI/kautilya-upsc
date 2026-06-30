@@ -1,0 +1,128 @@
+{
+  "id": "local-his-013",
+  "section": "History",
+  "category": "Art and Culture",
+  "topic": "Performing Arts: Dance, Music, Theatre and Puppetry",
+  "subtopic": "Classical dances, folk dances, Hindustani and Carnatic music, instruments, theatre and puppetry",
+  "slug": "history-performing-arts-music-dance-theatre",
+  "anatomy": "upsc12",
+  "content": {
+    "issueStory": "Performing arts are living culture, which makes them both beautiful and dangerous for UPSC. They are not frozen facts; styles move through guru lineages, temples, courts, devotional movements, regions, communities and modern institutions. The exam often asks a deceptively simple match: dance-state, instrument-artist, music-style, theatre-form, puppetry-region. The command method is to create identity cards for each form: origin region, theme, costume, movement vocabulary, music tradition, associated text, community and institution. Without that structure, Art and Culture becomes a pile of names.",
+    "coreConcept": "India recognizes eight classical dance forms: Bharatanatyam, Kathakali, Kathak, Manipuri, Odissi, Kuchipudi, Sattriya and Mohiniyattam. Each has regional roots, costume, movement grammar, musical support and thematic traditions. Indian classical music has Hindustani and Carnatic systems, with raga, tala, gharana/sampradaya and performance forms. Hindustani styles include dhrupad, khayal, thumri and others; Carnatic music has kriti-based compositions and strong devotional traditions. Theatre forms include classical, folk and regional traditions. Puppetry includes string, shadow, rod and glove forms across different regions. Folk dances and music preserve community memory, ritual, occupation and seasonal life.",
+    "dimensions": [
+      "Regional dimension: most forms are tied to specific states, communities and cultural regions.",
+      "Textual dimension: Natyashastra and later treatises provide grammar for performance traditions.",
+      "Devotional dimension: temples, Bhakti and Sufi contexts shaped many forms.",
+      "Court dimension: royal patronage refined several music and dance traditions.",
+      "Living tradition dimension: guru-shishya lineage and institutions transmit practice.",
+      "PYQ dimension: UPSC tests form-state-feature-instrument matching."
+    ],
+    "constitutionalLink": "Article 29 protects cultural interests, and Article 51A(f) asks citizens to value India's composite cultural heritage. Performing arts also link to cultural livelihoods and intangible heritage preservation.",
+    "dataReport": "Static source: 1. Art and Culture.pdf, Dance Forms, Music, Theatre Forms and Puppetry chapters. PYQ source: PYQ_04_Ancient_Medieval_ArtCulture.pdf, Unit 6 Indian Literature and Performing Arts.",
+    "caseStudy": "Sattriya's recognition as a classical dance form shows how a living monastic devotional tradition from Assam can become part of India's national cultural canon.",
+    "argumentsFor": [
+      "Performing arts preserve language, devotion, aesthetics and community memory.",
+      "Classical and folk forms show both formal grammar and living diversity.",
+      "Music and dance traditions strengthen cultural diplomacy and identity.",
+      "Intangible heritage preservation supports artists and local economies."
+    ],
+    "argumentsAgainst": [
+      "State-form matching alone can flatten community and historical complexity.",
+      "Modern staging may alter ritual or community context.",
+      "Many folk forms are vulnerable due to declining patronage and livelihood insecurity.",
+      "UPSC traps often exploit similar names across regions."
+    ],
+    "pyqLink": "UPSC asks performing arts through classical dance-state matching, features such as mudras/costume/themes, Hindustani-Carnatic differences, instruments, theatre forms and puppetry types. Use identity cards: region, form, feature, theme and instrument.",
+    "answerFramework": {
+      "intro": "India's performing arts are living traditions of movement, sound, drama and storytelling shaped by region, religion, court patronage and community practice.",
+      "body": [
+        "Classify classical dances with their regions and features.",
+        "Explain Hindustani and Carnatic music systems and performance forms.",
+        "Discuss folk dances, theatre and puppetry as community traditions.",
+        "Add preservation challenges: patronage, transmission, commercialization and livelihood."
+      ],
+      "conclusion": "Performing arts should be protected as living cultural systems, not only as exam lists."
+    },
+    "mainsExamples": [
+      "Use Sattriya for monastery-linked devotional performance.",
+      "Use Kathak for court, Bhakti and north Indian performance evolution.",
+      "Use shadow puppetry for regional storytelling and intangible heritage."
+    ],
+    "prelimsFacts": [
+      "Bharatanatyam is associated with Tamil Nadu.",
+      "Kathakali is associated with Kerala.",
+      "Sattriya is associated with Assam.",
+      "Hindustani and Carnatic are the two major classical music systems.",
+      "Puppetry types include string, shadow, rod and glove."
+    ],
+    "revisionBox": [
+      {
+        "prompt": "What is the basic performing arts PYQ method?",
+        "answer": "Create identity cards: region, form, feature, theme and instrument."
+      },
+      {
+        "prompt": "Name the two classical music systems.",
+        "answer": "Hindustani and Carnatic."
+      },
+      {
+        "prompt": "Which classical dance is associated with Assam?",
+        "answer": "Sattriya."
+      },
+      {
+        "prompt": "What are the major puppetry types?",
+        "answer": "String, shadow, rod and glove puppetry."
+      }
+    ]
+  },
+  "story": "Performing arts are living culture, not frozen state-name tables.",
+  "core_concept": "Dance, music, theatre and puppetry must be mapped by region, feature, theme, instrument and institution.",
+  "mnemonic": "RFTI: Region, Feature, Theme, Instrument.",
+  "mindmap_json": {
+    "center": "Performing Arts",
+    "branches": [
+      { "label": "Dance", "children": ["Bharatanatyam", "Kathak", "Odissi", "Sattriya"] },
+      { "label": "Music", "children": ["Hindustani", "Carnatic", "Raga", "Tala"] },
+      { "label": "Theatre", "children": ["Folk", "Classical", "Regional"] },
+      { "label": "Puppetry", "children": ["String", "Shadow", "Rod", "Glove"] },
+      { "label": "Preservation", "children": ["Guru", "Institution", "Livelihood"] }
+    ]
+  },
+  "key_facts": [
+    "India has eight recognized classical dance forms.",
+    "Sattriya originated in Assam's Vaishnavite monastic tradition.",
+    "Kathak has strong north Indian associations.",
+    "Carnatic music is strongly associated with South India.",
+    "Puppetry is part of intangible cultural heritage."
+  ],
+  "common_traps": [
+    "Do not identify a dance form only by costume without state and theme.",
+    "Do not confuse folk and classical recognition status.",
+    "Do not mix puppetry type with region without checking."
+  ],
+  "pyq_refs": [
+    {
+      "year": 2017,
+      "exam": "UPSC CSE Prelims",
+      "question": "PYQ pattern: classical dance and state matching.",
+      "answer": "Use form-region-feature mapping.",
+      "pattern_note": "Dance forms are recurring direct-match questions."
+    },
+    {
+      "year": 2014,
+      "exam": "UPSC CSE Prelims",
+      "question": "PYQ pattern: music and performing arts terminology.",
+      "answer": "Classify by music system and performance tradition.",
+      "pattern_note": "Terminology traps require concise identity cards."
+    }
+  ],
+  "pyq_count": 10,
+  "last_asked": 2017,
+  "high_yield": true,
+  "read_time_mins": 11,
+  "difficulty": "Medium",
+  "status": "published",
+  "source_type": "uploaded-history-static-pyq",
+  "version": 1,
+  "created_at": "2026-06-30T00:00:00+05:30",
+  "updated_at": "2026-06-30T00:00:00+05:30"
+}
