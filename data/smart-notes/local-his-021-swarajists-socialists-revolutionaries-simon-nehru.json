@@ -1,0 +1,128 @@
+{
+  "id": "local-his-121",
+  "section": "History",
+  "category": "Modern India",
+  "topic": "National Movement: 1922-1929",
+  "subtopic": "Swarajists, no-changers, socialist ideas, revolutionary activities, Simon Commission and Nehru Report",
+  "slug": "history-swarajists-socialists-revolutionaries-simon-nehru",
+  "anatomy": "upsc12",
+  "content": {
+    "issueStory": "After Non-Cooperation was withdrawn, nationalism did not sleep. It split into debates over method. Should nationalists enter councils and wreck them from within, or focus on constructive work outside? Should youth turn to socialism, labour, peasant mobilization or revolutionary action? The 1920s also saw new organizations, new ideological currents and sharper constitutional demands. Simon Commission's all-white composition triggered nationwide protest, while the Nehru Report attempted an Indian constitutional answer. UPSC asks this phase because it is a bridge: it explains why the Congress moved from dominion-status debate toward complete independence.",
+    "coreConcept": "After 1922, Swarajists led by C. R. Das and Motilal Nehru favored council entry to obstruct colonial governance from within, while no-changers emphasized constructive work. The 1920s saw growth of socialist and communist ideas, labour organization, youth politics and revolutionary activities including HSRA. Simon Commission was appointed in 1927 without Indian members, leading to boycott. The Nehru Report of 1928 proposed dominion status, fundamental rights, responsible government and constitutional reforms. Disagreements over dominion status, separate electorates and minority safeguards shaped later politics. Lahore session of 1929 moved toward Purna Swaraj.",
+    "dimensions": [
+      "Strategy dimension: Swarajists versus no-changers debated council entry versus constructive work.",
+      "Ideology dimension: socialism, labour politics and youth radicalism expanded nationalist imagination.",
+      "Revolutionary dimension: HSRA and other groups shifted from individual heroism toward political messaging.",
+      "Constitutional dimension: Simon Commission and Nehru Report sharpened self-government demands.",
+      "Generational dimension: younger leaders pushed toward complete independence.",
+      "PYQ dimension: UPSC asks organizations, leaders, reports, slogans, commissions and sequence."
+    ],
+    "constitutionalLink": "Nehru Report and Simon Commission debates were crucial in the evolution of constitutional demands before Government of India Act 1935.",
+    "dataReport": "Static source: STATIC_08_Modern_India.pdf, Indian National Movement 1922-1929 chapter. PYQ source: PYQ_05_Modern_History.pdf, Unit 4.",
+    "caseStudy": "The Nehru Report is important because it was an Indian attempt to outline constitutional self-government, including rights and responsible government, even though disagreements remained.",
+    "argumentsFor": [
+      "Swarajists kept political pressure alive after movement withdrawal.",
+      "Constructive workers preserved social base and village-level work.",
+      "Revolutionary and socialist currents expanded anti-colonial politics beyond Congress constitutionalism.",
+      "Nehru Report showed Indian capacity to frame constitutional alternatives."
+    ],
+    "argumentsAgainst": [
+      "Council entry risked legitimizing colonial institutions.",
+      "Revolutionary action had limited mass reach despite symbolic power.",
+      "Nehru Report failed to secure consensus across communities and political groups.",
+      "Strategic divisions weakened unified pressure at times."
+    ],
+    "pyqLink": "UPSC asks this phase through Swaraj Party, C. R. Das, Motilal Nehru, HSRA, Simon Commission, Nehru Report and Lahore session. The safe rule is organization, leader, method, document and demand.",
+    "answerFramework": {
+      "intro": "The 1922-29 phase was a period of strategic experimentation and ideological widening after Non-Cooperation.",
+      "body": [
+        "Explain Swarajists versus no-changers.",
+        "Discuss socialist, labour and revolutionary currents.",
+        "Analyze Simon Commission protests and Nehru Report.",
+        "Connect the phase to Purna Swaraj demand."
+      ],
+      "conclusion": "The 1920s prepared nationalism for a sharper constitutional and mass confrontation in the 1930s."
+    },
+    "mainsExamples": [
+      "Use Swarajists to discuss council obstruction strategy.",
+      "Use HSRA for youth revolutionary politics.",
+      "Use Nehru Report for indigenous constitutional thinking."
+    ],
+    "prelimsFacts": [
+      "Swaraj Party was associated with C. R. Das and Motilal Nehru.",
+      "Simon Commission was appointed in 1927.",
+      "Simon Commission had no Indian member.",
+      "Nehru Report was submitted in 1928.",
+      "Lahore session of Congress in 1929 adopted Purna Swaraj goal."
+    ],
+    "revisionBox": [
+      {
+        "prompt": "What was the Swarajist strategy?",
+        "answer": "Enter legislative councils and obstruct colonial governance from within."
+      },
+      {
+        "prompt": "Why was Simon Commission boycotted?",
+        "answer": "It had no Indian member."
+      },
+      {
+        "prompt": "Why is Nehru Report important?",
+        "answer": "It was an Indian constitutional proposal before the next phase of struggle."
+      },
+      {
+        "prompt": "What is the PYQ rule?",
+        "answer": "Organization, leader, method, document and demand."
+      }
+    ]
+  },
+  "story": "The 1920s were not a pause; they were strategic experimentation.",
+  "core_concept": "The 1922-29 phase connects council politics, constructive work, socialism, revolutionaries and constitutional demands.",
+  "mnemonic": "SRSN: Swarajists, Revolutionaries, Simon, Nehru Report.",
+  "mindmap_json": {
+    "center": "1922-29",
+    "branches": [
+      { "label": "Strategy", "children": ["Swarajists", "No-changers"] },
+      { "label": "Ideas", "children": ["Socialism", "Labour", "Youth"] },
+      { "label": "Revolutionary", "children": ["HSRA", "Bhagat Singh", "Messaging"] },
+      { "label": "Constitutional", "children": ["Simon", "Nehru Report"] },
+      { "label": "Outcome", "children": ["Purna Swaraj", "Lahore"] }
+    ]
+  },
+  "key_facts": [
+    "Swarajists favored council entry.",
+    "No-changers emphasized constructive work.",
+    "Simon Commission was boycotted because it lacked Indian members.",
+    "Nehru Report proposed dominion status.",
+    "Purna Swaraj was adopted at Lahore in 1929."
+  ],
+  "common_traps": [
+    "Do not confuse Motilal Nehru Report with Jawaharlal Nehru's later leadership role.",
+    "Do not place Simon Commission after Civil Disobedience.",
+    "Do not treat revolutionaries as a single organization."
+  ],
+  "pyq_refs": [
+    {
+      "year": 2020,
+      "exam": "UPSC CSE Prelims",
+      "question": "PYQ pattern: revolutionary organizations and personalities.",
+      "answer": "Match organization, leader and action.",
+      "pattern_note": "Personality-linked questions recur."
+    },
+    {
+      "year": 2017,
+      "exam": "UPSC CSE Prelims",
+      "question": "PYQ pattern: Simon Commission and Nehru Report.",
+      "answer": "Sequence 1927, 1928 and 1929 demands.",
+      "pattern_note": "Late-1920s timeline is a frequent trap."
+    }
+  ],
+  "pyq_count": 10,
+  "last_asked": 2020,
+  "high_yield": true,
+  "read_time_mins": 11,
+  "difficulty": "Medium",
+  "status": "published",
+  "source_type": "uploaded-modern-static-pyq",
+  "version": 1,
+  "created_at": "2026-06-30T00:00:00+05:30",
+  "updated_at": "2026-06-30T00:00:00+05:30"
+}

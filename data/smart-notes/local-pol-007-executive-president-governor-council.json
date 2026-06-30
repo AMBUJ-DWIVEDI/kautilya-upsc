@@ -1,0 +1,128 @@
+{
+  "id": "local-pol-107",
+  "section": "Polity",
+  "category": "Executive",
+  "topic": "Union and State Executive",
+  "subtopic": "President, Vice-President, Governor, Prime Minister, Chief Minister and Council of Ministers",
+  "slug": "polity-executive-president-governor-council",
+  "anatomy": "upsc12",
+  "content": {
+    "issueStory": "The executive chapter looks ceremonial until UPSC starts asking who actually decides, who formally appoints, who can be removed by whom, when discretion exists, and where aid and advice binds. The President is the constitutional head, but real executive power is exercised through the Council of Ministers. The Governor is similar in form but more controversial in federal practice because of discretion, reservation of bills, floor tests and Article 356 reports. The command method is to separate formal power from real responsibility: appointment authority, advice-giver, discretion, accountability and removal.",
+    "coreConcept": "The Union executive consists of the President, Vice-President, Prime Minister, Council of Ministers and Attorney General. The President is elected indirectly and acts on the aid and advice of the Council of Ministers except in limited situations. The Vice-President is ex officio Chairman of Rajya Sabha. The Prime Minister is the real executive head at the Union level, leading the Council of Ministers, which is collectively responsible to the Lok Sabha. At state level, the Governor is the constitutional head, while the Chief Minister and Council of Ministers exercise real executive power and are collectively responsible to the Legislative Assembly. Governors have certain discretionary functions, including reserving bills and reporting constitutional breakdown.",
+    "dimensions": [
+      "Formal-real dimension: President/Governor hold formal authority; PM/CM and councils carry political responsibility.",
+      "Advice dimension: aid and advice is binding in most situations, but discretion remains in limited constitutional zones.",
+      "Appointment dimension: many constitutional offices are formally appointed by President/Governor.",
+      "Accountability dimension: collective responsibility links executive survival to lower house confidence.",
+      "Federal dimension: Governor's role often becomes a Centre-State friction point.",
+      "PYQ dimension: UPSC asks election, removal, oath, discretion, reports, advice and collective responsibility."
+    ],
+    "constitutionalLink": "Key provisions include Articles 52-78 for Union executive, Articles 153-167 for State executive, Articles 63-71 for Vice-President, Article 74, Article 75, Article 163, Article 164, Article 356 and related conventions on floor tests.",
+    "dataReport": "Static source: STATIC_09_Polity.pdf, President, Vice-President and Governor plus Executive in India chapters. PYQ source: PYQ_06_Polity_Governance.pdf, Unit 5 Centre and State Executives.",
+    "caseStudy": "Governor's discretionary role in inviting a party to form government or recommending President's Rule is a recurring federal stress point. The floor-test principle helps reduce subjective discretion and protect legislative majority.",
+    "argumentsFor": [
+      "Ceremonial heads provide constitutional continuity above day-to-day politics.",
+      "Collective responsibility ensures democratic accountability of the executive to the legislature.",
+      "Governor can act as constitutional sentinel in genuine breakdown situations.",
+      "Indirect election of President suits parliamentary government where real power lies with the cabinet."
+    ],
+    "argumentsAgainst": [
+      "Governor's discretion can be misused for partisan federal politics.",
+      "Ordinance and bill-reservation powers can bypass or delay legislative processes.",
+      "Collective responsibility weakens when party majorities suppress legislative scrutiny.",
+      "Presidential formal powers can be misunderstood as personal executive authority."
+    ],
+    "pyqLink": "UPSC asks executive through President/Governor election, impeachment/removal, discretionary powers, collective responsibility, oath, advice, reports laid before Parliament, and who appoints/removes whom. The rule is formal authority versus real authority.",
+    "answerFramework": {
+      "intro": "India's parliamentary executive separates the constitutional head from the politically responsible executive.",
+      "body": [
+        "Explain President and Governor as constitutional heads with formal powers.",
+        "Explain PM/CM and Council of Ministers as real executives responsible to lower houses.",
+        "Discuss aid and advice, discretion, appointments, removals and ordinance powers.",
+        "Evaluate Governor's role in federal practice and need for constitutional conventions."
+      ],
+      "conclusion": "The executive works best when formal authority, cabinet responsibility and constitutional morality remain aligned."
+    },
+    "mainsExamples": [
+      "Use floor-test principle to discuss government formation disputes.",
+      "Use Article 74 to show binding aid and advice at Union level.",
+      "Use Governor's bill reservation to discuss federal tension."
+    ],
+    "prelimsFacts": [
+      "The President is the constitutional head of the Union executive.",
+      "The Prime Minister is the real executive head at Union level.",
+      "The Vice-President is ex officio Chairman of Rajya Sabha.",
+      "The Council of Ministers is collectively responsible to the Lok Sabha.",
+      "The Governor is the constitutional head of a state."
+    ],
+    "revisionBox": [
+      {
+        "prompt": "What is collective responsibility?",
+        "answer": "The Council of Ministers is collectively responsible to the lower house and must resign if it loses confidence."
+      },
+      {
+        "prompt": "Who is the real executive at Union level?",
+        "answer": "The Prime Minister and Council of Ministers."
+      },
+      {
+        "prompt": "Why is Governor's role controversial?",
+        "answer": "Because discretionary powers can affect government formation, bills and Article 356 recommendations."
+      },
+      {
+        "prompt": "What is the executive PYQ rule?",
+        "answer": "Separate formal authority, real authority, advice, discretion and accountability."
+      }
+    ]
+  },
+  "story": "Executive questions are about who formally acts, who really decides and who is accountable.",
+  "core_concept": "India's executive separates constitutional heads from politically responsible councils of ministers under parliamentary government.",
+  "mnemonic": "FRAAD: Formal power, Real power, Aid-advice, Accountability, Discretion.",
+  "mindmap_json": {
+    "center": "Executive",
+    "branches": [
+      { "label": "Union", "children": ["President", "Vice-President", "PM", "Council"] },
+      { "label": "State", "children": ["Governor", "CM", "Council"] },
+      { "label": "Principles", "children": ["Aid-advice", "Collective responsibility", "Discretion"] },
+      { "label": "Powers", "children": ["Appointment", "Ordinance", "Assent", "Reports"] },
+      { "label": "Traps", "children": ["Formal vs real", "Removal", "Oath"] }
+    ]
+  },
+  "key_facts": [
+    "Article 74 concerns aid and advice to the President.",
+    "Article 75 concerns Union Council of Ministers.",
+    "Article 163 concerns aid and advice to the Governor.",
+    "Article 164 concerns State Council of Ministers.",
+    "The Governor can reserve certain bills for President's consideration."
+  ],
+  "common_traps": [
+    "Do not treat President as the real executive in parliamentary government.",
+    "Do not assume Governor has identical position to President in every respect.",
+    "Do not confuse collective responsibility with individual ministerial responsibility."
+  ],
+  "pyq_refs": [
+    {
+      "year": 2022,
+      "exam": "UPSC CSE Prelims",
+      "question": "PYQ pattern: President/Governor appointment and reports.",
+      "answer": "Map appointing authority, reporting authority and constitutional article.",
+      "pattern_note": "Executive questions often test who acts formally."
+    },
+    {
+      "year": 2020,
+      "exam": "UPSC CSE Prelims",
+      "question": "PYQ pattern: Council of Ministers and parliamentary accountability.",
+      "answer": "Use collective responsibility to lower house.",
+      "pattern_note": "Parliamentary system principles recur across executive and legislature."
+    }
+  ],
+  "pyq_count": 14,
+  "last_asked": 2022,
+  "high_yield": true,
+  "read_time_mins": 12,
+  "difficulty": "Medium",
+  "status": "published",
+  "source_type": "uploaded-polity-static-pyq",
+  "version": 1,
+  "created_at": "2026-06-30T00:00:00+05:30",
+  "updated_at": "2026-06-30T00:00:00+05:30"
+}

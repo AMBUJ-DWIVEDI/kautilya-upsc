@@ -1,0 +1,128 @@
+{
+  "id": "local-his-001",
+  "section": "History",
+  "category": "Ancient India",
+  "topic": "Prehistory, Chalcolithic and Megalithic Cultures",
+  "subtopic": "Stone Age, Neolithic revolution, Chalcolithic settlements, Iron Age, pottery and megaliths",
+  "slug": "history-prehistory-chalcolithic-megalithic",
+  "anatomy": "upsc12",
+  "content": {
+    "issueStory": "Prehistory is the part of Indian history where there are no kings to remember and no inscriptions to quote, so UPSC tests it through material culture. Tools, burials, pottery, crops, animals, rock shelters and settlement patterns become the evidence. The aspirant's danger is to treat this topic as a thin timeline: Palaeolithic, Mesolithic, Neolithic, Chalcolithic, Iron Age. The command method is different: ask what changed in livelihood, technology, mobility, food production, social organization and ritual life. The story of early India is the shift from hunting-gathering to food production, from mobile bands to settled communities, from stone tools to copper and iron, and from simple burials to complex megalithic practices.",
+    "coreConcept": "Prehistory covers the period before written records. The Palaeolithic Age is associated with hunter-gatherers and large stone tools such as hand axes, cleavers and choppers. The Mesolithic Age saw microliths, rock art and more diverse subsistence. The Neolithic Age introduced agriculture, animal domestication, polished stone tools and settled life. Chalcolithic cultures used copper along with stone and are associated with regional settlements, pottery and agriculture. The Iron Age expanded the use of iron tools and helped agriculture, warfare and state formation. Megalithic cultures, especially in peninsular India, are known for burial monuments such as dolmens, cairns, cists and stone circles.",
+    "dimensions": [
+      "Evidence dimension: tools, rock art, pottery, burials, habitation sites and animal remains are the main sources.",
+      "Technology dimension: stone tools shift from crude large tools to microliths, polished tools, copper and iron.",
+      "Economy dimension: hunting-gathering gradually gives way to agriculture, herding and craft activity.",
+      "Settlement dimension: mobile camps evolve into villages and regional cultures.",
+      "Ritual dimension: megalithic burials reveal social memory, status and belief in afterlife.",
+      "PYQ dimension: UPSC asks site-culture matching, tool types, firsts and correct chronological sequence."
+    ],
+    "constitutionalLink": "Ancient sites become governance-relevant through cultural heritage protection under the Ancient Monuments and Archaeological Sites and Remains framework. Article 49 directs the State to protect monuments and objects of national importance.",
+    "dataReport": "Static source: STATIC_06_Ancient_India.pdf, Early History chapter. PYQ source: PYQ_04_Ancient_Medieval_ArtCulture.pdf, Unit 1 Prehistoric to Mauryan. Revise this topic with site-location maps rather than text alone.",
+    "caseStudy": "Bhimbetka rock shelters show long human occupation and prehistoric rock paintings. It is a strong example for connecting archaeology, art, environment and early human life.",
+    "argumentsFor": [
+      "Prehistory builds the material-culture method used across ancient history.",
+      "Stone-to-metal transitions explain later agriculture, settlement and state formation.",
+      "Megaliths help understand social and ritual life where literary sources are absent.",
+      "Site mapping improves Prelims elimination in ancient history."
+    ],
+    "argumentsAgainst": [
+      "Chronologies vary by region; one uniform all-India timeline can mislead.",
+      "Archaeological interpretation is based on material evidence and may change with new discoveries.",
+      "Prehistory has fewer direct Mains questions, so over-detailing can reduce efficiency.",
+      "Tool names without site association are weak revision."
+    ],
+    "pyqLink": "UPSC asks this area through Stone Age sequence, sites such as Bhimbetka, Burzahom, Mehrgarh and Paiyampalli, pottery cultures, megalithic burials and material evidence. The rule is to match period, tool, site and livelihood.",
+    "answerFramework": {
+      "intro": "Prehistoric cultures of India are reconstructed through material remains such as tools, habitation sites, pottery, rock art and burials.",
+      "body": [
+        "Trace chronology from Palaeolithic to Mesolithic, Neolithic, Chalcolithic and Iron Age.",
+        "Explain changes in tools, subsistence, settlement, pottery and ritual life.",
+        "Use examples such as Bhimbetka, Burzahom, Mehrgarh and megalithic sites.",
+        "Link the transition to agriculture, settled life and later state formation."
+      ],
+      "conclusion": "Prehistory should be read as the foundation of Indian social and technological evolution."
+    },
+    "mainsExamples": [
+      "Use Bhimbetka for rock art and continuity of prehistoric habitation.",
+      "Use Burzahom for pit dwellings and Neolithic evidence in Kashmir.",
+      "Use megalithic burials to discuss ritual complexity before detailed written records."
+    ],
+    "prelimsFacts": [
+      "Palaeolithic culture is associated with large stone tools.",
+      "Mesolithic culture is associated with microliths.",
+      "Neolithic culture is associated with polished stone tools and food production.",
+      "Chalcolithic means copper-stone culture.",
+      "Megalithic sites are often associated with burial monuments."
+    ],
+    "revisionBox": [
+      {
+        "prompt": "What is the key shift in the Neolithic phase?",
+        "answer": "The shift toward agriculture, animal domestication, polished tools and settled life."
+      },
+      {
+        "prompt": "What are microliths associated with?",
+        "answer": "Mesolithic cultures."
+      },
+      {
+        "prompt": "What does Chalcolithic mean?",
+        "answer": "A culture using copper along with stone tools."
+      },
+      {
+        "prompt": "What is the PYQ rule for prehistory?",
+        "answer": "Match period, site, tool, pottery and livelihood."
+      }
+    ]
+  },
+  "story": "Prehistory is history without texts, reconstructed from tools, burials, rock art and settlements.",
+  "core_concept": "Stone Age to Iron Age cultures show changes in tools, food, settlement, ritual and social complexity.",
+  "mnemonic": "PMNCI: Palaeolithic, Mesolithic, Neolithic, Chalcolithic, Iron.",
+  "mindmap_json": {
+    "center": "Prehistory",
+    "branches": [
+      { "label": "Stone Age", "children": ["Palaeolithic", "Mesolithic", "Neolithic"] },
+      { "label": "Metals", "children": ["Copper", "Iron", "Tools"] },
+      { "label": "Evidence", "children": ["Sites", "Pottery", "Burials", "Rock art"] },
+      { "label": "Livelihood", "children": ["Hunting", "Herding", "Farming"] },
+      { "label": "PYQ traps", "children": ["Chronology", "Site match", "Tool type"] }
+    ]
+  },
+  "key_facts": [
+    "Prehistory is reconstructed mainly from archaeological evidence.",
+    "Mesolithic tools are generally microlithic.",
+    "Neolithic life shows food production and settled habitations.",
+    "Chalcolithic cultures used copper and stone.",
+    "Megalithic burials are important for early Iron Age and peninsular India."
+  ],
+  "common_traps": [
+    "Do not apply one exact chronology uniformly to all regions.",
+    "Do not confuse Mesolithic microliths with Neolithic polished tools.",
+    "Do not treat megaliths only as architecture; they are mostly burial/ritual evidence."
+  ],
+  "pyq_refs": [
+    {
+      "year": 2021,
+      "exam": "UPSC CSE Prelims",
+      "question": "PYQ pattern: prehistoric sites and material culture.",
+      "answer": "Use period-site-tool matching.",
+      "pattern_note": "Prehistory is tested through archaeological association."
+    },
+    {
+      "year": 2013,
+      "exam": "UPSC CSE Prelims",
+      "question": "PYQ pattern: megalithic and early culture features.",
+      "answer": "Identify burial practices and material remains.",
+      "pattern_note": "Ritual evidence is a recurring trap."
+    }
+  ],
+  "pyq_count": 7,
+  "last_asked": 2021,
+  "high_yield": true,
+  "read_time_mins": 10,
+  "difficulty": "Medium",
+  "status": "published",
+  "source_type": "uploaded-history-static-pyq",
+  "version": 1,
+  "created_at": "2026-06-30T00:00:00+05:30",
+  "updated_at": "2026-06-30T00:00:00+05:30"
+}

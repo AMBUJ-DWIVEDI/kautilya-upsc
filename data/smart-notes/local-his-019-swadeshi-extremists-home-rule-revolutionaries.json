@@ -1,0 +1,128 @@
+{
+  "id": "local-his-119",
+  "section": "History",
+  "category": "Modern India",
+  "topic": "Swadeshi, Extremists, Home Rule and Revolutionary Activities",
+  "subtopic": "Partition of Bengal, boycott, national education, extremist politics, revolutionary organizations, Home Rule and Lucknow Pact",
+  "slug": "history-swadeshi-extremists-home-rule-revolutionaries",
+  "anatomy": "upsc12",
+  "content": {
+    "issueStory": "The Swadeshi era changed the emotional temperature of nationalism. Protest moved from polite petition to boycott, national education, swadeshi enterprise, samitis, songs, public festivals and sharper political language. Extremists demanded self-reliance and pressure, not just prayer and petition. Revolutionary groups emerged from frustration with constitutional limits. Home Rule then re-energized politics during the First World War. UPSC tests this phase because it is full of overlaps: moderates versus extremists, Bengal partition, Surat split, revolutionary centers, Morley-Minto reforms, Home Rule Leagues, Lucknow Pact and Montagu declaration.",
+    "coreConcept": "The Partition of Bengal in 1905 triggered the Swadeshi and Boycott Movement. It involved boycott of foreign goods, promotion of swadeshi, national education, passive resistance and mass mobilization in Bengal and beyond. Extremist leaders such as Bal Gangadhar Tilak, Bipin Chandra Pal and Lala Lajpat Rai emphasized swaraj, boycott, swadeshi and national education. Revolutionary activities developed in Bengal, Maharashtra, Punjab and abroad. Morley-Minto reforms of 1909 introduced separate electorates. Home Rule Leagues of Tilak and Annie Besant demanded self-government. The Lucknow Pact of 1916 brought Congress-League cooperation, while Montagu declaration of 1917 promised gradual responsible government.",
+    "dimensions": [
+      "Mass-politics dimension: Swadeshi expanded participation beyond early elite politics.",
+      "Economic dimension: boycott and swadeshi linked nationalism with consumption and indigenous enterprise.",
+      "Ideological dimension: extremists emphasized self-reliance, pressure and swaraj.",
+      "Revolutionary dimension: secret societies and militant nationalism emerged from frustration and repression.",
+      "Constitutional dimension: Morley-Minto, Home Rule and Lucknow Pact changed political bargaining.",
+      "PYQ dimension: UPSC asks movements, leaders, organizations, reforms, pacts and revolutionary centers."
+    ],
+    "constitutionalLink": "This phase shaped later constitutional demands for self-government, representation and responsible government. Morley-Minto reforms introduced separate electorates, an important institutional precedent.",
+    "dataReport": "Static source: STATIC_08_Modern_India.pdf, Indian National Movement 1905-18 chapter. PYQ source: PYQ_05_Modern_History.pdf, Unit 3.",
+    "caseStudy": "The Swadeshi movement showed how economic action could become political protest: boycott of foreign cloth became a symbol of self-respect and anti-colonial assertion.",
+    "argumentsFor": [
+      "Swadeshi widened nationalist participation and emotional appeal.",
+      "Economic boycott challenged colonial economic dominance.",
+      "Home Rule revived political activity during wartime stagnation.",
+      "Lucknow Pact represented rare Congress-League cooperation."
+    ],
+    "argumentsAgainst": [
+      "Swadeshi remained regionally strongest in Bengal and uneven elsewhere.",
+      "Revolutionary activities were brave but organizationally limited.",
+      "Separate electorates deepened communal political structures.",
+      "Extremist-moderate conflict weakened organizational unity at times."
+    ],
+    "pyqLink": "UPSC asks this period through partition of Bengal, Swadeshi, Surat split, revolutionary organizations, Home Rule, Lucknow Pact and reforms. The safe rule is event, leader, method, organization and consequence.",
+    "answerFramework": {
+      "intro": "The 1905-18 phase transformed nationalism from moderate petitioning into assertive, economic and wider political mobilization.",
+      "body": [
+        "Explain Partition of Bengal and Swadeshi-Boycott methods.",
+        "Compare extremists with moderates.",
+        "Discuss revolutionary activities and their limitations.",
+        "Analyze Home Rule, Lucknow Pact and constitutional developments."
+      ],
+      "conclusion": "This phase supplied nationalism with sharper methods, symbols and demands that Gandhian mass politics later expanded."
+    },
+    "mainsExamples": [
+      "Use national education movement as constructive Swadeshi.",
+      "Use Home Rule Leagues as bridge between extremist politics and Gandhian phase.",
+      "Use Lucknow Pact to discuss both cooperation and communal representation."
+    ],
+    "prelimsFacts": [
+      "Partition of Bengal took place in 1905.",
+      "Swadeshi involved boycott of foreign goods and promotion of indigenous goods.",
+      "Surat split occurred in 1907.",
+      "Morley-Minto reforms were enacted in 1909.",
+      "Lucknow Pact was signed in 1916."
+    ],
+    "revisionBox": [
+      {
+        "prompt": "What did Swadeshi add to nationalism?",
+        "answer": "Boycott, indigenous enterprise, national education, wider participation and emotional symbolism."
+      },
+      {
+        "prompt": "What was the Home Rule demand?",
+        "answer": "Self-government within the empire, using constitutional agitation and political mobilization."
+      },
+      {
+        "prompt": "Why is Morley-Minto important?",
+        "answer": "It introduced separate electorates, shaping later communal representation."
+      },
+      {
+        "prompt": "What is the PYQ rule?",
+        "answer": "Event, leader, method, organization and consequence."
+      }
+    ]
+  },
+  "story": "Swadeshi changed nationalism from petition to boycott, self-reliance and public energy.",
+  "core_concept": "The 1905-18 phase links Swadeshi, extremist politics, revolutionary action, Home Rule and constitutional bargaining.",
+  "mnemonic": "BESL: Boycott, Extremists, Secret societies, Leagues.",
+  "mindmap_json": {
+    "center": "1905-18",
+    "branches": [
+      { "label": "Swadeshi", "children": ["Boycott", "National education", "Samitis"] },
+      { "label": "Extremists", "children": ["Tilak", "Pal", "Lajpat Rai"] },
+      { "label": "Revolutionaries", "children": ["Bengal", "Maharashtra", "Abroad"] },
+      { "label": "Reforms", "children": ["1909", "Separate electorate"] },
+      { "label": "Home Rule", "children": ["Tilak", "Besant", "Lucknow"] }
+    ]
+  },
+  "key_facts": [
+    "Swadeshi was triggered by Bengal partition.",
+    "Extremists emphasized swaraj, swadeshi, boycott and national education.",
+    "Morley-Minto reforms introduced separate electorates.",
+    "Home Rule Leagues were associated with Tilak and Annie Besant.",
+    "Lucknow Pact brought Congress-League agreement."
+  ],
+  "common_traps": [
+    "Do not confuse Swadeshi methods with Non-Cooperation methods.",
+    "Do not place Home Rule before Swadeshi.",
+    "Do not treat revolutionary movements as identical across regions."
+  ],
+  "pyq_refs": [
+    {
+      "year": 2016,
+      "exam": "UPSC CSE Prelims",
+      "question": "PYQ pattern: Swadeshi and National Handloom Day link.",
+      "answer": "Connect August 7 with Swadeshi launch memory.",
+      "pattern_note": "Modern History can appear through current-cultural hooks."
+    },
+    {
+      "year": 2018,
+      "exam": "UPSC CSE Prelims",
+      "question": "PYQ pattern: Home Rule and revolutionary organizations.",
+      "answer": "Match leader, organization and method.",
+      "pattern_note": "This phase rewards timeline precision."
+    }
+  ],
+  "pyq_count": 12,
+  "last_asked": 2018,
+  "high_yield": true,
+  "read_time_mins": 12,
+  "difficulty": "Medium",
+  "status": "published",
+  "source_type": "uploaded-modern-static-pyq",
+  "version": 1,
+  "created_at": "2026-06-30T00:00:00+05:30",
+  "updated_at": "2026-06-30T00:00:00+05:30"
+}

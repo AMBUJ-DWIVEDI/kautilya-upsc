@@ -1,0 +1,128 @@
+{
+  "id": "local-his-126",
+  "section": "History",
+  "category": "Modern India",
+  "topic": "People's Resistance: Civil, Tribal, Military and Peasant Movements",
+  "subtopic": "Civil rebellions, tribal revolts, military uprisings, peasant movements and local resistance traditions",
+  "slug": "history-peoples-resistance-civil-tribal-peasant",
+  "anatomy": "upsc12",
+  "content": {
+    "issueStory": "The freedom struggle did not begin only in Congress sessions. Long before all-India nationalism matured, peasants, tribals, soldiers, artisans, dispossessed chiefs and local communities resisted colonial intrusion. These movements were often local, specific and defensive, but they exposed how colonial revenue, forests, moneylenders, missionaries, landlords, police and administrators disrupted older worlds. UPSC asks these resistances because they test whether the aspirant can see history from below. The trap is to memorize revolt names without cause and region. The command method is movement, region, community, cause, leader and outcome.",
+    "coreConcept": "People's resistance included civil rebellions, tribal revolts, military uprisings and peasant movements. Civil rebellions often involved displaced rulers, zamindars, peasants and local elites. Tribal revolts such as Santhal, Munda, Kol, Bhil and others emerged against land alienation, forest restrictions, moneylenders, missionary activity and administrative intrusion. Peasant movements arose against high revenue, indigo planters, landlords, debt and commercialization pressures. Military uprisings reflected sepoy grievances before and after 1857. These movements were often localized and pre-national or proto-national, but they created resistance traditions and exposed exploitative colonial structures.",
+    "dimensions": [
+      "Economic dimension: revenue, rent, debt and commercialization triggered many peasant resistances.",
+      "Tribal dimension: land alienation, forest laws and outside exploiters drove tribal revolts.",
+      "Political dimension: dispossessed chiefs and local elites resisted loss of authority.",
+      "Military dimension: sepoy grievances periodically produced uprisings.",
+      "Limitation dimension: movements were often local, poorly coordinated and brutally suppressed.",
+      "PYQ dimension: UPSC asks revolt-region-leader-cause matching."
+    ],
+    "constitutionalLink": "These movements later connect to constitutional protections for tribal areas, land rights, social justice and local self-governance, especially Fifth and Sixth Schedule concerns.",
+    "dataReport": "Static source: STATIC_08_Modern_India.pdf, People's Resistance Against the British chapter. PYQ source: PYQ_05_Modern_History.pdf, Unit 2.",
+    "caseStudy": "The Munda ulgulan under Birsa Munda shows how tribal resistance combined land, religion, identity and anti-colonial anger against outsiders and exploitative structures.",
+    "argumentsFor": [
+      "People's resistance reveals anti-colonial struggle beyond elite nationalism.",
+      "Tribal and peasant movements expose the social cost of colonial land and forest policies.",
+      "Local revolts preserved traditions of resistance and community assertion.",
+      "They help understand why later nationalism needed agrarian and tribal outreach."
+    ],
+    "argumentsAgainst": [
+      "Many movements were localized and lacked all-India coordination.",
+      "Some aimed to restore older rights rather than create modern nationalism.",
+      "Documentation is often colonial and biased.",
+      "Brutal suppression limited organizational continuity."
+    ],
+    "pyqLink": "UPSC asks people's resistance through Santhal, Munda, Kol, Bhil, Indigo, Deccan riots, Moplah, Eka and other movements. The rule is region, community, leader, cause and outcome.",
+    "answerFramework": {
+      "intro": "People's resistance against British rule reflected local and community-level responses to colonial economic, administrative and social disruption.",
+      "body": [
+        "Classify resistance into civil, tribal, military and peasant movements.",
+        "Explain causes: land alienation, revenue pressure, debt, forest laws and loss of authority.",
+        "Use examples such as Santhal, Munda, Indigo and Deccan movements.",
+        "Evaluate limitations and contribution to anti-colonial consciousness."
+      ],
+      "conclusion": "These movements were often local, but they revealed the depth of colonial disruption and resistance from below."
+    },
+    "mainsExamples": [
+      "Use Santhal rebellion for tribal land and outsider exploitation.",
+      "Use Indigo revolt for planter oppression and peasant assertion.",
+      "Use Deccan riots for debt, moneylenders and commercialization."
+    ],
+    "prelimsFacts": [
+      "Santhal rebellion occurred in the mid-nineteenth century.",
+      "Birsa Munda is associated with Munda ulgulan.",
+      "Indigo revolt was linked with planter exploitation.",
+      "Deccan riots were linked with peasant indebtedness.",
+      "Tribal revolts often involved land alienation and forest restrictions."
+    ],
+    "revisionBox": [
+      {
+        "prompt": "What is the resistance PYQ table?",
+        "answer": "Region, community, leader, cause and outcome."
+      },
+      {
+        "prompt": "What drove many tribal revolts?",
+        "answer": "Land alienation, forest restrictions, outsider exploitation and administrative intrusion."
+      },
+      {
+        "prompt": "Why are peasant movements important?",
+        "answer": "They show how colonial revenue, debt and commercialization affected rural society."
+      },
+      {
+        "prompt": "What is the main limitation?",
+        "answer": "Most were localized and lacked sustained all-India coordination."
+      }
+    ]
+  },
+  "story": "People resisted colonialism before nationalism became an all-India platform.",
+  "core_concept": "Civil, tribal, military and peasant movements reveal resistance from below against colonial disruption.",
+  "mnemonic": "RCLC: Region, Community, Leader, Cause.",
+  "mindmap_json": {
+    "center": "People's Resistance",
+    "branches": [
+      { "label": "Civil", "children": ["Chiefs", "Zamindars", "Local elites"] },
+      { "label": "Tribal", "children": ["Santhal", "Munda", "Kol", "Bhil"] },
+      { "label": "Peasant", "children": ["Indigo", "Deccan", "Moplah"] },
+      { "label": "Military", "children": ["Sepoys", "Barracks", "Grievances"] },
+      { "label": "Causes", "children": ["Land", "Revenue", "Forest", "Debt"] }
+    ]
+  },
+  "key_facts": [
+    "People's resistance was often local and issue-specific.",
+    "Tribal revolts challenged land and forest disruption.",
+    "Peasant movements often challenged revenue, rent and debt burdens.",
+    "Many resistances predated organized Congress nationalism.",
+    "Colonial records often shape available evidence."
+  ],
+  "common_traps": [
+    "Do not place every revolt under Congress-led nationalism.",
+    "Do not confuse tribal and peasant movement causes.",
+    "Do not memorize revolt names without region and leader."
+  ],
+  "pyq_refs": [
+    {
+      "year": 2022,
+      "exam": "UPSC CSE Prelims",
+      "question": "PYQ pattern: tribal movements and leaders.",
+      "answer": "Match tribe, region, leader and cause.",
+      "pattern_note": "Tribal resistance is a direct matching zone."
+    },
+    {
+      "year": 2018,
+      "exam": "UPSC CSE Prelims",
+      "question": "PYQ pattern: peasant movements.",
+      "answer": "Identify agrarian grievance and region.",
+      "pattern_note": "Peasant revolts are asked through cause-region pairs."
+    }
+  ],
+  "pyq_count": 12,
+  "last_asked": 2022,
+  "high_yield": true,
+  "read_time_mins": 11,
+  "difficulty": "Medium",
+  "status": "published",
+  "source_type": "uploaded-modern-static-pyq",
+  "version": 1,
+  "created_at": "2026-06-30T00:00:00+05:30",
+  "updated_at": "2026-06-30T00:00:00+05:30"
+}

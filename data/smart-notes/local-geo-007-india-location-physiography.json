@@ -1,0 +1,128 @@
+{
+  "id": "local-geo-007",
+  "section": "Geography",
+  "category": "Indian Geography",
+  "topic": "India: Location, Structure and Physiography",
+  "subtopic": "Geographical extent, neighbours, Himalayas, northern plains, peninsular plateau, desert, coasts and islands",
+  "slug": "geography-india-location-physiography",
+  "anatomy": "upsc12",
+  "content": {
+    "issueStory": "Indian Geography begins with location because location becomes destiny: monsoon access, coastline, neighbours, time zone, mountain barriers, river systems, trade routes, cyclone exposure, border disputes and cultural regions all flow from India's spatial position. UPSC repeatedly uses this chapter for map traps: Tropic of Cancer states, standard meridian, Himalayan ranges, passes, plateaus, ghats, coastal plains and islands. The command method is to build India's body map: head as Himalayas, spine as peninsular plateau, arteries as rivers, lungs as coasts, shield as desert and islands as maritime outposts.",
+    "coreConcept": "India lies largely in the northern and eastern hemispheres, with the Tropic of Cancer passing through the country. The Indian Standard Meridian is 82 degrees 30 minutes east. India has Himalayan mountains in the north, Indo-Ganga-Brahmaputra plains, the peninsular plateau, Indian desert, coastal plains and island groups. The Himalayas are young fold mountains formed by plate collision. The northern plains are alluvial and fertile. The peninsular plateau is ancient and stable, with rift valleys such as Narmada and Tapi. Western and Eastern Ghats frame the peninsula. Andaman-Nicobar and Lakshadweep give India maritime depth.",
+    "dimensions": [
+      "Location dimension: latitude, longitude, coastline and neighbours shape climate, time, trade and security.",
+      "Tectonic dimension: Himalayan collision and peninsular stability create contrasting relief and hazards.",
+      "Physiographic dimension: mountains, plains, plateau, desert, coasts and islands form distinct units.",
+      "Hydrological dimension: relief controls drainage direction, river age and flood behaviour.",
+      "Strategic dimension: borders, passes, islands and coastline influence defence and connectivity.",
+      "Economic dimension: plains support agriculture; plateau supports minerals; coasts support ports and fisheries."
+    ],
+    "constitutionalLink": "Article 1 defines India as a Union of States. The Seventh Schedule distributes responsibilities over land, water, forests, ports, roads and local governance, making physiography central to federal administration.",
+    "dataReport": "Static source: STATIC_03_Indian_Human_Geography.pdf, India-Location, Structure and Physiography chapter. PYQ source: PYQ_02_Geography.pdf, Unit 5 India Physical Environment. Verify any latest coastline measurement from official sources before current-data use.",
+    "caseStudy": "The Himalayas act as climate barrier, river source, biodiversity zone, disaster-prone mountain system and strategic frontier. This single physiographic unit connects physical geography with security, ecology, water and development.",
+    "argumentsFor": [
+      "Physiography explains India's climate, drainage, agriculture, mineral distribution and settlement patterns.",
+      "Location knowledge strengthens map-based Prelims elimination.",
+      "Relief understanding improves disaster-risk analysis for earthquakes, floods, cyclones and landslides.",
+      "Coastal and island geography is crucial for maritime security and blue economy."
+    ],
+    "argumentsAgainst": [
+      "Static map memorization fails when questions ask causal geography.",
+      "Coastline and border facts can change with measurement method and official updates.",
+      "Regional diversity means one physiographic unit can contain multiple sub-regions.",
+      "Human modification through dams, roads and urbanization changes natural risk patterns."
+    ],
+    "pyqLink": "UPSC asks India location through Tropic of Cancer, standard meridian, passes, Himalayan divisions, plateau features, Ghats, islands, coastlines and neighbouring countries. The best preparation is blank-map recall plus physiographic cause-effect.",
+    "answerFramework": {
+      "intro": "India's physiography reflects its tectonic history, latitudinal position, monsoon setting and maritime location.",
+      "body": [
+        "Describe location: latitude-longitude, Tropic of Cancer, standard meridian, neighbours and coastline.",
+        "Classify physiographic divisions: Himalayas, plains, plateau, desert, coasts and islands.",
+        "Connect each unit with climate, drainage, resources, settlement and hazards.",
+        "Add strategic and economic significance: borders, passes, ports, islands and connectivity."
+      ],
+      "conclusion": "Indian physiography is the base map on which climate, economy, society and security are layered."
+    },
+    "mainsExamples": [
+      "Use Himalayas to link tectonics, monsoon, rivers and landslides.",
+      "Use peninsular plateau to explain mineral concentration and east-flowing rivers.",
+      "Use island chains to connect geography with maritime security."
+    ],
+    "prelimsFacts": [
+      "The Tropic of Cancer passes through eight Indian states.",
+      "Indian Standard Time is based on 82 degrees 30 minutes east.",
+      "The Himalayas are young fold mountains.",
+      "The peninsular plateau is one of India's oldest physiographic units.",
+      "Narmada and Tapi flow through rift valleys."
+    ],
+    "revisionBox": [
+      {
+        "prompt": "Why is India's location strategically important?",
+        "answer": "It sits centrally in the Indian Ocean with long land borders, coastline, islands and access to major sea routes."
+      },
+      {
+        "prompt": "Why are the Himalayas young and unstable?",
+        "answer": "They formed from the ongoing collision of the Indian and Eurasian plates."
+      },
+      {
+        "prompt": "Why is the northern plain fertile?",
+        "answer": "It is built from alluvial deposits of the Indus, Ganga and Brahmaputra systems."
+      },
+      {
+        "prompt": "What is the Indian physiography recall order?",
+        "answer": "Himalayas, northern plains, peninsular plateau, desert, coasts and islands."
+      }
+    ]
+  },
+  "story": "India's location becomes climate, rivers, trade, security and settlement.",
+  "core_concept": "India's physiography is built from Himalayan collision, alluvial plains, ancient plateau, desert, coasts and islands.",
+  "mnemonic": "HPPDCI: Himalayas, Plains, Plateau, Desert, Coasts, Islands.",
+  "mindmap_json": {
+    "center": "India Physiography",
+    "branches": [
+      { "label": "Location", "children": ["Latitude", "Longitude", "Neighbours", "Coast"] },
+      { "label": "Mountains", "children": ["Himalayas", "Purvanchal", "Passes"] },
+      { "label": "Plains", "children": ["Indus", "Ganga", "Brahmaputra"] },
+      { "label": "Plateau", "children": ["Deccan", "Central", "Ghats"] },
+      { "label": "Edges", "children": ["Desert", "Coasts", "Islands"] }
+    ]
+  },
+  "key_facts": [
+    "India lies north of the equator.",
+    "The standard meridian of India is 82 degrees 30 minutes east.",
+    "The Himalayas terminate near Nanga Parbat and Namcha Barwa.",
+    "Western Ghats are generally more continuous than Eastern Ghats.",
+    "Andaman-Nicobar is a strategic island chain in the Bay of Bengal."
+  ],
+  "common_traps": [
+    "Do not confuse Kanyakumari with Indira Point for southernmost point of the Indian Union.",
+    "Do not place every plateau river as west-flowing; most peninsular rivers flow east.",
+    "Do not treat Western and Eastern Ghats as equally continuous."
+  ],
+  "pyq_refs": [
+    {
+      "year": 2017,
+      "exam": "UPSC CSE Prelims",
+      "question": "PYQ pattern: Himalayan division and location.",
+      "answer": "Use north-south and west-east Himalayan divisions carefully.",
+      "pattern_note": "Range, pass and state association is a recurring map trap."
+    },
+    {
+      "year": 2015,
+      "exam": "UPSC CSE Prelims",
+      "question": "PYQ pattern: India's geographical extent.",
+      "answer": "Use latitude-longitude and standard meridian logic.",
+      "pattern_note": "Location facts are usually asked with map precision."
+    }
+  ],
+  "pyq_count": 12,
+  "last_asked": 2017,
+  "high_yield": true,
+  "read_time_mins": 12,
+  "difficulty": "Medium",
+  "status": "published",
+  "source_type": "uploaded-geography-static-pyq",
+  "version": 1,
+  "created_at": "2026-06-30T00:00:00+05:30",
+  "updated_at": "2026-06-30T00:00:00+05:30"
+}

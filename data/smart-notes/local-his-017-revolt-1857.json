@@ -1,0 +1,128 @@
+{
+  "id": "local-his-117",
+  "section": "History",
+  "category": "Modern India",
+  "topic": "The Revolt of 1857",
+  "subtopic": "Causes, centers, leaders, civilian participation, suppression, failure and historical interpretations",
+  "slug": "history-revolt-1857",
+  "anatomy": "upsc12",
+  "content": {
+    "issueStory": "The Revolt of 1857 is remembered through the cartridge controversy, but it was not caused by cartridges alone. It was a convergence of sepoy grievances, annexation, princely insecurity, peasant distress, religious fear, administrative arrogance and memories of lost power. UPSC tests 1857 because it forces balance: it was broader than a military mutiny, but it was not a fully modern national movement. The command method is to separate trigger, causes, centers, leaders, social base, failure and consequence. The revolt matters not only for what it achieved, but for how it changed British rule after 1858.",
+    "coreConcept": "The Revolt of 1857 began with sepoy discontent and the cartridge controversy but drew upon wider political, economic, social, religious and military grievances. Important centers included Meerut, Delhi, Kanpur, Lucknow, Jhansi, Bareilly, Arrah and parts of central India. Leaders included Bahadur Shah Zafar, Nana Saheb, Tantia Tope, Rani Lakshmibai, Begum Hazrat Mahal, Kunwar Singh and others. Civilian participation varied by region. Failure resulted from limited spread, weak coordination, lack of unified ideology, superior British resources, loyal princely states and modern communication advantages. Consequences included end of Company rule, Crown rule, army reorganization, princely policy shift and administrative changes.",
+    "dimensions": [
+      "Military dimension: sepoy grievances over pay, overseas service, promotion, caste practices and cartridges were immediate.",
+      "Political dimension: annexations, doctrine of lapse and dethroned elites generated resentment.",
+      "Economic dimension: peasants, artisans and talukdars faced revenue pressure and dispossession.",
+      "Religious-social dimension: fears of interference in religion and social customs intensified suspicion.",
+      "Regional dimension: participation was uneven, with strong centers in north and central India.",
+      "PYQ dimension: UPSC asks leaders, centers, nature, causes, failure and post-1857 changes."
+    ],
+    "constitutionalLink": "The revolt led to the Government of India Act 1858, ending Company rule and beginning Crown rule. It is a historical base for later constitutional developments.",
+    "dataReport": "Static source: STATIC_08_Modern_India.pdf, The Revolt of 1857 chapter. PYQ source: PYQ_05_Modern_History.pdf, Unit 2 Rebellions and Reform Movements.",
+    "caseStudy": "Awadh shows the layered nature of 1857: annexation hurt the ruler and elites, revenue changes affected talukdars and peasants, and sepoy links with rural society helped spread rebellion.",
+    "argumentsFor": [
+      "The revolt was wider than a sepoy mutiny in several regions.",
+      "It brought together princely, peasant, soldier and urban grievances.",
+      "It forced Britain to end Company rule and reorganize administration.",
+      "It became a powerful memory for later nationalism."
+    ],
+    "argumentsAgainst": [
+      "It lacked all-India coordination and modern nationalist ideology.",
+      "Many regions and princely states did not participate or supported the British.",
+      "Leadership goals were diverse and often restorative rather than nationalist.",
+      "Military and logistical superiority helped British suppression."
+    ],
+    "pyqLink": "UPSC asks 1857 through causes, leaders-centers, nature of revolt, failure and consequences. The safe rule is center, leader, social base, grievance and outcome.",
+    "answerFramework": {
+      "intro": "The Revolt of 1857 was a major anti-colonial uprising with military trigger and deep political, economic and social roots.",
+      "body": [
+        "Explain immediate trigger and long-term causes.",
+        "Map centers, leaders and social participation.",
+        "Assess nature: sepoy mutiny, civil rebellion and proto-national dimensions.",
+        "Discuss failure and consequences, including Crown rule and army reorganization."
+      ],
+      "conclusion": "1857 failed militarily but transformed colonial governance and became a symbolic resource for later nationalism."
+    },
+    "mainsExamples": [
+      "Use Awadh to show political annexation plus rural grievance.",
+      "Use Rani Lakshmibai for doctrine of lapse and resistance.",
+      "Use post-1858 changes to connect revolt with Crown rule."
+    ],
+    "prelimsFacts": [
+      "The revolt began at Meerut in May 1857.",
+      "Bahadur Shah Zafar was declared symbolic emperor by rebels in Delhi.",
+      "Rani Lakshmibai was associated with Jhansi.",
+      "Begum Hazrat Mahal was associated with Lucknow/Awadh.",
+      "Company rule ended after the revolt through the Act of 1858."
+    ],
+    "revisionBox": [
+      {
+        "prompt": "Why is cartridge controversy not enough as a cause?",
+        "answer": "It was the trigger; deeper causes included political annexation, economic distress, military grievances and social-religious fears."
+      },
+      {
+        "prompt": "Why did the revolt fail?",
+        "answer": "Limited spread, weak coordination, divided aims, loyal princely states and British military-logistical superiority."
+      },
+      {
+        "prompt": "What changed after 1857?",
+        "answer": "Company rule ended, Crown rule began, army was reorganized and princely policy changed."
+      },
+      {
+        "prompt": "What is the PYQ map rule?",
+        "answer": "Center, leader, social base, grievance and outcome."
+      }
+    ]
+  },
+  "story": "1857 was not cartridges alone; it was layered anger against Company rule.",
+  "core_concept": "The Revolt of 1857 combined military grievance, political dispossession, rural distress and religious fear.",
+  "mnemonic": "C-PLER: Cartridge, Political, Land, Economic, Religious.",
+  "mindmap_json": {
+    "center": "Revolt of 1857",
+    "branches": [
+      { "label": "Causes", "children": ["Military", "Political", "Economic", "Religious"] },
+      { "label": "Centers", "children": ["Meerut", "Delhi", "Kanpur", "Lucknow"] },
+      { "label": "Leaders", "children": ["Zafar", "Nana", "Lakshmibai", "Kunwar"] },
+      { "label": "Failure", "children": ["Spread", "Coordination", "Resources"] },
+      { "label": "Impact", "children": ["Crown rule", "Army", "Princes"] }
+    ]
+  },
+  "key_facts": [
+    "1857 began as a sepoy revolt but acquired wider civilian dimensions in several regions.",
+    "Delhi became the symbolic center under Bahadur Shah Zafar.",
+    "Awadh was a major center of rebellion.",
+    "The revolt lacked centralized command.",
+    "The British Crown took over rule from the Company after 1857."
+  ],
+  "common_traps": [
+    "Do not call 1857 a fully modern national movement without qualification.",
+    "Do not reduce it only to sepoy cartridges.",
+    "Do not assume all princely states supported the revolt."
+  ],
+  "pyq_refs": [
+    {
+      "year": 2019,
+      "exam": "UPSC CSE Prelims",
+      "question": "PYQ pattern: leaders and centers of 1857.",
+      "answer": "Use center-leader matching.",
+      "pattern_note": "Exact mapping is the most common 1857 trap."
+    },
+    {
+      "year": 2014,
+      "exam": "UPSC CSE Mains",
+      "question": "PYQ pattern: nature of the Revolt of 1857.",
+      "answer": "Balance sepoy, civil and proto-national interpretations.",
+      "pattern_note": "Mains expects qualified interpretation."
+    }
+  ],
+  "pyq_count": 11,
+  "last_asked": 2019,
+  "high_yield": true,
+  "read_time_mins": 11,
+  "difficulty": "Medium",
+  "status": "published",
+  "source_type": "uploaded-modern-static-pyq",
+  "version": 1,
+  "created_at": "2026-06-30T00:00:00+05:30",
+  "updated_at": "2026-06-30T00:00:00+05:30"
+}

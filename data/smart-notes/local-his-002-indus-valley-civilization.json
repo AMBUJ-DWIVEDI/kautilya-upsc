@@ -1,0 +1,128 @@
+{
+  "id": "local-his-002",
+  "section": "History",
+  "category": "Ancient India",
+  "topic": "Indus Valley Civilization",
+  "subtopic": "Sites, town planning, economy, society, religion, craft, trade and decline",
+  "slug": "history-indus-valley-civilization",
+  "anatomy": "upsc12",
+  "content": {
+    "issueStory": "The Indus Valley Civilization is UPSC's favourite test of archaeological discipline. It tempts aspirants into imagination: kings, temples, horses, Aryan-style rituals, deciphered scriptures. The evidence says something more controlled: planned cities, drainage, standardized bricks, craft specialization, weights, seals, trade networks, granaries, dockyard debates, undeciphered script and diverse sites across a vast region. The command method is to separate evidence from inference. What is excavated? What is suggested? What is not proven? That habit protects the aspirant from most Harappan statement traps.",
+    "coreConcept": "The Indus Valley Civilization was an urban Bronze Age civilization known for town planning, drainage, standardized bricks, craft production, seals, weights, trade and regional diversity. Important sites include Harappa, Mohenjo-daro, Dholavira, Kalibangan, Lothal, Rakhigarhi, Chanhudaro, Banawali and Surkotada. Cities often had citadel and lower town divisions, though site layouts varied. The script remains undeciphered. Economy included agriculture, animal domestication, craft specialization and trade with regions including Mesopotamia. Religious evidence includes figurines, seals, fire altars at some sites and possible ritual spaces, but large temples are not clearly established. Decline was likely multi-causal: climatic shifts, river changes, trade decline and deurbanization.",
+    "dimensions": [
+      "Urban dimension: grid planning, drainage, standardized bricks and civic order distinguish Harappan cities.",
+      "Economic dimension: agriculture, crafts, beads, metallurgy, weights and trade show specialization.",
+      "Cultural dimension: seals, figurines, pottery and ornaments reveal symbolic life but require cautious interpretation.",
+      "Regional dimension: sites differ in layout, materials, water management and local adaptation.",
+      "Decline dimension: no single invasion explanation is sufficient; environmental and economic changes matter.",
+      "PYQ dimension: UPSC tests site-feature matching and evidence-versus-inference boundaries."
+    ],
+    "constitutionalLink": "Article 49 directs protection of monuments and objects of national importance. Harappan sites also relate to heritage conservation, museum development and archaeological governance.",
+    "dataReport": "Static source: STATIC_06_Ancient_India.pdf, Indus Valley Civilization chapter. Art source: 1. Art and Culture.pdf, architecture and sculpture sections. PYQ source: PYQ_04_Ancient_Medieval_ArtCulture.pdf, Unit 1.",
+    "caseStudy": "Dholavira is useful for water management, stone architecture, signboard evidence and a distinctive three-part urban layout. It shows that Harappan urbanism was not one identical template everywhere.",
+    "argumentsFor": [
+      "IVC shows early urban planning and civic infrastructure in the subcontinent.",
+      "Standard weights and craft specialization indicate organized economic life.",
+      "Long-distance trade shows integration with wider Bronze Age networks.",
+      "Regional variation reveals adaptive urbanism across ecology and resources."
+    ],
+    "argumentsAgainst": [
+      "The undeciphered script limits certainty about polity, language and religion.",
+      "Evidence for temples, kingship and warfare is weaker than in many later civilizations.",
+      "Site-feature memorization is vulnerable unless supported by map practice.",
+      "Decline cannot be reduced to one dramatic cause."
+    ],
+    "pyqLink": "UPSC repeatedly asks Harappan site-feature pairs: Chanhudaro, Kot Diji, Dholavira, Kalibangan, Lothal, Rakhigarhi, seals, script, town planning and comparison with Vedic culture. The safe rule is evidence first, inference second.",
+    "answerFramework": {
+      "intro": "The Indus Valley Civilization was an urban Bronze Age civilization marked by planned settlements, drainage, standardized craft and trade networks.",
+      "body": [
+        "Discuss urban features: citadel/lower town, drainage, bricks, granaries and water systems.",
+        "Explain economy: agriculture, crafts, trade, weights and seals.",
+        "Discuss society and religion cautiously through material evidence.",
+        "Explain decline as multi-causal: climate, rivers, trade and deurbanization."
+      ],
+      "conclusion": "The IVC should be read as an archaeological civilization where disciplined evidence matters more than speculation."
+    },
+    "mainsExamples": [
+      "Use Dholavira for water conservation and urban adaptation.",
+      "Use Lothal for maritime trade debates and dockyard association.",
+      "Use standardized weights to discuss economic regulation without clear textual evidence."
+    ],
+    "prelimsFacts": [
+      "Harappan script remains undeciphered.",
+      "Dholavira is known for distinctive urban planning and water management.",
+      "Kalibangan is associated with fire altars and ploughed field evidence.",
+      "Chanhudaro is known as a craft-production site and lacks a typical citadel pattern.",
+      "Standardized weights and seals indicate trade and administrative control."
+    ],
+    "revisionBox": [
+      {
+        "prompt": "What is the biggest IVC answer discipline?",
+        "answer": "Separate excavated evidence from uncertain inference."
+      },
+      {
+        "prompt": "Why is Dholavira important?",
+        "answer": "It shows distinctive planning, water management and a signboard-like inscription."
+      },
+      {
+        "prompt": "What is the status of Harappan script?",
+        "answer": "It remains undeciphered."
+      },
+      {
+        "prompt": "What is the decline explanation?",
+        "answer": "Multi-causal: environmental change, river shifts, trade decline and deurbanization."
+      }
+    ]
+  },
+  "story": "Harappan history is evidence discipline: excavated fact before seductive inference.",
+  "core_concept": "IVC was an urban Bronze Age civilization with planning, drainage, crafts, trade and undeciphered script.",
+  "mnemonic": "D-SWIFT: Drainage, Script, Weights, Industry, Farming, Trade.",
+  "mindmap_json": {
+    "center": "IVC",
+    "branches": [
+      { "label": "Cities", "children": ["Harappa", "Mohenjo-daro", "Dholavira", "Lothal"] },
+      { "label": "Urban", "children": ["Grid", "Drainage", "Bricks", "Water"] },
+      { "label": "Economy", "children": ["Crafts", "Weights", "Trade", "Agriculture"] },
+      { "label": "Culture", "children": ["Seals", "Figurines", "Script"] },
+      { "label": "Decline", "children": ["Climate", "Rivers", "Trade", "Deurbanization"] }
+    ]
+  },
+  "key_facts": [
+    "The Harappan script is not yet deciphered.",
+    "Burnt bricks and drainage are major urban features.",
+    "Seals and weights indicate trade and administrative practices.",
+    "Dholavira shows advanced water management.",
+    "Decline of IVC was gradual and multi-causal."
+  ],
+  "common_traps": [
+    "Do not assume clear evidence of large temples in Harappan cities.",
+    "Do not treat every site as having identical citadel-lower town layout.",
+    "Do not say the Harappan script has been conclusively deciphered."
+  ],
+  "pyq_refs": [
+    {
+      "year": 2019,
+      "exam": "UPSC CSE Prelims",
+      "question": "Which one of the following is not a Harappan site?",
+      "answer": "Use site list and regional map association.",
+      "pattern_note": "UPSC regularly asks site identification."
+    },
+    {
+      "year": 2017,
+      "exam": "UPSC CSE Prelims",
+      "question": "PYQ pattern: Rigvedic Aryans and Indus Valley culture comparison.",
+      "answer": "Compare material culture, horse/warfare evidence and urban features cautiously.",
+      "pattern_note": "Comparative culture questions demand exact evidence."
+    }
+  ],
+  "pyq_count": 12,
+  "last_asked": 2019,
+  "high_yield": true,
+  "read_time_mins": 12,
+  "difficulty": "Medium",
+  "status": "published",
+  "source_type": "uploaded-history-static-pyq",
+  "version": 1,
+  "created_at": "2026-06-30T00:00:00+05:30",
+  "updated_at": "2026-06-30T00:00:00+05:30"
+}

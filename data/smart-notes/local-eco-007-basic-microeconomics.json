@@ -1,0 +1,128 @@
+{
+  "id": "local-eco-007",
+  "section": "Economy",
+  "category": "Microeconomics",
+  "topic": "Basic Microeconomics",
+  "subtopic": "Demand, supply, elasticity, market equilibrium, costs and market forms",
+  "slug": "economy-basic-microeconomics",
+  "anatomy": "upsc12",
+  "content": {
+    "issueStory": "Microeconomics is the grammar beneath every larger economy debate. When onion prices rise, when a subsidy changes fertilizer use, when a tax changes consumption, when a monopoly controls a platform, the first explanation is usually not a scheme name but a microeconomic mechanism. UPSC uses this area to test whether the aspirant can reason through behaviour: what happens when price changes, income changes, substitutes appear, input cost rises, information is asymmetric or a market fails. The trap is that aspirants memorize definitions but cannot apply them to a public policy situation. A strong Economy answer should be able to move from a demand curve to food inflation, from elasticity to fuel taxes, from externalities to pollution regulation, and from market failure to state intervention. Micro is not a small chapter; it is the operating logic of policy incentives.",
+    "coreConcept": "Demand generally has an inverse relationship with price, while supply generally has a direct relationship with price. Market equilibrium occurs where demand equals supply. Elasticity measures responsiveness of demand or supply to price, income or cross-price change. Consumer surplus and producer surplus help evaluate welfare effects. Costs include fixed, variable, average and marginal cost. Perfect competition, monopoly, monopolistic competition and oligopoly differ in number of sellers, product differentiation, price power and barriers to entry. Market failure occurs due to externalities, public goods, information asymmetry, monopoly power or coordination failure, creating the justification for regulation, taxes, subsidies or public provision.",
+    "dimensions": [
+      "Price mechanism: prices allocate scarce resources by signalling demand, supply and opportunity cost.",
+      "Elasticity logic: tax, subsidy and price-control outcomes depend on whether demand and supply are elastic or inelastic.",
+      "Welfare logic: consumer surplus, producer surplus and deadweight loss explain who gains and who loses from intervention.",
+      "Cost logic: marginal cost and average cost help explain firm output, economies of scale and natural monopoly.",
+      "Market structure logic: competition reduces price power; monopoly and oligopoly create regulatory concerns.",
+      "Policy logic: externalities, public goods and information asymmetry justify state action."
+    ],
+    "constitutionalLink": "Article 38 and Article 39 provide the welfare frame for market outcomes by asking the State to reduce inequality and ensure material resources serve the common good. Article 19(1)(g) protects trade and occupation, while reasonable restrictions allow regulation in public interest.",
+    "dataReport": "Static source: STATIC _01_Economy.pdf, Basic Microeconomics chapter. PYQ source: PYQ_01_Economic_Agriculture.pdf, Unit 1 Basics of Economics. Treat this note as a concept engine for later chapters such as inflation, agriculture markets, taxation and public goods.",
+    "caseStudy": "A minimum support price above market-clearing level can protect farmers only if procurement and storage exist. Without procurement, the announced price may not become a realized price. This converts a micro concept into an agriculture policy answer: price floor plus state capacity determines actual welfare.",
+    "argumentsFor": [
+      "Microeconomics improves policy diagnosis because it identifies incentives rather than only intentions.",
+      "Elasticity helps governments design taxes and subsidies with fewer unintended effects.",
+      "Market failure theory explains why public goods, pollution control and consumer protection need intervention.",
+      "Cost and market-structure analysis helps regulate utilities, platforms, telecom and infrastructure."
+    ],
+    "argumentsAgainst": [
+      "Pure micro models can assume rational behaviour and perfect information that rarely exist in Indian markets.",
+      "Informal markets, social norms, credit constraints and caste-gender barriers complicate textbook demand-supply logic.",
+      "Price signals alone may not solve poverty, malnutrition, education or health access.",
+      "Excessive reliance on efficiency can underplay equity and constitutional welfare goals."
+    ],
+    "pyqLink": "UPSC usually tests this area indirectly: opportunity cost, public goods, externalities, inflation behaviour, price controls, taxes and subsidies. The safest Prelims method is to ask whether the statement changes price, income, substitutes, cost, information, market power or external cost.",
+    "answerFramework": {
+      "intro": "Microeconomics studies how individuals, firms and markets make choices under scarcity, and it becomes useful in public policy when linked to incentives and welfare.",
+      "body": [
+        "Define the mechanism: demand, supply, price, elasticity, cost or market structure.",
+        "Apply to policy: tax, subsidy, MSP, pollution control, competition regulation or consumer welfare.",
+        "Add welfare effect: who gains, who bears cost, whether deadweight loss or externality exists.",
+        "Add Indian realism: informality, weak bargaining power, information gaps and implementation capacity."
+      ],
+      "conclusion": "Microeconomics is strongest in UPSC answers when it converts an abstract curve into a concrete policy trade-off."
+    },
+    "mainsExamples": [
+      "Use negative externality for pollution taxation and crop-residue burning debates.",
+      "Use public goods for defence, street lighting, sanitation and disease surveillance.",
+      "Use elasticity for fuel taxation, tobacco taxation and food inflation responses."
+    ],
+    "prelimsFacts": [
+      "Demand usually moves inversely with price, ceteris paribus.",
+      "Supply usually moves directly with price, ceteris paribus.",
+      "Price elasticity measures percentage change in quantity demanded due to percentage change in price.",
+      "Public goods are non-rival and non-excludable.",
+      "Externalities are costs or benefits not reflected in market prices."
+    ],
+    "revisionBox": [
+      {
+        "prompt": "Why does elasticity matter for taxation?",
+        "answer": "It determines how much of a tax is passed to consumers and how much quantity falls after the tax."
+      },
+      {
+        "prompt": "What is market failure?",
+        "answer": "A situation where free markets fail to allocate resources efficiently due to externalities, public goods, information asymmetry or market power."
+      },
+      {
+        "prompt": "Why is MSP not only a price issue?",
+        "answer": "Because a price floor works only when procurement, storage, information and market access convert the announced price into actual farmer realization."
+      },
+      {
+        "prompt": "What is the key UPSC trap in micro?",
+        "answer": "Aspirants memorize curves but miss the underlying incentive or welfare effect."
+      }
+    ]
+  },
+  "story": "Microeconomics is the grammar beneath every larger economy debate.",
+  "core_concept": "Demand, supply, elasticity, equilibrium, cost, market structure and market failure form the incentive base of public policy.",
+  "mnemonic": "PRICE: Price, Responsiveness, Incentives, Cost, Externalities. Every micro question hides one of these.",
+  "mindmap_json": {
+    "center": "Basic Microeconomics",
+    "branches": [
+      { "label": "Demand", "children": ["Price", "Income", "Substitutes", "Elasticity"] },
+      { "label": "Supply", "children": ["Costs", "Technology", "Inputs", "Expectations"] },
+      { "label": "Market Forms", "children": ["Competition", "Monopoly", "Oligopoly"] },
+      { "label": "Failures", "children": ["Externality", "Public good", "Information gap"] },
+      { "label": "Policy", "children": ["Tax", "Subsidy", "Regulation"] }
+    ]
+  },
+  "key_facts": [
+    "Demand and supply interact to determine market price and quantity.",
+    "Elasticity determines the strength of response to price, income or substitute changes.",
+    "A public good is non-rival and non-excludable.",
+    "Negative externalities justify taxes, regulation or standards.",
+    "Monopoly power can create higher prices, lower output and welfare loss."
+  ],
+  "common_traps": [
+    "Do not assume every price control helps the intended group without supply-side capacity.",
+    "Do not confuse movement along a demand curve with a shift of the demand curve.",
+    "Do not treat externalities as private costs already included in price."
+  ],
+  "pyq_refs": [
+    {
+      "year": 2020,
+      "exam": "UPSC CSE Prelims",
+      "question": "PYQ pattern: public goods, private goods and market provision.",
+      "answer": "Identify rivalry and excludability before choosing the option.",
+      "pattern_note": "UPSC tests the property of the good, not the ministry or scheme attached to it."
+    },
+    {
+      "year": 2018,
+      "exam": "UPSC CSE Prelims",
+      "question": "PYQ pattern: opportunity cost and basic economic reasoning.",
+      "answer": "Opportunity cost is the value of the next best alternative forgone.",
+      "pattern_note": "Conceptual micro questions often hide behind everyday policy examples."
+    }
+  ],
+  "pyq_count": 6,
+  "last_asked": 2020,
+  "high_yield": true,
+  "read_time_mins": 9,
+  "difficulty": "Medium",
+  "status": "published",
+  "source_type": "uploaded-economy-static-pyq",
+  "version": 1,
+  "created_at": "2026-06-30T00:00:00+05:30",
+  "updated_at": "2026-06-30T00:00:00+05:30"
+}

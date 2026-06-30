@@ -1,0 +1,128 @@
+{
+  "id": "local-pol-111",
+  "section": "Polity",
+  "category": "Constitutional Bodies",
+  "topic": "Constitutional, Statutory and Extra-Constitutional Bodies",
+  "subtopic": "CAG, ECI, UPSC, Finance Commission, GST Council, NCSC, NCST, NCBC, Attorney General, Lokpal, CBI, NIA, NITI Aayog and commissions",
+  "slug": "polity-constitutional-statutory-bodies",
+  "anatomy": "upsc12",
+  "content": {
+    "issueStory": "Bodies are where Polity becomes institutional memory. UPSC asks this chapter because aspirants mix constitutional, statutory, regulatory and executive bodies constantly. CAG, Election Commission, UPSC, Finance Commission and GST Council have constitutional status. Lokpal, CBI, NIA, NHRC-type bodies and commissions have different legal bases. NITI Aayog is executive, not constitutional. The command method is a five-column table: source of creation, composition, appointment, tenure/removal and reporting function. Without source of creation, every body starts sounding equally official.",
+    "coreConcept": "Constitutional bodies are created by the Constitution itself, such as CAG, Election Commission, UPSC/SPSC, Finance Commission, GST Council, Attorney General, Advocate General, NCSC, NCST, NCBC and Special Officer for Linguistic Minorities. Statutory bodies are created by Acts of Parliament or state legislatures, such as Lokpal or NIA. Extra-constitutional/executive bodies are created by executive resolution or administrative action, such as NITI Aayog. UPSC tests appointment authority, removal process, tenure, functions, reports and whether recommendations are binding. Independence varies across bodies depending on constitutional status, appointment/removal safeguards, finance and reporting design.",
+    "dimensions": [
+      "Source dimension: constitutional, statutory and executive origins must be separated.",
+      "Appointment dimension: President/Governor/committee roles vary by body.",
+      "Removal dimension: independence often depends on removal difficulty and procedure.",
+      "Function dimension: audit, elections, recruitment, finance, rights protection, investigation and planning differ.",
+      "Reporting dimension: reports may go to President, Governor, Parliament or government.",
+      "PYQ dimension: UPSC asks body-status, appointment, removal, report and function matching."
+    ],
+    "constitutionalLink": "Important provisions include Article 148 CAG, Article 280 Finance Commission, Article 324 Election Commission, Articles 315-323 Public Service Commissions, Article 338 NCSC, Article 338A NCST, Article 338B NCBC, Article 76 Attorney General and Article 279A GST Council.",
+    "dataReport": "Static source: STATIC_09_Polity.pdf, Constitutional Bodies and Extra-Constitutional Bodies chapters. PYQ source: PYQ_06_Polity_Governance.pdf, Unit 8 Constitutional and Non-Constitutional Bodies.",
+    "caseStudy": "CAG shows institutional independence through constitutional status, appointment by President, special removal process and audit reporting to President/Governor for legislative scrutiny.",
+    "argumentsFor": [
+      "Independent bodies protect elections, audit, recruitment and fiscal federalism from routine political control.",
+      "Specialized bodies improve expertise and continuity.",
+      "Reporting to legislatures can strengthen accountability.",
+      "Rights commissions and social justice bodies give institutional voice to vulnerable groups."
+    ],
+    "argumentsAgainst": [
+      "Appointment processes can affect perceived independence.",
+      "Some bodies have recommendatory powers with weak enforcement.",
+      "Statutory/executive bodies may be vulnerable to government control.",
+      "Overlapping jurisdictions create confusion and accountability gaps."
+    ],
+    "pyqLink": "UPSC asks bodies through CAG, ECI, Finance Commission, UPSC, NCSC/NCST/NCBC, GST Council, Lokpal, CBI, NIA and NITI Aayog. The safe rule is source, appointment, removal, function and report.",
+    "answerFramework": {
+      "intro": "Constitutional and statutory bodies provide specialized institutional checks, administration and accountability within Indian governance.",
+      "body": [
+        "Classify bodies by source: constitutional, statutory and executive.",
+        "Explain key constitutional bodies and their functions.",
+        "Compare safeguards: appointment, tenure, removal, finance and reporting.",
+        "Evaluate independence, overlap, accountability and implementation challenges."
+      ],
+      "conclusion": "Institutional credibility depends not only on creation but on independence, clarity of mandate and accountability."
+    },
+    "mainsExamples": [
+      "Use CAG for audit accountability to legislatures.",
+      "Use ECI for electoral integrity and level-playing-field debates.",
+      "Use Finance Commission and GST Council for fiscal federalism."
+    ],
+    "prelimsFacts": [
+      "CAG is under Article 148.",
+      "Election Commission is under Article 324.",
+      "Finance Commission is under Article 280.",
+      "GST Council is under Article 279A.",
+      "NITI Aayog is not a constitutional body."
+    ],
+    "revisionBox": [
+      {
+        "prompt": "What is the first question for any body?",
+        "answer": "What is its source: constitutional, statutory or executive?"
+      },
+      {
+        "prompt": "Which Article relates to ECI?",
+        "answer": "Article 324."
+      },
+      {
+        "prompt": "Which Article relates to CAG?",
+        "answer": "Article 148."
+      },
+      {
+        "prompt": "What is the bodies PYQ table?",
+        "answer": "Source, appointment, removal, function and report."
+      }
+    ]
+  },
+  "story": "Every official body must be classified first by source of creation.",
+  "core_concept": "Constitutional, statutory and executive bodies differ by source, independence, appointment, removal, function and reporting.",
+  "mnemonic": "SAFRR: Source, Appointment, Function, Removal, Report.",
+  "mindmap_json": {
+    "center": "Bodies",
+    "branches": [
+      { "label": "Constitutional", "children": ["CAG", "ECI", "UPSC", "Finance Commission"] },
+      { "label": "Social", "children": ["NCSC", "NCST", "NCBC", "Linguistic"] },
+      { "label": "Federal", "children": ["GST Council", "Finance Commission"] },
+      { "label": "Statutory", "children": ["Lokpal", "NIA", "Commissions"] },
+      { "label": "Executive", "children": ["NITI Aayog", "Committees"] }
+    ]
+  },
+  "key_facts": [
+    "Constitutional bodies are created by the Constitution.",
+    "Statutory bodies are created by law.",
+    "Executive bodies are created by executive action.",
+    "CAG reports are laid before Parliament or state legislature through President/Governor.",
+    "Election Commission conducts elections to Parliament, state legislatures, President and Vice-President."
+  ],
+  "common_traps": [
+    "Do not call NITI Aayog a constitutional body.",
+    "Do not assume all commissions have binding powers.",
+    "Do not mix appointment and removal authority."
+  ],
+  "pyq_refs": [
+    {
+      "year": 2023,
+      "exam": "UPSC CSE Prelims",
+      "question": "PYQ pattern: constitutional bodies and reports.",
+      "answer": "Trace report route and article.",
+      "pattern_note": "Bodies questions often use reporting procedure traps."
+    },
+    {
+      "year": 2020,
+      "exam": "UPSC CSE Prelims",
+      "question": "PYQ pattern: CAG, ECI and Finance Commission.",
+      "answer": "Know constitutional article, appointment and function.",
+      "pattern_note": "Classic constitutional body set."
+    }
+  ],
+  "pyq_count": 18,
+  "last_asked": 2023,
+  "high_yield": true,
+  "read_time_mins": 13,
+  "difficulty": "Hard",
+  "status": "published",
+  "source_type": "uploaded-polity-static-pyq",
+  "version": 1,
+  "created_at": "2026-06-30T00:00:00+05:30",
+  "updated_at": "2026-06-30T00:00:00+05:30"
+}

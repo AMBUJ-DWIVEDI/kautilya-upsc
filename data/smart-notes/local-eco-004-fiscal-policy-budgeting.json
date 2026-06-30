@@ -1,0 +1,128 @@
+{
+  "id": "local-eco-004",
+  "section": "Economy",
+  "category": "Public Finance",
+  "topic": "Government Budgeting and Fiscal Policy",
+  "subtopic": "Receipts, expenditure, deficits, FRBM, public debt and transfers",
+  "slug": "economy-fiscal-policy-budgeting",
+  "anatomy": "upsc12",
+  "content": {
+    "issueStory": "The Budget is not an accounting ritual; it is the annual political economy statement of the State. It tells the aspirant what the government taxes, what it borrows, what it subsidizes, what it builds, and what it postpones. UPSC uses public finance to test whether you understand trade-offs. A fiscal deficit can build highways or fund unproductive revenue expenditure. A subsidy can protect the poor or distort markets. A tax reform can improve compliance or create burden. A debt ratio can be sustainable if growth and interest dynamics support it, but dangerous if borrowed money fails to create future capacity. The Prelims trap is classification: revenue versus capital, direct versus indirect, fiscal deficit versus revenue deficit, tax evasion versus avoidance. The Mains demand is judgement: how to balance growth, welfare, fiscal prudence and intergenerational equity.",
+    "coreConcept": "Government budget records receipts and expenditure. Revenue receipts do not create liabilities or reduce assets; capital receipts create liabilities or reduce assets. Revenue expenditure does not create assets; capital expenditure creates assets or reduces liabilities. Fiscal deficit is total expenditure minus total receipts excluding borrowings; it indicates borrowing requirement. Revenue deficit shows revenue expenditure exceeding revenue receipts. Primary deficit equals fiscal deficit minus interest payments. Fiscal policy uses taxation, expenditure and borrowing to influence demand, redistribution and growth. FRBM aims at fiscal discipline and debt sustainability, while allowing flexibility during shocks.",
+    "dimensions": [
+      "Classification dimension: revenue/capital receipts and revenue/capital expenditure.",
+      "Deficit dimension: fiscal, revenue, primary and effective revenue deficit must be separated.",
+      "Policy dimension: taxation, spending, subsidies and borrowing shape demand and distribution.",
+      "Growth dimension: capital expenditure can crowd in private investment if well targeted.",
+      "Debt dimension: sustainability depends on growth, interest rates, primary balance and use of borrowed funds.",
+      "Federal dimension: transfers, Finance Commission, centrally sponsored schemes and borrowing limits affect states."
+    ],
+    "constitutionalLink": "Budgeting is rooted in parliamentary control over public money: Annual Financial Statement under Article 112, Consolidated Fund, Contingency Fund and Public Account under Articles 266 and 267, and Finance Commission under Article 280. Fiscal federalism links taxation and transfers to Union-State balance.",
+    "dataReport": "Static source: STATIC _01_Economy.pdf, Government Budgeting and Fiscal Policy chapter. PYQ source: PYQ_01_Economic_Agriculture.pdf, Unit 2 Public Finance. Update annual deficit and debt numbers from the latest Budget documents before final exam use.",
+    "caseStudy": "Capital expenditure push after economic slowdown: public capex can create infrastructure demand, crowd in private investment and improve logistics. But if projects are delayed or poorly chosen, debt rises without productivity gains.",
+    "argumentsFor": [
+      "Counter-cyclical fiscal policy can support demand during downturns.",
+      "Capital expenditure improves long-term productivity and crowding-in potential.",
+      "Redistributive spending protects vulnerable groups and supports human capital.",
+      "Fiscal transparency improves investor confidence and parliamentary accountability."
+    ],
+    "argumentsAgainst": [
+      "Persistent revenue deficit means borrowing for current consumption rather than future capacity.",
+      "High debt can crowd out private investment and reduce fiscal space.",
+      "Poorly targeted subsidies create leakages and market distortions.",
+      "Off-budget borrowing and guarantees can hide true fiscal risk."
+    ],
+    "pyqLink": "UPSC often asks deficit definitions, budget account classification, FRBM, tax types, public debt, fiscal stimulus and economic reform causes. Always solve by asking: does it create liability, reduce asset, create asset, or represent current expenditure?",
+    "answerFramework": {
+      "intro": "Fiscal policy is the State's use of taxation, expenditure and borrowing to pursue growth, stability, redistribution and public goods.",
+      "body": [
+        "Classify budget accounts and deficits.",
+        "Explain fiscal policy functions: allocation, redistribution and stabilization.",
+        "Evaluate fiscal prudence: FRBM, debt sustainability, quality of expenditure and transparency.",
+        "Add federal angle: Finance Commission transfers, CSS design and state borrowing space."
+      ],
+      "conclusion": "Good fiscal policy is not low spending by default; it is disciplined spending that builds capacity while protecting welfare."
+    },
+    "mainsExamples": [
+      "Use capex-led growth to show productive borrowing.",
+      "Use DBT to show subsidy targeting and leakage reduction.",
+      "Use Finance Commission transfers to connect fiscal policy with cooperative federalism."
+    ],
+    "prelimsFacts": [
+      "Fiscal deficit equals borrowing requirement when other non-debt receipts are accounted for.",
+      "Primary deficit equals fiscal deficit minus interest payments.",
+      "Revenue deficit means revenue expenditure exceeds revenue receipts.",
+      "Capital expenditure creates assets or reduces liabilities.",
+      "FRBM is linked to fiscal discipline and debt sustainability."
+    ],
+    "revisionBox": [
+      {
+        "prompt": "What is the difference between revenue and capital expenditure?",
+        "answer": "Revenue expenditure is current spending; capital expenditure creates assets or reduces liabilities."
+      },
+      {
+        "prompt": "What does fiscal deficit indicate?",
+        "answer": "The government's borrowing requirement after excluding borrowings from receipts."
+      },
+      {
+        "prompt": "Why is revenue deficit more worrying than fiscal deficit?",
+        "answer": "Because it suggests borrowing is financing current expenditure rather than asset creation."
+      },
+      {
+        "prompt": "What is the Mains line on fiscal prudence?",
+        "answer": "Borrowing is justified when it creates future capacity; risky when it funds recurring consumption without reform."
+      }
+    ]
+  },
+  "story": "The Budget is the annual political economy statement of the State.",
+  "core_concept": "Budget classification, fiscal policy, deficit measures, FRBM, debt and fiscal federalism.",
+  "mnemonic": "RCRC: Revenue receipts no liability; Capital receipts liability/asset change; Revenue expenditure no asset; Capital expenditure asset.",
+  "mindmap_json": {
+    "center": "Fiscal Policy and Budget",
+    "branches": [
+      { "label": "Accounts", "children": ["Revenue receipts", "Capital receipts", "Revenue expenditure", "Capital expenditure"] },
+      { "label": "Deficits", "children": ["Fiscal", "Revenue", "Primary", "Effective revenue"] },
+      { "label": "Policy", "children": ["Tax", "Spend", "Borrow", "Subsidy"] },
+      { "label": "Rules", "children": ["FRBM", "Debt", "Transparency", "Escape clauses"] },
+      { "label": "Federal", "children": ["Finance Commission", "Transfers", "State borrowing", "CSS"] }
+    ]
+  },
+  "key_facts": [
+    "Article 112 deals with the Annual Financial Statement.",
+    "Fiscal deficit reflects borrowing requirement.",
+    "Primary deficit removes interest payment burden from fiscal deficit.",
+    "Capital expenditure is generally growth-enhancing if productive.",
+    "FRBM aims to institutionalize fiscal discipline."
+  ],
+  "common_traps": [
+    "Do not classify all borrowings as revenue receipts; borrowings are capital receipts.",
+    "Do not confuse fiscal deficit with revenue deficit.",
+    "Do not assume all subsidies are bad or all capex is productive; evaluate targeting and outcomes."
+  ],
+  "pyq_refs": [
+    {
+      "year": 2020,
+      "exam": "UPSC CSE Prelims",
+      "question": "PYQ pattern: fiscal deficits and economic liberalization causes.",
+      "answer": "High fiscal deficits were among the macro stresses around the 1991 crisis context.",
+      "pattern_note": "Public finance is often linked with reforms and macro stability."
+    },
+    {
+      "year": 2022,
+      "exam": "UPSC CSE Prelims",
+      "question": "PYQ pattern: budget terminology and deficit classification.",
+      "answer": "Use the liability/asset and current/capital test.",
+      "pattern_note": "Classification is the scoring zone."
+    }
+  ],
+  "pyq_count": 8,
+  "last_asked": 2022,
+  "high_yield": true,
+  "read_time_mins": 12,
+  "difficulty": "Medium",
+  "status": "published",
+  "source_type": "uploaded-economy-static-pyq",
+  "version": 1,
+  "created_at": "2026-06-30T00:00:00+05:30",
+  "updated_at": "2026-06-30T00:00:00+05:30"
+}

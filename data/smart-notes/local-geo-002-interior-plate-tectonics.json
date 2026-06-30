@@ -1,0 +1,128 @@
+{
+  "id": "local-geo-002",
+  "section": "Geography",
+  "category": "Physical Geography",
+  "topic": "Interior of Earth and Plate Tectonics",
+  "subtopic": "Earth structure, rocks, continental drift, plate boundaries, volcanoes and earthquakes",
+  "slug": "geography-interior-plate-tectonics",
+  "anatomy": "upsc12",
+  "content": {
+    "issueStory": "Most physical geography becomes easier once the Earth stops looking static. Mountains rise, plates move, ocean floors spread, volcanoes open, earthquakes release energy, and rocks cycle through heat, pressure, melting and erosion. UPSC uses plate tectonics as the master key for volcano distribution, seismic zones, island arcs, ocean trenches, mid-ocean ridges, Himalayas, earthquakes in India and disaster vulnerability. The trap is to memorize landforms without knowing the force that made them. A command-ready aspirant reads every map with a tectonic question first: Is this a convergent margin, divergent margin, transform fault, hotspot, old shield, fold mountain or rift system?",
+    "coreConcept": "Earth has crust, mantle and core, with mechanical layers such as lithosphere and asthenosphere. Rocks are igneous, sedimentary or metamorphic, connected through the rock cycle. Continental Drift proposed moving continents, while seafloor spreading and paleomagnetic evidence strengthened the modern theory of plate tectonics. Plates interact at divergent, convergent and transform boundaries. Convergent boundaries create subduction zones, trenches, volcanic arcs and fold mountains; divergent boundaries create rifts and mid-ocean ridges; transform boundaries create strike-slip earthquakes. Volcanoes occur at subduction zones, divergent margins and hotspots. Earthquakes occur due to sudden release of accumulated stress along faults.",
+    "dimensions": [
+      "Interior dimension: density, temperature and seismic waves reveal crust, mantle, outer core and inner core.",
+      "Rock dimension: igneous, sedimentary and metamorphic rocks show formation history and resource potential.",
+      "Plate-boundary dimension: divergent, convergent and transform margins explain most tectonic hazards.",
+      "Mountain dimension: fold mountains like the Himalayas result from continental collision.",
+      "Hazard dimension: earthquakes and volcanoes are unevenly distributed because plate boundaries are unevenly distributed.",
+      "India dimension: Himalayan belt, Indo-Gangetic plains, peninsular shield and island arcs create different hazard profiles."
+    ],
+    "constitutionalLink": "Disaster management flows through the governance duties of the Union, states and local bodies. Article 21's right to life gives a rights-based frame to earthquake safety, risk reduction and resilient infrastructure.",
+    "dataReport": "Static source: STATIC_02_Physical Geography.pdf, Interior of Earth, Plate Tectonics and Related Phenomenon chapter. PYQ source: PYQ_02_Geography.pdf, Unit 2 Geomorphology and Unit 5 India Physical Environment. Update disaster-zone facts from NDMA/BIS where needed.",
+    "caseStudy": "The Himalayas are young fold mountains formed by the collision of the Indian and Eurasian plates. Their tectonic youth explains steep relief, active seismicity, landslide vulnerability, glacial systems and fragile mountain ecology.",
+    "argumentsFor": [
+      "Plate tectonics gives a unified explanation for earthquakes, volcanoes, mountains, trenches and ocean ridges.",
+      "Tectonic knowledge improves disaster-risk planning and land-use regulation.",
+      "Rock-cycle understanding supports mineral, soil and landform interpretation.",
+      "India's seismic and landslide vulnerability can be explained through plate collision and active mountain building."
+    ],
+    "argumentsAgainst": [
+      "Plate tectonics explains broad patterns but not every local geomorphic feature alone.",
+      "Hazard maps need local geology, slope, land use and building quality in addition to plate location.",
+      "Aspirants often overextend plate theory into climate or soil questions where other processes dominate.",
+      "Static tectonic facts become incomplete without current disaster governance and preparedness context."
+    ],
+    "pyqLink": "UPSC repeatedly tests continental drift, plate boundaries, volcanoes, earthquake zones, Himalayan formation, rocks and mineral distribution. The elimination rule is to identify the boundary type first, then infer landform and hazard.",
+    "answerFramework": {
+      "intro": "Plate tectonics explains Earth's dynamic surface through the movement and interaction of lithospheric plates.",
+      "body": [
+        "Explain Earth's structure and the lithosphere-asthenosphere mechanism.",
+        "Classify boundaries: divergent, convergent and transform with associated landforms.",
+        "Connect hazards: earthquakes, volcanoes, tsunamis, landslides and seismic zones.",
+        "Apply to India: Himalayas, Indo-Gangetic plains, peninsular stability, Andaman-Nicobar arc and disaster management."
+      ],
+      "conclusion": "Tectonic understanding turns Geography from memorized maps into causal reasoning about terrain and risk."
+    },
+    "mainsExamples": [
+      "Use Himalayas as a plate-collision and disaster-vulnerability case.",
+      "Use Ring of Fire to explain global volcano and earthquake distribution.",
+      "Use Andaman-Nicobar to connect subduction, earthquakes, tsunamis and island arcs."
+    ],
+    "prelimsFacts": [
+      "Lithosphere includes crust and the uppermost rigid mantle.",
+      "Divergent boundaries create rifts and mid-ocean ridges.",
+      "Convergent boundaries can create trenches, volcanic arcs and fold mountains.",
+      "Transform boundaries are associated with strike-slip earthquakes.",
+      "Igneous, sedimentary and metamorphic rocks are connected through the rock cycle."
+    ],
+    "revisionBox": [
+      {
+        "prompt": "What creates fold mountains like the Himalayas?",
+        "answer": "Continental collision at a convergent plate boundary."
+      },
+      {
+        "prompt": "Where are trenches usually formed?",
+        "answer": "At subduction zones where one plate descends beneath another."
+      },
+      {
+        "prompt": "Why are earthquakes common along faults?",
+        "answer": "Stress accumulates along faults and is suddenly released as seismic energy."
+      },
+      {
+        "prompt": "What is the core PYQ rule for plate tectonics?",
+        "answer": "Identify the boundary type first, then infer the landform or hazard."
+      }
+    ]
+  },
+  "story": "Plate tectonics is the master key for mountains, volcanoes, earthquakes and ocean floors.",
+  "core_concept": "Earth's layered structure, rock cycle and moving plates explain major landforms, hazards and resource patterns.",
+  "mnemonic": "DCT: Diverge opens, Converge builds, Transform shakes.",
+  "mindmap_json": {
+    "center": "Plate Tectonics",
+    "branches": [
+      { "label": "Interior", "children": ["Crust", "Mantle", "Core"] },
+      { "label": "Rocks", "children": ["Igneous", "Sedimentary", "Metamorphic"] },
+      { "label": "Boundaries", "children": ["Divergent", "Convergent", "Transform"] },
+      { "label": "Landforms", "children": ["Ridges", "Trenches", "Mountains"] },
+      { "label": "Hazards", "children": ["Earthquake", "Volcano", "Tsunami"] }
+    ]
+  },
+  "key_facts": [
+    "Convergent margins can form trenches and fold mountains.",
+    "Divergent margins can form rifts and mid-ocean ridges.",
+    "Transform margins are earthquake-prone.",
+    "The Himalayas are young fold mountains.",
+    "Seismic waves help infer Earth's internal structure."
+  ],
+  "common_traps": [
+    "Do not place most volcanoes randomly; they cluster along plate boundaries and hotspots.",
+    "Do not confuse continental drift as the final theory; plate tectonics is the modern framework.",
+    "Do not treat peninsular India as hazard-free only because it is geologically older."
+  ],
+  "pyq_refs": [
+    {
+      "year": 2017,
+      "exam": "UPSC CSE Prelims",
+      "question": "PYQ pattern: Himalayan ranges and tectonic setting.",
+      "answer": "Use young fold mountain and collision logic.",
+      "pattern_note": "Indian physical geography often tests tectonic cause behind physiography."
+    },
+    {
+      "year": 2013,
+      "exam": "UPSC CSE Prelims",
+      "question": "PYQ pattern: earthquakes, volcanoes and global distribution.",
+      "answer": "Use plate-boundary and Ring of Fire logic.",
+      "pattern_note": "Distribution questions become easy once boundary type is identified."
+    }
+  ],
+  "pyq_count": 11,
+  "last_asked": 2017,
+  "high_yield": true,
+  "read_time_mins": 12,
+  "difficulty": "Medium",
+  "status": "published",
+  "source_type": "uploaded-geography-static-pyq",
+  "version": 1,
+  "created_at": "2026-06-30T00:00:00+05:30",
+  "updated_at": "2026-06-30T00:00:00+05:30"
+}

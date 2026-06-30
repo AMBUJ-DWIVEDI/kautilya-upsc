@@ -1,0 +1,128 @@
+{
+  "id": "local-his-012",
+  "section": "History",
+  "category": "Art and Culture",
+  "topic": "Indian Sculpture and Painting Traditions",
+  "subtopic": "Harappan, Mauryan, Gandhara, Mathura, Gupta, medieval sculpture, murals, miniature and folk paintings",
+  "slug": "history-sculpture-painting-schools",
+  "anatomy": "upsc12",
+  "content": {
+    "issueStory": "Sculpture and painting are UPSC's favourite visual traps. A Buddha image may be Gandhara, Mathura or Gupta depending on material, drapery, body form and expression. A painting may be mural, miniature, Pahari, Rajasthani, Mughal, Deccani, Company or folk depending on patronage, theme and technique. The aspirant's danger is to memorize names without seeing features. The command method is visual fingerprinting: material, posture, drapery, facial expression, theme, patron, region and medium. Art is not decoration in UPSC; it is evidence of belief, patronage, trade, court culture and regional style.",
+    "coreConcept": "Indian sculpture includes Harappan bronze and terracotta works, Mauryan polished stone and yaksha-yakshi figures, post-Mauryan Gandhara and Mathura schools, Gupta classical refinement and medieval temple sculpture. Gandhara art shows Greco-Roman influence, heavy drapery and schist use; Mathura art uses red sandstone and more indigenous forms; Gupta sculpture is known for spiritual serenity and refined modeling. Indian paintings include prehistoric rock art, murals such as Ajanta, miniature traditions including Mughal, Rajasthani, Pahari and Deccani schools, modern painting and folk forms such as Madhubani, Pattachitra, Kalamkari, Warli and others.",
+    "dimensions": [
+      "Material dimension: bronze, terracotta, stone, schist, sandstone, pigments and manuscripts matter.",
+      "Style dimension: Gandhara, Mathura, Gupta and regional schools have visual fingerprints.",
+      "Patronage dimension: courts, monasteries, temples, merchants and communities shaped art.",
+      "Theme dimension: religious, courtly, literary, folk and everyday themes differ by school.",
+      "Medium dimension: mural, manuscript miniature, cloth, wall and floor traditions need separation.",
+      "PYQ dimension: UPSC tests school-feature-region-patron matching."
+    ],
+    "constitutionalLink": "Article 49 and Article 51A(f) frame protection and appreciation of cultural heritage. Living art traditions also connect with cultural rights and livelihoods.",
+    "dataReport": "Static source: 1. Art and Culture.pdf, Indian Sculpture and Indian Paintings chapters. PYQ source: PYQ_04_Ancient_Medieval_ArtCulture.pdf, Unit 5 Architecture and Paintings.",
+    "caseStudy": "Ajanta murals are a classic example of religious narrative, sophisticated technique and patronage. They are central to questions on Buddhist art, mural painting and cultural heritage.",
+    "argumentsFor": [
+      "Sculpture and painting preserve visual evidence of religious and social history.",
+      "Art-school comparison builds strong Prelims elimination.",
+      "Folk and tribal art traditions show living cultural diversity.",
+      "Court painting reflects political patronage, taste and cultural exchange."
+    ],
+    "argumentsAgainst": [
+      "Visual topics are weakly learned through text-only revision.",
+      "Schools overlap and influence one another, so rigid classification can mislead.",
+      "Folk traditions are often reduced to state-name memorization.",
+      "Current GI or UNESCO links require periodic updating."
+    ],
+    "pyqLink": "UPSC asks sculpture and painting through Gandhara-Mathura differences, Ajanta, miniature schools, folk paintings, themes, materials and patronage. Use the visual fingerprint: material, body, drapery, theme, region and patron.",
+    "answerFramework": {
+      "intro": "Indian sculpture and painting traditions reflect religious ideas, patronage networks, regional aesthetics and material techniques.",
+      "body": [
+        "Compare major sculpture schools: Harappan, Mauryan, Gandhara, Mathura, Gupta and medieval temple sculpture.",
+        "Trace painting from prehistoric rock and Ajanta murals to miniature and folk traditions.",
+        "Explain patronage by courts, monasteries, temples and communities.",
+        "Add heritage conservation and living tradition dimensions."
+      ],
+      "conclusion": "Art traditions must be read as visual archives of belief, power, exchange and regional identity."
+    },
+    "mainsExamples": [
+      "Use Gandhara-Mathura comparison for cultural interaction and indigenous adaptation.",
+      "Use Ajanta for mural painting and Buddhist narrative art.",
+      "Use Madhubani or Warli for living folk traditions and community expression."
+    ],
+    "prelimsFacts": [
+      "Gandhara art shows strong Greco-Roman influence.",
+      "Mathura school commonly used red sandstone.",
+      "Gupta sculpture is known for refined spiritual expression.",
+      "Ajanta is famous for mural paintings.",
+      "Mughal painting developed under court patronage."
+    ],
+    "revisionBox": [
+      {
+        "prompt": "What is the basic Gandhara fingerprint?",
+        "answer": "Greco-Roman influence, heavy drapery, wavy hair and schist/stone work."
+      },
+      {
+        "prompt": "What is Mathura art known for?",
+        "answer": "Red sandstone, indigenous forms and robust figure treatment."
+      },
+      {
+        "prompt": "Why is Ajanta important?",
+        "answer": "It is a major Buddhist mural painting site with sophisticated narrative art."
+      },
+      {
+        "prompt": "What is the art PYQ rule?",
+        "answer": "Match material, style, region, theme and patron."
+      }
+    ]
+  },
+  "story": "Sculpture and painting are visual fingerprints of belief, patronage and region.",
+  "core_concept": "Indian sculpture and painting traditions are identified by material, style, theme, patronage and region.",
+  "mnemonic": "M-STRP: Material, Style, Theme, Region, Patron.",
+  "mindmap_json": {
+    "center": "Sculpture-Painting",
+    "branches": [
+      { "label": "Sculpture", "children": ["Harappan", "Mauryan", "Gandhara", "Mathura"] },
+      { "label": "Gupta-Medieval", "children": ["Serenity", "Temple", "Bronze"] },
+      { "label": "Murals", "children": ["Bhimbetka", "Ajanta", "Bagh"] },
+      { "label": "Miniature", "children": ["Mughal", "Rajasthani", "Pahari", "Deccani"] },
+      { "label": "Folk", "children": ["Madhubani", "Warli", "Pattachitra"] }
+    ]
+  },
+  "key_facts": [
+    "Harappan art includes bronze, terracotta and stone objects.",
+    "Mauryan art includes polished pillars and yaksha-yakshi figures.",
+    "Gandhara and Mathura are major Buddha-image traditions.",
+    "Ajanta murals are major Buddhist painting examples.",
+    "Miniature painting developed under several courtly and regional schools."
+  ],
+  "common_traps": [
+    "Do not identify painting schools by state alone without style and patronage.",
+    "Do not confuse Gandhara and Mathura material/features.",
+    "Do not treat folk art as static; many are living traditions."
+  ],
+  "pyq_refs": [
+    {
+      "year": 2018,
+      "exam": "UPSC CSE Prelims",
+      "question": "PYQ pattern: painting schools and patronage.",
+      "answer": "Use region plus style and court context.",
+      "pattern_note": "Painting questions are matching-heavy."
+    },
+    {
+      "year": 2014,
+      "exam": "UPSC CSE Prelims",
+      "question": "PYQ pattern: Gandhara-Mathura sculpture.",
+      "answer": "Use material, drapery and influence.",
+      "pattern_note": "Visual differences are classic Art-Culture traps."
+    }
+  ],
+  "pyq_count": 12,
+  "last_asked": 2018,
+  "high_yield": true,
+  "read_time_mins": 12,
+  "difficulty": "Hard",
+  "status": "published",
+  "source_type": "uploaded-history-static-pyq",
+  "version": 1,
+  "created_at": "2026-06-30T00:00:00+05:30",
+  "updated_at": "2026-06-30T00:00:00+05:30"
+}

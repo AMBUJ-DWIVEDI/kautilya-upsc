@@ -1,0 +1,128 @@
+{
+  "id": "local-eco-006",
+  "section": "Economy",
+  "category": "Agriculture",
+  "topic": "Agriculture, MSP and Markets",
+  "subtopic": "Cropping, Green Revolution, irrigation, fertilizers, credit, insurance, food distribution and reforms",
+  "slug": "economy-agriculture-msp-markets",
+  "anatomy": "upsc12",
+  "content": {
+    "issueStory": "Agriculture is where economy, ecology and politics meet. It employs millions, feeds the country, shapes inflation, drives rural demand and still remains vulnerable to monsoon, prices, soil stress and market power. UPSC's agriculture questions have become more conceptual because agriculture is no longer tested only as crops and revolutions. It is now irrigation efficiency, fertilizer imbalance, MSP logic, food security, crop insurance, agri-credit, allied sectors, market reform, organic farming, natural farming, FPOs, storage, value chains and climate resilience. The central tension is this: India must protect farmers from price and weather risk while also moving agriculture toward productivity, diversification, sustainability and market access. A good answer does not romanticize farming; it builds a risk-management system.",
+    "coreConcept": "Indian agriculture faces structural challenges: small and fragmented holdings, monsoon dependence, disguised unemployment, low mechanization in some regions, soil degradation, input imbalance, price volatility and weak market access. MSP is a price support mechanism announced for selected crops, but effective procurement is concentrated in a few crops and regions. Green Revolution improved foodgrain production but created regional and ecological imbalances. Irrigation, credit, crop insurance, storage, food distribution, FPOs, e-NAM, allied sectors and public investment are central reform areas. Sustainable agriculture includes organic farming, natural farming, micro-irrigation, crop diversification, soil health and climate-resilient practices.",
+    "dimensions": [
+      "Production dimension: seeds, irrigation, fertilizers, mechanization, extension and technology.",
+      "Price dimension: MSP, procurement, market arrivals, storage, demand-supply and trade policy.",
+      "Risk dimension: weather, pests, price crashes, debt and insurance gaps.",
+      "Market dimension: APMC, e-NAM, FPOs, value chains, warehousing and contract farming debates.",
+      "Sustainability dimension: soil health, groundwater depletion, crop diversification, organic and natural farming.",
+      "Allied sector dimension: dairy, fisheries, livestock and horticulture increase income resilience."
+    ],
+    "constitutionalLink": "Agriculture is primarily a State subject, but food security, trade, pricing, credit, insurance and national schemes involve Union-State coordination. DPSPs support livelihood, nutrition and equitable distribution of resources, making agriculture a federal welfare economy issue.",
+    "dataReport": "Static source: STATIC _01_Economy.pdf, Agriculture and Allied Sector chapter. PYQ source: PYQ_01_Economic_Agriculture.pdf, Unit 7 Agriculture. Update scheme names, MSP figures and production numbers annually.",
+    "caseStudy": "Rice-wheat concentration after the Green Revolution ensured food security but increased groundwater stress, fertilizer imbalance and procurement dependence in some regions. This is the best Mains example for balancing productivity gains with ecological correction.",
+    "argumentsFor": [
+      "MSP and procurement protect farmers from price crashes and support food security.",
+      "Irrigation, credit and insurance reduce production and income risk.",
+      "FPOs can improve bargaining power, aggregation and market access for small farmers.",
+      "Allied sectors diversify rural income and reduce crop-only dependence."
+    ],
+    "argumentsAgainst": [
+      "MSP benefits are uneven across regions and crops because procurement is concentrated.",
+      "Input subsidies can encourage overuse of water, power and fertilizers.",
+      "Crop insurance may fail if claim settlement, awareness or assessment is weak.",
+      "Market reforms without farmer safeguards can increase vulnerability to private market power."
+    ],
+    "pyqLink": "UPSC agriculture questions increasingly test sustainability, technologies, institutions and market logic. Expect multi-statement questions on MSP, crop insurance, irrigation, natural farming, allied sectors, food distribution and agri-credit. The trap is to treat one policy as universal; always ask which farmer, crop, region and risk.",
+    "answerFramework": {
+      "intro": "Indian agriculture is simultaneously a livelihood system, food-security base, inflation driver and ecological stress point.",
+      "body": [
+        "Diagnose structural constraints: holdings, monsoon, input imbalance, credit, markets and price risk.",
+        "Explain support systems: MSP, procurement, insurance, credit, irrigation and food distribution.",
+        "Add reform path: FPOs, storage, value chains, allied sectors, digital markets and diversification.",
+        "Add sustainability path: soil health, micro-irrigation, natural farming where suitable and climate resilience."
+      ],
+      "conclusion": "Agricultural reform must shift from production-only thinking to income, resilience and sustainability."
+    },
+    "mainsExamples": [
+      "Use rice-wheat belt to show food security versus groundwater stress.",
+      "Use FPOs to show aggregation as a solution for small farmers.",
+      "Use dairy and fisheries to show allied-sector income diversification."
+    ],
+    "prelimsFacts": [
+      "MSP announcement and actual procurement are not the same thing.",
+      "Green Revolution was concentrated in selected crops and regions.",
+      "Micro-irrigation improves water-use efficiency.",
+      "FPOs help small farmers aggregate produce and bargaining power.",
+      "Crop insurance addresses production risk but depends on assessment and claim settlement quality."
+    ],
+    "revisionBox": [
+      {
+        "prompt": "Why is MSP coverage uneven?",
+        "answer": "Because procurement is concentrated across certain crops and regions even though MSP is announced for many crops."
+      },
+      {
+        "prompt": "What is the sustainability critique of the Green Revolution?",
+        "answer": "Regional imbalance, groundwater stress, fertilizer imbalance and crop concentration."
+      },
+      {
+        "prompt": "Why are FPOs important?",
+        "answer": "They aggregate small farmers, improve bargaining power, reduce transaction cost and support market access."
+      },
+      {
+        "prompt": "What should an agriculture Mains answer always balance?",
+        "answer": "Farmer income, food security, fiscal cost, market efficiency and ecological sustainability."
+      }
+    ]
+  },
+  "story": "Agriculture is where economy, ecology and politics meet.",
+  "core_concept": "Agricultural production, MSP, markets, irrigation, credit, insurance, food distribution, allied sectors and sustainability.",
+  "mnemonic": "PRISM: Production, Risk, Income, Sustainability, Markets.",
+  "mindmap_json": {
+    "center": "Agriculture, MSP and Markets",
+    "branches": [
+      { "label": "Production", "children": ["Seeds", "Irrigation", "Fertilizer", "Mechanization"] },
+      { "label": "Support", "children": ["MSP", "Procurement", "Credit", "Insurance"] },
+      { "label": "Markets", "children": ["APMC", "e-NAM", "FPO", "Storage"] },
+      { "label": "Sustainability", "children": ["Soil", "Water", "Diversification", "Natural farming"] },
+      { "label": "Allied", "children": ["Dairy", "Fisheries", "Livestock", "Horticulture"] }
+    ]
+  },
+  "key_facts": [
+    "Agriculture is primarily a State subject but shaped by Union schemes and pricing policy.",
+    "MSP announcement is wider than effective procurement.",
+    "Green Revolution increased output but created regional and ecological imbalances.",
+    "FPOs support aggregation and bargaining power.",
+    "Allied sectors help stabilize farm income."
+  ],
+  "common_traps": [
+    "Do not assume MSP means guaranteed procurement for every farmer.",
+    "Do not treat organic and natural farming as identical in every context.",
+    "Do not write agriculture answers without climate and water stress."
+  ],
+  "pyq_refs": [
+    {
+      "year": 2023,
+      "exam": "UPSC CSE Prelims",
+      "question": "PYQ pattern: sustainable agricultural practices and technologies.",
+      "answer": "Evaluate the practice by input use, soil health, water efficiency and scalability.",
+      "pattern_note": "Agriculture PYQs are moving from facts to application."
+    },
+    {
+      "year": 2022,
+      "exam": "UPSC CSE Prelims",
+      "question": "PYQ pattern: institutions, market reform and crop support.",
+      "answer": "Check the exact role of the institution or scheme before selecting statements.",
+      "pattern_note": "UPSC mixes policy and basic agri-economics."
+    }
+  ],
+  "pyq_count": 12,
+  "last_asked": 2023,
+  "high_yield": true,
+  "read_time_mins": 13,
+  "difficulty": "Hard",
+  "status": "published",
+  "source_type": "uploaded-economy-static-pyq",
+  "version": 1,
+  "created_at": "2026-06-30T00:00:00+05:30",
+  "updated_at": "2026-06-30T00:00:00+05:30"
+}

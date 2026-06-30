@@ -1,0 +1,123 @@
+{
+  "id": "local-env-003",
+  "section": "Environment",
+  "category": "Wildlife Conservation",
+  "topic": "Wildlife Conservation and Species Recovery Programmes",
+  "subtopic": "International and Indian initiatives, tiger, snow leopard, lion, elephant, rhino, dolphin, crocodile, turtle and vulture conservation",
+  "slug": "environment-wildlife-conservation-species-programmes",
+  "anatomy": "upsc12",
+  "content": {
+    "issueStory": "Wildlife conservation in UPSC is a place-species-instrument puzzle. The question may ask which protected area hosts a species, which convention regulates trade, why vultures crashed, why tigers need corridors, or why river dolphins indicate river health. The deeper logic is that wildlife decline rarely has one cause. Habitat fragmentation, poisoning, illegal trade, disease, infrastructure, prey decline, river pollution and human-wildlife conflict combine. The answer must move from charismatic species to landscape conservation.",
+    "coreConcept": "Wildlife conservation protects wild species, habitats and ecological processes. International instruments include CITES, CMS and IUCN-led classification frameworks, while Indian efforts include the Wildlife Protection Act, Project Tiger, Project Elephant, species recovery programmes, protected areas and community-based measures. Flagship species such as tiger, elephant, lion, snow leopard, rhino, dolphin, crocodile, turtle and vulture represent different habitats and threat profiles. Conservation success depends on habitat connectivity, anti-poaching, scientific monitoring, conflict mitigation, veterinary control, local participation and strict regulation of trade and toxic substances.",
+    "dimensions": [
+      "Institutional dimension: wildlife law, National Board for Wildlife, protected areas, species recovery programmes and enforcement agencies.",
+      "Habitat dimension: species survival depends on corridors, prey base, breeding grounds and water quality.",
+      "Conflict dimension: crop loss, livestock depredation, human injury and resettlement issues shape local acceptance.",
+      "Trade dimension: illegal wildlife trade links conservation with organized crime and border enforcement.",
+      "Science dimension: camera traps, genetic monitoring, radio collars and population estimation improve management.",
+      "Prelims dimension: UPSC asks species status, habitat, park-state matching and programme-objective matching."
+    ],
+    "constitutionalLink": "Article 48A and 51A(g) provide constitutional support. The Wildlife Protection Act, Forest Conservation framework and environment laws provide statutory tools for species and habitat protection.",
+    "dataReport": "Static source: STATIC_04_Environment.pdf, chapter 3. Coverage includes international wildlife efforts, India's conservation programmes, tiger, snow leopard, Asiatic lion, elephant, one-horned rhino, Indian dolphins, crocodile species, turtles, vultures and other initiatives.",
+    "caseStudy": "The vulture decline in India is a classic ecological warning: veterinary drug exposure entered carcass pathways and caused massive mortality, showing how one chemical in livestock management can destabilize scavenger populations and public-health services.",
+    "argumentsFor": [
+      "Flagship species mobilize public attention and funding for entire habitats.",
+      "Corridor-based conservation protects gene flow and reduces isolation.",
+      "Community involvement improves surveillance and conflict mitigation.",
+      "Species recovery programmes allow focused action on critically threatened taxa."
+    ],
+    "argumentsAgainst": [
+      "Flagship bias can divert attention from lesser-known but ecologically important species.",
+      "Strict protection without livelihood planning can create local resistance.",
+      "Infrastructure inside corridors can fragment habitats despite protected-area expansion.",
+      "Captive breeding cannot substitute habitat security."
+    ],
+    "pyqLink": "PYQ pattern: UPSC asks wildlife through CITES/IUCN/CMS, tiger reserves, elephant corridors, dolphin-river links, vulture decline, crocodile and turtle conservation, and species-protected area matching. Classify first by habitat: forest, grassland, river, wetland, coast or high-altitude.",
+    "answerFramework": {
+      "intro": "Wildlife conservation protects species along with the habitats, corridors and ecological processes that sustain them.",
+      "body": [
+        "Mention legal and institutional tools: Wildlife Protection Act, protected areas and species programmes.",
+        "Explain threats: habitat loss, poaching, poisoning, invasive species, infrastructure and climate change.",
+        "Use examples: tiger corridors, vulture drug control, dolphin river health and elephant conflict mitigation.",
+        "Suggest integrated measures: scientific monitoring, community participation, enforcement and habitat connectivity."
+      ],
+      "conclusion": "The shift must be from isolated species protection to landscape-level ecological security."
+    },
+    "mainsExamples": [
+      "Use vulture conservation to show toxicology and ecosystem services.",
+      "Use tiger conservation to explain corridors and landscape management.",
+      "Use river dolphin protection to connect biodiversity with river pollution and flow regimes."
+    ],
+    "prelimsFacts": [
+      "CITES regulates international trade in endangered species.",
+      "Tigers require connected landscapes and adequate prey base.",
+      "Elephant conservation is closely linked with corridors and conflict mitigation.",
+      "River dolphins indicate river ecosystem health.",
+      "Vulture decline in India is associated with toxic veterinary drug exposure.",
+      "Crocodile and turtle conservation often depends on riverine and coastal nesting habitat."
+    ],
+    "revisionBox": [
+      {
+        "prompt": "Why are corridors important?",
+        "answer": "They maintain movement, gene flow and access to seasonal habitat between populations."
+      },
+      {
+        "prompt": "Why is vulture conservation a public-health issue?",
+        "answer": "Vultures remove carcasses quickly; decline can increase disease and feral scavenger pressures."
+      },
+      {
+        "prompt": "What is the common species-programme trap?",
+        "answer": "Confusing the species, habitat, state and conservation instrument."
+      },
+      {
+        "prompt": "What makes river dolphins high-yield?",
+        "answer": "They connect species conservation with river pollution, flow, navigation and fisheries."
+      }
+    ]
+  },
+  "story": "Wildlife questions are not animal trivia; they are habitat, corridor and governance questions.",
+  "core_concept": "Wildlife conservation requires legal protection, connected habitat, species-specific recovery and community cooperation.",
+  "mnemonic": "PATCH: Protection, Anti-poaching, Trade control, Corridors, Habitat.",
+  "mindmap_json": {
+    "center": "Wildlife Conservation",
+    "branches": [
+      { "label": "Law", "children": ["WPA", "CITES", "CMS"] },
+      { "label": "Species", "children": ["Tiger", "Elephant", "Vulture"] },
+      { "label": "Habitats", "children": ["Forest", "River", "Coast"] },
+      { "label": "Threats", "children": ["Poaching", "Fragmentation", "Conflict"] },
+      { "label": "Tools", "children": ["Corridors", "Monitoring", "Community"] }
+    ]
+  },
+  "key_facts": [
+    "Wildlife conservation is habitat conservation plus species management.",
+    "Illegal trade is an international conservation challenge.",
+    "Corridors are crucial for wide-ranging mammals.",
+    "Vultures provide scavenging ecosystem services.",
+    "Riverine species require water quality and flow security."
+  ],
+  "common_traps": [
+    "Do not memorize species without habitat.",
+    "Do not confuse a national park, wildlife sanctuary and tiger reserve.",
+    "Do not treat captive breeding as complete conservation.",
+    "Do not ignore human-wildlife conflict in Mains answers."
+  ],
+  "pyq_refs": [
+    {
+      "year": 2018,
+      "exam": "UPSC CSE Prelims",
+      "question": "PYQ pattern: protected species and conservation initiative matching.",
+      "answer": "Map species to habitat, legal instrument and protected area.",
+      "pattern_note": "Species-location-instrument triads recur in Environment Prelims."
+    }
+  ],
+  "pyq_count": 9,
+  "last_asked": 2018,
+  "high_yield": true,
+  "read_time_mins": 10,
+  "difficulty": "Medium",
+  "status": "published",
+  "source_type": "uploaded-environment-static",
+  "version": 1,
+  "created_at": "2026-06-30T00:00:00+05:30",
+  "updated_at": "2026-06-30T00:00:00+05:30"
+}

@@ -1,0 +1,128 @@
+{
+  "id": "local-geo-011",
+  "section": "Geography",
+  "category": "Economic Geography",
+  "topic": "Resources, Agriculture, Industry, Energy and Transport",
+  "subtopic": "Land resources, crops, minerals, energy, manufacturing, corridors, roads, railways, ports and waterways",
+  "slug": "geography-resources-agriculture-industry-energy-transport",
+  "anatomy": "upsc12",
+  "content": {
+    "issueStory": "Economic Geography is where the map starts producing livelihoods. Crops are not randomly located; they follow soil, rainfall, temperature, irrigation, markets and policy. Minerals follow geology. Industries follow raw material, power, labour, capital, market, transport and policy. Ports follow coastline and hinterland. Roads and railways follow relief, demand and strategy. UPSC loves this area because it turns a factual map into a reasoning map. The trap is memorizing lists of crops, minerals, industries and corridors without asking why they are there.",
+    "coreConcept": "Resources are natural or human assets usable for economic activity. Agriculture depends on land, soil, water, climate, inputs, technology and markets. Major crops have distinct climate-soil requirements. Minerals are unevenly distributed due to geological history, with metallic and non-metallic resources concentrated in specific belts. Energy resources include conventional sources such as coal, petroleum, natural gas, hydro and nuclear, and renewable sources such as solar, wind, biomass and geothermal. Industries are located based on raw material, power, labour, capital, market, transport, policy and agglomeration. Transport and communication integrate markets through roads, railways, ports, airports, pipelines, waterways and digital networks.",
+    "dimensions": [
+      "Agriculture dimension: crop location depends on climate, soil, irrigation, technology and markets.",
+      "Mineral dimension: geology controls mineral belts and industrial location.",
+      "Energy dimension: resource endowment, grid, storage and technology shape energy transition.",
+      "Industry dimension: location factors shift from raw material to market, logistics, labour and policy over time.",
+      "Transport dimension: connectivity reduces regional isolation and transaction cost.",
+      "Sustainability dimension: resource extraction, industrial growth and transport expansion must balance ecology and equity."
+    ],
+    "constitutionalLink": "Land, agriculture, water, minerals, industry, transport and energy are distributed across Union, State and Concurrent responsibilities. Article 39's common-good principle and Article 48A's environmental protection are important evaluative frames.",
+    "dataReport": "Static source: STATIC_03_Indian_Human_Geography.pdf, Resource and Manufacturing Industries plus Trade, Transport and Communication chapters. PYQ source: PYQ_02_Geography.pdf, Unit 6 Economic and Human Geography. Update scheme and corridor facts from current official sources before final use.",
+    "caseStudy": "Iron and steel industry historically clustered near coal, iron ore, water and transport in eastern India. Newer industrial location increasingly depends on logistics, power reliability, markets, ports, policy incentives and value-chain integration.",
+    "argumentsFor": [
+      "Resource and transport geography explains regional development and industrial corridors.",
+      "Agriculture mapping improves crop, soil, rainfall and irrigation questions.",
+      "Energy geography is central to climate transition, energy security and regional economy.",
+      "Transport networks support market integration, defence logistics and inclusive growth."
+    ],
+    "argumentsAgainst": [
+      "Resource extraction can cause displacement, forest loss and pollution.",
+      "Agricultural specialization may increase water stress and ecological vulnerability.",
+      "Industrial corridors can deepen regional inequality if local capacity is weak.",
+      "Transport expansion without environmental planning can fragment habitats and intensify emissions."
+    ],
+    "pyqLink": "UPSC tests economic geography through crop-region matching, minerals, energy resources, industrial location, ports, waterways, corridors, pipelines and transport networks. The elimination method is location factor first: climate, soil, geology, power, market, transport or policy.",
+    "answerFramework": {
+      "intro": "Economic geography studies how resources, agriculture, industry, energy and transport are spatially organized and why they develop in particular regions.",
+      "body": [
+        "Explain agriculture through soil, rainfall, irrigation, temperature and market access.",
+        "Explain minerals and energy through geology, technology and policy.",
+        "Explain industries through location factors and changing logistics.",
+        "Connect transport with market integration, regional development and strategic mobility."
+      ],
+      "conclusion": "India's economic geography must move from resource extraction toward productive, connected and sustainable regional development."
+    },
+    "mainsExamples": [
+      "Use rice-wheat cropping to discuss irrigation, MSP and groundwater stress.",
+      "Use coal belt-industrial location to explain historical resource-based industry.",
+      "Use inland waterways and ports to discuss logistics cost reduction."
+    ],
+    "prelimsFacts": [
+      "Crop distribution depends on soil, climate, water and market conditions.",
+      "Mineral distribution is controlled by geological structure.",
+      "Coal is a major conventional energy source in India.",
+      "Industrial location depends on raw material, power, labour, market and transport.",
+      "Ports connect maritime trade with hinterland transport networks."
+    ],
+    "revisionBox": [
+      {
+        "prompt": "What is the crop-location rule?",
+        "answer": "Match crop with rainfall, temperature, soil, irrigation, labour and market."
+      },
+      {
+        "prompt": "Why are minerals unevenly distributed?",
+        "answer": "Because they depend on geological history and rock structure."
+      },
+      {
+        "prompt": "Why did older industries cluster near raw material?",
+        "answer": "Transport costs and bulky inputs made proximity to coal, iron ore, water and rail important."
+      },
+      {
+        "prompt": "What is the economic geography PYQ rule?",
+        "answer": "Find the location factor: climate, soil, geology, power, market, transport or policy."
+      }
+    ]
+  },
+  "story": "Economic Geography is the map of livelihoods, resources, routes and regional opportunity.",
+  "core_concept": "Agriculture, minerals, energy, industries and transport are located through physical, economic and policy factors.",
+  "mnemonic": "CLIMB-T: Climate, Land, Inputs, Market, Basin/geology, Transport.",
+  "mindmap_json": {
+    "center": "Economic Geography",
+    "branches": [
+      { "label": "Agriculture", "children": ["Soil", "Rainfall", "Irrigation", "Markets"] },
+      { "label": "Minerals", "children": ["Metallic", "Non-metallic", "Belts"] },
+      { "label": "Energy", "children": ["Coal", "Hydro", "Nuclear", "Renewable"] },
+      { "label": "Industry", "children": ["Raw material", "Power", "Labour", "Market"] },
+      { "label": "Transport", "children": ["Road", "Rail", "Port", "Waterway"] }
+    ]
+  },
+  "key_facts": [
+    "Agriculture is shaped by physical and institutional factors.",
+    "Mineral belts often align with ancient geological formations.",
+    "Renewable energy potential varies by solar radiation, wind corridors and land availability.",
+    "Industrial corridors depend on infrastructure and logistics integration.",
+    "Transport networks reduce economic distance between regions."
+  ],
+  "common_traps": [
+    "Do not memorize crop belts without climate and soil logic.",
+    "Do not explain modern industry only by raw material location.",
+    "Do not treat renewable energy as location-free."
+  ],
+  "pyq_refs": [
+    {
+      "year": 2023,
+      "exam": "UPSC CSE Prelims",
+      "question": "PYQ pattern: crops, resources and map locations.",
+      "answer": "Use physical requirement plus regional map recall.",
+      "pattern_note": "Economic geography questions increasingly reward atlas-linked reasoning."
+    },
+    {
+      "year": 2018,
+      "exam": "UPSC CSE Prelims",
+      "question": "PYQ pattern: transport, ports and industrial corridors.",
+      "answer": "Connect route, hinterland and economic purpose.",
+      "pattern_note": "Infrastructure questions often blend current affairs with static location."
+    }
+  ],
+  "pyq_count": 14,
+  "last_asked": 2023,
+  "high_yield": true,
+  "read_time_mins": 13,
+  "difficulty": "Hard",
+  "status": "published",
+  "source_type": "uploaded-geography-static-pyq",
+  "version": 1,
+  "created_at": "2026-06-30T00:00:00+05:30",
+  "updated_at": "2026-06-30T00:00:00+05:30"
+}

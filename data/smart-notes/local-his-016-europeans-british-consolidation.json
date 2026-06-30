@@ -1,0 +1,128 @@
+{
+  "id": "local-his-116",
+  "section": "History",
+  "category": "Modern India",
+  "topic": "Advent of Europeans and Consolidation of British Power",
+  "subtopic": "Portuguese, Dutch, English, French, Carnatic wars, Bengal, Mysore, Marathas, Sindh and Punjab",
+  "slug": "history-europeans-british-consolidation",
+  "anatomy": "upsc12",
+  "content": {
+    "issueStory": "Modern India begins as a story of trade and becomes a story of power. Europeans arrived as merchants seeking spices, textiles, ports and profit, but the English East India Company gradually converted commercial privilege into political sovereignty. UPSC tests this phase because it explains how conquest did not happen in one stroke: naval control, fortified factories, diplomacy, revenue rights, military technology, Indian alliances, succession disputes and company finance all worked together. The trap is to memorize European trading centers without seeing the logic of consolidation. The command question is: how did a trading company become a territorial state?",
+    "coreConcept": "Portuguese, Dutch, English, Danes and French established trading settlements in India. The Portuguese pioneered maritime dominance and controlled Goa, Diu and other centers. The Dutch focused largely on trade and declined before English expansion. The English East India Company secured factories such as Surat, Madras, Bombay and Calcutta and defeated French competition through the Carnatic wars. The conquest of Bengal after Plassey and Buxar gave revenue power. Expansion continued through wars and diplomacy against Mysore, Marathas, Sindh and Punjab. Subsidiary alliance, doctrine of lapse, treaties, military superiority and control of resources consolidated British power.",
+    "dimensions": [
+      "Commercial dimension: European companies initially sought trade privileges, ports, textiles, spices and profits.",
+      "Military dimension: naval strength, disciplined armies and artillery supported territorial expansion.",
+      "Political dimension: succession disputes and alliances with Indian groups enabled intervention.",
+      "Revenue dimension: Bengal's diwani changed the Company from trader to revenue-collecting ruler.",
+      "Regional dimension: conquest differed across Bengal, Mysore, Maratha territories, Sindh and Punjab.",
+      "PYQ dimension: UPSC asks factories, European centers, battles, terms, exports and personalities."
+    ],
+    "constitutionalLink": "This phase later shaped colonial constitutional development through Company rule, Crown rule and administrative centralization. It is a historical base for understanding Regulating Act 1773 and later governance reforms.",
+    "dataReport": "Static source: STATIC_08_Modern_India.pdf, Advent of Europeans and Consolidation of British Power chapter. PYQ source: PYQ_05_Modern_History.pdf, Unit 1.",
+    "caseStudy": "Bengal after Plassey and Buxar shows the decisive shift from trade to rule. Control over revenue gave the Company fiscal resources to finance further military expansion.",
+    "argumentsFor": [
+      "British consolidation was possible because commerce, diplomacy and military power reinforced each other.",
+      "Revenue control in Bengal gave the Company a durable financial base.",
+      "French defeat in the Carnatic struggle removed the major European rival.",
+      "Indian political fragmentation and succession conflicts created openings for Company intervention."
+    ],
+    "argumentsAgainst": [
+      "British victory was not inevitable; it depended on Indian alliances and contingent battles.",
+      "European trading-center memorization hides the deeper political economy of conquest.",
+      "Indian rulers adapted and resisted, especially Mysore, Marathas and Sikhs.",
+      "Company expansion often used treaty obligations and indirect control, not only battlefield conquest."
+    ],
+    "pyqLink": "UPSC asks this area through factories, European trading centers, Portuguese crops, Albuquerque, English factories, Plassey/Buxar, Industrial Revolution impact, Bengal exports and terms such as banian/mirasidar. The rule is European, center, year, Indian ruler, battle and consequence.",
+    "answerFramework": {
+      "intro": "The British conquest of India was a gradual conversion of trade privilege into territorial sovereignty through war, diplomacy and revenue control.",
+      "body": [
+        "Trace European arrival and trading centers.",
+        "Explain Anglo-French rivalry and Carnatic wars.",
+        "Discuss Bengal as the fiscal turning point after Plassey and Buxar.",
+        "Add expansion against Mysore, Marathas, Sindh and Punjab through war and treaties."
+      ],
+      "conclusion": "The Company became an empire when commercial networks, military power and revenue extraction fused."
+    },
+    "mainsExamples": [
+      "Use Plassey for corporate intervention in Indian politics.",
+      "Use Buxar and diwani for revenue-state formation.",
+      "Use Mysore under Haidar Ali and Tipu Sultan for organized resistance."
+    ],
+    "prelimsFacts": [
+      "Vasco da Gama reached Calicut in 1498.",
+      "Afonso de Albuquerque captured Goa from Bijapur in 1510.",
+      "English factory at Surat was established in the early seventeenth century.",
+      "Battle of Plassey was fought in 1757.",
+      "Battle of Buxar was fought in 1764."
+    ],
+    "revisionBox": [
+      {
+        "prompt": "What was the turning point from trade to territorial power?",
+        "answer": "Control of Bengal revenue after Plassey, Buxar and diwani rights."
+      },
+      {
+        "prompt": "Why did the French lose the race?",
+        "answer": "Weaker naval-commercial base, European constraints and English political-military advantage in India."
+      },
+      {
+        "prompt": "What is the PYQ rule for Europeans?",
+        "answer": "Match company, factory, year, Indian power, battle and consequence."
+      },
+      {
+        "prompt": "Why is Bengal central?",
+        "answer": "Its revenue and trade resources financed Company expansion."
+      }
+    ]
+  },
+  "story": "A trading company became a territorial state through ports, battles, revenue and alliances.",
+  "core_concept": "British consolidation joined commerce, military force, diplomacy and revenue extraction.",
+  "mnemonic": "TCMR: Trade, Conquest, Money, Rule.",
+  "mindmap_json": {
+    "center": "British Consolidation",
+    "branches": [
+      { "label": "Europeans", "children": ["Portuguese", "Dutch", "English", "French"] },
+      { "label": "Factories", "children": ["Surat", "Madras", "Bombay", "Calcutta"] },
+      { "label": "Wars", "children": ["Carnatic", "Bengal", "Mysore", "Maratha"] },
+      { "label": "Tools", "children": ["Treaties", "Subsidiary", "Lapse", "Diwani"] },
+      { "label": "Result", "children": ["Revenue", "Army", "Territory"] }
+    ]
+  },
+  "key_facts": [
+    "Portuguese were the first major European maritime power in India.",
+    "Carnatic wars weakened French challenge in India.",
+    "Diwani of Bengal gave the Company revenue power.",
+    "Subsidiary alliance expanded indirect British control.",
+    "Punjab was annexed after Anglo-Sikh wars."
+  ],
+  "common_traps": [
+    "Do not confuse first factory and first permanent factory details.",
+    "Do not treat Plassey alone as complete conquest of Bengal.",
+    "Do not forget Indian allies and intermediaries in Company success."
+  ],
+  "pyq_refs": [
+    {
+      "year": 2022,
+      "exam": "UPSC CSE Prelims",
+      "question": "European factories and Albuquerque-Goa pattern.",
+      "answer": "Albuquerque captured Goa from Bijapur; factory details need exact matching.",
+      "pattern_note": "UPSC tests European center-ruler matching."
+    },
+    {
+      "year": 2018,
+      "exam": "UPSC CSE Prelims",
+      "question": "Staple commodities exported by EIC from Bengal.",
+      "answer": "Cotton, silk, saltpetre and opium.",
+      "pattern_note": "Economic details of Company trade remain high-yield."
+    }
+  ],
+  "pyq_count": 14,
+  "last_asked": 2022,
+  "high_yield": true,
+  "read_time_mins": 12,
+  "difficulty": "Medium",
+  "status": "published",
+  "source_type": "uploaded-modern-static-pyq",
+  "version": 1,
+  "created_at": "2026-06-30T00:00:00+05:30",
+  "updated_at": "2026-06-30T00:00:00+05:30"
+}

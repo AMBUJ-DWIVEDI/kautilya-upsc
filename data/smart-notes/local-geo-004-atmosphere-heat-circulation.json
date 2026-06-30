@@ -1,0 +1,128 @@
+{
+  "id": "local-geo-004",
+  "section": "Geography",
+  "category": "Physical Geography",
+  "topic": "Atmosphere, Heat Balance and Atmospheric Circulation",
+  "subtopic": "Atmospheric structure, insolation, heat budget, pressure belts, winds, jet streams and cyclones",
+  "slug": "geography-atmosphere-heat-circulation",
+  "anatomy": "upsc12",
+  "content": {
+    "issueStory": "Weather looks chaotic until the atmosphere is read as a heat engine. Unequal solar heating creates pressure differences; pressure differences create winds; rotation bends winds; moisture creates clouds and rain; instability creates storms; ocean-atmosphere interaction shapes monsoon and climate variability. UPSC repeatedly tests this chain because it links physical geography with agriculture, disasters, climate change, aviation, monsoon forecasting and public policy. The trap is to memorize pressure belts and winds as names. The command method is causal: where is the heating, where is the pressure, which way will air move, how will Coriolis deflect it, what moisture is available, and what weather follows?",
+    "coreConcept": "The atmosphere is layered into troposphere, stratosphere, mesosphere, thermosphere and exosphere. Insolation varies with latitude, season, angle of incidence, duration of day, cloud cover and albedo. Earth's heat budget balances incoming solar radiation and outgoing terrestrial radiation. Pressure differences generate winds, while Coriolis force deflects moving air to the right in the northern hemisphere and left in the southern hemisphere. Global pressure belts, trade winds, westerlies, polar easterlies, jet streams, air masses, fronts, tropical cyclones, temperate cyclones, thunderstorms and tornadoes form the core of atmospheric circulation and weather systems.",
+    "dimensions": [
+      "Layer dimension: atmospheric layers differ in temperature trend, composition and weather relevance.",
+      "Radiation dimension: insolation, albedo, greenhouse effect and terrestrial radiation drive heat balance.",
+      "Pressure dimension: heating and cooling create pressure gradients that move air.",
+      "Rotation dimension: Coriolis force and geostrophic balance shape wind direction.",
+      "Moisture dimension: evaporation, condensation, clouds and precipitation connect circulation with rainfall.",
+      "Hazard dimension: cyclones, thunderstorms, tornadoes and heatwaves require atmospheric instability and energy."
+    ],
+    "constitutionalLink": "Article 21 frames protection from extreme weather risks as part of life and safety. Article 48A supports environmental protection, while disaster management institutions translate atmospheric science into public warning and preparedness.",
+    "dataReport": "Static source: STATIC_02_Physical Geography.pdf, Atmosphere and Heat Balance plus Atmospheric Circulation chapters. PYQ source: PYQ_02_Geography.pdf, Unit 4 Climatology. Update current cyclone/heatwave examples from IMD and NDMA before exam use.",
+    "caseStudy": "Tropical cyclones over the Bay of Bengal show the circulation chain: warm sea surface, moisture, low pressure, Coriolis force, organized convection and landfall impact. Preparedness depends on forecasting, evacuation, shelters and coastal resilience.",
+    "argumentsFor": [
+      "Atmospheric circulation explains rainfall, monsoon, cyclones, droughts and heatwaves.",
+      "Heat-budget knowledge helps understand greenhouse effect and climate change.",
+      "Wind and pressure systems are essential for agriculture, aviation and disaster warnings.",
+      "Jet streams and pressure shifts connect local weather with global circulation."
+    ],
+    "argumentsAgainst": [
+      "Atmospheric systems are dynamic; static diagrams can oversimplify real weather.",
+      "Local topography, ocean temperature and land-use change modify broad circulation patterns.",
+      "Cyclone and monsoon questions require current context beyond static theory.",
+      "Aspirants often confuse cause and effect, such as wind causing pressure rather than pressure gradient causing wind."
+    ],
+    "pyqLink": "UPSC tests atmospheric layers, clouds, albedo, pressure belts, winds, jet streams, cyclones, rainfall and temperature inversion. The elimination chain is Heat -> Pressure -> Wind -> Moisture -> Weather.",
+    "answerFramework": {
+      "intro": "Atmospheric circulation is the movement of air driven by unequal heating, pressure gradients, Earth's rotation and moisture processes.",
+      "body": [
+        "Explain radiation and heat budget as the energy base.",
+        "Explain pressure belts, winds, Coriolis force and jet streams as circulation mechanisms.",
+        "Connect moisture processes with clouds, rainfall and storms.",
+        "Apply to India: monsoon, cyclones, heatwaves, western disturbances and disaster warnings."
+      ],
+      "conclusion": "Weather systems become understandable when read as energy and pressure systems rather than isolated facts."
+    },
+    "mainsExamples": [
+      "Use Bay of Bengal cyclones to explain ocean-atmosphere energy and disaster preparedness.",
+      "Use temperature inversion to explain fog, pollution trapping and winter smog.",
+      "Use jet streams to connect upper-air circulation with monsoon and western disturbances."
+    ],
+    "prelimsFacts": [
+      "Most weather occurs in the troposphere.",
+      "Ozone concentration is significant in the stratosphere.",
+      "Coriolis force deflects winds right in the northern hemisphere and left in the southern hemisphere.",
+      "Pressure gradient force initiates wind movement.",
+      "Temperature inversion means temperature increases with height over a layer."
+    ],
+    "revisionBox": [
+      {
+        "prompt": "What drives wind?",
+        "answer": "Air moves due to pressure-gradient force from high pressure toward low pressure."
+      },
+      {
+        "prompt": "What does Coriolis force do?",
+        "answer": "It deflects moving air due to Earth's rotation, right in the northern hemisphere and left in the southern hemisphere."
+      },
+      {
+        "prompt": "Why is the troposphere important?",
+        "answer": "It contains most water vapour and is the layer where most weather occurs."
+      },
+      {
+        "prompt": "What is the atmosphere chain for PYQs?",
+        "answer": "Heat creates pressure differences, pressure creates wind, moisture creates weather."
+      }
+    ]
+  },
+  "story": "The atmosphere is a heat engine: heating creates pressure, pressure creates wind, moisture creates weather.",
+  "core_concept": "Atmospheric structure, insolation, heat balance, pressure belts, winds, jet streams and cyclones explain weather systems.",
+  "mnemonic": "HPWM: Heat, Pressure, Wind, Moisture.",
+  "mindmap_json": {
+    "center": "Atmospheric Circulation",
+    "branches": [
+      { "label": "Layers", "children": ["Troposphere", "Stratosphere", "Thermosphere"] },
+      { "label": "Heat", "children": ["Insolation", "Albedo", "Heat budget"] },
+      { "label": "Pressure", "children": ["Belts", "Gradient", "Coriolis"] },
+      { "label": "Winds", "children": ["Trades", "Westerlies", "Jets"] },
+      { "label": "Weather", "children": ["Clouds", "Rain", "Cyclones"] }
+    ]
+  },
+  "key_facts": [
+    "Troposphere is the main weather layer.",
+    "Stratosphere contains the ozone layer concentration.",
+    "Coriolis force is zero at the equator and increases poleward.",
+    "Jet streams are fast upper-air winds.",
+    "Tropical cyclones need warm ocean water and Coriolis force."
+  ],
+  "common_traps": [
+    "Do not say wind creates pressure gradient; pressure gradient drives wind.",
+    "Do not place ozone concentration mainly in the troposphere.",
+    "Do not ignore Coriolis force in cyclone formation."
+  ],
+  "pyq_refs": [
+    {
+      "year": 2022,
+      "exam": "UPSC CSE Prelims",
+      "question": "PYQ pattern: clouds and radiation balance.",
+      "answer": "Separate reflection of solar radiation and trapping of terrestrial radiation.",
+      "pattern_note": "UPSC tests atmospheric energy logic through statement pairs."
+    },
+    {
+      "year": 2019,
+      "exam": "UPSC CSE Prelims",
+      "question": "PYQ pattern: jet streams, winds and monsoon links.",
+      "answer": "Use upper-air circulation and seasonal shift logic.",
+      "pattern_note": "Atmosphere PYQs often bridge into Indian monsoon."
+    }
+  ],
+  "pyq_count": 13,
+  "last_asked": 2022,
+  "high_yield": true,
+  "read_time_mins": 12,
+  "difficulty": "Hard",
+  "status": "published",
+  "source_type": "uploaded-geography-static-pyq",
+  "version": 1,
+  "created_at": "2026-06-30T00:00:00+05:30",
+  "updated_at": "2026-06-30T00:00:00+05:30"
+}

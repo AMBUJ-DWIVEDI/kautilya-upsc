@@ -1,0 +1,128 @@
+{
+  "id": "local-his-014",
+  "section": "History",
+  "category": "Art and Culture",
+  "topic": "Indian Literature, Language, Religion and Philosophy",
+  "subtopic": "Vedic, Sanskrit, Pali, Prakrit, Tamil, medieval literature, language families, religious sects and schools of philosophy",
+  "slug": "history-literature-language-philosophy-religion",
+  "anatomy": "upsc12",
+  "content": {
+    "issueStory": "Literature and philosophy are where Indian culture becomes argument, memory and imagination. Texts preserve ritual, law, poetry, drama, ethics, metaphysics, devotion, grammar and political thought. Languages reveal migration, region, patronage and identity. Religions and philosophical schools show that Indian civilization was not intellectually uniform; it argued about self, world, liberation, knowledge, ritual, devotion, logic and material reality. UPSC asks this topic through books-authors, language families, sects, philosophical schools and literary traditions. The command method is to make source maps: language, period, author, genre, idea and patronage.",
+    "coreConcept": "Indian literature includes Vedic texts, epics, Puranas, Buddhist Pali texts, Jain Prakrit literature, Sanskrit kavya and drama, Sangam Tamil literature, medieval Bhakti-Sufi literature, Persian chronicles and modern Indian literature. Major language families include Indo-Aryan, Dravidian, Austroasiatic and Tibeto-Burman. Classical languages and scripts are important cultural markers. Indian philosophy includes orthodox systems such as Nyaya, Vaisheshika, Samkhya, Yoga, Mimamsa and Vedanta, and heterodox systems such as Buddhism, Jainism and Charvaka. Religious traditions include Hindu sects, Buddhism, Jainism, Sikhism, Islam, Christianity, Zoroastrianism and Judaism in India.",
+    "dimensions": [
+      "Text dimension: books, authors, language and genre are the basic Prelims anchors.",
+      "Philosophy dimension: schools differ on knowledge, reality, self, liberation and ritual.",
+      "Language dimension: language families and classical language status shape cultural identity.",
+      "Religious dimension: sects and traditions show doctrinal and regional diversity.",
+      "Medieval dimension: Bhakti, Sufi and Persianate literature widen the literary landscape.",
+      "PYQ dimension: UPSC tests book-author, school-doctrine and language-region matching."
+    ],
+    "constitutionalLink": "Article 29 protects cultural interests. Article 30 protects minority educational rights. The Eighth Schedule lists recognized languages, while Article 51A(f) asks citizens to preserve composite culture.",
+    "dataReport": "Static source: 1. Art and Culture.pdf, Indian Religion and Philosophy plus Indian Literature and Language chapters. Ancient/Medieval PDFs provide historical context. PYQ source: PYQ_04_Ancient_Medieval_ArtCulture.pdf, Units 6 and 7.",
+    "caseStudy": "Sangam literature is a strong example of language as historical source: it preserves early Tamil society, landscapes, trade, chiefs and emotional-cultural worlds outside the Sanskritic north Indian frame.",
+    "argumentsFor": [
+      "Literature provides evidence for society, polity, religion and cultural ideals.",
+      "Philosophy shows the argumentative and plural nature of Indian thought.",
+      "Language traditions preserve regional identity and historical memory.",
+      "Book-author and doctrine mapping gives high Prelims returns."
+    ],
+    "argumentsAgainst": [
+      "Textual sources often represent elite, monastic or courtly perspectives.",
+      "Philosophical schools are easily oversimplified.",
+      "Language and script questions require exactness, not broad familiarity.",
+      "Religious traditions evolved over time, so static definitions can mislead."
+    ],
+    "pyqLink": "UPSC asks literature and philosophy through books-authors, Buddhist/Jain texts, Sangam literature, philosophical schools, sects, language families and cultural institutions. The safe method is language, author, period, genre and core idea.",
+    "answerFramework": {
+      "intro": "Indian literature, language and philosophy preserve the intellectual, devotional and regional diversity of Indian civilization.",
+      "body": [
+        "Classify literature by language and period: Vedic, Sanskrit, Pali, Prakrit, Tamil, Persian and vernacular.",
+        "Discuss philosophical schools and their core concerns.",
+        "Explain religious and sectarian diversity.",
+        "Add language families, classical languages and constitutional-cultural protection."
+      ],
+      "conclusion": "This area should be studied as a map of ideas, languages and communities, not as isolated book lists."
+    },
+    "mainsExamples": [
+      "Use Sangam texts for early Tamil social history.",
+      "Use Nyaya for logic and epistemology in Indian philosophy.",
+      "Use Bhakti vernacular literature for cultural democratization."
+    ],
+    "prelimsFacts": [
+      "Nyaya is associated with logic and epistemology.",
+      "Samkhya is associated with Purusha-Prakriti dualism.",
+      "Pali literature is closely associated with early Buddhist texts.",
+      "Sangam literature is associated with ancient Tamilakam.",
+      "The Eighth Schedule lists constitutionally recognized languages."
+    ],
+    "revisionBox": [
+      {
+        "prompt": "What is the literature PYQ table?",
+        "answer": "Language, author, period, genre and core idea."
+      },
+      {
+        "prompt": "Name six orthodox schools of Indian philosophy.",
+        "answer": "Nyaya, Vaisheshika, Samkhya, Yoga, Mimamsa and Vedanta."
+      },
+      {
+        "prompt": "What is Sangam literature useful for?",
+        "answer": "Understanding early Tamil society, polity, trade, landscapes and culture."
+      },
+      {
+        "prompt": "Why are language questions exacting?",
+        "answer": "They test family, region, script/status and literary tradition precisely."
+      }
+    ]
+  },
+  "story": "Literature and philosophy are India's archive of argument, memory and imagination.",
+  "core_concept": "Texts, languages, religions and philosophies must be mapped by language, author, period, school and core idea.",
+  "mnemonic": "LAP-GI: Language, Author, Period, Genre, Idea.",
+  "mindmap_json": {
+    "center": "Literature-Philosophy",
+    "branches": [
+      { "label": "Texts", "children": ["Vedic", "Pali", "Prakrit", "Tamil"] },
+      { "label": "Languages", "children": ["Indo-Aryan", "Dravidian", "Austroasiatic", "Tibeto-Burman"] },
+      { "label": "Philosophy", "children": ["Nyaya", "Samkhya", "Vedanta", "Charvaka"] },
+      { "label": "Religion", "children": ["Hindu", "Buddhist", "Jain", "Sikh"] },
+      { "label": "PYQ", "children": ["Book", "Author", "School", "Doctrine"] }
+    ]
+  },
+  "key_facts": [
+    "Vedic literature is among the oldest Indo-Aryan textual traditions.",
+    "Pali canon is central to early Buddhism.",
+    "Jain literature used Prakrit and other languages.",
+    "Sangam literature is an early Tamil corpus.",
+    "Indian philosophy includes orthodox and heterodox schools."
+  ],
+  "common_traps": [
+    "Do not mix language, script and language family.",
+    "Do not confuse orthodox philosophical schools with heterodox traditions.",
+    "Do not memorize book-author lists without language and period."
+  ],
+  "pyq_refs": [
+    {
+      "year": 2022,
+      "exam": "UPSC CSE Prelims",
+      "question": "PYQ pattern: Sangam literature.",
+      "answer": "Know content, society and material references.",
+      "pattern_note": "Literature is tested as historical evidence."
+    },
+    {
+      "year": 2016,
+      "exam": "UPSC CSE Prelims",
+      "question": "PYQ pattern: Indian philosophical schools.",
+      "answer": "Match school with core doctrine.",
+      "pattern_note": "Philosophy questions reward exact conceptual pairing."
+    }
+  ],
+  "pyq_count": 13,
+  "last_asked": 2022,
+  "high_yield": true,
+  "read_time_mins": 12,
+  "difficulty": "Hard",
+  "status": "published",
+  "source_type": "uploaded-history-static-pyq",
+  "version": 1,
+  "created_at": "2026-06-30T00:00:00+05:30",
+  "updated_at": "2026-06-30T00:00:00+05:30"
+}

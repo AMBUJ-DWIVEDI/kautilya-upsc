@@ -1,0 +1,123 @@
+{
+  "id": "local-env-006",
+  "section": "Environment",
+  "category": "Climate Change",
+  "topic": "Climate Change and International Environmental Conventions",
+  "subtopic": "Greenhouse gases, impacts, UNFCCC, Kyoto, Paris, REDD+, climate finance and global institutions",
+  "slug": "environment-climate-change-conventions-finance",
+  "anatomy": "upsc12",
+  "content": {
+    "issueStory": "Climate change is where Environment becomes geopolitics. A prelims question may ask a greenhouse gas, a convention, a fund or a report. A mains question asks equity, adaptation, finance, technology transfer and development space. The trap is to read climate as science alone. For UPSC, climate is science plus justice: historic emissions, common but differentiated responsibilities, net zero, carbon markets, forests, finance and vulnerable communities all sit inside the same answer.",
+    "coreConcept": "Climate change refers to long-term changes in temperature, rainfall, extreme events and climatic systems, driven increasingly by anthropogenic greenhouse gas emissions. Important greenhouse gases include carbon dioxide, methane, nitrous oxide and fluorinated gases. Impacts include sea-level rise, heatwaves, glacier retreat, extreme rainfall, crop stress, water insecurity, ocean acidification, biodiversity loss and health risk. Global climate governance is organized around the UNFCCC, Kyoto Protocol, Paris Agreement, nationally determined contributions, adaptation, mitigation, REDD+, carbon markets and climate finance. The core justice principle is differentiated responsibility and support for vulnerable countries.",
+    "dimensions": [
+      "Science dimension: greenhouse gases trap heat, alter radiation balance and intensify climate variability.",
+      "Impact dimension: climate affects agriculture, water, health, biodiversity, coasts, disasters and migration.",
+      "Mitigation dimension: emission reduction through renewables, efficiency, sinks, cleaner transport and industry transition.",
+      "Adaptation dimension: climate-resilient agriculture, early warning, resilient infrastructure, water security and health planning.",
+      "Equity dimension: historic responsibility, per-capita emissions, development needs and climate finance shape negotiations.",
+      "Prelims dimension: UPSC asks convention-year-objective matching, greenhouse gas properties, REDD+, funds and reports."
+    ],
+    "constitutionalLink": "Article 48A, Article 51A(g) and Article 21 environmental jurisprudence provide domestic ethical and legal support. International obligations influence domestic climate policy, renewable energy, forest conservation and disaster resilience.",
+    "dataReport": "Static source: STATIC_04_Environment.pdf, chapter 6. Coverage includes climate change, causes, greenhouse gases, climate terms, impacts, mitigation, international conventions, timeline, UNFCCC, REDD/REDD+, other initiatives and climate finance.",
+    "caseStudy": "India's climate position combines low historical responsibility, development needs, renewable-energy expansion, adaptation vulnerability and demand for predictable climate finance. This makes it a good example for equity-based climate answers.",
+    "argumentsFor": [
+      "Climate mitigation reduces future disaster, health and economic losses.",
+      "Adaptation protects vulnerable communities already facing climate impacts.",
+      "Climate finance and technology transfer are necessary for fair transition in developing countries.",
+      "Nature-based solutions such as forests, wetlands and mangroves create mitigation and adaptation benefits."
+    ],
+    "argumentsAgainst": [
+      "Net-zero claims can become symbolic without near-term emission cuts.",
+      "Carbon markets can suffer from weak accounting and double counting.",
+      "Forest carbon projects can harm community rights if safeguards are weak.",
+      "Climate finance pledges often fall short of actual needs and predictability."
+    ],
+    "pyqLink": "PYQ pattern: climate questions ask UNFCCC, Kyoto Protocol, Paris Agreement, NDCs, REDD+, carbon markets, greenhouse gases, ocean acidification, climate funds and IPCC reports. For Mains, always separate mitigation, adaptation, finance and equity.",
+    "answerFramework": {
+      "intro": "Climate change is a long-term alteration of climatic systems driven mainly by anthropogenic greenhouse gas emissions.",
+      "body": [
+        "Explain scientific basis: greenhouse gases, warming, feedbacks and climate variability.",
+        "List impacts on agriculture, water, health, biodiversity, coasts and disasters.",
+        "Differentiate mitigation and adaptation with examples.",
+        "Connect global governance: UNFCCC, Paris Agreement, NDCs, REDD+, carbon markets and climate finance."
+      ],
+      "conclusion": "A credible climate strategy must combine ambition with equity, finance, technology and resilience."
+    },
+    "mainsExamples": [
+      "Use heatwaves to connect climate change with public health and labour productivity.",
+      "Use mangroves and wetlands as nature-based climate adaptation examples.",
+      "Use climate finance to discuss equity in global negotiations."
+    ],
+    "prelimsFacts": [
+      "UNFCCC is the framework convention for global climate cooperation.",
+      "Paris Agreement works through nationally determined contributions.",
+      "REDD+ relates to reducing emissions from deforestation and forest degradation plus conservation and sustainable management.",
+      "Methane has higher warming potential than carbon dioxide over shorter time horizons.",
+      "Ocean acidification is linked to increased carbon dioxide absorption by oceans.",
+      "Climate finance supports mitigation and adaptation."
+    ],
+    "revisionBox": [
+      {
+        "prompt": "What is the difference between mitigation and adaptation?",
+        "answer": "Mitigation reduces emissions or increases sinks; adaptation reduces vulnerability to climate impacts."
+      },
+      {
+        "prompt": "What is the equity principle in climate negotiations?",
+        "answer": "Countries have common but differentiated responsibilities based on capability and historical responsibility."
+      },
+      {
+        "prompt": "What does REDD+ cover?",
+        "answer": "Forest-based emission reduction plus conservation, sustainable management and enhancement of carbon stocks."
+      },
+      {
+        "prompt": "What is the Mains climate structure?",
+        "answer": "Science, impacts, mitigation, adaptation, finance, equity and governance."
+      }
+    ]
+  },
+  "story": "Climate change is science wearing a justice problem as armour.",
+  "core_concept": "Climate governance links greenhouse-gas science with mitigation, adaptation, finance, technology and equity.",
+  "mnemonic": "MAFEG: Mitigation, Adaptation, Finance, Equity, Governance.",
+  "mindmap_json": {
+    "center": "Climate Change",
+    "branches": [
+      { "label": "Science", "children": ["GHGs", "Warming", "Feedbacks"] },
+      { "label": "Impacts", "children": ["Heat", "Water", "Coasts"] },
+      { "label": "Action", "children": ["Mitigation", "Adaptation", "Sinks"] },
+      { "label": "Global", "children": ["UNFCCC", "Paris", "REDD+"] },
+      { "label": "Justice", "children": ["CBDR", "Finance", "Technology"] }
+    ]
+  },
+  "key_facts": [
+    "Carbon dioxide, methane and nitrous oxide are key greenhouse gases.",
+    "Paris Agreement uses nationally determined contributions.",
+    "Climate finance is central to developing-country climate action.",
+    "REDD+ connects forests with climate mitigation.",
+    "Adaptation is especially important for vulnerable communities."
+  ],
+  "common_traps": [
+    "Do not confuse ozone depletion with climate change.",
+    "Do not treat mitigation and adaptation as the same.",
+    "Do not assume every carbon sink policy is socially neutral.",
+    "Do not write climate answers without equity and finance."
+  ],
+  "pyq_refs": [
+    {
+      "year": 2021,
+      "exam": "UPSC CSE Prelims",
+      "question": "PYQ pattern: climate convention, objective and mechanism matching.",
+      "answer": "Map each instrument to its purpose and governance level.",
+      "pattern_note": "Climate conventions recur through statement-based questions."
+    }
+  ],
+  "pyq_count": 14,
+  "last_asked": 2021,
+  "high_yield": true,
+  "read_time_mins": 12,
+  "difficulty": "Hard",
+  "status": "published",
+  "source_type": "uploaded-environment-static",
+  "version": 1,
+  "created_at": "2026-06-30T00:00:00+05:30",
+  "updated_at": "2026-06-30T00:00:00+05:30"
+}

@@ -1,0 +1,128 @@
+{
+  "id": "local-pol-108",
+  "section": "Polity",
+  "category": "Parliament",
+  "topic": "Parliament, State Legislatures and Legislative Procedure",
+  "subtopic": "Houses, presiding officers, sessions, bills, budget, committees, privileges and anti-defection",
+  "slug": "polity-parliament-state-legislatures-procedure",
+  "anatomy": "upsc12",
+  "content": {
+    "issueStory": "Parliament is where democratic consent becomes law, finance and accountability. UPSC loves this chapter because it is procedural: money bill versus financial bill, joint sitting, Rajya Sabha powers, budget grants, privileges, committees, quorum, question hour, zero hour, deputy speaker, Speaker's anti-defection role and state legislative councils. The danger is reading Parliament as static composition. The command method is flow-based: who introduces, who passes, who can amend, who certifies, who presides, who scrutinizes and what happens if the houses disagree.",
+    "coreConcept": "Parliament consists of the President, Lok Sabha and Rajya Sabha under Article 79. Lok Sabha is the directly elected lower house; Rajya Sabha represents states and is a permanent house. Parliament makes laws, controls finances, scrutinizes executive and represents people/states. Legislative procedures differ for ordinary bills, money bills, financial bills and constitutional amendment bills. Money bills are certified by the Speaker and Rajya Sabha has limited powers over them. Joint sitting under Article 108 applies to ordinary bills and certain financial bills, not money bills or constitutional amendment bills. Parliamentary devices include question hour, zero hour, motions, debates and committees. State legislatures may be unicameral or bicameral.",
+    "dimensions": [
+      "Composition dimension: Parliament includes President and two houses; state legislatures vary by state.",
+      "Procedure dimension: bill type determines introduction, passage, Rajya Sabha role and joint sitting possibility.",
+      "Finance dimension: budget, grants, appropriation and finance bills express legislative control over public money.",
+      "Accountability dimension: questions, motions and committees scrutinize the executive.",
+      "Privilege dimension: legislative privileges protect functioning but must align with constitutional limits.",
+      "PYQ dimension: UPSC asks bill types, Speaker powers, Rajya Sabha limits, joint sitting, committees and privileges."
+    ],
+    "constitutionalLink": "Articles 79-122, Articles 168-212, Article 108, Article 110, Article 112, Article 118, Article 105, Article 194, Tenth Schedule, Article 368 and related rules of procedure.",
+    "dataReport": "Static source: STATIC_09_Polity.pdf, Parliament and State Legislatures chapters. PYQ source: PYQ_06_Polity_Governance.pdf, Unit 6 Union and State Legislature.",
+    "caseStudy": "Money bill certification is a major institutional issue because it limits Rajya Sabha's role. It illustrates how procedure can affect bicameralism and federal deliberation.",
+    "argumentsFor": [
+      "Parliament provides democratic legitimacy to law-making and taxation.",
+      "Committees allow detailed scrutiny away from partisan floor pressure.",
+      "Rajya Sabha protects federal representation and legislative review.",
+      "Budget procedure gives legislature control over public expenditure."
+    ],
+    "argumentsAgainst": [
+      "Frequent disruptions reduce deliberative quality.",
+      "Overuse of money bill route can weaken bicameral scrutiny.",
+      "Committee referral is not always consistent.",
+      "Anti-defection law can weaken individual legislative debate."
+    ],
+    "pyqLink": "UPSC asks Parliament through money bill, joint sitting, Speaker, Rajya Sabha, budget, committees, privileges, anti-defection and legislative councils. The safe rule is bill type, house power, presiding authority and consequence.",
+    "answerFramework": {
+      "intro": "Parliament is the central institution of representative law-making, financial control and executive accountability in India's parliamentary democracy.",
+      "body": [
+        "Explain composition and roles of Lok Sabha, Rajya Sabha and President.",
+        "Compare ordinary, money, financial and constitutional amendment bills.",
+        "Discuss budget, grants, committees and accountability devices.",
+        "Evaluate concerns: disruptions, money bill misuse, anti-defection and committee weakening."
+      ],
+      "conclusion": "Legislatures protect democracy not by existence alone but through deliberation, scrutiny and procedural integrity."
+    },
+    "mainsExamples": [
+      "Use department-related standing committees for detailed legislative scrutiny.",
+      "Use money bill controversy to discuss bicameralism.",
+      "Use anti-defection law to discuss stability versus legislative independence."
+    ],
+    "prelimsFacts": [
+      "Article 79 says Parliament consists of President, Lok Sabha and Rajya Sabha.",
+      "Article 110 defines Money Bill.",
+      "Joint sitting is under Article 108.",
+      "Rajya Sabha is a permanent house.",
+      "Tenth Schedule deals with anti-defection."
+    ],
+    "revisionBox": [
+      {
+        "prompt": "Can a money bill go to joint sitting?",
+        "answer": "No. Joint sitting does not apply to money bills."
+      },
+      {
+        "prompt": "Who certifies a money bill?",
+        "answer": "The Speaker of Lok Sabha."
+      },
+      {
+        "prompt": "What is Rajya Sabha's nature?",
+        "answer": "It is a permanent house and is not subject to dissolution."
+      },
+      {
+        "prompt": "What is the legislature PYQ rule?",
+        "answer": "Identify bill type, house power, presiding authority and consequence."
+      }
+    ]
+  },
+  "story": "Legislative procedure decides how democratic consent becomes law, money and accountability.",
+  "core_concept": "Parliament and legislatures make laws, control finances and scrutinize the executive through structured procedures.",
+  "mnemonic": "B-HPC: Bill type, House power, Presiding authority, Consequence.",
+  "mindmap_json": {
+    "center": "Legislature",
+    "branches": [
+      { "label": "Parliament", "children": ["President", "Lok Sabha", "Rajya Sabha"] },
+      { "label": "Bills", "children": ["Ordinary", "Money", "Financial", "Amendment"] },
+      { "label": "Budget", "children": ["Grants", "Appropriation", "Finance Bill"] },
+      { "label": "Scrutiny", "children": ["Questions", "Motions", "Committees"] },
+      { "label": "Traps", "children": ["Speaker", "Joint sitting", "Privileges"] }
+    ]
+  },
+  "key_facts": [
+    "Money bills can be introduced only in Lok Sabha.",
+    "Rajya Sabha can recommend changes to money bills but cannot reject them finally.",
+    "Joint sitting is presided over by the Speaker of Lok Sabha.",
+    "The Budget is the Annual Financial Statement under Article 112.",
+    "Parliamentary privileges are under Article 105."
+  ],
+  "common_traps": [
+    "Do not apply joint sitting to constitutional amendment bills.",
+    "Do not give Rajya Sabha equal power over money bills.",
+    "Do not forget the President is part of Parliament."
+  ],
+  "pyq_refs": [
+    {
+      "year": 2023,
+      "exam": "UPSC CSE Prelims",
+      "question": "PYQ pattern: Parliament, money bills and procedures.",
+      "answer": "Use Article 110 and Speaker certification logic.",
+      "pattern_note": "Bill-type distinctions are evergreen."
+    },
+    {
+      "year": 2021,
+      "exam": "UPSC CSE Prelims",
+      "question": "PYQ pattern: committees and legislative scrutiny.",
+      "answer": "Know committee functions and reporting routes.",
+      "pattern_note": "Governance-style Polity questions now test institutional working."
+    }
+  ],
+  "pyq_count": 18,
+  "last_asked": 2023,
+  "high_yield": true,
+  "read_time_mins": 14,
+  "difficulty": "Hard",
+  "status": "published",
+  "source_type": "uploaded-polity-static-pyq",
+  "version": 1,
+  "created_at": "2026-06-30T00:00:00+05:30",
+  "updated_at": "2026-06-30T00:00:00+05:30"
+}

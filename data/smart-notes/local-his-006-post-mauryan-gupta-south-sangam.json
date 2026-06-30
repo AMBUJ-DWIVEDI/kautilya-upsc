@@ -1,0 +1,128 @@
+{
+  "id": "local-his-006",
+  "section": "History",
+  "category": "Ancient India",
+  "topic": "Post-Mauryan, Gupta, South Indian Kingdoms and Sangam Age",
+  "subtopic": "Indo-Greeks, Shakas, Kushanas, Satavahanas, Guptas, Harsha, Pallavas, Chalukyas and Sangam polities",
+  "slug": "history-post-mauryan-gupta-south-sangam",
+  "anatomy": "upsc12",
+  "content": {
+    "issueStory": "After the Mauryas, Indian history does not disappear into disorder; it becomes regional, connected and culturally fertile. Central Asian contacts brought new rulers, coins, art forms and trade links. Satavahanas connected the Deccan with northern and overseas networks. Kushanas linked India with Central Asia and Buddhism's wider spread. Guptas are remembered for literature, science, art, polity and Sanskritic culture. South Indian kingdoms and Sangam polities show a parallel world of ports, poems, chiefs, warfare, trade and rich material culture. UPSC asks this era because it tests chronology, patronage, art schools, literature, coins, ports and regional dynasties.",
+    "coreConcept": "Post-Mauryan India saw Indo-Greeks, Shakas, Parthians, Kushanas, Satavahanas and regional powers. These contacts affected coinage, trade, art and religion. Kushana ruler Kanishka patronized Buddhism and is associated with Gandhara-Mathura art developments. Satavahanas ruled the Deccan and supported Prakrit inscriptions, trade and Buddhist sites. The Gupta Empire is associated with Samudragupta, Chandragupta II, administrative structures, Sanskrit literature, science, art and temple beginnings. Harsha ruled in north India in the seventh century. Chalukyas and Pallavas shaped Deccan and South Indian polity and temple architecture. Sangam literature preserves information on Chera, Chola, Pandya polities, ports, society, warfare and trade.",
+    "dimensions": [
+      "Contact dimension: Central Asian rulers changed coinage, cavalry, art and long-distance trade.",
+      "Regional dimension: Deccan and South Indian polities show non-Gangetic historical dynamism.",
+      "Cultural dimension: Gandhara, Mathura, Gupta and Pallava art link history with Art and Culture.",
+      "Economic dimension: ports, Roman trade, guilds, coins and urban networks matter.",
+      "Literary dimension: Sanskrit, Prakrit and Sangam texts provide different windows into society.",
+      "PYQ dimension: UPSC asks dynasty chronology, ruler-patron matching, literature and art-school identification."
+    ],
+    "constitutionalLink": "Article 49 and heritage conservation are relevant for ancient sites, temples, inscriptions and monuments. Article 51A(f) frames respect for composite culture.",
+    "dataReport": "Static source: STATIC_06_Ancient_India.pdf, Central Asian Contact, Satavahanas, Gupta, Harsha, Kingdoms of South and Sangam Age chapters. PYQ source: PYQ_04_Ancient_Medieval_ArtCulture.pdf, Unit 2.",
+    "caseStudy": "The Sangam corpus is a valuable example of literature as historical source. It records chiefs, warfare, trade, landscapes, social categories and material culture of early historic Tamilakam.",
+    "argumentsFor": [
+      "This period explains regionalization after Mauryan decline without treating it as historical vacuum.",
+      "Foreign contacts enriched coinage, art, trade and religious networks.",
+      "Gupta and Pallava periods are crucial for art, literature and temple architecture.",
+      "Sangam sources widen Indian history beyond the Gangetic frame."
+    ],
+    "argumentsAgainst": [
+      "The 'Golden Age' label for Guptas should be used cautiously because benefits were not uniform.",
+      "Chronology of regional dynasties can be confusing without timeline practice.",
+      "Literary sources such as Sangam poems require careful historical interpretation.",
+      "Foreign-origin dynasties should not be treated as culturally separate after integration."
+    ],
+    "pyqLink": "PYQs ask this phase through Sangam literature, dynastic chronology, Kanishka, Satavahanas, Gupta rulers, Harsha, foreign travellers, art schools and south Indian dynasties. The safe method is ruler-dynasty-region-contribution mapping.",
+    "answerFramework": {
+      "intro": "The post-Mauryan to early medieval transition was marked by regional polities, foreign contacts, trade expansion and major cultural developments.",
+      "body": [
+        "Explain Central Asian contacts and their effect on trade, coinage, art and religion.",
+        "Discuss Satavahanas and Deccan networks.",
+        "Assess Gupta achievements and limits in polity, culture, science and art.",
+        "Add South Indian and Sangam contributions through literature, ports and temple traditions."
+      ],
+      "conclusion": "This period should be read as a network of regions and cultural exchanges, not as a single imperial story."
+    },
+    "mainsExamples": [
+      "Use Gandhara art for Indo-Greek and Buddhist artistic synthesis.",
+      "Use Samudragupta's Allahabad pillar inscription for imperial claims.",
+      "Use Sangam ports for overseas trade and early Tamil society."
+    ],
+    "prelimsFacts": [
+      "Kanishka is associated with Kushana power and Buddhist patronage.",
+      "Satavahanas were important Deccan rulers.",
+      "Samudragupta is known from the Allahabad pillar inscription.",
+      "Sangam literature relates to early historic Tamilakam.",
+      "Pallavas contributed significantly to South Indian temple architecture."
+    ],
+    "revisionBox": [
+      {
+        "prompt": "What is the main value of Sangam literature?",
+        "answer": "It gives evidence on early Tamil society, polity, trade, warfare and material culture."
+      },
+      {
+        "prompt": "Why are Central Asian contacts important?",
+        "answer": "They influenced trade, coins, cavalry, art and Buddhism's wider networks."
+      },
+      {
+        "prompt": "What is the caution with Gupta 'Golden Age'?",
+        "answer": "It highlights cultural achievements but can hide social inequality and regional variation."
+      },
+      {
+        "prompt": "What is the PYQ rule here?",
+        "answer": "Map ruler, dynasty, region, source and cultural contribution."
+      }
+    ]
+  },
+  "story": "After the Mauryas, history becomes regional, connected and culturally fertile.",
+  "core_concept": "Post-Mauryan to Gupta-Sangam history links contacts, regional kingdoms, literature, art, trade and chronology.",
+  "mnemonic": "RCTS: Ruler, Contribution, Text, Site.",
+  "mindmap_json": {
+    "center": "Post-Mauryan to Sangam",
+    "branches": [
+      { "label": "Contacts", "children": ["Indo-Greeks", "Shakas", "Kushanas"] },
+      { "label": "Deccan", "children": ["Satavahana", "Prakrit", "Trade"] },
+      { "label": "Gupta", "children": ["Samudragupta", "Sanskrit", "Art", "Science"] },
+      { "label": "South", "children": ["Pallava", "Chalukya", "Temple"] },
+      { "label": "Sangam", "children": ["Chera", "Chola", "Pandya", "Ports"] }
+    ]
+  },
+  "key_facts": [
+    "Central Asian contacts affected Indian coinage and art.",
+    "Satavahanas were important in the Deccan.",
+    "Gupta period is associated with Sanskritic cultural flowering.",
+    "Sangam literature is a key source for early Tamilakam.",
+    "Pallavas and Chalukyas shaped early South Indian temple architecture."
+  ],
+  "common_traps": [
+    "Do not treat the post-Mauryan period as merely decline.",
+    "Do not use Gupta Golden Age without qualification.",
+    "Do not mix Sangam dynasties with later imperial Cholas."
+  ],
+  "pyq_refs": [
+    {
+      "year": 2022,
+      "exam": "UPSC CSE Prelims",
+      "question": "Sangam literature in ancient South India.",
+      "answer": "Sangam poems knew varna classification among other material-cultural references.",
+      "pattern_note": "UPSC tests exact literary evidence."
+    },
+    {
+      "year": 2023,
+      "exam": "UPSC CSE Prelims",
+      "question": "PYQ pattern: dynastic chronology such as Yadava, Hoysala, Gahadavala and Kakatiya.",
+      "answer": "Use region and sequence mapping.",
+      "pattern_note": "Chronology and regional dynasties are back in focus."
+    }
+  ],
+  "pyq_count": 15,
+  "last_asked": 2023,
+  "high_yield": true,
+  "read_time_mins": 14,
+  "difficulty": "Hard",
+  "status": "published",
+  "source_type": "uploaded-history-static-pyq",
+  "version": 1,
+  "created_at": "2026-06-30T00:00:00+05:30",
+  "updated_at": "2026-06-30T00:00:00+05:30"
+}

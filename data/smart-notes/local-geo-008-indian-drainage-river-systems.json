@@ -1,0 +1,128 @@
+{
+  "id": "local-geo-008",
+  "section": "Geography",
+  "category": "Indian Geography",
+  "topic": "Indian Drainage System",
+  "subtopic": "Himalayan and peninsular rivers, drainage patterns, lakes, wetlands and dams",
+  "slug": "geography-indian-drainage-river-systems",
+  "anatomy": "upsc12",
+  "content": {
+    "issueStory": "Rivers are India's moving geography. They carry water, silt, faith, irrigation, floods, hydropower, disputes, cities, pollution and livelihoods. UPSC asks drainage because it is map-heavy and concept-heavy at the same time. A river question may look factual, but it often tests origin, tributary sequence, flow direction, basin, delta/estuary, dam, city, wetland or inter-state dispute. The command method is to divide first: Himalayan rivers are generally perennial, antecedent and alluvial-plain builders; peninsular rivers are older, rain-fed, plateau-controlled and often east-flowing toward deltas, except major west-flowing systems such as Narmada and Tapi.",
+    "coreConcept": "Drainage refers to the river system of an area. Drainage patterns include dendritic, trellis, rectangular, radial and centripetal patterns. Indian rivers are broadly Himalayan and peninsular. Himalayan rivers such as Indus, Ganga and Brahmaputra systems are snow-fed and rain-fed, perennial, and form large alluvial plains. Peninsular rivers such as Godavari, Krishna, Kaveri, Mahanadi, Narmada and Tapi are older and largely rain-fed, controlled by plateau slope and hard rocks. East-flowing peninsular rivers generally form deltas, while Narmada and Tapi flow west through rift valleys and form estuaries. Lakes, wetlands and dams add ecological, economic and governance dimensions.",
+    "dimensions": [
+      "Origin dimension: Himalayan rivers arise from glaciers/high mountains; peninsular rivers arise from plateau regions.",
+      "Relief dimension: slope controls flow direction, valley shape and delta or estuary formation.",
+      "Hydrology dimension: perennial versus seasonal flow affects irrigation, flood and drought risk.",
+      "Sediment dimension: rivers build plains, deltas, floodplains and wetlands.",
+      "Governance dimension: river disputes, dams, pollution and flood management require inter-state coordination.",
+      "Ecology dimension: wetlands, floodplains and lakes support biodiversity and groundwater recharge."
+    ],
+    "constitutionalLink": "Water is primarily a State subject, but inter-state rivers and river valleys fall under Union jurisdiction. Article 262 and the Inter-State River Water Disputes framework are central to river governance.",
+    "dataReport": "Static source: STATIC_03_Indian_Human_Geography.pdf, Drainage System chapter. PYQ source: PYQ_02_Geography.pdf, Unit 5 India Physical Environment. Use atlas marking for origins, tributaries, dams, cities and wetlands.",
+    "caseStudy": "The Ganga system shows how physical geography becomes governance: Himalayan origin, alluvial plains, dense settlements, irrigation, pollution load, religious significance, flood risk and basin-level management all converge.",
+    "argumentsFor": [
+      "River-system knowledge is essential for irrigation, hydropower, flood control and drinking water planning.",
+      "Drainage maps improve Prelims accuracy in tributary, dam, wetland and city questions.",
+      "Floodplain and wetland protection supports biodiversity and disaster reduction.",
+      "Basin-level management can reduce inter-state conflict and ecological degradation."
+    ],
+    "argumentsAgainst": [
+      "Dams and embankments can alter sediment flow, ecology and downstream livelihoods.",
+      "River interlinking or basin transfer plans require careful ecological and social assessment.",
+      "Pollution control fails if sewage, industry and agricultural runoff are not managed together.",
+      "Climate change can disrupt historical assumptions about glacier melt, rainfall and flood intensity."
+    ],
+    "pyqLink": "UPSC asks rivers through origin, tributary order, states crossed, dams, wetlands, delta-estuary differences, Himalayan versus peninsular contrast and map-based locations. The first elimination question should be: Himalayan or peninsular, east-flowing or west-flowing, delta or estuary.",
+    "answerFramework": {
+      "intro": "India's drainage system is shaped by relief, geology, monsoon, glaciers and plateau slope, and it governs water, agriculture and settlement.",
+      "body": [
+        "Classify rivers into Himalayan and peninsular systems.",
+        "Compare flow regime, age, valley type, sediment load and delta/estuary formation.",
+        "Add governance issues: dams, disputes, pollution, flood control and basin management.",
+        "Add ecological concerns: wetlands, floodplains, groundwater recharge and biodiversity."
+      ],
+      "conclusion": "Rivers must be studied as physical systems and governance systems together."
+    },
+    "mainsExamples": [
+      "Use Ganga basin for pollution, floodplain and basin-governance discussion.",
+      "Use Narmada/Tapi for rift valleys and west-flowing estuary formation.",
+      "Use Brahmaputra for braided channels, floods and sediment load."
+    ],
+    "prelimsFacts": [
+      "Indus, Ganga and Brahmaputra are major Himalayan river systems.",
+      "Godavari is a major east-flowing peninsular river.",
+      "Narmada and Tapi are major west-flowing peninsular rivers.",
+      "Dendritic drainage resembles tree branches.",
+      "Article 262 relates to inter-state river water disputes."
+    ],
+    "revisionBox": [
+      {
+        "prompt": "How do Himalayan and peninsular rivers differ?",
+        "answer": "Himalayan rivers are generally perennial and younger; peninsular rivers are older, plateau-controlled and largely rain-fed."
+      },
+      {
+        "prompt": "Why do many east-flowing peninsular rivers form deltas?",
+        "answer": "They carry sediment to gentler eastern coastal plains and deposit near their mouths."
+      },
+      {
+        "prompt": "Why do Narmada and Tapi flow west?",
+        "answer": "They flow through rift valleys toward the Arabian Sea."
+      },
+      {
+        "prompt": "What is the river PYQ elimination rule?",
+        "answer": "Classify as Himalayan/peninsular, east/west-flowing, delta/estuary and basin/state."
+      }
+    ]
+  },
+  "story": "Rivers are India's moving geography: water, silt, faith, disputes, cities and livelihoods.",
+  "core_concept": "India's drainage system is shaped by Himalayas, peninsular slope, monsoon, geology and basin governance.",
+  "mnemonic": "H-PED: Himalayan or Peninsular, East or west, Delta or estuary.",
+  "mindmap_json": {
+    "center": "Indian Drainage",
+    "branches": [
+      { "label": "Himalayan", "children": ["Indus", "Ganga", "Brahmaputra"] },
+      { "label": "Peninsular", "children": ["Godavari", "Krishna", "Kaveri", "Mahanadi"] },
+      { "label": "West-flowing", "children": ["Narmada", "Tapi", "Estuaries"] },
+      { "label": "Patterns", "children": ["Dendritic", "Trellis", "Radial"] },
+      { "label": "Governance", "children": ["Dams", "Disputes", "Pollution"] }
+    ]
+  },
+  "key_facts": [
+    "Himalayan rivers are generally perennial.",
+    "Peninsular rivers are older and often rain-fed.",
+    "Narmada and Tapi flow west through rift valleys.",
+    "Many east-flowing peninsular rivers form deltas.",
+    "Wetlands support biodiversity, flood moderation and groundwater recharge."
+  ],
+  "common_traps": [
+    "Do not assume all peninsular rivers flow east.",
+    "Do not confuse delta formation with estuary formation.",
+    "Do not memorize tributaries without locating the main basin."
+  ],
+  "pyq_refs": [
+    {
+      "year": 2023,
+      "exam": "UPSC CSE Prelims",
+      "question": "PYQ pattern: river, wetland and location matching.",
+      "answer": "Use basin map and state association.",
+      "pattern_note": "Map precision is increasingly important in Geography."
+    },
+    {
+      "year": 2015,
+      "exam": "UPSC CSE Prelims",
+      "question": "PYQ pattern: river systems and tributaries.",
+      "answer": "Locate origin, confluence and flow direction before deciding.",
+      "pattern_note": "Tributary questions reward atlas practice."
+    }
+  ],
+  "pyq_count": 13,
+  "last_asked": 2023,
+  "high_yield": true,
+  "read_time_mins": 12,
+  "difficulty": "Hard",
+  "status": "published",
+  "source_type": "uploaded-geography-static-pyq",
+  "version": 1,
+  "created_at": "2026-06-30T00:00:00+05:30",
+  "updated_at": "2026-06-30T00:00:00+05:30"
+}

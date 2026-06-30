@@ -1,0 +1,122 @@
+{
+  "id": "local-env-009",
+  "section": "Environment",
+  "category": "Species",
+  "topic": "Major Species and Invasive Species",
+  "subtopic": "Threatened mammals, birds, reptiles, fishes, plants, invasive species and important trees",
+  "slug": "environment-major-species-invasive-species",
+  "anatomy": "upsc12",
+  "content": {
+    "issueStory": "Species lists feel endless, so the command question is: how do we make them rememberable? UPSC rarely rewards random names. It tests identity, habitat, status, geography and threat. The Great Indian Bustard is a grassland and power-line issue, not just a bird. One-horned rhino is a floodplain-grassland and poaching story. Invasive lantana is a forest-understory and fire-risk story. Species become easy when each name is attached to a place, habitat and threat.",
+    "coreConcept": "Major species study covers threatened mammals, birds, reptiles, fishes, plants and region-specific wildlife. Conservation status categories such as critically endangered, endangered, vulnerable, near threatened and least concern help prioritize action. Invasive alien species are organisms introduced outside their natural range that spread and harm biodiversity, ecosystem services, economy or health. Important examples in India include invasive plants, aquatic invasives and introduced animals that compete with native species, alter fire regimes, choke water bodies or disrupt habitats. Species revision must be organized by taxonomic group, habitat, state or protected area, IUCN status and major threat.",
+    "dimensions": [
+      "Classification dimension: mammals, birds, reptiles, fishes, plants and trees require separate memory hooks.",
+      "Status dimension: IUCN categories help identify urgency but must be matched with current conservation context.",
+      "Habitat dimension: grasslands, wetlands, forests, coasts, rivers, deserts and high mountains each host distinct species.",
+      "Threat dimension: habitat loss, poaching, poisoning, collisions, invasives, climate change and pollution drive decline.",
+      "Invasive dimension: invasive species can outcompete natives, change nutrient cycles, alter fire regimes and damage livelihoods.",
+      "Prelims dimension: UPSC asks species-state, species-habitat, species-status and invasive-impact matching."
+    ],
+    "constitutionalLink": "Article 48A and Article 51A(g), wildlife law, biodiversity law and forest governance support species protection and invasive management.",
+    "dataReport": "Static source: STATIC_04_Environment.pdf, chapter 9. Coverage includes threatened mammals by status, marine mammals, deer species, important birds, fishes, reptiles, plants, native wildlife of countries, invasive species, important trees and protected-area types.",
+    "caseStudy": "The Great Indian Bustard shows why species conservation needs habitat-scale planning. Grassland loss, power-line collision and low breeding success cannot be solved by a park name alone; land use, infrastructure and local livelihoods must be aligned.",
+    "argumentsFor": [
+      "Species-focused conservation helps prioritize urgent ecological risk.",
+      "Habitat-wise revision reduces memory overload for Prelims.",
+      "Invasive species management protects native biodiversity and ecosystem services.",
+      "Flagship species can create wider habitat protection if designed carefully."
+    ],
+    "argumentsAgainst": [
+      "List memorization without habitat and threat has low retention.",
+      "Status categories may change and need current verification for exams.",
+      "Removing invasives can be difficult if local livelihoods depend on them.",
+      "Species charisma can bias conservation away from neglected habitats like grasslands."
+    ],
+    "pyqLink": "PYQ pattern: UPSC asks species seen in news, invasive plants and animals, IUCN categories, protected area matching, endemic species and habitat clues. Use a five-column sheet: species, group, habitat, location, threat.",
+    "answerFramework": {
+      "intro": "Species conservation requires linking each species with its habitat, threat profile, conservation status and governance instrument.",
+      "body": [
+        "Classify species by group: mammals, birds, reptiles, fishes, plants and trees.",
+        "Map each major species to habitat and region.",
+        "Explain threats: habitat loss, poaching, pollution, collision, disease, climate change and invasives.",
+        "Discuss invasive species impacts and management through prevention, control and restoration."
+      ],
+      "conclusion": "Species become exam-ready when converted from isolated names into habitat-threat maps."
+    },
+    "mainsExamples": [
+      "Use Great Indian Bustard for grassland conservation and power-line mitigation.",
+      "Use invasive lantana or water hyacinth to explain native biodiversity pressure.",
+      "Use riverine and marine mammals to connect species with aquatic ecosystem health."
+    ],
+    "prelimsFacts": [
+      "IUCN categories include critically endangered, endangered, vulnerable, near threatened and least concern.",
+      "Invasive alien species harm native biodiversity and ecosystem services.",
+      "Grassland species are often threatened by habitat conversion and infrastructure.",
+      "Aquatic invasives can choke water bodies and alter oxygen balance.",
+      "Species revision should connect name, habitat, region and threat."
+    ],
+    "revisionBox": [
+      {
+        "prompt": "What is the best way to revise species lists?",
+        "answer": "Use species, group, habitat, location and threat columns."
+      },
+      {
+        "prompt": "What is an invasive alien species?",
+        "answer": "A species introduced outside its natural range that spreads and causes ecological, economic or health harm."
+      },
+      {
+        "prompt": "Why is Great Indian Bustard high-yield?",
+        "answer": "It connects grassland conservation, power-line collision and habitat loss."
+      },
+      {
+        "prompt": "What is the common Prelims trap?",
+        "answer": "Matching a species to the wrong habitat, state or conservation status."
+      }
+    ]
+  },
+  "story": "A species name only matters when it carries habitat, place and threat.",
+  "core_concept": "Species revision should organize threatened and invasive species by group, habitat, geography, status and threat.",
+  "mnemonic": "GHOST: Group, Habitat, Origin, Status, Threat.",
+  "mindmap_json": {
+    "center": "Species",
+    "branches": [
+      { "label": "Groups", "children": ["Mammals", "Birds", "Plants"] },
+      { "label": "Habitats", "children": ["Grassland", "River", "Forest"] },
+      { "label": "Status", "children": ["CR", "EN", "VU"] },
+      { "label": "Threats", "children": ["Habitat", "Poaching", "Invasives"] },
+      { "label": "Revision", "children": ["Place", "Park", "Threat"] }
+    ]
+  },
+  "key_facts": [
+    "Species status should be checked close to the exam because categories can change.",
+    "Invasive species can alter habitat structure and ecosystem processes.",
+    "Grassland, river and wetland species need habitat-specific protection.",
+    "Plants and trees are also tested, not only animals.",
+    "Native wildlife of countries is a map-based memory area."
+  ],
+  "common_traps": [
+    "Do not memorize species without habitat.",
+    "Do not confuse endemic, native, exotic and invasive.",
+    "Do not assume all threatened species are found in forests.",
+    "Do not ignore plants in Environment Prelims."
+  ],
+  "pyq_refs": [
+    {
+      "year": 2023,
+      "exam": "UPSC CSE Prelims",
+      "question": "PYQ pattern: species, habitat and conservation-status statement matching.",
+      "answer": "Use group-habitat-location-threat mapping.",
+      "pattern_note": "Species in news remain a high-yield elimination area."
+    }
+  ],
+  "pyq_count": 13,
+  "last_asked": 2023,
+  "high_yield": true,
+  "read_time_mins": 12,
+  "difficulty": "Hard",
+  "status": "published",
+  "source_type": "uploaded-environment-static",
+  "version": 1,
+  "created_at": "2026-06-30T00:00:00+05:30",
+  "updated_at": "2026-06-30T00:00:00+05:30"
+}
