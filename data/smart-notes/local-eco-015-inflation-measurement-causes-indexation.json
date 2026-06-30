@@ -1,0 +1,152 @@
+{
+  "id": "local-eco-015",
+  "section": "Economy",
+  "category": "Macroeconomics",
+  "topic": "Inflation Measurement, Causes, Effects and Indexation",
+  "subtopic": "CPI, WPI, GDP deflator, demand and supply drivers, expectations, distribution and policy response",
+  "slug": "economy-inflation-measurement-causes-indexation",
+  "anatomy": "upsc12",
+  "content": {
+    "issueStory": "Inflation is a sustained rise in the general price level, not every expensive item and not every one-time price jump. Its burden varies because households consume different baskets, hold different assets and bargain for wages with unequal power.",
+    "coreConcept": "Inflation is measured as the rate of change in a price index. CPI captures retail consumer baskets, WPI tracks selected wholesale goods, and the GDP deflator covers domestically produced final output. Demand, costs, supply bottlenecks, expectations and money-finance conditions can interact.",
+    "dimensions": [
+      "Index design: basket, weights, base period, outlet coverage and quality adjustment determine measured inflation.",
+      "Demand-pull: aggregate demand can exceed short-run productive capacity.",
+      "Cost-push and supply shock: fuel, food, wages, imports or disrupted supply can raise costs and reduce output.",
+      "Expectations: persistent expected inflation can affect wages, pricing, contracts and policy credibility.",
+      "Distribution: borrowers and lenders, wage earners, pensioners, asset holders and poor households experience different real effects.",
+      "Response mix: monetary restraint, fiscal calibration, buffers, trade measures and supply reform fit different causes and horizons."
+    ],
+    "constitutionalLink": "The RBI Act monetary-policy framework, MPC process, food-buffer policy and consumer protection connect price stability with livelihood security under Article 21.",
+    "dataReport": "Uploaded source basis: STATIC_01_Economy.pdf inflation and monetary-policy chapters plus PYQ index and inflation-mechanism patterns. Refresh rates, targets, weights, thresholds and year-specific figures from official sources: MoSPI CPI releases, Office of the Economic Adviser WPI releases, RBI MPC statements and latest Economic Survey. Stable mechanisms belong in this note; current values must be dated in an answer.",
+    "caseStudy": "A food-price shock may raise headline CPI and inflation expectations even when core demand is weak, requiring supply action and communication alongside cautious monetary assessment.",
+    "argumentsFor": [
+      "Moderate predictable inflation can ease relative-price adjustment.",
+      "Indexation protects selected real claims.",
+      "Credible policy anchors expectations."
+    ],
+    "argumentsAgainst": [
+      "Broad tightening cannot directly produce food or fuel.",
+      "Indexation can propagate persistence.",
+      "One national index cannot match every household basket."
+    ],
+    "pyqLink": "PYQs test CPI-WPI-deflator differences, inflation effects on creditors and debtors, stagflation and policy tools. Identify basket, stage of pricing and causal shock.",
+    "answerFramework": {
+      "intro": "Inflation Measurement, Causes, Effects and Indexation should be introduced through its economic identity or causal mechanism before moving to Indian institutions and policy trade-offs.",
+      "body": [
+        "Define inflation and name the relevant index.",
+        "Diagnose demand, cost, supply and expectation channels.",
+        "Assess output, distribution and external effects.",
+        "Match monetary, fiscal and supply responses to cause and time horizon."
+      ],
+      "conclusion": "A high-scoring Economy answer keeps the accounting correct, traces transmission, identifies winners and losers, and separates stable principles from changing policy values."
+    },
+    "mainsExamples": [
+      "Vegetable price spikes as volatile food inflation.",
+      "Currency depreciation raising imported input costs.",
+      "Indexed pensions protecting beneficiaries with a lag."
+    ],
+    "prelimsFacts": [
+      "Inflation is an index rate of change.",
+      "Disinflation means inflation slows but prices may still rise.",
+      "Deflation is a sustained fall in the general price level.",
+      "Stagflation combines weak activity with high inflation.",
+      "Headline CPI includes food and fuel.",
+      "Base effects can alter year-on-year inflation without a new current-month shock."
+    ],
+    "revisionBox": [
+      {
+        "prompt": "What is the central mechanism in Inflation Measurement, Causes, Effects and Indexation?",
+        "answer": "Inflation is measured as the rate of change in a price index. CPI captures retail consumer baskets, WPI tracks selected wholesale goods, and the GDP deflator covers domestically produced final output. Demand, costs, supply bottlenecks, expectations and money-finance conditions can interact."
+      },
+      {
+        "prompt": "What is the fastest prelims elimination rule?",
+        "answer": "Do not call disinflation deflation."
+      },
+      {
+        "prompt": "Which Indian example best anchors a mains answer?",
+        "answer": "Vegetable price spikes as volatile food inflation."
+      },
+      {
+        "prompt": "Which official source should refresh changing figures?",
+        "answer": "MoSPI CPI releases, Office of the Economic Adviser WPI releases, RBI MPC statements and latest Economic Survey"
+      }
+    ]
+  },
+  "story": "Inflation is a sustained rise in the general price level, not every expensive item and not every one-time price jump. Its burden varies because households consume different baskets, hold different assets and bargain for wages with unequal power.",
+  "core_concept": "Inflation is measured as the rate of change in a price index. CPI captures retail consumer baskets, WPI tracks selected wholesale goods, and the GDP deflator covers domestically produced final output. Demand, costs, supply bottlenecks, expectations and money-finance conditions can interact.",
+  "mnemonic": "M-C-D-R: Measure, Cause, Distribution, Response.",
+  "mindmap_json": {
+    "center": "Inflation Measurement, Causes, Effects and Indexation",
+    "branches": [
+      {
+        "label": "Mechanism",
+        "children": [
+          "Index design: basket, weights, base period, outlet coverage and quality adjustment determine measured inflation.",
+          "Demand-pull: aggregate demand can exceed short-run productive capacity."
+        ]
+      },
+      {
+        "label": "Transmission",
+        "children": [
+          "Cost-push and supply shock: fuel, food, wages, imports or disrupted supply can raise costs and reduce output.",
+          "Expectations: persistent expected inflation can affect wages, pricing, contracts and policy credibility."
+        ]
+      },
+      {
+        "label": "Policy",
+        "children": [
+          "Distribution: borrowers and lenders, wage earners, pensioners, asset holders and poor households experience different real effects.",
+          "Response mix: monetary restraint, fiscal calibration, buffers, trade measures and supply reform fit different causes and horizons."
+        ]
+      },
+      {
+        "label": "Traps",
+        "children": [
+          "Do not call disinflation deflation.",
+          "Do not assume WPI measures service inflation comprehensively.",
+          "Do not prescribe the same tool for demand-pull and crop-supply shocks."
+        ]
+      }
+    ]
+  },
+  "key_facts": [
+    "Inflation is an index rate of change.",
+    "Disinflation means inflation slows but prices may still rise.",
+    "Deflation is a sustained fall in the general price level.",
+    "Stagflation combines weak activity with high inflation.",
+    "Headline CPI includes food and fuel.",
+    "Base effects can alter year-on-year inflation without a new current-month shock."
+  ],
+  "common_traps": [
+    "Do not call disinflation deflation.",
+    "Do not assume WPI measures service inflation comprehensively.",
+    "Do not prescribe the same tool for demand-pull and crop-supply shocks."
+  ],
+  "pyq_refs": [
+    {
+      "year": 2021,
+      "exam": "UPSC CSE Prelims",
+      "question": "PYQ pattern: statement and mechanism testing within Inflation Measurement, Causes, Effects and Indexation.",
+      "answer": "Resolve each statement through the governing identity, direction of change and institutional role.",
+      "pattern_note": "PYQs test CPI-WPI-deflator differences, inflation effects on creditors and debtors, stagflation and policy tools. Identify basket, stage of pricing and causal shock."
+    },
+    {
+      "year": 2018,
+      "exam": "UPSC CSE Mains",
+      "question": "PYQ pattern: analyse the Indian policy implications of Inflation Measurement, Causes, Effects and Indexation.",
+      "answer": "Use a causal chain, one Indian example, distributional effects and a calibrated reform path.",
+      "pattern_note": "Mains rewards mechanism plus policy trade-off, not a list of schemes."
+    }
+  ],
+  "pyq_count": 10,
+  "last_asked": 2021,
+  "high_yield": true,
+  "read_time_mins": 13,
+  "difficulty": "Hard",
+  "status": "published",
+  "source_type": "uploaded-economy-static-pyq-secondary",
+  "version": 1,
+  "created_at": "2026-07-01T00:00:00+05:30",
+  "updated_at": "2026-07-01T00:00:00+05:30"
+}

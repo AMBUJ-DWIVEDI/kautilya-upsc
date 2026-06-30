@@ -1,0 +1,152 @@
+{
+  "id": "local-eco-013",
+  "section": "Economy",
+  "category": "Macroeconomics",
+  "topic": "Growth, Savings, Investment, ICOR and Business Cycles",
+  "subtopic": "Capital formation, productivity, growth arithmetic, potential output and cyclical fluctuation",
+  "slug": "economy-growth-savings-investment-business-cycles",
+  "anatomy": "upsc12",
+  "content": {
+    "issueStory": "More investment can raise growth, but only if capital is converted efficiently into productive capacity. An economy can save heavily and still underperform when projects stall, skills mismatch, demand is weak or institutions allocate capital poorly.",
+    "coreConcept": "Long-run growth depends on labour, capital accumulation, human capability, technology and institutions. ICOR relates additional capital to additional output and is an inverse indicator of capital efficiency. Business cycles describe short-run deviations around trend through expansion, peak, contraction and recovery.",
+    "dimensions": [
+      "Savings-finance link: household, corporate and public saving finance domestic investment alongside external saving.",
+      "Capital formation: gross investment adds assets, while net investment subtracts depreciation.",
+      "ICOR arithmetic: for a given investment rate, a lower ICOR implies more output growth, though measurement and lags matter.",
+      "Productivity: total factor productivity captures output gains not explained solely by measured input growth.",
+      "Potential versus actual output: demand shocks create cyclical gaps while supply capacity governs sustained growth.",
+      "Cycle policy: monetary and fiscal stabilisation can soften downturns but cannot substitute for structural productivity reform."
+    ],
+    "constitutionalLink": "Articles 38, 39 and 41 connect growth with welfare and work, while public investment rules, fiscal responsibility and financial regulation shape capital allocation.",
+    "dataReport": "Uploaded source basis: STATIC_01_Economy.pdf micro production, national income and growth concepts; PYQ economic-development and capital-formation patterns. Refresh rates, targets, weights, thresholds and year-specific figures from official sources: MoSPI national accounts, RBI Handbook of Statistics and the latest Economic Survey. Stable mechanisms belong in this note; current values must be dated in an answer.",
+    "caseStudy": "India’s post-2000 infrastructure investment illustrates how roads, power and digital networks can crowd in private activity, but delayed clearances and stressed balance sheets can raise effective ICOR.",
+    "argumentsFor": [
+      "Capital formation expands future productive capacity.",
+      "Human capital and technology can lower resource cost per unit of output.",
+      "Countercyclical policy protects jobs and viable firms in downturns."
+    ],
+    "argumentsAgainst": [
+      "High investment can create bad assets if allocation is weak.",
+      "ICOR is an aggregate approximation, not a project appraisal rule.",
+      "Demand stimulus near capacity can raise inflation rather than potential output."
+    ],
+    "pyqLink": "PYQs test capital formation, savings, investment, ICOR direction and inclusive versus mere output growth. Separate gross from net and cyclical from structural change.",
+    "answerFramework": {
+      "intro": "Growth, Savings, Investment, ICOR and Business Cycles should be introduced through its economic identity or causal mechanism before moving to Indian institutions and policy trade-offs.",
+      "body": [
+        "Define growth and separate trend from cycle.",
+        "Write the savings-investment and ICOR relationships with caveats.",
+        "Explain capital, labour, human-capital and productivity channels.",
+        "Balance stabilisation with institutional and productivity reform."
+      ],
+      "conclusion": "A high-scoring Economy answer keeps the accounting correct, traces transmission, identifies winners and losers, and separates stable principles from changing policy values."
+    },
+    "mainsExamples": [
+      "Public logistics investment reducing private transport costs.",
+      "Banking stress delaying investment despite available saving.",
+      "Skill and technology adoption raising labour productivity."
+    ],
+    "prelimsFacts": [
+      "Gross capital formation includes replacement of depreciated capital.",
+      "Net investment equals gross investment minus depreciation.",
+      "Lower ICOR generally indicates higher capital efficiency.",
+      "Potential output is not the same as current GDP.",
+      "A recession is a contraction in activity, not merely lower positive growth in every definition.",
+      "External saving corresponds broadly to a current-account deficit."
+    ],
+    "revisionBox": [
+      {
+        "prompt": "What is the central mechanism in Growth, Savings, Investment, ICOR and Business Cycles?",
+        "answer": "Long-run growth depends on labour, capital accumulation, human capability, technology and institutions. ICOR relates additional capital to additional output and is an inverse indicator of capital efficiency. Business cycles describe short-run deviations around trend through expansion, peak, contraction and recovery."
+      },
+      {
+        "prompt": "What is the fastest prelims elimination rule?",
+        "answer": "Do not equate saving automatically with realised productive investment."
+      },
+      {
+        "prompt": "Which Indian example best anchors a mains answer?",
+        "answer": "Public logistics investment reducing private transport costs."
+      },
+      {
+        "prompt": "Which official source should refresh changing figures?",
+        "answer": "MoSPI national accounts, RBI Handbook of Statistics and the latest Economic Survey"
+      }
+    ]
+  },
+  "story": "More investment can raise growth, but only if capital is converted efficiently into productive capacity. An economy can save heavily and still underperform when projects stall, skills mismatch, demand is weak or institutions allocate capital poorly.",
+  "core_concept": "Long-run growth depends on labour, capital accumulation, human capability, technology and institutions. ICOR relates additional capital to additional output and is an inverse indicator of capital efficiency. Business cycles describe short-run deviations around trend through expansion, peak, contraction and recovery.",
+  "mnemonic": "S-I-E-P: Saving, Investment, Efficiency, Productivity.",
+  "mindmap_json": {
+    "center": "Growth, Savings, Investment, ICOR and Business Cycles",
+    "branches": [
+      {
+        "label": "Mechanism",
+        "children": [
+          "Savings-finance link: household, corporate and public saving finance domestic investment alongside external saving.",
+          "Capital formation: gross investment adds assets, while net investment subtracts depreciation."
+        ]
+      },
+      {
+        "label": "Transmission",
+        "children": [
+          "ICOR arithmetic: for a given investment rate, a lower ICOR implies more output growth, though measurement and lags matter.",
+          "Productivity: total factor productivity captures output gains not explained solely by measured input growth."
+        ]
+      },
+      {
+        "label": "Policy",
+        "children": [
+          "Potential versus actual output: demand shocks create cyclical gaps while supply capacity governs sustained growth.",
+          "Cycle policy: monetary and fiscal stabilisation can soften downturns but cannot substitute for structural productivity reform."
+        ]
+      },
+      {
+        "label": "Traps",
+        "children": [
+          "Do not equate saving automatically with realised productive investment.",
+          "Do not read a high ICOR as high efficiency.",
+          "Do not treat a cyclical recovery as proof of higher potential growth."
+        ]
+      }
+    ]
+  },
+  "key_facts": [
+    "Gross capital formation includes replacement of depreciated capital.",
+    "Net investment equals gross investment minus depreciation.",
+    "Lower ICOR generally indicates higher capital efficiency.",
+    "Potential output is not the same as current GDP.",
+    "A recession is a contraction in activity, not merely lower positive growth in every definition.",
+    "External saving corresponds broadly to a current-account deficit."
+  ],
+  "common_traps": [
+    "Do not equate saving automatically with realised productive investment.",
+    "Do not read a high ICOR as high efficiency.",
+    "Do not treat a cyclical recovery as proof of higher potential growth."
+  ],
+  "pyq_refs": [
+    {
+      "year": 2021,
+      "exam": "UPSC CSE Prelims",
+      "question": "PYQ pattern: statement and mechanism testing within Growth, Savings, Investment, ICOR and Business Cycles.",
+      "answer": "Resolve each statement through the governing identity, direction of change and institutional role.",
+      "pattern_note": "PYQs test capital formation, savings, investment, ICOR direction and inclusive versus mere output growth. Separate gross from net and cyclical from structural change."
+    },
+    {
+      "year": 2018,
+      "exam": "UPSC CSE Mains",
+      "question": "PYQ pattern: analyse the Indian policy implications of Growth, Savings, Investment, ICOR and Business Cycles.",
+      "answer": "Use a causal chain, one Indian example, distributional effects and a calibrated reform path.",
+      "pattern_note": "Mains rewards mechanism plus policy trade-off, not a list of schemes."
+    }
+  ],
+  "pyq_count": 10,
+  "last_asked": 2021,
+  "high_yield": true,
+  "read_time_mins": 13,
+  "difficulty": "Hard",
+  "status": "published",
+  "source_type": "uploaded-economy-static-pyq-secondary",
+  "version": 1,
+  "created_at": "2026-07-01T00:00:00+05:30",
+  "updated_at": "2026-07-01T00:00:00+05:30"
+}

@@ -1,0 +1,152 @@
+{
+  "id": "local-eco-018",
+  "section": "Economy",
+  "category": "Money and Banking",
+  "topic": "Money Supply, Liquidity and Credit Creation",
+  "subtopic": "Monetary aggregates, reserve money, bank balance sheets, deposit creation and multiplier limits",
+  "slug": "economy-money-supply-liquidity-credit-creation",
+  "anatomy": "upsc12",
+  "content": {
+    "issueStory": "Banks do not merely lend pre-existing cash. A bank loan normally creates a matching deposit, while settlement and regulation constrain how far the system can expand. Cash withdrawal changes the composition of money and reserves differently from destruction of a deposit through loan repayment.",
+    "coreConcept": "Money serves as medium of exchange, unit of account, store of value and deferred-payment standard. Monetary aggregates classify currency and deposits by liquidity. Commercial bank lending creates deposits, while reserve availability, capital, regulation, credit demand, risk and public currency preference constrain expansion.",
+    "dimensions": [
+      "Aggregate design: narrow money emphasises transactions liquidity, while broader measures add less liquid deposits.",
+      "Reserve money: currency and bank reserves form central-bank liabilities supporting settlement and cash demand.",
+      "Balance-sheet logic: a new loan creates a bank asset and a customer deposit liability simultaneously.",
+      "Settlement constraint: transfers across banks require reserves or interbank funding even when system deposits were created by lending.",
+      "Multiplier intuition: reserve and currency preferences influence aggregate expansion, but the simple textbook ratio is not a mechanical forecast.",
+      "Endogeneity and policy: capital, asset quality, loan demand, interest rates and central-bank liquidity shape actual credit creation."
+    ],
+    "constitutionalLink": "The RBI Act, Banking Regulation Act, deposit-insurance framework and payment-system regulation support monetary and financial stability.",
+    "dataReport": "Uploaded source basis: STATIC_01_Economy.pdf money functions, modern money, supply, banking and credit-creation sections plus PYQ money-multiplier questions. Refresh rates, targets, weights, thresholds and year-specific figures from official sources: RBI Weekly Statistical Supplement, Handbook of Statistics and current monetary-policy publications. Stable mechanisms belong in this note; current values must be dated in an answer.",
+    "caseStudy": "When a depositor withdraws cash, bank deposits fall and currency with the public rises; the immediate effect on broad money depends on aggregate definitions rather than treating cash as outside money.",
+    "argumentsFor": [
+      "Elastic bank credit finances working capital and investment.",
+      "Liquid deposits reduce transaction cost.",
+      "Central-bank settlement supports a unified payment system."
+    ],
+    "argumentsAgainst": [
+      "Rapid poor-quality credit can create inflation or financial stress.",
+      "Liquidity cannot repair insolvent borrowers.",
+      "Simple multiplier models omit capital and risk constraints."
+    ],
+    "pyqLink": "PYQs test aggregate composition, cash withdrawal, high-powered money and multiplier direction. Use sector balance sheets rather than verbal intuition.",
+    "answerFramework": {
+      "intro": "Money Supply, Liquidity and Credit Creation should be introduced through its economic identity or causal mechanism before moving to Indian institutions and policy trade-offs.",
+      "body": [
+        "Define money functions and aggregate hierarchy.",
+        "Draw central-bank, commercial-bank and household balance-sheet entries.",
+        "Trace loan creation, payment settlement and repayment.",
+        "Explain reserve, capital, risk, demand and currency-preference constraints."
+      ],
+      "conclusion": "A high-scoring Economy answer keeps the accounting correct, traces transmission, identifies winners and losers, and separates stable principles from changing policy values."
+    },
+    "mainsExamples": [
+      "A bank loan creating a deposit in the borrower account.",
+      "Loan repayment extinguishing both a bank asset and deposit money.",
+      "Cash withdrawal converting deposit money into currency held by the public."
+    ],
+    "prelimsFacts": [
+      "Currency is a central-bank liability.",
+      "A bank deposit is a commercial-bank liability.",
+      "A loan is a bank asset.",
+      "Loan creation usually creates a deposit.",
+      "Loan repayment can destroy deposit money.",
+      "Liquidity and solvency are distinct conditions."
+    ],
+    "revisionBox": [
+      {
+        "prompt": "What is the central mechanism in Money Supply, Liquidity and Credit Creation?",
+        "answer": "Money serves as medium of exchange, unit of account, store of value and deferred-payment standard. Monetary aggregates classify currency and deposits by liquidity. Commercial bank lending creates deposits, while reserve availability, capital, regulation, credit demand, risk and public currency preference constrain expansion."
+      },
+      {
+        "prompt": "What is the fastest prelims elimination rule?",
+        "answer": "Do not say banks lend reserves directly to households in ordinary lending."
+      },
+      {
+        "prompt": "Which Indian example best anchors a mains answer?",
+        "answer": "A bank loan creating a deposit in the borrower account."
+      },
+      {
+        "prompt": "Which official source should refresh changing figures?",
+        "answer": "RBI Weekly Statistical Supplement, Handbook of Statistics and current monetary-policy publications"
+      }
+    ]
+  },
+  "story": "Banks do not merely lend pre-existing cash. A bank loan normally creates a matching deposit, while settlement and regulation constrain how far the system can expand. Cash withdrawal changes the composition of money and reserves differently from destruction of a deposit through loan repayment.",
+  "core_concept": "Money serves as medium of exchange, unit of account, store of value and deferred-payment standard. Monetary aggregates classify currency and deposits by liquidity. Commercial bank lending creates deposits, while reserve availability, capital, regulation, credit demand, risk and public currency preference constrain expansion.",
+  "mnemonic": "A-B-S-C: Aggregate, Balance sheet, Settlement, Constraint.",
+  "mindmap_json": {
+    "center": "Money Supply, Liquidity and Credit Creation",
+    "branches": [
+      {
+        "label": "Mechanism",
+        "children": [
+          "Aggregate design: narrow money emphasises transactions liquidity, while broader measures add less liquid deposits.",
+          "Reserve money: currency and bank reserves form central-bank liabilities supporting settlement and cash demand."
+        ]
+      },
+      {
+        "label": "Transmission",
+        "children": [
+          "Balance-sheet logic: a new loan creates a bank asset and a customer deposit liability simultaneously.",
+          "Settlement constraint: transfers across banks require reserves or interbank funding even when system deposits were created by lending."
+        ]
+      },
+      {
+        "label": "Policy",
+        "children": [
+          "Multiplier intuition: reserve and currency preferences influence aggregate expansion, but the simple textbook ratio is not a mechanical forecast.",
+          "Endogeneity and policy: capital, asset quality, loan demand, interest rates and central-bank liquidity shape actual credit creation."
+        ]
+      },
+      {
+        "label": "Traps",
+        "children": [
+          "Do not say banks lend reserves directly to households in ordinary lending.",
+          "Do not treat the textbook multiplier as an automatic fixed outcome.",
+          "Do not assume every cash withdrawal reduces broad money one-for-one."
+        ]
+      }
+    ]
+  },
+  "key_facts": [
+    "Currency is a central-bank liability.",
+    "A bank deposit is a commercial-bank liability.",
+    "A loan is a bank asset.",
+    "Loan creation usually creates a deposit.",
+    "Loan repayment can destroy deposit money.",
+    "Liquidity and solvency are distinct conditions."
+  ],
+  "common_traps": [
+    "Do not say banks lend reserves directly to households in ordinary lending.",
+    "Do not treat the textbook multiplier as an automatic fixed outcome.",
+    "Do not assume every cash withdrawal reduces broad money one-for-one."
+  ],
+  "pyq_refs": [
+    {
+      "year": 2021,
+      "exam": "UPSC CSE Prelims",
+      "question": "PYQ pattern: statement and mechanism testing within Money Supply, Liquidity and Credit Creation.",
+      "answer": "Resolve each statement through the governing identity, direction of change and institutional role.",
+      "pattern_note": "PYQs test aggregate composition, cash withdrawal, high-powered money and multiplier direction. Use sector balance sheets rather than verbal intuition."
+    },
+    {
+      "year": 2018,
+      "exam": "UPSC CSE Mains",
+      "question": "PYQ pattern: analyse the Indian policy implications of Money Supply, Liquidity and Credit Creation.",
+      "answer": "Use a causal chain, one Indian example, distributional effects and a calibrated reform path.",
+      "pattern_note": "Mains rewards mechanism plus policy trade-off, not a list of schemes."
+    }
+  ],
+  "pyq_count": 10,
+  "last_asked": 2021,
+  "high_yield": true,
+  "read_time_mins": 13,
+  "difficulty": "Hard",
+  "status": "published",
+  "source_type": "uploaded-economy-static-pyq-secondary",
+  "version": 1,
+  "created_at": "2026-07-01T00:00:00+05:30",
+  "updated_at": "2026-07-01T00:00:00+05:30"
+}

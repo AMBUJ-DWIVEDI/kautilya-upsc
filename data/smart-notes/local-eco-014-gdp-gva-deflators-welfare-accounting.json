@@ -1,0 +1,152 @@
+{
+  "id": "local-eco-014",
+  "section": "Economy",
+  "category": "Macroeconomics",
+  "topic": "GDP, GVA, Deflators, Informal Economy and Welfare Accounting",
+  "subtopic": "Production-income-expenditure identity, nominal-real conversion, sector value added and limits of output measures",
+  "slug": "economy-gdp-gva-deflators-welfare-accounting",
+  "anatomy": "upsc12",
+  "content": {
+    "issueStory": "GDP can rise while household welfare stagnates, unpaid care remains invisible and environmental assets decline. The number is indispensable for measuring production, but dangerous when treated as a complete measure of social progress.",
+    "coreConcept": "GDP measures final production within domestic territory over a period and can be derived through production, income or expenditure approaches. GVA sums value added by producers; GDP at market prices adds product taxes net of product subsidies. Real measures remove price change using base-year prices or deflators.",
+    "dimensions": [
+      "Production approach: sum value added to avoid double counting intermediate goods.",
+      "Income approach: aggregate compensation, operating surplus, mixed income and production-related components consistently.",
+      "Expenditure approach: C + I + G + (X - M) records final demand for domestic output.",
+      "GDP-GVA bridge: net product taxes convert aggregate GVA at basic prices into GDP at market prices.",
+      "Nominal-real distinction: current-price growth combines output and prices, while constant-price growth seeks volume change.",
+      "Welfare limits: distribution, unpaid work, informal measurement, leisure, health, security and environmental depletion are incomplete or absent."
+    ],
+    "constitutionalLink": "Evidence-based planning under Articles 38 and 39 depends on credible statistics; the Statistics Act and MoSPI methods support official national accounting.",
+    "dataReport": "Uploaded source basis: STATIC_01_Economy.pdf national income chapter and PYQ accounting, deflator and welfare questions. Refresh rates, targets, weights, thresholds and year-specific figures from official sources: MoSPI National Accounts Statistics, latest base-year methodology and the Economic Survey. Stable mechanisms belong in this note; current values must be dated in an answer.",
+    "caseStudy": "Digitalisation can make previously informal transactions more visible in recorded data, producing a measurement effect alongside any genuine productivity effect.",
+    "argumentsFor": [
+      "GDP provides a consistent production aggregate.",
+      "GVA reveals sector contribution.",
+      "Real growth and deflators separate volume from price movement."
+    ],
+    "argumentsAgainst": [
+      "Informal output is estimated with imperfect proxies.",
+      "GDP does not show distribution.",
+      "Defensive expenditure can raise GDP while welfare losses persist."
+    ],
+    "pyqLink": "PYQs test domestic versus national, gross versus net, market versus basic prices, deflator coverage and final versus intermediate output. Solve by locating territory, depreciation, prices and factor ownership.",
+    "answerFramework": {
+      "intro": "GDP, GVA, Deflators, Informal Economy and Welfare Accounting should be introduced through its economic identity or causal mechanism before moving to Indian institutions and policy trade-offs.",
+      "body": [
+        "Define GDP and show the three equivalent approaches.",
+        "Explain GVA-to-GDP and nominal-to-real conversion.",
+        "Add informal-sector and data-revision challenges.",
+        "Conclude with a dashboard of output, distribution, human development and natural capital."
+      ],
+      "conclusion": "A high-scoring Economy answer keeps the accounting correct, traces transmission, identifies winners and losers, and separates stable principles from changing policy values."
+    },
+    "mainsExamples": [
+      "A flour mill counts value added, not the full value of wheat plus flour twice.",
+      "Imports are subtracted in expenditure accounting because they are included in consumption or investment but not domestic output.",
+      "Green accounting adjusts attention toward depletion and degradation."
+    ],
+    "prelimsFacts": [
+      "GDP is domestic; GNP/GNI adjusts for net factor income from abroad.",
+      "Gross measures include depreciation; net measures subtract it.",
+      "GDP deflator covers domestically produced final goods and services.",
+      "CPI tracks a consumer basket rather than all domestic output.",
+      "Intermediate goods are excluded to prevent double counting.",
+      "Transfer payments are not payments for current production."
+    ],
+    "revisionBox": [
+      {
+        "prompt": "What is the central mechanism in GDP, GVA, Deflators, Informal Economy and Welfare Accounting?",
+        "answer": "GDP measures final production within domestic territory over a period and can be derived through production, income or expenditure approaches. GVA sums value added by producers; GDP at market prices adds product taxes net of product subsidies. Real measures remove price change using base-year prices or deflators."
+      },
+      {
+        "prompt": "What is the fastest prelims elimination rule?",
+        "answer": "Do not subtract all imports as if they reduce welfare or demand."
+      },
+      {
+        "prompt": "Which Indian example best anchors a mains answer?",
+        "answer": "A flour mill counts value added, not the full value of wheat plus flour twice."
+      },
+      {
+        "prompt": "Which official source should refresh changing figures?",
+        "answer": "MoSPI National Accounts Statistics, latest base-year methodology and the Economic Survey"
+      }
+    ]
+  },
+  "story": "GDP can rise while household welfare stagnates, unpaid care remains invisible and environmental assets decline. The number is indispensable for measuring production, but dangerous when treated as a complete measure of social progress.",
+  "core_concept": "GDP measures final production within domestic territory over a period and can be derived through production, income or expenditure approaches. GVA sums value added by producers; GDP at market prices adds product taxes net of product subsidies. Real measures remove price change using base-year prices or deflators.",
+  "mnemonic": "P-I-E-R-W: Production, Income, Expenditure, Real, Welfare.",
+  "mindmap_json": {
+    "center": "GDP, GVA, Deflators, Informal Economy and Welfare Accounting",
+    "branches": [
+      {
+        "label": "Mechanism",
+        "children": [
+          "Production approach: sum value added to avoid double counting intermediate goods.",
+          "Income approach: aggregate compensation, operating surplus, mixed income and production-related components consistently."
+        ]
+      },
+      {
+        "label": "Transmission",
+        "children": [
+          "Expenditure approach: C + I + G + (X - M) records final demand for domestic output.",
+          "GDP-GVA bridge: net product taxes convert aggregate GVA at basic prices into GDP at market prices."
+        ]
+      },
+      {
+        "label": "Policy",
+        "children": [
+          "Nominal-real distinction: current-price growth combines output and prices, while constant-price growth seeks volume change.",
+          "Welfare limits: distribution, unpaid work, informal measurement, leisure, health, security and environmental depletion are incomplete or absent."
+        ]
+      },
+      {
+        "label": "Traps",
+        "children": [
+          "Do not subtract all imports as if they reduce welfare or demand.",
+          "Do not confuse GDP deflator with CPI.",
+          "Do not count transfer payments as government consumption automatically."
+        ]
+      }
+    ]
+  },
+  "key_facts": [
+    "GDP is domestic; GNP/GNI adjusts for net factor income from abroad.",
+    "Gross measures include depreciation; net measures subtract it.",
+    "GDP deflator covers domestically produced final goods and services.",
+    "CPI tracks a consumer basket rather than all domestic output.",
+    "Intermediate goods are excluded to prevent double counting.",
+    "Transfer payments are not payments for current production."
+  ],
+  "common_traps": [
+    "Do not subtract all imports as if they reduce welfare or demand.",
+    "Do not confuse GDP deflator with CPI.",
+    "Do not count transfer payments as government consumption automatically."
+  ],
+  "pyq_refs": [
+    {
+      "year": 2021,
+      "exam": "UPSC CSE Prelims",
+      "question": "PYQ pattern: statement and mechanism testing within GDP, GVA, Deflators, Informal Economy and Welfare Accounting.",
+      "answer": "Resolve each statement through the governing identity, direction of change and institutional role.",
+      "pattern_note": "PYQs test domestic versus national, gross versus net, market versus basic prices, deflator coverage and final versus intermediate output. Solve by locating territory, depreciation, prices and factor ownership."
+    },
+    {
+      "year": 2018,
+      "exam": "UPSC CSE Mains",
+      "question": "PYQ pattern: analyse the Indian policy implications of GDP, GVA, Deflators, Informal Economy and Welfare Accounting.",
+      "answer": "Use a causal chain, one Indian example, distributional effects and a calibrated reform path.",
+      "pattern_note": "Mains rewards mechanism plus policy trade-off, not a list of schemes."
+    }
+  ],
+  "pyq_count": 10,
+  "last_asked": 2021,
+  "high_yield": true,
+  "read_time_mins": 13,
+  "difficulty": "Medium",
+  "status": "published",
+  "source_type": "uploaded-economy-static-pyq-secondary",
+  "version": 1,
+  "created_at": "2026-07-01T00:00:00+05:30",
+  "updated_at": "2026-07-01T00:00:00+05:30"
+}
