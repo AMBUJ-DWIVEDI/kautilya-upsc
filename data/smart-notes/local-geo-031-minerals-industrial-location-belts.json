@@ -1,0 +1,153 @@
+{
+  "id": "local-geo-031",
+  "section": "Geography",
+  "category": "Economic Geography",
+  "topic": "Minerals, Industrial Location and Manufacturing Belts",
+  "subtopic": "Resource geology, location factors, agglomeration, industrial regions and changing footlooseness",
+  "slug": "geography-minerals-industrial-location-belts",
+  "anatomy": "upsc12",
+  "content": {
+    "issueStory": "Factories do not locate beside raw materials by a universal rule. Weight loss, energy, water, labour, market access, ports, supplier networks, policy and agglomeration determine which factor dominates.",
+    "coreConcept": "Mineral geography follows geological provinces, while industrial geography follows cost, access and network logic. Bulk material industries remain strongly resource and transport oriented; skill-intensive and high-value sectors may be more footloose but still cluster for knowledge and supplier advantages.",
+    "dimensions": [
+      "Ferrous, non-ferrous, non-metallic and energy minerals occur in distinct geological settings.",
+      "Material index and weight loss help explain raw-material orientation in selected industries.",
+      "Power, water, land, labour and environmental capacity constrain plant location.",
+      "Market, port and freight access matter for imported inputs and distributed output.",
+      "Agglomeration creates shared suppliers, labour pools, infrastructure and knowledge spillovers.",
+      "Policy corridors can create nodes, but viable clusters require firms, logistics, skills and urban services."
+    ],
+    "constitutionalLink": "Articles 39(b), 48A, mining law, environmental clearance, labour protection and regional policy frame resource-based industrialisation.",
+    "dataReport": "Primary uploaded sources: STATIC_03 Indian Geography mineral, manufacturing and corridor sections plus PYQ resource-region associations. This note uses stable conceptual relationships and PYQ patterns; update event-specific data from current official sources before using it in a live mains answer.",
+    "caseStudy": "The Chota Nagpur industrial belt combines coal, iron ore, water, rail connectivity and historical investment, while also illustrating pollution and mining-displacement costs.",
+    "argumentsFor": [
+      "Clusters can lower transaction and infrastructure costs.",
+      "Mineral processing adds value near resource regions.",
+      "Corridors can connect lagging regions to ports and markets."
+    ],
+    "argumentsAgainst": [
+      "Resource dependence can lock regions into pollution and volatility.",
+      "Agglomeration may deepen regional inequality.",
+      "A corridor without local linkages can become transit infrastructure only."
+    ],
+    "pyqLink": "PYQs test mineral-state pairs, industry-location logic and major belts. Ask which input is bulky, perishable, energy-intensive, market-bound or import-dependent.",
+    "answerFramework": {
+      "intro": "Minerals, Industrial Location and Manufacturing Belts is best understood as a spatial process in which origin, controlling conditions, resulting pattern and human significance must be connected.",
+      "body": [
+        "Map mineral provinces and classify industrial inputs.",
+        "Apply raw material, power, water, labour, market and transport factors.",
+        "Explain agglomeration and changing technology.",
+        "Conclude with cleaner clusters, local value addition and just transition."
+      ],
+      "conclusion": "A high-scoring geography answer converts process into pattern, locates the pattern with examples, and closes with risk-sensitive or resource-sensitive planning."
+    },
+    "mainsExamples": [
+      "Jamshedpur-Rourkela-Durgapur steel geography.",
+      "Aluminium near bauxite and abundant electricity.",
+      "Petrochemical complexes near refineries and ports."
+    ],
+    "prelimsFacts": [
+      "Ore distribution follows geology rather than political borders.",
+      "Steel uses bulky raw materials and major transport capacity.",
+      "Aluminium smelting is highly electricity intensive.",
+      "Agglomeration can persist after the original factor weakens.",
+      "Footloose does not mean location is irrelevant.",
+      "Industrial corridors depend on functioning nodes and linkages."
+    ],
+    "revisionBox": [
+      {
+        "prompt": "What is the central process chain in Minerals, Industrial Location and Manufacturing Belts?",
+        "answer": "Mineral geography follows geological provinces, while industrial geography follows cost, access and network logic. Bulk material industries remain strongly resource and transport oriented; skill-intensive and high-value sectors may be more footloose but still cluster for knowledge and supplier advantages."
+      },
+      {
+        "prompt": "What is the fastest prelims elimination rule?",
+        "answer": "Do not explain every industry through raw materials alone."
+      },
+      {
+        "prompt": "Which example best anchors a mains answer?",
+        "answer": "Jamshedpur-Rourkela-Durgapur steel geography."
+      },
+      {
+        "prompt": "How should the conclusion move beyond description?",
+        "answer": "Conclude with cleaner clusters, local value addition and just transition."
+      }
+    ]
+  },
+  "story": "Factories do not locate beside raw materials by a universal rule. Weight loss, energy, water, labour, market access, ports, supplier networks, policy and agglomeration determine which factor dominates.",
+  "core_concept": "Mineral geography follows geological provinces, while industrial geography follows cost, access and network logic. Bulk material industries remain strongly resource and transport oriented; skill-intensive and high-value sectors may be more footloose but still cluster for knowledge and supplier advantages.",
+  "mnemonic": "R-P-W-L-M-N: Raw material, Power, Water, Labour, Market, Network.",
+  "mindmap_json": {
+    "center": "Minerals, Industrial Location and Manufacturing Belts",
+    "branches": [
+      {
+        "label": "Process",
+        "children": [
+          "Ferrous, non-ferrous, non-metallic and energy minerals occur in distinct geological settings.",
+          "Material index and weight loss help explain raw-material orientation in selected industries."
+        ]
+      },
+      {
+        "label": "Pattern",
+        "children": [
+          "Power, water, land, labour and environmental capacity constrain plant location.",
+          "Market, port and freight access matter for imported inputs and distributed output."
+        ]
+      },
+      {
+        "label": "Application",
+        "children": [
+          "Jamshedpur-Rourkela-Durgapur steel geography.",
+          "Aluminium near bauxite and abundant electricity.",
+          "Petrochemical complexes near refineries and ports."
+        ]
+      },
+      {
+        "label": "Traps",
+        "children": [
+          "Do not explain every industry through raw materials alone.",
+          "Do not equate mineral occurrence with mine viability.",
+          "Do not call service and technology clusters completely footloose."
+        ]
+      }
+    ]
+  },
+  "key_facts": [
+    "Ore distribution follows geology rather than political borders.",
+    "Steel uses bulky raw materials and major transport capacity.",
+    "Aluminium smelting is highly electricity intensive.",
+    "Agglomeration can persist after the original factor weakens.",
+    "Footloose does not mean location is irrelevant.",
+    "Industrial corridors depend on functioning nodes and linkages."
+  ],
+  "common_traps": [
+    "Do not explain every industry through raw materials alone.",
+    "Do not equate mineral occurrence with mine viability.",
+    "Do not call service and technology clusters completely footloose."
+  ],
+  "pyq_refs": [
+    {
+      "year": 2021,
+      "exam": "UPSC CSE Prelims",
+      "question": "PYQ pattern: statement and association testing within Minerals, Industrial Location and Manufacturing Belts.",
+      "answer": "Resolve each statement through process, location and necessary conditions.",
+      "pattern_note": "PYQs test mineral-state pairs, industry-location logic and major belts. Ask which input is bulky, perishable, energy-intensive, market-bound or import-dependent."
+    },
+    {
+      "year": 2013,
+      "exam": "UPSC CSE Mains",
+      "question": "PYQ pattern: explain the process and spatial consequences of Minerals, Industrial Location and Manufacturing Belts.",
+      "answer": "Use a labelled diagram, causal sequence, regional examples and a planning implication.",
+      "pattern_note": "Mains rewards mechanism plus spatial expression, not a catalogue of terms."
+    }
+  ],
+  "pyq_count": 9,
+  "last_asked": 2021,
+  "high_yield": true,
+  "read_time_mins": 13,
+  "difficulty": "Hard",
+  "status": "published",
+  "source_type": "uploaded-geography-static-pyq-secondary",
+  "version": 1,
+  "created_at": "2026-06-30T00:00:00+05:30",
+  "updated_at": "2026-06-30T00:00:00+05:30"
+}

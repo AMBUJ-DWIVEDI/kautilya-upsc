@@ -1,0 +1,153 @@
+{
+  "id": "local-geo-029",
+  "section": "Geography",
+  "category": "Indian Geography",
+  "topic": "Soil Degradation, Watershed Management and Dryland Geography",
+  "subtopic": "Erosion, salinity, nutrient decline, desertification and ridge-to-valley restoration",
+  "slug": "geography-soil-degradation-watersheds-drylands",
+  "anatomy": "upsc12",
+  "content": {
+    "issueStory": "Soil loss is not only the removal of particles. A landscape can lose fertility through erosion, salinity, compaction, acidification, nutrient mining and biological decline, while degraded catchments convert rainfall into rapid runoff instead of stored moisture.",
+    "coreConcept": "Land degradation is a decline in productive and ecological function. Watershed management treats a drainage unit from ridge to valley, slowing runoff, protecting soil, recharging aquifers and aligning land use with slope, soil and water availability.",
+    "dimensions": [
+      "Water erosion includes splash, sheet, rill and gully stages controlled by rainfall, slope, cover and soil erodibility.",
+      "Wind erosion removes and sorts dry exposed particles through deflation, saltation and suspension.",
+      "Irrigation without drainage can cause waterlogging and salinity, especially in arid and semi-arid settings.",
+      "Dryland risk reflects rainfall variability, high evapotranspiration, sparse cover and livelihood pressure.",
+      "Ridge-to-valley treatment combines contour measures, vegetative barriers, check structures, farm ponds and drainage-line work.",
+      "Institutions matter because grazing, groundwater and maintenance are shared-resource problems."
+    ],
+    "constitutionalLink": "Article 48A, watershed programmes, MGNREGA works, groundwater rules and land-use planning support restoration and drought resilience.",
+    "dataReport": "Primary uploaded sources: STATIC_03 Indian Geography soils, erosion, vegetation and land-resource sections plus PYQ degradation patterns. This note uses stable conceptual relationships and PYQ patterns; update event-specific data from current official sources before using it in a live mains answer.",
+    "caseStudy": "Sukhomajri demonstrated how watershed treatment works best when physical structures are paired with community rules over grazing and benefit sharing.",
+    "argumentsFor": [
+      "Watersheds reduce runoff and soil loss.",
+      "Moisture conservation can stabilise dryland yields.",
+      "Restoration can improve recharge, biomass and livelihoods."
+    ],
+    "argumentsAgainst": [
+      "Structures fail without catchment treatment and maintenance.",
+      "Recharge gains may be captured by uncontrolled pumping.",
+      "One treatment package cannot fit every soil and slope."
+    ],
+    "pyqLink": "PYQs test erosion types, soil-region associations, desertification causes and conservation methods. Match the degradation process to its controlling water, wind, salt or land-use mechanism.",
+    "answerFramework": {
+      "intro": "Soil Degradation, Watershed Management and Dryland Geography is best understood as a spatial process in which origin, controlling conditions, resulting pattern and human significance must be connected.",
+      "body": [
+        "Diagnose the specific degradation process.",
+        "Map slope-soil-rainfall-land-use interactions.",
+        "Present ridge-to-valley structural, vegetative and agronomic measures.",
+        "Close with community institutions, monitoring and groundwater discipline."
+      ],
+      "conclusion": "A high-scoring geography answer converts process into pattern, locates the pattern with examples, and closes with risk-sensitive or resource-sensitive planning."
+    },
+    "mainsExamples": [
+      "Chambal ravines from advanced gully erosion.",
+      "Canal-command salinity and waterlogging.",
+      "Contour bunding in semi-arid rainfed fields."
+    ],
+    "prelimsFacts": [
+      "Sheet erosion removes a relatively uniform thin layer.",
+      "Rills may enlarge into gullies.",
+      "Wind erosion is severe where soil is dry, loose and bare.",
+      "Salinity differs from simple water scarcity.",
+      "A watershed drains to a common outlet.",
+      "Vegetative cover reduces raindrop impact and runoff velocity."
+    ],
+    "revisionBox": [
+      {
+        "prompt": "What is the central process chain in Soil Degradation, Watershed Management and Dryland Geography?",
+        "answer": "Land degradation is a decline in productive and ecological function. Watershed management treats a drainage unit from ridge to valley, slowing runoff, protecting soil, recharging aquifers and aligning land use with slope, soil and water availability."
+      },
+      {
+        "prompt": "What is the fastest prelims elimination rule?",
+        "answer": "Do not call every dryland desertified."
+      },
+      {
+        "prompt": "Which example best anchors a mains answer?",
+        "answer": "Chambal ravines from advanced gully erosion."
+      },
+      {
+        "prompt": "How should the conclusion move beyond description?",
+        "answer": "Close with community institutions, monitoring and groundwater discipline."
+      }
+    ]
+  },
+  "story": "Soil loss is not only the removal of particles. A landscape can lose fertility through erosion, salinity, compaction, acidification, nutrient mining and biological decline, while degraded catchments convert rainfall into rapid runoff instead of stored moisture.",
+  "core_concept": "Land degradation is a decline in productive and ecological function. Watershed management treats a drainage unit from ridge to valley, slowing runoff, protecting soil, recharging aquifers and aligning land use with slope, soil and water availability.",
+  "mnemonic": "S-S-R-I: Slow, Spread, Recharge, Institutionalise.",
+  "mindmap_json": {
+    "center": "Soil Degradation, Watershed Management and Dryland Geography",
+    "branches": [
+      {
+        "label": "Process",
+        "children": [
+          "Water erosion includes splash, sheet, rill and gully stages controlled by rainfall, slope, cover and soil erodibility.",
+          "Wind erosion removes and sorts dry exposed particles through deflation, saltation and suspension."
+        ]
+      },
+      {
+        "label": "Pattern",
+        "children": [
+          "Irrigation without drainage can cause waterlogging and salinity, especially in arid and semi-arid settings.",
+          "Dryland risk reflects rainfall variability, high evapotranspiration, sparse cover and livelihood pressure."
+        ]
+      },
+      {
+        "label": "Application",
+        "children": [
+          "Chambal ravines from advanced gully erosion.",
+          "Canal-command salinity and waterlogging.",
+          "Contour bunding in semi-arid rainfed fields."
+        ]
+      },
+      {
+        "label": "Traps",
+        "children": [
+          "Do not call every dryland desertified.",
+          "Do not prescribe check dams without geology and downstream needs.",
+          "Do not confuse salinity with soil acidity."
+        ]
+      }
+    ]
+  },
+  "key_facts": [
+    "Sheet erosion removes a relatively uniform thin layer.",
+    "Rills may enlarge into gullies.",
+    "Wind erosion is severe where soil is dry, loose and bare.",
+    "Salinity differs from simple water scarcity.",
+    "A watershed drains to a common outlet.",
+    "Vegetative cover reduces raindrop impact and runoff velocity."
+  ],
+  "common_traps": [
+    "Do not call every dryland desertified.",
+    "Do not prescribe check dams without geology and downstream needs.",
+    "Do not confuse salinity with soil acidity."
+  ],
+  "pyq_refs": [
+    {
+      "year": 2021,
+      "exam": "UPSC CSE Prelims",
+      "question": "PYQ pattern: statement and association testing within Soil Degradation, Watershed Management and Dryland Geography.",
+      "answer": "Resolve each statement through process, location and necessary conditions.",
+      "pattern_note": "PYQs test erosion types, soil-region associations, desertification causes and conservation methods. Match the degradation process to its controlling water, wind, salt or land-use mechanism."
+    },
+    {
+      "year": 2013,
+      "exam": "UPSC CSE Mains",
+      "question": "PYQ pattern: explain the process and spatial consequences of Soil Degradation, Watershed Management and Dryland Geography.",
+      "answer": "Use a labelled diagram, causal sequence, regional examples and a planning implication.",
+      "pattern_note": "Mains rewards mechanism plus spatial expression, not a catalogue of terms."
+    }
+  ],
+  "pyq_count": 9,
+  "last_asked": 2021,
+  "high_yield": true,
+  "read_time_mins": 13,
+  "difficulty": "Hard",
+  "status": "published",
+  "source_type": "uploaded-geography-static-pyq-secondary",
+  "version": 1,
+  "created_at": "2026-06-30T00:00:00+05:30",
+  "updated_at": "2026-06-30T00:00:00+05:30"
+}

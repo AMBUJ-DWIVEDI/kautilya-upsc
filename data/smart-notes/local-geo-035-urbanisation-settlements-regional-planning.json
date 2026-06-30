@@ -1,0 +1,153 @@
+{
+  "id": "local-geo-035",
+  "section": "Geography",
+  "category": "Human Geography",
+  "topic": "Urbanisation, Settlement Systems and Regional Planning",
+  "subtopic": "Settlement hierarchy, morphology, peri-urban growth, agglomeration and spatially balanced services",
+  "slug": "geography-urbanisation-settlements-regional-planning",
+  "anatomy": "upsc12",
+  "content": {
+    "issueStory": "Urbanisation is not simply more people in statutory towns. It includes natural increase, migration, reclassification, metropolitan expansion and peri-urban transformation, often faster than institutions and infrastructure boundaries can adjust.",
+    "coreConcept": "Settlements form networks and hierarchies based on size, function, accessibility and service reach. Urban growth produces agglomeration benefits but also congestion, exclusion, ecological stress and fragmented governance when land, transport and services are planned separately.",
+    "dimensions": [
+      "Site explains immediate physical location; situation explains relational access to routes, resources and other settlements.",
+      "Rural settlements may be nucleated, dispersed, linear or clustered according to terrain, water, security and landholding.",
+      "Urban hierarchy connects small towns, regional centres, metropolitan areas and specialised nodes.",
+      "Agglomeration lowers matching and sharing costs but can create congestion and high land values.",
+      "Peri-urban zones mix rural and urban land uses under rapid conversion and weak institutional clarity.",
+      "Regional planning links housing, jobs, mobility, water, waste, ecosystems and disaster risk beyond municipal borders."
+    ],
+    "constitutionalLink": "The 73rd and 74th Amendments, Articles 243P-243ZG, metropolitan planning committees and Article 21 frame inclusive settlement governance.",
+    "dataReport": "Primary uploaded sources: STATIC_03 Indian Geography population and settlements chapter plus PYQ urbanisation questions. This note uses stable conceptual relationships and PYQ patterns; update event-specific data from current official sources before using it in a live mains answer.",
+    "caseStudy": "Bengaluru’s expansion illustrates technology-led agglomeration alongside fragmented mobility, lake encroachment, flooding and peri-urban water stress.",
+    "argumentsFor": [
+      "Cities concentrate jobs, innovation and specialised services.",
+      "Small towns can connect rural producers to wider markets.",
+      "Compact, transit-linked growth can improve infrastructure efficiency."
+    ],
+    "argumentsAgainst": [
+      "Agglomeration can produce congestion, inequality and pollution.",
+      "Municipal boundaries often lag the functional urban region.",
+      "Master plans fail when land, finance and implementation are disconnected."
+    ],
+    "pyqLink": "PYQs test settlement forms, urban definitions, migration and city problems. Mains answers should connect morphology with governance and regional flows.",
+    "answerFramework": {
+      "intro": "Urbanisation, Settlement Systems and Regional Planning is best understood as a spatial process in which origin, controlling conditions, resulting pattern and human significance must be connected.",
+      "body": [
+        "Define urbanisation and distinguish its demographic and administrative components.",
+        "Explain settlement hierarchy, morphology and agglomeration.",
+        "Map functional region, peri-urban belt and infrastructure networks.",
+        "Recommend metropolitan coordination, affordable housing and ecosystem-based planning."
+      ],
+      "conclusion": "A high-scoring geography answer converts process into pattern, locates the pattern with examples, and closes with risk-sensitive or resource-sensitive planning."
+    },
+    "mainsExamples": [
+      "Linear settlements along roads or river valleys.",
+      "National Capital Region as a multi-jurisdiction functional region.",
+      "Tier-two towns as rural-urban service links."
+    ],
+    "prelimsFacts": [
+      "Site and situation are distinct settlement concepts.",
+      "Urbanisation is a rising urban share, not merely urban population growth.",
+      "Reclassification can raise the measured urban share.",
+      "Agglomeration economies coexist with diseconomies.",
+      "Peri-urban areas contain mixed land uses.",
+      "Functional urban regions can exceed municipal limits."
+    ],
+    "revisionBox": [
+      {
+        "prompt": "What is the central process chain in Urbanisation, Settlement Systems and Regional Planning?",
+        "answer": "Settlements form networks and hierarchies based on size, function, accessibility and service reach. Urban growth produces agglomeration benefits but also congestion, exclusion, ecological stress and fragmented governance when land, transport and services are planned separately."
+      },
+      {
+        "prompt": "What is the fastest prelims elimination rule?",
+        "answer": "Do not explain urbanisation through migration alone."
+      },
+      {
+        "prompt": "Which example best anchors a mains answer?",
+        "answer": "Linear settlements along roads or river valleys."
+      },
+      {
+        "prompt": "How should the conclusion move beyond description?",
+        "answer": "Recommend metropolitan coordination, affordable housing and ecosystem-based planning."
+      }
+    ]
+  },
+  "story": "Urbanisation is not simply more people in statutory towns. It includes natural increase, migration, reclassification, metropolitan expansion and peri-urban transformation, often faster than institutions and infrastructure boundaries can adjust.",
+  "core_concept": "Settlements form networks and hierarchies based on size, function, accessibility and service reach. Urban growth produces agglomeration benefits but also congestion, exclusion, ecological stress and fragmented governance when land, transport and services are planned separately.",
+  "mnemonic": "S-H-A-P-E: Site, Hierarchy, Agglomeration, Periphery, Ecosystem.",
+  "mindmap_json": {
+    "center": "Urbanisation, Settlement Systems and Regional Planning",
+    "branches": [
+      {
+        "label": "Process",
+        "children": [
+          "Site explains immediate physical location; situation explains relational access to routes, resources and other settlements.",
+          "Rural settlements may be nucleated, dispersed, linear or clustered according to terrain, water, security and landholding."
+        ]
+      },
+      {
+        "label": "Pattern",
+        "children": [
+          "Urban hierarchy connects small towns, regional centres, metropolitan areas and specialised nodes.",
+          "Agglomeration lowers matching and sharing costs but can create congestion and high land values."
+        ]
+      },
+      {
+        "label": "Application",
+        "children": [
+          "Linear settlements along roads or river valleys.",
+          "National Capital Region as a multi-jurisdiction functional region.",
+          "Tier-two towns as rural-urban service links."
+        ]
+      },
+      {
+        "label": "Traps",
+        "children": [
+          "Do not explain urbanisation through migration alone.",
+          "Do not treat every compact settlement as urban by definition.",
+          "Do not plan a metropolitan system within one municipal boundary only."
+        ]
+      }
+    ]
+  },
+  "key_facts": [
+    "Site and situation are distinct settlement concepts.",
+    "Urbanisation is a rising urban share, not merely urban population growth.",
+    "Reclassification can raise the measured urban share.",
+    "Agglomeration economies coexist with diseconomies.",
+    "Peri-urban areas contain mixed land uses.",
+    "Functional urban regions can exceed municipal limits."
+  ],
+  "common_traps": [
+    "Do not explain urbanisation through migration alone.",
+    "Do not treat every compact settlement as urban by definition.",
+    "Do not plan a metropolitan system within one municipal boundary only."
+  ],
+  "pyq_refs": [
+    {
+      "year": 2021,
+      "exam": "UPSC CSE Prelims",
+      "question": "PYQ pattern: statement and association testing within Urbanisation, Settlement Systems and Regional Planning.",
+      "answer": "Resolve each statement through process, location and necessary conditions.",
+      "pattern_note": "PYQs test settlement forms, urban definitions, migration and city problems. Mains answers should connect morphology with governance and regional flows."
+    },
+    {
+      "year": 2013,
+      "exam": "UPSC CSE Mains",
+      "question": "PYQ pattern: explain the process and spatial consequences of Urbanisation, Settlement Systems and Regional Planning.",
+      "answer": "Use a labelled diagram, causal sequence, regional examples and a planning implication.",
+      "pattern_note": "Mains rewards mechanism plus spatial expression, not a catalogue of terms."
+    }
+  ],
+  "pyq_count": 9,
+  "last_asked": 2021,
+  "high_yield": true,
+  "read_time_mins": 13,
+  "difficulty": "Hard",
+  "status": "published",
+  "source_type": "uploaded-geography-static-pyq-secondary",
+  "version": 1,
+  "created_at": "2026-06-30T00:00:00+05:30",
+  "updated_at": "2026-06-30T00:00:00+05:30"
+}
