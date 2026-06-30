@@ -1,0 +1,153 @@
+{
+  "id": "local-geo-014",
+  "section": "Geography",
+  "category": "Physical Geography",
+  "topic": "Plate Boundaries, Hotspots and Tectonic Landscapes",
+  "subtopic": "Plate-driving forces, divergent, convergent and transform margins, mantle plumes and resulting relief",
+  "slug": "geography-plate-boundaries-hotspots-landscapes",
+  "anatomy": "upsc12",
+  "content": {
+    "issueStory": "The global relief map is not random. Ridges, trenches, island arcs, rift valleys and young fold mountains are surface expressions of moving lithospheric plates, while hotspot chains preserve the direction of a plate moving over a relatively persistent mantle source.",
+    "coreConcept": "Plate tectonics explains lithospheric motion over the asthenosphere through a system of divergent construction, convergent destruction or collision, and transform displacement. Boundary geometry, crust type and magma composition determine the resulting earthquake, volcanic and relief signatures.",
+    "dimensions": [
+      "Driving forces: slab pull, ridge push and mantle convection contribute unequally across plate systems.",
+      "Divergence: decompression melting creates new oceanic crust at ridges and may initiate continental rifting.",
+      "Ocean-continent convergence: dense oceanic lithosphere subducts, forming trench-volcanic arc systems.",
+      "Ocean-ocean convergence: subduction creates deep trenches and curved volcanic island arcs.",
+      "Continent-continent convergence: buoyant crust shortens and thickens into high fold mountains and plateaus.",
+      "Transform and hotspot geography: lateral slip creates shallow earthquakes, while age-progressive volcanic chains record plate motion."
+    ],
+    "constitutionalLink": "Tectonic zonation informs building codes, infrastructure siting and disaster planning under the Disaster Management Act, 2005 and the constitutional duty to protect life under Article 21.",
+    "dataReport": "Primary uploaded sources: STATIC_02_Physical Geography.pdf sections on continental drift, seafloor spreading, plate tectonics, mantle plumes and hotspots; PYQ geomorphology questions. This note uses stable conceptual relationships and PYQ patterns; update event-specific data from current official sources before using it in a live mains answer.",
+    "caseStudy": "The Himalaya represents continent-continent collision, the Andes ocean-continent subduction, the Mid-Atlantic Ridge divergence, and Hawaii intraplate hotspot volcanism.",
+    "argumentsFor": [
+      "Plate theory unifies earthquakes, volcanoes, mountain building and ocean-floor renewal.",
+      "Boundary maps improve hazard and infrastructure planning.",
+      "Hotspot tracks help reconstruct past plate direction and speed."
+    ],
+    "argumentsAgainst": [
+      "Plate boundaries are zones, not perfectly thin lines.",
+      "Hotspots are not all demonstrably fixed.",
+      "Boundary type predicts broad behaviour but not the timing of an event."
+    ],
+    "pyqLink": "PYQs favour boundary-process-feature matching: trench with subduction, ridge with divergence, fold mountain with collision, transform fault with shallow seismicity, and hotspot chain with plate motion.",
+    "answerFramework": {
+      "intro": "Plate Boundaries, Hotspots and Tectonic Landscapes is best understood as a spatial process in which origin, controlling conditions, resulting pattern and human significance must be connected.",
+      "body": [
+        "State the plate-tectonic framework and name the principal driving forces.",
+        "Compare divergent, convergent and transform margins in a three-column diagram.",
+        "Add one world example and one characteristic hazard for every boundary type.",
+        "Close by linking tectonic understanding to risk-sensitive regional planning."
+      ],
+      "conclusion": "A high-scoring geography answer converts process into pattern, locates the pattern with examples, and closes with risk-sensitive or resource-sensitive planning."
+    },
+    "mainsExamples": [
+      "East African Rift as continental divergence.",
+      "Japan as an island-arc system at complex convergent margins.",
+      "San Andreas Fault as a transform boundary."
+    ],
+    "prelimsFacts": [
+      "New oceanic lithosphere forms mainly at mid-ocean ridges.",
+      "Old and dense oceanic lithosphere is most likely to subduct.",
+      "Transform boundaries neither systematically create nor destroy crust.",
+      "Deep-focus earthquakes are associated with descending slabs.",
+      "Continental collision commonly produces crustal thickening rather than sustained arc volcanism.",
+      "A hotspot chain may become older away from the currently active centre."
+    ],
+    "revisionBox": [
+      {
+        "prompt": "What is the central process chain in Plate Boundaries, Hotspots and Tectonic Landscapes?",
+        "answer": "Plate tectonics explains lithospheric motion over the asthenosphere through a system of divergent construction, convergent destruction or collision, and transform displacement. Boundary geometry, crust type and magma composition determine the resulting earthquake, volcanic and relief signatures."
+      },
+      {
+        "prompt": "What is the fastest prelims elimination rule?",
+        "answer": "Do not place deep-focus earthquakes at divergent ridges."
+      },
+      {
+        "prompt": "Which example best anchors a mains answer?",
+        "answer": "East African Rift as continental divergence."
+      },
+      {
+        "prompt": "How should the conclusion move beyond description?",
+        "answer": "Close by linking tectonic understanding to risk-sensitive regional planning."
+      }
+    ]
+  },
+  "story": "The global relief map is not random. Ridges, trenches, island arcs, rift valleys and young fold mountains are surface expressions of moving lithospheric plates, while hotspot chains preserve the direction of a plate moving over a relatively persistent mantle source.",
+  "core_concept": "Plate tectonics explains lithospheric motion over the asthenosphere through a system of divergent construction, convergent destruction or collision, and transform displacement. Boundary geometry, crust type and magma composition determine the resulting earthquake, volcanic and relief signatures.",
+  "mnemonic": "D-C-T-H: Diverge, Converge, Transform, Hotspot.",
+  "mindmap_json": {
+    "center": "Plate Boundaries, Hotspots and Tectonic Landscapes",
+    "branches": [
+      {
+        "label": "Process",
+        "children": [
+          "Driving forces: slab pull, ridge push and mantle convection contribute unequally across plate systems.",
+          "Divergence: decompression melting creates new oceanic crust at ridges and may initiate continental rifting."
+        ]
+      },
+      {
+        "label": "Pattern",
+        "children": [
+          "Ocean-continent convergence: dense oceanic lithosphere subducts, forming trench-volcanic arc systems.",
+          "Ocean-ocean convergence: subduction creates deep trenches and curved volcanic island arcs."
+        ]
+      },
+      {
+        "label": "Application",
+        "children": [
+          "East African Rift as continental divergence.",
+          "Japan as an island-arc system at complex convergent margins.",
+          "San Andreas Fault as a transform boundary."
+        ]
+      },
+      {
+        "label": "Traps",
+        "children": [
+          "Do not place deep-focus earthquakes at divergent ridges.",
+          "Do not treat every volcano as a plate-boundary volcano.",
+          "Do not confuse a volcanic island arc with a non-volcanic continental collision belt."
+        ]
+      }
+    ]
+  },
+  "key_facts": [
+    "New oceanic lithosphere forms mainly at mid-ocean ridges.",
+    "Old and dense oceanic lithosphere is most likely to subduct.",
+    "Transform boundaries neither systematically create nor destroy crust.",
+    "Deep-focus earthquakes are associated with descending slabs.",
+    "Continental collision commonly produces crustal thickening rather than sustained arc volcanism.",
+    "A hotspot chain may become older away from the currently active centre."
+  ],
+  "common_traps": [
+    "Do not place deep-focus earthquakes at divergent ridges.",
+    "Do not treat every volcano as a plate-boundary volcano.",
+    "Do not confuse a volcanic island arc with a non-volcanic continental collision belt."
+  ],
+  "pyq_refs": [
+    {
+      "year": 2021,
+      "exam": "UPSC CSE Prelims",
+      "question": "PYQ pattern: statement and association testing within Plate Boundaries, Hotspots and Tectonic Landscapes.",
+      "answer": "Resolve each statement through process, location and necessary conditions.",
+      "pattern_note": "PYQs favour boundary-process-feature matching: trench with subduction, ridge with divergence, fold mountain with collision, transform fault with shallow seismicity, and hotspot chain with plate motion."
+    },
+    {
+      "year": 2013,
+      "exam": "UPSC CSE Mains",
+      "question": "PYQ pattern: explain the process and spatial consequences of Plate Boundaries, Hotspots and Tectonic Landscapes.",
+      "answer": "Use a labelled diagram, causal sequence, regional examples and a planning implication.",
+      "pattern_note": "Mains rewards mechanism plus spatial expression, not a catalogue of terms."
+    }
+  ],
+  "pyq_count": 9,
+  "last_asked": 2021,
+  "high_yield": true,
+  "read_time_mins": 13,
+  "difficulty": "Hard",
+  "status": "published",
+  "source_type": "uploaded-geography-static-pyq-secondary",
+  "version": 1,
+  "created_at": "2026-06-30T00:00:00+05:30",
+  "updated_at": "2026-06-30T00:00:00+05:30"
+}

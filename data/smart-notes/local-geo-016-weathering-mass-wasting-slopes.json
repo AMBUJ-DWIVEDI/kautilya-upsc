@@ -1,0 +1,153 @@
+{
+  "id": "local-geo-016",
+  "section": "Geography",
+  "category": "Physical Geography",
+  "topic": "Weathering, Mass Wasting and Slope Development",
+  "subtopic": "In-situ rock breakdown, regolith formation, gravity-driven movement and slope controls",
+  "slug": "geography-weathering-mass-wasting-slopes",
+  "anatomy": "upsc12",
+  "content": {
+    "issueStory": "Before rivers, glaciers or winds can carry material away, rock must be weakened. Weathering prepares it, gravity shifts it downslope, and erosion exports it. Confusing these stages is one of the most common geomorphology errors.",
+    "coreConcept": "Weathering is the in-situ physical disintegration or chemical decomposition of rock. Mass wasting is downslope movement under gravity. Their rates depend on climate, lithology, structure, relief, water, vegetation and human disturbance, together producing slope retreat, lowering or replacement.",
+    "dimensions": [
+      "Mechanical weathering: thermal stress, freeze-thaw, salt growth and unloading break rock without changing chemistry.",
+      "Chemical weathering: solution, carbonation, hydrolysis and oxidation alter minerals, especially under warm and wet conditions.",
+      "Biological action: roots, organisms and human excavation can drive both physical and chemical change.",
+      "Mass-movement type: fall, slide, slump, flow and creep differ in speed, water content and movement plane.",
+      "Slope stability: angle, discontinuities, pore-water pressure, toe removal and loading regulate shear strength versus stress.",
+      "Landscape and soil link: weathering creates regolith and contributes to soil, while repeated movement redistributes it."
+    ],
+    "constitutionalLink": "Hill-area planning, road-cut regulation, slope drainage, environmental assessment and disaster-management duties connect geomorphology to Article 21 and sustainable infrastructure.",
+    "dataReport": "Primary uploaded sources: STATIC_02_Physical Geography.pdf geomorphic processes chapter and PYQ landform/process patterns. This note uses stable conceptual relationships and PYQ patterns; update event-specific data from current official sources before using it in a live mains answer.",
+    "caseStudy": "Himalayan road widening can combine fractured geology, steep slopes, toe cutting, spoil dumping and intense rain, creating a human-amplified landslide system.",
+    "argumentsFor": [
+      "Weathering releases nutrients and produces regolith for soil development.",
+      "Slope-process mapping improves road and settlement safety.",
+      "Process diagnosis enables targeted drainage, retaining and bioengineering measures."
+    ],
+    "argumentsAgainst": [
+      "Retaining walls alone cannot solve deep-seated instability.",
+      "Vegetation may reduce shallow erosion but cannot neutralise every geological failure.",
+      "One rainfall threshold cannot represent all slope materials and antecedent moisture states."
+    ],
+    "pyqLink": "PYQs ask process-condition pairs such as carbonation in limestone, frost action in cold climates, exfoliation under unloading and landslide triggers. Distinguish in-situ change, gravity movement and agent-led transport.",
+    "answerFramework": {
+      "intro": "Weathering, Mass Wasting and Slope Development is best understood as a spatial process in which origin, controlling conditions, resulting pattern and human significance must be connected.",
+      "body": [
+        "Define weathering, mass wasting and erosion separately.",
+        "Classify physical, chemical and biological weathering with climatic controls.",
+        "Explain slope failure through stress, shear strength and pore-water pressure.",
+        "Apply the analysis to Himalayan infrastructure and risk-sensitive slope management."
+      ],
+      "conclusion": "A high-scoring geography answer converts process into pattern, locates the pattern with examples, and closes with risk-sensitive or resource-sensitive planning."
+    },
+    "mainsExamples": [
+      "Exfoliation domes in massive granitic terrain.",
+      "Lateritic weathering under alternating wet and dry tropical conditions.",
+      "Debris flows on saturated, steep mountain channels."
+    ],
+    "prelimsFacts": [
+      "Weathering occurs in situ; erosion requires removal.",
+      "Water can increase slope weight and pore-water pressure.",
+      "Creep is slow movement and may tilt poles, walls or tree trunks.",
+      "Slumps move along curved failure surfaces.",
+      "Carbonation is particularly important in limestone dissolution.",
+      "Freeze-thaw is strongest where water repeatedly crosses the freezing point."
+    ],
+    "revisionBox": [
+      {
+        "prompt": "What is the central process chain in Weathering, Mass Wasting and Slope Development?",
+        "answer": "Weathering is the in-situ physical disintegration or chemical decomposition of rock. Mass wasting is downslope movement under gravity. Their rates depend on climate, lithology, structure, relief, water, vegetation and human disturbance, together producing slope retreat, lowering or replacement."
+      },
+      {
+        "prompt": "What is the fastest prelims elimination rule?",
+        "answer": "Do not call every downslope movement erosion by running water."
+      },
+      {
+        "prompt": "Which example best anchors a mains answer?",
+        "answer": "Exfoliation domes in massive granitic terrain."
+      },
+      {
+        "prompt": "How should the conclusion move beyond description?",
+        "answer": "Apply the analysis to Himalayan infrastructure and risk-sensitive slope management."
+      }
+    ]
+  },
+  "story": "Before rivers, glaciers or winds can carry material away, rock must be weakened. Weathering prepares it, gravity shifts it downslope, and erosion exports it. Confusing these stages is one of the most common geomorphology errors.",
+  "core_concept": "Weathering is the in-situ physical disintegration or chemical decomposition of rock. Mass wasting is downslope movement under gravity. Their rates depend on climate, lithology, structure, relief, water, vegetation and human disturbance, together producing slope retreat, lowering or replacement.",
+  "mnemonic": "W-G-T: Weaken, Gravity-move, Transport.",
+  "mindmap_json": {
+    "center": "Weathering, Mass Wasting and Slope Development",
+    "branches": [
+      {
+        "label": "Process",
+        "children": [
+          "Mechanical weathering: thermal stress, freeze-thaw, salt growth and unloading break rock without changing chemistry.",
+          "Chemical weathering: solution, carbonation, hydrolysis and oxidation alter minerals, especially under warm and wet conditions."
+        ]
+      },
+      {
+        "label": "Pattern",
+        "children": [
+          "Biological action: roots, organisms and human excavation can drive both physical and chemical change.",
+          "Mass-movement type: fall, slide, slump, flow and creep differ in speed, water content and movement plane."
+        ]
+      },
+      {
+        "label": "Application",
+        "children": [
+          "Exfoliation domes in massive granitic terrain.",
+          "Lateritic weathering under alternating wet and dry tropical conditions.",
+          "Debris flows on saturated, steep mountain channels."
+        ]
+      },
+      {
+        "label": "Traps",
+        "children": [
+          "Do not call every downslope movement erosion by running water.",
+          "Do not assume chemical weathering is absent in cold regions.",
+          "Do not treat landslide susceptibility and actual triggering as the same thing."
+        ]
+      }
+    ]
+  },
+  "key_facts": [
+    "Weathering occurs in situ; erosion requires removal.",
+    "Water can increase slope weight and pore-water pressure.",
+    "Creep is slow movement and may tilt poles, walls or tree trunks.",
+    "Slumps move along curved failure surfaces.",
+    "Carbonation is particularly important in limestone dissolution.",
+    "Freeze-thaw is strongest where water repeatedly crosses the freezing point."
+  ],
+  "common_traps": [
+    "Do not call every downslope movement erosion by running water.",
+    "Do not assume chemical weathering is absent in cold regions.",
+    "Do not treat landslide susceptibility and actual triggering as the same thing."
+  ],
+  "pyq_refs": [
+    {
+      "year": 2021,
+      "exam": "UPSC CSE Prelims",
+      "question": "PYQ pattern: statement and association testing within Weathering, Mass Wasting and Slope Development.",
+      "answer": "Resolve each statement through process, location and necessary conditions.",
+      "pattern_note": "PYQs ask process-condition pairs such as carbonation in limestone, frost action in cold climates, exfoliation under unloading and landslide triggers. Distinguish in-situ change, gravity movement and agent-led transport."
+    },
+    {
+      "year": 2013,
+      "exam": "UPSC CSE Mains",
+      "question": "PYQ pattern: explain the process and spatial consequences of Weathering, Mass Wasting and Slope Development.",
+      "answer": "Use a labelled diagram, causal sequence, regional examples and a planning implication.",
+      "pattern_note": "Mains rewards mechanism plus spatial expression, not a catalogue of terms."
+    }
+  ],
+  "pyq_count": 9,
+  "last_asked": 2021,
+  "high_yield": true,
+  "read_time_mins": 13,
+  "difficulty": "Hard",
+  "status": "published",
+  "source_type": "uploaded-geography-static-pyq-secondary",
+  "version": 1,
+  "created_at": "2026-06-30T00:00:00+05:30",
+  "updated_at": "2026-06-30T00:00:00+05:30"
+}

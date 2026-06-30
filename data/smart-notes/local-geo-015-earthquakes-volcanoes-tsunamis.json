@@ -1,0 +1,153 @@
+{
+  "id": "local-geo-015",
+  "section": "Geography",
+  "category": "Physical Geography",
+  "topic": "Earthquakes, Volcanoes and Tsunami Geography",
+  "subtopic": "Seismic waves, magnitude and intensity, eruption controls, tsunami generation and spatial risk",
+  "slug": "geography-earthquakes-volcanoes-tsunamis",
+  "anatomy": "upsc12",
+  "content": {
+    "issueStory": "A geophysical event becomes a disaster only when its energy intersects exposed and vulnerable people. The same magnitude earthquake can have radically different consequences depending on depth, distance, geology, construction and preparedness.",
+    "coreConcept": "Earthquakes release stored elastic strain along faults; volcanoes transfer magma and gases to the surface; tsunamis arise from sudden displacement of a large water column. Hazard intensity, propagation and damage follow different physical controls and must not be collapsed into one risk category.",
+    "dimensions": [
+      "Seismic source: focus depth, fault mechanism and released energy shape shaking and wave paths.",
+      "Wave behaviour: P waves travel through solids and fluids, S waves through solids only, and surface waves often produce severe shaking.",
+      "Measurement: magnitude represents event size, while intensity records observed effects at a place.",
+      "Volcanic style: magma viscosity, silica, gas content and tectonic setting influence effusive or explosive eruption.",
+      "Tsunami process: vertical seabed displacement generates long waves that slow, shorten and rise near shallow coasts.",
+      "Risk geography: exposure, local geology, bathymetry, coastal shape, building quality and warning time control losses."
+    ],
+    "constitutionalLink": "Article 21, the Disaster Management Act, 2005, seismic building codes, land-use regulation and the Indian Ocean tsunami warning system frame state responsibility for risk reduction.",
+    "dataReport": "Primary uploaded sources: STATIC_02_Physical Geography.pdf volcano and earthquake sections plus PYQ_02_Geography.pdf questions on seismic measurement, wave properties and tectonic hazards. This note uses stable conceptual relationships and PYQ patterns; update event-specific data from current official sources before using it in a live mains answer.",
+    "caseStudy": "The 2004 Indian Ocean tsunami showed how a megathrust earthquake, basin-wide propagation and low coastal warning capacity converted seabed displacement into transnational catastrophe.",
+    "argumentsFor": [
+      "Monitoring networks improve detection and warning.",
+      "Hazard microzonation supports safer land use and construction.",
+      "Volcanic terrains can provide fertile soils and geothermal resources."
+    ],
+    "argumentsAgainst": [
+      "Earthquake prediction at exact time and place remains unreliable.",
+      "Warnings cannot compensate for weak buildings and unsafe siting.",
+      "A large undersea earthquake does not automatically generate a destructive tsunami."
+    ],
+    "pyqLink": "PYQs test P-S wave properties, shadow zones, magnitude versus intensity, volcanic forms and the conditions needed for a tsunami. The safest method is to identify the transmitting medium and displacement mechanism.",
+    "answerFramework": {
+      "intro": "Earthquakes, Volcanoes and Tsunami Geography is best understood as a spatial process in which origin, controlling conditions, resulting pattern and human significance must be connected.",
+      "body": [
+        "Differentiate earthquake, volcanic and tsunami generation mechanisms.",
+        "Use a source-path-site framework to explain hazard propagation.",
+        "Separate hazard from exposure and vulnerability in the damage analysis.",
+        "Recommend monitoring, zoning, resilient construction, warning and community evacuation."
+      ],
+      "conclusion": "A high-scoring geography answer converts process into pattern, locates the pattern with examples, and closes with risk-sensitive or resource-sensitive planning."
+    },
+    "mainsExamples": [
+      "Bhuj 2001 for severe intraplate earthquake risk.",
+      "Barren Island as India’s active volcanic example.",
+      "Japan for integrated earthquake-resistant design and tsunami preparedness."
+    ],
+    "prelimsFacts": [
+      "The focus is the point of rupture within Earth; the epicentre lies vertically above it.",
+      "P waves are compressional and can pass through solids and liquids.",
+      "S waves are shear waves and do not pass through liquids.",
+      "Magnitude is a source measure; intensity varies from place to place.",
+      "Tsunamis have long wavelengths and low open-ocean heights but grow in shallow water.",
+      "Shield volcanoes are generally broader and less steep than composite volcanoes."
+    ],
+    "revisionBox": [
+      {
+        "prompt": "What is the central process chain in Earthquakes, Volcanoes and Tsunami Geography?",
+        "answer": "Earthquakes release stored elastic strain along faults; volcanoes transfer magma and gases to the surface; tsunamis arise from sudden displacement of a large water column. Hazard intensity, propagation and damage follow different physical controls and must not be collapsed into one risk category."
+      },
+      {
+        "prompt": "What is the fastest prelims elimination rule?",
+        "answer": "Do not say every undersea earthquake causes a tsunami."
+      },
+      {
+        "prompt": "Which example best anchors a mains answer?",
+        "answer": "Bhuj 2001 for severe intraplate earthquake risk."
+      },
+      {
+        "prompt": "How should the conclusion move beyond description?",
+        "answer": "Recommend monitoring, zoning, resilient construction, warning and community evacuation."
+      }
+    ]
+  },
+  "story": "A geophysical event becomes a disaster only when its energy intersects exposed and vulnerable people. The same magnitude earthquake can have radically different consequences depending on depth, distance, geology, construction and preparedness.",
+  "core_concept": "Earthquakes release stored elastic strain along faults; volcanoes transfer magma and gases to the surface; tsunamis arise from sudden displacement of a large water column. Hazard intensity, propagation and damage follow different physical controls and must not be collapsed into one risk category.",
+  "mnemonic": "S-P-S-R: Source, Path, Site, Risk.",
+  "mindmap_json": {
+    "center": "Earthquakes, Volcanoes and Tsunami Geography",
+    "branches": [
+      {
+        "label": "Process",
+        "children": [
+          "Seismic source: focus depth, fault mechanism and released energy shape shaking and wave paths.",
+          "Wave behaviour: P waves travel through solids and fluids, S waves through solids only, and surface waves often produce severe shaking."
+        ]
+      },
+      {
+        "label": "Pattern",
+        "children": [
+          "Measurement: magnitude represents event size, while intensity records observed effects at a place.",
+          "Volcanic style: magma viscosity, silica, gas content and tectonic setting influence effusive or explosive eruption."
+        ]
+      },
+      {
+        "label": "Application",
+        "children": [
+          "Bhuj 2001 for severe intraplate earthquake risk.",
+          "Barren Island as India’s active volcanic example.",
+          "Japan for integrated earthquake-resistant design and tsunami preparedness."
+        ]
+      },
+      {
+        "label": "Traps",
+        "children": [
+          "Do not say every undersea earthquake causes a tsunami.",
+          "Do not confuse magnitude with locally observed intensity.",
+          "Do not infer eruption explosivity from cone height alone."
+        ]
+      }
+    ]
+  },
+  "key_facts": [
+    "The focus is the point of rupture within Earth; the epicentre lies vertically above it.",
+    "P waves are compressional and can pass through solids and liquids.",
+    "S waves are shear waves and do not pass through liquids.",
+    "Magnitude is a source measure; intensity varies from place to place.",
+    "Tsunamis have long wavelengths and low open-ocean heights but grow in shallow water.",
+    "Shield volcanoes are generally broader and less steep than composite volcanoes."
+  ],
+  "common_traps": [
+    "Do not say every undersea earthquake causes a tsunami.",
+    "Do not confuse magnitude with locally observed intensity.",
+    "Do not infer eruption explosivity from cone height alone."
+  ],
+  "pyq_refs": [
+    {
+      "year": 2021,
+      "exam": "UPSC CSE Prelims",
+      "question": "PYQ pattern: statement and association testing within Earthquakes, Volcanoes and Tsunami Geography.",
+      "answer": "Resolve each statement through process, location and necessary conditions.",
+      "pattern_note": "PYQs test P-S wave properties, shadow zones, magnitude versus intensity, volcanic forms and the conditions needed for a tsunami. The safest method is to identify the transmitting medium and displacement mechanism."
+    },
+    {
+      "year": 2013,
+      "exam": "UPSC CSE Mains",
+      "question": "PYQ pattern: explain the process and spatial consequences of Earthquakes, Volcanoes and Tsunami Geography.",
+      "answer": "Use a labelled diagram, causal sequence, regional examples and a planning implication.",
+      "pattern_note": "Mains rewards mechanism plus spatial expression, not a catalogue of terms."
+    }
+  ],
+  "pyq_count": 9,
+  "last_asked": 2021,
+  "high_yield": true,
+  "read_time_mins": 13,
+  "difficulty": "Hard",
+  "status": "published",
+  "source_type": "uploaded-geography-static-pyq-secondary",
+  "version": 1,
+  "created_at": "2026-06-30T00:00:00+05:30",
+  "updated_at": "2026-06-30T00:00:00+05:30"
+}
