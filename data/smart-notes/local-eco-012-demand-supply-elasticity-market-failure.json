@@ -1,0 +1,152 @@
+{
+  "id": "local-eco-012",
+  "section": "Economy",
+  "category": "Microeconomics",
+  "topic": "Demand, Supply, Elasticity and Market Failure",
+  "subtopic": "Price formation, curve shifts, responsiveness, incidence, externalities, public goods and information failure",
+  "slug": "economy-demand-supply-elasticity-market-failure",
+  "anatomy": "upsc12",
+  "content": {
+    "issueStory": "A price change does not reveal its own cause. It may be movement along a curve, a shift in demand, a shift in supply, or simultaneous shocks. Policy becomes sharper when it asks who changed behaviour, how responsive they are, and whether market prices include social costs and benefits.",
+    "coreConcept": "Demand and supply jointly determine market price and quantity under stated conditions. Elasticity measures responsiveness rather than slope alone. Markets can misallocate resources when externalities, public goods, market power, information asymmetry or missing markets separate private incentives from social welfare.",
+    "dimensions": [
+      "Demand logic: own price causes movement along a demand curve, while income, tastes, expectations, population and related-goods prices shift it.",
+      "Supply logic: own price changes quantity supplied, while input costs, technology, taxes, expectations and producer numbers shift supply.",
+      "Elasticity: availability of substitutes, budget share, necessity and adjustment time shape price responsiveness.",
+      "Tax incidence: the less elastic side of a market generally bears more of an indirect tax burden regardless of the legal payer.",
+      "Efficiency: competitive equilibrium can maximise total surplus under restrictive assumptions, but distribution remains a separate question.",
+      "Failure and remedy: taxes, subsidies, regulation, disclosure, competition policy or public provision each fit different failures and can themselves fail."
+    ],
+    "constitutionalLink": "Articles 38 and 39 support welfare and distributive goals, while the Competition Act, consumer-protection law and environmental regulation address market power, information gaps and external costs.",
+    "dataReport": "Uploaded source basis: STATIC_01_Economy.pdf sections on consumer behaviour, demand, supply, cost and firms; PYQ_01_Economic_Agriculture.pdf conceptual application patterns. Refresh rates, targets, weights, thresholds and year-specific figures from official sources: Competition Commission of India, Department of Consumer Affairs and relevant ministry notifications. Stable mechanisms belong in this note; current values must be dated in an answer.",
+    "caseStudy": "A carbon price seeks to internalise the climate externality by making private decision-makers face more of the social cost, but effectiveness depends on measurement, coverage, distributional protection and alternatives.",
+    "argumentsFor": [
+      "Price signals coordinate decentralised decisions.",
+      "Elasticity helps design taxes, subsidies and procurement.",
+      "Failure-specific intervention can improve social welfare."
+    ],
+    "argumentsAgainst": [
+      "Observed prices may reflect market power or missing information.",
+      "Corrective policy can create compliance and distribution costs.",
+      "Efficiency gains do not guarantee equity."
+    ],
+    "pyqLink": "PYQs test shifts versus movements, substitutes and complements, elasticity effects and public-good or externality logic. Hold other determinants constant before choosing a curve direction.",
+    "answerFramework": {
+      "intro": "Demand, Supply, Elasticity and Market Failure should be introduced through its economic identity or causal mechanism before moving to Indian institutions and policy trade-offs.",
+      "body": [
+        "Define equilibrium and distinguish movement from shift.",
+        "Identify the relevant elasticity and incidence effect.",
+        "Diagnose the precise market failure rather than invoking generic intervention.",
+        "Evaluate remedy, distribution, administrative capacity and government-failure risk."
+      ],
+      "conclusion": "A high-scoring Economy answer keeps the accounting correct, traces transmission, identifies winners and losers, and separates stable principles from changing policy values."
+    },
+    "mainsExamples": [
+      "Fuel demand as relatively inelastic in the short run but more adjustable over time.",
+      "Vaccination generating positive external benefits.",
+      "Street lighting as a standard non-rival, difficult-to-exclude public-good example."
+    ],
+    "prelimsFacts": [
+      "Price elasticity is a percentage-response ratio.",
+      "A substitute price rise can shift demand for the other good outward.",
+      "A complement price rise can shift demand inward.",
+      "Perfectly inelastic demand is vertical.",
+      "Public goods are non-rival and non-excludable in the textbook case.",
+      "Externalities create a gap between private and social cost or benefit."
+    ],
+    "revisionBox": [
+      {
+        "prompt": "What is the central mechanism in Demand, Supply, Elasticity and Market Failure?",
+        "answer": "Demand and supply jointly determine market price and quantity under stated conditions. Elasticity measures responsiveness rather than slope alone. Markets can misallocate resources when externalities, public goods, market power, information asymmetry or missing markets separate private incentives from social welfare."
+      },
+      {
+        "prompt": "What is the fastest prelims elimination rule?",
+        "answer": "Do not call every price rise demand-pull."
+      },
+      {
+        "prompt": "Which Indian example best anchors a mains answer?",
+        "answer": "Fuel demand as relatively inelastic in the short run but more adjustable over time."
+      },
+      {
+        "prompt": "Which official source should refresh changing figures?",
+        "answer": "Competition Commission of India, Department of Consumer Affairs and relevant ministry notifications"
+      }
+    ]
+  },
+  "story": "A price change does not reveal its own cause. It may be movement along a curve, a shift in demand, a shift in supply, or simultaneous shocks. Policy becomes sharper when it asks who changed behaviour, how responsive they are, and whether market prices include social costs and benefits.",
+  "core_concept": "Demand and supply jointly determine market price and quantity under stated conditions. Elasticity measures responsiveness rather than slope alone. Markets can misallocate resources when externalities, public goods, market power, information asymmetry or missing markets separate private incentives from social welfare.",
+  "mnemonic": "S-E-F-R: Shift, Elasticity, Failure, Remedy.",
+  "mindmap_json": {
+    "center": "Demand, Supply, Elasticity and Market Failure",
+    "branches": [
+      {
+        "label": "Mechanism",
+        "children": [
+          "Demand logic: own price causes movement along a demand curve, while income, tastes, expectations, population and related-goods prices shift it.",
+          "Supply logic: own price changes quantity supplied, while input costs, technology, taxes, expectations and producer numbers shift supply."
+        ]
+      },
+      {
+        "label": "Transmission",
+        "children": [
+          "Elasticity: availability of substitutes, budget share, necessity and adjustment time shape price responsiveness.",
+          "Tax incidence: the less elastic side of a market generally bears more of an indirect tax burden regardless of the legal payer."
+        ]
+      },
+      {
+        "label": "Policy",
+        "children": [
+          "Efficiency: competitive equilibrium can maximise total surplus under restrictive assumptions, but distribution remains a separate question.",
+          "Failure and remedy: taxes, subsidies, regulation, disclosure, competition policy or public provision each fit different failures and can themselves fail."
+        ]
+      },
+      {
+        "label": "Traps",
+        "children": [
+          "Do not call every price rise demand-pull.",
+          "Do not infer elasticity from curve slope without units and scale.",
+          "Do not equate public provision with proof that a good is a pure public good."
+        ]
+      }
+    ]
+  },
+  "key_facts": [
+    "Price elasticity is a percentage-response ratio.",
+    "A substitute price rise can shift demand for the other good outward.",
+    "A complement price rise can shift demand inward.",
+    "Perfectly inelastic demand is vertical.",
+    "Public goods are non-rival and non-excludable in the textbook case.",
+    "Externalities create a gap between private and social cost or benefit."
+  ],
+  "common_traps": [
+    "Do not call every price rise demand-pull.",
+    "Do not infer elasticity from curve slope without units and scale.",
+    "Do not equate public provision with proof that a good is a pure public good."
+  ],
+  "pyq_refs": [
+    {
+      "year": 2021,
+      "exam": "UPSC CSE Prelims",
+      "question": "PYQ pattern: statement and mechanism testing within Demand, Supply, Elasticity and Market Failure.",
+      "answer": "Resolve each statement through the governing identity, direction of change and institutional role.",
+      "pattern_note": "PYQs test shifts versus movements, substitutes and complements, elasticity effects and public-good or externality logic. Hold other determinants constant before choosing a curve direction."
+    },
+    {
+      "year": 2018,
+      "exam": "UPSC CSE Mains",
+      "question": "PYQ pattern: analyse the Indian policy implications of Demand, Supply, Elasticity and Market Failure.",
+      "answer": "Use a causal chain, one Indian example, distributional effects and a calibrated reform path.",
+      "pattern_note": "Mains rewards mechanism plus policy trade-off, not a list of schemes."
+    }
+  ],
+  "pyq_count": 10,
+  "last_asked": 2021,
+  "high_yield": true,
+  "read_time_mins": 13,
+  "difficulty": "Medium",
+  "status": "published",
+  "source_type": "uploaded-economy-static-pyq-secondary",
+  "version": 1,
+  "created_at": "2026-07-01T00:00:00+05:30",
+  "updated_at": "2026-07-01T00:00:00+05:30"
+}

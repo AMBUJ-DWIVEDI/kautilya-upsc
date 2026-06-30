@@ -1,0 +1,152 @@
+{
+  "id": "local-eco-016",
+  "section": "Economy",
+  "category": "Public Finance",
+  "topic": "Budget Architecture, Deficits, Public Debt and FRBM",
+  "subtopic": "Receipts, expenditure, deficit identities, debt dynamics, fiscal multipliers and responsibility rules",
+  "slug": "economy-budget-deficits-debt-frbm",
+  "anatomy": "upsc12",
+  "content": {
+    "issueStory": "A fiscal deficit is not automatically reckless and a balanced budget is not automatically wise. The quality, timing and financing of expenditure matter: productive capital spending during a downturn differs from persistent borrowing for low-value commitments.",
+    "coreConcept": "The budget classifies revenue and capital receipts and expenditure. Revenue deficit, fiscal deficit and primary deficit answer different questions. Debt is a stock accumulated from past borrowing; deficit is a flow. Sustainability depends on growth, interest costs, primary balance, currency, maturity and contingent liabilities.",
+    "dimensions": [
+      "Revenue account: recurring receipts and expenditure reveal current fiscal operations but classification does not alone determine value.",
+      "Capital account: asset creation, liability reduction, borrowing and recovery of loans require careful interpretation.",
+      "Deficit identities: fiscal deficit measures total borrowing need; primary deficit removes current interest payments.",
+      "Debt dynamics: the interest-growth differential and primary balance shape debt-to-GDP evolution.",
+      "Macroeconomic role: automatic stabilisers and discretionary spending affect demand through multipliers and crowding channels.",
+      "Fiscal rules: FRBM-style anchors seek credibility while escape clauses preserve flexibility for exceptional shocks."
+    ],
+    "constitutionalLink": "Articles 112-117 govern the Union Budget process; Articles 266-267 cover public funds, while FRBM legislation creates fiscal transparency and responsibility duties.",
+    "dataReport": "Uploaded source basis: STATIC_01_Economy.pdf government budgeting, fiscal policy, FRBM, debt and transfer sections plus PYQ deficit questions. Refresh rates, targets, weights, thresholds and year-specific figures from official sources: Union Budget documents, Controller General of Accounts, RBI public-finance data and latest Economic Survey. Stable mechanisms belong in this note; current values must be dated in an answer.",
+    "caseStudy": "Countercyclical support during a severe downturn can widen the deficit temporarily, but a credible medium-term path and transparent contingent-liability accounting remain essential.",
+    "argumentsFor": [
+      "Fiscal policy stabilises demand and funds public goods.",
+      "Capital expenditure can crowd in private investment.",
+      "Rules improve transparency and intergenerational discipline."
+    ],
+    "argumentsAgainst": [
+      "Persistent revenue gaps can compress development space.",
+      "Off-budget borrowing can hide risk.",
+      "Rigid annual targets can force procyclical cuts."
+    ],
+    "pyqLink": "PYQs test receipt-expenditure classification, deficit formulas, debt versus deficit and FRBM logic. Reconstruct each identity rather than memorising a label.",
+    "answerFramework": {
+      "intro": "Budget Architecture, Deficits, Public Debt and FRBM should be introduced through its economic identity or causal mechanism before moving to Indian institutions and policy trade-offs.",
+      "body": [
+        "Classify receipts and expenditure.",
+        "Write revenue, fiscal and primary deficit identities.",
+        "Assess debt sustainability through growth, interest and primary balance.",
+        "Recommend expenditure quality, transparency and flexible medium-term rules."
+      ],
+      "conclusion": "A high-scoring Economy answer keeps the accounting correct, traces transmission, identifies winners and losers, and separates stable principles from changing policy values."
+    },
+    "mainsExamples": [
+      "Road investment as capital expenditure with future service flow.",
+      "Interest payment as revenue expenditure.",
+      "Government borrowing from the market financing the fiscal deficit."
+    ],
+    "prelimsFacts": [
+      "Fiscal deficit is a flow for a period.",
+      "Public debt is a stock at a point in time.",
+      "Primary deficit equals fiscal deficit minus interest payments.",
+      "Borrowing is a capital receipt that creates liability.",
+      "Disinvestment is a non-debt capital receipt.",
+      "Contingent liabilities can become explicit public debt."
+    ],
+    "revisionBox": [
+      {
+        "prompt": "What is the central mechanism in Budget Architecture, Deficits, Public Debt and FRBM?",
+        "answer": "The budget classifies revenue and capital receipts and expenditure. Revenue deficit, fiscal deficit and primary deficit answer different questions. Debt is a stock accumulated from past borrowing; deficit is a flow. Sustainability depends on growth, interest costs, primary balance, currency, maturity and contingent liabilities."
+      },
+      {
+        "prompt": "What is the fastest prelims elimination rule?",
+        "answer": "Do not call every capital receipt government income without liability or asset loss."
+      },
+      {
+        "prompt": "Which Indian example best anchors a mains answer?",
+        "answer": "Road investment as capital expenditure with future service flow."
+      },
+      {
+        "prompt": "Which official source should refresh changing figures?",
+        "answer": "Union Budget documents, Controller General of Accounts, RBI public-finance data and latest Economic Survey"
+      }
+    ]
+  },
+  "story": "A fiscal deficit is not automatically reckless and a balanced budget is not automatically wise. The quality, timing and financing of expenditure matter: productive capital spending during a downturn differs from persistent borrowing for low-value commitments.",
+  "core_concept": "The budget classifies revenue and capital receipts and expenditure. Revenue deficit, fiscal deficit and primary deficit answer different questions. Debt is a stock accumulated from past borrowing; deficit is a flow. Sustainability depends on growth, interest costs, primary balance, currency, maturity and contingent liabilities.",
+  "mnemonic": "R-C-D-S: Revenue, Capital, Deficit, Sustainability.",
+  "mindmap_json": {
+    "center": "Budget Architecture, Deficits, Public Debt and FRBM",
+    "branches": [
+      {
+        "label": "Mechanism",
+        "children": [
+          "Revenue account: recurring receipts and expenditure reveal current fiscal operations but classification does not alone determine value.",
+          "Capital account: asset creation, liability reduction, borrowing and recovery of loans require careful interpretation."
+        ]
+      },
+      {
+        "label": "Transmission",
+        "children": [
+          "Deficit identities: fiscal deficit measures total borrowing need; primary deficit removes current interest payments.",
+          "Debt dynamics: the interest-growth differential and primary balance shape debt-to-GDP evolution."
+        ]
+      },
+      {
+        "label": "Policy",
+        "children": [
+          "Macroeconomic role: automatic stabilisers and discretionary spending affect demand through multipliers and crowding channels.",
+          "Fiscal rules: FRBM-style anchors seek credibility while escape clauses preserve flexibility for exceptional shocks."
+        ]
+      },
+      {
+        "label": "Traps",
+        "children": [
+          "Do not call every capital receipt government income without liability or asset loss.",
+          "Do not confuse fiscal deficit with total public debt.",
+          "Do not infer spending quality solely from revenue-capital classification."
+        ]
+      }
+    ]
+  },
+  "key_facts": [
+    "Fiscal deficit is a flow for a period.",
+    "Public debt is a stock at a point in time.",
+    "Primary deficit equals fiscal deficit minus interest payments.",
+    "Borrowing is a capital receipt that creates liability.",
+    "Disinvestment is a non-debt capital receipt.",
+    "Contingent liabilities can become explicit public debt."
+  ],
+  "common_traps": [
+    "Do not call every capital receipt government income without liability or asset loss.",
+    "Do not confuse fiscal deficit with total public debt.",
+    "Do not infer spending quality solely from revenue-capital classification."
+  ],
+  "pyq_refs": [
+    {
+      "year": 2021,
+      "exam": "UPSC CSE Prelims",
+      "question": "PYQ pattern: statement and mechanism testing within Budget Architecture, Deficits, Public Debt and FRBM.",
+      "answer": "Resolve each statement through the governing identity, direction of change and institutional role.",
+      "pattern_note": "PYQs test receipt-expenditure classification, deficit formulas, debt versus deficit and FRBM logic. Reconstruct each identity rather than memorising a label."
+    },
+    {
+      "year": 2018,
+      "exam": "UPSC CSE Mains",
+      "question": "PYQ pattern: analyse the Indian policy implications of Budget Architecture, Deficits, Public Debt and FRBM.",
+      "answer": "Use a causal chain, one Indian example, distributional effects and a calibrated reform path.",
+      "pattern_note": "Mains rewards mechanism plus policy trade-off, not a list of schemes."
+    }
+  ],
+  "pyq_count": 10,
+  "last_asked": 2021,
+  "high_yield": true,
+  "read_time_mins": 13,
+  "difficulty": "Hard",
+  "status": "published",
+  "source_type": "uploaded-economy-static-pyq-secondary",
+  "version": 1,
+  "created_at": "2026-07-01T00:00:00+05:30",
+  "updated_at": "2026-07-01T00:00:00+05:30"
+}

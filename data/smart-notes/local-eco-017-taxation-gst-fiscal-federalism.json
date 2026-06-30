@@ -1,0 +1,152 @@
+{
+  "id": "local-eco-017",
+  "section": "Economy",
+  "category": "Public Finance",
+  "topic": "Taxation, GST and Fiscal Federalism",
+  "subtopic": "Tax design, incidence, direct-indirect distinction, value-added chain and Union-State resource sharing",
+  "slug": "economy-taxation-gst-fiscal-federalism",
+  "anatomy": "upsc12",
+  "content": {
+    "issueStory": "Who deposits a tax is not always who bears it. Firms may shift tax through prices, wages or returns depending on elasticities, while federal tax design must also decide which level collects, who receives and how unequal capacities are balanced.",
+    "coreConcept": "Taxes raise revenue, redistribute income, correct externalities and influence behaviour. Direct and indirect labels describe legal structure, while economic incidence depends on market response. GST is a destination-based value-added tax using input-tax credit to reduce cascading across the supply chain.",
+    "dimensions": [
+      "Design principles: adequacy, equity, efficiency, certainty, simplicity and administrability can conflict.",
+      "Progressivity: average tax burden can rise with ability to pay, while indirect taxes may be regressive without exemptions or transfers.",
+      "Incidence: relative elasticity determines how burden is shared among consumers, workers and owners.",
+      "GST chain: tax on value added with input credit creates invoice linkage and destination-based revenue.",
+      "Federal assignment: constitutional powers divide tax bases while the divisible pool and grants address vertical imbalance.",
+      "Horizontal equity: devolution formulas balance need, capacity, population, ecology and performance among States."
+    ],
+    "constitutionalLink": "Articles 246A, 269A and 279A establish GST powers and Council arrangements; Articles 270, 275 and 280 structure tax devolution, grants and the Finance Commission.",
+    "dataReport": "Uploaded source basis: STATIC_01_Economy.pdf taxation, GST, fiscal policy and Union-State transfer sections plus PYQ public-finance patterns. Refresh rates, targets, weights, thresholds and year-specific figures from official sources: GST Council and CBIC notifications, Union Budget tax documents and current Finance Commission reports. Stable mechanisms belong in this note; current values must be dated in an answer.",
+    "caseStudy": "GST converted many cascading indirect taxes into a credit-linked value-added system, while rate complexity, compliance burden and compensation debates reveal the federal and administrative dimensions.",
+    "argumentsFor": [
+      "Input credit reduces tax-on-tax when the chain functions.",
+      "A common market can lower internal trade friction.",
+      "Devolution and grants support shared national standards."
+    ],
+    "argumentsAgainst": [
+      "Multiple rates and exemptions complicate credits.",
+      "Compliance costs weigh more heavily on small firms.",
+      "Destination-based revenue can create producing-consuming State tensions."
+    ],
+    "pyqLink": "PYQs test progressive-regressive logic, direct versus indirect taxes, GST destination principle and constitutional institutions. Separate legal payer, economic bearer and revenue recipient.",
+    "answerFramework": {
+      "intro": "Taxation, GST and Fiscal Federalism should be introduced through its economic identity or causal mechanism before moving to Indian institutions and policy trade-offs.",
+      "body": [
+        "State objectives and principles of taxation.",
+        "Explain incidence using elasticity.",
+        "Trace GST output tax minus eligible input credit.",
+        "Evaluate cooperative federalism through Council design, devolution and predictable compensation rules."
+      ],
+      "conclusion": "A high-scoring Economy answer keeps the accounting correct, traces transmission, identifies winners and losers, and separates stable principles from changing policy values."
+    },
+    "mainsExamples": [
+      "Excise or GST burden shared according to demand and supply elasticity.",
+      "Input-tax credit reducing cascading between manufacturer and retailer.",
+      "Finance Commission tax devolution addressing vertical imbalance."
+    ],
+    "prelimsFacts": [
+      "GST is destination based.",
+      "Input-tax credit is central to value-added taxation.",
+      "Zero rating and exemption have different credit implications.",
+      "The GST Council is created under Article 279A.",
+      "The Finance Commission is constituted under Article 280.",
+      "Tax incidence can differ from statutory liability."
+    ],
+    "revisionBox": [
+      {
+        "prompt": "What is the central mechanism in Taxation, GST and Fiscal Federalism?",
+        "answer": "Taxes raise revenue, redistribute income, correct externalities and influence behaviour. Direct and indirect labels describe legal structure, while economic incidence depends on market response. GST is a destination-based value-added tax using input-tax credit to reduce cascading across the supply chain."
+      },
+      {
+        "prompt": "What is the fastest prelims elimination rule?",
+        "answer": "Do not assume firms always bear a tax they remit."
+      },
+      {
+        "prompt": "Which Indian example best anchors a mains answer?",
+        "answer": "Excise or GST burden shared according to demand and supply elasticity."
+      },
+      {
+        "prompt": "Which official source should refresh changing figures?",
+        "answer": "GST Council and CBIC notifications, Union Budget tax documents and current Finance Commission reports"
+      }
+    ]
+  },
+  "story": "Who deposits a tax is not always who bears it. Firms may shift tax through prices, wages or returns depending on elasticities, while federal tax design must also decide which level collects, who receives and how unequal capacities are balanced.",
+  "core_concept": "Taxes raise revenue, redistribute income, correct externalities and influence behaviour. Direct and indirect labels describe legal structure, while economic incidence depends on market response. GST is a destination-based value-added tax using input-tax credit to reduce cascading across the supply chain.",
+  "mnemonic": "D-I-V-F: Design, Incidence, Value-add, Federalism.",
+  "mindmap_json": {
+    "center": "Taxation, GST and Fiscal Federalism",
+    "branches": [
+      {
+        "label": "Mechanism",
+        "children": [
+          "Design principles: adequacy, equity, efficiency, certainty, simplicity and administrability can conflict.",
+          "Progressivity: average tax burden can rise with ability to pay, while indirect taxes may be regressive without exemptions or transfers."
+        ]
+      },
+      {
+        "label": "Transmission",
+        "children": [
+          "Incidence: relative elasticity determines how burden is shared among consumers, workers and owners.",
+          "GST chain: tax on value added with input credit creates invoice linkage and destination-based revenue."
+        ]
+      },
+      {
+        "label": "Policy",
+        "children": [
+          "Federal assignment: constitutional powers divide tax bases while the divisible pool and grants address vertical imbalance.",
+          "Horizontal equity: devolution formulas balance need, capacity, population, ecology and performance among States."
+        ]
+      },
+      {
+        "label": "Traps",
+        "children": [
+          "Do not assume firms always bear a tax they remit.",
+          "Do not equate zero-rated supply with ordinary exemption.",
+          "Do not confuse GST Council recommendations with Parliament or State legislative enactment."
+        ]
+      }
+    ]
+  },
+  "key_facts": [
+    "GST is destination based.",
+    "Input-tax credit is central to value-added taxation.",
+    "Zero rating and exemption have different credit implications.",
+    "The GST Council is created under Article 279A.",
+    "The Finance Commission is constituted under Article 280.",
+    "Tax incidence can differ from statutory liability."
+  ],
+  "common_traps": [
+    "Do not assume firms always bear a tax they remit.",
+    "Do not equate zero-rated supply with ordinary exemption.",
+    "Do not confuse GST Council recommendations with Parliament or State legislative enactment."
+  ],
+  "pyq_refs": [
+    {
+      "year": 2021,
+      "exam": "UPSC CSE Prelims",
+      "question": "PYQ pattern: statement and mechanism testing within Taxation, GST and Fiscal Federalism.",
+      "answer": "Resolve each statement through the governing identity, direction of change and institutional role.",
+      "pattern_note": "PYQs test progressive-regressive logic, direct versus indirect taxes, GST destination principle and constitutional institutions. Separate legal payer, economic bearer and revenue recipient."
+    },
+    {
+      "year": 2018,
+      "exam": "UPSC CSE Mains",
+      "question": "PYQ pattern: analyse the Indian policy implications of Taxation, GST and Fiscal Federalism.",
+      "answer": "Use a causal chain, one Indian example, distributional effects and a calibrated reform path.",
+      "pattern_note": "Mains rewards mechanism plus policy trade-off, not a list of schemes."
+    }
+  ],
+  "pyq_count": 10,
+  "last_asked": 2021,
+  "high_yield": true,
+  "read_time_mins": 13,
+  "difficulty": "Hard",
+  "status": "published",
+  "source_type": "uploaded-economy-static-pyq-secondary",
+  "version": 1,
+  "created_at": "2026-07-01T00:00:00+05:30",
+  "updated_at": "2026-07-01T00:00:00+05:30"
+}
