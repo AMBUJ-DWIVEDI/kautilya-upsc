@@ -1,0 +1,153 @@
+{
+  "id": "local-geo-024",
+  "section": "Geography",
+  "category": "Indian Geography",
+  "topic": "Peninsular Plateau, Ghats and Deccan Landscapes",
+  "subtopic": "Cratonic structure, plateau divisions, escarpments, drainage asymmetry and resource geography",
+  "slug": "geography-peninsular-plateau-ghats-deccan",
+  "anatomy": "upsc12",
+  "content": {
+    "issueStory": "Peninsular India is often called stable, but stable does not mean featureless. Ancient cratons, rifts, basalt flows, residual uplands and faulted escarpments organise its rivers, minerals, soils and settlement.",
+    "coreConcept": "The Peninsular Plateau is an ancient shield complex of cratons, mobile belts, plateaus, rifts and volcanic provinces. Its general eastward tilt, western escarpment and structural lineaments explain drainage asymmetry and major resource belts.",
+    "dimensions": [
+      "Geological base: Archean cratons and ancient metamorphic belts contain major metallic minerals.",
+      "Central highlands and Deccan Plateau form broad northern and southern physiographic divisions.",
+      "Deccan Trap basalt creates stepped relief and contributes parent material for black soils.",
+      "Western Ghats form a more continuous, higher escarpment than the discontinuous Eastern Ghats.",
+      "Most major rivers flow east on gentler gradients, while Narmada and Tapi follow structural troughs westward.",
+      "Relief, rain shadow, minerals and transport corridors shape agriculture, industry and urban concentration."
+    ],
+    "constitutionalLink": "Mining regulation, watershed management, forest protection and interstate river institutions connect plateau geography to Articles 39(b), 48A and 262.",
+    "dataReport": "Primary uploaded sources: STATIC_03 Indian Geography physiography, drainage, soil and mineral sections plus PYQ region-feature associations. This note uses stable conceptual relationships and PYQ patterns; update event-specific data from current official sources before using it in a live mains answer.",
+    "caseStudy": "The Western Ghats combine escarpment rainfall, short west-flowing rivers, biodiversity endemism and intense infrastructure-development trade-offs.",
+    "argumentsFor": [
+      "Shield geology provides mineral resources.",
+      "Plateau rivers support irrigation and hydropower.",
+      "Ghats create biodiversity, rainfall and watershed services."
+    ],
+    "argumentsAgainst": [
+      "Hard-rock aquifers have limited and uneven storage.",
+      "Mining can fragment forests and pollute catchments.",
+      "Rain-shadow interiors face recurring water stress."
+    ],
+    "pyqLink": "PYQs test plateau-range-river pairs, Ghats comparisons, rift-valley rivers, basalt-soil links and mineral belts. Solve by structure and slope.",
+    "answerFramework": {
+      "intro": "Peninsular Plateau, Ghats and Deccan Landscapes is best understood as a spatial process in which origin, controlling conditions, resulting pattern and human significance must be connected.",
+      "body": [
+        "Establish the ancient shield and major plateau divisions.",
+        "Overlay Ghats, tilt, rifts and drainage on a sketch map.",
+        "Connect geology to soils, minerals, water and industries.",
+        "Conclude with watershed and landscape-scale resource governance."
+      ],
+      "conclusion": "A high-scoring geography answer converts process into pattern, locates the pattern with examples, and closes with risk-sensitive or resource-sensitive planning."
+    },
+    "mainsExamples": [
+      "Deccan Trap basalt and regur soils.",
+      "Narmada and Tapi in structural troughs.",
+      "Chota Nagpur Plateau as a mineral-industrial region."
+    ],
+    "prelimsFacts": [
+      "The Peninsular block is older than the Himalayan fold belt.",
+      "Western Ghats are generally more continuous than Eastern Ghats.",
+      "Many east-flowing rivers build broad deltas.",
+      "Narmada and Tapi flow west through structural valleys.",
+      "Basalt weathering contributes to black-soil development.",
+      "Cratonic regions can still experience intraplate earthquakes."
+    ],
+    "revisionBox": [
+      {
+        "prompt": "What is the central process chain in Peninsular Plateau, Ghats and Deccan Landscapes?",
+        "answer": "The Peninsular Plateau is an ancient shield complex of cratons, mobile belts, plateaus, rifts and volcanic provinces. Its general eastward tilt, western escarpment and structural lineaments explain drainage asymmetry and major resource belts."
+      },
+      {
+        "prompt": "What is the fastest prelims elimination rule?",
+        "answer": "Do not call Peninsular India completely tectonically inactive."
+      },
+      {
+        "prompt": "Which example best anchors a mains answer?",
+        "answer": "Deccan Trap basalt and regur soils."
+      },
+      {
+        "prompt": "How should the conclusion move beyond description?",
+        "answer": "Conclude with watershed and landscape-scale resource governance."
+      }
+    ]
+  },
+  "story": "Peninsular India is often called stable, but stable does not mean featureless. Ancient cratons, rifts, basalt flows, residual uplands and faulted escarpments organise its rivers, minerals, soils and settlement.",
+  "core_concept": "The Peninsular Plateau is an ancient shield complex of cratons, mobile belts, plateaus, rifts and volcanic provinces. Its general eastward tilt, western escarpment and structural lineaments explain drainage asymmetry and major resource belts.",
+  "mnemonic": "C-B-G-R: Craton, Basalt, Ghats, Rifts.",
+  "mindmap_json": {
+    "center": "Peninsular Plateau, Ghats and Deccan Landscapes",
+    "branches": [
+      {
+        "label": "Process",
+        "children": [
+          "Geological base: Archean cratons and ancient metamorphic belts contain major metallic minerals.",
+          "Central highlands and Deccan Plateau form broad northern and southern physiographic divisions."
+        ]
+      },
+      {
+        "label": "Pattern",
+        "children": [
+          "Deccan Trap basalt creates stepped relief and contributes parent material for black soils.",
+          "Western Ghats form a more continuous, higher escarpment than the discontinuous Eastern Ghats."
+        ]
+      },
+      {
+        "label": "Application",
+        "children": [
+          "Deccan Trap basalt and regur soils.",
+          "Narmada and Tapi in structural troughs.",
+          "Chota Nagpur Plateau as a mineral-industrial region."
+        ]
+      },
+      {
+        "label": "Traps",
+        "children": [
+          "Do not call Peninsular India completely tectonically inactive.",
+          "Do not assume all Peninsular rivers flow east.",
+          "Do not reverse the continuity of Western and Eastern Ghats."
+        ]
+      }
+    ]
+  },
+  "key_facts": [
+    "The Peninsular block is older than the Himalayan fold belt.",
+    "Western Ghats are generally more continuous than Eastern Ghats.",
+    "Many east-flowing rivers build broad deltas.",
+    "Narmada and Tapi flow west through structural valleys.",
+    "Basalt weathering contributes to black-soil development.",
+    "Cratonic regions can still experience intraplate earthquakes."
+  ],
+  "common_traps": [
+    "Do not call Peninsular India completely tectonically inactive.",
+    "Do not assume all Peninsular rivers flow east.",
+    "Do not reverse the continuity of Western and Eastern Ghats."
+  ],
+  "pyq_refs": [
+    {
+      "year": 2021,
+      "exam": "UPSC CSE Prelims",
+      "question": "PYQ pattern: statement and association testing within Peninsular Plateau, Ghats and Deccan Landscapes.",
+      "answer": "Resolve each statement through process, location and necessary conditions.",
+      "pattern_note": "PYQs test plateau-range-river pairs, Ghats comparisons, rift-valley rivers, basalt-soil links and mineral belts. Solve by structure and slope."
+    },
+    {
+      "year": 2013,
+      "exam": "UPSC CSE Mains",
+      "question": "PYQ pattern: explain the process and spatial consequences of Peninsular Plateau, Ghats and Deccan Landscapes.",
+      "answer": "Use a labelled diagram, causal sequence, regional examples and a planning implication.",
+      "pattern_note": "Mains rewards mechanism plus spatial expression, not a catalogue of terms."
+    }
+  ],
+  "pyq_count": 9,
+  "last_asked": 2021,
+  "high_yield": true,
+  "read_time_mins": 13,
+  "difficulty": "Hard",
+  "status": "published",
+  "source_type": "uploaded-geography-static-pyq-secondary",
+  "version": 1,
+  "created_at": "2026-06-30T00:00:00+05:30",
+  "updated_at": "2026-06-30T00:00:00+05:30"
+}
