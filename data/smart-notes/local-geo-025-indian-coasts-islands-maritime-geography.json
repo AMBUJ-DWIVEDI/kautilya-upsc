@@ -1,0 +1,153 @@
+{
+  "id": "local-geo-025",
+  "section": "Geography",
+  "category": "Indian Geography",
+  "topic": "Indian Coasts, Islands, Straits and Maritime Geography",
+  "subtopic": "Coastal-plain contrasts, island origin, channels, ports, ecosystems and strategic location",
+  "slug": "geography-indian-coasts-islands-maritime-geography",
+  "anatomy": "upsc12",
+  "content": {
+    "issueStory": "India’s maritime geography is a system of two contrasting coasts, island chains of different origin, narrow channels, monsoon sea routes, ports and highly productive but exposed ecosystems.",
+    "coreConcept": "The western and eastern coastal plains differ in width, submergence-emergence character, river mouths and delta development. Lakshadweep is predominantly coral, while Andaman-Nicobar is a tectonic island arc close to crucial Southeast Asian sea lanes.",
+    "dimensions": [
+      "Western coast is generally narrower, more indented and associated with estuaries and natural harbour settings.",
+      "Eastern coast is generally broader and receives large delta-building rivers.",
+      "Lakshadweep islands are coral atolls and reefs on submarine ridge foundations.",
+      "Andaman-Nicobar islands form an arcuate tectonic chain with volcanic and seismic activity.",
+      "Channels such as Ten Degree, Eight Degree and Six Degree organise island and regional mapping.",
+      "Mangroves, reefs, ports, fisheries, tourism and naval access create ecological-strategic overlap."
+    ],
+    "constitutionalLink": "Coastal Regulation Zone rules, Island Coastal Regulation, marine protected areas, disaster plans and UNCLOS-based rights govern a sensitive maritime domain.",
+    "dataReport": "Primary uploaded sources: STATIC_03 Indian Geography coasts, islands, ports and waterways sections plus PYQ map associations. This note uses stable conceptual relationships and PYQ patterns; update event-specific data from current official sources before using it in a live mains answer.",
+    "caseStudy": "Great Nicobar sits close to the Malacca-bound shipping corridor, creating strategic opportunity alongside exceptional ecological and indigenous-community sensitivity.",
+    "argumentsFor": [
+      "Islands extend maritime reach and monitoring.",
+      "Ports and coastal corridors support trade.",
+      "Reefs and mangroves protect biodiversity and shorelines."
+    ],
+    "argumentsAgainst": [
+      "Small islands have limited freshwater and carrying capacity.",
+      "Coastal infrastructure can disrupt sediment and habitats.",
+      "Cyclones, tsunami and sea-level rise create compound exposure."
+    ],
+    "pyqLink": "PYQs test island origin, channel-location pairs, east-west coast contrasts, ports and mangroves. Map every named feature relative to nearby land and sea.",
+    "answerFramework": {
+      "intro": "Indian Coasts, Islands, Straits and Maritime Geography is best understood as a spatial process in which origin, controlling conditions, resulting pattern and human significance must be connected.",
+      "body": [
+        "Compare east and west coastal plains.",
+        "Separate coral Lakshadweep from tectonic Andaman-Nicobar origins.",
+        "Map channels, ports and adjacent international sea lanes.",
+        "Balance maritime strategy with island carrying capacity and ecosystem safeguards."
+      ],
+      "conclusion": "A high-scoring geography answer converts process into pattern, locates the pattern with examples, and closes with risk-sensitive or resource-sensitive planning."
+    },
+    "mainsExamples": [
+      "Gulf of Kachchh as an indented western coastal setting.",
+      "Mahanadi-Godavari-Krishna-Kaveri deltaic east coast.",
+      "Barren Island in the Andaman Sea as an active volcano."
+    ],
+    "prelimsFacts": [
+      "Lakshadweep is mainly coral in origin.",
+      "Ten Degree Channel separates Andaman and Nicobar groups.",
+      "Eight Degree Channel lies between Minicoy and Maldives.",
+      "Six Degree Channel lies south of Great Nicobar toward Indonesia.",
+      "Large east-flowing rivers form major deltas.",
+      "Mangroves attenuate waves but do not eliminate cyclone risk."
+    ],
+    "revisionBox": [
+      {
+        "prompt": "What is the central process chain in Indian Coasts, Islands, Straits and Maritime Geography?",
+        "answer": "The western and eastern coastal plains differ in width, submergence-emergence character, river mouths and delta development. Lakshadweep is predominantly coral, while Andaman-Nicobar is a tectonic island arc close to crucial Southeast Asian sea lanes."
+      },
+      {
+        "prompt": "What is the fastest prelims elimination rule?",
+        "answer": "Do not describe Lakshadweep as a volcanic island arc."
+      },
+      {
+        "prompt": "Which example best anchors a mains answer?",
+        "answer": "Gulf of Kachchh as an indented western coastal setting."
+      },
+      {
+        "prompt": "How should the conclusion move beyond description?",
+        "answer": "Balance maritime strategy with island carrying capacity and ecosystem safeguards."
+      }
+    ]
+  },
+  "story": "India’s maritime geography is a system of two contrasting coasts, island chains of different origin, narrow channels, monsoon sea routes, ports and highly productive but exposed ecosystems.",
+  "core_concept": "The western and eastern coastal plains differ in width, submergence-emergence character, river mouths and delta development. Lakshadweep is predominantly coral, while Andaman-Nicobar is a tectonic island arc close to crucial Southeast Asian sea lanes.",
+  "mnemonic": "W-E-L-A: West-estuaries, East-deltas, Lakshadweep-coral, Andaman-arc.",
+  "mindmap_json": {
+    "center": "Indian Coasts, Islands, Straits and Maritime Geography",
+    "branches": [
+      {
+        "label": "Process",
+        "children": [
+          "Western coast is generally narrower, more indented and associated with estuaries and natural harbour settings.",
+          "Eastern coast is generally broader and receives large delta-building rivers."
+        ]
+      },
+      {
+        "label": "Pattern",
+        "children": [
+          "Lakshadweep islands are coral atolls and reefs on submarine ridge foundations.",
+          "Andaman-Nicobar islands form an arcuate tectonic chain with volcanic and seismic activity."
+        ]
+      },
+      {
+        "label": "Application",
+        "children": [
+          "Gulf of Kachchh as an indented western coastal setting.",
+          "Mahanadi-Godavari-Krishna-Kaveri deltaic east coast.",
+          "Barren Island in the Andaman Sea as an active volcano."
+        ]
+      },
+      {
+        "label": "Traps",
+        "children": [
+          "Do not describe Lakshadweep as a volcanic island arc.",
+          "Do not interchange Ten Degree and Eight Degree channels.",
+          "Do not assume every west-coast river forms a delta."
+        ]
+      }
+    ]
+  },
+  "key_facts": [
+    "Lakshadweep is mainly coral in origin.",
+    "Ten Degree Channel separates Andaman and Nicobar groups.",
+    "Eight Degree Channel lies between Minicoy and Maldives.",
+    "Six Degree Channel lies south of Great Nicobar toward Indonesia.",
+    "Large east-flowing rivers form major deltas.",
+    "Mangroves attenuate waves but do not eliminate cyclone risk."
+  ],
+  "common_traps": [
+    "Do not describe Lakshadweep as a volcanic island arc.",
+    "Do not interchange Ten Degree and Eight Degree channels.",
+    "Do not assume every west-coast river forms a delta."
+  ],
+  "pyq_refs": [
+    {
+      "year": 2021,
+      "exam": "UPSC CSE Prelims",
+      "question": "PYQ pattern: statement and association testing within Indian Coasts, Islands, Straits and Maritime Geography.",
+      "answer": "Resolve each statement through process, location and necessary conditions.",
+      "pattern_note": "PYQs test island origin, channel-location pairs, east-west coast contrasts, ports and mangroves. Map every named feature relative to nearby land and sea."
+    },
+    {
+      "year": 2013,
+      "exam": "UPSC CSE Mains",
+      "question": "PYQ pattern: explain the process and spatial consequences of Indian Coasts, Islands, Straits and Maritime Geography.",
+      "answer": "Use a labelled diagram, causal sequence, regional examples and a planning implication.",
+      "pattern_note": "Mains rewards mechanism plus spatial expression, not a catalogue of terms."
+    }
+  ],
+  "pyq_count": 9,
+  "last_asked": 2021,
+  "high_yield": true,
+  "read_time_mins": 13,
+  "difficulty": "Hard",
+  "status": "published",
+  "source_type": "uploaded-geography-static-pyq-secondary",
+  "version": 1,
+  "created_at": "2026-06-30T00:00:00+05:30",
+  "updated_at": "2026-06-30T00:00:00+05:30"
+}

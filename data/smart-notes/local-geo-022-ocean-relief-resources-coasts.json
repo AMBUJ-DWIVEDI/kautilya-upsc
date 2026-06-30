@@ -1,0 +1,153 @@
+{
+  "id": "local-geo-022",
+  "section": "Geography",
+  "category": "Oceanography",
+  "topic": "Ocean Relief, Marine Resources and Coastal Processes",
+  "subtopic": "Continental margins, deep-ocean features, marine resources, jurisdiction and sediment cells",
+  "slug": "geography-ocean-relief-resources-coasts",
+  "anatomy": "upsc12",
+  "content": {
+    "issueStory": "The ocean floor is structured terrain: shelf, slope, rise, abyssal plain, ridge, trench and seamount. That relief controls habitat, sediment, cables, fisheries, hydrocarbons, minerals and strategic access.",
+    "coreConcept": "Ocean relief reflects continental margins and plate tectonics, while marine-resource potential depends on depth, productivity, sedimentary setting and legal jurisdiction. Coastal form is maintained by linked sediment sources, transfers and sinks rather than by a fixed shoreline.",
+    "dimensions": [
+      "Continental shelf is the shallow submerged continental edge and often supports fisheries, hydrocarbons and offshore infrastructure.",
+      "Slope and submarine canyons transfer sediment toward the deep ocean; a continental rise is prominent on many passive margins.",
+      "Abyssal plains are broad deep areas mantled by fine sediment, while ridges and trenches mark constructive and destructive plate settings.",
+      "Upwelling raises nutrient-rich water and can sustain highly productive fishing grounds.",
+      "EEZ rights concern resource exploration and use, while navigation freedoms and continental-shelf claims follow distinct legal rules.",
+      "Coastal sediment budgets integrate river supply, cliff erosion, waves, tides, currents, ports, dams and sand mining."
+    ],
+    "constitutionalLink": "UNCLOS-based maritime entitlements, coastal-zone regulation, marine spatial planning and Article 48A connect ocean resources with ecological stewardship.",
+    "dataReport": "Primary uploaded sources: STATIC_02 Physical Geography ocean-relief chapter, STATIC_03 Indian Geography coast and resource sections, and PYQ oceanography questions. This note uses stable conceptual relationships and PYQ patterns; update event-specific data from current official sources before using it in a live mains answer.",
+    "caseStudy": "Kerala and Odisha coastal erosion show how monsoon waves, sediment supply, ports and shore structures interact across littoral cells.",
+    "argumentsFor": [
+      "Shelf mapping supports energy and fisheries planning.",
+      "Marine spatial planning can reduce user conflict.",
+      "Sediment-cell analysis improves coastal adaptation."
+    ],
+    "argumentsAgainst": [
+      "Deep-sea extraction carries poorly known ecological costs.",
+      "Hard protection may shift erosion downdrift.",
+      "EEZ rights do not amount to full territorial sovereignty."
+    ],
+    "pyqLink": "PYQs test shelf-slope-trench associations, upwelling fisheries, current effects and maritime zones. Distinguish geomorphic feature, resource process and legal entitlement.",
+    "answerFramework": {
+      "intro": "Ocean Relief, Marine Resources and Coastal Processes is best understood as a spatial process in which origin, controlling conditions, resulting pattern and human significance must be connected.",
+      "body": [
+        "Sketch a continental margin from coast to abyss.",
+        "Link each relief unit to tectonic origin and resource potential.",
+        "Explain coastal change through sediment budget and wave-current transfer.",
+        "Balance blue-economy use with precautionary marine governance."
+      ],
+      "conclusion": "A high-scoring geography answer converts process into pattern, locates the pattern with examples, and closes with risk-sensitive or resource-sensitive planning."
+    },
+    "mainsExamples": [
+      "Grand Banks productivity from shelf setting and water-mass interaction.",
+      "Peru-Humboldt upwelling fisheries.",
+      "Indian Ocean ridges and trenches as tectonic relief."
+    ],
+    "prelimsFacts": [
+      "Shelves are generally shallower and gentler than continental slopes.",
+      "Trenches are commonly linked with subduction.",
+      "Mid-ocean ridges form at divergent boundaries.",
+      "Upwelling brings deeper nutrient-rich water upward.",
+      "An EEZ generally extends up to 200 nautical miles subject to delimitation.",
+      "Longshore drift can transfer sediment along a coast."
+    ],
+    "revisionBox": [
+      {
+        "prompt": "What is the central process chain in Ocean Relief, Marine Resources and Coastal Processes?",
+        "answer": "Ocean relief reflects continental margins and plate tectonics, while marine-resource potential depends on depth, productivity, sedimentary setting and legal jurisdiction. Coastal form is maintained by linked sediment sources, transfers and sinks rather than by a fixed shoreline."
+      },
+      {
+        "prompt": "What is the fastest prelims elimination rule?",
+        "answer": "Do not equate EEZ with territorial sea."
+      },
+      {
+        "prompt": "Which example best anchors a mains answer?",
+        "answer": "Grand Banks productivity from shelf setting and water-mass interaction."
+      },
+      {
+        "prompt": "How should the conclusion move beyond description?",
+        "answer": "Balance blue-economy use with precautionary marine governance."
+      }
+    ]
+  },
+  "story": "The ocean floor is structured terrain: shelf, slope, rise, abyssal plain, ridge, trench and seamount. That relief controls habitat, sediment, cables, fisheries, hydrocarbons, minerals and strategic access.",
+  "core_concept": "Ocean relief reflects continental margins and plate tectonics, while marine-resource potential depends on depth, productivity, sedimentary setting and legal jurisdiction. Coastal form is maintained by linked sediment sources, transfers and sinks rather than by a fixed shoreline.",
+  "mnemonic": "S-S-R-A-R: Shelf, Slope, Rise, Abyss, Ridge.",
+  "mindmap_json": {
+    "center": "Ocean Relief, Marine Resources and Coastal Processes",
+    "branches": [
+      {
+        "label": "Process",
+        "children": [
+          "Continental shelf is the shallow submerged continental edge and often supports fisheries, hydrocarbons and offshore infrastructure.",
+          "Slope and submarine canyons transfer sediment toward the deep ocean; a continental rise is prominent on many passive margins."
+        ]
+      },
+      {
+        "label": "Pattern",
+        "children": [
+          "Abyssal plains are broad deep areas mantled by fine sediment, while ridges and trenches mark constructive and destructive plate settings.",
+          "Upwelling raises nutrient-rich water and can sustain highly productive fishing grounds."
+        ]
+      },
+      {
+        "label": "Application",
+        "children": [
+          "Grand Banks productivity from shelf setting and water-mass interaction.",
+          "Peru-Humboldt upwelling fisheries.",
+          "Indian Ocean ridges and trenches as tectonic relief."
+        ]
+      },
+      {
+        "label": "Traps",
+        "children": [
+          "Do not equate EEZ with territorial sea.",
+          "Do not place trenches at divergent ridges.",
+          "Do not assume every shelf is equally broad or resource-rich."
+        ]
+      }
+    ]
+  },
+  "key_facts": [
+    "Shelves are generally shallower and gentler than continental slopes.",
+    "Trenches are commonly linked with subduction.",
+    "Mid-ocean ridges form at divergent boundaries.",
+    "Upwelling brings deeper nutrient-rich water upward.",
+    "An EEZ generally extends up to 200 nautical miles subject to delimitation.",
+    "Longshore drift can transfer sediment along a coast."
+  ],
+  "common_traps": [
+    "Do not equate EEZ with territorial sea.",
+    "Do not place trenches at divergent ridges.",
+    "Do not assume every shelf is equally broad or resource-rich."
+  ],
+  "pyq_refs": [
+    {
+      "year": 2021,
+      "exam": "UPSC CSE Prelims",
+      "question": "PYQ pattern: statement and association testing within Ocean Relief, Marine Resources and Coastal Processes.",
+      "answer": "Resolve each statement through process, location and necessary conditions.",
+      "pattern_note": "PYQs test shelf-slope-trench associations, upwelling fisheries, current effects and maritime zones. Distinguish geomorphic feature, resource process and legal entitlement."
+    },
+    {
+      "year": 2013,
+      "exam": "UPSC CSE Mains",
+      "question": "PYQ pattern: explain the process and spatial consequences of Ocean Relief, Marine Resources and Coastal Processes.",
+      "answer": "Use a labelled diagram, causal sequence, regional examples and a planning implication.",
+      "pattern_note": "Mains rewards mechanism plus spatial expression, not a catalogue of terms."
+    }
+  ],
+  "pyq_count": 9,
+  "last_asked": 2021,
+  "high_yield": true,
+  "read_time_mins": 13,
+  "difficulty": "Hard",
+  "status": "published",
+  "source_type": "uploaded-geography-static-pyq-secondary",
+  "version": 1,
+  "created_at": "2026-06-30T00:00:00+05:30",
+  "updated_at": "2026-06-30T00:00:00+05:30"
+}
