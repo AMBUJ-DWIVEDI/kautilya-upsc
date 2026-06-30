@@ -1,0 +1,152 @@
+{
+  "id": "local-eco-022",
+  "section": "Economy",
+  "category": "Financial Sector",
+  "topic": "Money Market and Short-Term Instruments",
+  "subtopic": "Overnight and short-maturity funding, Treasury bills, commercial paper, certificates of deposit and repo",
+  "slug": "economy-money-market-short-term-instruments",
+  "anatomy": "upsc12",
+  "content": {
+    "issueStory": "The money market is the plumbing of finance. It moves short-term funds among government, banks, firms, funds and the central bank, allowing daily settlement and liquidity adjustment without converting every mismatch into a long-term loan.",
+    "coreConcept": "Money markets trade short-maturity debt and collateralised funding, typically up to one year. Instruments differ by issuer, collateral, negotiability, discount or coupon form, maturity, credit risk and eligibility, while central-bank operations anchor overnight conditions.",
+    "dimensions": [
+      "Call and notice money address very short unsecured inter-institution funding.",
+      "Treasury bills are short-term sovereign instruments commonly issued at discount and redeemed at face value.",
+      "Commercial paper is unsecured short-term corporate borrowing by eligible issuers.",
+      "Certificates of deposit are negotiable time-deposit instruments issued by eligible financial institutions.",
+      "Repo is collateralised borrowing through sale and repurchase of securities, central to liquidity and monetary operations.",
+      "Market function: benchmarks, collateral, clearing and counterparty limits distribute liquidity and credit risk."
+    ],
+    "constitutionalLink": "RBI money-market directions, government-securities law, payment and settlement oversight and SEBI rules for funds and listed instruments structure the market.",
+    "dataReport": "Uploaded source basis: STATIC_01_Economy.pdf financial-market and money-market instrument sections plus PYQ near-money patterns. Refresh rates, targets, weights, thresholds and year-specific figures from official sources: RBI money-market publications, CCIL data, government borrowing calendars and SEBI fund disclosures. Stable mechanisms belong in this note; current values must be dated in an answer.",
+    "caseStudy": "A temporary liquidity deficit can be met through collateralised repo without forcing a bank to sell long-duration assets at distressed prices.",
+    "argumentsFor": [
+      "Short-term markets smooth payment and funding mismatches.",
+      "Treasury bills provide sovereign liquidity instruments.",
+      "Benchmarks transmit monetary policy."
+    ],
+    "argumentsAgainst": [
+      "Unsecured markets can freeze under counterparty fear.",
+      "Rollover dependence creates funding risk.",
+      "Short maturity does not eliminate credit risk."
+    ],
+    "pyqLink": "PYQs test issuer-instrument pairs, near money, discount issuance and money-versus-capital market. Classify by maturity, issuer, collateral and claim type.",
+    "answerFramework": {
+      "intro": "Money Market and Short-Term Instruments should be introduced through its economic identity or causal mechanism before moving to Indian institutions and policy trade-offs.",
+      "body": [
+        "Define the maturity and liquidity purpose of money markets.",
+        "Compare issuer, collateral and pricing of major instruments.",
+        "Connect overnight rates to RBI operations.",
+        "Address rollover, counterparty and market-infrastructure risk."
+      ],
+      "conclusion": "A high-scoring Economy answer keeps the accounting correct, traces transmission, identifies winners and losers, and separates stable principles from changing policy values."
+    },
+    "mainsExamples": [
+      "Treasury bill financing short-term government needs.",
+      "Commercial paper funding a highly rated company’s working capital.",
+      "Repo against government securities for collateralised liquidity."
+    ],
+    "prelimsFacts": [
+      "Money markets focus on short maturities.",
+      "Treasury bills are sovereign short-term instruments.",
+      "Commercial paper is generally unsecured.",
+      "A certificate of deposit is negotiable under applicable rules.",
+      "Repo is collateralised.",
+      "A credit card is a credit facility, not a money-market security."
+    ],
+    "revisionBox": [
+      {
+        "prompt": "What is the central mechanism in Money Market and Short-Term Instruments?",
+        "answer": "Money markets trade short-maturity debt and collateralised funding, typically up to one year. Instruments differ by issuer, collateral, negotiability, discount or coupon form, maturity, credit risk and eligibility, while central-bank operations anchor overnight conditions."
+      },
+      {
+        "prompt": "What is the fastest prelims elimination rule?",
+        "answer": "Do not classify every liquid asset as currency."
+      },
+      {
+        "prompt": "Which Indian example best anchors a mains answer?",
+        "answer": "Treasury bill financing short-term government needs."
+      },
+      {
+        "prompt": "Which official source should refresh changing figures?",
+        "answer": "RBI money-market publications, CCIL data, government borrowing calendars and SEBI fund disclosures"
+      }
+    ]
+  },
+  "story": "The money market is the plumbing of finance. It moves short-term funds among government, banks, firms, funds and the central bank, allowing daily settlement and liquidity adjustment without converting every mismatch into a long-term loan.",
+  "core_concept": "Money markets trade short-maturity debt and collateralised funding, typically up to one year. Instruments differ by issuer, collateral, negotiability, discount or coupon form, maturity, credit risk and eligibility, while central-bank operations anchor overnight conditions.",
+  "mnemonic": "M-I-C-R: Maturity, Issuer, Collateral, Risk.",
+  "mindmap_json": {
+    "center": "Money Market and Short-Term Instruments",
+    "branches": [
+      {
+        "label": "Mechanism",
+        "children": [
+          "Call and notice money address very short unsecured inter-institution funding.",
+          "Treasury bills are short-term sovereign instruments commonly issued at discount and redeemed at face value."
+        ]
+      },
+      {
+        "label": "Transmission",
+        "children": [
+          "Commercial paper is unsecured short-term corporate borrowing by eligible issuers.",
+          "Certificates of deposit are negotiable time-deposit instruments issued by eligible financial institutions."
+        ]
+      },
+      {
+        "label": "Policy",
+        "children": [
+          "Repo is collateralised borrowing through sale and repurchase of securities, central to liquidity and monetary operations.",
+          "Market function: benchmarks, collateral, clearing and counterparty limits distribute liquidity and credit risk."
+        ]
+      },
+      {
+        "label": "Traps",
+        "children": [
+          "Do not classify every liquid asset as currency.",
+          "Do not call commercial paper government debt.",
+          "Do not equate short maturity with zero default or rollover risk."
+        ]
+      }
+    ]
+  },
+  "key_facts": [
+    "Money markets focus on short maturities.",
+    "Treasury bills are sovereign short-term instruments.",
+    "Commercial paper is generally unsecured.",
+    "A certificate of deposit is negotiable under applicable rules.",
+    "Repo is collateralised.",
+    "A credit card is a credit facility, not a money-market security."
+  ],
+  "common_traps": [
+    "Do not classify every liquid asset as currency.",
+    "Do not call commercial paper government debt.",
+    "Do not equate short maturity with zero default or rollover risk."
+  ],
+  "pyq_refs": [
+    {
+      "year": 2021,
+      "exam": "UPSC CSE Prelims",
+      "question": "PYQ pattern: statement and mechanism testing within Money Market and Short-Term Instruments.",
+      "answer": "Resolve each statement through the governing identity, direction of change and institutional role.",
+      "pattern_note": "PYQs test issuer-instrument pairs, near money, discount issuance and money-versus-capital market. Classify by maturity, issuer, collateral and claim type."
+    },
+    {
+      "year": 2018,
+      "exam": "UPSC CSE Mains",
+      "question": "PYQ pattern: analyse the Indian policy implications of Money Market and Short-Term Instruments.",
+      "answer": "Use a causal chain, one Indian example, distributional effects and a calibrated reform path.",
+      "pattern_note": "Mains rewards mechanism plus policy trade-off, not a list of schemes."
+    }
+  ],
+  "pyq_count": 10,
+  "last_asked": 2021,
+  "high_yield": true,
+  "read_time_mins": 13,
+  "difficulty": "Hard",
+  "status": "published",
+  "source_type": "uploaded-economy-static-pyq-secondary",
+  "version": 1,
+  "created_at": "2026-07-01T00:00:00+05:30",
+  "updated_at": "2026-07-01T00:00:00+05:30"
+}

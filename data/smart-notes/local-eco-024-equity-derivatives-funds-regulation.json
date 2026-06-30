@@ -1,0 +1,152 @@
+{
+  "id": "local-eco-024",
+  "section": "Economy",
+  "category": "Financial Sector",
+  "topic": "Equity, Derivatives, Mutual Funds and Market Regulation",
+  "subtopic": "Ownership claims, primary and secondary markets, risk-transfer contracts, pooled investment and investor protection",
+  "slug": "economy-equity-derivatives-funds-regulation",
+  "anatomy": "upsc12",
+  "content": {
+    "issueStory": "Equity finances ownership, bonds finance debt, mutual funds pool investor money, and derivatives transfer or reshape risk. Confusing the wrapper with the underlying asset is the fastest route to a wrong financial-market answer.",
+    "coreConcept": "Equity represents residual ownership; primary markets issue new claims and secondary markets trade existing ones. Derivatives derive value from an underlying price or index. Mutual funds pool portfolios through units, while regulation targets disclosure, fair dealing, custody, market integrity and suitability.",
+    "dimensions": [
+      "Equity claim: shareholders bear residual risk and may receive dividends and voting rights.",
+      "Market stage: IPO and follow-on issuance raise new capital, while secondary trade transfers ownership and provides liquidity.",
+      "Derivative form: forwards, futures, options and swaps allocate price, rate, currency or credit risk differently.",
+      "Hedging versus speculation: the same contract can reduce an existing exposure or create a new leveraged one.",
+      "Fund structure: portfolio objective, asset allocation, fees, liquidity and net asset value determine investor experience.",
+      "Regulation: disclosure, exchange surveillance, clearing, custody, insider-trading rules and grievance systems support trust."
+    ],
+    "constitutionalLink": "The SEBI Act, Securities Contracts framework, Companies Act and depository law regulate issuance, intermediaries, exchanges and investor protection.",
+    "dataReport": "Uploaded source basis: STATIC_01_Economy.pdf equity, derivatives, funds, exchanges and SEBI sections plus PYQ instrument patterns. Refresh rates, targets, weights, thresholds and year-specific figures from official sources: SEBI circulars and annual reports, exchange disclosures and Association of Mutual Funds in India data. Stable mechanisms belong in this note; current values must be dated in an answer.",
+    "caseStudy": "Index futures can hedge a diversified equity portfolio, but leverage and basis risk mean the hedge may not offset losses perfectly.",
+    "argumentsFor": [
+      "Equity supplies risk capital.",
+      "Secondary liquidity can lower issuance cost.",
+      "Funds diversify access and derivatives hedge risk."
+    ],
+    "argumentsAgainst": [
+      "Leverage can magnify loss.",
+      "Liquidity can vanish in stress.",
+      "Fees, mis-selling and complexity can harm retail investors."
+    ],
+    "pyqLink": "PYQs test primary-secondary markets, ownership versus debt, derivative underlyings, mutual-fund structure and regulator roles. Identify claim, issuer, holder and payoff.",
+    "answerFramework": {
+      "intro": "Equity, Derivatives, Mutual Funds and Market Regulation should be introduced through its economic identity or causal mechanism before moving to Indian institutions and policy trade-offs.",
+      "body": [
+        "Classify ownership, debt, pooled and derivative claims.",
+        "Separate primary capital formation from secondary liquidity.",
+        "Explain hedging payoff and leverage risk.",
+        "Conclude with disclosure, suitability, clearing and investor education."
+      ],
+      "conclusion": "A high-scoring Economy answer keeps the accounting correct, traces transmission, identifies winners and losers, and separates stable principles from changing policy values."
+    },
+    "mainsExamples": [
+      "IPO issuing new shares.",
+      "Exchange trade transferring existing shares.",
+      "Put option limiting downside for a fee."
+    ],
+    "prelimsFacts": [
+      "Equity is a residual ownership claim.",
+      "Secondary-market trades usually do not directly fund the issuer.",
+      "A derivative derives value from an underlying.",
+      "An option buyer has a right, not an obligation, subject to contract.",
+      "Mutual-fund investors own units of a pooled scheme.",
+      "SEBI regulates securities markets."
+    ],
+    "revisionBox": [
+      {
+        "prompt": "What is the central mechanism in Equity, Derivatives, Mutual Funds and Market Regulation?",
+        "answer": "Equity represents residual ownership; primary markets issue new claims and secondary markets trade existing ones. Derivatives derive value from an underlying price or index. Mutual funds pool portfolios through units, while regulation targets disclosure, fair dealing, custody, market integrity and suitability."
+      },
+      {
+        "prompt": "What is the fastest prelims elimination rule?",
+        "answer": "Do not call every secondary trade new capital formation."
+      },
+      {
+        "prompt": "Which Indian example best anchors a mains answer?",
+        "answer": "IPO issuing new shares."
+      },
+      {
+        "prompt": "Which official source should refresh changing figures?",
+        "answer": "SEBI circulars and annual reports, exchange disclosures and Association of Mutual Funds in India data"
+      }
+    ]
+  },
+  "story": "Equity finances ownership, bonds finance debt, mutual funds pool investor money, and derivatives transfer or reshape risk. Confusing the wrapper with the underlying asset is the fastest route to a wrong financial-market answer.",
+  "core_concept": "Equity represents residual ownership; primary markets issue new claims and secondary markets trade existing ones. Derivatives derive value from an underlying price or index. Mutual funds pool portfolios through units, while regulation targets disclosure, fair dealing, custody, market integrity and suitability.",
+  "mnemonic": "C-M-P-R: Claim, Market, Payoff, Regulation.",
+  "mindmap_json": {
+    "center": "Equity, Derivatives, Mutual Funds and Market Regulation",
+    "branches": [
+      {
+        "label": "Mechanism",
+        "children": [
+          "Equity claim: shareholders bear residual risk and may receive dividends and voting rights.",
+          "Market stage: IPO and follow-on issuance raise new capital, while secondary trade transfers ownership and provides liquidity."
+        ]
+      },
+      {
+        "label": "Transmission",
+        "children": [
+          "Derivative form: forwards, futures, options and swaps allocate price, rate, currency or credit risk differently.",
+          "Hedging versus speculation: the same contract can reduce an existing exposure or create a new leveraged one."
+        ]
+      },
+      {
+        "label": "Policy",
+        "children": [
+          "Fund structure: portfolio objective, asset allocation, fees, liquidity and net asset value determine investor experience.",
+          "Regulation: disclosure, exchange surveillance, clearing, custody, insider-trading rules and grievance systems support trust."
+        ]
+      },
+      {
+        "label": "Traps",
+        "children": [
+          "Do not call every secondary trade new capital formation.",
+          "Do not say derivatives always reduce risk.",
+          "Do not confuse a mutual fund unit with a bank deposit guarantee."
+        ]
+      }
+    ]
+  },
+  "key_facts": [
+    "Equity is a residual ownership claim.",
+    "Secondary-market trades usually do not directly fund the issuer.",
+    "A derivative derives value from an underlying.",
+    "An option buyer has a right, not an obligation, subject to contract.",
+    "Mutual-fund investors own units of a pooled scheme.",
+    "SEBI regulates securities markets."
+  ],
+  "common_traps": [
+    "Do not call every secondary trade new capital formation.",
+    "Do not say derivatives always reduce risk.",
+    "Do not confuse a mutual fund unit with a bank deposit guarantee."
+  ],
+  "pyq_refs": [
+    {
+      "year": 2021,
+      "exam": "UPSC CSE Prelims",
+      "question": "PYQ pattern: statement and mechanism testing within Equity, Derivatives, Mutual Funds and Market Regulation.",
+      "answer": "Resolve each statement through the governing identity, direction of change and institutional role.",
+      "pattern_note": "PYQs test primary-secondary markets, ownership versus debt, derivative underlyings, mutual-fund structure and regulator roles. Identify claim, issuer, holder and payoff."
+    },
+    {
+      "year": 2018,
+      "exam": "UPSC CSE Mains",
+      "question": "PYQ pattern: analyse the Indian policy implications of Equity, Derivatives, Mutual Funds and Market Regulation.",
+      "answer": "Use a causal chain, one Indian example, distributional effects and a calibrated reform path.",
+      "pattern_note": "Mains rewards mechanism plus policy trade-off, not a list of schemes."
+    }
+  ],
+  "pyq_count": 10,
+  "last_asked": 2021,
+  "high_yield": true,
+  "read_time_mins": 13,
+  "difficulty": "Hard",
+  "status": "published",
+  "source_type": "uploaded-economy-static-pyq-secondary",
+  "version": 1,
+  "created_at": "2026-07-01T00:00:00+05:30",
+  "updated_at": "2026-07-01T00:00:00+05:30"
+}

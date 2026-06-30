@@ -1,0 +1,152 @@
+{
+  "id": "local-eco-020",
+  "section": "Economy",
+  "category": "Monetary Policy",
+  "topic": "Monetary Policy Instruments and Transmission",
+  "subtopic": "Policy objective, operating framework, liquidity tools, interest-rate channels and transmission frictions",
+  "slug": "economy-monetary-policy-instruments-transmission",
+  "anatomy": "upsc12",
+  "content": {
+    "issueStory": "A policy-rate change does not teleport into household demand. It first affects overnight money-market conditions, bank funding and bond yields, then loan and deposit pricing, expectations, exchange rates, asset values and spending decisions.",
+    "coreConcept": "Monetary policy manages financial conditions to pursue the statutory inflation objective while considering growth. The operating framework steers short-term rates through policy rates, standing facilities, reserve requirements and liquidity operations; transmission depends on balance sheets and expectations.",
+    "dimensions": [
+      "Objective and committee: the MPC sets the policy stance within the statutory inflation-targeting framework.",
+      "Policy corridor: repo-linked operating rates and standing facilities influence overnight liquidity cost.",
+      "Quantity tools: CRR changes impounded reserves, while open-market and variable-rate operations inject or absorb durable or temporary liquidity.",
+      "Interest-rate channel: money-market rates influence bank funding, deposit rates, lending rates and bond yields.",
+      "Credit, expectations, asset and exchange channels alter borrowing, wealth, currency conditions and aggregate demand.",
+      "Friction: administered rates, bank capital, stressed assets, excess liquidity, loan contracts and weak demand can slow or weaken pass-through."
+    ],
+    "constitutionalLink": "The RBI Act establishes the MPC and monetary framework; transparency comes through resolutions, minutes, inflation reports and statutory accountability mechanisms.",
+    "dataReport": "Uploaded source basis: STATIC_01_Economy.pdf monetary-policy, instruments, liquidity and transmission sections plus PYQ rate-direction questions. Refresh rates, targets, weights, thresholds and year-specific figures from official sources: RBI MPC resolutions, Monetary Policy Report and current liquidity-framework notifications. Stable mechanisms belong in this note; current values must be dated in an answer.",
+    "caseStudy": "When banks hold stressed assets or face high funding costs, a policy-rate cut may not translate fully into new credit despite easier central-bank conditions.",
+    "argumentsFor": [
+      "Credible policy anchors inflation expectations.",
+      "Liquidity tools stabilise money markets.",
+      "Countercyclical easing can support viable demand and credit."
+    ],
+    "argumentsAgainst": [
+      "Monetary policy cannot directly produce food or repair supply chains.",
+      "Transmission is delayed and uneven.",
+      "Tightening can weaken investment and employment."
+    ],
+    "pyqLink": "PYQs test which tool injects or absorbs liquidity, rate-direction effects and MPC roles. Trace the central-bank balance sheet and borrower cost before answering.",
+    "answerFramework": {
+      "intro": "Monetary Policy Instruments and Transmission should be introduced through its economic identity or causal mechanism before moving to Indian institutions and policy trade-offs.",
+      "body": [
+        "State the objective and operating target.",
+        "Classify rate, reserve and market-operation instruments.",
+        "Draw the policy-rate to demand and inflation transmission chain.",
+        "Add frictions, supply shocks and the need for fiscal or structural coordination."
+      ],
+      "conclusion": "A high-scoring Economy answer keeps the accounting correct, traces transmission, identifies winners and losers, and separates stable principles from changing policy values."
+    },
+    "mainsExamples": [
+      "Open-market purchase injecting durable liquidity.",
+      "Higher CRR reducing lendable liquidity, other things equal.",
+      "External benchmark linkage speeding repricing of selected loans."
+    ],
+    "prelimsFacts": [
+      "Repo is a collateralised liquidity operation.",
+      "CRR is maintained with RBI under current rules.",
+      "SLR concerns specified liquid assets held by banks.",
+      "Open-market purchases inject base liquidity.",
+      "Transmission works with lags.",
+      "A nominal rate must be read alongside expected inflation for real conditions."
+    ],
+    "revisionBox": [
+      {
+        "prompt": "What is the central mechanism in Monetary Policy Instruments and Transmission?",
+        "answer": "Monetary policy manages financial conditions to pursue the statutory inflation objective while considering growth. The operating framework steers short-term rates through policy rates, standing facilities, reserve requirements and liquidity operations; transmission depends on balance sheets and expectations."
+      },
+      {
+        "prompt": "What is the fastest prelims elimination rule?",
+        "answer": "Do not say every liquidity injection is a policy-rate cut."
+      },
+      {
+        "prompt": "Which Indian example best anchors a mains answer?",
+        "answer": "Open-market purchase injecting durable liquidity."
+      },
+      {
+        "prompt": "Which official source should refresh changing figures?",
+        "answer": "RBI MPC resolutions, Monetary Policy Report and current liquidity-framework notifications"
+      }
+    ]
+  },
+  "story": "A policy-rate change does not teleport into household demand. It first affects overnight money-market conditions, bank funding and bond yields, then loan and deposit pricing, expectations, exchange rates, asset values and spending decisions.",
+  "core_concept": "Monetary policy manages financial conditions to pursue the statutory inflation objective while considering growth. The operating framework steers short-term rates through policy rates, standing facilities, reserve requirements and liquidity operations; transmission depends on balance sheets and expectations.",
+  "mnemonic": "O-I-T-F: Objective, Instruments, Transmission, Frictions.",
+  "mindmap_json": {
+    "center": "Monetary Policy Instruments and Transmission",
+    "branches": [
+      {
+        "label": "Mechanism",
+        "children": [
+          "Objective and committee: the MPC sets the policy stance within the statutory inflation-targeting framework.",
+          "Policy corridor: repo-linked operating rates and standing facilities influence overnight liquidity cost."
+        ]
+      },
+      {
+        "label": "Transmission",
+        "children": [
+          "Quantity tools: CRR changes impounded reserves, while open-market and variable-rate operations inject or absorb durable or temporary liquidity.",
+          "Interest-rate channel: money-market rates influence bank funding, deposit rates, lending rates and bond yields."
+        ]
+      },
+      {
+        "label": "Policy",
+        "children": [
+          "Credit, expectations, asset and exchange channels alter borrowing, wealth, currency conditions and aggregate demand.",
+          "Friction: administered rates, bank capital, stressed assets, excess liquidity, loan contracts and weak demand can slow or weaken pass-through."
+        ]
+      },
+      {
+        "label": "Traps",
+        "children": [
+          "Do not say every liquidity injection is a policy-rate cut.",
+          "Do not treat CRR and SLR as identical balances held at RBI.",
+          "Do not assume policy-rate changes pass fully and immediately to every loan."
+        ]
+      }
+    ]
+  },
+  "key_facts": [
+    "Repo is a collateralised liquidity operation.",
+    "CRR is maintained with RBI under current rules.",
+    "SLR concerns specified liquid assets held by banks.",
+    "Open-market purchases inject base liquidity.",
+    "Transmission works with lags.",
+    "A nominal rate must be read alongside expected inflation for real conditions."
+  ],
+  "common_traps": [
+    "Do not say every liquidity injection is a policy-rate cut.",
+    "Do not treat CRR and SLR as identical balances held at RBI.",
+    "Do not assume policy-rate changes pass fully and immediately to every loan."
+  ],
+  "pyq_refs": [
+    {
+      "year": 2021,
+      "exam": "UPSC CSE Prelims",
+      "question": "PYQ pattern: statement and mechanism testing within Monetary Policy Instruments and Transmission.",
+      "answer": "Resolve each statement through the governing identity, direction of change and institutional role.",
+      "pattern_note": "PYQs test which tool injects or absorbs liquidity, rate-direction effects and MPC roles. Trace the central-bank balance sheet and borrower cost before answering."
+    },
+    {
+      "year": 2018,
+      "exam": "UPSC CSE Mains",
+      "question": "PYQ pattern: analyse the Indian policy implications of Monetary Policy Instruments and Transmission.",
+      "answer": "Use a causal chain, one Indian example, distributional effects and a calibrated reform path.",
+      "pattern_note": "Mains rewards mechanism plus policy trade-off, not a list of schemes."
+    }
+  ],
+  "pyq_count": 10,
+  "last_asked": 2021,
+  "high_yield": true,
+  "read_time_mins": 13,
+  "difficulty": "Hard",
+  "status": "published",
+  "source_type": "uploaded-economy-static-pyq-secondary",
+  "version": 1,
+  "created_at": "2026-07-01T00:00:00+05:30",
+  "updated_at": "2026-07-01T00:00:00+05:30"
+}
