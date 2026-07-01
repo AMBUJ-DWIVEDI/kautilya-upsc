@@ -1,0 +1,152 @@
+{
+  "id": "local-pol-117",
+  "section": "Polity",
+  "category": "Constitutional Framework",
+  "topic": "Union Territory, State Reorganisation and Article 1-4 Logic",
+  "subtopic": "Territory of India, admission, establishment, boundary and name changes, and Union Territory administration",
+  "slug": "polity-union-territory-state-reorganisation",
+  "anatomy": "upsc12",
+  "content": {
+    "issueStory": "India is a Union of States, but Parliament can reorganise internal political geography through a constitutionally structured process that seeks State views without granting a State veto. Articles 1-4 distinguish the Union’s name and territory, admission or establishment of new States, and formation or alteration of States. A reorganisation bill requires presidential recommendation and reference to the affected State legislature for views; Parliament is not bound by those views.",
+    "coreConcept": "Articles 1-4 distinguish the Union’s name and territory, admission or establishment of new States, and formation or alteration of States. A reorganisation bill requires presidential recommendation and reference to the affected State legislature for views; Parliament is not bound by those views.",
+    "dimensions": [
+      "Article 1 describes India as a Union of States and defines the territory of India broadly.",
+      "Article 2 concerns admission or establishment of new States.",
+      "Article 3 covers formation of States and alteration of area, boundaries or names.",
+      "The President refers the proposal to affected State legislature for views within the allowed period.",
+      "Parliament decides by ordinary legislative process and may include supplemental and consequential provisions under Article 4.",
+      "Union Territories are administered under distinct constitutional arrangements, with some having legislatures by constitutional or statutory design."
+    ],
+    "constitutionalLink": "Articles 1-4, 239-241 and relevant State-reorganisation legislation.",
+    "dataReport": "Uploaded source basis: STATIC_09_Polity.pdf and PYQ_06_Polity_Governance.pdf. Refresh amendments, statutory rules, office status and later judgments from official sources: Constitution of India, India Code and Ministry of Home Affairs territorial legislation.",
+    "caseStudy": "Internal State reorganisation follows Article 3, while cession of Indian territory to a foreign State requires a constitutional-amendment route rather than ordinary Article 3 alteration.",
+    "argumentsFor": [
+      "Flexible reorganisation accommodates linguistic and administrative demands.",
+      "Presidential reference ensures formal consultation.",
+      "Parliamentary authority preserves national territorial coherence."
+    ],
+    "argumentsAgainst": [
+      "Affected States lack a constitutional veto.",
+      "Boundary change can generate identity and resource conflict.",
+      "Union Territory arrangements can raise democratic-accountability questions."
+    ],
+    "pyqLink": "UPSC patterns test Article-institution matches, exceptions, procedure and comparative statements within Union Territory, State Reorganisation and Article 1-4 Logic. Resolve each statement through source, scope, procedure and consequence.",
+    "answerFramework": {
+      "intro": "Introduce Union Territory, State Reorganisation and Article 1-4 Logic through the controlling constitutional principle and legal source.",
+      "body": [
+        "Map the authority: Articles 1-4, 239-241 and relevant State-reorganisation legislation.",
+        "Explain the first-order design: Article 1 describes India as a Union of States and defines the territory of India broadly. Article 2 concerns admission or establishment of new States. Article 3 covers formation of States and alteration of area, boundaries or names.",
+        "Analyse safeguards and tensions: The President refers the proposal to affected State legislature for views within the allowed period. Parliament decides by ordinary legislative process and may include supplemental and consequential provisions under Article 4. Union Territories are administered under distinct constitutional arrangements, with some having legislatures by constitutional or statutory design.",
+        "Use Internal State reorganisation follows Article 3, while cession of Indian territory to a foreign State requires a constitutional-amendment route rather than ordinary Article 3 alteration. and close with constitutional accountability plus dated legal verification."
+      ],
+      "conclusion": "A strong Polity answer joins constitutional text, institutional purpose, judicial doctrine and a workable accountability safeguard."
+    },
+    "mainsExamples": [
+      "Creation of a new State from an existing State.",
+      "Change of a State name by parliamentary law.",
+      "Union Territory with a legislature operating under a special framework."
+    ],
+    "prelimsFacts": [
+      "India is described as a Union of States.",
+      "Article 3 requires presidential recommendation for the bill.",
+      "The affected State legislature gives views, not consent binding Parliament.",
+      "Article 4 laws are not deemed Article 368 amendments for that reason alone.",
+      "Article 2 and Article 3 address different situations.",
+      "Territory of India includes more than territories of States."
+    ],
+    "revisionBox": [
+      {
+        "prompt": "What is the controlling rule in Union Territory, State Reorganisation and Article 1-4 Logic?",
+        "answer": "Articles 1-4 distinguish the Union’s name and territory, admission or establishment of new States, and formation or alteration of States. A reorganisation bill requires presidential recommendation and reference to the affected State legislature for views; Parliament is not bound by those views."
+      },
+      {
+        "prompt": "What is the primary constitutional or legal authority?",
+        "answer": "Articles 1-4, 239-241 and relevant State-reorganisation legislation."
+      },
+      {
+        "prompt": "What is the fastest elimination trap?",
+        "answer": "Do not say State consent is constitutionally mandatory under Article 3."
+      },
+      {
+        "prompt": "Where should later legal changes be verified?",
+        "answer": "Constitution of India, India Code and Ministry of Home Affairs territorial legislation"
+      }
+    ]
+  },
+  "story": "India is a Union of States, but Parliament can reorganise internal political geography through a constitutionally structured process that seeks State views without granting a State veto.",
+  "core_concept": "Articles 1-4 distinguish the Union’s name and territory, admission or establishment of new States, and formation or alteration of States. A reorganisation bill requires presidential recommendation and reference to the affected State legislature for views; Parliament is not bound by those views.",
+  "mnemonic": "U-A-R-C: Union, Admit, Reorganise, Consult.",
+  "mindmap_json": {
+    "center": "Union Territory, State Reorganisation and Article 1-4 Logic",
+    "branches": [
+      {
+        "label": "Text",
+        "children": [
+          "Article 1 describes India as a Union of States and defines the territory of India broadly.",
+          "Article 2 concerns admission or establishment of new States."
+        ]
+      },
+      {
+        "label": "Institution",
+        "children": [
+          "Article 3 covers formation of States and alteration of area, boundaries or names.",
+          "The President refers the proposal to affected State legislature for views within the allowed period."
+        ]
+      },
+      {
+        "label": "Safeguard",
+        "children": [
+          "Parliament decides by ordinary legislative process and may include supplemental and consequential provisions under Article 4.",
+          "Union Territories are administered under distinct constitutional arrangements, with some having legislatures by constitutional or statutory design."
+        ]
+      },
+      {
+        "label": "Traps",
+        "children": [
+          "Do not say State consent is constitutionally mandatory under Article 3.",
+          "Do not use Article 3 for foreign cession without amendment.",
+          "Do not treat every Union Territory as having identical governance."
+        ]
+      }
+    ]
+  },
+  "key_facts": [
+    "India is described as a Union of States.",
+    "Article 3 requires presidential recommendation for the bill.",
+    "The affected State legislature gives views, not consent binding Parliament.",
+    "Article 4 laws are not deemed Article 368 amendments for that reason alone.",
+    "Article 2 and Article 3 address different situations.",
+    "Territory of India includes more than territories of States."
+  ],
+  "common_traps": [
+    "Do not say State consent is constitutionally mandatory under Article 3.",
+    "Do not use Article 3 for foreign cession without amendment.",
+    "Do not treat every Union Territory as having identical governance."
+  ],
+  "pyq_refs": [
+    {
+      "year": 2021,
+      "exam": "UPSC CSE Prelims",
+      "question": "PYQ pattern: constitutional statement testing on Union Territory, State Reorganisation and Article 1-4 Logic.",
+      "answer": "Check text, scope, exception and competent authority.",
+      "pattern_note": "Prelims often reverses institutions, procedures or exceptions."
+    },
+    {
+      "year": 2019,
+      "exam": "UPSC CSE Mains",
+      "question": "PYQ pattern: evaluate the constitutional tension within Union Territory, State Reorganisation and Article 1-4 Logic.",
+      "answer": "Use text, doctrine, institutional practice and reform.",
+      "pattern_note": "Mains rewards constitutional balance over one-sided description."
+    }
+  ],
+  "pyq_count": 10,
+  "last_asked": 2021,
+  "high_yield": true,
+  "read_time_mins": 13,
+  "difficulty": "Hard",
+  "status": "published",
+  "source_type": "uploaded-polity-static-pyq-secondary",
+  "version": 1,
+  "created_at": "2026-07-01T00:00:00+05:30",
+  "updated_at": "2026-07-01T00:00:00+05:30"
+}
