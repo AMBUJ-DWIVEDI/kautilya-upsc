@@ -37,4 +37,10 @@ describe('Polity secondary-core smart notes', () => {
       expect(note.content.dataReport).toContain('official')
     }
   })
+
+  it('does not hide time-sensitive legal claims behind a vague baseline', () => {
+    const serialized = JSON.stringify(secondary)
+    expect(serialized).not.toContain('dated baseline')
+    expect(serialized).not.toContain('note baseline')
+  })
 })
