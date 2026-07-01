@@ -1,0 +1,152 @@
+{
+  "id": "local-pol-129",
+  "section": "Polity",
+  "category": "Federalism",
+  "topic": "Fifth Schedule, Sixth Schedule and Article 371 Provisions",
+  "subtopic": "Scheduled Areas, Tribal Areas, autonomous councils and asymmetric State-specific safeguards",
+  "slug": "polity-fifth-sixth-schedules-article-371",
+  "anatomy": "upsc12",
+  "content": {
+    "issueStory": "Uniform federal design cannot answer every historical, tribal and regional context; the Constitution therefore uses multiple asymmetric models rather than one generic special-status formula. The Fifth Schedule governs Scheduled Areas and Scheduled Tribes in specified States through Governor, Tribes Advisory Council and presidential roles. The Sixth Schedule creates autonomous district and regional councils in specified northeastern States. Articles 371 and following create State-specific arrangements.",
+    "coreConcept": "The Fifth Schedule governs Scheduled Areas and Scheduled Tribes in specified States through Governor, Tribes Advisory Council and presidential roles. The Sixth Schedule creates autonomous district and regional councils in specified northeastern States. Articles 371 and following create State-specific arrangements.",
+    "dimensions": [
+      "Fifth Schedule areas are declared by the President and governed through a distinct administrative framework.",
+      "The Governor may make reports and regulations within constitutional and statutory limits.",
+      "Tribes Advisory Councils support consultation in relevant States.",
+      "Sixth Schedule councils possess specified legislative, judicial, administrative and financial powers subject to constitutional design.",
+      "Fifth and Sixth Schedule coverage applies to different territorial sets and institutions.",
+      "Article 371 provisions differ State by State in subject, office, region and safeguard."
+    ],
+    "constitutionalLink": "Articles 244 and 244A; Fifth and Sixth Schedules; Articles 371-371J; PESA and relevant autonomy laws.",
+    "dataReport": "Uploaded source basis: STATIC_09_Polity.pdf and PYQ_06_Polity_Governance.pdf. Refresh amendments, statutory rules, office status and later judgments from official sources: Constitution of India, Ministry of Tribal Affairs, Ministry of Home Affairs and State laws.",
+    "caseStudy": "A Sixth Schedule autonomous district council is not the same institution as a Fifth Schedule Tribes Advisory Council; their territorial basis and powers differ.",
+    "argumentsFor": [
+      "Asymmetry protects distinctive institutions.",
+      "Autonomy can bring decision-making closer to communities.",
+      "Constitutional recognition supports plural federalism."
+    ],
+    "argumentsAgainst": [
+      "Overlapping authorities create coordination disputes.",
+      "Formal autonomy may lack fiscal capacity.",
+      "State-specific provisions are easily overgeneralised."
+    ],
+    "pyqLink": "UPSC patterns test Article-institution matches, exceptions, procedure and comparative statements within Fifth Schedule, Sixth Schedule and Article 371 Provisions. Resolve each statement through source, scope, procedure and consequence.",
+    "answerFramework": {
+      "intro": "Introduce Fifth Schedule, Sixth Schedule and Article 371 Provisions through the controlling constitutional principle and legal source.",
+      "body": [
+        "Map the authority: Articles 244 and 244A; Fifth and Sixth Schedules; Articles 371-371J; PESA and relevant autonomy laws.",
+        "Explain the first-order design: Fifth Schedule areas are declared by the President and governed through a distinct administrative framework. The Governor may make reports and regulations within constitutional and statutory limits. Tribes Advisory Councils support consultation in relevant States.",
+        "Analyse safeguards and tensions: Sixth Schedule councils possess specified legislative, judicial, administrative and financial powers subject to constitutional design. Fifth and Sixth Schedule coverage applies to different territorial sets and institutions. Article 371 provisions differ State by State in subject, office, region and safeguard.",
+        "Use A Sixth Schedule autonomous district council is not the same institution as a Fifth Schedule Tribes Advisory Council; their territorial basis and powers differ. and close with constitutional accountability plus dated legal verification."
+      ],
+      "conclusion": "A strong Polity answer joins constitutional text, institutional purpose, judicial doctrine and a workable accountability safeguard."
+    },
+    "mainsExamples": [
+      "Scheduled Area under Fifth Schedule.",
+      "Autonomous district council under Sixth Schedule.",
+      "State-specific Article 371 safeguard."
+    ],
+    "prelimsFacts": [
+      "Article 244 connects to Fifth and Sixth Schedules.",
+      "The President declares Scheduled Areas.",
+      "Tribes Advisory Council belongs to Fifth Schedule design.",
+      "Sixth Schedule names specified northeastern States.",
+      "Autonomous councils have enumerated powers.",
+      "Article 371 provisions are not uniform."
+    ],
+    "revisionBox": [
+      {
+        "prompt": "What is the controlling rule in Fifth Schedule, Sixth Schedule and Article 371 Provisions?",
+        "answer": "The Fifth Schedule governs Scheduled Areas and Scheduled Tribes in specified States through Governor, Tribes Advisory Council and presidential roles. The Sixth Schedule creates autonomous district and regional councils in specified northeastern States. Articles 371 and following create State-specific arrangements."
+      },
+      {
+        "prompt": "What is the primary constitutional or legal authority?",
+        "answer": "Articles 244 and 244A; Fifth and Sixth Schedules; Articles 371-371J; PESA and relevant autonomy laws."
+      },
+      {
+        "prompt": "What is the fastest elimination trap?",
+        "answer": "Do not interchange Fifth and Sixth Schedule institutions."
+      },
+      {
+        "prompt": "Where should later legal changes be verified?",
+        "answer": "Constitution of India, Ministry of Tribal Affairs, Ministry of Home Affairs and State laws"
+      }
+    ]
+  },
+  "story": "Uniform federal design cannot answer every historical, tribal and regional context; the Constitution therefore uses multiple asymmetric models rather than one generic special-status formula.",
+  "core_concept": "The Fifth Schedule governs Scheduled Areas and Scheduled Tribes in specified States through Governor, Tribes Advisory Council and presidential roles. The Sixth Schedule creates autonomous district and regional councils in specified northeastern States. Articles 371 and following create State-specific arrangements.",
+  "mnemonic": "F-S-A: Fifth, Sixth, Asymmetry.",
+  "mindmap_json": {
+    "center": "Fifth Schedule, Sixth Schedule and Article 371 Provisions",
+    "branches": [
+      {
+        "label": "Text",
+        "children": [
+          "Fifth Schedule areas are declared by the President and governed through a distinct administrative framework.",
+          "The Governor may make reports and regulations within constitutional and statutory limits."
+        ]
+      },
+      {
+        "label": "Institution",
+        "children": [
+          "Tribes Advisory Councils support consultation in relevant States.",
+          "Sixth Schedule councils possess specified legislative, judicial, administrative and financial powers subject to constitutional design."
+        ]
+      },
+      {
+        "label": "Safeguard",
+        "children": [
+          "Fifth and Sixth Schedule coverage applies to different territorial sets and institutions.",
+          "Article 371 provisions differ State by State in subject, office, region and safeguard."
+        ]
+      },
+      {
+        "label": "Traps",
+        "children": [
+          "Do not interchange Fifth and Sixth Schedule institutions.",
+          "Do not call every tribal area a Sixth Schedule area.",
+          "Do not generalise one Article 371 clause to all States."
+        ]
+      }
+    ]
+  },
+  "key_facts": [
+    "Article 244 connects to Fifth and Sixth Schedules.",
+    "The President declares Scheduled Areas.",
+    "Tribes Advisory Council belongs to Fifth Schedule design.",
+    "Sixth Schedule names specified northeastern States.",
+    "Autonomous councils have enumerated powers.",
+    "Article 371 provisions are not uniform."
+  ],
+  "common_traps": [
+    "Do not interchange Fifth and Sixth Schedule institutions.",
+    "Do not call every tribal area a Sixth Schedule area.",
+    "Do not generalise one Article 371 clause to all States."
+  ],
+  "pyq_refs": [
+    {
+      "year": 2021,
+      "exam": "UPSC CSE Prelims",
+      "question": "PYQ pattern: constitutional statement testing on Fifth Schedule, Sixth Schedule and Article 371 Provisions.",
+      "answer": "Check text, scope, exception and competent authority.",
+      "pattern_note": "Prelims often reverses institutions, procedures or exceptions."
+    },
+    {
+      "year": 2019,
+      "exam": "UPSC CSE Mains",
+      "question": "PYQ pattern: evaluate the constitutional tension within Fifth Schedule, Sixth Schedule and Article 371 Provisions.",
+      "answer": "Use text, doctrine, institutional practice and reform.",
+      "pattern_note": "Mains rewards constitutional balance over one-sided description."
+    }
+  ],
+  "pyq_count": 10,
+  "last_asked": 2021,
+  "high_yield": true,
+  "read_time_mins": 13,
+  "difficulty": "Hard",
+  "status": "published",
+  "source_type": "uploaded-polity-static-pyq-secondary",
+  "version": 1,
+  "created_at": "2026-07-01T00:00:00+05:30",
+  "updated_at": "2026-07-01T00:00:00+05:30"
+}

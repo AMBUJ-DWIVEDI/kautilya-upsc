@@ -1,0 +1,152 @@
+{
+  "id": "local-pol-130",
+  "section": "Polity",
+  "category": "Executive",
+  "topic": "President and Vice-President: Election, Powers and Removal",
+  "subtopic": "Electoral colleges, qualifications, aid and advice, veto, ordinance, pardon, impeachment and removal",
+  "slug": "polity-president-vice-president",
+  "anatomy": "upsc12",
+  "content": {
+    "issueStory": "The President is the constitutional head of the Union, not a rival political executive; powers are exercised within aid-and-advice rules and specified zones of constitutional judgment. The President is indirectly elected by a constitutionally weighted electoral college and ordinarily acts on ministerial advice. The Vice-President is elected by members of both Houses and serves ex officio as Rajya Sabha Chair. Their removal routes differ fundamentally.",
+    "coreConcept": "The President is indirectly elected by a constitutionally weighted electoral college and ordinarily acts on ministerial advice. The Vice-President is elected by members of both Houses and serves ex officio as Rajya Sabha Chair. Their removal routes differ fundamentally.",
+    "dimensions": [
+      "President’s electoral college includes elected MPs and elected MLAs of States and specified Union Territories under current text.",
+      "Vote value seeks balance between Union, States and population through constitutional formula.",
+      "Aid and advice may be returned once for reconsideration, after which reconsidered advice binds.",
+      "Legislative powers include assent choices, summons, messages and ordinance within constitutional conditions.",
+      "Clemency power differs between Union and State heads by offence and sentence context.",
+      "President is impeached for constitutional violation; Vice-President is removed by a distinct parliamentary resolution process."
+    ],
+    "constitutionalLink": "Articles 52-72 and 123; Articles 63-71; presidential-election law.",
+    "dataReport": "Uploaded source basis: STATIC_09_Polity.pdf and PYQ_06_Polity_Governance.pdf. Refresh amendments, statutory rules, office status and later judgments from official sources: Constitution of India, Election Commission and Parliament records.",
+    "caseStudy": "A President may return ordinary ministerial advice once for reconsideration but must act on the reconsidered advice, preserving deliberation without creating a parallel executive.",
+    "argumentsFor": [
+      "Indirect election gives federal legitimacy.",
+      "A non-partisan head supports continuity.",
+      "Reconsideration creates a limited cautionary check."
+    ],
+    "argumentsAgainst": [
+      "Discretion boundaries can become contested.",
+      "Ordinances can bypass ordinary deliberation.",
+      "Indirect election is complex for aspirants and citizens."
+    ],
+    "pyqLink": "UPSC patterns test Article-institution matches, exceptions, procedure and comparative statements within President and Vice-President: Election, Powers and Removal. Resolve each statement through source, scope, procedure and consequence.",
+    "answerFramework": {
+      "intro": "Introduce President and Vice-President: Election, Powers and Removal through the controlling constitutional principle and legal source.",
+      "body": [
+        "Map the authority: Articles 52-72 and 123; Articles 63-71; presidential-election law.",
+        "Explain the first-order design: President’s electoral college includes elected MPs and elected MLAs of States and specified Union Territories under current text. Vote value seeks balance between Union, States and population through constitutional formula. Aid and advice may be returned once for reconsideration, after which reconsidered advice binds.",
+        "Analyse safeguards and tensions: Legislative powers include assent choices, summons, messages and ordinance within constitutional conditions. Clemency power differs between Union and State heads by offence and sentence context. President is impeached for constitutional violation; Vice-President is removed by a distinct parliamentary resolution process.",
+        "Use A President may return ordinary ministerial advice once for reconsideration but must act on the reconsidered advice, preserving deliberation without creating a parallel executive. and close with constitutional accountability plus dated legal verification."
+      ],
+      "conclusion": "A strong Polity answer joins constitutional text, institutional purpose, judicial doctrine and a workable accountability safeguard."
+    },
+    "mainsExamples": [
+      "President returning an ordinary bill once.",
+      "Ordinance when both Houses are not in session under conditions.",
+      "Vice-President chairing Rajya Sabha."
+    ],
+    "prelimsFacts": [
+      "The President is part of Parliament.",
+      "Nominated MPs do not vote in the President’s election.",
+      "Members of both Houses participate in Vice-President election.",
+      "President impeachment and Vice-President removal differ.",
+      "No joint sitting resolves a constitutional amendment deadlock.",
+      "Article 72 concerns presidential clemency."
+    ],
+    "revisionBox": [
+      {
+        "prompt": "What is the controlling rule in President and Vice-President: Election, Powers and Removal?",
+        "answer": "The President is indirectly elected by a constitutionally weighted electoral college and ordinarily acts on ministerial advice. The Vice-President is elected by members of both Houses and serves ex officio as Rajya Sabha Chair. Their removal routes differ fundamentally."
+      },
+      {
+        "prompt": "What is the primary constitutional or legal authority?",
+        "answer": "Articles 52-72 and 123; Articles 63-71; presidential-election law."
+      },
+      {
+        "prompt": "What is the fastest elimination trap?",
+        "answer": "Do not use the same electoral college for President and Vice-President."
+      },
+      {
+        "prompt": "Where should later legal changes be verified?",
+        "answer": "Constitution of India, Election Commission and Parliament records"
+      }
+    ]
+  },
+  "story": "The President is the constitutional head of the Union, not a rival political executive; powers are exercised within aid-and-advice rules and specified zones of constitutional judgment.",
+  "core_concept": "The President is indirectly elected by a constitutionally weighted electoral college and ordinarily acts on ministerial advice. The Vice-President is elected by members of both Houses and serves ex officio as Rajya Sabha Chair. Their removal routes differ fundamentally.",
+  "mnemonic": "E-A-P-R: Election, Advice, Powers, Removal.",
+  "mindmap_json": {
+    "center": "President and Vice-President: Election, Powers and Removal",
+    "branches": [
+      {
+        "label": "Text",
+        "children": [
+          "President’s electoral college includes elected MPs and elected MLAs of States and specified Union Territories under current text.",
+          "Vote value seeks balance between Union, States and population through constitutional formula."
+        ]
+      },
+      {
+        "label": "Institution",
+        "children": [
+          "Aid and advice may be returned once for reconsideration, after which reconsidered advice binds.",
+          "Legislative powers include assent choices, summons, messages and ordinance within constitutional conditions."
+        ]
+      },
+      {
+        "label": "Safeguard",
+        "children": [
+          "Clemency power differs between Union and State heads by offence and sentence context.",
+          "President is impeached for constitutional violation; Vice-President is removed by a distinct parliamentary resolution process."
+        ]
+      },
+      {
+        "label": "Traps",
+        "children": [
+          "Do not use the same electoral college for President and Vice-President.",
+          "Do not call Vice-President removal impeachment.",
+          "Do not say President may permanently reject reconsidered ministerial advice."
+        ]
+      }
+    ]
+  },
+  "key_facts": [
+    "The President is part of Parliament.",
+    "Nominated MPs do not vote in the President’s election.",
+    "Members of both Houses participate in Vice-President election.",
+    "President impeachment and Vice-President removal differ.",
+    "No joint sitting resolves a constitutional amendment deadlock.",
+    "Article 72 concerns presidential clemency."
+  ],
+  "common_traps": [
+    "Do not use the same electoral college for President and Vice-President.",
+    "Do not call Vice-President removal impeachment.",
+    "Do not say President may permanently reject reconsidered ministerial advice."
+  ],
+  "pyq_refs": [
+    {
+      "year": 2021,
+      "exam": "UPSC CSE Prelims",
+      "question": "PYQ pattern: constitutional statement testing on President and Vice-President: Election, Powers and Removal.",
+      "answer": "Check text, scope, exception and competent authority.",
+      "pattern_note": "Prelims often reverses institutions, procedures or exceptions."
+    },
+    {
+      "year": 2019,
+      "exam": "UPSC CSE Mains",
+      "question": "PYQ pattern: evaluate the constitutional tension within President and Vice-President: Election, Powers and Removal.",
+      "answer": "Use text, doctrine, institutional practice and reform.",
+      "pattern_note": "Mains rewards constitutional balance over one-sided description."
+    }
+  ],
+  "pyq_count": 10,
+  "last_asked": 2021,
+  "high_yield": true,
+  "read_time_mins": 13,
+  "difficulty": "Medium",
+  "status": "published",
+  "source_type": "uploaded-polity-static-pyq-secondary",
+  "version": 1,
+  "created_at": "2026-07-01T00:00:00+05:30",
+  "updated_at": "2026-07-01T00:00:00+05:30"
+}
