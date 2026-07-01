@@ -1,0 +1,152 @@
+{
+  "id": "local-pol-140",
+  "section": "Polity",
+  "category": "Judiciary",
+  "topic": "Subordinate Courts, Tribunals, ADR, Lok Adalats and Legal Aid",
+  "subtopic": "District judiciary, High Court control, specialised adjudication, arbitration, mediation and access to justice",
+  "slug": "polity-subordinate-courts-tribunals-adr",
+  "anatomy": "upsc12",
+  "content": {
+    "issueStory": "Access to justice depends less on constitutional-court headlines than on functioning district courts, legal aid, timely procedure and suitable dispute-resolution paths. Articles 233-237 structure subordinate judiciary under High Court control. Tribunals specialise adjudication but remain subject to constitutional review. ADR includes negotiation, mediation, conciliation and arbitration; Lok Adalats provide statutory consensual settlement, while legal aid implements Article 39A.",
+    "coreConcept": "Articles 233-237 structure subordinate judiciary under High Court control. Tribunals specialise adjudication but remain subject to constitutional review. ADR includes negotiation, mediation, conciliation and arbitration; Lok Adalats provide statutory consensual settlement, while legal aid implements Article 39A.",
+    "dimensions": [
+      "District judge appointment and subordinate control divide roles among Governor, High Court and service rules.",
+      "Judicial independence at district level requires separation, infrastructure and secure administration.",
+      "Articles 323A and 323B authorise tribunal frameworks in different fields.",
+      "L. Chandra Kumar preserves High Court and Supreme Court review over tribunal decisions.",
+      "Arbitration yields adjudicatory awards; mediation seeks party agreement.",
+      "Lok Adalat awards follow statutory finality but ordinary Lok Adalat settlement depends on consent."
+    ],
+    "constitutionalLink": "Articles 39A, 50, 233-237, 323A-323B; Legal Services Authorities Act; arbitration and mediation statutes.",
+    "dataReport": "Uploaded source basis: STATIC_09_Polity.pdf and PYQ_06_Polity_Governance.pdf. Refresh amendments, statutory rules, office status and later judgments from official sources: Constitution of India, India Code, NALSA and Department of Justice.",
+    "caseStudy": "A tribunal may provide specialised first-instance adjudication, but cannot constitutionally replace the core judicial-review role of High Courts and Supreme Court.",
+    "argumentsFor": [
+      "District courts provide local justice.",
+      "Tribunals add expertise.",
+      "ADR can reduce cost and preserve relationships."
+    ],
+    "argumentsAgainst": [
+      "Vacancies and infrastructure create delay.",
+      "Tribunal executive control threatens independence.",
+      "ADR can reproduce bargaining inequality."
+    ],
+    "pyqLink": "UPSC patterns test Article-institution matches, exceptions, procedure and comparative statements within Subordinate Courts, Tribunals, ADR, Lok Adalats and Legal Aid. Resolve each statement through source, scope, procedure and consequence.",
+    "answerFramework": {
+      "intro": "Introduce Subordinate Courts, Tribunals, ADR, Lok Adalats and Legal Aid through the controlling constitutional principle and legal source.",
+      "body": [
+        "Map the authority: Articles 39A, 50, 233-237, 323A-323B; Legal Services Authorities Act; arbitration and mediation statutes.",
+        "Explain the first-order design: District judge appointment and subordinate control divide roles among Governor, High Court and service rules. Judicial independence at district level requires separation, infrastructure and secure administration. Articles 323A and 323B authorise tribunal frameworks in different fields.",
+        "Analyse safeguards and tensions: L. Chandra Kumar preserves High Court and Supreme Court review over tribunal decisions. Arbitration yields adjudicatory awards; mediation seeks party agreement. Lok Adalat awards follow statutory finality but ordinary Lok Adalat settlement depends on consent.",
+        "Use A tribunal may provide specialised first-instance adjudication, but cannot constitutionally replace the core judicial-review role of High Courts and Supreme Court. and close with constitutional accountability plus dated legal verification."
+      ],
+      "conclusion": "A strong Polity answer joins constitutional text, institutional purpose, judicial doctrine and a workable accountability safeguard."
+    },
+    "mainsExamples": [
+      "District judge appointment consultation.",
+      "Tribunal order reviewed by High Court.",
+      "Lok Adalat consensual settlement."
+    ],
+    "prelimsFacts": [
+      "High Courts control subordinate judiciary under constitutional provisions.",
+      "Article 39A concerns legal aid.",
+      "Article 323A concerns administrative tribunals.",
+      "Article 323B covers enumerated other matters.",
+      "Lok Adalat is statutory.",
+      "Arbitration and mediation produce different outcomes."
+    ],
+    "revisionBox": [
+      {
+        "prompt": "What is the controlling rule in Subordinate Courts, Tribunals, ADR, Lok Adalats and Legal Aid?",
+        "answer": "Articles 233-237 structure subordinate judiciary under High Court control. Tribunals specialise adjudication but remain subject to constitutional review. ADR includes negotiation, mediation, conciliation and arbitration; Lok Adalats provide statutory consensual settlement, while legal aid implements Article 39A."
+      },
+      {
+        "prompt": "What is the primary constitutional or legal authority?",
+        "answer": "Articles 39A, 50, 233-237, 323A-323B; Legal Services Authorities Act; arbitration and mediation statutes."
+      },
+      {
+        "prompt": "What is the fastest elimination trap?",
+        "answer": "Do not say tribunals eliminate High Court review."
+      },
+      {
+        "prompt": "Where should later legal changes be verified?",
+        "answer": "Constitution of India, India Code, NALSA and Department of Justice"
+      }
+    ]
+  },
+  "story": "Access to justice depends less on constitutional-court headlines than on functioning district courts, legal aid, timely procedure and suitable dispute-resolution paths.",
+  "core_concept": "Articles 233-237 structure subordinate judiciary under High Court control. Tribunals specialise adjudication but remain subject to constitutional review. ADR includes negotiation, mediation, conciliation and arbitration; Lok Adalats provide statutory consensual settlement, while legal aid implements Article 39A.",
+  "mnemonic": "C-T-A-A: Courts, Tribunals, ADR, Aid.",
+  "mindmap_json": {
+    "center": "Subordinate Courts, Tribunals, ADR, Lok Adalats and Legal Aid",
+    "branches": [
+      {
+        "label": "Text",
+        "children": [
+          "District judge appointment and subordinate control divide roles among Governor, High Court and service rules.",
+          "Judicial independence at district level requires separation, infrastructure and secure administration."
+        ]
+      },
+      {
+        "label": "Institution",
+        "children": [
+          "Articles 323A and 323B authorise tribunal frameworks in different fields.",
+          "L. Chandra Kumar preserves High Court and Supreme Court review over tribunal decisions."
+        ]
+      },
+      {
+        "label": "Safeguard",
+        "children": [
+          "Arbitration yields adjudicatory awards; mediation seeks party agreement.",
+          "Lok Adalat awards follow statutory finality but ordinary Lok Adalat settlement depends on consent."
+        ]
+      },
+      {
+        "label": "Traps",
+        "children": [
+          "Do not say tribunals eliminate High Court review.",
+          "Do not equate arbitration with mediation.",
+          "Do not say ordinary Lok Adalat adjudicates contested merits without consent."
+        ]
+      }
+    ]
+  },
+  "key_facts": [
+    "High Courts control subordinate judiciary under constitutional provisions.",
+    "Article 39A concerns legal aid.",
+    "Article 323A concerns administrative tribunals.",
+    "Article 323B covers enumerated other matters.",
+    "Lok Adalat is statutory.",
+    "Arbitration and mediation produce different outcomes."
+  ],
+  "common_traps": [
+    "Do not say tribunals eliminate High Court review.",
+    "Do not equate arbitration with mediation.",
+    "Do not say ordinary Lok Adalat adjudicates contested merits without consent."
+  ],
+  "pyq_refs": [
+    {
+      "year": 2021,
+      "exam": "UPSC CSE Prelims",
+      "question": "PYQ pattern: constitutional statement testing on Subordinate Courts, Tribunals, ADR, Lok Adalats and Legal Aid.",
+      "answer": "Check text, scope, exception and competent authority.",
+      "pattern_note": "Prelims often reverses institutions, procedures or exceptions."
+    },
+    {
+      "year": 2019,
+      "exam": "UPSC CSE Mains",
+      "question": "PYQ pattern: evaluate the constitutional tension within Subordinate Courts, Tribunals, ADR, Lok Adalats and Legal Aid.",
+      "answer": "Use text, doctrine, institutional practice and reform.",
+      "pattern_note": "Mains rewards constitutional balance over one-sided description."
+    }
+  ],
+  "pyq_count": 10,
+  "last_asked": 2021,
+  "high_yield": true,
+  "read_time_mins": 13,
+  "difficulty": "Medium",
+  "status": "published",
+  "source_type": "uploaded-polity-static-pyq-secondary",
+  "version": 1,
+  "created_at": "2026-07-01T00:00:00+05:30",
+  "updated_at": "2026-07-01T00:00:00+05:30"
+}

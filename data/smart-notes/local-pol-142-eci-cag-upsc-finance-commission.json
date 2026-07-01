@@ -1,0 +1,152 @@
+{
+  "id": "local-pol-142",
+  "section": "Polity",
+  "category": "Constitutional Bodies",
+  "topic": "ECI, CAG, UPSC and Finance Commission",
+  "subtopic": "Constitutional source, composition, appointment, removal, independence, reporting and institutional mandate",
+  "slug": "polity-eci-cag-upsc-finance-commission",
+  "anatomy": "upsc12",
+  "content": {
+    "issueStory": "Constitutional-body questions are won by separating source, composition, appointment, removal, report recipient and function rather than memorising a single list. ECI supervises elections under Article 324; CAG audits public accounts under Articles 148-151; UPSC advises on public-service matters under Articles 315-323; Finance Commission recommends fiscal transfers under Article 280. Their independence devices and removal rules are not identical.",
+    "coreConcept": "ECI supervises elections under Article 324; CAG audits public accounts under Articles 148-151; UPSC advises on public-service matters under Articles 315-323; Finance Commission recommends fiscal transfers under Article 280. Their independence devices and removal rules are not identical.",
+    "dimensions": [
+      "ECI’s constitutional control concerns elections assigned by text and election law.",
+      "CAG audits and reports but does not itself enforce legislative financial sanction.",
+      "UPSC conducts examinations and advises; advice treatment follows constitutional and statutory rules.",
+      "Finance Commission is periodically constituted with terms of reference for devolution and grants.",
+      "Appointment, tenure, service conditions and removal differ institution by institution.",
+      "Reports move through President or Governor to legislatures under specific provisions."
+    ],
+    "constitutionalLink": "Articles 148-151, 280-281, 315-323 and 324-329; governing statutes.",
+    "dataReport": "Uploaded source basis: STATIC_09_Polity.pdf and PYQ_06_Polity_Governance.pdf. Refresh amendments, statutory rules, office status and later judgments from official sources: Constitution of India and official ECI, CAG, UPSC and Finance Commission portals.",
+    "caseStudy": "CAG report becomes part of legislative accountability through tabling and committee examination; audit and parliamentary follow-up are separate institutional stages.",
+    "argumentsFor": [
+      "Constitutional status protects continuity.",
+      "Specialised bodies improve neutral oversight.",
+      "Reporting supports legislative accountability."
+    ],
+    "argumentsAgainst": [
+      "Vacancies can weaken capacity.",
+      "Appointment opacity affects trust.",
+      "Recommendations may be advisory or require follow-up."
+    ],
+    "pyqLink": "UPSC patterns test Article-institution matches, exceptions, procedure and comparative statements within ECI, CAG, UPSC and Finance Commission. Resolve each statement through source, scope, procedure and consequence.",
+    "answerFramework": {
+      "intro": "Introduce ECI, CAG, UPSC and Finance Commission through the controlling constitutional principle and legal source.",
+      "body": [
+        "Map the authority: Articles 148-151, 280-281, 315-323 and 324-329; governing statutes.",
+        "Explain the first-order design: ECI’s constitutional control concerns elections assigned by text and election law. CAG audits and reports but does not itself enforce legislative financial sanction. UPSC conducts examinations and advises; advice treatment follows constitutional and statutory rules.",
+        "Analyse safeguards and tensions: Finance Commission is periodically constituted with terms of reference for devolution and grants. Appointment, tenure, service conditions and removal differ institution by institution. Reports move through President or Governor to legislatures under specific provisions.",
+        "Use CAG report becomes part of legislative accountability through tabling and committee examination; audit and parliamentary follow-up are separate institutional stages. and close with constitutional accountability plus dated legal verification."
+      ],
+      "conclusion": "A strong Polity answer joins constitutional text, institutional purpose, judicial doctrine and a workable accountability safeguard."
+    },
+    "mainsExamples": [
+      "ECI election supervision.",
+      "CAG audit report examined by PAC.",
+      "Finance Commission recommending tax devolution."
+    ],
+    "prelimsFacts": [
+      "ECI is under Article 324.",
+      "CAG is under Article 148.",
+      "Finance Commission is under Article 280.",
+      "UPSC is addressed from Article 315.",
+      "CAG and PAC are different institutions.",
+      "Removal protections differ among officeholders."
+    ],
+    "revisionBox": [
+      {
+        "prompt": "What is the controlling rule in ECI, CAG, UPSC and Finance Commission?",
+        "answer": "ECI supervises elections under Article 324; CAG audits public accounts under Articles 148-151; UPSC advises on public-service matters under Articles 315-323; Finance Commission recommends fiscal transfers under Article 280. Their independence devices and removal rules are not identical."
+      },
+      {
+        "prompt": "What is the primary constitutional or legal authority?",
+        "answer": "Articles 148-151, 280-281, 315-323 and 324-329; governing statutes."
+      },
+      {
+        "prompt": "What is the fastest elimination trap?",
+        "answer": "Do not assign one removal rule to all constitutional bodies."
+      },
+      {
+        "prompt": "Where should later legal changes be verified?",
+        "answer": "Constitution of India and official ECI, CAG, UPSC and Finance Commission portals"
+      }
+    ]
+  },
+  "story": "Constitutional-body questions are won by separating source, composition, appointment, removal, report recipient and function rather than memorising a single list.",
+  "core_concept": "ECI supervises elections under Article 324; CAG audits public accounts under Articles 148-151; UPSC advises on public-service matters under Articles 315-323; Finance Commission recommends fiscal transfers under Article 280. Their independence devices and removal rules are not identical.",
+  "mnemonic": "S-A-R-F: Source, Appointment, Removal, Function.",
+  "mindmap_json": {
+    "center": "ECI, CAG, UPSC and Finance Commission",
+    "branches": [
+      {
+        "label": "Text",
+        "children": [
+          "ECI’s constitutional control concerns elections assigned by text and election law.",
+          "CAG audits and reports but does not itself enforce legislative financial sanction."
+        ]
+      },
+      {
+        "label": "Institution",
+        "children": [
+          "UPSC conducts examinations and advises; advice treatment follows constitutional and statutory rules.",
+          "Finance Commission is periodically constituted with terms of reference for devolution and grants."
+        ]
+      },
+      {
+        "label": "Safeguard",
+        "children": [
+          "Appointment, tenure, service conditions and removal differ institution by institution.",
+          "Reports move through President or Governor to legislatures under specific provisions."
+        ]
+      },
+      {
+        "label": "Traps",
+        "children": [
+          "Do not assign one removal rule to all constitutional bodies.",
+          "Do not call CAG a parliamentary committee.",
+          "Do not make Finance Commission permanent."
+        ]
+      }
+    ]
+  },
+  "key_facts": [
+    "ECI is under Article 324.",
+    "CAG is under Article 148.",
+    "Finance Commission is under Article 280.",
+    "UPSC is addressed from Article 315.",
+    "CAG and PAC are different institutions.",
+    "Removal protections differ among officeholders."
+  ],
+  "common_traps": [
+    "Do not assign one removal rule to all constitutional bodies.",
+    "Do not call CAG a parliamentary committee.",
+    "Do not make Finance Commission permanent."
+  ],
+  "pyq_refs": [
+    {
+      "year": 2021,
+      "exam": "UPSC CSE Prelims",
+      "question": "PYQ pattern: constitutional statement testing on ECI, CAG, UPSC and Finance Commission.",
+      "answer": "Check text, scope, exception and competent authority.",
+      "pattern_note": "Prelims often reverses institutions, procedures or exceptions."
+    },
+    {
+      "year": 2019,
+      "exam": "UPSC CSE Mains",
+      "question": "PYQ pattern: evaluate the constitutional tension within ECI, CAG, UPSC and Finance Commission.",
+      "answer": "Use text, doctrine, institutional practice and reform.",
+      "pattern_note": "Mains rewards constitutional balance over one-sided description."
+    }
+  ],
+  "pyq_count": 10,
+  "last_asked": 2021,
+  "high_yield": true,
+  "read_time_mins": 13,
+  "difficulty": "Medium",
+  "status": "published",
+  "source_type": "uploaded-polity-static-pyq-secondary",
+  "version": 1,
+  "created_at": "2026-07-01T00:00:00+05:30",
+  "updated_at": "2026-07-01T00:00:00+05:30"
+}
