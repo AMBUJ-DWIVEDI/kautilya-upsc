@@ -1,0 +1,152 @@
+{
+  "id": "local-pol-137",
+  "section": "Polity",
+  "category": "Parliament",
+  "topic": "State Legislatures and Legislative Councils",
+  "subtopic": "Assembly, Council, creation, composition, bills, executive responsibility and presiding officers",
+  "slug": "polity-state-legislatures-councils",
+  "anatomy": "upsc12",
+  "content": {
+    "issueStory": "State bicameralism is asymmetric: the elected Assembly controls the ministry and finance, while a Legislative Council acts mainly as a revising chamber with limited delaying power. Articles 168-212 govern State legislatures. Every State has an Assembly; only specified States have Councils. Parliament may create or abolish a Council after a special Assembly resolution. The Council cannot permanently block ordinary legislation or control the ministry.",
+    "coreConcept": "Articles 168-212 govern State legislatures. Every State has an Assembly; only specified States have Councils. Parliament may create or abolish a Council after a special Assembly resolution. The Council cannot permanently block ordinary legislation or control the ministry.",
+    "dimensions": [
+      "Assembly is directly elected and normally term-bound; Council is continuing with periodic retirement.",
+      "Article 169 uses a special Assembly resolution followed by parliamentary law for Council creation or abolition.",
+      "Council composition uses local bodies, graduates, teachers, MLAs and gubernatorial nomination under constitutional fractions.",
+      "Money bills originate only in Assembly and Council has a limited recommendatory period.",
+      "Ordinary bills face asymmetric delaying powers rather than a State joint sitting.",
+      "Council of Ministers is collectively responsible to Assembly, not Council."
+    ],
+    "constitutionalLink": "Articles 168-212, especially 169, 170-171, 196-201.",
+    "dataReport": "Uploaded source basis: STATIC_09_Polity.pdf and PYQ_06_Polity_Governance.pdf. Refresh amendments, statutory rules, office status and later judgments from official sources: Constitution of India, India Code and State Legislature portals.",
+    "caseStudy": "A Legislative Council may delay an ordinary State bill through the constitutional sequence but cannot produce a joint sitting or permanent veto.",
+    "argumentsFor": [
+      "Council can provide revision and specialised representation.",
+      "Assembly preserves direct democratic control.",
+      "Flexible creation allows State-specific choice."
+    ],
+    "argumentsAgainst": [
+      "Council may duplicate cost.",
+      "Indirect categories raise representational debate.",
+      "Weak powers can make scrutiny symbolic."
+    ],
+    "pyqLink": "UPSC patterns test Article-institution matches, exceptions, procedure and comparative statements within State Legislatures and Legislative Councils. Resolve each statement through source, scope, procedure and consequence.",
+    "answerFramework": {
+      "intro": "Introduce State Legislatures and Legislative Councils through the controlling constitutional principle and legal source.",
+      "body": [
+        "Map the authority: Articles 168-212, especially 169, 170-171, 196-201.",
+        "Explain the first-order design: Assembly is directly elected and normally term-bound; Council is continuing with periodic retirement. Article 169 uses a special Assembly resolution followed by parliamentary law for Council creation or abolition. Council composition uses local bodies, graduates, teachers, MLAs and gubernatorial nomination under constitutional fractions.",
+        "Analyse safeguards and tensions: Money bills originate only in Assembly and Council has a limited recommendatory period. Ordinary bills face asymmetric delaying powers rather than a State joint sitting. Council of Ministers is collectively responsible to Assembly, not Council.",
+        "Use A Legislative Council may delay an ordinary State bill through the constitutional sequence but cannot produce a joint sitting or permanent veto. and close with constitutional accountability plus dated legal verification."
+      ],
+      "conclusion": "A strong Polity answer joins constitutional text, institutional purpose, judicial doctrine and a workable accountability safeguard."
+    },
+    "mainsExamples": [
+      "Assembly resolution under Article 169.",
+      "Money bill passed by Assembly.",
+      "Council of Ministers facing Assembly confidence."
+    ],
+    "prelimsFacts": [
+      "Every State has an Assembly.",
+      "Not every State has a Council.",
+      "Article 169 concerns creation or abolition.",
+      "Council is continuing.",
+      "No joint sitting exists at State level.",
+      "Ministry is responsible to Assembly."
+    ],
+    "revisionBox": [
+      {
+        "prompt": "What is the controlling rule in State Legislatures and Legislative Councils?",
+        "answer": "Articles 168-212 govern State legislatures. Every State has an Assembly; only specified States have Councils. Parliament may create or abolish a Council after a special Assembly resolution. The Council cannot permanently block ordinary legislation or control the ministry."
+      },
+      {
+        "prompt": "What is the primary constitutional or legal authority?",
+        "answer": "Articles 168-212, especially 169, 170-171, 196-201."
+      },
+      {
+        "prompt": "What is the fastest elimination trap?",
+        "answer": "Do not give Council equal Money Bill power."
+      },
+      {
+        "prompt": "Where should later legal changes be verified?",
+        "answer": "Constitution of India, India Code and State Legislature portals"
+      }
+    ]
+  },
+  "story": "State bicameralism is asymmetric: the elected Assembly controls the ministry and finance, while a Legislative Council acts mainly as a revising chamber with limited delaying power.",
+  "core_concept": "Articles 168-212 govern State legislatures. Every State has an Assembly; only specified States have Councils. Parliament may create or abolish a Council after a special Assembly resolution. The Council cannot permanently block ordinary legislation or control the ministry.",
+  "mnemonic": "A-C-B-R: Assembly, Council, Bills, Responsibility.",
+  "mindmap_json": {
+    "center": "State Legislatures and Legislative Councils",
+    "branches": [
+      {
+        "label": "Text",
+        "children": [
+          "Assembly is directly elected and normally term-bound; Council is continuing with periodic retirement.",
+          "Article 169 uses a special Assembly resolution followed by parliamentary law for Council creation or abolition."
+        ]
+      },
+      {
+        "label": "Institution",
+        "children": [
+          "Council composition uses local bodies, graduates, teachers, MLAs and gubernatorial nomination under constitutional fractions.",
+          "Money bills originate only in Assembly and Council has a limited recommendatory period."
+        ]
+      },
+      {
+        "label": "Safeguard",
+        "children": [
+          "Ordinary bills face asymmetric delaying powers rather than a State joint sitting.",
+          "Council of Ministers is collectively responsible to Assembly, not Council."
+        ]
+      },
+      {
+        "label": "Traps",
+        "children": [
+          "Do not give Council equal Money Bill power.",
+          "Do not require constitutional amendment for Article 169 law.",
+          "Do not make ministry responsible to Council."
+        ]
+      }
+    ]
+  },
+  "key_facts": [
+    "Every State has an Assembly.",
+    "Not every State has a Council.",
+    "Article 169 concerns creation or abolition.",
+    "Council is continuing.",
+    "No joint sitting exists at State level.",
+    "Ministry is responsible to Assembly."
+  ],
+  "common_traps": [
+    "Do not give Council equal Money Bill power.",
+    "Do not require constitutional amendment for Article 169 law.",
+    "Do not make ministry responsible to Council."
+  ],
+  "pyq_refs": [
+    {
+      "year": 2021,
+      "exam": "UPSC CSE Prelims",
+      "question": "PYQ pattern: constitutional statement testing on State Legislatures and Legislative Councils.",
+      "answer": "Check text, scope, exception and competent authority.",
+      "pattern_note": "Prelims often reverses institutions, procedures or exceptions."
+    },
+    {
+      "year": 2019,
+      "exam": "UPSC CSE Mains",
+      "question": "PYQ pattern: evaluate the constitutional tension within State Legislatures and Legislative Councils.",
+      "answer": "Use text, doctrine, institutional practice and reform.",
+      "pattern_note": "Mains rewards constitutional balance over one-sided description."
+    }
+  ],
+  "pyq_count": 10,
+  "last_asked": 2021,
+  "high_yield": true,
+  "read_time_mins": 13,
+  "difficulty": "Medium",
+  "status": "published",
+  "source_type": "uploaded-polity-static-pyq-secondary",
+  "version": 1,
+  "created_at": "2026-07-01T00:00:00+05:30",
+  "updated_at": "2026-07-01T00:00:00+05:30"
+}

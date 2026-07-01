@@ -1,0 +1,152 @@
+{
+  "id": "local-pol-143",
+  "section": "Polity",
+  "category": "Governance",
+  "topic": "Elections, RPA, Delimitation and Electoral Reform",
+  "subtopic": "Electoral rolls, qualifications, disqualifications, corrupt practices, delimitation, parties and campaign integrity",
+  "slug": "polity-elections-rpa-delimitation-reform",
+  "anatomy": "upsc12",
+  "content": {
+    "issueStory": "Free elections require more than polling day: rolls, constituency boundaries, candidate eligibility, campaign finance, information, party competition and adjudication shape equal citizenship. Articles 324-329 establish electoral architecture. The Representation of the People Acts govern rolls, conduct, qualifications, disqualifications, corrupt practices and disputes. Delimitation reallocates constituency boundaries under constitutional and statutory rules, while reform balances participation, equality and stability.",
+    "coreConcept": "Articles 324-329 establish electoral architecture. The Representation of the People Acts govern rolls, conduct, qualifications, disqualifications, corrupt practices and disputes. Delimitation reallocates constituency boundaries under constitutional and statutory rules, while reform balances participation, equality and stability.",
+    "dimensions": [
+      "Universal adult suffrage rests on Article 326 subject to constitutional and legal qualifications.",
+      "RPA 1950 and RPA 1951 perform different core functions.",
+      "ECI supervises elections while Parliament legislates election law within competence.",
+      "Delimitation Commission operates under statute and constitutional population-seat arrangements.",
+      "Candidate disclosure, corrupt-practice rules and expenditure oversight support informed choice.",
+      "Party democracy, finance transparency, criminalisation and digital campaigning remain reform challenges."
+    ],
+    "constitutionalLink": "Articles 324-329; RPA 1950 and 1951; Delimitation Acts; ECI directions and dated Supreme Court rulings.",
+    "dataReport": "Uploaded source basis: STATIC_09_Polity.pdf and PYQ_06_Polity_Governance.pdf. Refresh amendments, statutory rules, office status and later judgments from official sources: Constitution of India, India Code, Election Commission and Delimitation Commission records.",
+    "caseStudy": "Candidate affidavit disclosure illustrates how voter information became part of free and fair election safeguards through law and judicial doctrine.",
+    "argumentsFor": [
+      "Independent supervision supports credibility.",
+      "Delimitation protects territorial representation.",
+      "Disclosure improves informed voting."
+    ],
+    "argumentsAgainst": [
+      "Money and misinformation distort equality.",
+      "Delayed adjudication weakens remedies.",
+      "Party internal democracy is limited."
+    ],
+    "pyqLink": "UPSC patterns test Article-institution matches, exceptions, procedure and comparative statements within Elections, RPA, Delimitation and Electoral Reform. Resolve each statement through source, scope, procedure and consequence.",
+    "answerFramework": {
+      "intro": "Introduce Elections, RPA, Delimitation and Electoral Reform through the controlling constitutional principle and legal source.",
+      "body": [
+        "Map the authority: Articles 324-329; RPA 1950 and 1951; Delimitation Acts; ECI directions and dated Supreme Court rulings.",
+        "Explain the first-order design: Universal adult suffrage rests on Article 326 subject to constitutional and legal qualifications. RPA 1950 and RPA 1951 perform different core functions. ECI supervises elections while Parliament legislates election law within competence.",
+        "Analyse safeguards and tensions: Delimitation Commission operates under statute and constitutional population-seat arrangements. Candidate disclosure, corrupt-practice rules and expenditure oversight support informed choice. Party democracy, finance transparency, criminalisation and digital campaigning remain reform challenges.",
+        "Use Candidate affidavit disclosure illustrates how voter information became part of free and fair election safeguards through law and judicial doctrine. and close with constitutional accountability plus dated legal verification."
+      ],
+      "conclusion": "A strong Polity answer joins constitutional text, institutional purpose, judicial doctrine and a workable accountability safeguard."
+    },
+    "mainsExamples": [
+      "Electoral roll administration.",
+      "Election petition under statutory route.",
+      "Delimitation order redrawing constituency."
+    ],
+    "prelimsFacts": [
+      "Article 324 concerns ECI.",
+      "Article 326 concerns adult suffrage.",
+      "RPA 1950 and 1951 are distinct.",
+      "Election disputes follow statutory route.",
+      "Delimitation is not ordinary ECI boundary discretion alone.",
+      "Free and fair elections are linked to basic structure."
+    ],
+    "revisionBox": [
+      {
+        "prompt": "What is the controlling rule in Elections, RPA, Delimitation and Electoral Reform?",
+        "answer": "Articles 324-329 establish electoral architecture. The Representation of the People Acts govern rolls, conduct, qualifications, disqualifications, corrupt practices and disputes. Delimitation reallocates constituency boundaries under constitutional and statutory rules, while reform balances participation, equality and stability."
+      },
+      {
+        "prompt": "What is the primary constitutional or legal authority?",
+        "answer": "Articles 324-329; RPA 1950 and 1951; Delimitation Acts; ECI directions and dated Supreme Court rulings."
+      },
+      {
+        "prompt": "What is the fastest elimination trap?",
+        "answer": "Do not merge the two RPA statutes."
+      },
+      {
+        "prompt": "Where should later legal changes be verified?",
+        "answer": "Constitution of India, India Code, Election Commission and Delimitation Commission records"
+      }
+    ]
+  },
+  "story": "Free elections require more than polling day: rolls, constituency boundaries, candidate eligibility, campaign finance, information, party competition and adjudication shape equal citizenship.",
+  "core_concept": "Articles 324-329 establish electoral architecture. The Representation of the People Acts govern rolls, conduct, qualifications, disqualifications, corrupt practices and disputes. Delimitation reallocates constituency boundaries under constitutional and statutory rules, while reform balances participation, equality and stability.",
+  "mnemonic": "R-C-D-I: Rolls, Contest, Delimitation, Integrity.",
+  "mindmap_json": {
+    "center": "Elections, RPA, Delimitation and Electoral Reform",
+    "branches": [
+      {
+        "label": "Text",
+        "children": [
+          "Universal adult suffrage rests on Article 326 subject to constitutional and legal qualifications.",
+          "RPA 1950 and RPA 1951 perform different core functions."
+        ]
+      },
+      {
+        "label": "Institution",
+        "children": [
+          "ECI supervises elections while Parliament legislates election law within competence.",
+          "Delimitation Commission operates under statute and constitutional population-seat arrangements."
+        ]
+      },
+      {
+        "label": "Safeguard",
+        "children": [
+          "Candidate disclosure, corrupt-practice rules and expenditure oversight support informed choice.",
+          "Party democracy, finance transparency, criminalisation and digital campaigning remain reform challenges."
+        ]
+      },
+      {
+        "label": "Traps",
+        "children": [
+          "Do not merge the two RPA statutes.",
+          "Do not call ECI a court for all election disputes.",
+          "Do not describe current delimitation status without dated verification."
+        ]
+      }
+    ]
+  },
+  "key_facts": [
+    "Article 324 concerns ECI.",
+    "Article 326 concerns adult suffrage.",
+    "RPA 1950 and 1951 are distinct.",
+    "Election disputes follow statutory route.",
+    "Delimitation is not ordinary ECI boundary discretion alone.",
+    "Free and fair elections are linked to basic structure."
+  ],
+  "common_traps": [
+    "Do not merge the two RPA statutes.",
+    "Do not call ECI a court for all election disputes.",
+    "Do not describe current delimitation status without dated verification."
+  ],
+  "pyq_refs": [
+    {
+      "year": 2021,
+      "exam": "UPSC CSE Prelims",
+      "question": "PYQ pattern: constitutional statement testing on Elections, RPA, Delimitation and Electoral Reform.",
+      "answer": "Check text, scope, exception and competent authority.",
+      "pattern_note": "Prelims often reverses institutions, procedures or exceptions."
+    },
+    {
+      "year": 2019,
+      "exam": "UPSC CSE Mains",
+      "question": "PYQ pattern: evaluate the constitutional tension within Elections, RPA, Delimitation and Electoral Reform.",
+      "answer": "Use text, doctrine, institutional practice and reform.",
+      "pattern_note": "Mains rewards constitutional balance over one-sided description."
+    }
+  ],
+  "pyq_count": 10,
+  "last_asked": 2021,
+  "high_yield": true,
+  "read_time_mins": 13,
+  "difficulty": "Medium",
+  "status": "published",
+  "source_type": "uploaded-polity-static-pyq-secondary",
+  "version": 1,
+  "created_at": "2026-07-01T00:00:00+05:30",
+  "updated_at": "2026-07-01T00:00:00+05:30"
+}
